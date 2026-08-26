@@ -89,6 +89,38 @@ opposite weights — **700 for hard news** (something shipped, something changed
 features** (an interview, an essay, an argument). Use `hed-news` and `hed-feature`. It lets him
 read the kind of story before reading the story.
 
+## 4b · Whose paper this is
+
+Fetch:
+
+```
+https://raw.githubusercontent.com/Jaax-Labs/feed-catches/main/TASTE.md
+```
+
+It is not a list of likes. It is the **tensions to hold** while choosing — built from his watch
+history, his bookmarks, and six gauges he ratified himself. Read it before you select, and let
+it shape what leads and how you write. Three of its calls bind hardest:
+
+- **Breadth ⇄ Depth (60, rising).** He runs many projects at once. Do not narrow the paper to
+  whatever he touched yesterday; adjacent fields are the working mode, not a distraction.
+- **Product Fluency (42).** Write at decision altitude — what changed, what it costs, what it
+  replaces. Never syntax.
+- **Consumption ⇄ Production (57).** He watched 1,833 videos in ninety days. This paper adds
+  more. Every extra story is a vote for consumption: **when in doubt, cut it and count it.**
+
+Spike outright, and only these: crypto/web3 · Kubernetes/Terraform-scale infrastructure ·
+prompt-tips listicles · personality drama · vector-database *product announcements* (a measured
+retrieval result is a different thing). Everything else gets a lane, not a verdict.
+
+**Apply it silently.** Sid ruled 2026-08-27 that the page carries no per-item machine
+reasoning — no "held because…" labels beside stories. The ledger in §6 is the accounting; the
+stories are just stories.
+
+**It is a draft he has only partly checked.** Two of its claims were wrong and he overruled
+both — in each case it had read *absence of a word in his writing* as *absence of interest*. So
+treat it as a strong prior, not a rule: if a story is plainly important and the profile is
+silent on it, print the story.
+
 ## 5 · The wildcard
 
 One row per day, in its own box, labelled **"Printed Because It Was Cut."** Take something the
