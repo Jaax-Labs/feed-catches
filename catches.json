@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-26T23:00:47.488Z",
- "count": 24,
+ "generatedAt": "2026-08-26T23:30:42.796Z",
+ "count": 26,
  "catches": [
   {
    "id": "f-zvi-16iun3o",
@@ -311,6 +311,34 @@
    "sub": "github release"
   },
   {
+   "id": "f-gh-releases-openai-codex-0sij7vi",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.150.0-alpha.12.1",
+   "ctx": "Release 0.150.0-alpha.12.1",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.12.1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-08-26T23:30:36.484Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T23:21:40.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.1k Star 119k rust-v0.150.0-alpha.12.1 rust-v0.150.0-alpha.12.1 785fb50 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.150.0-alpha.12.1 rust-v0.150.0-alpha.12.1 785fb50 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 26 Aug 23:21 Release 0.150.0-alpha.12.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "chars": 844,
+    "title": "Release rust-v0.150.0-alpha.12.1 · openai/codex · GitHub",
+    "fetchedAt": "2026-08-26T23:30:36.484Z"
+   }
+  },
+  {
    "id": "f-gh-releases-openai-codex-00lmz37",
    "pri": 30,
    "kind": "note",
@@ -462,6 +490,34 @@
     "chars": 1747,
     "title": "Release b10642 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-08-26T22:00:36.588Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1q2hfhc",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.247",
+   "ctx": "What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setting) Added {id, text, cooldownSessions, priority} entries, tipsFile , and label to spinnerTipsOverride , so organizations can rotate their own tips alongside the built-in ones Added a tip on Bash permi",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-08-26T23:30:36.484Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T23:06:39.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 22.9k Star 143k v2.1.247 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 26 Aug 23:06 v2.1.247 cad6304 What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setting) Added {id, text, cooldownSessions, priority} entries, tipsFile , and label to spinnerTipsOverride , so organizations can rotate their own tips alongside the built-in ones Added a tip on Bash permission prompts pointing to auto mode, with a one-keystroke \"Yes, and switch to auto mode\" option Added /claude-api cost-optimize to profile an existing project's Claude API spend and work through cost levers (caching, token hygiene, batch, effort, model choice) one measured change at a time Updated the /claude-api skill with Admin API coverage (organization members, invites, workspaces, API keys, rate limit reports, workload identity federation, CMEK) Fixed fast arrow-key + Enter sequences acting on the row above the one you navigated to in history search, /config , /mcp , /skills , background tasks, and /model Fixed sub-agents dying on a first-call model 404: they now use the session's fallback model chain, and the error returned to the parent includes the error type, status, request id, and model Fixed a hook or background agent that printed megabytes of error output being able to overflow the conversation and wedge the session on \"Prompt is too long\" Fixed Ctrl keyboard shortcuts not firing under non-Latin (e.g. Cyrillic) keyboard layouts in kitty-protocol terminals Fixed text like : preview; Ctrl+O expands the full body Changed terminal hyperlinks in rendered markdown: link targets that point at a network or automounter path, contain a control character, or lead with an invisible character now render as plain text Changed the prompt-footer PR badge to skip its GitHub re-check on terminal refocus when the last check is under a minute old Changed analytics to stay off from startup, not only after login, when managed settings force gateway login or a custom OAuth deployment is configured Changed Claude a",
+    "chars": 2500,
+    "title": "Release v2.1.247 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-08-26T23:30:36.484Z"
    }
   },
   {
