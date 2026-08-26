@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-26T21:30:42.167Z",
- "count": 21,
+ "generatedAt": "2026-08-26T22:00:42.212Z",
+ "count": 23,
  "catches": [
   {
    "id": "f-zvi-16iun3o",
@@ -22,6 +22,34 @@
    "tier": "D",
    "itemTs": "2026-08-26T18:17:22.000Z",
    "sub": "zvi"
+  },
+  {
+   "id": "f-openrouter-models-0k0l2sr",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — Qwen: Qwen3.8 Flash",
+   "ctx": "A routing row exists for qwen/qwen3.8-flash. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nQwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/qwen/qwen3.8-flash",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-08-26T22:00:36.588Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T19:37:40.000Z",
+   "sub": "openrouter · qwen/qwen3.8-flash",
+   "extract": {
+    "ok": true,
+    "text": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping the base URL. The only thing that changes between models is the model slug below. Explore more models AI Models with Vision: Multimodal LLMs for Image Understanding Collection AI Model Rankings Ranking",
+    "chars": 1400,
+    "title": "Qwen3.8 Flash - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-08-26T22:00:36.588Z"
+   }
   },
   {
    "id": "f-openrouter-models-00ew4wu",
@@ -379,6 +407,34 @@
    "tier": "A",
    "itemTs": "2026-08-26T12:46:38.000Z",
    "sub": "github release"
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0zvwras",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10642",
+   "ctx": "llama: add token ID tracking to KV cell ( #27762 ) kv: track token id rm get_prev_tokens, move it to the main pr nits add get_prev_tokens Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43245878 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10642",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-26T22:00:36.588Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T22:00:33.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.2k Star 126k b10642 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 26 Aug 22:00 b10642 925e117 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama: add token ID tracking to KV cell ( #27762 ) kv: track token id rm get_prev_tokens, move it to the main pr nits add get_prev_tokens Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43245878 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 2 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1747,
+    "title": "Release b10642 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-26T22:00:36.588Z"
+   }
   },
   {
    "id": "f-deepmind-blog-01u2rp3",
