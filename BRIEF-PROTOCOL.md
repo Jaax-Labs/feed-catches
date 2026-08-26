@@ -77,7 +77,18 @@ Tuesday"** cannot be mistaken for one.
 The client obligations in the brief are still worth showing on a day the feed is
 down — so the page still publishes, with the banner.
 
-## 4. Verify before publishing
+## 4. Extract the body cleanly
+
+`Artifact read` hands you a full document: a platform-injected `<head>` with a
+`frame-runtime` script, then `<body>`, then Sid's authored page, then `</body></html>`.
+
+Republish **only the authored page** — everything after the first `<body>` and **before
+the final `</body></html>`. Keep the closing tags and you ship a duplicate: the run on
+2026-08-26 left two `</body></html>` lines because it took everything after `<body>`
+without trimming the tail, and the platform then added its own. Harmless once, but it
+compounds every day nobody looks.
+
+## 5. Verify before publishing
 
 The rendered result must still contain `CURATED`, `claude.use`, and be over 20,000
 characters. If any check fails, STOP and report. Never publish a brief you have not
