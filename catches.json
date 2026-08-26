@@ -1,6 +1,6 @@
 {
- "updatedAt": null,
- "count": 19,
+ "generatedAt": "2026-08-26T16:31:03.217Z",
+ "count": 25,
  "catches": [
   {
    "id": "f-reddit-localllama-1u5dfab",
@@ -28,7 +28,7 @@
    "pri": 40,
    "kind": "note",
    "title": "Local AI community today :",
-   "ctx": "From Jun Song on \ud835\udd4f: https://x.com/jun_song/status/2092523120897020030 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
+   "ctx": "From Jun Song on 𝕏: https://x.com/jun_song/status/2092523120897020030 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
    "acts": [
     {
      "label": "Open",
@@ -112,7 +112,7 @@
    "pri": 40,
    "kind": "note",
    "title": "Mac mini m5 pro (64gb) or two 16gb 5060 ti (total 32gb vram) for local LLM",
-   "ctx": "I\u2019m planning to buy a new machine mainly for local LLM inference and agentic workloads , and I\u2019m deciding between these two setups. Both cost roughly US$3,000 where I live. Option 1: \ud83c\udf4e Mac mini M5 Pro , (15 CPU, 16 GPU) , 64GB unified memory, 1TB memory bandwidth 306 gb/s Option 2: \u26a1\ufe0fDual RTX 5060 Ti 16GB, 32GB total VRAM memory bandwidth 448 gb/s I\u2019ve previously used both an RTX 3090 and a Mac S",
+   "ctx": "I’m planning to buy a new machine mainly for local LLM inference and agentic workloads , and I’m deciding between these two setups. Both cost roughly US$3,000 where I live. Option 1: 🍎 Mac mini M5 Pro , (15 CPU, 16 GPU) , 64GB unified memory, 1TB memory bandwidth 306 gb/s Option 2: ⚡️Dual RTX 5060 Ti 16GB, 32GB total VRAM memory bandwidth 448 gb/s I’ve previously used both an RTX 3090 and a Mac S",
    "acts": [
     {
      "label": "Open",
@@ -132,7 +132,7 @@
    "id": "f-openrouter-models-00ew4wu",
    "pri": 20,
    "kind": "note",
-   "title": "New model \u2014 Z.ai: GLM 5.3 Flash",
+   "title": "New model — Z.ai: GLM 5.3 Flash",
    "ctx": "A routing row exists for z-ai/glm-5.3-flash. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
    "acts": [
     {
@@ -147,7 +147,49 @@
    "detectedAt": "2026-08-26T14:30:59.823Z",
    "tier": "A",
    "itemTs": "2026-08-26T13:59:01.000Z",
-   "sub": "openrouter \u00b7 z-ai/glm-5.3-flash"
+   "sub": "openrouter · z-ai/glm-5.3-flash"
+  },
+  {
+   "id": "f-latent-space-1u55x93",
+   "pri": 55,
+   "kind": "note",
+   "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+   "ctx": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.latent.space/p/anima",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "latent-space",
+   "detectedAt": "2026-08-26T15:30:59.239Z",
+   "tier": "D",
+   "itemTs": "2026-08-26T15:15:39.000Z",
+   "sub": "latentspace"
+  },
+  {
+   "id": "f-latent-space-12yf7ar",
+   "pri": 55,
+   "kind": "note",
+   "title": "The Future of SaaS Is Apps That Agents Can Use",
+   "ctx": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.latent.space/p/lovable-future-of-saas",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "latent-space",
+   "detectedAt": "2026-08-26T16:30:59.360Z",
+   "tier": "D",
+   "itemTs": "2026-08-26T16:16:25.000Z",
+   "sub": "latentspace"
   },
   {
    "id": "f-huggingface-blog-14r4gzl",
@@ -255,6 +297,48 @@
    "sub": "hackernews-firehose"
   },
   {
+   "id": "f-hn-newest-100-0m98hc6",
+   "pri": 42,
+   "kind": "note",
+   "title": "GLM-5.3-Flash",
+   "ctx": "Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 162 # Comments: 47",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://z.ai/blog/glm-5.3-flash",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-100",
+   "detectedAt": "2026-08-26T15:01:00.572Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T14:08:50.000Z",
+   "sub": "hackernews-firehose"
+  },
+  {
+   "id": "f-hn-newest-100-0lykljm",
+   "pri": 42,
+   "kind": "note",
+   "title": "Twitter Viewer – View Twitter Without Account",
+   "ctx": "Article URL: https://twitterwebviewer.com/ Comments URL: https://news.ycombinator.com/item?id=49449576 Points: 107 # Comments: 37",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://twitterwebviewer.com/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-100",
+   "detectedAt": "2026-08-26T16:30:59.360Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T14:11:39.000Z",
+   "sub": "hackernews-firehose"
+  },
+  {
    "id": "f-hf-models-zai-org-0yq8qwy",
    "pri": 26,
    "kind": "note",
@@ -273,7 +357,7 @@
    "detectedAt": "2026-08-26T14:30:59.823Z",
    "tier": "A",
    "itemTs": "2026-08-25T06:45:05.000Z",
-   "sub": "huggingface \u00b7 zai-org \u00b7 6 likes"
+   "sub": "huggingface · zai-org · 6 likes"
   },
   {
    "id": "f-hf-models-zai-org-0hgau82",
@@ -294,7 +378,7 @@
    "detectedAt": "2026-08-26T14:30:59.823Z",
    "tier": "A",
    "itemTs": "2026-08-25T06:43:14.000Z",
-   "sub": "huggingface \u00b7 zai-org \u00b7 148 likes"
+   "sub": "huggingface · zai-org · 148 likes"
   },
   {
    "id": "f-hf-models-Qwen-1agubo7",
@@ -315,7 +399,7 @@
    "detectedAt": "2026-08-26T12:30:59.156Z",
    "tier": "A",
    "itemTs": "2026-08-24T08:24:59.000Z",
-   "sub": "huggingface \u00b7 Qwen \u00b7 2918 likes"
+   "sub": "huggingface · Qwen · 2918 likes"
   },
   {
    "id": "f-gh-releases-huggingface-transformers-11ka7fr",
@@ -336,6 +420,48 @@
    "detectedAt": "2026-08-26T12:30:59.156Z",
    "tier": "A",
    "itemTs": "2026-08-26T12:08:26.000Z",
+   "sub": "github release"
+  },
+  {
+   "id": "f-gh-releases-huggingface-transformers-11aalqs",
+   "pri": 30,
+   "kind": "note",
+   "title": "huggingface/transformers Release v5.16.1",
+   "ctx": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks. GLM-5.3-Flas",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-huggingface-transformers",
+   "detectedAt": "2026-08-26T15:01:00.572Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T14:50:01.000Z",
+   "sub": "github release"
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1yasxt9",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10638",
+   "ctx": "Implemented vulkan cross_entropy_loss and cross_entropy_loss_back ( #27216 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43166320 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10638",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-26T16:30:59.360Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T16:11:54.000Z",
    "sub": "github release"
   },
   {
@@ -363,8 +489,8 @@
    "id": "f-cascade-1c2zjrw",
    "pri": 4,
    "kind": "note",
-   "title": "Cascade forming: \"transformers safetensors\" \u2014 3 independent sources in 51h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 51 hours, in 22 items (0.6% of the window \u2014 below the 15% background threshold).\n\n\u2022 huggingface-models \u2014 fpadovani/ppt-art-lang-newlexicon-nld-baseline-100mb_seed10\n\u2022 hf-author:tencent \u2014 tencent/WeMM-Embedding-2B\n\u2022 hf-author:Qwen \u2014 Qwen/Qwen3.8-Flash-Next\n\nThis fires on spreading shape, not on anyone claiming to have coined anything \u2014 the origin node usually does not know it is one.",
+   "title": "Cascade forming: \"transformers safetensors\" — 3 independent sources in 51h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 51 hours, in 22 items (0.6% of the window — below the 15% background threshold).\n\n• huggingface-models — fpadovani/ppt-art-lang-newlexicon-nld-baseline-100mb_seed10\n• hf-author:tencent — tencent/WeMM-Embedding-2B\n• hf-author:Qwen — Qwen/Qwen3.8-Flash-Next\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
    "acts": [
     {
      "label": "Open huggingface-models",
@@ -392,14 +518,14 @@
     "hf-author:tencent",
     "hf-author:Qwen"
    ],
-   "sub": "cascade shape \u00b7 huggingface-models, hf-author:tencent, hf-author:Qwen"
+   "sub": "cascade shape · huggingface-models, hf-author:tencent, hf-author:Qwen"
   },
   {
    "id": "f-cascade-0wdfyss",
    "pri": 4,
    "kind": "note",
-   "title": "Cascade forming: \"long-horizon agent\" \u2014 3 independent sources in 42h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 42 hours, in 4 items (0.1% of the window \u2014 below the 15% background threshold).\n\n\u2022 arxiv \u2014 Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses\n\u2022 huggingface-papers \u2014 Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses\n\u2022 openrouter \u2014 Z.ai: GLM 5.3 Flash\n\nThis fires on spreading shape, not on anyone claiming to have coined anything \u2014 the origin node usually does not know it is one.",
+   "title": "Cascade forming: \"long-horizon agent\" — 3 independent sources in 42h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 42 hours, in 4 items (0.1% of the window — below the 15% background threshold).\n\n• arxiv — Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses\n• huggingface-papers — Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses\n• openrouter — Z.ai: GLM 5.3 Flash\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
    "acts": [
     {
      "label": "Open arxiv",
@@ -432,7 +558,7 @@
     "huggingface",
     "openrouter"
    ],
-   "sub": "cascade shape \u00b7 arxiv, huggingface, openrouter"
+   "sub": "cascade shape · arxiv, huggingface, openrouter"
   }
  ]
 }
