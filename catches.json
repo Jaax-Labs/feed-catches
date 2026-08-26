@@ -1,0 +1,438 @@
+{
+ "updatedAt": null,
+ "count": 19,
+ "catches": [
+  {
+   "id": "f-reddit-localllama-1u5dfab",
+   "pri": 40,
+   "kind": "note",
+   "title": "Forget the Pelican, it's Weevil-Time! / Benchmaxxing-Proof SVG and Vision Benchmark",
+   "ctx": "The Artist: Qwen3.8-27B-UD-Q3\\ K_XL, q8_0 caches, xhigh, temp 1.0, image-min-tokens 1024, froggeric template) I was screwing around with different Qwen3.8-27B quants and thought of this very simplistic but seemingly bechmaxxing resistant combined SVG and vision test. Just let the model recreate any given image as SVG with this prompt: Recreate as SVG . Pelicans can be easily benchmaxxed, recreatin",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1vyw1wo/forget_the_pelican_its_weeviltime/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "reddit-localllama",
+   "detectedAt": "2026-08-26T13:00:59.762Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T12:44:22.000Z",
+   "sub": "reddit"
+  },
+  {
+   "id": "f-reddit-localllama-1md3wxs",
+   "pri": 40,
+   "kind": "note",
+   "title": "Local AI community today :",
+   "ctx": "From Jun Song on \ud835\udd4f: https://x.com/jun_song/status/2092523120897020030 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1vyw6gm/local_ai_community_today/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "reddit-localllama",
+   "detectedAt": "2026-08-26T13:00:59.762Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T12:49:41.000Z",
+   "sub": "reddit"
+  },
+  {
+   "id": "f-reddit-localllama-1ecv5i6",
+   "pri": 40,
+   "kind": "note",
+   "title": "LLM as a judge - how do you trust the judge?",
+   "ctx": "Sometimes just changing the order of fields can yield different results(same model, same prompt, same reasoning effort)...If you&#39;re using an LLM to judge or score something,make sure you evaluate everything properly, check results for consistency... Prefer well defined categories or use clear rubrics. Arbitrary numerical scores with simple prompts might not be a good idea..there are people res",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1vywdio/llm_as_a_judge_how_do_you_trust_the_judge/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "reddit-localllama",
+   "detectedAt": "2026-08-26T13:00:59.762Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T12:58:07.000Z",
+   "sub": "reddit"
+  },
+  {
+   "id": "f-reddit-localllama-16c872f",
+   "pri": 40,
+   "kind": "note",
+   "title": "A minecraft clone I fully vibecoded with Qwen3.8-27b Q4",
+   "ctx": "I wanted to see just how capable Qwen3.8-27b is locally. I have a RTX 4090 and 96GB of RAM but the Q4 comfortably fits in the GPU with plenty of context, the few times I needed more than 130k context I just loaded it spilled into RAM and it&#39;s capable of not degrading even at larger context. I&#39;m super impressed with this model. The model did everything on it&#39;s own - the coding, audio, t",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1vyw7e7/a_minecraft_clone_i_fully_vibecoded_with/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "reddit-localllama",
+   "detectedAt": "2026-08-26T13:00:59.762Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T12:50:47.000Z",
+   "sub": "reddit"
+  },
+  {
+   "id": "f-reddit-localllama-0vdwdb5",
+   "pri": 40,
+   "kind": "note",
+   "title": "How I see the future for local AI",
+   "ctx": "I think that mall models between 10B and 40B are the real gamechanger. These models will be the ones that will make the AI buble pop and big companies like Anthropic and OpenAi go to hell. We are currently seeing models that are generic and not specialized. But, what will happen if we get small specialized models? Can you imagine a Qwen 4.0 27B law? or Qwen 4.0 27B finance and accounting? Or a 40B",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1vywpc0/how_i_see_the_future_for_local_ai/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "reddit-localllama",
+   "detectedAt": "2026-08-26T13:30:59.630Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T13:11:19.000Z",
+   "sub": "reddit"
+  },
+  {
+   "id": "f-reddit-localllama-0dhezxo",
+   "pri": 40,
+   "kind": "note",
+   "title": "Mac mini m5 pro (64gb) or two 16gb 5060 ti (total 32gb vram) for local LLM",
+   "ctx": "I\u2019m planning to buy a new machine mainly for local LLM inference and agentic workloads , and I\u2019m deciding between these two setups. Both cost roughly US$3,000 where I live. Option 1: \ud83c\udf4e Mac mini M5 Pro , (15 CPU, 16 GPU) , 64GB unified memory, 1TB memory bandwidth 306 gb/s Option 2: \u26a1\ufe0fDual RTX 5060 Ti 16GB, 32GB total VRAM memory bandwidth 448 gb/s I\u2019ve previously used both an RTX 3090 and a Mac S",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1vywxjl/mac_mini_m5_pro_64gb_or_two_16gb_5060_ti_total/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "reddit-localllama",
+   "detectedAt": "2026-08-26T13:30:59.630Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T13:20:45.000Z",
+   "sub": "reddit"
+  },
+  {
+   "id": "f-openrouter-models-00ew4wu",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model \u2014 Z.ai: GLM 5.3 Flash",
+   "ctx": "A routing row exists for z-ai/glm-5.3-flash. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/z-ai/glm-5.3-flash",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-08-26T14:30:59.823Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T13:59:01.000Z",
+   "sub": "openrouter \u00b7 z-ai/glm-5.3-flash"
+  },
+  {
+   "id": "f-huggingface-blog-14r4gzl",
+   "pri": 40,
+   "kind": "note",
+   "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/train-multi-vector-encoder",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-08-26T14:00:59.567Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T00:00:00.000Z",
+   "sub": "huggingface-blog"
+  },
+  {
+   "id": "f-hn-newest-100-1tw5rq2",
+   "pri": 42,
+   "kind": "note",
+   "title": "Omarchy is full of security holes",
+   "ctx": "Article URL: https://blog.happyfellow.dev/merchants-of-insecurity/ Comments URL: https://news.ycombinator.com/item?id=49447682 Points: 137 # Comments: 116",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://blog.happyfellow.dev/merchants-of-insecurity/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-100",
+   "detectedAt": "2026-08-26T13:00:59.762Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T12:17:43.000Z",
+   "sub": "hackernews-firehose"
+  },
+  {
+   "id": "f-hn-newest-100-174j5zx",
+   "pri": 42,
+   "kind": "note",
+   "title": "AWS Acquires DuckDB",
+   "ctx": "Article URL: https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws Comments URL: https://news.ycombinator.com/item?id=49448321 Points: 135 # Comments: 22",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-100",
+   "detectedAt": "2026-08-26T13:30:59.630Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T12:59:26.000Z",
+   "sub": "hackernews-firehose"
+  },
+  {
+   "id": "f-hn-newest-100-0spyn83",
+   "pri": 42,
+   "kind": "note",
+   "title": "Meta reaches $16.68B settlement over social media harms to children",
+   "ctx": "Article URL: https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/ Comments URL: https://news.ycombinator.com/item?id=49448819 Points: 128 # Comments: 71",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-100",
+   "detectedAt": "2026-08-26T14:30:59.823Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T13:28:32.000Z",
+   "sub": "hackernews-firehose"
+  },
+  {
+   "id": "f-hn-newest-100-0rxh5ey",
+   "pri": 42,
+   "kind": "note",
+   "title": "U.S. gov't moves to suppress pushback on data centers",
+   "ctx": "Article URL: https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them Comments URL: https://news.ycombinator.com/item?id=49446748 Points: 103 # Comments: 103",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-100",
+   "detectedAt": "2026-08-26T13:00:59.762Z",
+   "tier": "C",
+   "itemTs": "2026-08-26T10:44:40.000Z",
+   "sub": "hackernews-firehose"
+  },
+  {
+   "id": "f-hf-models-zai-org-0yq8qwy",
+   "pri": 26,
+   "kind": "note",
+   "title": "Weights: zai-org/GLM-5.3-Flash-BF16",
+   "ctx": "New model repo under zai-org. On HF the weights are public before the blog post.\n\nTags: transformers, safetensors, glm5_next, image-text-to-text, text-generation, conversational, en, zh, arxiv:2602.15763, license:mit, endpoints_compatible, region:us",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/zai-org/GLM-5.3-Flash-BF16",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-models-zai-org",
+   "detectedAt": "2026-08-26T14:30:59.823Z",
+   "tier": "A",
+   "itemTs": "2026-08-25T06:45:05.000Z",
+   "sub": "huggingface \u00b7 zai-org \u00b7 6 likes"
+  },
+  {
+   "id": "f-hf-models-zai-org-0hgau82",
+   "pri": 26,
+   "kind": "note",
+   "title": "Weights: zai-org/GLM-5.3-Flash",
+   "ctx": "New model repo under zai-org. On HF the weights are public before the blog post.\n\nTags: transformers, safetensors, glm5_next, image-text-to-text, text-generation, conversational, en, zh, arxiv:2602.15763, license:mit, endpoints_compatible, fp8",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-models-zai-org",
+   "detectedAt": "2026-08-26T14:30:59.823Z",
+   "tier": "A",
+   "itemTs": "2026-08-25T06:43:14.000Z",
+   "sub": "huggingface \u00b7 zai-org \u00b7 148 likes"
+  },
+  {
+   "id": "f-hf-models-Qwen-1agubo7",
+   "pri": 10,
+   "kind": "note",
+   "title": "Weights: Qwen/Qwen3.8-Flash-Next",
+   "ctx": "New model repo under Qwen. On HF the weights are public before the blog post.\n\nTags: transformers, safetensors, qwen4_exp, image-text-to-text, conversational, license:other, endpoints_compatible, region:us",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-models-Qwen",
+   "detectedAt": "2026-08-26T12:30:59.156Z",
+   "tier": "A",
+   "itemTs": "2026-08-24T08:24:59.000Z",
+   "sub": "huggingface \u00b7 Qwen \u00b7 2918 likes"
+  },
+  {
+   "id": "f-gh-releases-huggingface-transformers-11ka7fr",
+   "pri": 30,
+   "kind": "note",
+   "title": "huggingface/transformers v5.16.0",
+   "ctx": "add tag v5.16.0",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-huggingface-transformers",
+   "detectedAt": "2026-08-26T12:30:59.156Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T12:08:26.000Z",
+   "sub": "github release"
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1ueyi3n",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10636",
+   "ctx": "ci: Clean up UI builds from releases ( #27706 ) ci : inline UI version resolution into ui-build.yml ci : build UI once and reuse the artifact in release jobs Server jobs now extract the ui-build artifact into tools/ui/dist instead of npm-building the UI. Also removes the get-version job and the no-op -DHF_UI_VERSION flags. Assisted-by: pi:Kimi-K3 ui : disable the npm UI build by default (LLAMA_BUI",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10636",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-26T13:00:59.762Z",
+   "tier": "A",
+   "itemTs": "2026-08-26T12:46:38.000Z",
+   "sub": "github release"
+  },
+  {
+   "id": "f-cascade-1c2zjrw",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"transformers safetensors\" \u2014 3 independent sources in 51h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 51 hours, in 22 items (0.6% of the window \u2014 below the 15% background threshold).\n\n\u2022 huggingface-models \u2014 fpadovani/ppt-art-lang-newlexicon-nld-baseline-100mb_seed10\n\u2022 hf-author:tencent \u2014 tencent/WeMM-Embedding-2B\n\u2022 hf-author:Qwen \u2014 Qwen/Qwen3.8-Flash-Next\n\nThis fires on spreading shape, not on anyone claiming to have coined anything \u2014 the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open huggingface-models",
+     "href": "https://huggingface.co/fpadovani/ppt-art-lang-newlexicon-nld-baseline-100mb_seed10",
+     "primary": true
+    },
+    {
+     "label": "Open hf-author:tencent",
+     "href": "https://huggingface.co/tencent/WeMM-Embedding-2B",
+     "primary": false
+    },
+    {
+     "label": "Open hf-author:Qwen",
+     "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-08-26T12:30:59.156Z",
+   "tier": "X",
+   "families": [
+    "huggingface-models",
+    "hf-author:tencent",
+    "hf-author:Qwen"
+   ],
+   "sub": "cascade shape \u00b7 huggingface-models, hf-author:tencent, hf-author:Qwen"
+  },
+  {
+   "id": "f-cascade-0wdfyss",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"long-horizon agent\" \u2014 3 independent sources in 42h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 42 hours, in 4 items (0.1% of the window \u2014 below the 15% background threshold).\n\n\u2022 arxiv \u2014 Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses\n\u2022 huggingface-papers \u2014 Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses\n\u2022 openrouter \u2014 Z.ai: GLM 5.3 Flash\n\nThis fires on spreading shape, not on anyone claiming to have coined anything \u2014 the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open arxiv",
+     "href": "https://arxiv.org/abs/2608.24876v1",
+     "primary": true
+    },
+    {
+     "label": "Open huggingface-papers",
+     "href": "https://huggingface.co/papers/2608.24876",
+     "primary": false
+    },
+    {
+     "label": "Open openrouter",
+     "href": "https://openrouter.ai/z-ai/glm-5.3-flash",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-08-26T14:30:59.823Z",
+   "tier": "X",
+   "families": [
+    "arxiv",
+    "huggingface-papers",
+    "openrouter"
+   ],
+   "roots": [
+    "arxiv",
+    "huggingface",
+    "openrouter"
+   ],
+   "sub": "cascade shape \u00b7 arxiv, huggingface, openrouter"
+  }
+ ]
+}
