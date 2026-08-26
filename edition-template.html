@@ -1,0 +1,249 @@
+<title>The Early Edition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,300;1,6..72,400&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+
+<style>
+  /* This page commits to one visual world: ink on paper, in daylight.
+     A newspaper is a physical object and does not invert. Every colour is
+     painted explicitly so it holds whatever ground the viewer's host paints. */
+  :root{
+    --paper:#fbf8f1;
+    --paper-2:#f4efe4;
+    --ink:#14110d;        /* near-black, warm. NYT uses #121212; never pure black. */
+    --ink-2:#463d31;
+    --ink-3:#736852;
+    --rule:#cabfa9;
+    --rule-soft:#e0d8c6;
+    --red:#8c2318;
+  }
+
+  *{box-sizing:border-box;}
+  html{background:var(--paper);}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Newsreader",Georgia,"Times New Roman",serif;
+    font-size:18px;
+    line-height:1.62;
+    font-optical-sizing:auto;
+    margin:0;
+    padding:0 22px 90px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .sheet{max-width:1180px;margin:0 auto;}
+
+  a{color:inherit;text-decoration:none;}
+  a:hover .hl{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px;}
+  a:focus-visible{outline:2px solid var(--red);outline-offset:4px;}
+  .sans{font-family:"Libre Franklin",Helvetica,Arial,sans-serif;}
+
+  /* ---------------- masthead ---------------- */
+  .masthead{padding:40px 0 0;text-align:center;}
+  .above{
+    font-family:"Libre Franklin",sans-serif;font-size:11px;font-weight:600;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);
+    display:flex;justify-content:space-between;align-items:baseline;
+    border-bottom:1px solid var(--rule);padding-bottom:8px;margin-bottom:18px;
+    gap:14px;flex-wrap:wrap;
+  }
+  h1.title{
+    font-family:"UnifrakturMaguntia",serif;font-weight:400;
+    font-size:clamp(52px,10vw,104px);line-height:1;
+    margin:4px 0 12px;color:var(--ink);
+  }
+  .motto{
+    font-family:"Newsreader",serif;font-style:italic;font-weight:300;
+    font-size:17px;color:var(--ink-2);margin:0 0 16px;
+  }
+  .dateline{
+    border-top:3px double var(--rule);border-bottom:1px solid var(--rule);
+    padding:9px 0;margin-bottom:34px;
+    font-family:"Libre Franklin",sans-serif;font-size:11px;font-weight:500;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  }
+
+  /* ---------------- shared ---------------- */
+  .kicker{
+    font-family:"Libre Franklin",sans-serif;font-size:11px;font-weight:700;
+    letter-spacing:.18em;text-transform:uppercase;color:var(--red);
+    margin-bottom:10px;
+  }
+  .kicker.quiet{color:var(--ink-3);}
+
+  /* NYT's own device, measured off their live site: same face, opposite
+     weight. 700 = something shipped. 300 = someone thought. You can read the
+     kind of story off the page before reading a word of it. */
+  .hed-news{font-weight:700;}
+  .hed-feature{font-weight:300;}
+
+  /* ---------------- lead ---------------- */
+  .lead{border-bottom:2px solid var(--rule);padding-bottom:34px;margin-bottom:34px;}
+  h2.lead-hed{
+    font-family:"Newsreader",serif;
+    font-size:clamp(44px,6.4vw,68px);
+    line-height:1.09;           /* NYT runs 1.15; a bigger hed can carry tighter */
+    letter-spacing:-.012em;
+    margin:0 0 16px;text-wrap:balance;
+  }
+  .deck{
+    font-family:"Newsreader",serif;font-style:italic;font-weight:300;
+    font-size:clamp(19px,2.1vw,23px);line-height:1.5;color:var(--ink-2);
+    margin:0 0 20px;max-width:64ch;
+  }
+  .byline{
+    font-family:"Libre Franklin",sans-serif;font-size:10.5px;font-weight:600;
+    letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3);
+    border-top:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);
+    padding:8px 0;margin:0 0 22px;
+  }
+  .lead-body{columns:2;column-gap:46px;column-rule:1px solid var(--rule-soft);}
+  .lead-body p{margin:0 0 14px;}   /* deliberately NOT justified — justification
+                                      needs a wider measure than a column gives */
+  .lead-body p:first-child::first-letter{
+    font-family:"Newsreader",serif;font-weight:700;
+    float:left;font-size:3.6em;line-height:.84;padding:6px 10px 0 0;color:var(--red);
+  }
+
+  /* ---------------- two columns ---------------- */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:0 46px;}
+  .col + .col{border-left:1px solid var(--rule-soft);padding-left:46px;}
+  article.story{border-bottom:1px solid var(--rule-soft);padding-bottom:24px;margin-bottom:24px;}
+  article.story:last-child{border-bottom:0;margin-bottom:0;}
+  h3.hed{
+    font-family:"Newsreader",serif;font-size:31px;line-height:1.14;
+    margin:0 0 11px;text-wrap:balance;letter-spacing:-.006em;
+  }
+  h3.hed.small{font-size:25px;}
+  .story p{margin:0 0 12px;}
+  .src{
+    font-family:"Libre Franklin",sans-serif;font-size:10.5px;font-weight:600;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);
+  }
+
+  /* ---------------- section rules ---------------- */
+  .section-rule{
+    display:flex;align-items:center;gap:14px;margin:46px 0 22px;
+    font-family:"Libre Franklin",sans-serif;font-size:11.5px;font-weight:700;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--ink);
+  }
+  .section-rule::before,.section-rule::after{content:"";height:2px;background:var(--rule);flex:1;}
+  .section-note{
+    font-family:"Newsreader",serif;font-style:italic;font-weight:300;
+    font-size:17px;color:var(--ink-2);text-align:center;margin:-10px 0 24px;
+  }
+
+  /* ---------------- briefs ---------------- */
+  .brief{border-bottom:1px dotted var(--rule);padding:15px 0;}
+  .brief:last-child{border-bottom:0;}
+  .brief h4{font-family:"Newsreader",serif;font-weight:700;font-size:21px;margin:0 0 6px;line-height:1.2;}
+  .brief p{margin:0;font-size:17px;color:var(--ink-2);}
+
+  /* ---------------- wildcard ---------------- */
+  .wildcard{
+    border:2px solid var(--red);padding:22px 26px;margin-top:14px;
+    background:var(--paper-2);
+  }
+  .wildcard .kicker{color:var(--red);}
+  .wildcard h4{font-family:"Newsreader",serif;font-weight:700;font-size:25px;margin:0 0 10px;line-height:1.16;}
+  .wildcard p{margin:0 0 10px;}
+  .wildcard p:last-child{margin-bottom:0;}
+  .wildcard .why{font-style:italic;color:var(--ink-2);font-weight:300;}
+
+  /* ---------------- ledger ---------------- */
+  .ledger{border:1px solid var(--rule);padding:22px 26px;margin-top:34px;background:var(--paper-2);}
+  .ledger h5{
+    font-family:"Libre Franklin",sans-serif;font-size:11px;font-weight:700;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin:0 0 12px;
+  }
+  .ledger table{width:100%;border-collapse:collapse;font-size:17px;}
+  .ledger td{padding:5px 0;border-bottom:1px dotted var(--rule-soft);vertical-align:baseline;}
+  .ledger td:last-child{text-align:right;font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap;padding-left:14px;}
+  .ledger tr:last-child td{border-bottom:0;}
+  .ledger p{margin:12px 0 0;font-size:16px;color:var(--ink-2);}
+
+  footer{
+    margin-top:34px;padding-top:14px;border-top:3px double var(--rule);
+    font-family:"Libre Franklin",sans-serif;font-size:10.5px;font-weight:500;
+    letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  }
+
+  @media (max-width:860px){
+    .lead-body{columns:1;}
+    .cols{grid-template-columns:1fr;gap:0;}
+    .col + .col{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:24px;margin-top:24px;}
+  }
+</style>
+
+<div class="sheet">
+
+  <div class="masthead">
+    <div class="above">
+      <span>Vol. I &nbsp;·&nbsp; No. 2</span>
+      <span>Set by machine, edited for one reader</span>
+      <span>Price: Your attention</span>
+    </div>
+    <h1 class="title">The Early Edition</h1>
+    <p class="motto">“All the signal that reaches print before the post.”</p>
+    <div class="dateline">
+      <span>Wednesday, 26 August 2026</span>
+      <span>Wire closed 18:31 UTC</span>
+      <span>42 sources · 19 items · 11 printed</span>
+    </div>
+  </div>
+
+  <!-- EDITION:BEGIN -->
+  <!-- The morning editor replaces everything between these markers.
+       Structure available (see EDITION-PROTOCOL.md):
+         .lead  > .kicker, h2.lead-hed.hed-news, .deck, .byline.sans, .lead-body (2-col, drop cap)
+         .cols  > .col > article.story > .kicker, h3.hed.hed-news|hed-feature, p
+         .section-rule (text), .section-note (italic subtitle)
+         .brief > h4 + p
+         .wildcard > .kicker, h4, p, p.why
+         .ledger > h5 + table + p
+       Headlines: 700 = something shipped. 300 = someone thought.
+       Every headline: <a href="REAL_URL" data-go="CATCH_ID" target="_blank" rel="noopener">
+  -->
+  <div class="lead">
+    <div class="kicker">No edition set</div>
+    <h2 class="lead-hed hed-news">This template has not been filled</h2>
+    <p class="deck">If you are reading this on the published page, the morning editor did not run, or ran and failed to replace the edition block. That is a fault, not a quiet day.</p>
+  </div>
+  <!-- EDITION:END -->
+
+  <footer>
+    <span>The Early Edition · Set for Siddharth Jaiman</span>
+    <span>Wire: feed-detectors · 42 sources · swept every 30 min</span>
+    <span>Corrections welcome, loudly</span>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+  // Headlines route through the wire's /go, which records the click and
+  // redirects onward. An artifact runs under a CSP that blocks fetch to other
+  // hosts but never navigation, so a click is the one honest signal that
+  // survives. It measures a click, not a read — a click is a thing you did.
+  var GO="https://feed-detectors.team-bc9.workers.dev/go";
+  function b64url(s){
+    try{
+      var bytes=new TextEncoder().encode(s), bin="";
+      for(var i=0;i<bytes.length;i++) bin+=String.fromCharCode(bytes[i]);
+      return btoa(bin).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+    }catch(e){ return null; }
+  }
+  var links=document.querySelectorAll("a[data-go]");
+  for(var i=0;i<links.length;i++){
+    var a=links[i], href=a.getAttribute("href");
+    if(!href || !/^https?:\/\//i.test(href)) continue;
+    var u=b64url(href);
+    // Encoding failed: leave the link untouched. The reader getting where they
+    // were going always outranks our bookkeeping.
+    if(u) a.setAttribute("href", GO+"?c="+encodeURIComponent(a.getAttribute("data-go"))+"&u="+u);
+  }
+})();
+</script>
