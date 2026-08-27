@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T22:00:48.497Z",
+ "generatedAt": "2026-08-27T22:31:00.836Z",
  "count": 85,
  "catches": [
   {
@@ -963,6 +963,34 @@
    "sub": "github release"
   },
   {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1xgc5mp",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10663",
+   "ctx": "hex-unary: fix RMS_NORM_MUL weight-offset bugs for grouped/broadcast norms ( #27798 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43526462 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubu",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10663",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T22:30:36.667Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T22:25:58.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10663 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 22:24 b10663 83d855c This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . hex-unary: fix RMS_NORM_MUL weight-offset bugs for grouped/broadcast norms ( #27798 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43526462 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1696,
+    "title": "Release b10663 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T22:30:36.667Z"
+   }
+  },
+  {
    "id": "f-gh-releases-ggml-org-llama-cpp-1x6cjxq",
    "pri": 30,
    "kind": "note",
@@ -1457,6 +1485,34 @@
     "chars": 1784,
     "title": "Release b10653 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-08-27T14:00:37.294Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1u8bgvx",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.248",
+   "ctx": "What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1 ): removes the built-in tools that run commands or code and WebFetch (unless named in --tools ), keeps file tools inside the working directory, refuses bypassPermissions , and ignores user, project and local settings files Added experimental.cacheTtl ( \"5m\" or \"1h\" ) to agent frontmatter: a per-agent prompt cache TTL used when no subag",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-08-27T22:30:36.667Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T22:12:20.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 22.9k Star 143k v2.1.248 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 27 Aug 22:12 v2.1.248 c336b74 What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1 ): removes the built-in tools that run commands or code and WebFetch (unless named in --tools ), keeps file tools inside the working directory, refuses bypassPermissions , and ignores user, project and local settings files Added experimental.cacheTtl ( \"5m\" or \"1h\" ) to agent frontmatter: a per-agent prompt cache TTL used when no subagent TTL setting is configured Added claude self-hosted-runner --client-label (or SELF_HOSTED_RUNNER_CLIENT_LABEL ) to override the label the runner registers with (default: hostname) Added server-managed settings diagnostics: a startup warning when the settings fail to load, and a /doctor and /status line explaining a load failure or why they weren't fetched (Bedrock/Vertex/third-party provider, custom ANTHROPIC_BASE_URL ) Added a warning in /web-setup when the GitHub CLI token lacks the workflow scope, since pushes to very large repositories can be rejected without it Added /usage-credits for Enterprise organizations billed through AWS Marketplace, self-serve Enterprise, and Enterprise trials, so members can request a higher usage limit from their admin Added cross-session messaging ( SendMessage / ListAgents ) between sessions on the same machine on Bedrock, Vertex, and Foundry, and when telemetry is disabled Fixed a prompt-cache miss (and lost extended-thinking context) roughly once an hour in long sessions, caused by tool definitions being re-rendered after an OAuth token refresh Fixed the ScheduleWakeup tool definition changing between a session and its --resume when the account had entered usage overage, causing a full prompt-cache miss on the resumed session's first turn Fixed Claude Desktop and Cowork sessions disappearing after 30 days: the transcript cleanup now keeps desktop-written sessions while they are in the app (unless org policy manages retention); the new desktopSessionCleanupPeriodDays setting caps the exemption Fixed being sent to the login screen when another Claude Code process hel",
+    "chars": 2500,
+    "title": "Release v2.1.248 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-08-27T22:30:36.667Z"
    }
   },
   {
@@ -2095,48 +2151,6 @@
    "detectedAt": "2026-08-27T04:00:36.979Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:50:52.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-092dhn7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Group-Shared Low-Rank Approximation for Mobile-Efficient Pointwise Convolutions in Large-Kernel CNNs",
-   "ctx": "Large-kernel Convolutional Neural Networks (CNNs) deliver remarkable performance in vision tasks by significantly expanding receptive fields, yet their quadratic parameter growth critically impedes storage-efficient edge deployment. While existing efficient architectures adopt parameter-efficient depthwise separable convolution backbones that leverage techniques like low-rank approximation and weight sharing to compress depthwise convolutions, we identify a critical oversight: pointwise convolut",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26069v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-27T04:00:36.979Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:36:35.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-04od0zt",
-   "pri": 45,
-   "kind": "note",
-   "title": "How Robust Are Automated Fact-Checking Systems? A Cross-Benchmark Evaluation",
-   "ctx": "Automated fact-checking (AFC) systems retrieve evidence and predict claim veracity, yet evaluations omit simple baselines, systems are developed for a single benchmark and cannot be trusted to generalise across domains. No prior work cross-evaluates the full two-stage retrieve-then-verify pipeline across diverse datasets, complementing retrieval-only studies (Thakur et al., 2021) and single-stage benchmarking studies (Calamai et al., 2025). We benchmark nine models, ranging from random and spars",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25934v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:50:10.000Z",
    "sub": "arXiv cs.LG"
   }
  ],
