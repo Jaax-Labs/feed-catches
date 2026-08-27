@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T10:30:48.736Z",
+ "generatedAt": "2026-08-27T11:00:45.817Z",
  "count": 85,
  "catches": [
   {
@@ -92,6 +92,32 @@
    "tier": "A",
    "itemTs": "2026-08-26T13:59:01.000Z",
    "sub": "openrouter · z-ai/glm-5.3-flash"
+  },
+  {
+   "id": "f-openai-news-1psfy2j",
+   "pri": 15,
+   "kind": "note",
+   "title": "Expanding OpenAI’s presence in Brazil",
+   "ctx": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://openai.com/index/expanding-our-presence-in-brazil",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openai-news",
+   "detectedAt": "2026-08-27T11:00:37.727Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T03:00:00.000Z",
+   "sub": "openai",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-08-27T11:00:37.727Z"
+   }
   },
   {
    "id": "f-openai-news-140ifcz",
@@ -831,6 +857,34 @@
     "chars": 1699,
     "title": "Release b10644 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-08-27T05:30:36.983Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0yryciw",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10646",
+   "ctx": "metal : fix memory leaks due to missing autoreleasepools ( #27758 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43372015 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10646",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T11:00:37.727Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T10:48:13.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10646 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 10:43 b10646 915dc6d This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix memory leaks due to missing autoreleasepools ( #27758 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43372015 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 18 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1678,
+    "title": "Release b10646 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T11:00:37.727Z"
    }
   },
   {
@@ -1912,48 +1966,6 @@
    "detectedAt": "2026-08-27T02:30:36.663Z",
    "tier": "B",
    "itemTs": "2026-08-26T15:52:19.000Z",
-   "sub": "arXiv cs.AI"
-  },
-  {
-   "id": "f-arxiv-cs.AI-1qpey48",
-   "pri": 45,
-   "kind": "note",
-   "title": "Repair or Resample? Rethinking Failure Debugging in LLM Multi-Agent Systems",
-   "ctx": "As large language model (LLM)-based multi-agent systems (MASs) are increasingly applied to long-horizon complex tasks, their reliability has emerged as the core bottleneck hindering their real-world deployment. Existing MAS debugging and repair methods typically rely on rerunning and resampling the entire execution trajectory. However, a fundamental question remains to be answered: do these methods causally repair MAS failures or merely stochastically repair by leveraging the randomness of LLM s",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25920v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:33:47.000Z",
-   "sub": "arXiv cs.AI"
-  },
-  {
-   "id": "f-arxiv-cs.AI-1lw45yy",
-   "pri": 45,
-   "kind": "note",
-   "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
-   "ctx": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack of scalable training tasks, reliable feedback, and controlled comparisons across generative substrates. In this work, we introduce VBVR-Pro, a closed-loop testbed that makes native visual reasoning thr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26105v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-08-27T04:00:36.979Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:59:51.000Z",
    "sub": "arXiv cs.AI"
   }
  ],
