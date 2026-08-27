@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T17:30:46.660Z",
+ "generatedAt": "2026-08-27T18:00:50.639Z",
  "count": 85,
  "catches": [
   {
@@ -1152,6 +1152,34 @@
    }
   },
   {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0uw72b9",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10656",
+   "ctx": "quantize: cap working memory size to avoid loading big tensors onto RAM ( #27795 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43468853 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10656",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T18:00:39.691Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T17:42:35.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10656 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 17:40 b10656 732707d This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . quantize: cap working memory size to avoid loading big tensors onto RAM ( #27795 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43468853 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1693,
+    "title": "Release b10656 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T18:00:39.691Z"
+   }
+  },
+  {
    "id": "f-gh-releases-ggml-org-llama-cpp-0u2898c",
    "pri": 30,
    "kind": "note",
@@ -2027,27 +2055,6 @@
    "detectedAt": "2026-08-27T03:30:36.577Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:54:24.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-17yhxxy",
-   "pri": 45,
-   "kind": "note",
-   "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
-   "ctx": "Reasoning in language allows foundation models to spend more test-time compute on hard problems, such as those requiring decomposition, constraint tracking, and prediction of future consequences. Whether this mechanism can improve robotic manipulation remains unclear, where long-horizon tasks require tracking partial progress, reasoning about object relations, recovering from mistakes, and steering noisy low-level policies. In this paper, we study whether VLMs can be trained to reason directly i",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26053v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T03:30:36.577Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:25:10.000Z",
    "sub": "arXiv cs.CL"
   }
  ],
