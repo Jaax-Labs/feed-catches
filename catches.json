@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-27T03:00:46.909Z",
- "count": 64,
+ "generatedAt": "2026-08-27T03:30:53.263Z",
+ "count": 75,
  "catches": [
   {
    "id": "f-zvi-16iun3o",
@@ -302,6 +302,32 @@
    "tier": "A",
    "itemTs": "2026-08-24T08:24:59.000Z",
    "sub": "huggingface · Qwen · 2918 likes"
+  },
+  {
+   "id": "f-hf-daily-papers-0e4jsc1",
+   "pri": 28,
+   "kind": "note",
+   "title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+   "ctx": "Agent capability is not determined by the model alone. The agent harness, encompassing memory management, planning strategy, action protocol, and tool/skill orchestration, can dominate the contribution of the underlying foundation model. Yet harness design remains manual, task-specific, and fundamentally unscalable. We present JIT-Agent, a harness intelligence model trained to synthesize task-adaptive agent harnesses on the fly for arbitrary off-the-shelf agentic LLMs. We formalize the agent har",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/papers/2608.25593",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-daily-papers",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-25T20:00:00.000Z",
+   "sub": "HF daily papers · 20 upvotes",
+   "extract": {
+    "ok": false,
+    "reason": "extracted text is markup/template, not prose",
+    "fetchedAt": "2026-08-27T03:30:36.577Z"
+   }
   },
   {
    "id": "f-gh-releases-openai-codex-0wvbiu7",
@@ -1056,6 +1082,27 @@
    "sub": "arXiv cs.LG"
   },
   {
+   "id": "f-arxiv-cs.CL-1ylmwos",
+   "pri": 45,
+   "kind": "note",
+   "title": "Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study",
+   "ctx": "Automatic Speech Recognition (ASR) technologies have achieved remarkable performance in recent years through the use of large multilingual foundation models. However, most advances remain concentrated on high-resource languages, while indigenous languages continue to suffer from a lack of speech resources and language technologies. This work presents a preliminary study on the adaptation of Whisper for Automatic Speech Recognition in Baniwa, an indigenous Arawakan language spoken in Brazil, Colo",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26060v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T17:29:47.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
    "id": "f-arxiv-cs.CL-1uub7h8",
    "pri": 45,
    "kind": "note",
@@ -1098,6 +1145,27 @@
    "sub": "arXiv cs.CL"
   },
   {
+   "id": "f-arxiv-cs.CL-1spw8el",
+   "pri": 45,
+   "kind": "note",
+   "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+   "ctx": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles, or centralized workflows. It remains unclear whether decentralized agents can build functional technologies and outperform independent search. Here, initially homogeneous LLM agents in SwarmWorld se",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26081v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T17:45:34.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
    "id": "f-arxiv-cs.CL-1rslocz",
    "pri": 45,
    "kind": "note",
@@ -1119,6 +1187,111 @@
    "sub": "arXiv cs.CL"
   },
   {
+   "id": "f-arxiv-cs.CL-1k944lv",
+   "pri": 45,
+   "kind": "note",
+   "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+   "ctx": "Answer accuracy is an insufficient reliability signal for LLM data agents. In structured-data tasks, a benchmark-correct answer can be produced by an invalid trace. This paper introduces Trace Integrity, a deployment reliability criterion for evaluating whether the computation recorded behind an answer is explicit, executable, schema-valid, operator-faithful, replayable, answer-consistent, and auditable. We identify the Structure Gap as the deployment failure mode that makes Trace Integrity nece",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26036v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T17:15:24.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
+   "id": "f-arxiv-cs.CL-1evwpth",
+   "pri": 45,
+   "kind": "note",
+   "title": "How Much Rank Does LoRA Need? Rank-Error Bounds for Transformer Attention",
+   "ctx": "Choosing the rank of a low-rank adaptation (LoRA) update is usually an empirical task. In this paper, we provide a task-dependent theory of the approximation error achievable at each LoRA rank for Transformer attention. We fix a pretrained attention head, a target attention function, and a distribution over inputs from the downstream task, and bound the smallest expected Kullback--Leibler (KL) error achievable by a rank-$r$ query LoRA update. When target attention probabilities are bounded away ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26052v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T17:25:03.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
+   "id": "f-arxiv-cs.CL-19epljo",
+   "pri": 45,
+   "kind": "note",
+   "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
+   "ctx": "Civil infrastructure compliance checking has long relied on engineers manually reading legacy 2D plans; however, OCR-based automation strips away the geometry and layout essential for interpreting these plans. We present a Visual-First Multimodal Retrieval-Augmented Generation (RAG) framework called PlanSightRAG. It indexes and reasons directly over plan imagery, integrates a ColNomic-3B multi-vector retrieval, an agentic Planner-Retriever-Auditor-Synthesizer, and MaxSim heatmaps as an evidence ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26091v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T17:54:24.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
+   "id": "f-arxiv-cs.CL-17yhxxy",
+   "pri": 45,
+   "kind": "note",
+   "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
+   "ctx": "Reasoning in language allows foundation models to spend more test-time compute on hard problems, such as those requiring decomposition, constraint tracking, and prediction of future consequences. Whether this mechanism can improve robotic manipulation remains unclear, where long-horizon tasks require tracking partial progress, reasoning about object relations, recovering from mistakes, and steering noisy low-level policies. In this paper, we study whether VLMs can be trained to reason directly i",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26053v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T17:25:10.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
+   "id": "f-arxiv-cs.CL-17axo72",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
+   "ctx": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transformation, and multi-step indirection to elicit harmful outputs. As jailbreak strategies keep emerging, defenses have proliferated in an ongoing cat-and-mouse game, yet most remain static: their safety behavior is fixed at deployment, so they cannot accumulate defensive experience or adapt to unseen strategies. We propose a self-evolving test-time defense built",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26008v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T16:52:06.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
    "id": "f-arxiv-cs.CL-0zbh963",
    "pri": 45,
    "kind": "note",
@@ -1137,6 +1310,69 @@
    "detectedAt": "2026-08-27T02:30:36.663Z",
    "tier": "B",
    "itemTs": "2026-08-26T15:26:21.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
+   "id": "f-arxiv-cs.CL-0xwvryi",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond Local Surprise: Grounded Dialogue as Selective Belief Revision under Referential Uncertainty",
+   "ctx": "When a speaker refers to a scene that the listener cannot directly see, the listener must decide whether to preserve its current understanding or revise it as new utterances arrive. Many language systems treat local mismatch as a cue for updating: divergence from the current understanding encourages adjustment. Yet conversational understanding may be more conservative, interpreting mismatching evidence relative to prior understanding rather than immediately revising it. We introduce a controlled",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26035v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T17:13:46.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
+   "id": "f-arxiv-cs.CL-0vdy2ki",
+   "pri": 45,
+   "kind": "note",
+   "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
+   "ctx": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically follow a one-pass generate-and-filter paradigm, discarding feedback from failed samples, verifier outcomes, and target-model errors. We present VISA (Visual Instruction Synthesis Agent), an agentic framework that reformulates multimodal instruction synthesis as a self-evolving loop. At each round, VISA analyzes an image to filter incompatibl",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26013v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T16:55:58.000Z",
+   "sub": "arXiv cs.CL"
+  },
+  {
+   "id": "f-arxiv-cs.CL-0ud0wdt",
+   "pri": 45,
+   "kind": "note",
+   "title": "Prefix Sliding for efficient test-time scaling",
+   "ctx": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As models keep the entire reasoning trace in memory via full attention, hard tasks that need long thinking can be prohibitively expensive. However, we find most intermediate reasoning tokens lose importance as the model continues reasoning. This calls into question whether retaining them is worth the cost. Based on this insight, we propose Prefix Sliding, w",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.26070v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-27T03:30:36.577Z",
+   "tier": "B",
+   "itemTs": "2026-08-26T17:37:15.000Z",
    "sub": "arXiv cs.CL"
   },
   {
