@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T16:00:49.453Z",
+ "generatedAt": "2026-08-27T17:01:22.829Z",
  "count": 85,
  "catches": [
   {
@@ -64,6 +64,34 @@
    "tier": "D",
    "itemTs": "2026-08-26T23:52:58.000Z",
    "sub": "simonwillison"
+  },
+  {
+   "id": "f-openrouter-models-12t2tji",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — Ling 3.0 Flash Fin (free)",
+   "ctx": "A routing row exists for inclusionai/ling-3.0-flash-fin:free. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nLing 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-08-27T16:30:37.019Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T15:58:10.000Z",
+   "sub": "openrouter · inclusionai/ling-3.0-flash-fin:free",
+   "extract": {
+    "ok": true,
+    "text": "Frequently asked questions What is Ling 3.0 Flash Fin (free)? Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment workflows that require complex multi-step tasks and long-horizon planning and execution, while retaining general capabilities in reasoning, coding, and mathematics. Is Ling 3.0 Flash Fin (free) free? Yes. The pricing shown on this page for Ling 3.0 Flash Fin (free) is zero, so you are not charged for prompt or completion tokens. Free endpoints are rate limited — see the rate limit docs . What is the context length of Ling 3.0 Flash Fin (free)? Ling 3.0 Flash Fin (free) has a 262,144 token context window. It supports up to 32,768 completion tokens. Does Ling 3.0 Flash Fin (free) support tool calling and structured outputs? Yes. Ling 3.0 Flash Fin (free) accepts tools and tool_choice for function calling. It does not support response_format , so JSON output is not enforced. What other text models from the same author are available? Ling-3.0-flash is another text model from the same author. When was Ling 3.0 Flash Fin (free) released? Ling 3.0 Flash Fin (free) was released on August 27, 2026.",
+    "chars": 1261,
+    "title": "Ling 3.0 Flash Fin (free) - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-08-27T16:30:37.019Z"
+   }
   },
   {
    "id": "f-openrouter-models-0k0l2sr",
@@ -181,6 +209,32 @@
    "tier": "A",
    "itemTs": "2026-08-26T10:00:00.000Z",
    "sub": "openai"
+  },
+  {
+   "id": "f-openai-news-0k4t5qv",
+   "pri": 15,
+   "kind": "note",
+   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+   "ctx": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openai-news",
+   "detectedAt": "2026-08-27T16:30:37.019Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T09:00:00.000Z",
+   "sub": "openai",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-08-27T16:30:37.019Z"
+   }
   },
   {
    "id": "f-latent-space-1wwa3yf",
@@ -375,6 +429,27 @@
     "reason": "extracted text is markup/template, not prose",
     "fetchedAt": "2026-08-27T03:30:36.577Z"
    }
+  },
+  {
+   "id": "f-google-ai-blog-0mgioi4",
+   "pri": 35,
+   "kind": "note",
+   "title": "3 new ways to plan and book travel in Search",
+   "ctx": "Graphic depicting new travel features for AI Mode in Search",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "google-ai-blog",
+   "detectedAt": "2026-08-27T16:30:37.019Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T16:00:00.000Z",
+   "sub": "google-blog"
   },
   {
    "id": "f-github-new-repos-13t5v0c",
@@ -1130,6 +1205,34 @@
     "chars": 2500,
     "title": "Release v2.1.247 · anthropics/claude-code · GitHub",
     "fetchedAt": "2026-08-26T23:30:36.484Z"
+   }
+  },
+  {
+   "id": "f-deepmind-blog-1rto48v",
+   "pri": 22,
+   "kind": "note",
+   "title": "Gemini Omni 1.1 Flash lets you build with more control",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "deepmind-blog",
+   "detectedAt": "2026-08-27T16:30:37.019Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T16:11:32.000Z",
+   "sub": "deepmind",
+   "extract": {
+    "ok": true,
+    "text": "Gemini Omni 1.1 Flash lets you build with more control Aug 27, 2026 | x.com Facebook LinkedIn Mail Copy link Omni now delivers studio-quality video production, including the ability to extend a scene, first and last frame interpolation, crisp 4K upscaling, faster prototyping, and more. Anish Nangia Product Manager, Google DeepMind Alisa Fortin Product Manager, Google DeepMind Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice Speed Voice Speed 0.75X 1X 1.5X 2X Read AI-generated summary We are introducing Gemini Omni 1.1 Flash, a production-ready update for developers that offers improved control over generative video. You can now extend scenes, specify start and end frames for smooth transitions, and generate high-resolution 4K output. Start building today by accessing the model through Google AI Studio or the Gemini Enterprise Agent Platform. Summaries were generated by Google AI. Generative AI is experimental. \"Gemini Omni 1.1 Flash\" gives developers better control over generative video projects. Extend scenes up to 40 seconds with improved visual consistency and narrative flow. Set start and end frames to create smooth, professional camera movements and transitions. Use 360p previews to iterate faster and save money during your creative process. Upscale your final projects to 4K resolution for a polished, professional look. Summaries were generated by Google AI. Generative AI is experimental. Google just released Gemini Omni 1.1 Flash, which gives developers better tools to create and edit videos with AI. It lets you extend video clips, control camera movements, and make high-quality 4K footage. Developers can also create quick, low-resolution drafts to test their ideas faster and cheaper. It’s a big step forward for anyone building creative video software. Summaries were generated by Google AI. Generative AI is experimental. Explore other styles: General summary Bullet points Basic explainer Today, we’re introducing Gemini Omni 1.1 Flash, a new suite of creative controls and generative video capabilities to support developers. Gemini Omni brought real-world reasoning to generative creation, and today’s updates make Omni 1.1 production-ready for professional use via the Gemini API in Google AI Studio. Whether you’re building generative video workflows, creative tools, or media editing software, the",
+    "chars": 2500,
+    "title": "Build with Gemini Omni 1.1 Flash",
+    "fetchedAt": "2026-08-27T16:30:37.019Z"
    }
   },
   {
@@ -1938,90 +2041,6 @@
    "detectedAt": "2026-08-27T03:30:36.577Z",
    "tier": "B",
    "itemTs": "2026-08-26T16:52:06.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-0zbh963",
-   "pri": 45,
-   "kind": "note",
-   "title": "SAMpLE: A SystemC-AMS Machine LEarning-based Framework for Virtual Prototyping",
-   "ctx": "Machine Learning (ML) is increasingly used in virtual prototypes of embedded systems to model behaviors that are difficult to capture analytically. However, integrating ML models into virtual platform simulation is still typically done through ad hoc solutions, which limits reuse, comparability, and reproducibility. This paper presents \\textbf{\\textit{SAMpLE}}, an open-source SystemC-AMS-based framework that integrates ML models as first-class Timed Dataflow (TDF) components through a standardiz",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25910v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:26:21.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-0xwvryi",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Local Surprise: Grounded Dialogue as Selective Belief Revision under Referential Uncertainty",
-   "ctx": "When a speaker refers to a scene that the listener cannot directly see, the listener must decide whether to preserve its current understanding or revise it as new utterances arrive. Many language systems treat local mismatch as a cue for updating: divergence from the current understanding encourages adjustment. Yet conversational understanding may be more conservative, interpreting mismatching evidence relative to prior understanding rather than immediately revising it. We introduce a controlled",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26035v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T03:30:36.577Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:13:46.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-0vdy2ki",
-   "pri": 45,
-   "kind": "note",
-   "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
-   "ctx": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically follow a one-pass generate-and-filter paradigm, discarding feedback from failed samples, verifier outcomes, and target-model errors. We present VISA (Visual Instruction Synthesis Agent), an agentic framework that reformulates multimodal instruction synthesis as a self-evolving loop. At each round, VISA analyzes an image to filter incompatibl",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26013v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T03:30:36.577Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T16:55:58.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-0ud0wdt",
-   "pri": 45,
-   "kind": "note",
-   "title": "Prefix Sliding for efficient test-time scaling",
-   "ctx": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As models keep the entire reasoning trace in memory via full attention, hard tasks that need long thinking can be prohibitively expensive. However, we find most intermediate reasoning tokens lose importance as the model continues reasoning. This calls into question whether retaining them is worth the cost. Based on this insight, we propose Prefix Sliding, w",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26070v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T03:30:36.577Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:37:15.000Z",
    "sub": "arXiv cs.CL"
   }
  ],
