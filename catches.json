@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T12:30:47.669Z",
+ "generatedAt": "2026-08-27T13:01:04.612Z",
  "count": 85,
  "catches": [
   {
@@ -1028,6 +1028,34 @@
    }
   },
   {
+   "id": "f-deepmind-blog-05nqb64",
+   "pri": 22,
+   "kind": "note",
+   "title": "Piloting the world's first double-blind AI evaluations",
+   "ctx": "Piloting the world's first double-blind AI evaluations",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "deepmind-blog",
+   "detectedAt": "2026-08-27T13:00:37.586Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T12:59:16.000Z",
+   "sub": "deepmind",
+   "extract": {
+    "ok": true,
+    "text": "August 27, 2026 Responsibility & Safety Piloting the world's first double-blind AI evaluations William Isaac, Sol Messing and Kristian Lum Share Building trust in proprietary model benchmarks using cryptographically secure environments Imagine a student is set to take a high-stakes exam. If they accidentally peek at the test questions in advance, achieving a perfect score is influenced by this knowledge, making it a meaningless accomplishment. To truly measure what they know, they must have no visibility of the test questions until it's time to take the exam. That is the exact challenge the industry faces when evaluating advanced AI models. If a model has already seen the test questions - a problem known as benchmark contamination - the results can only be trusted to an extent. Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box” where they can’t be used by models later to optimize performance ahead of testing. We're partnering with the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons , to test a Gemini Flash Lite model against confidential benchmarks in a privacy-preserving environment , increasing evaluation integrity. At Google, we assess our AI systems using a broad spectrum of evaluations throughout model development and deployment, but we don’t rely on internal testing alone. To identify potential blindspots, we work with a diverse group of external partners, including specialized research labs, civil society and national AI Safety and Security Institutes (AISIs), using their unique expertise to stress-test our models. As AI models become more capable, ensuring the model has not seen the test questions or prompts in advance is critical, as this can skew the results. Policymakers, researchers, and enterprises need to trust that AI benchmarks accurately reflect a model's true capabilities and safety, but if models are able to “peek” at the evaluation questions in advance, it can artificially inflate scores and undermine this trust. Although zero-logging protocols and rigorous contractual safeguards have long kept external test prompts confidential, incorporating technical and cryptographic safeguards marks a major step forward in secure model evaluation. How double-blind evaluations work Historically, high-stakes external evaluations required a tradeoff. Either evaluators handed over their testing prompts (risking th",
+    "chars": 2500,
+    "title": "Piloting the world's first double-blind AI evaluations — Google DeepMind",
+    "fetchedAt": "2026-08-27T13:00:37.586Z"
+   }
+  },
+  {
    "id": "f-deepmind-blog-01u2rp3",
    "pri": 22,
    "kind": "note",
@@ -1973,27 +2001,6 @@
    "detectedAt": "2026-08-27T02:30:36.663Z",
    "tier": "B",
    "itemTs": "2026-08-26T15:37:33.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-07hpgx4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence",
-   "ctx": "Large language models (LLMs) increasingly assess generated content, giving rise to the LLM-as-a-Judge paradigm. These systems now score outputs, filter content, and gate iterative refinement in production pipelines, where each judgment is often assumed to be independent of earlier evaluations. We test this assumption using three prompt conditions: no metadata, revision framing, and anchored metadata containing revision, attempt, and prior-score fields. We show that prior scores, even when includ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25869v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T14:41:24.000Z",
    "sub": "arXiv cs.CL"
   }
  ],
