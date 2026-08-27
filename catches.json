@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T07:30:42.544Z",
+ "generatedAt": "2026-08-27T08:00:47.454Z",
  "count": 85,
  "catches": [
   {
@@ -327,6 +327,34 @@
     "ok": false,
     "reason": "extracted text is markup/template, not prose",
     "fetchedAt": "2026-08-27T03:30:36.577Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-vllm-project-vllm-1arru5e",
+   "pri": 30,
+   "kind": "note",
+   "title": "vllm-project/vllm v0.28.1rc0",
+   "ctx": "[Tools][Recipes] Improve sweep recommendations and short-alias parsin…",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.28.1rc0",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-vllm-project-vllm",
+   "detectedAt": "2026-08-27T08:00:37.887Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T06:58:23.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . vllm-project / vllm Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 21.3k Star 90.2k v0.28.1rc0 v0.28.1rc0 79651d6 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags v0.28.1rc0 v0.28.1rc0 79651d6 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode louie-tsai tagged this 27 Aug 06:58 [Tools][Recipes] Improve sweep recommendations and short-alias parsin… Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "chars": 1239,
+    "title": "Release v0.28.1rc0 · vllm-project/vllm · GitHub",
+    "fetchedAt": "2026-08-27T08:00:37.887Z"
    }
   },
   {
@@ -1919,27 +1947,6 @@
    "detectedAt": "2026-08-27T04:00:36.979Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:57:04.000Z",
-   "sub": "arXiv cs.AI"
-  },
-  {
-   "id": "f-arxiv-cs.AI-1hg93dz",
-   "pri": 45,
-   "kind": "note",
-   "title": "ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing",
-   "ctx": "Deep neural networks often exploit spurious associations in their training data, a failure known as shortcut learning. Concept-based explainability methods screen for shortcuts by testing whether concepts such as a patient's sex or scanner settings can be decoded from a network layer. Because each concept is evaluated in isolation, these methods can mistake correlations between concepts as evidence that the model uses them. We introduce ICON decomposition, which instead quantifies how much of a ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26083v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-08-27T04:00:36.979Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:47:49.000Z",
    "sub": "arXiv cs.AI"
   }
  ],
