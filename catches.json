@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T13:30:43.235Z",
+ "generatedAt": "2026-08-27T14:00:59.144Z",
  "count": 85,
  "catches": [
   {
@@ -353,6 +353,34 @@
     "ok": false,
     "reason": "extracted text is markup/template, not prose",
     "fetchedAt": "2026-08-27T03:30:36.577Z"
+   }
+  },
+  {
+   "id": "f-github-new-repos-13t5v0c",
+   "pri": 8,
+   "kind": "note",
+   "title": "HEJustinSun/my-girlfriend-jingtian-latex — 224★ in 0.3d (896★/day)",
+   "ctx": "(no description)\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-08-27T14:00:37.294Z",
+   "tier": "C",
+   "itemTs": "2026-08-27T11:28:44.000Z",
+   "sub": "github · TeX",
+   "extract": {
+    "ok": true,
+    "text": "我的女友景甜 这是一个 5 x 8 英寸的 XeLaTeX 排版工程。 编译 需要 XeLaTeX 和标准 TeX Live 发行版： mkdir -p build xelatex -interaction=nonstopmode -halt-on-error -output-directory=build main.tex xelatex -interaction=nonstopmode -halt-on-error -output-directory=build main.tex",
+    "chars": 244,
+    "title": "GitHub - HEJustinSun/my-girlfriend-jingtian-latex · GitHub",
+    "fetchedAt": "2026-08-27T14:00:37.294Z"
    }
   },
   {
@@ -997,6 +1025,34 @@
     "chars": 1709,
     "title": "Release b10648 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-08-27T12:00:38.490Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0ti91ue",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10653",
+   "ctx": "llama: model_loader: add TENSOR_READ_LAZY ( #27794 ) llama: model_loader: add TENSOR_GET_ROW_LAZY add --tensor-read-lazy rename to TENSOR_READ_LAZY gen docs address comments Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43411286 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10653",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T14:00:37.294Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T13:50:40.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10653 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 13:48 b10653 fac889f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama: model_loader: add TENSOR_READ_LAZY ( #27794 ) llama: model_loader: add TENSOR_GET_ROW_LAZY add --tensor-read-lazy rename to TENSOR_READ_LAZY gen docs address comments Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43411286 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1784,
+    "title": "Release b10653 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T14:00:37.294Z"
    }
   },
   {
@@ -1959,48 +2015,6 @@
    "detectedAt": "2026-08-27T02:30:36.663Z",
    "tier": "B",
    "itemTs": "2026-08-26T15:23:18.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-0qq3rkq",
-   "pri": 45,
-   "kind": "note",
-   "title": "Formal, Executable and Explainable Runtime Monitoring of Spoken Air Traffic Control Operational Procedures",
-   "ctx": "Air traffic control procedures are executed through spoken exchanges between controllers and pilots. These interactions are essential to the safety of air transportation: failures in their execution can create severe operational hazards, as evidenced by past fatal accidents. Assessing whether an instruction has been followed requires relating what was said to the aircraft concerned, its state, and the obligations that pilots must meet. We present a runtime verification framework that monitors su",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25926v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:37:00.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-0pgme1l",
-   "pri": 45,
-   "kind": "note",
-   "title": "Code World Model: Coding Agent as World Brain",
-   "ctx": "World models aim to simulate how complex environments evolve under actions and events, yet existing video-based world models primarily learn dynamics from visual observations, which reveal outcomes rather than the underlying knowledge, rules, and mechanisms governing world evolution. This makes it difficult to maintain persistent consequences and support coherent, open-ended evolution. We introduce Code World Model, a framework that separates world evolution from visual realization by combining ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25927v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:37:33.000Z",
    "sub": "arXiv cs.CL"
   }
  ],
