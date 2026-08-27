@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T10:00:48.959Z",
+ "generatedAt": "2026-08-27T10:30:48.736Z",
  "count": 85,
  "catches": [
   {
@@ -775,6 +775,34 @@
     "chars": 1747,
     "title": "Release b10642 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-08-26T22:00:36.588Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0zlx5lt",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10645",
+   "ctx": "llama : add --n-cpu-ffn option ( #26622 ) common : dedupe --n-cpu-moe / --spec-draft-n-cpu-moe override loops common : add --n-cpu-ffn to CPU-offload dense FFN weights of first N layers common : generalize llm_ffn_block_regex over the FFN regex, drop TODO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43362872 macOS/iOS: macOS Apple Silicon (arm64) macO",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10645",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T10:30:38.113Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T10:04:09.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10645 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 10:02 b10645 c5fc7e3 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama : add --n-cpu-ffn option ( #26622 ) common : dedupe --n-cpu-moe / --spec-draft-n-cpu-moe override loops common : add --n-cpu-ffn to CPU-offload dense FFN weights of first N layers common : generalize llm_ffn_block_regex over the FFN regex, drop TODO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43362872 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1866,
+    "title": "Release b10645 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T10:30:38.113Z"
    }
   },
   {
@@ -1926,27 +1954,6 @@
    "detectedAt": "2026-08-27T04:00:36.979Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:59:51.000Z",
-   "sub": "arXiv cs.AI"
-  },
-  {
-   "id": "f-arxiv-cs.AI-1l211x4",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
-   "ctx": "In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overlooking their heterogeneous visual dependence (VD). However, we reveal that token-level VD is crucial for MU-CPT. Specifically, its structural distortion serves as an indicator of cross-modal catastrophic forgetting, and ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26095v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-08-27T04:00:36.979Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:57:04.000Z",
    "sub": "arXiv cs.AI"
   }
  ],
