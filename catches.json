@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T20:00:48.604Z",
+ "generatedAt": "2026-08-27T20:31:05.441Z",
  "count": 85,
  "catches": [
   {
@@ -905,6 +905,34 @@
    "tier": "A",
    "itemTs": "2026-08-26T16:53:01.000Z",
    "sub": "github release"
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1wmdcjs",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10660",
+   "ctx": "model: add Qwen3.8-Flash-Next (qwen4exp) ( #27742 ) gguf: add qwen4exp (Qwen3.8-Flash-Next) arch and converter Adds the GGUF-side plumbing for HF model_type qwen4_exp: MODEL_ARCH.QWEN4EXP plus tensors for the low-rank hyper-connection variant (hc_ norm/down/up/inject) and the PLE n-gram hash embeddings. The DeepSeek-V4 hc _fn/base/scale tensors are a different parameterisation, so these are separa",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10660",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T20:30:37.099Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T20:05:01.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10660 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 20:02 b10660 6c84c7d This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model: add Qwen3.8-Flash-Next (qwen4exp) ( #27742 ) gguf: add qwen4exp (Qwen3.8-Flash-Next) arch and converter Adds the GGUF-side plumbing for HF model_type qwen4_exp: MODEL_ARCH.QWEN4EXP plus tensors for the low-rank hyper-connection variant (hc_ norm/down/up/inject) and the PLE n-gram hash embeddings. The DeepSeek-V4 hc _fn/base/scale tensors are a different parameterisation, so these are separate entries rather than reuse. Reuses the existing indexer, per_layer_token_embd, SSM and compress_ratios keys unchanged. conversion/qwen4exp.py inherits the Qwen3.5 linear-attention V-head reorder and interleaved mrope, concatenates the 128 PLE embedding shards, and splits index_qk_proj into separate indexer q/k tensors. The PLE hash multipliers reach ~2.4e13. prepare_tensors() casts every non-float dtype to float32 before modify_tensors() runs, and GGUF array writes infer INT32 from Python ints, so both paths are bypassed: the constants are read from the pre-cast lazy tensors and written as explicit UINT64 arrays. Additive only; no existing arch changes behaviour. llama: load qwen4exp (Qwen3.8-Flash-Next) hparams and tensors Adds LLM_ARCH_QWEN4EXP with its hparams and tensor loading. The graph comes in the next commit; this makes the model load and report correct metadata. hyper-connections set n_embd_out_impl = hc_count * n_embd, so the residual stream is 4x wide and there is no output_norm: the final mixer's hc_norm is the last norm in the model. registered as hybrid and given the same recurrent/attention memory filters as Qwen3-Next and Qwen3.5. reuses the existing indexer, per_layer_token_embd, SSM and compress_ratios keys as-is. the PLE table row count is read back from the file rather than recomputing the vocab padding rule. llama-model-loader gains UINT64 array support. That branch previously threw, so no existing caller changes behaviour; it ",
+    "chars": 2500,
+    "title": "Release b10660 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T20:30:37.099Z"
+   }
   },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1ueyi3n",
@@ -2081,27 +2109,6 @@
    "detectedAt": "2026-08-27T02:30:36.663Z",
    "tier": "B",
    "itemTs": "2026-08-26T14:52:47.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-1spw8el",
-   "pri": 45,
-   "kind": "note",
-   "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
-   "ctx": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles, or centralized workflows. It remains unclear whether decentralized agents can build functional technologies and outperform independent search. Here, initially homogeneous LLM agents in SwarmWorld se",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26081v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T03:30:36.577Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:45:34.000Z",
    "sub": "arXiv cs.CL"
   }
  ],
