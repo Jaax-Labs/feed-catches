@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T21:00:48.942Z",
+ "generatedAt": "2026-08-27T21:30:43.005Z",
  "count": 85,
  "catches": [
   {
@@ -795,6 +795,34 @@
    }
   },
   {
+   "id": "f-gh-releases-langchain-ai-langgraph-14xv8ec",
+   "pri": 30,
+   "kind": "note",
+   "title": "langchain-ai/langgraph langgraph-sdk==0.4.4",
+   "ctx": "Changes since sdk==0.4.3 release(sdk-py): 0.4.4 ( #8738 ) Merge commit from fork feat: route LangSmith traces from thread streams ( #8723 )",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-langchain-ai-langgraph",
+   "detectedAt": "2026-08-27T21:30:36.587Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T21:25:36.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . langchain-ai / langgraph Public Notifications You must be signed in to change notification settings Fork 6.8k Star 40.6k langgraph-sdk==0.4.4 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 21:25 sdk==0.4.4 d5f4b2a This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Changes since sdk==0.4.3 release(sdk-py): 0.4.4 ( #8738 ) Merge commit from fork feat: route LangSmith traces from thread streams ( #8723 ) Assets 2 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 874,
+    "title": "Release langgraph-sdk==0.4.4 · langchain-ai/langgraph · GitHub",
+    "fetchedAt": "2026-08-27T21:30:36.587Z"
+   }
+  },
+  {
    "id": "f-gh-releases-huggingface-transformers-11ka7fr",
    "pri": 30,
    "kind": "note",
@@ -905,6 +933,34 @@
    "tier": "A",
    "itemTs": "2026-08-26T16:53:01.000Z",
    "sub": "github release"
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1x6cjxq",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10662",
+   "ctx": "server: add ctx-per-slot (--kv-unified-per-slot) ( #24124 ) Add ctx-per-slot argument for unifid KV cache Swap out ctx fractions for ctx pool slots Formatting cleanup Remove ctx-pool-slots, make ctx-per-slot an int refactor it Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43512604 macOS/iOS: macOS Appl",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10662",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T21:30:36.587Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T21:09:16.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10662 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 21:07 b10662 1844325 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . server: add ctx-per-slot (--kv-unified-per-slot) ( #24124 ) Add ctx-per-slot argument for unifid KV cache Swap out ctx fractions for ctx pool slots Formatting cleanup Remove ctx-pool-slots, make ctx-per-slot an int refactor it Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43512604 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1888,
+    "title": "Release b10662 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T21:30:36.587Z"
+   }
   },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1wwcy8r",
@@ -2075,48 +2131,6 @@
    "tier": "B",
    "itemTs": "2026-08-26T15:22:52.000Z",
    "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.CL-1ylmwos",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study",
-   "ctx": "Automatic Speech Recognition (ASR) technologies have achieved remarkable performance in recent years through the use of large multilingual foundation models. However, most advances remain concentrated on high-resource languages, while indigenous languages continue to suffer from a lack of speech resources and language technologies. This work presents a preliminary study on the adaptation of Whisper for Automatic Speech Recognition in Baniwa, an indigenous Arawakan language spoken in Brazil, Colo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26060v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T03:30:36.577Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:29:47.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-1uub7h8",
-   "pri": 45,
-   "kind": "note",
-   "title": "From Passive Response to Proactive Correction: Enhancing LLM Robustness Against Input Fact Perturbations",
-   "ctx": "Large language models (LLMs) frequently produce confident yet factually incorrect responses when user inputs contain misleading premises, a phenomenon we attribute to fact perturbations in the input. Existing approaches to hallucination mitigation typically assume reliable user inputs, overlooking how such factual errors can actively mislead model reasoning. To address this vulnerability, we propose DEDUCE, a three-stage framework that transforms LLMs from passive responders into proactive error",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25894v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:13:50.000Z",
-   "sub": "arXiv cs.CL"
   }
  ],
  "clicks": {
