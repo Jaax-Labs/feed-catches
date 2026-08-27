@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T11:00:45.817Z",
+ "generatedAt": "2026-08-27T11:30:47.264Z",
  "count": 85,
  "catches": [
   {
@@ -857,6 +857,34 @@
     "chars": 1699,
     "title": "Release b10644 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-08-27T05:30:36.983Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0z1xy7v",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10647",
+   "ctx": "args: add --video-* CLI arguments ( #24318 ) args: add --video-* CLI arguments gen docs nits add mtmd_helper_init_opt Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43380700 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s39",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10647",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T11:30:39.617Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T11:27:29.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10647 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 11:25 b10647 f295512 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . args: add --video-* CLI arguments ( #24318 ) args: add --video-* CLI arguments gen docs nits add mtmd_helper_init_opt Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43380700 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1728,
+    "title": "Release b10647 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T11:30:39.617Z"
    }
   },
   {
@@ -1945,27 +1973,6 @@
    "detectedAt": "2026-08-27T04:00:36.979Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:56:33.000Z",
-   "sub": "arXiv cs.AI"
-  },
-  {
-   "id": "f-arxiv-cs.AI-1rslocz",
-   "pri": 45,
-   "kind": "note",
-   "title": "One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",
-   "ctx": "On-policy distillation trains a language model on its own generations while a teacher scores them token by token. It combines the dense supervision of imitation learning with the on-policy sampling of reinforcement learning. But it requires a second, larger model to act as teacher. On-Policy Self-Distillation (OPSD) removes that cost. The teacher is the model itself, conditioned on privileged information the student will not have at test time, such as a reference solution, a plan, or environment",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25936v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:52:19.000Z",
    "sub": "arXiv cs.AI"
   }
  ],
