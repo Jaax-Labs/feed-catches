@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T18:30:45.068Z",
+ "generatedAt": "2026-08-27T19:30:47.953Z",
  "count": 85,
  "catches": [
   {
@@ -1152,6 +1152,62 @@
    }
   },
   {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0vg69p7",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10658",
+   "ctx": "spec : add DFlash2 support (local convolution + candidate selector) ( #27342 ) ( #27816 ) spec : add DFlash2 support (local convolution + candidate selector) ( #27342 ) support DFlash2 Add p_min in DFlash2 Assisted-by: Claude Opus 5 Revert unnecessary changes Assisted-by: Claude Opus 5 Revert draft sampling in rejection sampling Assisted-by: Claude Opus 5 Refactor code structure Assisted-by: Claud",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10658",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T19:00:38.463Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T18:34:41.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10658 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 18:32 b10658 b10f9ca This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . spec : add DFlash2 support (local convolution + candidate selector) ( #27342 ) ( #27816 ) spec : add DFlash2 support (local convolution + candidate selector) ( #27342 ) support DFlash2 Add p_min in DFlash2 Assisted-by: Claude Opus 5 Revert unnecessary changes Assisted-by: Claude Opus 5 Revert draft sampling in rejection sampling Assisted-by: Claude Opus 5 Refactor code structure Assisted-by: Claude Opus 5 Delete embedding scaling Assisted-by: Claude Opus 5 Gate output transforms on DFlash2 Assisted-by: Claude Opus 5 Optimize Dflash 2 cost Assisted-by: Claude Opus 5 Avoid using atoi Assisted-by: Claude Opus 5 Modify comments Assisted-by: Claude Opus 5 Move llama_model_dflash_selector_top_k to llama-ext.h Assisted-by: Claude Opus 5 Formatting Assisted-by: Claude Opus 5 Apply patch to fix the mrope bug Assisted-by: Claude Opus 5 fix ci Assisted-by: Claude Opus 5 Fix graph number calculation Assisted-by: Claude Opus 5 rename hid and unary Assisted-by: Claude Opus 5 Co-authored-by: Jian Chen jianchen0311@gmail.com Co-authored-by: Xuan-Son Nguyen son@huggingface.co revert top-k.cu changes Co-authored-by: Zihan Zhang tiancaizhangdaxian@sjtu.edu.cn Co-authored-by: Jian Chen jianchen0311@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43480692 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows ",
+    "chars": 2500,
+    "title": "Release b10658 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T19:00:38.463Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0v66o08",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10659",
+   "ctx": "ci : bundle HIP runtime DLLs with Windows ROCm release ( #26973 ) Copy amdhip64_7, amd_comgr and rocm_kpack next to the binaries so the correct HIP runtime loads over the driver's copy in System32. Fixes #26929 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43487895 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) D",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10659",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-27T19:30:37.195Z",
+   "tier": "A",
+   "itemTs": "2026-08-27T19:09:45.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10659 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 19:07 b10659 6fdd0ac This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ci : bundle HIP runtime DLLs with Windows ROCm release ( #26973 ) Copy amdhip64_7, amd_comgr and rocm_kpack next to the binaries so the correct HIP runtime loads over the driver's copy in System32. Fixes #26929 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43487895 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 1823,
+    "title": "Release b10659 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-27T19:30:37.195Z"
+   }
+  },
+  {
    "id": "f-gh-releases-ggml-org-llama-cpp-0uw72b9",
    "pri": 30,
    "kind": "note",
@@ -1442,6 +1498,53 @@
     "openrouter"
    ],
    "sub": "cascade shape · arxiv, huggingface, openrouter"
+  },
+  {
+   "id": "f-cascade-0vo5eru",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"claude opus\" — 3 independent sources in 31h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 31 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• anthropic — Claude opus 5\n• reddit — Compared Qwen 3.8 27B community quants on RTX 6000 vs Claude Opus 4.6\n• gh-release:ggml-org/llama.cpp — b10658\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open anthropic",
+     "href": "https://www.anthropic.com/news/claude-opus-5",
+     "primary": true
+    },
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1vz779w/compared_qwen_38_27b_community_quants_on_rtx_6000/",
+     "primary": false
+    },
+    {
+     "label": "Open gh-release:ggml-org/llama.cpp",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10658",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-08-27T19:00:38.463Z",
+   "tier": "X",
+   "families": [
+    "anthropic",
+    "reddit",
+    "gh-release:ggml-org/llama.cpp"
+   ],
+   "roots": [
+    "anthropic",
+    "reddit",
+    "gh:ggml-org"
+   ],
+   "sub": "cascade shape · anthropic, reddit, gh:ggml-org",
+   "extract": {
+    "ok": true,
+    "text": "Product Announcements Introducing Claude Opus 5 Jul 24, 2026 Claude Opus 5 is available today. It’s a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price. On coding and knowledge work evaluations like Frontier-Bench and GDPval-AA , Opus 5 is the new state-of-the-art, though it remains behind Mythos 5 on cybersecurity tasks. Opus 5 is designed to be used every day: it works more efficiently than other models. It’s the new default model on Claude Max, and the strongest model on Claude Pro. Performance and cost-effectiveness Claude Opus 5 provides greatly improved performance for the same cost as its predecessor, Opus 4.8. The charts in this section show how performance changes according to the model’s effort setting, which customers can use to optimize for intelligence or conserve tokens for faster and cheaper results. Opus 5 excels on valuable software engineering tasks. For example, on Frontier-Bench v0.1, Opus 5 surpasses all other models, and more than doubles Opus 4.8’s performance at a lower cost per task. On CursorBench 3.2 , at max effort, the model performs within 0.5% of Fable 5’s peak score, but at half the cost per task; it also achieves greater performance at a given cost than all other models on high, xhigh, and max effort. Frontier-Bench v0.1 CursorBench AA Coding Agent Index We see similar results on knowledge work and problem-solving tasks. For example: On ARC-AGI 3 , an evaluation where the model has to solve novel problems, Opus 5’s score is three times as high as the next-best model. On Zapier AutomationBench , which measures whether models can complete business tasks from start to finish, Opus 5’s pass rate is around 1.5× the next-best model for the same cost per task. Even at its lowest effort setting, Opus 5 passes more tasks than any other model. On OSWorld 2.0 , a computer use benchmark, Opus 5 outperforms every other model at any given cost, surpassing Fable 5’s best result at just over a third of the cost. It’s also our best and most cost-efficient model on several related evaluations: ARC-AGI 3 GDPval-AA v2 OSWorld 2.0 HLE AutomationBench DeepSearchQA Opus 5 is a meaningful improvement over Opus 4.8 for scientific research. It shows better performance than Opus 4.8 on every one of our life sciences evaluations, which cover topics including structural biology, organic chemistry, and bioinformatics. Its improvements are most notable on organic chemistry tasks, like inferri",
+    "chars": 2500,
+    "title": "Introducing Claude Opus 5 \\ Anthropic",
+    "fetchedAt": "2026-08-27T19:00:38.463Z"
+   }
   },
   {
    "id": "f-cascade-0qjfhba",
@@ -1999,69 +2102,6 @@
    "detectedAt": "2026-08-27T03:30:36.577Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:45:34.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-1rslocz",
-   "pri": 45,
-   "kind": "note",
-   "title": "One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",
-   "ctx": "On-policy distillation trains a language model on its own generations while a teacher scores them token by token. It combines the dense supervision of imitation learning with the on-policy sampling of reinforcement learning. But it requires a second, larger model to act as teacher. On-Policy Self-Distillation (OPSD) removes that cost. The teacher is the model itself, conditioned on privileged information the student will not have at test time, such as a reference solution, a plan, or environment",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25936v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:52:19.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-1k944lv",
-   "pri": 45,
-   "kind": "note",
-   "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
-   "ctx": "Answer accuracy is an insufficient reliability signal for LLM data agents. In structured-data tasks, a benchmark-correct answer can be produced by an invalid trace. This paper introduces Trace Integrity, a deployment reliability criterion for evaluating whether the computation recorded behind an answer is explicit, executable, schema-valid, operator-faithful, replayable, answer-consistent, and auditable. We identify the Structure Gap as the deployment failure mode that makes Trace Integrity nece",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26036v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T03:30:36.577Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:15:24.000Z",
-   "sub": "arXiv cs.CL"
-  },
-  {
-   "id": "f-arxiv-cs.CL-1evwpth",
-   "pri": 45,
-   "kind": "note",
-   "title": "How Much Rank Does LoRA Need? Rank-Error Bounds for Transformer Attention",
-   "ctx": "Choosing the rank of a low-rank adaptation (LoRA) update is usually an empirical task. In this paper, we provide a task-dependent theory of the approximation error achievable at each LoRA rank for Transformer attention. We fix a pretrained attention head, a target attention function, and a distribution over inputs from the downstream task, and bound the smallest expected Kullback--Leibler (KL) error achievable by a rank-$r$ query LoRA update. When target attention probabilities are bounded away ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26052v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-27T03:30:36.577Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:25:03.000Z",
    "sub": "arXiv cs.CL"
   }
  ],
