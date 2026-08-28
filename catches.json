@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T09:00:49.486Z",
+ "generatedAt": "2026-08-28T09:30:56.275Z",
  "count": 85,
  "catches": [
   {
@@ -283,6 +283,32 @@
     "ok": false,
     "reason": "HTTP 403",
     "fetchedAt": "2026-08-27T16:30:37.019Z"
+   }
+  },
+  {
+   "id": "f-openai-news-02w8b1v",
+   "pri": 15,
+   "kind": "note",
+   "title": "Supporting Thailand’s next generation of AI startups",
+   "ctx": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openai-news",
+   "detectedAt": "2026-08-28T09:30:36.096Z",
+   "tier": "A",
+   "itemTs": "2026-08-28T02:00:00.000Z",
+   "sub": "openai",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-08-28T09:30:36.096Z"
    }
   },
   {
@@ -2205,27 +2231,6 @@
    "detectedAt": "2026-08-27T02:30:36.663Z",
    "tier": "B",
    "itemTs": "2026-08-26T15:42:12.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-1niz2t9",
-   "pri": 45,
-   "kind": "note",
-   "title": "How Language Models Organize and Structure Moral Knowledge",
-   "ctx": "How do large language models (LLMs) organize moral knowledge? Models detect moral content broadly, but detection is a low bar. We ask whether they go further, distinguishing moral foundations from one another and organizing the relationships between them geometrically. We train six independent linear probes on open-weight language models, one per Moral Foundations Theory (MFT) category (care/harm, fair/cheat, lib/oppress, loy/betray, auth/subv, sanc/degrade), and examine how the resulting direct",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27402v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-28T03:30:35.896Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T17:30:30.000Z",
    "sub": "arXiv cs.LG"
   }
  ],
