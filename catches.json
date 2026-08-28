@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T14:30:47.652Z",
+ "generatedAt": "2026-08-28T15:00:48.499Z",
  "count": 85,
  "catches": [
   {
@@ -706,6 +706,34 @@
     "chars": 828,
     "title": "Release rust-v0.151.0-alpha.8 · openai/codex · GitHub",
     "fetchedAt": "2026-08-28T03:00:35.977Z"
+   }
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0xpabx4",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.151.0-alpha.9",
+   "ctx": "Release 0.151.0-alpha.9",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.9",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-08-28T15:00:38.093Z",
+   "tier": "A",
+   "itemTs": "2026-08-28T14:37:14.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.2k Star 119k rust-v0.151.0-alpha.9 rust-v0.151.0-alpha.9 4325f6f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.151.0-alpha.9 rust-v0.151.0-alpha.9 4325f6f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 28 Aug 14:37 Release 0.151.0-alpha.9 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "chars": 828,
+    "title": "Release rust-v0.151.0-alpha.9 · openai/codex · GitHub",
+    "fetchedAt": "2026-08-28T15:00:38.093Z"
    }
   },
   {
@@ -2156,53 +2184,6 @@
     "hf-author:Qwen"
    ],
    "sub": "cascade shape · huggingface-models, hf-author:tencent, hf-author:Qwen"
-  },
-  {
-   "id": "f-cascade-188i1mu",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"coding agent\" — 3 independent sources in 51h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 51 hours, in 4 items (0.0% of the window — below the 15% background threshold).\n\n• arxiv — Code World Model: Coding Agent as World Brain\n• huggingface-papers — Code World Model: Coding Agent as World Brain\n• simonwillison — Breaking Claude Code Opus 5 Auto Mode\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open arxiv",
-     "href": "https://arxiv.org/abs/2608.25927v1",
-     "primary": true
-    },
-    {
-     "label": "Open huggingface-papers",
-     "href": "https://huggingface.co/papers/2608.25927",
-     "primary": false
-    },
-    {
-     "label": "Open simonwillison",
-     "href": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-08-27T23:00:37.663Z",
-   "tier": "X",
-   "families": [
-    "arxiv",
-    "huggingface-papers",
-    "simonwillison"
-   ],
-   "roots": [
-    "arxiv",
-    "huggingface",
-    "simonwillison"
-   ],
-   "sub": "cascade shape · arxiv, huggingface, simonwillison",
-   "extract": {
-    "ok": true,
-    "text": "Computer Science > Computer Vision and Pattern Recognition arXiv:2608.25927v1 (cs) [Submitted on 26 Aug 2026] Title: Code World Model: Coding Agent as World Brain Authors: Yiwen Chen , Guosheng Lin , Chi Zhang View a PDF of the paper titled Code World Model: Coding Agent as World Brain, by Yiwen Chen and 2 other authors View PDF HTML (experimental) Abstract: World models aim to simulate how complex environments evolve under actions and events, yet existing video-based world models primarily learn dynamics from visual observations, which reveal outcomes rather than the underlying knowledge, rules, and mechanisms governing world evolution. This makes it difficult to maintain persistent consequences and support coherent, open-ended evolution. We introduce Code World Model, a framework that separates world evolution from visual realization by combining the reasoning and coding capabilities of language models with the generative priors of video models. A coding agent serves as the world brain, reasoning about events and their consequences and generating executable code to maintain persistent world state and perform rule-consistent evolution. To connect executable state with visual generation, we introduce a proxy representation that encodes frame-wise spatiotemporal constraints and is compiled into a proxy video, which conditions a video model to render high-fidelity visual observations. We further develop data pipelines for constructing aligned proxy-observation pairs from gameplay and real-world videos. After fine-tuning on paired gameplay data, MiniMax-H3 follows proxy-based spatiotemporal specifications from simple interactive worlds built by the coding agent while preserving rich visual details and dynamics. These results demonstrate the potential of combining code for persistent world evolution with video models for flexible visual realization, providing a new path toward open-ended world models. Comments: Project Page: this https URL Subjects: Computer Vision and Pattern Recognition (cs.CV) ; Artificial Intelligence (cs.AI); Computation and Language (cs.CL) Cite as: arXiv:2608.25927 [cs.CV] (or arXiv:2608.25927v1 [cs.CV] for this version) https://doi.org/10.48550/arXiv.2608.25927 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Yiwen Chen [ view email ] [v1] Wed, 26 Aug 2026 15:37:33 UTC (14,377 KB) Full-text links: Access Paper: View a PDF of the paper titled Code World Model: Coding Agent as World Brain, by Yiwen Chen and 2 ot",
-    "chars": 2500,
-    "title": "[2608.25927v1] Code World Model: Coding Agent as World Brain",
-    "fetchedAt": "2026-08-27T23:00:37.663Z"
-   }
   }
  ],
  "clicks": {
