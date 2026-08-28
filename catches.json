@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T13:31:00.994Z",
+ "generatedAt": "2026-08-28T14:01:05.837Z",
  "count": 85,
  "catches": [
   {
@@ -1276,6 +1276,34 @@
    }
   },
   {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1xqewtn",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10672",
+   "ctx": "OpenVINO: Update OV to 2026.3.1, whisper.cpp support, Qwen3.5 on NPU, and new ops ( #27843 ) OpenVINO Backend: Fuse IM2COL + MatMul convolution into OpenVINO convolution ci:ggml-ov: Skip recurrent state rollback tests ci:ggml-ov: Skip recurrent state rollback tests Update OPENVINO.md ggml-openvino : add env-var gated op support debugging Fix ggml_rope_set_offset case OpenVINO backend: Support Whis",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10672",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-28T14:00:39.711Z",
+   "tier": "A",
+   "itemTs": "2026-08-28T13:53:31.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10672 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 13:51 b10672 511f9c1 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . OpenVINO: Update OV to 2026.3.1, whisper.cpp support, Qwen3.5 on NPU, and new ops ( #27843 ) OpenVINO Backend: Fuse IM2COL + MatMul convolution into OpenVINO convolution ci:ggml-ov: Skip recurrent state rollback tests ci:ggml-ov: Skip recurrent state rollback tests Update OPENVINO.md ggml-openvino : add env-var gated op support debugging Fix ggml_rope_set_offset case OpenVINO backend: Support Whisper.cpp Fix code style openvino : enable qwen35 on NPU Static shapes: get_graph_input_shape() left the s_copy / s_copy-leaf inputs dynamic ([1,1,1,-1]) even in static mode, which propagated a dynamic slot dim through GET_ROWS into the conv/GDN state, the state reshapes and the GDN output. With -np 1 the s_copy defrag remainder gathers zero rows; short-circuit that CPY to the untouched cache instead of emitting a degenerate Slice/Concat, and skip binding its zero-byte ggml tensor as an output (the dynamic path already did the latter, the static path wrote the full cache over a 0-byte buffer). Token-count independence: In static mode the compiled model's token count is the prefill chunk size or 1, not the captured cgraph's. Offsets derived from the captured count were therefore wrong. Anchor the GDN state slice at the end of the packed [attn | state] output and drop the rs_src_begin runtime inputs, and make VIEWs over the GDN output / conv_input pass through so the consumer does the slicing. CONT could not identify its token axis when the graph was captured with a single token (every trailing dim has the same stride and size 1) and baked the captured shape into the prefill model. Chunked prefill: The last chunk is padded with fabricated tokens. Attention masks them, but the recurrent path folded them into cache_r/cache_s permanently. Add a chunk_valid_len runtime input, use it to zero g and beta for padded steps (making the recurrence an exact identity)",
+    "chars": 2500,
+    "title": "Release b10672 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-28T14:00:39.711Z"
+   }
+  },
+  {
    "id": "f-gh-releases-ggml-org-llama-cpp-1xqbrbo",
    "pri": 30,
    "kind": "note",
@@ -2187,53 +2215,6 @@
     "openrouter"
    ],
    "sub": "cascade shape · arxiv, huggingface, openrouter"
-  },
-  {
-   "id": "f-cascade-0vo5eru",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"claude opus\" — 3 independent sources in 31h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 31 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• anthropic — Claude opus 5\n• reddit — Compared Qwen 3.8 27B community quants on RTX 6000 vs Claude Opus 4.6\n• gh-release:ggml-org/llama.cpp — b10658\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open anthropic",
-     "href": "https://www.anthropic.com/news/claude-opus-5",
-     "primary": true
-    },
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1vz779w/compared_qwen_38_27b_community_quants_on_rtx_6000/",
-     "primary": false
-    },
-    {
-     "label": "Open gh-release:ggml-org/llama.cpp",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10658",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-08-27T19:00:38.463Z",
-   "tier": "X",
-   "families": [
-    "anthropic",
-    "reddit",
-    "gh-release:ggml-org/llama.cpp"
-   ],
-   "roots": [
-    "anthropic",
-    "reddit",
-    "gh:ggml-org"
-   ],
-   "sub": "cascade shape · anthropic, reddit, gh:ggml-org",
-   "extract": {
-    "ok": true,
-    "text": "Product Announcements Introducing Claude Opus 5 Jul 24, 2026 Claude Opus 5 is available today. It’s a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price. On coding and knowledge work evaluations like Frontier-Bench and GDPval-AA , Opus 5 is the new state-of-the-art, though it remains behind Mythos 5 on cybersecurity tasks. Opus 5 is designed to be used every day: it works more efficiently than other models. It’s the new default model on Claude Max, and the strongest model on Claude Pro. Performance and cost-effectiveness Claude Opus 5 provides greatly improved performance for the same cost as its predecessor, Opus 4.8. The charts in this section show how performance changes according to the model’s effort setting, which customers can use to optimize for intelligence or conserve tokens for faster and cheaper results. Opus 5 excels on valuable software engineering tasks. For example, on Frontier-Bench v0.1, Opus 5 surpasses all other models, and more than doubles Opus 4.8’s performance at a lower cost per task. On CursorBench 3.2 , at max effort, the model performs within 0.5% of Fable 5’s peak score, but at half the cost per task; it also achieves greater performance at a given cost than all other models on high, xhigh, and max effort. Frontier-Bench v0.1 CursorBench AA Coding Agent Index We see similar results on knowledge work and problem-solving tasks. For example: On ARC-AGI 3 , an evaluation where the model has to solve novel problems, Opus 5’s score is three times as high as the next-best model. On Zapier AutomationBench , which measures whether models can complete business tasks from start to finish, Opus 5’s pass rate is around 1.5× the next-best model for the same cost per task. Even at its lowest effort setting, Opus 5 passes more tasks than any other model. On OSWorld 2.0 , a computer use benchmark, Opus 5 outperforms every other model at any given cost, surpassing Fable 5’s best result at just over a third of the cost. It’s also our best and most cost-efficient model on several related evaluations: ARC-AGI 3 GDPval-AA v2 OSWorld 2.0 HLE AutomationBench DeepSearchQA Opus 5 is a meaningful improvement over Opus 4.8 for scientific research. It shows better performance than Opus 4.8 on every one of our life sciences evaluations, which cover topics including structural biology, organic chemistry, and bioinformatics. Its improvements are most notable on organic chemistry tasks, like inferri",
-    "chars": 2500,
-    "title": "Introducing Claude Opus 5 \\ Anthropic",
-    "fetchedAt": "2026-08-27T19:00:38.463Z"
-   }
   }
  ],
  "clicks": {
