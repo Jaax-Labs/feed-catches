@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T12:30:46.307Z",
+ "generatedAt": "2026-08-28T13:00:59.556Z",
  "count": 85,
  "catches": [
   {
@@ -1388,6 +1388,34 @@
    }
   },
   {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1uog4oz",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10669",
+   "ctx": "sycl: bind the f16 KV cache in place for the oneDNN SDPA path ( #27468 ) Measured at a live KV length of 34816 (32768 depth plus one 2048 ubatch), on Qwen3.8 27B Q4_K_S: per tensor 4 * 34816 * 256 * 2 B = 71.3 MB staged per call K and V, so 2x = 142.6 MB traffic per call read once, write once = 285.2 MB traffic per ubatch 285.2 MB * 16 calls = 4.56 GB One ubatch is one ggml_cgraph submission (llam",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10669",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-28T13:00:37.311Z",
+   "tier": "A",
+   "itemTs": "2026-08-28T12:45:55.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10669 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 12:44 b10669 be87620 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl: bind the f16 KV cache in place for the oneDNN SDPA path ( #27468 ) Measured at a live KV length of 34816 (32768 depth plus one 2048 ubatch), on Qwen3.8 27B Q4_K_S: per tensor 4 * 34816 * 256 * 2 B = 71.3 MB staged per call K and V, so 2x = 142.6 MB traffic per call read once, write once = 285.2 MB traffic per ubatch 285.2 MB * 16 calls = 4.56 GB One ubatch is one ggml_cgraph submission (llama_context::process_ubatch -> graph_compute), so that 4.56 GB is the cost of a single 2048-token prefill chunk, and it scales with the live KV length: the first ubatch of the same run, at seq = 2048, moves 0.27 GB. Reproduce the two measured inputs with: GGML_SCHED_DEBUG=2 llama-bench -m MODEL -p 8 -n 0 -r 1 -ngl 0 -fa on -ctk f16 -ctv f16 -v > nd.txt 2>&1 grep -E 'n_layer|n_head_kv|n_embd_head_k' nd.txt awk '/node # 0 /{g++} g==1 && /(FLASH_ATTN)/{n++} END{print n+0}' nd.txt Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43654339 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "chars": 2490,
+    "title": "Release b10669 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-28T13:00:37.311Z"
+   }
+  },
+  {
    "id": "f-gh-releases-ggml-org-llama-cpp-1ueyi3n",
    "pri": 30,
    "kind": "note",
@@ -2225,27 +2253,6 @@
     "title": "GLM 5.3 Flash - API Pricing & Benchmarks | OpenRouter",
     "fetchedAt": "2026-08-27T02:30:36.663Z"
    }
-  },
-  {
-   "id": "f-arxiv-cs.LG-1wxk7fo",
-   "pri": 45,
-   "kind": "note",
-   "title": "Token-Level Advertising",
-   "ctx": "Generative AI is transforming how people access information, challenging traditional advertising mechanisms built around predefined slots. Towards generation-native advertising, we propose the Latent Advertiser Mixture Auction (LAMA), a token-level advertising mechanism that embeds advertiser influence directly into the generation process. Advertisers report local continuation values that induce advertiser-specific next-token policies, from which the platform decodes through a latent mixture whi",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27382v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-28T03:30:35.896Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T17:18:27.000Z",
-   "sub": "arXiv cs.LG"
   }
  ],
  "clicks": {
