@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T00:30:52.126Z",
+ "generatedAt": "2026-08-28T01:00:46.778Z",
  "count": 85,
  "catches": [
   {
@@ -1593,6 +1593,34 @@
    }
   },
   {
+   "id": "f-gh-releases-anthropics-claude-code-1qcdvoc",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.250",
+   "ctx": "What's changed Bug fixes and reliability improvements",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-08-28T01:00:36.669Z",
+   "tier": "A",
+   "itemTs": "2026-08-28T00:49:16.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 22.9k Star 143k v2.1.250 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 28 Aug 00:49 v2.1.250 92bb685 What's changed Bug fixes and reliability improvements Assets 12 Loading Uh oh! There was an error while loading. Please reload this page . 👍 1 mike1858 reacted with thumbs up emoji 😄 1 mike1858 reacted with laugh emoji 🎉 1 mike1858 reacted with hooray emoji ❤️ 1 mike1858 reacted with heart emoji 🚀 1 mike1858 reacted with rocket emoji 👀 1 mike1858 reacted with eyes emoji All reactions 👍 1 reaction 😄 1 reaction 🎉 1 reaction ❤️ 1 reaction 🚀 1 reaction 👀 1 reaction 1 person reacted",
+    "chars": 961,
+    "title": "Release v2.1.250 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-08-28T01:00:36.669Z"
+   }
+  },
+  {
    "id": "f-gh-releases-anthropics-claude-code-1q2hfhc",
    "pri": 30,
    "kind": "note",
@@ -2163,27 +2191,6 @@
    "detectedAt": "2026-08-27T04:00:36.979Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:50:13.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-0ud0wdt",
-   "pri": 45,
-   "kind": "note",
-   "title": "Prefix Sliding for efficient test-time scaling",
-   "ctx": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As models keep the entire reasoning trace in memory via full attention, hard tasks that need long thinking can be prohibitively expensive. However, we find most intermediate reasoning tokens lose importance as the model continues reasoning. This calls into question whether retaining them is worth the cost. Based on this insight, we propose Prefix Sliding, w",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26070v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-27T04:00:36.979Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:37:15.000Z",
    "sub": "arXiv cs.LG"
   }
  ],
