@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T06:31:00.061Z",
+ "generatedAt": "2026-08-28T07:01:07.075Z",
  "count": 85,
  "catches": [
   {
@@ -1073,6 +1073,34 @@
    "tier": "A",
    "itemTs": "2026-08-26T16:11:54.000Z",
    "sub": "github release"
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1yaaypm",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10666: tests : run test-save-load-state across all architectures (#27755)",
+   "ctx": "tests : run test-save-load-state across all architectures test-save-load-state previously only ran in ctest against a single downloaded model (tinyllamas/stories15M), i.e. only the llama arch. Add a --models DIR mode to test-save-load-state that runs the full save/load suite over every *.gguf in a directory, reporting a per-model PASS/FAIL and exiting non-zero if any model fails, and wire a ctest ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10666",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-28T07:00:37.904Z",
+   "tier": "A",
+   "itemTs": "2026-08-28T06:45:19.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10666 b10666 4e97ac8 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10666: tests : run test-save-load-state across all architectures (#27755) b10666 4e97ac8 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode ggerganov tagged this 28 Aug 06:45 * tests : run test-save-load-state across all architectures test-save-load-state previously only ran in ctest against a single downloaded model (tinyllamas/stories15M), i.e. only the llama arch. Add a --models DIR mode to test-save-load-state that runs the full save/load suite over every *.gguf in a directory, reporting a per-model PASS/FAIL and exiting non-zero if any model fails, and wire a ctest to run it over all architectures using the existing generate-models fixture (test-llama-archs). The single-model -m mode is preserved (still used by ci/run.sh). Also bump the dummy-model training context in test-llama-archs from 128 to 256 so that the per-sequence context (which is padded up to a multiple of 256) no longer exceeds n_ctx_train and emits the \"possible training context overflow\" warning. The test is expected to fail until the affected arches are fixed: deepseek4 (host seq-copy), gemma2/gpt-oss/lfm2 (device seq-copy), minimax-01 (state load). It aborts at the first arch that crashes. Assisted-by: pi:llama.cpp/Qwen3.8-27B * tests : match dummy DSA indexer to fused Lightning Indexer kernel The dummy DSA indexer (deepseek32, glm-dsa, ...) used key_length=64 and head_count=1, so the fused Lightning Indexer op's q tensor was shaped [64, 1, ...]. The Metal fused kernel is fixed to DK=128, NH=64, so it rejected the op and the scheduler fell back to CPU, emitting a 'layer assigned to MTL but Lightning Indexer",
+    "chars": 2500,
+    "title": "Release b10666: tests : run test-save-load-state across all architectures (#27755) · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-28T07:00:37.904Z"
+   }
   },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1y0tc4a",
@@ -2198,27 +2226,6 @@
    "detectedAt": "2026-08-27T02:30:36.663Z",
    "tier": "B",
    "itemTs": "2026-08-26T15:24:42.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-1ly3lqm",
-   "pri": 45,
-   "kind": "note",
-   "title": "Profit based evaluation of machine learning for nitrogen recommendations in winter wheat",
-   "ctx": "Nitrogen rates for winter wheat are set before the season, under unknown prices and weather. The standard UK advice does not respond to prices, yet recent price swings moved the most profitable rate by tens of kilograms per hectare. Machine learning is often proposed as the fix. However, it is usually judged on prediction accuracy, and accurate prediction does not by itself make the recommended rate more profitable. Our insight is to score nitrogen advice directly by the profit it forgoes on mea",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27205v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-28T02:00:36.187Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T14:52:02.000Z",
    "sub": "arXiv cs.LG"
   }
  ],
