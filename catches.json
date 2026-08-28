@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T21:00:42.583Z",
+ "generatedAt": "2026-08-28T21:31:04.478Z",
  "count": 85,
  "catches": [
   {
@@ -456,6 +456,27 @@
    "detectedAt": "2026-08-26T14:00:59.567Z",
    "tier": "A",
    "itemTs": "2026-08-26T00:00:00.000Z",
+   "sub": "huggingface-blog"
+  },
+  {
+   "id": "f-huggingface-blog-109ahlx",
+   "pri": 40,
+   "kind": "note",
+   "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-08-28T21:30:38.199Z",
+   "tier": "A",
+   "itemTs": "2026-08-28T00:00:00.000Z",
    "sub": "huggingface-blog"
   },
   {
@@ -2162,34 +2183,6 @@
     "chars": 2226,
     "title": "Release b10655 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-08-27T14:30:36.994Z"
-   }
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0ti91ue",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10653",
-   "ctx": "llama: model_loader: add TENSOR_READ_LAZY ( #27794 ) llama: model_loader: add TENSOR_GET_ROW_LAZY add --tensor-read-lazy rename to TENSOR_READ_LAZY gen docs address comments Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43411286 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10653",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-27T14:00:37.294Z",
-   "tier": "A",
-   "itemTs": "2026-08-27T13:50:40.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10653 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 13:48 b10653 fac889f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama: model_loader: add TENSOR_READ_LAZY ( #27794 ) llama: model_loader: add TENSOR_GET_ROW_LAZY add --tensor-read-lazy rename to TENSOR_READ_LAZY gen docs address comments Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43411286 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 29 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
-    "chars": 1784,
-    "title": "Release b10653 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-27T14:00:37.294Z"
    }
   }
  ],
