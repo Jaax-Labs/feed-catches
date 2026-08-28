@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T01:30:42.719Z",
+ "generatedAt": "2026-08-28T02:00:51.550Z",
  "count": 85,
  "catches": [
   {
@@ -1942,6 +1942,27 @@
    }
   },
   {
+   "id": "f-arxiv-cs.LG-1wfcg9h",
+   "pri": 45,
+   "kind": "note",
+   "title": "When Text Misleads: Inconsistent-Aware Reasoning for Audio-Grounded Dialogue",
+   "ctx": "Understanding spoken dialogue requires joint reasoning over lexical content and paralinguistic acoustic signals such as emotion and conversational intent. However, existing evaluations often allow shortcuts based on transcripts or single-modality solutions, obscuring whether models genuinely ground predictions in speech. We formalize this failure mode as cross-modal disagreement, where transcripts suggest plausible but incorrect surface interpretations while acoustic cues such as prosody or spea",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.27176v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-28T02:00:36.187Z",
+   "tier": "B",
+   "itemTs": "2026-08-27T14:26:46.000Z",
+   "sub": "arXiv cs.LG"
+  },
+  {
    "id": "f-arxiv-cs.LG-1so6yl3",
    "pri": 45,
    "kind": "note",
@@ -2026,6 +2047,27 @@
    "sub": "arXiv cs.LG"
   },
   {
+   "id": "f-arxiv-cs.LG-1ly3lqm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Profit based evaluation of machine learning for nitrogen recommendations in winter wheat",
+   "ctx": "Nitrogen rates for winter wheat are set before the season, under unknown prices and weather. The standard UK advice does not respond to prices, yet recent price swings moved the most profitable rate by tens of kilograms per hectare. Machine learning is often proposed as the fix. However, it is usually judged on prediction accuracy, and accurate prediction does not by itself make the recommended rate more profitable. Our insight is to score nitrogen advice directly by the profit it forgoes on mea",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.27205v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-28T02:00:36.187Z",
+   "tier": "B",
+   "itemTs": "2026-08-27T14:52:02.000Z",
+   "sub": "arXiv cs.LG"
+  },
+  {
    "id": "f-arxiv-cs.LG-1lw45yy",
    "pri": 45,
    "kind": "note",
@@ -2044,6 +2086,27 @@
    "detectedAt": "2026-08-27T04:00:36.979Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:59:51.000Z",
+   "sub": "arXiv cs.LG"
+  },
+  {
+   "id": "f-arxiv-cs.LG-1jcn1v9",
+   "pri": 45,
+   "kind": "note",
+   "title": "Diffusion Policies for Short-Horizon Planning in Robot Crowd Navigation",
+   "ctx": "Robot crowd navigation requires safe and efficient decision-making under dense, dynamic, and multimodal human--robot interactions. Existing reinforcement-learning methods typically output a single reactive action at each timestep, which limits their ability to represent diverse short-term avoidance strategies. We propose Planning Diffusion Policy Optimization (PDPO), an offline-to-online reinforcement-learning framework that uses a diffusion policy to generate short-horizon action chunks for cro",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.27158v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-28T02:00:36.187Z",
+   "tier": "B",
+   "itemTs": "2026-08-27T14:10:39.000Z",
    "sub": "arXiv cs.LG"
   },
   {
@@ -2128,69 +2191,6 @@
    "detectedAt": "2026-08-27T04:00:36.979Z",
    "tier": "B",
    "itemTs": "2026-08-26T17:25:10.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-17ey80z",
-   "pri": 45,
-   "kind": "note",
-   "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
-   "ctx": "We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for direction reconstruction, we identify a validated atlas of physical concepts in the model representation, using a strict validation protocol consisting of held-out tests, matched nuisance controls, and replication across independent dictionary trainings. Causal interventions show that the direction head bar",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26090v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-27T04:00:36.979Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:53:00.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-0zbh963",
-   "pri": 45,
-   "kind": "note",
-   "title": "SAMpLE: A SystemC-AMS Machine LEarning-based Framework for Virtual Prototyping",
-   "ctx": "Machine Learning (ML) is increasingly used in virtual prototypes of embedded systems to model behaviors that are difficult to capture analytically. However, integrating ML models into virtual platform simulation is still typically done through ad hoc solutions, which limits reuse, comparability, and reproducibility. This paper presents \\textbf{\\textit{SAMpLE}}, an open-source SystemC-AMS-based framework that integrates ML models as first-class Timed Dataflow (TDF) components through a standardiz",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.25910v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-27T02:30:36.663Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T15:26:21.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-0xi0lk4",
-   "pri": 45,
-   "kind": "note",
-   "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
-   "ctx": "Large language models write correct code for isolated problems but remain far weaker at autonomous machine-learning development, where an agent must revise data pipelines, models, and validation over hours of feedback, and on most competitions still finishes below strong human competitors. Outcome-based benchmarks record this gap but not its cause, because they grade the final submission and discard the development process behind it. We introduce TraceML, which pairs human and agent work on the ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26086v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-27T04:00:36.979Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:50:13.000Z",
    "sub": "arXiv cs.LG"
   }
  ],
