@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T06:00:55.442Z",
+ "generatedAt": "2026-08-28T06:31:00.061Z",
  "count": 85,
  "catches": [
   {
@@ -140,6 +140,34 @@
     "chars": 1400,
     "title": "Qwen3.8 Flash - API Pricing & Providers | OpenRouter",
     "fetchedAt": "2026-08-26T22:00:36.588Z"
+   }
+  },
+  {
+   "id": "f-openrouter-models-05ysli4",
+   "pri": 12,
+   "kind": "note",
+   "title": "New experimental model — Tencent: Hy4 preview",
+   "ctx": "A routing row exists for tencent/hy4-preview. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nTencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/tencent/hy4-preview",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-08-28T06:30:36.284Z",
+   "tier": "A",
+   "itemTs": "2026-08-28T06:09:35.000Z",
+   "sub": "openrouter · tencent/hy4-preview",
+   "extract": {
+    "ok": true,
+    "text": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping the base URL. The only thing that changes between models is the model slug below. Explore more models AI Model Rankings Ranking",
+    "chars": 1326,
+    "title": "Hy4 preview - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-08-28T06:30:36.284Z"
    }
   },
   {
@@ -2191,27 +2219,6 @@
    "detectedAt": "2026-08-28T02:00:36.187Z",
    "tier": "B",
    "itemTs": "2026-08-27T14:52:02.000Z",
-   "sub": "arXiv cs.LG"
-  },
-  {
-   "id": "f-arxiv-cs.LG-1lw45yy",
-   "pri": 45,
-   "kind": "note",
-   "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
-   "ctx": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack of scalable training tasks, reliable feedback, and controlled comparisons across generative substrates. In this work, we introduce VBVR-Pro, a closed-loop testbed that makes native visual reasoning thr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.26105v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-27T04:00:36.979Z",
-   "tier": "B",
-   "itemTs": "2026-08-26T17:59:51.000Z",
    "sub": "arXiv cs.LG"
   }
  ],
