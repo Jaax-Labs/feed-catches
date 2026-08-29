@@ -147,6 +147,9 @@ On Mondays, prefer a wildcard from the daily lane, since the slow lane already p
 
 ## 6 · The ledger
 
+The dateline's `N printed` and the ledger's `printed` row are the same number.
+The 29 August edition said 17 in one and 25 in the other. Count once, print twice.
+
 Every edition ends with the cut, as a table:
 
 ```
