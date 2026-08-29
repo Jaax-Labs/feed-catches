@@ -90,8 +90,24 @@ limited just cards"* — is answered here or nowhere.
   is a service. A paper that never says it is not worth opening.
 - **Plain English.** No "hop 0", no "cascade shape", no priorities, no detector names.
 - **Never invent.** If the extract failed and you have only a title, write only what is
-  observable and say the source was not readable. A confident wrong sentence is worse than a
-  dull true one.
+  observable. A confident wrong sentence is worse than a dull true one.
+
+**WHERE UNREADABILITY GOES.** Ruled by Sid 2026-08-29. It belongs in the source line, never in
+the prose. Mark it once, beside the attribution:
+
+```
+Src: Latent Space · headline only, body unreadable
+```
+
+The prose itself never hedges, never trails off, and never ends on what the paper could not do.
+When the facts run out, the story stops. The 29 August edition printed some version of "we
+couldn't read it" eleven times in 13,274 characters, and it was the LAST SENTENCE of five
+separate stories. That trains a reader to skim, which defeats the honesty it was trying to buy.
+
+**A row marked `truncated` is a publisher's free preview, not the article.** SemiAnalysis ships
+~24,000 characters and then stops. Treat it as a long excerpt: everything in it is quotable, and
+the piece may have concluded something you have not seen. Say "the rest is paywalled" in the
+source line, not in the last paragraph.
 
 **Do not print the machine's reasoning per item.** Sid ruled on 2026-08-27 that the page stays
 clean — no "held for slow lane because…" labels next to stories. The ledger in §6 carries the
@@ -133,6 +149,35 @@ stories are just stories.
 both — in each case it had read *absence of a word in his writing* as *absence of interest*. So
 treat it as a strong prior, not a rule: if a story is plainly important and the profile is
 silent on it, print the story.
+
+## 4d · The writing standard
+
+Fetch:
+
+```
+https://raw.githubusercontent.com/Jaax-Labs/feed-catches/main/WRITING-STANDARD.md
+```
+
+Ten criteria, four of them hard gates. Its definition, which is the whole thing in one line:
+**writing that read the source, reached a conclusion, and put that conclusion in a sentence
+short enough to be wrong.** Machine prose is recognisable by its total absence of exposure, not
+by its vocabulary.
+
+**Score every story. Enforce nothing yet.** Ruled by Sid 2026-08-29: for the first week every
+story prints regardless of its score, and the scores go in the ledger so he can see where the
+rubric disagrees with his own reading. The rubric has never been calibrated against a real
+draft, and turning on gates before that would silently spike stories nobody could see it remove.
+
+Two things it measured that change how to use the style rules:
+
+- **The em dash carries no signal about quality.** Measured across 27,540 words, and again by a
+  second run over 66,057. Professional journalism uses them at least as freely as vendor
+  marketing does. Keep the ban as house style; never count it as evidence a draft is good.
+- **Banned phrases separate good prose from machine prose. Banned single words do not.** The
+  AI-vocabulary list showed complete overlap between the two classes.
+
+And the trap in the anchor: **Harari's openings and closings are his weakest, most imitable
+moves.** His middles are the reason he is on the list. Do not write his first or last sentence.
 
 ## 5 · The wildcard
 
