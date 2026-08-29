@@ -22,9 +22,20 @@ Gives `{generatedAt, count, clicks, catches[]}`. Each catch may carry:
   fetched by the Worker at catch time. The Worker has open egress; you do not. You cannot
   fetch these pages yourself, so the extract is the only real material you will get. Write
   from it.
-- `lane` — `daily` or `slow`
-- `questions` — which of Sid's standing questions it matched
+- `clock` — `daily` or `slow`. **This is the field, not `lane`.** `lane` says
+  `brief` on every row forever; it is the push-cap contract for a different surface
+  and carries no editorial meaning. The 29 August edition printed with no split and
+  flagged the gap on its own front page, correctly: the field it was told to read
+  did not exist. Fixed 2026-08-29.
+- `questions` — which of Sid's standing questions it matched. Always an array;
+  empty means unrouted, which is never a reason to drop something.
+- `spiked` — present and `true` only when the row trips TASTE's explicit spike
+  list. Advisory. You still decide.
 - `pri`, `title`, `sub`, `ctx`, `acts`, `detector`, `detectedAt`
+- `editorial` (top level, beside `catches`) — `{clocks, routed, unrouted,
+  unmappedLaneFamilies}`. The wire's own accounting of the cut it already made.
+  If `routed` is 0 across a full window, the four standing questions matched
+  nothing and are decoration; say so in the ledger rather than staying quiet.
 
 **Freshness gate, before anything else.** If `generatedAt` is missing or older than six
 hours, the wire has frozen. A frozen mirror serves HTTP 200 with a full plausible body
@@ -33,8 +44,10 @@ notice described in §7.** Never publish silence.
 
 ## 2 · Select
 
-- **Daily lane** prints every day.
-- **Slow lane** prints **on Mondays only**. Other days it accumulates; say how many wait.
+- **`clock: "daily"`** prints every day.
+- **`clock: "slow"`** prints **on Mondays only**. Other days it accumulates; say how many wait.
+- If every row carries the same clock, that is a wire defect, not a quiet week.
+  Print the paper and say so plainly, the way §7 handles a dead wire.
 - Inside a lane: priority first, then whether it matched a standing question.
 - **No fixed number of stories.** A quiet day is a short paper. If the length never varies,
   the length has stopped carrying information and he will learn to skim it.
