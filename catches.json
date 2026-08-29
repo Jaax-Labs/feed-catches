@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-08-29T21:30:13.362Z",
+ "generatedAt": "2026-08-29T22:30:14.250Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-1v3ahbc",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.152.0-alpha.2",
+   "ctx": "Release 0.152.0-alpha.2",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.2",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-08-29T22:00:07.188Z",
+   "tier": "A",
+   "itemTs": "2026-08-29T21:54:17.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 828,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.3k Star 120k rust-v0.152.0-alpha.2 rust-v0.152.0-alpha.2 c49f76f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0-alpha.2 rust-v0.152.0-alpha.2 c49f76f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rka-oai tagged this 29 Aug 21:54 Release 0.152.0-alpha.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.152.0-alpha.2 · openai/codex · GitHub",
+    "fetchedAt": "2026-08-29T22:00:07.188Z",
+    "full": "full/f-gh-releases-openai-codex-1v3ahbc.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-openai-codex-0vojryq",
    "pri": 30,
@@ -2699,29 +2731,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-018o1ng",
-   "pri": 45,
-   "kind": "note",
-   "title": "Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models",
-   "ctx": "Multimodal foundation models are increasingly used in speech-first assistants that must interpret spoken queries and produce visually grounded decisions. Yet it remains unclear whether semantically equivalent queries yield consistent judgments across modality (text vs. speech) and language (English vs. Arabic). We introduce a speech-augmented visually grounded contrastive triplet benchmark spanning 10,150 culturally grounded images from 18 MENA countries, where each image is paired with one supp",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27135v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-28T01:30:36.008Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T13:46:49.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2734,8 +2743,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 43,
-   "slow": 57
+   "daily": 44,
+   "slow": 56
   },
   "routed": 41,
   "unrouted": 59,
