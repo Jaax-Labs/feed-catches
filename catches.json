@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-29T03:30:45.487Z",
+ "generatedAt": "2026-08-29T04:00:55.476Z",
  "count": 85,
  "catches": [
   {
@@ -683,6 +683,34 @@
     "chars": 2500,
     "title": "GitHub - XiaoDuoYa/codex-with-chatgpt: ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. · GitHub",
     "fetchedAt": "2026-08-28T18:30:36.676Z"
+   }
+  },
+  {
+   "id": "f-github-new-repos-1mf60lb",
+   "pri": 25,
+   "kind": "note",
+   "title": "chrisgreg/boop — 170★ in 0.5d (330★/day)",
+   "ctx": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/chrisgreg/boop",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-08-29T04:00:40.092Z",
+   "tier": "C",
+   "itemTs": "2026-08-28T15:38:33.000Z",
+   "sub": "github · Go",
+   "extract": {
+    "ok": true,
+    "text": "Boop A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. One Go binary, one SQLite file, one Docker container. Pushes go straight from your server to Apple's APNs. There is no hosted relay, account system, or telemetry. curl https://boop.example.com/api/v1/events \\ -H \" Authorization: Bearer $BOOP_API_KEY \" \\ -H \" Content-Type: application/json \" \\ -d ' {\"title\": \"Backup complete\", \"level\": \"success\"} ' Architecture Your apps POST events with a project API key. The Go server redacts and stores them in SQLite, then pushes straight to Apple's APNs using your .p8 key. The push carries only the title, body and event id; the iOS app fetches the full event from your server with its own device credential. The embedded web UI manages projects and devices and shows the pairing QR the phone scans. An interactive version lives in docs/architecture/index.html (open it locally; the source is boop.architecture.json ). What is in the box Part Where Go server (API, SQLite, APNs, embedded web UI) server/ Web UI (Svelte, built into the binary) server/web/ iOS app (SwiftUI, iOS 26, you build and sign it) ios/ — see ios/README.md Client libraries separate repos — see Integrations Native desktop client planned Quick start (Docker) git clone https://github.com/chrisgreg/boop && cd boop cp .env.example .env # optional: BOOP_BASE_URL and APNS_* values mkdir -p data && chown 1000:1000 data # Linux hosts only; the container runs as uid 1000 docker compose up -d --build open http://localhost:8080 The first visit opens a setup wizard: server check, APNs, pairing, first project, test notification. APNs credentials are optional; without them events are stored and shown in the UI but pushes are skipped, and the settings page says so. Data lives in ./data/boop.db . Back up by copying that file (use sqlite3 data/boop.db \".backup backup.db\" for a consistent copy while running). Back up your .p8 key separately. Send an event Create a project in the web UI and copy its API key (shown once). Then: # minimum curl http://localhost:8080/api/v1/events \\ -H \" Authorization: Bearer boop_proj_... \" -H \" Content-Type: application/json \" \\ -d ' {\"title\": \"Deploy complete\"} ' # rich curl http://localhost:8080/api/v1/events \\ -H \" Authorization: Bearer boop_proj_... \" -H \" Content-Type: application/json \" \\ -d ' { \"title\": \"KeyError\", \"body\": \"key :can_palette? not found\", \"level\": \"error\", \"source\": \"error_tracker\", \"fingerprint\":",
+    "chars": 2500,
+    "title": "GitHub - chrisgreg/boop: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. · GitHub",
+    "fetchedAt": "2026-08-29T04:00:40.092Z"
    }
   },
   {
@@ -2139,34 +2167,6 @@
     "chars": 1847,
     "title": "Release b10649 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-08-27T12:30:37.595Z"
-   }
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0y7z54y",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10648",
-   "ctx": "model : simplify MiniMax-01 graph ( #27790 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43387702 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10648",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-27T12:00:38.490Z",
-   "tier": "A",
-   "itemTs": "2026-08-27T12:00:39.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "text": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10648 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 27 Aug 11:59 b10648 deae5ee This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model : simplify MiniMax-01 graph ( #27790 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43387702 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 7.14) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI Assets 25 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
-    "chars": 1709,
-    "title": "Release b10648 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-27T12:00:38.490Z"
    }
   }
  ],
