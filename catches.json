@@ -1,7 +1,109 @@
 {
- "generatedAt": "2026-08-30T18:00:16.938Z",
+ "generatedAt": "2026-08-30T19:30:16.407Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1o44n06",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10701",
+   "ctx": "dflash: pass missing NVFP4 scales to attention operations ( #28000 ) DFlash2 NVFP4 draft models produced almost no accepted speculative tokens because the Q, K, V, and output projection scales were not passed to the corresponding graph operations. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43992416 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10701",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-30T19:00:07.494Z",
+   "tier": "A",
+   "itemTs": "2026-08-30T18:58:42.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1858,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10701 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 18:56 b10701 cc231cb This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . dflash: pass missing NVFP4 scales to attention operations ( #28000 ) DFlash2 NVFP4 draft models produced almost no accepted speculative tokens because the Q, K, V, and output projection scales were not passed to the corresponding graph operations. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43992416 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vu",
+    "truncated": false,
+    "title": "Release b10701 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-30T19:00:07.494Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1o44n06.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1oe48p5",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10700",
+   "ctx": "common: rename --tensor-read-lazy to --lazy-mode, add -lzm shorthand ( #27969 ) Rename the --tensor-read-lazy CLI argument to --lazy-mode, to match the internal lazy_mode parameter, and add a -lzm shorthand. Sync the READMEs. Assisted-by: pi:llama.cpp/Qwen3.8-27B Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43990339 macOS/iOS: macOS Apple Silicon (arm",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10700",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-30T19:00:07.494Z",
+   "tier": "A",
+   "itemTs": "2026-08-30T18:35:26.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1950,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10700 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 18:33 b10700 bebc935 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . common: rename --tensor-read-lazy to --lazy-mode, add -lzm shorthand ( #27969 ) Rename the --tensor-read-lazy CLI argument to --lazy-mode, to match the internal lazy_mode parameter, and add a -lzm shorthand. Sync the READMEs. Assisted-by: pi:llama.cpp/Qwen3.8-27B Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43990339 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
+    "truncated": false,
+    "title": "Release b10700 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-30T19:00:07.494Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1oe48p5.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1ww9sqs",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10699",
+   "ctx": "ggml : add ggml_backend_op_alloc_size_may_expand, use it in RPC ( #27960 ) some backends (Metal, SYCL, WebGPU) require additional memory for fleeting data for certain ops, which is reflected in their get_alloc_size implementations. add ggml_backend_op_alloc_size_may_expand() to the backend utils, listing these ops, and assert in ggml_backend_buft_get_alloc_size that a backend expanding the alloc s",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10699",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-30T18:30:07.500Z",
+   "tier": "A",
+   "itemTs": "2026-08-30T18:09:10.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2246,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10699 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 18:07 b10699 73f56d1 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml : add ggml_backend_op_alloc_size_may_expand, use it in RPC ( #27960 ) some backends (Metal, SYCL, WebGPU) require additional memory for fleeting data for certain ops, which is reflected in their get_alloc_size implementations. add ggml_backend_op_alloc_size_may_expand() to the backend utils, listing these ops, and assert in ggml_backend_buft_get_alloc_size that a backend expanding the alloc size of a compute op only does so for ops listed in the helper. use the helper in the RPC backend to decide whether to query the remote server for the actual alloc size, instea",
+    "truncated": false,
+    "title": "Release b10699 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-30T18:30:07.500Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ww9sqs.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-semianalysis-newsletter-1l0lq5m",
    "pri": 20,
@@ -2855,77 +2957,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1ysu5eq",
-   "pri": 45,
-   "kind": "note",
-   "title": "Making Clinical Language Models Auditable: Concept-Guided Fine-Tuning for Robust Prediction",
-   "ctx": "Clinical language models can achieve strong in-hospital accuracy yet fail under deployment shifts because they exploit note-specific artifacts (e.g., templates, separators, boilerplate) that do not reflect patient state. We propose CAST (Concept-guided Artifact Suppression Tuning), an SAE-based framework for auditable clinical text classification. CAST uses Sparse Autoencoders to expose sparse, human-auditable features from intermediate Transformer activations, labels SAE latents with an LLM-ass",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27397v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-28T02:30:35.881Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T17:28:35.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0chmd9q",
-   "pri": 45,
-   "kind": "note",
-   "title": "GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL",
-   "ctx": "Despite their potential in standardized graph tasks, Large Language Models (LLMs) remain brittle to real-world shifts in node identifiers and task formulation. While deterministic graph tools are invariant to such shifts, extracting topological structures from noisy text is highly fragile for LLMs, which often overfit to surface patterns. Moreover, mitigating these parsing failures via multi-agent systems incurs prohibitive latency. To address this, we propose GRAIN, a single-agent framework opt",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27142v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-08-28T02:00:36.187Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T13:53:52.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0irn2js",
-   "pri": 45,
-   "kind": "note",
-   "title": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
-   "ctx": "Electronic design automation (EDA) has advanced engineering productivity through successive generations of tooling that progressively automate synthesis, optimisation, and verification. Large language models (LLMs) extend this trajectory by enabling direct translation from design intent to hardware implementations. In most of the EDA literature, LLM-based solutions are typically assisting siloed design stages or tasks, however this obscured the drivers by which capability emerges and systems sca",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27184v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-08-28T02:00:36.187Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T14:29:35.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2938,11 +2969,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 39,
-   "daily": 61
+   "daily": 64,
+   "slow": 36
   },
-  "routed": 52,
-  "unrouted": 48,
+  "routed": 54,
+  "unrouted": 46,
   "unmappedLaneFamilies": []
  }
 }
