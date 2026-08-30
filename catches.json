@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-08-30T04:00:29.359Z",
+ "generatedAt": "2026-08-30T04:30:15.396Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1vs88gx",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10689",
+   "ctx": "ggml: allow passing alloc dependencies in graph_optimize ( #27301 ) ggml: allow passing alloc dependencies in graph_optimize add alloc dep tests add TODO about using flat array Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43919110 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFram",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10689",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-30T04:30:05.667Z",
+   "tier": "A",
+   "itemTs": "2026-08-30T04:04:30.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1787,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.4k Star 126k b10689 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 04:02 b10689 57291f2 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml: allow passing alloc dependencies in graph_optimize ( #27301 ) ggml: allow passing alloc dependencies in graph_optimize add alloc dep tests add TODO about using flat array Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43919110 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+    "truncated": false,
+    "title": "Release b10689 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-30T04:30:05.667Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1vs88gx.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-google-gemini-gemini-cli-0182q0s",
    "pri": 30,
@@ -2770,29 +2804,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0ycdvk4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Common Geodesics Do Not Guarantee Fisher Consistency of the Structured SVM: Minimal Counterexamples and a Tree-Metric Classification",
-   "ctx": "A known necessary condition for Fisher consistency of the structured support vector machine requires the task loss to be a metric for which every output triple has a common geodesic point. We show that this condition is not sufficient for the canonical coordinate-wise argmax decoder. A four-output unit star admits an exactly optimal score vector whose maximizers are all strictly non-Bayes, and four outputs are minimal among metrics satisfying the condition. We then completely classify positively",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27203v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-28T02:00:36.187Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T14:47:51.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2805,11 +2816,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 48,
-   "slow": 52
+   "daily": 49,
+   "slow": 51
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 45,
+  "unrouted": 55,
   "unmappedLaneFamilies": []
  }
 }
