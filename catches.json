@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-08-30T21:00:15.711Z",
+ "generatedAt": "2026-08-30T22:00:38.485Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1nu51b7",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10702",
+   "ctx": "hip : optimize Q2_0 dot-product path for gfx1201 ( #26753 ) hip/gfx1201: optimize q2_0 vec_dot_q2_0_q8_1 with native amdgcn perm Broadened HIP's Q2_0 perm optimization Remove redundant HIP perm availability guard Optimize HIP Q2_0 MMQ unpack with native perm cuda: label HIP preprocessor guard cuda: label HIP preprocessor guard Restore MMQ tile index handling Website: https://llama.app Attestations",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10702",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-30T21:30:05.978Z",
+   "tier": "A",
+   "itemTs": "2026-08-30T21:21:34.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1971,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10702 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 21:20 b10702 e422148 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . hip : optimize Q2_0 dot-product path for gfx1201 ( #26753 ) hip/gfx1201: optimize q2_0 vec_dot_q2_0_q8_1 with native amdgcn perm Broadened HIP's Q2_0 perm optimization Remove redundant HIP perm availability guard Optimize HIP Q2_0 MMQ unpack with native perm cuda: label HIP preprocessor guard cuda: label HIP preprocessor guard Restore MMQ tile index handling Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44005296 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) i",
+    "truncated": false,
+    "title": "Release b10702 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-30T21:30:05.978Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1nu51b7.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1o44n06",
    "pri": 30,
@@ -2934,29 +2968,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1sr6vv4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
-   "ctx": "Reinforcement learning with verifiable rewards (RLVR) improves specific capabilities of large language models, but covering multiple capabilities often involves training separate domain experts and subsequently consolidating them. We organize three fusion paradigms by the artefacts they reuse: Merge combines expert task vectors, Mix RL pools their datasets, and multi-teacher on-policy distillation (MOPD) uses both. Because they have largely been studied in isolation, how they compare and how to ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27409v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-28T02:30:35.881Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T17:38:04.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2969,11 +2980,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 64,
-   "slow": 36
+   "daily": 65,
+   "slow": 35
   },
-  "routed": 54,
-  "unrouted": 46,
+  "routed": 55,
+  "unrouted": 45,
   "unmappedLaneFamilies": []
  }
 }
