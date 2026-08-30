@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-08-30T11:30:30.087Z",
+ "generatedAt": "2026-08-30T12:00:15.194Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1uocz70",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10691",
+   "ctx": "metal : fix null-pipeline crash for F16 src1 mul_mat/mul_mat_id ( #25648 ) metal : fail closed on mul_mat shapes with missing F16 kernels metal : abort on nil pipeline in encoder_set_pipeline metal : address review comments metal : share mul_mat mm dispatch with supports_op Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43956773 macOS/iOS: macOS Apple S",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10691",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-30T12:00:07.822Z",
+   "tier": "A",
+   "itemTs": "2026-08-30T12:00:07.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1885,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10691 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 11:58 b10691 d882575 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix null-pipeline crash for F16 src1 mul_mat/mul_mat_id ( #25648 ) metal : fail closed on mul_mat shapes with missing F16 kernels metal : abort on nil pipeline in encoder_set_pipeline metal : address review comments metal : share mul_mat mm dispatch with supports_op Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43956773 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
+    "truncated": false,
+    "title": "Release b10691 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-30T12:00:07.822Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uocz70.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1uyckvz",
    "pri": 30,
@@ -2792,29 +2826,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0d72bgi",
-   "pri": 45,
-   "kind": "note",
-   "title": "Over-The-Air Extreme Learning Machines with Nonlinear Stacked Intelligent Metasurfaces",
-   "ctx": "The recently envisioned goal-oriented communications paradigm requires machine learning inference to be performed directly on wirelessly transferred data. This paper presents an eXtremely Large (XL) Multiple-Input Multiple-Output (MIMO) system that operates as an Extreme Learning Machine (ELM) to execute Over-The-Air (OTA) binary classification. To reduce hardware complexity, the receiver is equipped with cascaded metasurfaces terminating in a single radio-frequency chain. A front metasurface la",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27137v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-08-28T02:00:36.187Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T13:50:00.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2827,11 +2838,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 51,
-   "slow": 49
+   "daily": 52,
+   "slow": 48
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 47,
+  "unrouted": 53,
   "unmappedLaneFamilies": []
  }
 }
