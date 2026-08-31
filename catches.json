@@ -1,7 +1,228 @@
 {
- "generatedAt": "2026-08-31T14:30:23.390Z",
+ "generatedAt": "2026-08-31T16:30:17.854Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-github-new-repos-1xov7ug",
+   "pri": 25,
+   "kind": "note",
+   "title": "siknet/FreePEP — 169★ in 0.6d (287★/day)",
+   "ctx": "人教社电子教材下载器\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/siknet/FreePEP",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-08-31T16:30:08.197Z",
+   "tier": "C",
+   "itemTs": "2026-08-31T02:21:10.000Z",
+   "sub": "github · Python",
+   "extract": {
+    "ok": true,
+    "chars": 2868,
+    "lead": "FreePEP 📚 人教社中小学电子教材批量下载器 FreePEP 是一款专为 人民教育出版社中小学电子教材平台 开发的自动化教材解析、批量抓取与高清 PDF 合成工具。 提供 WebUI 界面 与 交互式命令行 ，内置全量 780+ 本教材目录（数据截止到2026年08月31日）自动解密引擎与阿里云 WAF 滑块验证码自动破解机制，支持一键下载指定学段、学科、年级的全套教材并自动生成高清 PDF 文件。 ✨ 核心特性 🎯 双操作模式 ： 现代化 WebUI 界面 ：全响应式布局，还原官网层级筛选体验，支持复选框一键批量下载、实时进度条展示与本地保存目录快捷打开。 交互式 CLI 终端 ：支持数字菜单导航选择与命令行参数直达（脚本集成与服务器环境友好）。 📦 高清单页下载与 PDF 合成 ：自动探测各教材实际总页数，批量下载高分辨率原始 JPG，并通过 Pillow 库自动合成为标准 PDF 文件。 📸 界面预览 WebUI 网页端 CLI 网页端 🚀 使用方式 🖥️ 方式一：（推荐，适合小白） 直接下载发行包，解压缩后运行FreePEP.exe，在弹出的Web页面里面自行操作下载。 方式二：从源码启动 克隆仓库与安装依赖 # 克隆仓库 git clone https://github.com/siknet/FreePEP.git cd FreePEP # 安装 Python 依赖 pip install -r requirements.txt # 安装 Playwright 所需的 Chromium 浏览器内核 playwright install chromium 启动办法一：Webui 在终端中执行以下命令，系统将自动启动本地服务并在默认浏览器中打开管理页面： python webui.py 访问地址 ： http://127.0.0.1:8000 默认下载目录 ：项目根目录下的 ./downloads 文件夹（可在 Web 界面点击「📁 打开保存目录」直达）。 启动办法二：使用 CLI 命令行 1. 交互式菜单模式 直接运行 cli.py ，根据控制台提示逐步选择学段、学科与年级： python cli.py 2. 参数直达模式（适合自动化与脚本调用） 通过命令行参数直接指定条件过滤并自动开始下载： # 1. 下载小学一年级的所有学科教材 python cli.py --xd \" 小学 \" --nj \" 一年级 \" -y # 2. 下载高中数学的所有必修/选修教材 python cli.py --xd \" 高中 \" --xk \" 数学 \" -y # 3. 下载初中全部教材 python cli.py --xd \" 初中 \" -y # 4. 全局关键词搜索并下载（如包含\"物理\"的所有教材） python cli.py --search \"",
+    "truncated": false,
+    "title": "GitHub - siknet/FreePEP: 人教社电子教材下载器 · GitHub",
+    "fetchedAt": "2026-08-31T16:30:08.197Z",
+    "full": "full/f-github-new-repos-1xov7ug.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1rg66bs",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10721",
+   "ctx": "webgpu : avoid crash when offset is not multiple of 4 in WebGPU ggml_backend_tensor_get() implementation ( #28045 ) webgpu : avoid crash when offset is not multiple of 4 in WebGPU ggml_backend_tensor_get() implementation chore : improve code readability Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Co-authored-by: Sigbjørn S",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10721",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T16:00:07.359Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T15:56:39.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2050,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 127k b10721 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 15:54 b10721 8e53fce This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . webgpu : avoid crash when offset is not multiple of 4 in WebGPU ggml_backend_tensor_get() implementation ( #28045 ) webgpu : avoid crash when offset is not multiple of 4 in WebGPU ggml_backend_tensor_get() implementation chore : improve code readability Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44185934 macOS/iOS: macOS Apple Silicon (ar",
+    "truncated": false,
+    "title": "Release b10721 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T16:00:07.359Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1rg66bs.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-microsoft-research-005wfpp",
+   "pri": 30,
+   "kind": "note",
+   "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+   "ctx": "At a glance The Flash family extends GigaPath and GigaTIME with dramatically improved efficiency, making large-scale pathology research more accessible and practical. A distilled pathology foundation model backbone reduces computational requirements without sacrificing performance, enabling repeated analyses across larger patient cohorts. These open models support population-scale discovery, helpi",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "microsoft-research",
+   "detectedAt": "2026-08-31T16:00:07.359Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T16:00:00.000Z",
+   "sub": "msr",
+   "extract": {
+    "ok": true,
+    "chars": 10360,
+    "lead": "At a glance The Flash family extends GigaPath and GigaTIME with dramatically improved efficiency, making large-scale pathology research more accessible and practical. A distilled pathology foundation model backbone reduces computational requirements without sacrificing performance, enabling repeated analyses across larger patient cohorts. These open models support population-scale discovery, helping researchers investigate disease biology, biomarkers, and clinical outcomes across diverse cancer datasets. GigaPath (opens in new tab) and GigaTIME (opens in new tab) demonstrated how foundation models can support whole-slide analysis and tumor microenvironment modeling from routinely collected pathology data. GigaPath-Flash and GigaTIME-Flash make these capabilities substantially more efficient, enabling researchers to analyze larger cohorts, run more experiments, and move toward population-scale discovery. GigaPath-Flash and GigaTIME-Flash are research models. They are not intended or validated for clinical use, including diagnosis, prognosis, treatment selection, or other patient-care decisions. Performance may vary across datasets, scanners, institutions, populations, and use cases.",
+    "truncated": false,
+    "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models - Microsoft Research",
+    "fetchedAt": "2026-08-31T16:00:07.359Z",
+    "full": "full/f-microsoft-research-005wfpp.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0pperhn",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10719",
+   "ctx": "metal : add fa-vec tunings for M1 ( #28078 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44172949 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10719",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T15:30:06.599Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T15:06:09.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1rq5s0r",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10720",
+   "ctx": "ROCm: add radix TOP_K for long rows ( #27466 ) ROCm: add radix TOP_K for long rows Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44178618 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10720",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T15:30:06.599Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T15:30:07.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1693,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 127k b10720 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 15:28 b10720 f8dbcd6 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ROCm: add radix TOP_K for long rows ( #27466 ) ROCm: add radix TOP_K for long rows Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44178618 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm6",
+    "truncated": false,
+    "title": "Release b10720 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T15:30:06.599Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1rq5s0r.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-1wh8hs7",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.152.0-alpha.7",
+   "ctx": "Release 0.152.0-alpha.7",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-08-31T15:30:06.599Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T15:29:32.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 828,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.4k Star 120k rust-v0.152.0-alpha.7 rust-v0.152.0-alpha.7 a43ad35 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0-alpha.7 rust-v0.152.0-alpha.7 a43ad35 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 31 Aug 15:29 Release 0.152.0-alpha.7 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.152.0-alpha.7 · openai/codex · GitHub",
+    "fetchedAt": "2026-08-31T15:30:06.599Z",
+    "full": "full/f-gh-releases-openai-codex-1wh8hs7.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-zvi-1o4s1uu",
+   "pri": 60,
+   "kind": "note",
+   "title": "HuggingFace Attack Postmortem: Fleshing Out the Facts",
+   "ctx": "The consensus reaction to the OpenAI Technical Report is that it contains and confirms a lot of good information. We are grateful to have it, and we are grateful for those who worked hard on it . Alas, it sidesteps the biggest questions. There is much more we need to know. The consensus reaction to the METR Report on the HuggingFace attack is: Holy shit. Liv Boeree : My mind is legit blown. Aella ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://thezvi.substack.com/p/huggingface-attack-postmortem-fleshing",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "zvi",
+   "detectedAt": "2026-08-31T15:30:06.599Z",
+   "tier": "D",
+   "itemTs": "2026-08-31T15:16:38.000Z",
+   "sub": "zvi",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 98540,
+    "lead": "The consensus reaction to the OpenAI Technical Report is that it contains and confirms a lot of good information. We are grateful to have it, and we are grateful for those who worked hard on it . Alas, it sidesteps the biggest questions. There is much more we need to know. The consensus reaction to the METR Report on the HuggingFace attack is: Holy shit. Liv Boeree : My mind is legit blown. Aella : this feels like a turning point. If this doesn’t cause large-scale coordination to pause frontier development then I am not sure anything will before it’s too late. The people whose minds were not blown are those who had already ‘priced in’ the mind blowing stuff in expectation, on the theory that it’s always worse than you know, combined with basic LessWrong expectations of how such things will work. Good call. Everyone is rightfully extremely grateful for the METR report. The work here is spectacular, done under extreme time pressure, with limited resources on several fronts, and under the shadow of OpenAI. There is, again, still so much we need to know. We need a broader investigation. As with many things in AI, and those concerning AI safety, we must simultaneously acknowledge: It is",
+    "truncated": false,
+    "fetchedAt": "2026-08-31T15:30:06.599Z",
+    "full": "full/f-zvi-1o4s1uu.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0pff5so",
    "pri": 30,
@@ -2663,259 +2884,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-cascade-1q24zb8",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"claude code\" — 3 independent sources in 20h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 20 hours, in 4 items (0.0% of the window — below the 15% background threshold).\n\n• gh-release:anthropics/claude-code — v2.1.248\n• simonwillison — Breaking Claude Code Opus 5 Auto Mode\n• anthropic-status — Elevated errors on Claude Code and Claude Cowork\n• github-search — cbrock84/headcount\n\n4 feeds carried it, counted as 3 independent roots — same-platform and same-company feeds count once.\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open gh-release:anthropics/claude-code",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
-     "primary": true
-    },
-    {
-     "label": "Open simonwillison",
-     "href": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-     "primary": false
-    },
-    {
-     "label": "Open anthropic-status",
-     "href": "https://status.claude.com/incidents/vr9tpk8w7zr8",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-08-30T00:00:06.683Z",
-   "tier": "X",
-   "families": [
-    "gh-release:anthropics/claude-code",
-    "simonwillison",
-    "anthropic-status",
-    "github-search"
-   ],
-   "roots": [
-    "anthropic",
-    "simonwillison",
-    "github-search"
-   ],
-   "sub": "cascade shape · anthropic, simonwillison, github-search",
-   "extract": {
-    "ok": true,
-    "chars": 9438,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 22.9k Star 143k v2.1.248 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 27 Aug 22:12 &middot; 2 commits to main since this release v2.1.248 c336b74 What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1 ): removes the built-in tools that run commands or code and WebFetch (unless named in --tools ), keeps file tools inside the working directory, refuses bypassPermissions , and ignores user, project and local settings files Added experimental.cacheTtl ( \"5m\" or \"1h\" ) to agent frontmatter: a per-agent prompt cache TTL used when no subagent TTL setting is configured Added claude self-hosted-runner --client-label (or SELF_HOSTED_RUNNER_CLIENT_LABEL ) to override the label the runner registers with (default: hostname) Added server-managed settings diagnostics: a startup warning when the settings fail to load, and a /doctor and /stat",
-    "truncated": false,
-    "title": "Release v2.1.248 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-08-30T00:00:06.683Z",
-    "full": "full/f-cascade-1q24zb8.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1v3ahbc",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.152.0-alpha.2",
-   "ctx": "Release 0.152.0-alpha.2",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-29T22:00:07.188Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T21:54:17.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 828,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.3k Star 120k rust-v0.152.0-alpha.2 rust-v0.152.0-alpha.2 c49f76f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0-alpha.2 rust-v0.152.0-alpha.2 c49f76f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rka-oai tagged this 29 Aug 21:54 Release 0.152.0-alpha.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.152.0-alpha.2 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-29T22:00:07.188Z",
-    "full": "full/f-gh-releases-openai-codex-1v3ahbc.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-0vojryq",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.151.0-alpha.7.2",
-   "ctx": "Release 0.151.0-alpha.7.2",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.7.2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-29T21:00:43.055Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T20:48:56.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 838,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.3k Star 120k rust-v0.151.0-alpha.7.2 rust-v0.151.0-alpha.7.2 f70e26c Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.151.0-alpha.7.2 rust-v0.151.0-alpha.7.2 f70e26c Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rka-oai tagged this 29 Aug 20:48 Release 0.151.0-alpha.7.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.151.0-alpha.7.2 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-29T21:00:43.055Z",
-    "full": "full/f-gh-releases-openai-codex-0vojryq.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1u4amb3",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10687",
-   "ctx": "opencl: use a better matmul path on two Adreno GPU generations ( #27640 ) opencl: default the Adreno xmem F16xF32 GEMM on for X2E kernel_mul_mm_f16_f32_l4_lm is the slowest matmul this backend has on Adreno: on the X2-90 it runs the gpt-oss-20b attention projections at roughly a quarter of what the tuned dense q4_0 GEMM reaches on the same device. That matters for any model whose non-expert weight",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10687",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-29T18:30:43.063Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T18:24:45.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 3781,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.4k Star 126k b10687 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 29 Aug 18:23 b10687 c841aee This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: use a better matmul path on two Adreno GPU generations ( #27640 ) opencl: default the Adreno xmem F16xF32 GEMM on for X2E kernel_mul_mm_f16_f32_l4_lm is the slowest matmul this backend has on Adreno: on the X2-90 it runs the gpt-oss-20b attention projections at roughly a quarter of what the tuned dense q4_0 GEMM reaches on the same device. That matters for any model whose non-expert weights stay f16 -- the stock gpt-oss-20b release is exactly that, and its prefill spends 40.8% of GPU time in that one kernel. The xmem route already existed but was left opt-in, s",
-    "truncated": false,
-    "title": "Release b10687 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-29T18:30:43.063Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1u4amb3.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1tub0m4",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10686",
-   "ctx": "metal : assert shared memory padding ( #27951 ) metal : assert shared memory padding cont : add ref Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43867822 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10686",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-29T17:00:43.071Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T16:47:31.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1710,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.4k Star 126k b10686 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 29 Aug 16:46 b10686 3173a56 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : assert shared memory padding ( #27951 ) metal : assert shared memory padding cont : add ref Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43867822 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (",
-    "truncated": false,
-    "title": "Release b10686 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-29T17:00:43.071Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1tub0m4.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1uo9tp1",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10685",
-   "ctx": "metal : add remaining fa-vec tunings for M4 Pro ( #27915 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43865923 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10685",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-29T16:30:43.070Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T16:25:32.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1669,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.4k Star 126k b10685 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 29 Aug 16:23 b10685 17252c7 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add remaining fa-vec tunings for M4 Pro ( #27915 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43865923 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (O",
-    "truncated": false,
-    "title": "Release b10685 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-29T16:30:43.070Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uo9tp1.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1uea802",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10684",
-   "ctx": "sycl: make --fit respect --fit-target better ( #27629 ) improve the --fit algorithm to take into account the actual peak required VRAM for a given context size on a SYCL backend. This includes both properly accounting for how much VRAM is required when the allocated context is fully used (which makes the reported context drop below what it did before, but stop it OOMing) as well as preventing some",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10684",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-29T16:00:43.102Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T15:59:49.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2247,
-    "title": "Release b10684 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-29T16:00:43.102Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.4k Star 126k b10684 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 29 Aug 15:57 b10684 cc83d7b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl: make --fit respect --fit-target better ( #27629 ) improve the --fit algorithm to take into account the actual peak required VRAM for a given context size on a SYCL backend. This includes both properly accounting for how much VRAM is required when the allocated context is fully used (which makes the reported context drop below what it did before, but stop it OOMing) as well as preventing some overly-conservative calculations which meant too much VRAM was being reserved. Tested on a Arc b70 with unsloth's qwen3.8 (Q4_K_XL), able to get 262144 context, fully usable,",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uea802.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2928,11 +2896,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 51,
-   "slow": 49
+   "daily": 50,
+   "slow": 50
   },
-  "routed": 51,
-  "unrouted": 49,
+  "routed": 49,
+  "unrouted": 51,
   "unmappedLaneFamilies": []
  }
 }
