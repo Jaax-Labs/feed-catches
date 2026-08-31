@@ -1,7 +1,729 @@
 {
- "generatedAt": "2026-08-31T03:00:24.064Z",
+ "generatedAt": "2026-08-31T05:00:27.769Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-04x14z3",
+   "pri": 45,
+   "kind": "note",
+   "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+   "ctx": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry systems such as AlphaGeometry, whose theorem-proving engine requires inputs in a specialized domain-specific language (DSL). Although AlphaGeometry achieves near-IM",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28481v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-31T04:30:05.883Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T16:07:16.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-079p8qz",
+   "pri": 18,
+   "kind": "note",
+   "title": "Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation",
+   "ctx": "Two forms of test-time scaling for Large Language Models (LLMs) have emerged as effective and widely adopted paradigms: sequential, in which later answer attempts depend on earlier ones, and parallel, such as i.i.d. sampling with reranking. In this study, we investigate their properties in translation. First, our study shows that sequential sampling has a higher performance ceiling, providing a more diverse and effective pool of samples, particularly under smaller sampling budgets. Second, we in",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28496v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-31T04:30:05.883Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T16:22:39.000Z",
+   "sub": "arXiv cs.CL · introduces \"Time Scaling\"",
+   "extract": {
+    "ok": true,
+    "chars": 4326,
+    "lead": "Computer Science > Computation and Language arXiv:2608.28496v1 (cs) [Submitted on 28 Aug 2026] Title: Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation Authors: Di Wu , Sergey Troshin , Christof Monz , Antske Fokkens , Vlad Niculae View a PDF of the paper titled Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation, by Di Wu and 4 other authors View PDF HTML (experimental) Abstract: Two forms of test-time scaling for Large Language Models (LLMs) have emerged as effective and widely adopted paradigms: sequential, in which later answer attempts depend on earlier ones, and parallel, such as i.i.d. sampling with reranking. In this study, we investigate their properties in translation. First, our study shows that sequential sampling has a higher performance ceiling, providing a more diverse and effective pool of samples, particularly under smaller sampling budgets. Second, we interrogate the nature of test-time scaling through a multidimensional manual analysis. Human analysis of the Best-of-$N$ translations demonstrates that sequential sampling substantially improves translation fluency ",
+    "truncated": false,
+    "title": "[2608.28496v1] Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation",
+    "fetchedAt": "2026-08-31T04:30:05.883Z",
+    "full": "full/f-arxiv-cs.CL-079p8qz.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0hlpkv6",
+   "pri": 45,
+   "kind": "note",
+   "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+   "ctx": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how different errors affect embodied AI safety. We find that some of them preserve semantic structure but increase harmful ambig",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28518v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-31T04:30:05.883Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T16:55:32.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0xmje7x",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Formal Limitation on Learning Human Language From Textual Corpora",
+   "ctx": "Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hidden states of contemporary large language models. Modeling language use as a joint distribution over meanings, contexts, and utterances, we derive upper bounds on the probability that a decoder recovers a speaker's intended meaning from a representation of the utterance. The bounds are governed by ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28560v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-31T04:30:05.883Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:38:24.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0yako87",
+   "pri": 45,
+   "kind": "note",
+   "title": "Phoneme- and Word-Level Metrics Using Self-Supervised Speech Representations for Forced Alignment Evaluation",
+   "ctx": "Forced alignment evaluation typically requires manually annotated timestamps, limiting large-scale and multilingual analysis. We introduce two corpus-level metrics based on self-supervised (SSL) speech representations for reference-free forced alignment evaluation: Phoneme-Cluster Mutual Information (PCMI) and Word Acoustic Consistency Score (WACS). PCMI measures agreement between aligned phoneme labels and clusters induced from SSL-speech representations, while WACS measures consistency of repe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28508v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-08-31T04:30:05.883Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T16:39:22.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0n7ic8w",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10710",
+   "ctx": "metal : add remaining Q4_1/Q5_0/Q5_1 fa-vec tunings for M2 ( #28017 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44044108 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10710",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T04:30:05.883Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T04:20:39.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1680,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10710 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 04:18 b10710 bd55e6a This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add remaining Q4_1/Q5_0/Q5_1 fa-vec tunings for M2 ( #28017 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44044108 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windo",
+    "truncated": false,
+    "title": "Release b10710 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T04:30:05.883Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0n7ic8w.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1qc1gjy",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10709",
+   "ctx": "rpc: avoid serializing buffers from other servers ( #26500 ) rpc: avoid serializing buffers from other servers Only include remote buffer pointers when the buffer belongs to the RPC dispatcher receiving the graph. Add a two-server regression test for cross-server tensor serialization. Assisted-by: Codex cont : add ref Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app A",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10709",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T04:00:08.130Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T03:50:38.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1982,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10709 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 03:48 b10709 a7cc83b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . rpc: avoid serializing buffers from other servers ( #26500 ) rpc: avoid serializing buffers from other servers Only include remote buffer pointers when the buffer belongs to the RPC dispatcher receiving the graph. Add a two-server regression test for cross-server tensor serialization. Assisted-by: Codex cont : add ref Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44040718 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In",
+    "truncated": false,
+    "title": "Release b10709 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T04:00:08.130Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1qc1gjy.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0bfl8rj",
+   "pri": 18,
+   "kind": "note",
+   "title": "Logos: An Agent Harness on a Cross-Process Bus",
+   "ctx": "Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capability is a component carrying a tracked inverse, and agents are assembled as plugins. This plugin form is carried by a single process sharing one context, a carrier that places all components in one physical failure domain, a fault suspends every component at once, and process death interrupts every se",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28553v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:30:10.000Z",
+   "sub": "arXiv cs.AI · introduces \"Agent Harness\"",
+   "extract": {
+    "ok": true,
+    "chars": 4279,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2608.28553v1 (cs) [Submitted on 28 Aug 2026] Title: Logos: An Agent Harness on a Cross-Process Bus Authors: Hanzhang Jia , Liheng Zeng , Hao Cheng , Yi Gao , Bo Ma View a PDF of the paper titled Logos: An Agent Harness on a Cross-Process Bus, by Hanzhang Jia and 4 other authors View PDF HTML (experimental) Abstract: Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capability is a component carrying a tracked inverse, and agents are assembled as plugins. This plugin form is carried by a single process sharing one context, a carrier that places all components in one physical failure domain, a fault suspends every component at once, and process death interrupts every session the process hosts. This paper shows that neither the modeling nor the calculus binds an agent to one process, the statelessness of the language model keeps all cross-step state outside the model, and the soundness invariant is defined on the state space alone. These observations condense into four lemmas whose premises are th",
+    "truncated": false,
+    "title": "[2608.28553v1] Logos: An Agent Harness on a Cross-Process Bus",
+    "fetchedAt": "2026-08-31T03:30:06.069Z",
+    "full": "full/f-arxiv-cs.AI-0bfl8rj.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0cua165",
+   "pri": 45,
+   "kind": "note",
+   "title": "Conformal Uncertainty Quantification Guarantees for Neural Operators",
+   "ctx": "Neural operators provide fast surrogate models for approximating operators between function spaces, but their predictions often lack uncertainty quantification. We develop a split conformal framework to guarantee that a calibrated pointwise band around the neural operator output contains the true solution on at least a $1-γ$ fraction of the evaluation domain, with probability at least $1-α$ over test and calibration inputs, where $α,γ\\in(0,1)$. Our method reduces a normalized residual field to i",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28515v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T16:50:57.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0esm0z8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Video Generative Models as Geometry Learner",
+   "ctx": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-specific geometry models (for depth and surface normal estimation) independently, losing the opportunity of exploring the intrinsic correlation of these geometric targets, or (ii) jointly fine-tune modified image diffusion backbones (e.g., altered self-attention), which typically",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28549v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:25:31.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0hlpkv6",
+   "pri": 45,
+   "kind": "note",
+   "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+   "ctx": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how different errors affect embodied AI safety. We find that some of them preserve semantic structure but increase harmful ambig",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28518v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T16:55:32.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0qy27a8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+   "ctx": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so smaller and cheaper motors suffice, and one motor can drive several joints through a single cable, so fewer motors are needed. They are also harder to learn on than a direct-drive hand. The underactuated transmission that p",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28578v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:53:48.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-11vu7ze",
+   "pri": 18,
+   "kind": "note",
+   "title": "Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
+   "ctx": "Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a general framework for synthetic-augmented inference across a population of related tasks. It characterizes synthetic augmentation by the number of synthetic observations and their weight. Central to our framework is a size-weight frontier that specifies, for each weight, the largest synthetic sample size ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28576v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:52:33.000Z",
+   "sub": "arXiv cs.AI · introduces \"Weight Frontier\"",
+   "extract": {
+    "ok": true,
+    "chars": 3936,
+    "lead": "Statistics > Methodology arXiv:2608.28576v1 (stat) [Submitted on 28 Aug 2026] Title: Learning a Size-Weight Frontier for Synthetic-Augmented Inference Authors: Chengpiao Huang , Kaizheng Wang View a PDF of the paper titled Learning a Size-Weight Frontier for Synthetic-Augmented Inference, by Chengpiao Huang and 1 other authors View PDF HTML (experimental) Abstract: Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a general framework for synthetic-augmented inference across a population of related tasks. It characterizes synthetic augmentation by the number of synthetic observations and their weight. Central to our framework is a size-weight frontier that specifies, for each weight, the largest synthetic sample size for which all smaller sizes attain the target task-marginal coverage. We estimate this frontier from historical tasks, and establish a finite-sample coverage guarantee simultaneously for all size-weight configurations on or below the estimated frontier. In experiments using large language model responses to augment opinion survey ",
+    "truncated": false,
+    "title": "[2608.28576v1] Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
+    "fetchedAt": "2026-08-31T03:30:06.069Z",
+    "full": "full/f-arxiv-cs.AI-11vu7ze.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-12tixpo",
+   "pri": 45,
+   "kind": "note",
+   "title": "An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
+   "ctx": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the omission is an annular freeze mode enclosing an unreachable interior. The gate quotient makes the question precise: acceptance-with-certainty determines the model exactly on the reachable query set; beyond reach is gauge. On a minimal ring instrument we prove the extreme case (a ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28541v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:14:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1pebhph",
+   "pri": 45,
+   "kind": "note",
+   "title": "Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks",
+   "ctx": "Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture local texture characteristics but may have limited capability to represent complex visual patterns. In contrast, deep learning models automatically learn discriminative representations but may not fully exploit the multiscale spatial-frequency information inherent in texture images.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28524v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:00:48.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1qp4ma8",
+   "pri": 45,
+   "kind": "note",
+   "title": "InstructMesh: Selective Refinement of Generative 3D Models for Fabrication",
+   "ctx": "Recent advances in generative AI allow users to create 3D models from text or images. However, these models prioritize visual plausibility over geometric accuracy, often generating results with flaws that compromise their intended use post-fabrication. We present InstructMesh, an interactive post-generation refinement tool that enables selective repair of generative 3D models through region selection and targeted operations, such as opening or sealing voids, or adjusting local thickness. Users c",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28534v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:09:42.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1y33udn",
+   "pri": 45,
+   "kind": "note",
+   "title": "Blog: Survey of Optimizers",
+   "ctx": "Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training horizons to policies over time, and from mathematical update rules to state representations that must survive sharding and low-precision computation. This survey organizes recent optimizers and training optimization methods along four largely independent axes: temporal estimation, update geometry, hor",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28557v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:35:11.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-00ewdur",
+   "pri": 45,
+   "kind": "note",
+   "title": "On two proofs of $d^2$ mixing of weighted Dikin walks",
+   "ctx": "We study the mixing time of weighted Dikin walks for sampling from exponential distributions on polytopes and truncated positive-semidefinite (PSD) cones. Our first result gives a general total-variation mixing bound under strong self-concordance, $\\barν$-symmetry, and mixed-trace regularity on the local metric. The key idea is to control the Metropolis--Hastings acceptance probability on a high-probability region rather than at every point. Applying this framework to the Lee--Sidford, Lewis-wei",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28566v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:43:58.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-03tfc3k",
+   "pri": 45,
+   "kind": "note",
+   "title": "Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining",
+   "ctx": "As a precursor to high-dimensional biomedical data modeling, reliable feature selection can reduce computational expense, improve modeling performance, and yield simpler, more interpretable models. However, most filter-based feature selection methods struggle to detect feature interactions, while wrapper or embedded feature selection methods are computationally expensive. Relief-based algorithms (RBAs) are filter methods that are sensitive to feature interactions while mitigating these other lim",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28552v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:28:50.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0qy27a8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+   "ctx": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so smaller and cheaper motors suffice, and one motor can drive several joints through a single cable, so fewer motors are needed. They are also harder to learn on than a direct-drive hand. The underactuated transmission that p",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28578v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:53:48.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0ze3cb2",
+   "pri": 45,
+   "kind": "note",
+   "title": "REPLICANT: Learning Policies for Evading and Hardening Malware Detectors",
+   "ctx": "To determine the real-world effectiveness of machine learning based malware detection, it is vital to evaluate its robustness against highly capable adversaries. However, state-of-the-art attacks do not effectively model realistic adversaries, as they often assume access to privileged information such as the training data, feature space, or confidence scores of the target. In this work, we present Replicant, a deep reinforcement learning framework that learns the realistic task of evasion under ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28499v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T16:29:17.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-11vu7ze",
+   "pri": 18,
+   "kind": "note",
+   "title": "Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
+   "ctx": "Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a general framework for synthetic-augmented inference across a population of related tasks. It characterizes synthetic augmentation by the number of synthetic observations and their weight. Central to our framework is a size-weight frontier that specifies, for each weight, the largest synthetic sample size ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28576v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:52:33.000Z",
+   "sub": "arXiv cs.LG · introduces \"Weight Frontier\"",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-12tixpo",
+   "pri": 45,
+   "kind": "note",
+   "title": "An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
+   "ctx": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the omission is an annular freeze mode enclosing an unreachable interior. The gate quotient makes the question precise: acceptance-with-certainty determines the model exactly on the reachable query set; beyond reach is gauge. On a minimal ring instrument we prove the extreme case (a ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28541v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:14:58.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1buapnd",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy",
+   "ctx": "We study kernel ridge regression under anisotropic Gaussian data, where the input covariance decays as a power law with exponent $α\\geq 0$ for polynomial inner-product kernels. We derive asymptotically sharp expressions for the kernel spectrum and the generalization error in the polynomial high-dimensional regime $n=Θ(d^κ)$, revealing how anisotropy reshapes the learning curves. For weak anisotropy ($0 1$), the effective dimension of the problem is constant, and the variance stops depending on s",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28564v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:41:53.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1qf8nw6",
+   "pri": 45,
+   "kind": "note",
+   "title": "DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging",
+   "ctx": "Model merging combines multiple task-specific fine-tuned LLMs into a single multi-task model without additional training. However, merged models are known to suffer from representation bias: systematic drift between the merged model's hidden states and those of each individual source model. Prior work (Yang et al., 2024a) study and mitigate this bias for encoder-based vision models using a lightweight correction module trained with L1 loss. However, such bias is not studied for decoder models du",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28547v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:22:47.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1t9zemo",
+   "pri": 45,
+   "kind": "note",
+   "title": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
+   "ctx": "We propose QGPINNs, a physics-informed neural network framework developed in PyTorch for the numerical solution of nonlocal differential equations on quantum graphs. The framework is designed as a general computational implementation in which the solution on each edge of the graph is approximated by a neural network, while a unified graph-based loss function enforces the governing equations together with initial, boundary, and vertex transmission conditions. In particular, the formulation incorp",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28589v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:59:47.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1y33udn",
+   "pri": 45,
+   "kind": "note",
+   "title": "Blog: Survey of Optimizers",
+   "ctx": "Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training horizons to policies over time, and from mathematical update rules to state representations that must survive sharding and low-precision computation. This survey organizes recent optimizers and training optimization methods along four largely independent axes: temporal estimation, update geometry, hor",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2608.28557v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "B",
+   "itemTs": "2026-08-28T17:35:11.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1oo3ue4",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10707",
+   "ctx": "kv-cells: stop the sequence scan once all sequences are seen ( #28011 ) for_each_token_in tested all LLAMA_MAX_SEQ sequences for every used cell, while a cell almost always belongs to one. The scan now stops once the cell's own sequences have been seen. Same visit order, same callback arguments, so behaviour is unchanged. get_prev_tokens is the only caller, so this affects the n-gram path. RTX PRO",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10707",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T03:04:57.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1qm128x",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10708",
+   "ctx": "ggml : fix ggml_backend_buft_get_alloc_size() guard ( #28038 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44038725 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubun",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10708",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T03:30:06.069Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T03:27:14.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1oy3g33",
    "pri": 30,
@@ -2175,886 +2897,6 @@
    "sub": "simonwillison",
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-hn-newest-ai-1a28uuu",
-   "pri": 38,
-   "kind": "note",
-   "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-   "ctx": "Article URL: https://arxiv.org/abs/2608.23691 Comments URL: https://news.ycombinator.com/item?id=49481455 Points: 60 # Comments: 11",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://arxiv.org/abs/2608.23691",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hn-newest-ai",
-   "detectedAt": "2026-08-28T22:00:39.286Z",
-   "tier": "C",
-   "itemTs": "2026-08-28T17:01:12.000Z",
-   "sub": "hackernews",
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-huggingface-blog-109ahlx",
-   "pri": 40,
-   "kind": "note",
-   "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "huggingface-blog",
-   "detectedAt": "2026-08-28T21:30:38.199Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T00:00:00.000Z",
-   "sub": "huggingface-blog",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-04btd5v",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.151.0-alpha.11",
-   "ctx": "Release 0.151.0-alpha.11",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.11",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-28T20:30:36.713Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T20:25:58.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 834,
-    "title": "Release rust-v0.151.0-alpha.11 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-28T20:30:36.713Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.2k Star 120k rust-v0.151.0-alpha.11 rust-v0.151.0-alpha.11 b8b79d3 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.151.0-alpha.11 rust-v0.151.0-alpha.11 b8b79d3 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 28 Aug 20:25 Release 0.151.0-alpha.11 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "full": "full/f-gh-releases-openai-codex-04btd5v.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1vshoyu",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10679",
-   "ctx": "bench: add --tensor-read-lazy ( #27881 ) bench: add --tensor-read-lazy rm the alias rename to LLAMA_LAZY_MODE_* Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43739963 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CP",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10679",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T19:30:36.498Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T19:24:52.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1722,
-    "title": "Release b10679 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T19:30:36.498Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10679 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 19:23 b10679 50f068f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . bench: add --tensor-read-lazy ( #27881 ) bench: add --tensor-read-lazy rm the alias rename to LLAMA_LAZY_MODE_* Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43739963 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: W",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1vshoyu.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-0vek69r",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.151.0-alpha.7.1",
-   "ctx": "Release 0.151.0-alpha.7.1",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.7.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-28T19:30:36.498Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T19:22:32.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 839,
-    "title": "Release rust-v0.151.0-alpha.7.1 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-28T19:30:36.498Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.2k Star 120k rust-v0.151.0-alpha.7.1 rust-v0.151.0-alpha.7.1 ece348f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.151.0-alpha.7.1 rust-v0.151.0-alpha.7.1 ece348f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 28 Aug 19:22 Release 0.151.0-alpha.7.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "full": "full/f-gh-releases-openai-codex-0vek69r.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1w2hant",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10678",
-   "ctx": "model: qwen4exp: reduce number of graph splits ( #27880 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43734155 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10678",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T19:00:37.982Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T18:53:17.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1668,
-    "title": "Release b10678 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T19:00:37.982Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10678 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 18:51 b10678 6fe7498 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model: qwen4exp: reduce number of graph splits ( #27880 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43734155 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (Op",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1w2hant.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-anthropics-claude-code-1qmdhdb",
-   "pri": 30,
-   "kind": "note",
-   "title": "anthropics/claude-code v2.1.251",
-   "ctx": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cost Added live streaming of a foreground subagent's tool calls and results to Remote Control clients (background subagents, the default, still show status only) Added a Spend limit bar to /usage and a r",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-anthropics-claude-code",
-   "detectedAt": "2026-08-28T18:30:36.676Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T18:19:32.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "Release v2.1.251 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-08-28T18:30:36.676Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 22.9k Star 143k v2.1.251 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 28 Aug 18:19 v2.1.251 f1af9b1 What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cost Added live streaming of a foreground subagent's tool calls and results to Remote Control clients (background subagents, the default, still show status only) Added a Spend limit bar to /usage and a rate_limits.spend_limit status line field for developers behind a Claude apps gateway with spend limits Added a per-session prompt-cache line to /cost (hit ratio, misses, tokens re-cached, warm/cold) and a matching prompt_cache object for status line scripts Added attach , logs , stop , respawn , and rm to claude --help ; the --re",
-    "full": "full/f-gh-releases-anthropics-claude-code-1qmdhdb.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1ykdpwk",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10677",
-   "ctx": "vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize ( #27812 ) vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize is_src_of doesn't treat two views of one tensor as dependent, so the optimizer reorders nodes across aliased reads and writes. Result: silently wrong tokens under greedy decoding, different output on every server start, and invalid speculative-decod",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10677",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T18:30:36.676Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T18:29:09.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "Release b10677 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T18:30:36.676Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10677 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 18:27 b10677 b387ddf This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize ( #27812 ) vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize is_src_of doesn't treat two views of one tensor as dependent, so the optimizer reorders nodes across aliased reads and writes. Result: silently wrong tokens under greedy decoding, different output on every server start, and invalid speculative-decoding acceptance, with nothing logged. Hits Qwen3.8's recurrent state (and any model with view-aliased state) on AMD and NVIDIA Vulkan. CUDA is clean. Compare view_src bases on ",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ykdpwk.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1yudblj",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10676",
-   "ctx": "ggml : fix conv_transpose_2d for multiple batches ( #26132 ) ggml : fix conv_transpose_2d for multiple batches ggml_compute_forward_conv_transpose_2d_impl only computed the first batch (ne[3] of the destination); every batch after the first was left as zero. Both the src1 permutation and the main compute loop now iterate over the batch dimension, and the work buffer size in ggml_graph_plan is scal",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10676",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T18:30:36.676Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T18:03:49.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "Release b10676 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T18:30:36.676Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10676 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 18:01 b10676 a43c398 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml : fix conv_transpose_2d for multiple batches ( #26132 ) ggml : fix conv_transpose_2d for multiple batches ggml_compute_forward_conv_transpose_2d_impl only computed the first batch (ne[3] of the destination); every batch after the first was left as zero. Both the src1 permutation and the main compute loop now iterate over the batch dimension, and the work buffer size in ggml_graph_plan is scaled by the src1 batch count so the extra permuted batches fit. A multi-batch test case is added to test-backend-ops. Fixes ggml-org/ggml#1448 metal : fix conv_transpose_2d for ",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1yudblj.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-github-new-repos-1nahfwo",
-   "pri": 8,
-   "kind": "note",
-   "title": "XiaoDuoYa/codex-with-chatgpt — 210★ in 0.3d (840★/day)",
-   "ctx": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-08-28T18:30:36.676Z",
-   "tier": "C",
-   "itemTs": "2026-08-28T12:57:24.000Z",
-   "sub": "github · TypeScript",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "GitHub - XiaoDuoYa/codex-with-chatgpt: ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. · GitHub",
-    "fetchedAt": "2026-08-28T18:30:36.676Z",
-    "lead": "Codex with ChatGPT ChatGPT thinks. Codex works. ChatGPT 负责思考，Codex 负责干活。 The problem · 解决什么问题 中文 — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的 API 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT， Codex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。 EN — ChatGPT Plus/Pro web quota sits idle while your coding agent burns scarce API/Codex tokens on planning and review. This project moves the thinking to the subscription you already pay for; Codex only executes. No API keys, no reverse proxy — official web UI plus a read-only MCP bridge. What it is · 这是什么 中文 — 把 ChatGPT 网页版变成 Codex 编码会话的\"规划与审查大脑\"，执行权 完全保留在 Codex 手里。你的仓库永远不会被上传：ChatGPT 通过一条安全的、 OAuth 保护的 只读 MCP 连接，按需读取当前工作区里它真正需要的那几行代码。 EN — Use the ChatGPT web app as the planning and review brain for your Codex coding sessions, while Codex keeps full ownership of execution. Your repository is never uploaded: ChatGPT reads exactly the lines it needs through a secure, OAuth-protected, read-only MCP connection to your current workspace. Detailed docs below are in English · 详细中文文档见 README.zh-CN.md One-paste install · 一段话安装 中文 — 不懂 git、Node、终端？完全不需要懂。把下面这段话原样复制给你的 编码 Agent（Codex），然后去倒杯咖啡： 请帮我完整安装并配置 Codex with ChatGPT，全程自动，我是不懂技术的小白， 所有事情你自己做： 1. 环境自检：需要 git",
-    "full": "full/f-github-new-repos-1nahfwo.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-anthropic-status-056zhzy",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors on Claude Code and Claude Cowork",
-   "ctx": "Aug 28 , 17:22 UTC Identified - We have identified an issue with an upstream cloud provider affecting Claude Cowork and Claude Code on the web. Some sessions may fail to start or disconnect mid-task; affected sessions can be retried. We are in contact with the provider and will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/vr9tpk8w7zr8",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-08-28T17:30:36.613Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T17:22:02.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-041trgw",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.151.0-alpha.10",
-   "ctx": "Release 0.151.0-alpha.10",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.10",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-28T16:30:36.599Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T16:09:06.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 833,
-    "title": "Release rust-v0.151.0-alpha.10 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-28T16:30:36.599Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.2k Star 120k rust-v0.151.0-alpha.10 rust-v0.151.0-alpha.10 34c5b60 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.151.0-alpha.10 rust-v0.151.0-alpha.10 34c5b60 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 28 Aug 16:09 Release 0.151.0-alpha.10 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "full": "full/f-gh-releases-openai-codex-041trgw.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0038vbe",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10675",
-   "ctx": "Vulkan: add hoisting support for row IDs and expert count in shaders ( #26686 ) vulkan: add hoisting support for row IDs and expert count in shaders use hoisted row ids in coopmat2 vulkan: address review feedback on count_experts use vk_op_count_experts_push_constants instead of a raw uint vector apply the fastdiv trick to the ne00 div/mod in count_experts compute the per-expert offsets with subgr",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10675",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T16:00:37.868Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T15:50:15.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2408,
-    "title": "Release b10675 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T16:00:37.868Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10675 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 15:48 b10675 90c26fc This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Vulkan: add hoisting support for row IDs and expert count in shaders ( #26686 ) vulkan: add hoisting support for row IDs and expert count in shaders use hoisted row ids in coopmat2 vulkan: address review feedback on count_experts use vk_op_count_experts_push_constants instead of a raw uint vector apply the fastdiv trick to the ne00 div/mod in count_experts compute the per-expert offsets with subgroupExclusiveAdd when the device supports it, keeping the serial path as fallback document the data_d layout and the hoisted_row_id_words bound drop a leftover debug print in g",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0038vbe.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-0xpabx4",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.151.0-alpha.9",
-   "ctx": "Release 0.151.0-alpha.9",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.9",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-28T15:00:38.093Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T14:37:14.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 828,
-    "title": "Release rust-v0.151.0-alpha.9 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-28T15:00:38.093Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.2k Star 119k rust-v0.151.0-alpha.9 rust-v0.151.0-alpha.9 4325f6f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.151.0-alpha.9 rust-v0.151.0-alpha.9 4325f6f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 28 Aug 14:37 Release 0.151.0-alpha.9 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "full": "full/f-gh-releases-openai-codex-0xpabx4.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1xgfb4o",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10673",
-   "ctx": "metal : add fa-vec tunings for M4 ( #27875 ) This adds fa_vec_tuned_table records for Apple M4 to ggml-metal-tuning.cpp. Includes F16, Q4_0, Q4_1, Q5_0, Q5_1, and Q8_0. (M4, 10 GPU Cores) Co-authored-by: Strongtut 8432058+Strongtut@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43677301 macOS/iOS: macOS Apple Silicon (arm64) mac",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10673",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T14:30:37.884Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T14:30:38.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1866,
-    "title": "Release b10673 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T14:30:37.884Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10673 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 14:30 b10673 f5e85d4 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add fa-vec tunings for M4 ( #27875 ) This adds fa_vec_tuned_table records for Apple M4 to ggml-metal-tuning.cpp. Includes F16, Q4_0, Q4_1, Q5_0, Q5_1, and Q8_0. (M4, 10 GPU Cores) Co-authored-by: Strongtut 8432058+Strongtut@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43677301 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1xgfb4o.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1xqewtn",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10672",
-   "ctx": "OpenVINO: Update OV to 2026.3.1, whisper.cpp support, Qwen3.5 on NPU, and new ops ( #27843 ) OpenVINO Backend: Fuse IM2COL + MatMul convolution into OpenVINO convolution ci:ggml-ov: Skip recurrent state rollback tests ci:ggml-ov: Skip recurrent state rollback tests Update OPENVINO.md ggml-openvino : add env-var gated op support debugging Fix ggml_rope_set_offset case OpenVINO backend: Support Whis",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10672",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T14:00:39.711Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T13:53:31.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "Release b10672 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T14:00:39.711Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10672 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 13:51 b10672 511f9c1 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . OpenVINO: Update OV to 2026.3.1, whisper.cpp support, Qwen3.5 on NPU, and new ops ( #27843 ) OpenVINO Backend: Fuse IM2COL + MatMul convolution into OpenVINO convolution ci:ggml-ov: Skip recurrent state rollback tests ci:ggml-ov: Skip recurrent state rollback tests Update OPENVINO.md ggml-openvino : add env-var gated op support debugging Fix ggml_rope_set_offset case OpenVINO backend: Support Whisper.cpp Fix code style openvino : enable qwen35 on NPU Static shapes: get_graph_input_shape() left the s_copy / s_copy-leaf inputs dynamic ([1,1,1,-1]) even in static mode, wh",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1xqewtn.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1yae47l",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10670",
-   "ctx": "sycl: use TILE for quantized KV decode on BMG ( #26689 ) Route quantized KV decode to TILE on Xe2 (BMG) only, keep VEC on other archs until validated there. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43660247 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10670",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T13:30:36.908Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T13:14:33.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1843,
-    "title": "Release b10670 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T13:30:36.908Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10670 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 13:12 b10670 d077b4c This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl: use TILE for quantized KV decode on BMG ( #26689 ) Route quantized KV decode to TILE on Xe2 (BMG) only, keep VEC on other archs until validated there. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43660247 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL ",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1yae47l.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1uog4oz",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10669",
-   "ctx": "sycl: bind the f16 KV cache in place for the oneDNN SDPA path ( #27468 ) Measured at a live KV length of 34816 (32768 depth plus one 2048 ubatch), on Qwen3.8 27B Q4_K_S: per tensor 4 * 34816 * 256 * 2 B = 71.3 MB staged per call K and V, so 2x = 142.6 MB traffic per call read once, write once = 285.2 MB traffic per ubatch 285.2 MB * 16 calls = 4.56 GB One ubatch is one ggml_cgraph submission (llam",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10669",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T13:00:37.311Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T12:45:55.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2490,
-    "title": "Release b10669 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T13:00:37.311Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10669 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 12:44 b10669 be87620 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl: bind the f16 KV cache in place for the oneDNN SDPA path ( #27468 ) Measured at a live KV length of 34816 (32768 depth plus one 2048 ubatch), on Qwen3.8 27B Q4_K_S: per tensor 4 * 34816 * 256 * 2 B = 71.3 MB staged per call K and V, so 2x = 142.6 MB traffic per call read once, write once = 285.2 MB traffic per ubatch 285.2 MB * 16 calls = 4.56 GB One ubatch is one ggml_cgraph submission (llama_context::process_ubatch -> graph_compute), so that 4.56 GB is the cost of a single 2048-token prefill chunk, and it scales with the live KV length: the first ubatch of the s",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uog4oz.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1uegj00",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10668",
-   "ctx": "metal : add fa-vec tunings for M3 Max, M5 and M5 Pro ( #27863 ) metal : add fa-vec tunings for M5 This is a followup contribution to efeda76 as requested in https://github.com/ggml-org/llama.cpp/discussions/27668 to add support for additional Apple GPUs. I generated this output using the provided instructions: git clone https://github.com/ggml-org/llama.cpp cd llama.cpp cmake -B build -DGGML_METAL",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10668",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T12:30:36.490Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T12:19:10.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "Release b10668 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T12:30:36.490Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10668 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 12:17 b10668 8963a9b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add fa-vec tunings for M3 Max, M5 and M5 Pro ( #27863 ) metal : add fa-vec tunings for M5 This is a followup contribution to efeda76 as requested in https://github.com/ggml-org/llama.cpp/discussions/27668 to add support for additional Apple GPUs. I generated this output using the provided instructions: git clone https://github.com/ggml-org/llama.cpp cd llama.cpp cmake -B build -DGGML_METAL=ON cmake --build build --target ggml-metal-tuning -j ./build/bin/ggml-metal-tuning fa-vec --dtype f16,q8_0 > fa_vec_rows.txt 2> fa_vec_sweep.log This ran on a machine with Ap",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uegj00.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1ykakel",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10667",
-   "ctx": "metal : add fa-vec tunings for M4 Pro ( #27824 ) This is a followup contribution to efeda76 as requested in https://github.com/ggml-org/llama.cpp/discussions/27668 to add support for additional Apple GPUs. I generated this output using the provided instructions: git clone https://github.com/ggml-org/llama.cpp cd llama.cpp cmake -B build -DGGML_METAL=ON cmake --build build --target ggml-metal-tunin",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10667",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T12:00:38.496Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T11:55:56.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2280,
-    "title": "Release b10667 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T12:00:38.496Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10667 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 28 Aug 11:53 b10667 6d6b697 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add fa-vec tunings for M4 Pro ( #27824 ) This is a followup contribution to efeda76 as requested in https://github.com/ggml-org/llama.cpp/discussions/27668 to add support for additional Apple GPUs. I generated this output using the provided instructions: git clone https://github.com/ggml-org/llama.cpp cd llama.cpp cmake -B build -DGGML_METAL=ON cmake --build build --target ggml-metal-tuning -j ./build/bin/ggml-metal-tuning fa-vec --dtype f16,q8_0 > fa_vec_rows.txt 2> fa_vec_sweep.log This ran on a MacBook Pro (14-inch, Nov 2024) with Apple M4 Pro. The ggml-meta",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ykakel.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-zvi-1h0yyrn",
-   "pri": 60,
-   "kind": "note",
-   "title": "OpenAI Offers Straight-Laced Postmortem Of The HuggingFace Hack",
-   "ctx": "OpenAI finally gave us a technical report on What Happened, as did METR together with Redwood Research.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://thezvi.substack.com/p/openai-offers-straight-laced-postmortem",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "zvi",
-   "detectedAt": "2026-08-28T12:00:38.496Z",
-   "tier": "D",
-   "itemTs": "2026-08-28T11:29:15.000Z",
-   "sub": "zvi",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-chinatalk-19hm2ae",
-   "pri": 60,
-   "kind": "note",
-   "title": "How the US and China Are Meme-ifying Modern War",
-   "ctx": "\"Glossy coat, shiny fur, I’m a beautiful little piggy\"",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.chinatalk.media/p/how-the-us-and-china-are-meme-ifying",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "chinatalk",
-   "detectedAt": "2026-08-28T10:30:36.716Z",
-   "tier": "D",
-   "itemTs": "2026-08-28T10:05:01.000Z",
-   "sub": "chinatalk",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-openai-news-02w8b1v",
-   "pri": 15,
-   "kind": "note",
-   "title": "Supporting Thailand’s next generation of AI startups",
-   "ctx": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openai-news",
-   "detectedAt": "2026-08-28T09:30:36.096Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T02:00:00.000Z",
-   "sub": "openai",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-08-28T09:30:36.096Z"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-latent-space-1vc7lf1",
-   "pri": 55,
-   "kind": "note",
-   "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-   "ctx": "It’s Time. We’re in the Endgame now.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "latent-space",
-   "detectedAt": "2026-08-28T07:30:35.996Z",
-   "tier": "D",
-   "itemTs": "2026-08-28T07:12:10.000Z",
-   "sub": "latentspace",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1yaaypm",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10666: tests : run test-save-load-state across all architectures (#27755)",
-   "ctx": "tests : run test-save-load-state across all architectures test-save-load-state previously only ran in ctest against a single downloaded model (tinyllamas/stories15M), i.e. only the llama arch. Add a --models DIR mode to test-save-load-state that runs the full save/load suite over every *.gguf in a directory, reporting a per-model PASS/FAIL and exiting non-zero if any model fails, and wire a ctest ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10666",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-28T07:00:37.904Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T06:45:19.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "Release b10666: tests : run test-save-load-state across all architectures (#27755) · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-28T07:00:37.904Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.3k Star 126k b10666 b10666 4e97ac8 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10666: tests : run test-save-load-state across all architectures (#27755) b10666 4e97ac8 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode ggerganov tagged this 28 Aug 06:45 * tests : run test-save-load-state across all architectures test-save-load-state previously only ran in ctest against a single down",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1yaaypm.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-openrouter-models-05ysli4",
-   "pri": 12,
-   "kind": "note",
-   "title": "New experimental model — Tencent: Hy4 preview",
-   "ctx": "A routing row exists for tencent/hy4-preview. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nTencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/tencent/hy4-preview",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-08-28T06:30:36.284Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T06:09:35.000Z",
-   "sub": "openrouter · tencent/hy4-preview",
-   "extract": {
-    "ok": true,
-    "chars": 1326,
-    "title": "Hy4 preview - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-08-28T06:30:36.284Z",
-    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping t",
-    "full": "full/f-openrouter-models-05ysli4.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-github-new-repos-1ikqshm",
-   "pri": 25,
-   "kind": "note",
-   "title": "KKKKhazix/sun-style-writing — 171★ in 0.3d (523★/day)",
-   "ctx": "从孙割19年白月光的痛彻心扉中蒸馏出来的无上心法\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/KKKKhazix/sun-style-writing",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-08-28T05:30:35.991Z",
-   "tier": "C",
-   "itemTs": "2026-08-27T21:39:36.000Z",
-   "sub": "github · repo",
-   "extract": {
-    "ok": true,
-    "chars": 2026,
-    "title": "GitHub - KKKKhazix/sun-style-writing: 从孙割19年白月光的痛彻心扉中蒸馏出来的无上心法 · GitHub",
-    "fetchedAt": "2026-08-28T05:30:35.991Z",
-    "lead": "孙割写作.skill 从孙割19年白月光的痛彻心扉中蒸馏出来的无上心法 十种手法 · 安装 · 使用 · 反馈 一颗卵子，三点五微克。 五千万美元现金，两点五吨。 一段沉默，十一秒。 后来，有人把这些东西装进了一个 .skill 文件。 它不含卵子。 也不含美元。 只含写法。 sun-style-writing 从《我的女友景甜》中拆出十种中文叙事手法。它教模型写动作、数字、物件和沉默。该交代的事实交代清楚。该解释的感情，不解释。 装上以后，模型不会变成孙割。账户里不会多出五千万美元，楼下也不会停一架 A330。 文章会少几个宇宙。 先看一段 普通模型写离职： 走出公司大门的那一刻，我百感交集。三年的青春仿佛在身后缓缓落幕。 它用了“百感交集”“青春”和“落幕”。 三个词。 孙割写法： 前台把我的工牌剪断。 剪刀卡了两次。 她换了一把。 两把剪刀。 一个字也没有哭。 十种手法 名字都在下面。不是十项任务，不需要全部完成。 手法 它怎么下手 白描 不写“心如刀割”。写“我的指甲现在还是磨人的” 对照 把三点五微克放在两点五吨旁边，不替任何一方发言 反复与变奏 先说很多次“好”，再让“让我想想”进场 伏笔与照应 前面磨指甲，后面忘了方向。中间不举“这是伏笔”的牌子 物件叙事 人不方便开口时，让照片、饭盒和指甲锉代班 意象 海可以回来，但不能给每篇文章强制分配一片海 蒙太奇 十九年可以一刀切过，关键的十一秒一秒不少 留白 不知道就停在不知道。不是漏写，是不替人物知道 反高潮 五千万美元起手，一分钟六十几下收尾 回环 开头什么都没发生，结尾还是什么都没发生。已经不是一回事了 还有半式，叫称谓变化。 “妈妈”变回“景甜”。关系已经结束。文本没有另办告别仪式。 白描每次都在。其他手法看材料。十种全塞进去，人物会没有地方坐。 三条门规 能让一个动作说话，就不解释心理。 能让一个物件说话，就不总结感情。 能让前文回来一次，就不重新抒情。 非虚构还有一条： 不编数字。 “十一秒”有力量，是因为它真的发生过。记不清就写记不清。模型临时补成“十三秒”，口供就不一致了。 模型不在现场。不要让它替当事人看表。 安装 孙割等了十九年。 安装不用。 把这句话发给支持 Skills 的 Agent： 帮我安装这个 skill：https://github.com/KKKKhazix/sun-style-writing 正常情况下，Agent 会找到仓库里的 sun-style-writing 文件夹，然后装好。 如果 Agent 也突然沉默 从 Releases 下载 .skill 安装包，或者把仓库里的 sun-style-writing 文件夹完整复制到本机 Skills 目录： ~/.agents/skills/sun-style-writing/ 安装完成以后，屏幕不会闪。 什么都",
-    "full": "full/f-github-new-repos-1ikqshm.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-057zrc5",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.59.0-nightly.20260828.g3c311beac",
-   "ctx": "Full Changelog : v0.59.0-nightly.20260827.g3c311beac...v0.59.0-nightly.20260828.g3c311beac",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260828.g3c311beac",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-08-28T04:00:35.978Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T03:53:11.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 737,
-    "title": "Release Release v0.59.0-nightly.20260828.g3c311beac · google-gemini/gemini-cli · GitHub",
-    "fetchedAt": "2026-08-28T04:00:35.978Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.5k Star 107k Release v0.59.0-nightly.20260828.g3c311beac Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 28 Aug 03:53 v0.59.0-nightly.20260828.g3c311beac 2072b6d Full Changelog : v0.59.0-nightly.20260827.g3c311beac...v0.59.0-nightly.20260828.g3c311beac Assets 5 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
-    "full": "full/f-gh-releases-google-gemini-gemini-cli-057zrc5.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-03edh21",
-   "pri": 45,
-   "kind": "note",
-   "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
-   "ctx": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cross-embodiment action-conditioned video generation capable of being trained on diverse, internet-scale videos across human and robotic agents. CLAP is grounded in the insight that universal physical l",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27406v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-08-28T03:30:35.896Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T17:35:10.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -3067,11 +2909,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 72,
-   "slow": 28
+   "slow": 48,
+   "daily": 52
   },
-  "routed": 62,
-  "unrouted": 38,
+  "routed": 48,
+  "unrouted": 52,
   "unmappedLaneFamilies": []
  }
 }
