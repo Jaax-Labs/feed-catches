@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-08-31T19:00:19.841Z",
+ "generatedAt": "2026-08-31T19:30:16.074Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-0nc288z",
+   "pri": 33,
+   "kind": "note",
+   "title": "Degraded performance on claude.ai and Claude Code",
+   "ctx": "Aug 31 , 19:21 UTC Investigating - We are investigating reports of degraded performance affecting Claude in Slack, Claude Code on the web, and Code Review. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/r82kdk0m7vqh",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-08-31T19:30:06.000Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T19:21:32.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-modelcontextprotocol-servers-18ounyf",
    "pri": 30,
@@ -2849,31 +2874,6 @@
    "clock": "daily",
    "questions": [
     "model-switch"
-   ]
-  },
-  {
-   "id": "f-hn-newest-ai-1uzwhxk",
-   "pri": 38,
-   "kind": "note",
-   "title": "The Rise and Fall of Agent Civilizations",
-   "ctx": "Article URL: https://www.dwarkesh.com/p/openai-huggingface Comments URL: https://news.ycombinator.com/item?id=49494301 Points: 50 # Comments: 6",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.dwarkesh.com/p/openai-huggingface",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hn-newest-ai",
-   "detectedAt": "2026-08-30T07:00:07.390Z",
-   "tier": "C",
-   "itemTs": "2026-08-29T23:43:24.000Z",
-   "sub": "hackernews",
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
    ]
   }
  ],
