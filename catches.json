@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-08-31T05:30:16.455Z",
+ "generatedAt": "2026-08-31T06:30:36.928Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0nrhjmu",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10712",
+   "ctx": "vulkan: top_k radix select for k &gt;= 1024 for Qwen 3.8 Flash Next ( #28032 ) vulkan: add top-k radix sort shader for k &gt;= 1024 add Qwen 3.8 Flash Next top-k tests add top-k qsa fusion clean up code Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44052683 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10712",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T06:00:07.974Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T05:41:04.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1807,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10712 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 05:39 b10712 daef7b6 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: top_k radix select for k >= 1024 for Qwen 3.8 Flash Next ( #28032 ) vulkan: add top-k radix sort shader for k >= 1024 add Qwen 3.8 Flash Next top-k tests add top-k qsa fusion clean up code Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44052683 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) ",
+    "truncated": false,
+    "title": "Release b10712 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T06:00:07.974Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0nrhjmu.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.CL-04x14z3",
    "pri": 45,
@@ -2874,29 +2908,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-simon-willison-1mfu5g4",
-   "pri": 36,
-   "kind": "note",
-   "title": "Just a rumour of a bug is enough to find a security exploit these days",
-   "ctx": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a rel",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-08-28T22:30:36.980Z",
-   "tier": "D",
-   "itemTs": "2026-08-28T22:12:02.000Z",
-   "sub": "simonwillison",
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2909,11 +2920,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 48,
-   "daily": 52
+   "daily": 52,
+   "slow": 48
   },
-  "routed": 48,
-  "unrouted": 52,
+  "routed": 49,
+  "unrouted": 51,
   "unmappedLaneFamilies": []
  }
 }
