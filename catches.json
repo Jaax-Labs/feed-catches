@@ -1,7 +1,230 @@
 {
- "generatedAt": "2026-08-31T09:30:31.706Z",
+ "generatedAt": "2026-08-31T12:30:24.797Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-hn-newest-ai-1sm877y",
+   "pri": 38,
+   "kind": "note",
+   "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
+   "ctx": "Article URL: https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails Comments URL: https://news.ycombinator.com/item?id=49506655 Points: 52 # Comments: 44",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-ai",
+   "detectedAt": "2026-08-31T12:30:07.596Z",
+   "tier": "C",
+   "itemTs": "2026-08-31T07:23:47.000Z",
+   "sub": "hackernews",
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0p5fk3p",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10717",
+   "ctx": "sycl : Enhance to get the free memory of Intel GPU ( #27968 ) enhance get mem info by l0 an SYCL API remove debug code, format the code update SYCL.md for GGML_SYCL_GET_MEM_API Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44119794 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFram",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10717",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T11:30:06.923Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T11:21:21.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1787,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10717 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 11:19 b10717 a32af33 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl : Enhance to get the free memory of Intel GPU ( #27968 ) enhance get mem info by l0 an SYCL API remove debug code, format the code update SYCL.md for GGML_SYCL_GET_MEM_API Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44119794 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+    "truncated": false,
+    "title": "Release b10717 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T11:30:06.923Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0p5fk3p.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-hf-daily-papers-1038h2q",
+   "pri": 28,
+   "kind": "note",
+   "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+   "ctx": "Loop Engineering is emerging as a practice for organizing development work around coding agents. Instead of writing each prompt by hand, practitioners design loops that monitor progress, assign work, run checks, and decide what the agent should do next. Even with a capable coding agent, a loop may trust a stale progress note, skip needed verification, spend its budget in the wrong direction, or stop before the task is safe to submit. Yet the final outcome of one end-to-end run cannot tell whethe",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/papers/2608.28281",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-daily-papers",
+   "detectedAt": "2026-08-31T11:30:06.923Z",
+   "tier": "B",
+   "itemTs": "2026-08-27T20:00:00.000Z",
+   "sub": "HF daily papers · 74 upvotes",
+   "extract": {
+    "ok": true,
+    "chars": 11616,
+    "lead": "Excited to share LoopArena, a benchmark for Loop Engineering that measures how well a model can guide a fixed coding agent through long-running software development tasks. LoopArena evaluates this ability at three complementary levels, from individual control decisions to task slices and complete tasks. Our results show that reliable long-horizon loop control remains challenging, while the lower-cost Type II setting reduces estimated inference cost by 64.4% and preserves a similar model ordering to full-task evaluation. We welcome feedback on the paper, benchmark, and evaluation protocol! \\n\",\"updatedAt\":\"2026-08-31T11:19:21.134Z\",\"author\":{\"_id\":\"6773bcaa675a971ddf1e81dd\",\"avatarUrl\":\"https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/a8VUwZYXd7O_mq_zFvXMh.png\",\"fullname\":\"Yi Wang\",\"name\":\"CokeWang\",\"type\":\"user\",\"isPro\":false,\"isHf\":false,\"isHfAdmin\":false,\"isMod\":false,\"followerCount\":1,\"isUserFollowing\":false}},\"numEdits\":0,\"identifiedLanguage\":{\"language\":\"en\",\"probability\":0.8669617772102356},\"editors\":[\"CokeWang\"],\"editorAvatarUrls\":[\"https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/a8VUwZYXd7O_mq_zFvXMh.png\"],\"reactions\":[],\"isReport\":false}}],",
+    "truncated": false,
+    "title": "Paper page - LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+    "fetchedAt": "2026-08-31T11:30:06.923Z",
+    "full": "full/f-hf-daily-papers-1038h2q.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-chinatalk-1upp1q0",
+   "pri": 60,
+   "kind": "note",
+   "title": "good books so far this year",
+   "ctx": "First books, then movie, food, theater, and bakery recs Ancient & Classical Classical Greek Tactics: A Cultural History, Roel Konijnendijk, 2018. Covered in an upcoming podcast. Fun to read a book where from the first five pages it’s clear the author has an absolute command of his sources. My favorite riff was his exploration of the debate around what actually happened at the Battle of Leuctra, Ep",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/good-books-so-far-this-year",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-08-31T11:00:09.003Z",
+   "tier": "D",
+   "itemTs": "2026-08-31T10:57:35.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 22220,
+    "lead": "First books, then movie, food, theater, and bakery recs Ancient & Classical Classical Greek Tactics: A Cultural History, Roel Konijnendijk, 2018. Covered in an upcoming podcast. Fun to read a book where from the first five pages it’s clear the author has an absolute command of his sources. My favorite riff was his exploration of the debate around what actually happened at the Battle of Leuctra, Epaminondas’ famous victory over Sparta in 371 BC. Prussian historians tried to make him into another Frederick the Great grand tactical genius, but the sources just don’t give you enough color to know what it was he did to win this battle, so each historian came up with their own pet theory. Roel also squared a lot of circles by emphasizing just how corny all Greeks save Spartans thought hoplite training was. Xenophon acknowledges that Athenians “not only neglect to make themselves fit, but mock at those who take the trouble to do so.” Beyond general fitness, weapons training was practically non-existent, and all hoplites save Spartan ones couldn’t turn. This limitation limited just how creative generals could get with their tactics. Pod with Roel here: Side note: According to Plutarch, Epa",
+    "truncated": false,
+    "fetchedAt": "2026-08-31T11:00:09.003Z",
+    "full": "full/f-chinatalk-1upp1q0.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0olgcpr",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10715",
+   "ctx": "spec : fuse the DFlash encoder into the KV cache injection ( #27310 ) dflash : fuse the encoder into the KV injection decode The encoder is a single fc + norm, but running it as a separate llama_encode forced a device-to-host round trip of its output before the injection decode could re-upload it, plus a second graph build per round. Fold the encoder into the decoder's embd branch and feed the tar",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10715",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T10:30:07.679Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T10:13:11.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2343,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10715 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 10:11 b10715 662a0b0 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . spec : fuse the DFlash encoder into the KV cache injection ( #27310 ) dflash : fuse the encoder into the KV injection decode The encoder is a single fc + norm, but running it as a separate llama_encode forced a device-to-host round trip of its output before the injection decode could re-upload it, plus a second graph build per round. Fold the encoder into the decoder's embd branch and feed the target features directly to one llama_decode. Assisted-by: Claude Fable nit Apply batched suggestions from code review Co-authored-by: Ruixiang Wang wangruixiang07@outlook.com Fi",
+    "truncated": false,
+    "title": "Release b10715 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T10:30:07.679Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0olgcpr.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-hf-models-deepseek-ai-1o2e4mv",
+   "pri": 26,
+   "kind": "note",
+   "title": "Weights: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+   "ctx": "New model repo under deepseek-ai. On HF the weights are public before the blog post.\n\nTags: transformers, safetensors, deepseek_v4, text-generation, license:mit, endpoints_compatible, 8-bit, fp8, region:us",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-models-deepseek-ai",
+   "detectedAt": "2026-08-31T10:30:07.679Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T06:16:18.000Z",
+   "sub": "huggingface · deepseek-ai · 18 likes",
+   "extract": {
+    "ok": false,
+    "reason": "extracted text is markup/template, not prose",
+    "fetchedAt": "2026-08-31T10:30:07.679Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0obgr0s",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10714",
+   "ctx": "vulkan: tune mat-vec rows for batched inference on Strix Halo ( #27909 ) vulkan: RDNA3 static mat-vec rows above four columns On RDNA3 above four columns a static 4 rows for all types benches faster than the default. vulkan: RDNA3 static mat-vec-id rows mul_mat_vec_id has no column dimension to switch on. On my Strix Halo machine, a static 4 is faster here than the defaults across types and batch ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10714",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T10:00:10.796Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T09:41:43.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2090,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10714 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 09:40 b10714 2cdae80 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: tune mat-vec rows for batched inference on Strix Halo ( #27909 ) vulkan: RDNA3 static mat-vec rows above four columns On RDNA3 above four columns a static 4 rows for all types benches faster than the default. vulkan: RDNA3 static mat-vec-id rows mul_mat_vec_id has no column dimension to switch on. On my Strix Halo machine, a static 4 is faster here than the defaults across types and batch sizes. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44098655 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, ",
+    "truncated": false,
+    "title": "Release b10714 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T10:00:10.796Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0obgr0s.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0o1h5bt",
    "pri": 30,
@@ -2700,219 +2923,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-github-new-repos-1twsk08",
-   "pri": 25,
-   "kind": "note",
-   "title": "Leveetememorialize/gta-6-download-cyberleek — 221★ in 0.8d (278★/day)",
-   "ctx": "GTA 6 Alpha build leaked by CyberLeek. Full playable build with Vice City map, gameplay, cutscenes, and assets. Launcher is 100 MB — downloads the full 106 GB build during installation.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/Leveetememorialize/gta-6-download-cyberleek",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-08-29T11:30:38.001Z",
-   "tier": "C",
-   "itemTs": "2026-08-28T16:27:35.000Z",
-   "sub": "github · C#",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "GitHub - Leveetememorialize/gta-6-download-cyberleek: GTA 6 Alpha build leaked by CyberLeek. Full playable build with Vice City map, gameplay, cutscenes, and assets. Launcher is 100 MB — downloads the full 106 GB build during installation. · GitHub",
-    "fetchedAt": "2026-08-29T11:30:38.001Z",
-    "lead": "GTA 6 Download — CyberLeek Alpha Build (106 GB) GTA 6 Alpha build leaked by CyberLeek. Full playable build with Vice City map, gameplay, cutscenes, and assets. Launcher is 100 MB — downloads the full 106 GB build during installation. ⬇️ Download CLICK Archive passkey: Cyberleek Keywords: gta-6-download, gta-6-cyberleek, gta-6-leak, gta-6-alpha, gta-6-playable, gta-6-106gb, gta-6-build, cyberleek 🧩 About the Leak In August 2026, an individual or group operating under the name CyberLeek leaked an early Alpha build of Grand Theft Auto VI. This is a playable build with the full Vice City map, gameplay mechanics, and cutscenes. The leaker demonstrated direct access by spelling \"LEEK\" with bullet holes in-game. Key Details: Build Size: 106 GB Launcher Size: 100 MB Build Type: Playable Alpha Build Map: Full Vice City region Build Date: Late 2023 – early 2024 Protagonists: Jason (Lucia not yet shown) 📦 Installation The setup is a launcher (100 MB) that downloads the full 106 GB build directly to your chosen directory. Step-by-step: Download Cyberleek Launcher Alpha Build.exe (100 MB) using the link above. Run as Administrator. Select installation path (e.g. D:\\GTA6Build ). Ensure at leas",
-    "full": "full/f-github-new-repos-1twsk08.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1vx9ae9",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.152.0-alpha.1",
-   "ctx": "Release 0.152.0-alpha.1",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-29T10:30:36.802Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T10:06:17.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 828,
-    "title": "Release rust-v0.152.0-alpha.1 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-29T10:30:36.802Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.3k Star 120k rust-v0.152.0-alpha.1 rust-v0.152.0-alpha.1 6d123b7 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0-alpha.1 rust-v0.152.0-alpha.1 6d123b7 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 29 Aug 10:06 Release 0.152.0-alpha.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "full": "full/f-gh-releases-openai-codex-1vx9ae9.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-07kpqd8",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.151.0",
-   "ctx": "Release 0.151.0",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.151.0",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-29T09:30:37.915Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T09:11:58.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 788,
-    "title": "Release rust-v0.151.0 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-29T09:30:37.915Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.3k Star 120k rust-v0.151.0 rust-v0.151.0 78c2908 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.151.0 rust-v0.151.0 78c2908 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 29 Aug 09:11 Release 0.151.0 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "full": "full/f-gh-releases-openai-codex-07kpqd8.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-latent-space-0lbzdh8",
-   "pri": 55,
-   "kind": "note",
-   "title": "[AINews] OpenAI shuts off Cursor",
-   "ctx": "Elon v Altman has a real consequence.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "latent-space",
-   "detectedAt": "2026-08-29T05:30:38.212Z",
-   "tier": "D",
-   "itemTs": "2026-08-29T05:11:52.000Z",
-   "sub": "latentspace",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1tabt86",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10680: snapdragon: python SDK setup (Windows) (#27903)",
-   "ctx": "port setup-build.ps1 to setup_sdk.py, to facilitate installation of Hexagon and OpenCL SDKs on Windows rename setup_sdk.py -&gt; setup-sdk.py flake8 fix: print() -&gt; logger.info() Co-authored-by: Kristopher Urquhart kurquhar@qti.qualcom.com",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10680",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-29T04:30:37.810Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T21:01:59.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1360,
-    "title": "Release b10680: snapdragon: python SDK setup (Windows) (#27903) · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-29T04:30:37.810Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.4k Star 126k b10680 b10680 d7bd3bf Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10680: snapdragon: python SDK setup (Windows) (#27903) b10680 d7bd3bf Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode kurquhar tagged this 28 Aug 21:01 * port setup-build.ps1 to setup_sdk.py, to facilitate installation of Hexagon and OpenCL SDKs on Windows * rename setup_sdk.py -> setup-sdk.py * flake8",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1tabt86.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-github-new-repos-1mf60lb",
-   "pri": 25,
-   "kind": "note",
-   "title": "chrisgreg/boop — 170★ in 0.5d (330★/day)",
-   "ctx": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/chrisgreg/boop",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-08-29T04:00:40.092Z",
-   "tier": "C",
-   "itemTs": "2026-08-28T15:38:33.000Z",
-   "sub": "github · Go",
-   "extract": {
-    "ok": true,
-    "chars": 2500,
-    "title": "GitHub - chrisgreg/boop: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. · GitHub",
-    "fetchedAt": "2026-08-29T04:00:40.092Z",
-    "lead": "Boop A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. One Go binary, one SQLite file, one Docker container. Pushes go straight from your server to Apple's APNs. There is no hosted relay, account system, or telemetry. curl https://boop.example.com/api/v1/events \\ -H \" Authorization: Bearer $BOOP_API_KEY \" \\ -H \" Content-Type: application/json \" \\ -d ' {\"title\": \"Backup complete\", \"level\": \"success\"} ' Architecture Your apps POST events with a project API key. The Go server redacts and stores them in SQLite, then pushes straight to Apple's APNs using your .p8 key. The push carries only the title, body and event id; the iOS app fetches the full event from your server with its own device credential. The embedded web UI manages projects and devices and shows the pairing QR the phone scans. An interactive version lives in docs/architecture/index.html (open it locally; the source is boop.architecture.json ). What is in the box Part Where Go server (API, SQLite, APNs, embedded web UI) server/ Web UI (Svelte, built into the binary) server/web/ iOS app (SwiftUI, iOS 26, you build and sign it) ios/ — see ios/README.md",
-    "full": "full/f-github-new-repos-1mf60lb.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-09x8gmm",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.59.0-nightly.20260829.g0bd1d4397",
-   "ctx": "What's Changed fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in #29099 Full Changelog : v0.59.0-nightly.20260828.g3c311beac...v0.59.0-nightly.20260829.g0bd1d4397",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260829.g0bd1d4397",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-08-29T02:00:38.888Z",
-   "tier": "A",
-   "itemTs": "2026-08-29T01:56:42.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 897,
-    "title": "Release Release v0.59.0-nightly.20260829.g0bd1d4397 · google-gemini/gemini-cli · GitHub",
-    "fetchedAt": "2026-08-29T02:00:38.888Z",
-    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.5k Star 107k Release v0.59.0-nightly.20260829.g0bd1d4397 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 29 Aug 01:56 v0.59.0-nightly.20260829.g0bd1d4397 3f2672e What's Changed fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in #29099 Full Changelog : v0.59.0-nightly.20260828.g3c311beac...v0.59.0-nightly.20260829.g0bd1d4397 Contributors luisfelipe-alt Assets 5 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
-    "full": "full/f-gh-releases-google-gemini-gemini-cli-09x8gmm.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2925,11 +2935,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 52,
-   "slow": 48
+   "daily": 51,
+   "slow": 49
   },
-  "routed": 49,
-  "unrouted": 51,
+  "routed": 53,
+  "unrouted": 47,
   "unmappedLaneFamilies": []
  }
 }
