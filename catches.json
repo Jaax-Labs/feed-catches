@@ -1,7 +1,140 @@
 {
- "generatedAt": "2026-08-31T19:30:16.074Z",
+ "generatedAt": "2026-08-31T21:30:40.808Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1t43shm",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10727",
+   "ctx": "metal : add concat support for quantized types ( #28116 ) Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-0731 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44252653 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ub",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10727",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T21:00:07.231Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T20:56:43.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1717,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10727 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 20:54 b10727 ab0b3bd This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add concat support for quantized types ( #28116 ) Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-0731 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44252653 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Window",
+    "truncated": false,
+    "title": "Release b10727 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T21:00:07.231Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1t43shm.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-openrouter-models-118mu3g",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — IBM: Granite 4.2 8B",
+   "ctx": "A routing row exists for ibm-granite/granite-4.2-8b. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGranite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/ibm-granite/granite-4.2-8b",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-08-31T20:30:06.341Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T20:06:20.000Z",
+   "sub": "openrouter · ibm-granite/granite-4.2-8b",
+   "extract": {
+    "ok": true,
+    "chars": 1326,
+    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping t",
+    "truncated": false,
+    "title": "Granite 4.2 8B - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-08-31T20:30:06.341Z",
+    "full": "full/f-openrouter-models-118mu3g.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1qwd32a",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.252",
+   "ctx": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json yet Fixed Remote Control sessions hosted by Claude Desktop or VS Code stalling for minutes after a tool finished when the connection to claude.ai was degraded Fixed background task notifications with",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-08-31T20:00:07.197Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T19:46:55.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1090,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23k Star 144k v2.1.252 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 31 Aug 19:46 v2.1.252 f275fa2 What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json yet Fixed Remote Control sessions hosted by Claude Desktop or VS Code stalling for minutes after a tool finished when the connection to claude.ai was degraded Fixed background task notifications with very large failure output (for example git errors on a full disk) making the conversation exceed the API request size limit Assets 12 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "truncated": false,
+    "title": "Release v2.1.252 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-08-31T20:00:07.197Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1qwd32a.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1te3e6l",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10726",
+   "ctx": "AVX2: Speed up large batch size prompt processing of IQ models ( #27402 ) Batched gemm for grid IQ quants Style updates and a bit more performance Clean up comments Move code around Vectorize IQ panel decode, lower threshold for speedup IQ panel: single-source gather layout, gate bias, vectorize interleave Add ggml_gemm_iqp_8x8_q8_K_p4 kernel, remove gather buffer Move IQ panel code out of repack ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10726",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T20:00:07.197Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T19:43:22.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-08-31T20:00:07.197Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-0nc288z",
    "pri": 33,
@@ -2741,140 +2874,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1vda30b",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.152.0-alpha.3",
-   "ctx": "Release 0.152.0-alpha.3",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.3",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-30T13:00:07.167Z",
-   "tier": "A",
-   "itemTs": "2026-08-30T12:51:26.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 828,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.3k Star 120k rust-v0.152.0-alpha.3 rust-v0.152.0-alpha.3 87dfe39 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0-alpha.3 rust-v0.152.0-alpha.3 87dfe39 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 30 Aug 12:51 Release 0.152.0-alpha.3 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.152.0-alpha.3 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-30T13:00:07.167Z",
-    "full": "full/f-gh-releases-openai-codex-1vda30b.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1vibs9x",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10692",
-   "ctx": "sycl: split long rows in TOP_K instead of one work-group per row ( #27847 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43958406 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10692",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-30T12:30:06.578Z",
-   "tier": "A",
-   "itemTs": "2026-08-30T12:23:32.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1686,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10692 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 12:22 b10692 370cb12 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl: split long rows in TOP_K instead of one work-group per row ( #27847 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43958406 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU)",
-    "truncated": false,
-    "title": "Release b10692 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-30T12:30:06.578Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1vibs9x.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1uocz70",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10691",
-   "ctx": "metal : fix null-pipeline crash for F16 src1 mul_mat/mul_mat_id ( #25648 ) metal : fail closed on mul_mat shapes with missing F16 kernels metal : abort on nil pipeline in encoder_set_pipeline metal : address review comments metal : share mul_mat mm dispatch with supports_op Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43956773 macOS/iOS: macOS Apple S",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10691",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-30T12:00:07.822Z",
-   "tier": "A",
-   "itemTs": "2026-08-30T12:00:07.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1885,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10691 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 11:58 b10691 d882575 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix null-pipeline crash for F16 src1 mul_mat/mul_mat_id ( #25648 ) metal : fail closed on mul_mat shapes with missing F16 kernels metal : abort on nil pipeline in encoder_set_pipeline metal : address review comments metal : share mul_mat mm dispatch with supports_op Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43956773 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
-    "truncated": false,
-    "title": "Release b10691 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-30T12:00:07.822Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uocz70.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1uyckvz",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10690",
-   "ctx": "memory : copy Hadamard matrix to k_rot tensor only if it has buffer assigned to prevent crashes during context shift of unquantized K cache ( #27967 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Co-authored-by: AesSedai 7980540+AesSedai@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43934818 macOS/iOS: macOS Apple Sili",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10690",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-30T08:00:09.281Z",
-   "tier": "A",
-   "itemTs": "2026-08-30T07:46:47.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1882,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10690 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 30 Aug 07:45 b10690 bdf3955 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . memory : copy Hadamard matrix to k_rot tensor only if it has buffer assigned to prevent crashes during context shift of unquantized K cache ( #27967 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Co-authored-by: AesSedai 7980540+AesSedai@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43934818 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
-    "truncated": false,
-    "title": "Release b10690 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-30T08:00:09.281Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uyckvz.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2890,8 +2889,8 @@
    "daily": 50,
    "slow": 50
   },
-  "routed": 49,
-  "unrouted": 51,
+  "routed": 50,
+  "unrouted": 50,
   "unmappedLaneFamilies": []
  }
 }
