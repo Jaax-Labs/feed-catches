@@ -1,7 +1,71 @@
 {
- "generatedAt": "2026-08-31T00:00:25.620Z",
+ "generatedAt": "2026-08-31T01:00:27.907Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-1x17p65",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.152.0-alpha.5",
+   "ctx": "Release 0.152.0-alpha.5",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.5",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-08-31T00:30:06.200Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T00:19:50.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 834,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.3k Star 120k rust-v0.152.0-alpha.5 rust-v0.152.0-alpha.5 9492728 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0-alpha.5 rust-v0.152.0-alpha.5 9492728 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags etraut-openai tagged this 31 Aug 00:19 Release 0.152.0-alpha.5 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.152.0-alpha.5 · openai/codex · GitHub",
+    "fetchedAt": "2026-08-31T00:30:06.200Z",
+    "full": "full/f-gh-releases-openai-codex-1x17p65.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-simon-willison-0lpxt13",
+   "pri": 36,
+   "kind": "note",
+   "title": "Understanding ChatGPT Work",
+   "ctx": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-08-31T00:30:06.200Z",
+   "tier": "D",
+   "itemTs": "2026-08-30T23:59:47.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 8590,
+    "lead": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The interface for accessing Work is a tab selector, which presents it as an alternative to Chat: The obvious question is when should I use Chat, a",
+    "truncated": false,
+    "fetchedAt": "2026-08-31T00:30:06.200Z",
+    "full": "full/f-simon-willison-0lpxt13.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1p831s2",
    "pri": 30,
@@ -2953,54 +3017,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-12of415",
-   "pri": 45,
-   "kind": "note",
-   "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
-   "ctx": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review sce",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27442v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-28T02:30:35.881Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T17:56:24.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1g3j2ho",
-   "pri": 45,
-   "kind": "note",
-   "title": "SWE-Prime: Fewer Trajectories, Better Performance",
-   "ctx": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful trajectories. However, task success does not guarantee high-quality supervision: successful trajectories may still contain ineffective, redundant, or risky steps. Directly using such trajectories for SFT can introduce noisy supervision and encourage models to imitate undesirable prob",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.27449v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-08-28T02:30:35.881Z",
-   "tier": "B",
-   "itemTs": "2026-08-27T17:58:10.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -3013,11 +3029,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 68,
-   "slow": 32
+   "daily": 70,
+   "slow": 30
   },
-  "routed": 58,
-  "unrouted": 42,
+  "routed": 57,
+  "unrouted": 43,
   "unmappedLaneFamilies": []
  }
 }
