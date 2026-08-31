@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-08-31T08:30:29.007Z",
+ "generatedAt": "2026-08-31T09:30:31.706Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0o1h5bt",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10713",
+   "ctx": "ggml : add MUL_MAT to the list of ops that may need additional memory (for WebGPU) ( #28071 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44086778 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU)",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10713",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-08-31T09:00:12.990Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T08:51:55.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1758,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.5k Star 126k b10713 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 08:49 b10713 557614e This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml : add MUL_MAT to the list of ops that may need additional memory (for WebGPU) ( #28071 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44086778 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
+    "truncated": false,
+    "title": "Release b10713 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-08-31T09:00:12.990Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0o1h5bt.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-github-new-repos-05jo45u",
    "pri": 25,
@@ -2878,36 +2912,6 @@
    "clock": "daily",
    "questions": [
     "model-switch"
-   ]
-  },
-  {
-   "id": "f-openai-news-0nxip51",
-   "pri": 15,
-   "kind": "note",
-   "title": "Our decision on Cursor following its acquisition by SpaceX",
-   "ctx": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openai-news",
-   "detectedAt": "2026-08-29T02:00:38.888Z",
-   "tier": "A",
-   "itemTs": "2026-08-28T06:00:00.000Z",
-   "sub": "openai",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-08-29T02:00:38.888Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "lab-board"
    ]
   }
  ],
