@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-09-01T11:00:30.410Z",
+ "generatedAt": "2026-09-01T11:30:30.421Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-hn-newest-ai-0md7wit",
+   "pri": 38,
+   "kind": "note",
+   "title": "DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs",
+   "ctx": "Article URL: https://www.dolthub.com/blog/2026-08-31-doltlite-beta/ Comments URL: https://news.ycombinator.com/item?id=49516848 Points: 51 # Comments: 36",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.dolthub.com/blog/2026-08-31-doltlite-beta/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-ai",
+   "detectedAt": "2026-09-01T11:30:06.980Z",
+   "tier": "C",
+   "itemTs": "2026-09-01T01:25:40.000Z",
+   "sub": "hackernews",
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-chinatalk-1du9610",
    "pri": 60,
@@ -2525,40 +2550,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1pi8ygz",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10728",
-   "ctx": "CUDA: XOR swizzle flash attn K,V smem fp16 tiles ( #25635 ) CUDA: XOR swizzle flash attn K,V smem fp16 tiles Signed-off-by: ynankani ynankani@nvidia.com Fix use 64bit generic pointer instead of 32bit shared pointer Signed-off-by: ynankani ynankani@nvidia.com fix shared memory race in FA on DGX Spark Handle corener case Signed-off-by: ynankani ynankani@nvidia.com Add swizzle test cases and gate syn",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10728",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-31T22:00:06.306Z",
-   "tier": "A",
-   "itemTs": "2026-08-31T21:48:01.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2627,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10728 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 21:46 b10728 e4b9af0 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . CUDA: XOR swizzle flash attn K,V smem fp16 tiles ( #25635 ) CUDA: XOR swizzle flash attn K,V smem fp16 tiles Signed-off-by: ynankani ynankani@nvidia.com Fix use 64bit generic pointer instead of 32bit shared pointer Signed-off-by: ynankani ynankani@nvidia.com fix shared memory race in FA on DGX Spark Handle corener case Signed-off-by: ynankani ynankani@nvidia.com Add swizzle test cases and gate sync for swizzled path only Signed-off-by: ynankani ynankani@nvidia.com gate CUDA PTX Signed-off-by: ynankani ynankani@nvidia.com offset calculation specific for swizzle branch S",
-    "truncated": false,
-    "title": "Release b10728 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-31T22:00:06.306Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1pi8ygz.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2571,8 +2562,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 83,
-   "daily": 17
+   "daily": 17,
+   "slow": 83
   },
   "routed": 34,
   "unrouted": 66,
