@@ -1,7 +1,230 @@
 {
- "generatedAt": "2026-09-01T14:00:34.087Z",
+ "generatedAt": "2026-09-01T15:30:23.043Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1sk1flp",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10739",
+   "ctx": "metal : add fa-vec tuning for M2 Max ( #28015 ) Rows for M2 Max (30 GPU cores) collected with 'ggml-metal-tuning fa-vec --dtype f16,q8_0', pasted into fa_vec_tuned_table. ref: https://github.com/ggml-org/llama.cpp/discussions/27668#discussioncomment-18205786 Assisted-by: pi:llama.cpp/Qwen3.8-27B Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44447968 ma",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10739",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-01T15:30:06.572Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T15:17:18.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1907,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10739 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 01 Sep 15:15 b10739 d08c787 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add fa-vec tuning for M2 Max ( #28015 ) Rows for M2 Max (30 GPU cores) collected with 'ggml-metal-tuning fa-vec --dtype f16,q8_0', pasted into fa_vec_tuned_table. ref: https://github.com/ggml-org/llama.cpp/discussions/27668#discussioncomment-18205786 Assisted-by: pi:llama.cpp/Qwen3.8-27B Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44447968 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu",
+    "truncated": false,
+    "title": "Release b10739 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-01T15:30:06.572Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1sk1flp.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-huggingface-blog-02ou0nl",
+   "pri": 40,
+   "kind": "note",
+   "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/webgpu-kernels",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-09-01T15:30:06.572Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T00:00:00.000Z",
+   "sub": "huggingface-blog",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1sa1twq",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10738",
+   "ctx": "sycl : support limit max alloc memory within 2GB for host-pinned memory ( #27559 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44438607 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10738",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-01T15:00:06.907Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T14:41:53.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1693,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10738 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 01 Sep 14:40 b10738 5eec3ad This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl : support limit max alloc memory within 2GB for host-pinned memory ( #27559 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44438607 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm6",
+    "truncated": false,
+    "title": "Release b10738 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-01T15:00:06.907Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1sa1twq.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-simon-willison-1mgk00h",
+   "pri": 36,
+   "kind": "note",
+   "title": "Python 3.15.0 candidate 2 is here!",
+   "ctx": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Pyt",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-01T15:00:06.907Z",
+   "tier": "D",
+   "itemTs": "2026-09-01T14:59:18.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 1480,
+    "lead": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates will work with future versions of Python 3.15. Back in 2021 I found a bug in Python 3.10 by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs. The new RC isn't available for GitHub Actions just yet - keep an eye on actions/python-versions for that. For the moment though you can add this to a testing matrix: strategy: matrix: python-version: [\"3.14\", \"3.15\"] steps: - uses: actions/setup-python@v7 with: py",
+    "truncated": false,
+    "fetchedAt": "2026-09-01T15:00:06.907Z",
+    "full": "full/f-simon-willison-1mgk00h.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1oo6zw3",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10737",
+   "ctx": "qwen4exp: fix seq_cp, block position keying, mtmd input, cuda abort, add tests ( #27941 ) qwen4exp: follow up fixes -kvu NaN collapse fix Assisted-by: Claude indexer cache ext.x/ext.y restore fix Assisted-by: Claude kv-cells: rename seq_set to seq_get_all seq_get is already taken by the single-id getter, so the suggested name cannot be overloaded on return type alone. Assisted-by: Claude memory-hy",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10737",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-01T14:30:06.121Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T14:05:32.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 4174,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10737 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 01 Sep 14:03 b10737 36b1015 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . qwen4exp: fix seq_cp, block position keying, mtmd input, cuda abort, add tests ( #27941 ) qwen4exp: follow up fixes -kvu NaN collapse fix Assisted-by: Claude indexer cache ext.x/ext.y restore fix Assisted-by: Claude kv-cells: rename seq_set to seq_get_all seq_get is already taken by the single-id getter, so the suggested name cannot be overloaded on return type alone. Assisted-by: Claude memory-hybrid-idx: implement set_input_qsa on the memory class The context held the whole implementation, where the pattern elsewhere is a thin context forwarding to the memory class, ",
+    "truncated": false,
+    "title": "Release b10737 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-01T14:30:06.121Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1oo6zw3.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-openrouter-models-0lyndp8",
+   "pri": 12,
+   "kind": "note",
+   "title": "New experimental model — Inception: Mercury 2.5 Preview",
+   "ctx": "A routing row exists for inception/mercury-2.5-preview. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nMercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/inception/mercury-2.5-preview",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-01T14:30:06.121Z",
+   "tier": "A",
+   "itemTs": "2026-08-31T20:57:44.000Z",
+   "sub": "openrouter · inception/mercury-2.5-preview",
+   "extract": {
+    "ok": true,
+    "chars": 1326,
+    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping t",
+    "truncated": false,
+    "title": "Mercury 2.5 Preview - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-01T14:30:06.121Z",
+    "full": "full/f-openrouter-models-0lyndp8.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-zvi-0anubim",
+   "pri": 60,
+   "kind": "note",
+   "title": "HuggingFace Attack Postmortem: Civilizations, Reactions and Next Actions",
+   "ctx": "Okay, so we who read blogs like this one have collectively realized there really is a lot going on right now. There is Big Trouble in Baby Superintelligence. So how do we get the rest of the world to take it appropriately seriously? Where do we go from here? Not only what can we do to not have a worse version of this happen again, but to ensure good outcomes generally, and employ what we learned? ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://thezvi.substack.com/p/huggingface-attack-postmortem-civilizations",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "zvi",
+   "detectedAt": "2026-09-01T14:30:06.121Z",
+   "tier": "D",
+   "itemTs": "2026-09-01T14:07:41.000Z",
+   "sub": "zvi",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 93439,
+    "lead": "Okay, so we who read blogs like this one have collectively realized there really is a lot going on right now. There is Big Trouble in Baby Superintelligence. So how do we get the rest of the world to take it appropriately seriously? Where do we go from here? Not only what can we do to not have a worse version of this happen again, but to ensure good outcomes generally, and employ what we learned? There are a lot of ideas out there. OpenAI is going to be implementing some of them, at substantial cost, since the cost of not doing so is clearly far higher, even short term. My worry continues to be that their fundamental approach is fatally flawed, and they are not focusing on the right things. It is highly fortunate that the OpenAI agents hacked HuggingFace. This is the only reason we know about all the severe internal failures at OpenAI, and gives us an opportunity to wake up before it is too late. We do not have enough details to know what happened internally, both before and after the attack, and might never know. Before the attack, various internal highly persistent models were training while there was an active message board, creating a feedback loop of misaligned behaviors. On J",
+    "truncated": false,
+    "fetchedAt": "2026-09-01T14:30:06.121Z",
+    "full": "full/f-zvi-0anubim.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1oe7e74",
    "pri": 30,
@@ -2344,214 +2567,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1nyk2b8",
-   "pri": 45,
-   "kind": "note",
-   "title": "LLMs Interpret, Embeddings Organize, Graphs Emerge: Agent-Driven Compilation of Scientific Knowledge",
-   "ctx": "Sustained scientific work requires a knowledge substrate that carries interpretation across tasks and preserves paths to source evidence. We call this process \\emph{scientific knowledge compilation} and implement it in ASKS, the \\emph{Agent-Driven Scientific Knowledge System}. For each source, an LLM produces a readable Wiki view and machine-facing semantics. Deterministic checks convert the latter into a document-local GraphDelta, and embedding geometry together with explicit graph rules integr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.29612v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-01T01:30:05.581Z",
-   "tier": "B",
-   "itemTs": "2026-08-30T07:05:49.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1bxxcvt",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.152.0",
-   "ctx": "Release 0.152.0",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-01T01:30:05.581Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T01:10:06.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 789,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.4k Star 120k rust-v0.152.0 rust-v0.152.0 316795b Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0 rust-v0.152.0 316795b Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 01 Sep 01:10 Release 0.152.0 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.152.0 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-01T01:30:05.581Z",
-    "full": "full/f-gh-releases-openai-codex-1bxxcvt.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-simon-willison-1gcvmsv",
-   "pri": 36,
-   "kind": "note",
-   "title": "Introducing wrapture",
-   "ctx": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a differ",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-01T00:30:05.581Z",
-   "tier": "D",
-   "itemTs": "2026-08-31T23:59:36.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 2794,
-    "lead": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a different value. It acts as both an alternative to unittest.mock and a way to implement tracing against an existing project: Attaching observation to code you do not control, recording what flows through it, and doing so without disturbing the program being watched, is a problem I have never really stopped thinking about. Wrapture includes OpenTelemetry support and even has an entirely configuration-based mechanism for adding tracing to an existing Python project, which looks like this: capture = \" summary \" [[ observe ]] target = \" domain:Calculator \" name = [ \" outer \" , \" inner \" ] [[ sink ]] type = \" jsonlines \" path = \" trace.jsonl \" This is still a very young project - just a few weeks old - but it's off to a very promising start. Interestingly, this is also Graham's first attempt at large",
-    "truncated": false,
-    "fetchedAt": "2026-09-01T00:30:05.581Z",
-    "full": "full/f-simon-willison-1gcvmsv.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-simon-willison-1j6urd9",
-   "pri": 36,
-   "kind": "note",
-   "title": "Quoting Andrew Digby",
-   "ctx": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort. &mdash; Andrew Digby , providing the best news of the year Tags: kakapo",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-01T00:30:05.581Z",
-   "tier": "D",
-   "itemTs": "2026-08-31T22:25:02.000Z",
-   "sub": "simonwillison",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1ueaddn",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.152.0-alpha.7.2",
-   "ctx": "Release 0.152.0-alpha.7.2",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7.2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-01T00:00:06.079Z",
-   "tier": "A",
-   "itemTs": "2026-08-31T23:37:53.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 839,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.4k Star 120k rust-v0.152.0-alpha.7.2 rust-v0.152.0-alpha.7.2 d6b6bad Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0-alpha.7.2 rust-v0.152.0-alpha.7.2 d6b6bad Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 31 Aug 23:37 Release 0.152.0-alpha.7.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.152.0-alpha.7.2 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-01T00:00:06.079Z",
-    "full": "full/f-gh-releases-openai-codex-1ueaddn.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1uo9z2m",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.152.0-alpha.7.1",
-   "ctx": "Release 0.152.0-alpha.7.1",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-08-31T23:30:05.584Z",
-   "tier": "A",
-   "itemTs": "2026-08-31T23:07:50.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 839,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.4k Star 120k rust-v0.152.0-alpha.7.1 rust-v0.152.0-alpha.7.1 79388ef Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.0-alpha.7.1 rust-v0.152.0-alpha.7.1 79388ef Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 31 Aug 23:07 Release 0.152.0-alpha.7.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.152.0-alpha.7.1 · openai/codex · GitHub",
-    "fetchedAt": "2026-08-31T23:30:05.584Z",
-    "full": "full/f-gh-releases-openai-codex-1uo9z2m.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-openai-news-1o856op",
-   "pri": 15,
-   "kind": "note",
-   "title": "Polimill builds Japan's next-generation public AI infrastructure",
-   "ctx": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://openai.com/index/polimill",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openai-news",
-   "detectedAt": "2026-08-31T23:30:05.584Z",
-   "tier": "A",
-   "itemTs": "2026-08-31T07:00:00.000Z",
-   "sub": "openai",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-08-31T23:30:05.584Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2564,11 +2579,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 17,
-   "slow": 83
+   "daily": 16,
+   "slow": 84
   },
-  "routed": 35,
-  "unrouted": 65,
+  "routed": 36,
+  "unrouted": 64,
   "unmappedLaneFamilies": []
  }
 }
