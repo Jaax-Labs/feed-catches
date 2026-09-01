@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-09-01T10:00:32.243Z",
+ "generatedAt": "2026-09-01T11:00:30.410Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-chinatalk-1du9610",
+   "pri": 60,
+   "kind": "note",
+   "title": "China's Rare Earths Duopoly",
+   "ctx": "Aqib will be in D.C. from September 7-11! If you’d like to chat rare earths, semiconductors, and open model security, reach out to aqib@chinatalk.media. If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both. Unfortunately, this is where most analyses end. To go one step further requires understanding the entities leading C",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/chinas-rare-earths-duopoly",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-09-01T10:30:05.983Z",
+   "tier": "D",
+   "itemTs": "2026-09-01T10:03:39.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 23827,
+    "lead": "Aqib will be in D.C. from September 7-11! If you’d like to chat rare earths, semiconductors, and open model security, reach out to aqib@chinatalk.media. If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both. Unfortunately, this is where most analyses end. To go one step further requires understanding the entities leading China’s rare earth juggernaut, and how they built Beijing’s rare earth weapon. That’s exactly what we’ll explore in today’s deep dive. This story revolves around China’s two creatively-named state-owned giants, China Northern Rare Earth 中国北方稀土 and China Rare-Earths Group 中国稀土 (CREG). We’re going to call them “China Northern” and “China Southern” from here on out; CREG doesn’t have Southern in its name, but it’s in the South, and we think it’s a lot catchier. The fact that these two companies reign over the rare earths world cannot be boiled down to a single factor. These things are messy. To pick it apart, we (Aqib and Nick) look at China’s duopoly from multiple angles, covering the firms’ history, industrial processes, and, on the human level, their workforce. In our efforts to unpack it a",
+    "truncated": false,
+    "fetchedAt": "2026-09-01T10:30:05.983Z",
+    "full": "full/f-chinatalk-1du9610.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1ps5enz",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10733",
+   "ctx": "ci: Bump ggml-org/ccache-action to v1.2.24 ( #28083 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44375174 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (R",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10733",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-01T10:30:05.983Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T10:02:39.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1664,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10733 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 01 Sep 10:00 b10733 234a6eb This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ci: Bump ggml-org/ccache-action to v1.2.24 ( #28083 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44375174 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL",
+    "truncated": false,
+    "title": "Release b10733 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-01T10:30:05.983Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ps5enz.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1q250cy",
    "pri": 30,
@@ -2493,75 +2559,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1t43shm",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10727",
-   "ctx": "metal : add concat support for quantized types ( #28116 ) Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-0731 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44252653 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ub",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10727",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-08-31T21:00:07.231Z",
-   "tier": "A",
-   "itemTs": "2026-08-31T20:56:43.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1717,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10727 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 31 Aug 20:54 b10727 ab0b3bd This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add concat support for quantized types ( #28116 ) Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-0731 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44252653 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Window",
-    "truncated": false,
-    "title": "Release b10727 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-08-31T21:00:07.231Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1t43shm.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-openrouter-models-118mu3g",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — IBM: Granite 4.2 8B",
-   "ctx": "A routing row exists for ibm-granite/granite-4.2-8b. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGranite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,...",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/ibm-granite/granite-4.2-8b",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-08-31T20:30:06.341Z",
-   "tier": "A",
-   "itemTs": "2026-08-31T20:06:20.000Z",
-   "sub": "openrouter · ibm-granite/granite-4.2-8b",
-   "extract": {
-    "ok": true,
-    "chars": 1326,
-    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping t",
-    "truncated": false,
-    "title": "Granite 4.2 8B - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-08-31T20:30:06.341Z",
-    "full": "full/f-openrouter-models-118mu3g.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2574,11 +2571,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 18,
-   "slow": 82
+   "slow": 83,
+   "daily": 17
   },
-  "routed": 35,
-  "unrouted": 65,
+  "routed": 34,
+  "unrouted": 66,
   "unmappedLaneFamilies": []
  }
 }
