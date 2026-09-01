@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-01T12:30:38.555Z",
+ "generatedAt": "2026-09-01T14:00:34.087Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1oe7e74",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10736",
+   "ctx": "tests : fix log verbosity for test-llama-archs ( #28147 ) tests : fix log verbosity for test-llama-archs cont : naming cont : add note Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44420037 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10736",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-01T13:30:05.699Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T13:30:06.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1744,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10736 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 01 Sep 13:29 b10736 d086dbb This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . tests : fix log verbosity for test-llama-archs ( #28147 ) tests : fix log verbosity for test-llama-archs cont : naming cont : add note Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44420037 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
+    "truncated": false,
+    "title": "Release b10736 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-01T13:30:05.699Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1oe7e74.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1oy6ll2",
    "pri": 30,
@@ -2518,38 +2552,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-anthropic-news-1l1pjvh",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Improving alignment security efforts",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-08-31T23:00:06.173Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 23218,
-    "lead": "Improving our alignment and security efforts Aug 31, 2026 On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. The models—intentionally running without cyber safeguards for evaluation purposes—accessed the internet due to a misconfiguration inside a third-party evaluation environment. Separately, on August 4, the UK AI Security Institute reported an incident from its own cybersecurity testing, in which Claude Mythos 5 took a series of unauthorized actions on the live internet. In that case, the model, again intentionally running without cyber safeguards for evaluation purposes, had been deliberately given internet access. We are conducting an in-depth analysis of both incidents. We are also planning to work with METR for an independent review. We want to ensure both studies are thorough, and will share more in the coming weeks. In the meantime, we’re sharing some of the changes we’ve made over the past month. We believe the incidents reflect a failure of operational security, as well as two alignment issues: motivated reasoning, and willingness to take harmful actions in pursuit of a narrow task (both of which we have d",
-    "truncated": false,
-    "title": "Improving our alignment and security practices \\ Anthropic",
-    "fetchedAt": "2026-08-31T23:00:06.173Z",
-    "full": "full/f-anthropic-news-1l1pjvh.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2565,8 +2567,8 @@
    "daily": 17,
    "slow": 83
   },
-  "routed": 34,
-  "unrouted": 66,
+  "routed": 35,
+  "unrouted": 65,
   "unmappedLaneFamilies": []
  }
 }
