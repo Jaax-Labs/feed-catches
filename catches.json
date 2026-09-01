@@ -1,7 +1,96 @@
 {
- "generatedAt": "2026-09-01T21:30:40.849Z",
+ "generatedAt": "2026-09-01T23:00:14.535Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1skap84",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.258",
+   "ctx": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty content\" after a re-sent permission approval could not be applied",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-01T23:00:06.470Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T22:33:20.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1273,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23k Star 144k v2.1.258 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 01 Sep 22:33 v2.1.258 aef74af What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty content\" after a re-sent permission approval could not be applied Assets 12 Loading Uh oh! There was an error while loading. Please reload this page . 👍 2 mike1858 and saita08 reacted with thumbs up emoji 😄 2 mike1858 and saita08 reacted with laugh emoji 🎉 2 mike1858 and saita08 reacted with hooray emoji ❤️ 3 mike1858, saita08, and sakharovmaksim reacted with heart emoji 🚀 3 mike1858, saita08, and marr-cloud reacted with rocket emoji 👀 2 mike1858 and saita08 reacted with eyes emoji All reactions 👍 2 reactions 😄 2 reactions 🎉 ",
+    "truncated": false,
+    "title": "Release v2.1.258 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-01T23:00:06.470Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1skap84.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-1bnxr6u",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.152.1",
+   "ctx": "Release 0.152.1",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.152.1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-01T22:00:07.288Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T21:48:04.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 789,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.5k Star 121k rust-v0.152.1 rust-v0.152.1 5adb68a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.152.1 rust-v0.152.1 5adb68a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 01 Sep 21:48 Release 0.152.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.152.1 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-01T22:00:07.288Z",
+    "full": "full/f-gh-releases-openai-codex-1bnxr6u.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-huggingface-blog-1eybhat",
+   "pri": 40,
+   "kind": "note",
+   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/allenai/benchmirt",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-09-01T22:00:07.288Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T21:39:07.000Z",
+   "sub": "huggingface-blog",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-cascade-00lw5c2",
    "pri": 4,
@@ -2670,77 +2759,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-00sqc56",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Surface Alignment: Grounding the Dynamics of Situational Understanding and Generative Control in LLMs",
-   "ctx": "The current alignment tuning paradigm for Large Language Models (LLMs) prioritizes surface-level behaviors -- fluency, safety, and tonal consistency. While effective for casual chat, this thesis argues that such surface alignment masks a lack of grounding, creating models that are stylistically confident but situationally brittle. We propose a framework of Grounded Alignment, analyzing how models process context (Input) and structure generation (Output), then aligning these grounded behaviors to",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.29610v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-01T02:30:05.777Z",
-   "tier": "B",
-   "itemTs": "2026-08-30T07:04:03.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0n4yosj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Cross-lingual Functional Vectors for Emotion Detection in Large Language Models",
-   "ctx": "Function vectors (FVs) have recently emerged as a promising mechanism for steering the behavior of large language models (LLMs) by injecting task-specific latent direction representations derived from in-context demonstrations. While prior studies have shown that FVs can recover task behavior in structured in-context learning settings, their effectiveness on semantically complex tasks and their ability to generalize across languages remain underexplored. We investigate the cross-lingual transfer",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.29613v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-01T02:30:05.777Z",
-   "tier": "B",
-   "itemTs": "2026-08-30T07:08:36.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0unburj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Conducting Stylistic Analysis of Paintings through an Art-History Agent",
-   "ctx": "Attributing an artwork to an artist has traditionally relied on detailed visual observations and descriptions, known as stylistic analysis in art history. By contrast, current artificial intelligence (AI) models used in the field offer only unexplained probabilistic classifications. To bridge this methodological gap, we present an AI framework that automates stylistic analysis of paintings, providing a foundation for enhancing evidence collection, discovery, and verification. By training a visio",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2608.29644v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-01T02:30:05.777Z",
-   "tier": "B",
-   "itemTs": "2026-08-30T08:10:58.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2753,8 +2771,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 40,
-   "slow": 60
+   "daily": 42,
+   "slow": 58
   },
   "routed": 44,
   "unrouted": 56,
