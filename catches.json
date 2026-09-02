@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-09-02T09:30:18.149Z",
+ "generatedAt": "2026-09-02T10:00:22.805Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-chinatalk-12gn3gy",
+   "pri": 60,
+   "kind": "note",
+   "title": "Cyber Apocalypse, Now?",
+   "ctx": "OpenAI models mid-training broke out of their sandbox, hacked internal infrastructure, and eventually compromised Hugging Face — the first headline-grade AI breakout, and one that safety researchers saw coming. Is the cyber apocalypse finally on the calendar, or does the industry just need to do its homework? spent his formative years as a DARPA and NSA contractor before four years at Meta, where ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/cyber-apocalypse-now",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-09-02T10:00:10.705Z",
+   "tier": "D",
+   "itemTs": "2026-09-02T09:56:33.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 45010,
+    "lead": "OpenAI models mid-training broke out of their sandbox, hacked internal infrastructure, and eventually compromised Hugging Face — the first headline-grade AI breakout, and one that safety researchers saw coming. Is the cyber apocalypse finally on the calendar, or does the industry just need to do its homework? spent his formative years as a DARPA and NSA contractor before four years at Meta, where he founded the company’s frontier cyber capabilities evals team and finished as its AI security tech lead. He recently left to co-found Abundant Security . We discuss… What actually happened in the Hugging Face hack , and why AI safety insiders weren’t surprised, The “grad student lab” security culture inside frontier labs racing sixty hours a week to ship, Why you should apply to run a new org with eight figures to play with to follow trends in AI + cyber risk ( apply here! ) Why the cyber Pearl Harbor predicted since the early 2000s never arrived — and whether swarms of hacking agents finally change that, How nation states will post-train open-weight models like GLM and Kimi into billion-dollar cyber weapons, Why AI has so far favored defenders , from mass bug-squashing to superhuman net",
+    "truncated": false,
+    "fetchedAt": "2026-09-02T10:00:10.705Z",
+    "full": "full/f-chinatalk-12gn3gy.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-github-new-repos-0k5318w",
+   "pri": 25,
+   "kind": "note",
+   "title": "dreamers-laboratory/agent-fleet-manager — 168★ in 0.3d (672★/day)",
+   "ctx": "A general-purpose engine for large-scale, repeated information gathering by a fleet of workers.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/dreamers-laboratory/agent-fleet-manager",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-02T10:00:10.705Z",
+   "tier": "C",
+   "itemTs": "2026-09-02T06:38:12.000Z",
+   "sub": "github · Python",
+   "extract": {
+    "ok": true,
+    "chars": 4943,
+    "lead": "agent-fleet-manager A general-purpose engine for large-scale, repeated information gathering by a fleet of workers — plain fetchers, scrapers, or LLM agents. You register things to check and how often; the engine schedules what is due, leases work out in isolated batches, records what came back, detects change by content hash, backs off on failures, and keeps an auditable ledger of every write. One SQLite file is the entire system. Python standard library only. It came out of a production system where a mixed fleet of LLM agents and plain fetchers tracks a few thousand sources on daily and weekly cadences. This is a clean rewrite of the part that generalizes: the bookkeeping. The engine never interprets what a source is — the route field means nothing to it and everything to your worker — which is why the same engine can run very different fleets. What people use this shape of system for Sales prospecting. Register target companies' careers pages, press pages, and funding announcements. A changed hash on a careers page is a hiring signal; your worker (or an LLM agent reading the diff) turns it into a lead with a timestamp and a receipt. Competitor and price watch. Pricing pages, fe",
+    "truncated": false,
+    "title": "GitHub - dreamers-laboratory/agent-fleet-manager: A general-purpose engine for large-scale, repeated information gathering by a fleet of workers. · GitHub",
+    "fetchedAt": "2026-09-02T10:00:10.705Z",
+    "full": "full/f-github-new-repos-0k5318w.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1r69q4s",
    "pri": 30,
@@ -2708,58 +2774,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-deepmind-blog-1ht9pnu",
-   "pri": 22,
-   "kind": "note",
-   "title": "Introducing agentic video understanding with Gemini",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "deepmind-blog",
-   "detectedAt": "2026-09-01T17:30:06.499Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T17:08:51.000Z",
-   "sub": "deepmind",
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft",
-    "lab-board"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0uzp6rr",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10742",
-   "ctx": "metal : add fa-vec tunings for A18 Pro (MacBook Neo) ( #28152 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44474754 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubu",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10742",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-01T17:30:06.499Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T17:06:50.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2772,11 +2786,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 37,
-   "slow": 63
+   "slow": 64,
+   "daily": 36
   },
-  "routed": 45,
-  "unrouted": 55,
+  "routed": 44,
+  "unrouted": 56,
   "unmappedLaneFamilies": []
  }
 }
