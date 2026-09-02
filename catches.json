@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-09-02T10:00:22.805Z",
+ "generatedAt": "2026-09-02T11:00:19.026Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-0uzjdyr",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.153.0-alpha.6",
+   "ctx": "Release 0.153.0-alpha.6",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.6",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-02T11:00:07.488Z",
+   "tier": "A",
+   "itemTs": "2026-09-02T10:30:16.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 828,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.5k Star 121k rust-v0.153.0-alpha.6 rust-v0.153.0-alpha.6 e8b3253 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.153.0-alpha.6 rust-v0.153.0-alpha.6 e8b3253 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 02 Sep 10:30 Release 0.153.0-alpha.6 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.153.0-alpha.6 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-02T11:00:07.488Z",
+    "full": "full/f-gh-releases-openai-codex-0uzjdyr.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1rg9btr",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10759",
+   "ctx": "ggml: avoid KleidiAI buffer type init on dispatch ( #27891 ) Co-authored-by: Acmmi acmmi@Acmmis-MacBook-Air.local Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44666366 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10759",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-02T10:30:07.696Z",
+   "tier": "A",
+   "itemTs": "2026-09-02T10:23:49.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1724,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10759 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 10:22 b10759 b81c99b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml: avoid KleidiAI buffer type init on dispatch ( #27891 ) Co-authored-by: Acmmi acmmi@Acmmis-MacBook-Air.local Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44666366 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
+    "truncated": false,
+    "title": "Release b10759 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-02T10:30:07.696Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1rg9btr.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-chinatalk-12gn3gy",
    "pri": 60,
@@ -2715,65 +2781,6 @@
     "model-switch",
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-gh-releases-anthropics-claude-code-1q2e9zd",
-   "pri": 30,
-   "kind": "note",
-   "title": "anthropics/claude-code v2.1.257",
-   "ctx": "What's changed Added Claude Fable 5.1 ( claude-fable-5-1 ), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" ( timeFormat ) and timeZone settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egres",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-anthropics-claude-code",
-   "detectedAt": "2026-09-01T18:00:07.430Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T17:53:52.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 10995,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23k Star 144k v2.1.257 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 01 Sep 17:53 v2.1.257 a1e64dc What's changed Added Claude Fable 5.1 ( claude-fable-5-1 ), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" ( timeFormat ) and timeZone settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egress evasion, and cross-tenant reach are no longer auto-approved unless your environment marks them expected Added CLAUDE_CODE_SUBAGENT_MODEL_FORCE to apply CLAUDE_CODE_SUBAGENT_MODEL (or the main model) to every subagent, ignoring per-spawn and agent-definition model overrides Added s in /effort to change effort for the current sessi",
-    "truncated": false,
-    "title": "Release v2.1.257 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-09-01T18:00:07.430Z",
-    "full": "full/f-gh-releases-anthropics-claude-code-1q2e9zd.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-anthropic-status-1bpa30o",
-   "pri": 33,
-   "kind": "note",
-   "title": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
-   "ctx": "Sep 1 , 17:05 UTC Investigating - We are investigating reports of degraded performance affecting some Claude services, including docs.claude.com. We are working to resolve these issues and will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/3g3d55q6vk3h",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-09-01T17:30:06.499Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T17:05:11.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2786,11 +2793,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 64,
-   "daily": 36
+   "daily": 36,
+   "slow": 64
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
