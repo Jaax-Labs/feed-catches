@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-02T11:00:19.026Z",
+ "generatedAt": "2026-09-02T11:30:20.400Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0q02na7",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10760",
+   "ctx": "mtmd: Fix Qwen3-tts-0.6b ( #28231 ) mtmd: load the qwen3-tts code predictor proj_in as optional The talker and the code predictor share the hidden size on the 0.6B checkpoints, so the reference builds no small_to_mtp_projection and the conversion emits no tensor for it. The graph already falls back to identity when the weight is missing, the loader now agrees. mtmd: keep the qwen3-tts code predict",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10760",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-02T11:30:09.102Z",
+   "tier": "A",
+   "itemTs": "2026-09-02T11:16:40.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2388,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10760 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 11:14 b10760 0f3a71b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . mtmd: Fix Qwen3-tts-0.6b ( #28231 ) mtmd: load the qwen3-tts code predictor proj_in as optional The talker and the code predictor share the hidden size on the 0.6B checkpoints, so the reference builds no small_to_mtp_projection and the conversion emits no tensor for it. The graph already falls back to identity when the weight is missing, the loader now agrees. mtmd: keep the qwen3-tts code predictor ffn_down in F32 The code predictor carries a massive activation: its layer 2 FFN intermediate peaks around 1.5e5, well past the 65504 ceiling of F16. mul_mat casts its inpu",
+    "truncated": false,
+    "title": "Release b10760 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-02T11:30:09.102Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0q02na7.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-openai-codex-0uzjdyr",
    "pri": 30,
@@ -2754,32 +2788,6 @@
    "clock": "daily",
    "questions": [
     "model-switch"
-   ]
-  },
-  {
-   "id": "f-openrouter-models-18b8zxt",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — Anthropic: Claude Fable 5.1",
-   "ctx": "A routing row exists for anthropic/claude-fable-5.1. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nClaude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/anthropic/claude-fable-5.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-09-01T18:30:06.119Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T18:03:58.000Z",
-   "sub": "openrouter · anthropic/claude-fable-5.1",
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
    ]
   }
  ],
