@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-02T07:30:40.122Z",
+ "generatedAt": "2026-09-02T08:00:43.582Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-latent-space-12w53ag",
+   "pri": 55,
+   "kind": "note",
+   "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+   "ctx": "With Astra clearly finally warming up for a full launch (with @sama and @openai writing about it again after a month of self imposed pacing ), there’s a familiar window to take the narrative with the round robin of model launches, with Grok 4.7 and Gemini Flash 3.8 also on the way. But that’s also perhaps not the best way to frame today’s launch… which got well over 12M views updating the sitting ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "latent-space",
+   "detectedAt": "2026-09-02T08:00:09.300Z",
+   "tier": "D",
+   "itemTs": "2026-09-02T07:46:08.000Z",
+   "sub": "latentspace",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 31006,
+    "lead": "With Astra clearly finally warming up for a full launch (with @sama and @openai writing about it again after a month of self imposed pacing ), there’s a familiar window to take the narrative with the round robin of model launches, with Grok 4.7 and Gemini Flash 3.8 also on the way. But that’s also perhaps not the best way to frame today’s launch… which got well over 12M views updating the sitting world best model yet again: The benchmark table speaks for itself: While per-token pricing is the same as Fable/Mythos 5, the cache reads had a 75% price cut … great news for long sessions/long context users, however offset by observed 1.7x output token usage increases per Artificial Analysis, for a total net per-task cost increase of 20% (see recap below). Also don’t World Labs’ Astra launch , by far the most impressive world model launch we’ve ever seen, and on a regular day would have easily gotten title story cards. You can catch up on Fei Fei and Justin Johnson’s vision on our pod and trace from Marble to Astra and what we were talking about with the true potential of world models: AI News for 8/31/2026-9/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ ",
+    "truncated": true,
+    "fetchedAt": "2026-09-02T08:00:09.300Z",
+    "full": "full/f-latent-space-12w53ag.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1sa84wo",
    "pri": 30,
@@ -2705,40 +2739,6 @@
    "sub": "simonwillison",
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0v9osgq",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10741",
-   "ctx": "model : load hparams.n_layer_nextn before n_layer() calls ( #28159 ) load hparams.n_layer_nextn before n_layer() calls remove duplicate loads Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44468139 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubunt",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10741",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-01T17:00:07.809Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T16:37:28.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1752,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10741 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 01 Sep 16:35 b10741 9d81721 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model : load hparams.n_layer_nextn before n_layer() calls ( #28159 ) load hparams.n_layer_nextn before n_layer() calls remove duplicate loads Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44468139 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
-    "truncated": false,
-    "title": "Release b10741 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-01T17:00:07.809Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0v9osgq.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2751,8 +2751,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 38,
-   "slow": 62
+   "slow": 63,
+   "daily": 37
   },
   "routed": 43,
   "unrouted": 57,
