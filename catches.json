@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-02T20:30:31.733Z",
+ "generatedAt": "2026-09-02T21:00:16.030Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0pg3fw9",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10766",
+   "ctx": "model: correctly support input vision for deepseek4 ( #28154 ) model: correctly support input vision for deepseek4 nits Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44819834 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10766",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-02T21:00:08.116Z",
+   "tier": "A",
+   "itemTs": "2026-09-02T20:35:12.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1730,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10766 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 20:33 b10766 9400c89 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model: correctly support input vision for deepseek4 ( #28154 ) model: correctly support input vision for deepseek4 nits Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44819834 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+    "truncated": false,
+    "title": "Release b10766 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-02T21:00:08.116Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0pg3fw9.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0ow48ib",
    "pri": 30,
@@ -2737,55 +2771,6 @@
    "sub": "huggingface-blog",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-cascade-00lw5c2",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"flash next\" — 3 independent sources in 44h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 44 hours, in 10 items (0.1% of the window — below the 15% background threshold).\n\n• reddit — R9V: A designer set of kernels I've been working on for R9700s/RDNA4. Qwen3.8-Flash-Next U\n• gh-release:ggml-org/llama.cpp — b10712\n• google-blog — The latest AI news we announced in August 2026\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w2z5qw/r9v_a_designer_set_of_kernels_ive_been_working_on/",
-     "primary": true
-    },
-    {
-     "label": "Open gh-release:ggml-org/llama.cpp",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10712",
-     "primary": false
-    },
-    {
-     "label": "Open google-blog",
-     "href": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-01T21:00:06.592Z",
-   "tier": "X",
-   "families": [
-    "reddit",
-    "gh-release:ggml-org/llama.cpp",
-    "google-blog"
-   ],
-   "roots": [
-    "reddit",
-    "gh:ggml-org",
-    "google"
-   ],
-   "sub": "cascade shape · reddit, gh:ggml-org, google",
-   "extract": {
-    "ok": false,
-    "reason": "extracted text is markup/template, not prose",
-    "fetchedAt": "2026-09-01T21:00:06.592Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
