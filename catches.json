@@ -1,7 +1,142 @@
 {
- "generatedAt": "2026-09-02T05:30:17.120Z",
+ "generatedAt": "2026-09-02T07:00:39.532Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1sa84wo",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10754",
+   "ctx": "opencl: fix out‐of‐bound reads in the Adreno image kernels ( #27632 ) opencl: clamp the q4_K decode GEMV's fetch row on a padded x-grid opencl: enforce the tiling contract of the image KQ/KQV GEMMs opencl: decide the image KQ/KQV split at the dispatch, not from strides Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44616351 macOS/iOS: macOS Apple Silico",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10754",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-02T06:30:06.298Z",
+   "tier": "A",
+   "itemTs": "2026-09-02T06:28:28.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1880,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10754 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 06:26 b10754 43d87ff This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: fix out‐of‐bound reads in the Adreno image kernels ( #27632 ) opencl: clamp the q4_K decode GEMV's fetch row on a padded x-grid opencl: enforce the tiling contract of the image KQ/KQV GEMMs opencl: decide the image KQ/KQV split at the dispatch, not from strides Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44616351 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
+    "truncated": false,
+    "title": "Release b10754 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-02T06:30:06.298Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1sa84wo.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1u85crh",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10753",
+   "ctx": "hexagon: add missing FARF logs for cpy/get_rows/set_rows/gdn ops ( #28217 ) hexagon: fix bug ne[2] printed in proc_op_req prep-src log hexagon: add shape/VTCM farf logs to cpy, get/set rows, gdn Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44611783 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Inte",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10753",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-02T06:30:06.298Z",
+   "tier": "A",
+   "itemTs": "2026-09-02T06:03:28.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1805,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10753 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 06:00 b10753 69320fe This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . hexagon: add missing FARF logs for cpy/get_rows/set_rows/gdn ops ( #28217 ) hexagon: fix bug ne[2] printed in proc_op_req prep-src log hexagon: add shape/VTCM farf logs to cpy, get/set rows, gdn Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44611783 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ub",
+    "truncated": false,
+    "title": "Release b10753 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-02T06:30:06.298Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1u85crh.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-openrouter-models-14s8vdj",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — Anthropic: Claude Fable 5.1 (batch)",
+   "ctx": "A routing row exists for anthropic/claude-fable-5.1:batch. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nClaude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/anthropic/claude-fable-5.1:batch",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-02T06:00:13.200Z",
+   "tier": "A",
+   "itemTs": "2026-09-01T18:03:58.000Z",
+   "sub": "openrouter · anthropic/claude-fable-5.1:batch",
+   "extract": {
+    "ok": true,
+    "chars": 1651,
+    "lead": "Providers Providers Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Exacto (highest tool-calling accuracy). Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Benchmarks Scores on standardized evaluations. Higher percentages are better — and rank percentile shows where this model lands among all models on OpenRouter. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look li",
+    "truncated": false,
+    "title": "Claude Fable 5.1 (batch) - API Pricing & Benchmarks | OpenRouter",
+    "fetchedAt": "2026-09-02T06:00:13.200Z",
+    "full": "full/f-openrouter-models-14s8vdj.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-simon-willison-1esp0c1",
+   "pri": 36,
+   "kind": "note",
+   "title": "Quoting Rick Brewster",
+   "ctx": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dl",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-02T06:00:13.200Z",
+   "tier": "D",
+   "itemTs": "2026-09-02T05:50:57.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 1599,
+    "lead": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll . This was written by our good friend Claude , without whom this would NOT have been possible and would NEVER have happened. [...] Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way way too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...] At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops).",
+    "truncated": false,
+    "fetchedAt": "2026-09-02T06:00:13.200Z",
+    "full": "full/f-simon-willison-1esp0c1.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.LG-0ascbbk",
    "pri": 45,
@@ -2604,122 +2739,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-anthropic-status-08cg5s4",
-   "pri": 33,
-   "kind": "note",
-   "title": "Degraded performance on Claude for Microsoft Office 365",
-   "ctx": "Sep 1 , 16:22 UTC Resolved - This issue has been resolved. Sep 1 , 16:02 UTC Investigating - We are investigating elevated errors affecting Claude for Microsoft Office 365. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/nr3h7bw8b3k3",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-09-01T16:30:06.676Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T16:22:19.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-google-ai-blog-0d1oux9",
-   "pri": 35,
-   "kind": "note",
-   "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-   "ctx": "Collage of images created by Google Pics, with the text \"Say hello to Google Pics\" on top",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "google-ai-blog",
-   "detectedAt": "2026-09-01T16:30:06.676Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T16:00:00.000Z",
-   "sub": "google-blog",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-latent-space-17td5ca",
-   "pri": 55,
-   "kind": "note",
-   "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-   "ctx": "GitHub invented pull requests, and for 18 years they have been open by default. But now some of the top AI-native open source projects are shutting PRs off , because they’ve found a better way. These projects, which include Flue and tldraw, refuse to accept PRs from external contributors — in part because they’re usually AI-generated. Instead, the maintainers prefer to use their own agents to crea",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.latent.space/p/pr-not-welcome",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "latent-space",
-   "detectedAt": "2026-09-01T16:30:06.676Z",
-   "tier": "D",
-   "itemTs": "2026-09-01T16:17:15.000Z",
-   "sub": "latentspace",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 7152,
-    "lead": "GitHub invented pull requests, and for 18 years they have been open by default. But now some of the top AI-native open source projects are shutting PRs off , because they’ve found a better way. These projects, which include Flue and tldraw, refuse to accept PRs from external contributors — in part because they’re usually AI-generated. Instead, the maintainers prefer to use their own agents to create and manage PRs. Also, many projects have begun using a “ software factory ” to manage community contributions. Typically this involves a ‘team’ of agents triaging a PR, reproducing the issue (if it’s a bug), implementing a fix or a new feature, reviewing it, and then handing it back to a human to merge it. Vercel’s software factory for AI SDK Vercel recently published a post entitled “ Building a software factory for AI SDK .” It describes how the open source AI SDK project, which gets over 20 million npm downloads per week, deployed agents to get control over its PR and issue backlog — which had reached “over 1,000 open issues and almost 800 pull requests” by late June. There are several types of agents in Vercel’s system, each of which focuses on a different task . For example, there’",
-    "truncated": false,
-    "fetchedAt": "2026-09-01T16:30:06.676Z",
-    "full": "full/f-latent-space-17td5ca.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0vjoe5p",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10740",
-   "ctx": "metal : fix more leaks due to missing autoreleasepools ( #27883 ) metal : fix more leaks due to missing autoreleasepools metal : rename variable metal : fix another missing pool warning Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10740",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-01T16:00:07.092Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T15:43:21.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1942,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10740 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 01 Sep 15:41 b10740 fe2120b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix more leaks due to missing autoreleasepools ( #27883 ) metal : fix more leaks due to missing autoreleasepools metal : rename variable metal : fix another missing pool warning Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44454782 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu ",
-    "truncated": false,
-    "title": "Release b10740 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-01T16:00:07.092Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vjoe5p.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2732,8 +2751,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 63,
-   "daily": 37
+   "daily": 38,
+   "slow": 62
   },
   "routed": 43,
   "unrouted": 57,
