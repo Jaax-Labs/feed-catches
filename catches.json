@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-09-02T21:00:16.030Z",
+ "generatedAt": "2026-09-02T21:30:32.760Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-09uvnez",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Sonnet 5",
+   "ctx": "Sep 2 , 21:17 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 5. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/ls6bn1x81m0w",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-09-02T21:30:07.588Z",
+   "tier": "A",
+   "itemTs": "2026-09-02T21:17:58.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0pg3fw9",
    "pri": 30,
@@ -2748,29 +2773,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-huggingface-blog-1eybhat",
-   "pri": 40,
-   "kind": "note",
-   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://huggingface.co/blog/allenai/benchmirt",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "huggingface-blog",
-   "detectedAt": "2026-09-01T22:00:07.288Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T21:39:07.000Z",
-   "sub": "huggingface-blog",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2783,11 +2785,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 35,
-   "slow": 65
+   "daily": 36,
+   "slow": 64
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 47,
+  "unrouted": 53,
   "unmappedLaneFamilies": []
  }
 }
