@@ -1,7 +1,30 @@
 {
- "generatedAt": "2026-09-02T13:30:18.227Z",
+ "generatedAt": "2026-09-02T14:00:35.843Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-huggingface-blog-0m4z7kp",
+   "pri": 40,
+   "kind": "note",
+   "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-09-02T14:00:09.395Z",
+   "tier": "A",
+   "itemTs": "2026-09-02T13:49:14.000Z",
+   "sub": "huggingface-blog",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-zvi-089ofi4",
    "pri": 60,
@@ -2745,59 +2768,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-cascade-0w7imd5",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"claude fable\" — 3 independent sources in 0h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 0 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• gh-release:anthropics/claude-code — v2.1.257\n• openrouter — Anthropic: Claude Fable 5.1\n• hackernews-firehose — Claude Fable 5.1 and Claude Mythos 5.1\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open gh-release:anthropics/claude-code",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
-     "primary": true
-    },
-    {
-     "label": "Open openrouter",
-     "href": "https://openrouter.ai/anthropic/claude-fable-5.1",
-     "primary": false
-    },
-    {
-     "label": "Open hackernews-firehose",
-     "href": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-01T18:30:06.119Z",
-   "tier": "X",
-   "families": [
-    "gh-release:anthropics/claude-code",
-    "openrouter",
-    "hackernews-firehose"
-   ],
-   "roots": [
-    "anthropic",
-    "openrouter",
-    "hackernews"
-   ],
-   "sub": "cascade shape · anthropic, openrouter, hackernews",
-   "extract": {
-    "ok": true,
-    "chars": 11176,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23k Star 144k v2.1.257 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 01 Sep 17:53 v2.1.257 a1e64dc What's changed Added Claude Fable 5.1 ( claude-fable-5-1 ), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" ( timeFormat ) and timeZone settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egress evasion, and cross-tenant reach are no longer auto-approved unless your environment marks them expected Added CLAUDE_CODE_SUBAGENT_MODEL_FORCE to apply CLAUDE_CODE_SUBAGENT_MODEL (or the main model) to every subagent, ignoring per-spawn and agent-definition model overrides Added s in /effort to change effort for the current sessi",
-    "truncated": false,
-    "title": "Release v2.1.257 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-09-01T18:30:06.119Z",
-    "full": "full/f-cascade-0w7imd5.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2810,11 +2780,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 65,
-   "daily": 35
+   "slow": 66,
+   "daily": 34
   },
-  "routed": 43,
-  "unrouted": 57,
+  "routed": 42,
+  "unrouted": 58,
   "unmappedLaneFamilies": []
  }
 }
