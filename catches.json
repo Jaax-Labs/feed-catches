@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-09-02T17:30:32.487Z",
+ "generatedAt": "2026-09-02T18:00:26.177Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-03rnni0",
+   "pri": 36,
+   "kind": "note",
+   "title": "llm-gemini 0.34",
+   "ctx": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Tags: llm , gemini",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-02T18:00:06.837Z",
+   "tier": "D",
+   "itemTs": "2026-09-02T16:39:38.000Z",
+   "sub": "simonwillison",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-deepmind-blog-1a20hwv",
    "pri": 22,
@@ -2742,41 +2767,6 @@
    "clock": "daily",
    "questions": [
     "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-1fho6xt",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.59.0-preview.0",
-   "ctx": "What's Changed Changelog for v0.58.0-preview.0 by @gemini-cli-robot in #29082 chore(release): bump version to 0.59.0-nightly.20260825.g812f7a2bc by @gemini-cli-robot in #29083 fix(core): prevent SSRF in MCP OAuth metadata discovery and authentication by @josebalius in #29081 fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in #29099 Full Ch",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-preview.0",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-09-01T20:30:06.499Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T20:19:07.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1120,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.5k Star 107k Release v0.59.0-preview.0 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 01 Sep 20:19 v0.59.0-preview.0 45e486b What's Changed Changelog for v0.58.0-preview.0 by @gemini-cli-robot in #29082 chore(release): bump version to 0.59.0-nightly.20260825.g812f7a2bc by @gemini-cli-robot in #29083 fix(core): prevent SSRF in MCP OAuth metadata discovery and authentication by @josebalius in #29081 fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in #29099 Full Changelog : v0.58.0-preview.0...v0.59.0-preview.0 Contributors josebalius, gemini-cli-robot, and luisfelipe-alt Assets 5 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
-    "truncated": false,
-    "title": "Release Release v0.59.0-preview.0 · google-gemini/gemini-cli · GitHub",
-    "fetchedAt": "2026-09-01T20:30:06.499Z",
-    "full": "full/f-gh-releases-google-gemini-gemini-cli-1fho6xt.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
    ]
   }
  ],
