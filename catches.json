@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-02T14:00:35.843Z",
+ "generatedAt": "2026-09-02T14:30:17.015Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-0imzxya",
+   "pri": 36,
+   "kind": "note",
+   "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+   "ctx": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-02T14:30:06.596Z",
+   "tier": "D",
+   "itemTs": "2026-09-02T14:16:42.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 13170,
+    "lead": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those prompts into an index page and then a page per model - here's the page for Haiku 4.5 for example, which has the original prompt from October 15th 2025 and an updated prompt from January 18th 2026. A neat thing about Anthropic's platform.claude.com/docs site is that it's designed to be usable by LLMs. You can add .md to any page to get back the content as Markdown - here's the system prompt index page and the Markdown prompts for Fable 5.1 . TL;DR: this makes it really easy to diff the prompts. Don't reproduce song lyrics Don't draw copyrighted characters or logos Tweaks to Claude's answering style The missing end_conversation guidelines Recommended substance support sites Reliable cutoff date of June 2026 How I'm tracking these prompts Don't reproduce song lyrics Let's start with the most",
+    "truncated": false,
+    "fetchedAt": "2026-09-02T14:30:06.596Z",
+    "full": "full/f-simon-willison-0imzxya.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-huggingface-blog-0m4z7kp",
    "pri": 40,
@@ -2740,34 +2774,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-anthropic-news-192x4qe",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Enterprise frontier safeguards",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-09-01T18:30:06.119Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-01T18:30:06.119Z"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2780,11 +2786,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 66,
-   "daily": 34
+   "daily": 34,
+   "slow": 66
   },
-  "routed": 42,
-  "unrouted": 58,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
