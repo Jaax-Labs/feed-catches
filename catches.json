@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-02T12:30:16.529Z",
+ "generatedAt": "2026-09-02T13:30:18.227Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-zvi-089ofi4",
+   "pri": 60,
+   "kind": "note",
+   "title": "Anthropic Has Some Alignment Problems",
+   "ctx": "Oh, good. They noticed . Anthropic, too, is planning to bring METR inside for an independent review of their own incidents, where three times a Claude model started hacking outside things during an eval, and where Mythos 5 did various ‘unauthorized actions,’ by which we mean tried to hack various real-world things, during a UK AISI cybersecurity eval. Anthropic, too, is pacing the frontier interna",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://thezvi.substack.com/p/anthropic-has-some-alignment-problems",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "zvi",
+   "detectedAt": "2026-09-02T13:30:06.294Z",
+   "tier": "D",
+   "itemTs": "2026-09-02T13:14:15.000Z",
+   "sub": "zvi",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 25144,
+    "lead": "Oh, good. They noticed . Anthropic, too, is planning to bring METR inside for an independent review of their own incidents, where three times a Claude model started hacking outside things during an eval, and where Mythos 5 did various ‘unauthorized actions,’ by which we mean tried to hack various real-world things, during a UK AISI cybersecurity eval. Anthropic, too, is pacing the frontier internally, while calling on it to be paced globally. As in, Anthropic paused its highest risk RL efforts, in light of holy hell have you seen the data we are training on and the ways it is teaching our models to act. They are also sharing research in which they intentionally created a reward seeking version of Claude. Scheduling note: Fable 5.1 has been released. I will aim to cover that starting Friday. OpenAI is also planning to release Astra soon, which I would cover after Fable. Also, we have a breaking news story about looming problems with chain of thought monitorability, which I’ll preview before I get to the main post. Table of Contents This Just In. Anthropic Parallel Pauses. Pause The Data Brokers. Pacing the Frontier. Misalignment Assessment. Defects In Training Environments Dispropor",
+    "truncated": false,
+    "fetchedAt": "2026-09-02T13:30:06.294Z",
+    "full": "full/f-zvi-089ofi4.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0q02na7",
    "pri": 30,
@@ -2764,31 +2798,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0uppl2s",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10743",
-   "ctx": "metal : add fa-vec tuning for M2 Pro ( #28122 ) metal: add fa-vec tuning for M2 Pro metal : update fa-vec tuning for M2 Pro with new dtypes Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44490887 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10743",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-01T18:30:06.119Z",
-   "tier": "A",
-   "itemTs": "2026-09-01T18:20:18.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2801,8 +2810,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 36,
-   "slow": 64
+   "slow": 65,
+   "daily": 35
   },
   "routed": 43,
   "unrouted": 57,
