@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-03T22:31:05.830Z",
+ "generatedAt": "2026-09-03T23:01:15.546Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-0pshewp",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.3",
+   "ctx": "Release 0.154.0-alpha.3",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.3",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-03T23:00:49.288Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T22:40:41.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 830,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 121k rust-v0.154.0-alpha.3 rust-v0.154.0-alpha.3 d58a64e Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.3 rust-v0.154.0-alpha.3 d58a64e Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags celia-oai tagged this 03 Sep 22:40 Release 0.154.0-alpha.3 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.3 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-03T23:00:49.288Z",
+    "full": "full/f-gh-releases-openai-codex-0pshewp.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1s0nctd",
    "pri": 30,
@@ -2735,29 +2767,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1k1ki1e",
-   "pri": 45,
-   "kind": "note",
-   "title": "Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction",
-   "ctx": "Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker identity and linguistic content. A key challenge is the lack of training data capturing such relative modifications. To address this, we propose a scalable pseudo-triplet construction pipeline that generat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02623v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T14:02:15.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2770,8 +2779,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 35,
-   "slow": 65
+   "daily": 36,
+   "slow": 64
   },
   "routed": 40,
   "unrouted": 60,
