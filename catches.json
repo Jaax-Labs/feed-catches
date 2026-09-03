@@ -1,7 +1,227 @@
 {
- "generatedAt": "2026-09-03T09:30:26.241Z",
+ "generatedAt": "2026-09-03T11:00:15.479Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-chinatalk-1jfj43w",
+   "pri": 60,
+   "kind": "note",
+   "title": "China on the Hugging Face Incident",
+   "ctx": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-09-03T11:00:08.297Z",
+   "tier": "D",
+   "itemTs": "2026-09-03T10:53:45.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 16067,
+    "lead": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at tasks in ExploitGym, a large benchmark built from real-world software vulnerabilities that was designed to test how well AI models can exploit them. In order to solve “impossible” tasks, these desperate agents, programmed to be highly persistent, found creative ways out of their sandboxes. They managed to communicate with each other, leave each other notes, and eventually reached the open internet. This culminated in them hacking into Hugging Face, a leading platform for open-source machine learning. Most alarmingly, none of these agents alerted humans to their endeavors or considered their activities to be unethical (if not potentially illegal). In fact, at least a fifth of the agents were interested in tampering with their own transcripts to cover their tracks, according to METR. A few ",
+    "truncated": false,
+    "fetchedAt": "2026-09-03T11:00:08.297Z",
+    "full": "full/f-chinatalk-1jfj43w.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-huggingface-blog-1h4f2nr",
+   "pri": 40,
+   "kind": "note",
+   "title": "Give Your Coding Agents a Memory You Own",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/funes",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-09-03T11:00:08.297Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T00:00:00.000Z",
+   "sub": "huggingface-blog",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1saq40b",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10782",
+   "ctx": "CUDA: Allow concurrent streams per split for multi-GPU ( #28198 ) CUDA: Allow CUDA optimization per split for multi-GPU. Previous guard caused multi-GPU to skip the graph optimization. The graph is already split per device and the optimization doesnt run over the whole model but once per split, and thus should be allowed. However, the CUDA event ggml_cuda_concurrent_event belongs to whichever GPU ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10782",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-03T10:30:07.108Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T10:28:01.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2596,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10782 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 10:26 b10782 0ba6499 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . CUDA: Allow concurrent streams per split for multi-GPU ( #28198 ) CUDA: Allow CUDA optimization per split for multi-GPU. Previous guard caused multi-GPU to skip the graph optimization. The graph is already split per device and the optimization doesnt run over the whole model but once per split, and thus should be allowed. However, the CUDA event ggml_cuda_concurrent_event belongs to whichever GPU was \"current\" when created. If the pass ran while GPU 0 was current, it would stick and during event creation for the second GPU it would land on GPU 0. The fix: set the devic",
+    "truncated": false,
+    "title": "Release b10782 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-03T10:30:07.108Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1saq40b.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-cascade-0fbno40",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"natural language\" — 3 independent sources in 26h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 26 hours, in 5 items (0.0% of the window — below the 15% background threshold).\n\n• reddit — Looking for a small LLM for Linux command generation\n• arxiv — text2ql: Multi-Target Natural Language Querying via a Language-Agnostic Intermediate Repre\n• huggingface-papers — Exploring Collaboration between a language and a non-language agent\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w5odwo/looking_for_a_small_llm_for_linux_command/",
+     "primary": true
+    },
+    {
+     "label": "Open arxiv",
+     "href": "https://arxiv.org/abs/2609.02115v1",
+     "primary": false
+    },
+    {
+     "label": "Open huggingface-papers",
+     "href": "https://huggingface.co/papers/2609.00474",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-03T10:00:10.510Z",
+   "tier": "X",
+   "families": [
+    "reddit",
+    "arxiv",
+    "huggingface-papers"
+   ],
+   "roots": [
+    "reddit",
+    "arxiv",
+    "huggingface"
+   ],
+   "sub": "cascade shape · reddit, arxiv, huggingface",
+   "extract": {
+    "ok": false,
+    "reason": "extracted text is markup/template, not prose",
+    "fetchedAt": "2026-09-03T10:00:10.510Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1skpppa",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10781",
+   "ctx": "vulkan: fix FA dequant path engagement ( #28190 ) Skip the nb[3] check when ne[3] == 1, the shader never reads it for a single stream. Cache views carry the full-buffer stride there, so the old check reduced to n_kv == kv_size and the path only engaged with the cache full. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44953650 macOS/iOS: macOS Apple Si",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10781",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-03T10:00:10.510Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T09:59:27.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1supbe9",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10780",
+   "ctx": "sycl : enhance the api to support peer-to-peer copy ( #27550 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44948405 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubun",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10780",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-03T10:00:10.510Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T09:35:33.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-vllm-project-vllm-08qvkfs",
+   "pri": 30,
+   "kind": "note",
+   "title": "vllm-project/vllm v0.29.0rc2",
+   "ctx": "[Bugfix][Multimodal] Handle prefix-covered items in SHM worker cache …",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-vllm-project-vllm",
+   "detectedAt": "2026-09-03T10:00:10.510Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T09:41:12.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-03T10:00:10.510Z"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0qjyp66",
    "pri": 30,
@@ -2546,234 +2766,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-cascade-1fackls",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"gemini flash\" — 4 independent sources in 23h",
-   "ctx": "The same phrase surfaced across 4 unrelated sources inside 23 hours, in 5 items (0.0% of the window — below the 15% background threshold).\n\n• reddit — Gemini 3.7 Flash outperforming Sonnet 5\n• google-blog — The latest AI news we announced in August 2026\n• openrouter — Google: Gemini 3.8 Flash\n• hackernews-firehose — Gemini 3.8 Flash\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w4hb1b/gemini_37_flash_outperforming_sonnet_5/",
-     "primary": true
-    },
-    {
-     "label": "Open google-blog",
-     "href": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-     "primary": false
-    },
-    {
-     "label": "Open openrouter",
-     "href": "https://openrouter.ai/google/gemini-3.8-flash",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-02T16:00:07.525Z",
-   "tier": "X",
-   "families": [
-    "reddit",
-    "google-blog",
-    "openrouter",
-    "hackernews-firehose"
-   ],
-   "roots": [
-    "reddit",
-    "google",
-    "openrouter",
-    "hackernews"
-   ],
-   "sub": "cascade shape · reddit, google, openrouter, hackernews",
-   "extract": {
-    "ok": false,
-    "reason": "extracted text is markup/template, not prose",
-    "fetchedAt": "2026-09-02T16:00:07.525Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-google-ai-blog-0rah3ea",
-   "pri": 35,
-   "kind": "note",
-   "title": "Proactive cyber defense for governments and enterprises",
-   "ctx": "Introducing Fairwind Program",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "google-ai-blog",
-   "detectedAt": "2026-09-02T16:00:07.525Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T15:40:00.000Z",
-   "sub": "google-blog",
-   "clock": "daily",
-   "questions": [
-    "lab-board"
-   ]
-  },
-  {
-   "id": "f-openrouter-models-0fo32dq",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — Google: Gemini 3.8 Flash (batch)",
-   "ctx": "A routing row exists for google/gemini-3.8-flash:batch. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/google/gemini-3.8-flash:batch",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-09-02T16:00:07.525Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T15:14:16.000Z",
-   "sub": "openrouter · google/gemini-3.8-flash:batch",
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-openrouter-models-0hlrqek",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — Google: Gemini 3.8 Flash",
-   "ctx": "A routing row exists for google/gemini-3.8-flash. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/google/gemini-3.8-flash",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-09-02T16:00:07.525Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T15:14:16.000Z",
-   "sub": "openrouter · google/gemini-3.8-flash",
-   "extract": {
-    "ok": true,
-    "chars": 1491,
-    "lead": "Providers Providers Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Exacto (highest tool-calling accuracy). Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to",
-    "truncated": false,
-    "title": "Gemini 3.8 Flash - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-02T16:00:07.525Z",
-    "full": "full/f-openrouter-models-0hlrqek.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-simon-willison-0imzxya",
-   "pri": 36,
-   "kind": "note",
-   "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-   "ctx": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-02T14:30:06.596Z",
-   "tier": "D",
-   "itemTs": "2026-09-02T14:16:42.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 13170,
-    "lead": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those prompts into an index page and then a page per model - here's the page for Haiku 4.5 for example, which has the original prompt from October 15th 2025 and an updated prompt from January 18th 2026. A neat thing about Anthropic's platform.claude.com/docs site is that it's designed to be usable by LLMs. You can add .md to any page to get back the content as Markdown - here's the system prompt index page and the Markdown prompts for Fable 5.1 . TL;DR: this makes it really easy to diff the prompts. Don't reproduce song lyrics Don't draw copyrighted characters or logos Tweaks to Claude's answering style The missing end_conversation guidelines Recommended substance support sites Reliable cutoff date of June 2026 How I'm tracking these prompts Don't reproduce song lyrics Let's start with the most",
-    "truncated": false,
-    "fetchedAt": "2026-09-02T14:30:06.596Z",
-    "full": "full/f-simon-willison-0imzxya.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-huggingface-blog-0m4z7kp",
-   "pri": 40,
-   "kind": "note",
-   "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "huggingface-blog",
-   "detectedAt": "2026-09-02T14:00:09.395Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T13:49:14.000Z",
-   "sub": "huggingface-blog",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-zvi-089ofi4",
-   "pri": 60,
-   "kind": "note",
-   "title": "Anthropic Has Some Alignment Problems",
-   "ctx": "Oh, good. They noticed . Anthropic, too, is planning to bring METR inside for an independent review of their own incidents, where three times a Claude model started hacking outside things during an eval, and where Mythos 5 did various ‘unauthorized actions,’ by which we mean tried to hack various real-world things, during a UK AISI cybersecurity eval. Anthropic, too, is pacing the frontier interna",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://thezvi.substack.com/p/anthropic-has-some-alignment-problems",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "zvi",
-   "detectedAt": "2026-09-02T13:30:06.294Z",
-   "tier": "D",
-   "itemTs": "2026-09-02T13:14:15.000Z",
-   "sub": "zvi",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 25144,
-    "lead": "Oh, good. They noticed . Anthropic, too, is planning to bring METR inside for an independent review of their own incidents, where three times a Claude model started hacking outside things during an eval, and where Mythos 5 did various ‘unauthorized actions,’ by which we mean tried to hack various real-world things, during a UK AISI cybersecurity eval. Anthropic, too, is pacing the frontier internally, while calling on it to be paced globally. As in, Anthropic paused its highest risk RL efforts, in light of holy hell have you seen the data we are training on and the ways it is teaching our models to act. They are also sharing research in which they intentionally created a reward seeking version of Claude. Scheduling note: Fable 5.1 has been released. I will aim to cover that starting Friday. OpenAI is also planning to release Astra soon, which I would cover after Fable. Also, we have a breaking news story about looming problems with chain of thought monitorability, which I’ll preview before I get to the main post. Table of Contents This Just In. Anthropic Parallel Pauses. Pause The Data Brokers. Pacing the Frontier. Misalignment Assessment. Defects In Training Environments Dispropor",
-    "truncated": false,
-    "fetchedAt": "2026-09-02T13:30:06.294Z",
-    "full": "full/f-zvi-089ofi4.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2786,8 +2778,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 36,
-   "slow": 64
+   "slow": 64,
+   "daily": 36
   },
   "routed": 40,
   "unrouted": 60,
