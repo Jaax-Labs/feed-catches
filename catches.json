@@ -1,7 +1,90 @@
 {
- "generatedAt": "2026-09-03T04:30:34.321Z",
+ "generatedAt": "2026-09-03T05:30:32.206Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-cascade-057rsjy",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"muse spark\" — 3 independent sources in 9h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 9 hours, in 4 items (0.0% of the window — below the 15% background threshold).\n\n• reddit — Muse Spark open weights coming soon\n• hackernews-firehose — Muse Spark 1.3\n• latentspace — [AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newe\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/",
+     "primary": true
+    },
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://developer.meta.com/ai/models/muse-spark/",
+     "primary": false
+    },
+    {
+     "label": "Open latentspace",
+     "href": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-03T05:00:08.667Z",
+   "tier": "X",
+   "families": [
+    "reddit",
+    "hackernews-firehose",
+    "latentspace"
+   ],
+   "roots": [
+    "reddit",
+    "hackernews",
+    "latentspace"
+   ],
+   "sub": "cascade shape · reddit, hackernews, latentspace",
+   "extract": {
+    "ok": false,
+    "reason": "extracted text is markup/template, not prose",
+    "fetchedAt": "2026-09-03T05:00:08.667Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-latent-space-05z5yng",
+   "pri": 55,
+   "kind": "note",
+   "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+   "ctx": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck’s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)… and pr",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "latent-space",
+   "detectedAt": "2026-09-03T05:00:08.667Z",
+   "tier": "D",
+   "itemTs": "2026-09-03T04:38:33.000Z",
+   "sub": "latentspace",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 17767,
+    "lead": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck’s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)… and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the “2026 metamorphosis” of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replac",
+    "truncated": true,
+    "fetchedAt": "2026-09-03T05:00:08.667Z",
+    "full": "full/f-latent-space-05z5yng.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-05e5p5s",
    "pri": 45,
@@ -2706,74 +2789,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1t46xzl",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10757",
-   "ctx": "vulkan: handle larger batch sizes (&gt;4) efficiently for IQ3_S mat-vec ( #27449 ) vulkan: handle larger batch sizes (&gt;4) efficiently for IQ3_S mat-vec when NUM_COLS &gt; 4. 5x perf at n=8 Assisted-by: Claude Opus 5 adds 2 cases per quant type at k=16*256 to the all_types mat-vec sweep Co-authored-by: Marshall assistant@llama.cpp Website: https://llama.app Attestations: https://github.com/ggml-",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10757",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-02T09:00:08.796Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T08:44:51.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1936,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10757 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 08:43 b10757 ba8818c This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: handle larger batch sizes (>4) efficiently for IQ3_S mat-vec ( #27449 ) vulkan: handle larger batch sizes (>4) efficiently for IQ3_S mat-vec when NUM_COLS > 4. 5x perf at n=8 Assisted-by: Claude Opus 5 adds 2 cases per quant type at k=16*256 to the all_types mat-vec sweep Co-authored-by: Marshall assistant@llama.cpp Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44643074 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (C",
-    "truncated": false,
-    "title": "Release b10757 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-02T09:00:08.796Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1t46xzl.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1su7cam",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10756",
-   "ctx": "vulkan : only request VK_KHR_shader_bfloat16 extension if supported ( #28155 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44637403 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10756",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-02T08:30:06.117Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T08:19:02.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1689,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10756 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 08:17 b10756 56dd815 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan : only request VK_KHR_shader_bfloat16 extension if supported ( #28155 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44637403 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (C",
-    "truncated": false,
-    "title": "Release b10756 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-02T08:30:06.117Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1su7cam.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2786,8 +2801,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 63,
-   "daily": 37
+   "daily": 36,
+   "slow": 64
   },
   "routed": 41,
   "unrouted": 59,
