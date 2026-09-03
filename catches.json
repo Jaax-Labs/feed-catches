@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-03T19:31:45.112Z",
+ "generatedAt": "2026-09-03T20:01:27.803Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1r6ojqg",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10790",
+   "ctx": "tune MMVQ to MMQ crossover for SM87 ( #28285 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45087167 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10790",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-03T20:01:19.796Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T19:54:35.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1657,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10790 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 19:52 b10790 8c1a251 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . tune MMVQ to MMQ crossover for SM87 ( #28285 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45087167 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno",
+    "truncated": false,
+    "title": "Release b10790 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-03T20:01:19.796Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1r6ojqg.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-openai-news-1muuhfh",
    "pri": 15,
@@ -2698,38 +2732,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1ychmjv",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.153.0-alpha.5.1",
-   "ctx": "Release 0.153.0-alpha.5.1",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.5.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-03T00:00:07.883Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T23:51:46.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 839,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.5k Star 121k rust-v0.153.0-alpha.5.1 rust-v0.153.0-alpha.5.1 bdd2a5f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.153.0-alpha.5.1 rust-v0.153.0-alpha.5.1 bdd2a5f Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 02 Sep 23:51 Release 0.153.0-alpha.5.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.153.0-alpha.5.1 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-03T00:00:07.883Z",
-    "full": "full/f-gh-releases-openai-codex-1ychmjv.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2745,8 +2747,8 @@
    "daily": 33,
    "slow": 67
   },
-  "routed": 39,
-  "unrouted": 61,
+  "routed": 40,
+  "unrouted": 60,
   "unmappedLaneFamilies": []
  }
 }
