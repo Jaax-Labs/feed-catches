@@ -1,7 +1,132 @@
 {
- "generatedAt": "2026-09-03T11:00:15.479Z",
+ "generatedAt": "2026-09-03T12:30:21.437Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1too4h6",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10785",
+   "ctx": "metal : add sparse FA ( #28098 ) metal : support n_kv_max sparse mask hint in flash attention vec kernel add kernel_flash_attn_ext_vec_idx: compacts finite mask entries into a per-row index list (Hillis-Steele scan, one threadgroup per row) extend vec FA kernel with optional sparse index gathering (FC slot 5) add host-side gate: sparse path when n_kv_max &gt; 0, mask present, supported head sizes ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10785",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-03T12:30:07.235Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T12:21:27.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 3796,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10785 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 12:19 b10785 7bb0fc1 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add sparse FA ( #28098 ) metal : support n_kv_max sparse mask hint in flash attention vec kernel add kernel_flash_attn_ext_vec_idx: compacts finite mask entries into a per-row index list (Hillis-Steele scan, one threadgroup per row) extend vec FA kernel with optional sparse index gathering (FC slot 5) add host-side gate: sparse path when n_kv_max > 0, mask present, supported head sizes / KV types, n_kv_max 1, nr23 variants, sinks, ALiBi, softcap, permute, v_view_of_k, no-mask fallback Note: multi-row (nb*nr23[1] > 1) cases still failing - rid mapping in the sto",
+    "truncated": false,
+    "title": "Release b10785 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-03T12:30:07.235Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1too4h6.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1tynq65",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10784",
+   "ctx": "metal : fix glu dispatch with ne00 = 1 ( #28306 ) metal : fix glu dispatch with ne00 = 1 tests : disable ill-defined tests Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44977647 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubunt",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10784",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-03T12:00:12.347Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T11:54:05.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1733,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10784 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 11:52 b10784 0df017d This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix glu dispatch with ne00 = 1 ( #28306 ) metal : fix glu dispatch with ne00 = 1 tests : disable ill-defined tests Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44977647 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
+    "truncated": false,
+    "title": "Release b10784 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-03T12:00:12.347Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1tynq65.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-huggingface-blog-0ux5msb",
+   "pri": 40,
+   "kind": "note",
+   "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-09-03T12:00:12.347Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T00:00:00.000Z",
+   "sub": "huggingface-blog",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1s0qibc",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10783",
+   "ctx": "mtmd : add const in various places ( #28307 ) mtmd : mark context as const in more methods Mark mtmd_context as const in: mtmd_bitmap_init_lazy mtmd_tokenize mtmd_tokenize_from_parts mtmd_helper_support_video mtmd_helper_bitmap_init_from_file mtmd_helper_bitmap_init_from_buf mtmd_helper_video_init mtmd_helper_video_init_from_buf mtmd_helper_model_can_chat The tokenization functions in particular a",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10783",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-03T11:30:10.619Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T11:18:58.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2514,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10783 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 11:17 b10783 f45576a This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . mtmd : add const in various places ( #28307 ) mtmd : mark context as const in more methods Mark mtmd_context as const in: mtmd_bitmap_init_lazy mtmd_tokenize mtmd_tokenize_from_parts mtmd_helper_support_video mtmd_helper_bitmap_init_from_file mtmd_helper_bitmap_init_from_buf mtmd_helper_video_init mtmd_helper_video_init_from_buf mtmd_helper_model_can_chat The tokenization functions in particular are useful to have marked const , as that allows more easily telling the compiler that we can safely tokenize from multiple threads ( mtmd_tokenize is already documented as thr",
+    "truncated": false,
+    "title": "Release b10783 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-03T11:30:10.619Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1s0qibc.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-chinatalk-1jfj43w",
    "pri": 60,
@@ -2644,128 +2769,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0qk1uo5",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10762",
-   "ctx": "mtmd: support DeepSeek-V4-Flash-Vision-Exp ( #28133 ) mtmd: support DeepSeek-V4-Flash-Vision-Exp handle min/max token counts from CLI rm debugging use GGML_ROPE_TYPE_VISION nits apply review comments correct token count Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44793186 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10762",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-02T19:00:08.415Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T18:39:20.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1830,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10762 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 18:37 b10762 7798007 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . mtmd: support DeepSeek-V4-Flash-Vision-Exp ( #28133 ) mtmd: support DeepSeek-V4-Flash-Vision-Exp handle min/max token counts from CLI rm debugging use GGML_ROPE_TYPE_VISION nits apply review comments correct token count Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44793186 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)",
-    "truncated": false,
-    "title": "Release b10762 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-02T19:00:08.415Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0qk1uo5.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-simon-willison-03rnni0",
-   "pri": 36,
-   "kind": "note",
-   "title": "llm-gemini 0.34",
-   "ctx": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Tags: llm , gemini",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-02T18:00:06.837Z",
-   "tier": "D",
-   "itemTs": "2026-09-02T16:39:38.000Z",
-   "sub": "simonwillison",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-deepmind-blog-1a20hwv",
-   "pri": 22,
-   "kind": "note",
-   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "deepmind-blog",
-   "detectedAt": "2026-09-02T16:30:06.201Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T16:18:31.000Z",
-   "sub": "deepmind",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-02T16:30:06.201Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "lab-board"
-   ]
-  },
-  {
-   "id": "f-deepmind-blog-1kesdw0",
-   "pri": 22,
-   "kind": "note",
-   "title": "Proactive cyber defense for governments and enterprises",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "deepmind-blog",
-   "detectedAt": "2026-09-02T16:30:06.201Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T16:24:24.000Z",
-   "sub": "deepmind",
-   "extract": {
-    "ok": true,
-    "chars": 5235,
-    "lead": "Proactive cyber defense for governments and enterprises Sep 02, 2026 | x.com Facebook LinkedIn Mail Copy link Today, we’re launching our Fairwind Program, a limited access program for governments and trusted partners to use our most advanced cyber defense capabilities. Four Flynn Vice President - Security and Privacy Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice Speed Voice Speed 0.75X 1X 1.5X 2X Defenders wanting to use advanced AI have faced a difficult dilemma: adopt enormous frontier models that could be expensive to deploy and difficult to control across enterprise codebases, or turn to smaller open-weight models that might struggle with complex vulnerability remediation and require teams to build their own tooling and infrastructure from scratch. Until now. Today, we’re launching our Fairwind Program to bring the best of Google’s AI and cyber defense capabilities to a trusted group of Google Cloud customers, government agencies, and cybersecurity partners, to help them proactively solve cyber risks at scale. As a fi",
-    "truncated": false,
-    "title": "Google’s Fairwind Program: Cyber defense tools for trusted partners",
-    "fetchedAt": "2026-09-02T16:30:06.201Z",
-    "full": "full/f-deepmind-blog-1kesdw0.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2778,8 +2781,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 64,
-   "daily": 36
+   "daily": 35,
+   "slow": 65
   },
   "routed": 40,
   "unrouted": 60,
