@@ -1,7 +1,64 @@
 {
- "generatedAt": "2026-09-03T07:30:17.260Z",
+ "generatedAt": "2026-09-03T08:00:16.080Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0ow130c",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10776",
+   "ctx": "model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 ) hparams: add per-layer n_ff_exp/n_expert_used arrays with scalar-or-array loading G1/G2 infrastructure for variable-per-layer expert FFN size and top-k routing (required for Puzzle-75B which has 5 distinct n_ff_exp values and 7 top-k values across its 40 MoE layers). Design: rename scalar members to _impl suffix (foll",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10776",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-03T08:00:09.151Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T07:59:34.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 8005,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10776 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 07:57 b10776 c61b98b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 ) hparams: add per-layer n_ff_exp/n_expert_used arrays with scalar-or-array loading G1/G2 infrastructure for variable-per-layer expert FFN size and top-k routing (required for Puzzle-75B which has 5 distinct n_ff_exp values and 7 top-k values across its 40 MoE layers). Design: rename scalar members to _impl suffix (following existing convention), add LLAMA_MAX_LAYERS arrays, add n_ff_exp(il)/n_expert_used(il) accessors with scalar fallback. No new GGUF keys: reuses existing expert_feed_forwa",
+    "truncated": false,
+    "title": "Release b10776 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-03T08:00:09.151Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0ow130c.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-huggingface-blog-1cgpkxs",
+   "pri": 40,
+   "kind": "note",
+   "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/train-to-paint-with-code",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-09-03T08:00:09.151Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T00:00:00.000Z",
+   "sub": "huggingface-blog",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-cascade-057rsjy",
    "pri": 4,
@@ -2721,74 +2778,6 @@
    },
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-github-new-repos-0k5318w",
-   "pri": 25,
-   "kind": "note",
-   "title": "dreamers-laboratory/agent-fleet-manager — 168★ in 0.3d (672★/day)",
-   "ctx": "A general-purpose engine for large-scale, repeated information gathering by a fleet of workers.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/dreamers-laboratory/agent-fleet-manager",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-02T10:00:10.705Z",
-   "tier": "C",
-   "itemTs": "2026-09-02T06:38:12.000Z",
-   "sub": "github · Python",
-   "extract": {
-    "ok": true,
-    "chars": 4943,
-    "lead": "agent-fleet-manager A general-purpose engine for large-scale, repeated information gathering by a fleet of workers — plain fetchers, scrapers, or LLM agents. You register things to check and how often; the engine schedules what is due, leases work out in isolated batches, records what came back, detects change by content hash, backs off on failures, and keeps an auditable ledger of every write. One SQLite file is the entire system. Python standard library only. It came out of a production system where a mixed fleet of LLM agents and plain fetchers tracks a few thousand sources on daily and weekly cadences. This is a clean rewrite of the part that generalizes: the bookkeeping. The engine never interprets what a source is — the route field means nothing to it and everything to your worker — which is why the same engine can run very different fleets. What people use this shape of system for Sales prospecting. Register target companies' careers pages, press pages, and funding announcements. A changed hash on a careers page is a hiring signal; your worker (or an LLM agent reading the diff) turns it into a lead with a timestamp and a receipt. Competitor and price watch. Pricing pages, fe",
-    "truncated": false,
-    "title": "GitHub - dreamers-laboratory/agent-fleet-manager: A general-purpose engine for large-scale, repeated information gathering by a fleet of workers. · GitHub",
-    "fetchedAt": "2026-09-02T10:00:10.705Z",
-    "full": "full/f-github-new-repos-0k5318w.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1r69q4s",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10758",
-   "ctx": "hexagon: MUL_MAT and MUL_MAT_ID fusion and fixes ( #28202 ) hex-mm: fuse QKV and FFN matmuls that land on HMX hex-mm: remove hardcoded ne[1] &lt; 32K restriction hex-get-rows: explicitly reject repacked Q8_0 just in case somebody decided to add an override hex-mm: correct overhead sizing to make sure we dont exceed vtcm budget for large dims hex-mm: fuse MUL_MAT_ID into MUL_MAT_ID_NX (2x,3x,...) w",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10758",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-02T09:30:09.594Z",
-   "tier": "A",
-   "itemTs": "2026-09-02T09:30:09.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2459,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.6k Star 127k b10758 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 02 Sep 09:29 b10758 960dffa This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . hexagon: MUL_MAT and MUL_MAT_ID fusion and fixes ( #28202 ) hex-mm: fuse QKV and FFN matmuls that land on HMX hex-mm: remove hardcoded ne[1] < 32K restriction hex-get-rows: explicitly reject repacked Q8_0 just in case somebody decided to add an override hex-mm: correct overhead sizing to make sure we dont exceed vtcm budget for large dims hex-mm: fuse MUL_MAT_ID into MUL_MAT_ID_NX (2x,3x,...) where possible hex-fusion: update opbatch and opqueue sizing to acount for new fusion and reduce overhead for trace buffer alloc hex-bufs: sort buffers while finalizing opbatch, h",
-    "truncated": false,
-    "title": "Release b10758 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-02T09:30:09.594Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1r69q4s.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2801,11 +2790,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 36,
-   "slow": 64
+   "daily": 35,
+   "slow": 65
   },
-  "routed": 41,
-  "unrouted": 59,
+  "routed": 40,
+  "unrouted": 60,
   "unmappedLaneFamilies": []
  }
 }
