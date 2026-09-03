@@ -1,7 +1,67 @@
 {
- "generatedAt": "2026-09-03T17:31:11.139Z",
+ "generatedAt": "2026-09-03T18:30:12.753Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-openai-news-1muuhfh",
+   "pri": 15,
+   "kind": "note",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "ctx": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://openai.com/index/legora-financial-statement-review-with-astra",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openai-news",
+   "detectedAt": "2026-09-03T18:30:07.903Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T12:00:00.000Z",
+   "sub": "openai",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-09-03T18:30:07.903Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-openai-news-1obvpzl",
+   "pri": 15,
+   "kind": "note",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "ctx": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://openai.com/index/playco-game-prototyping-with-astra",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openai-news",
+   "detectedAt": "2026-09-03T18:30:07.903Z",
+   "tier": "A",
+   "itemTs": "2026-09-03T12:00:00.000Z",
+   "sub": "openai",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-09-03T18:30:07.903Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-deepmind-blog-1xbuit9",
    "pri": 22,
@@ -2670,110 +2730,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-cascade-0dmi9fe",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"performance across\" — 3 independent sources in 30h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 30 hours, in 5 items (0.0% of the window — below the 15% background threshold).\n\n• arxiv — WorldBench: Culturally Grounded Benchmark for Multilingual Agents\n• reddit — Qwen3.8-Max-0902 released\n• huggingface-papers — Does Imitation Learning Preserve Temporal Robustness in Dexterous Manipulation? An Expert-\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open arxiv",
-     "href": "https://arxiv.org/abs/2609.01056v1",
-     "primary": true
-    },
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w4x5uu/qwen38max0902_released/",
-     "primary": false
-    },
-    {
-     "label": "Open huggingface-papers",
-     "href": "https://huggingface.co/papers/2609.01453",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-02T23:30:07.381Z",
-   "tier": "X",
-   "families": [
-    "arxiv",
-    "reddit",
-    "huggingface-papers"
-   ],
-   "roots": [
-    "arxiv",
-    "reddit",
-    "huggingface"
-   ],
-   "sub": "cascade shape · arxiv, reddit, huggingface",
-   "extract": {
-    "ok": true,
-    "chars": 4183,
-    "lead": "Computer Science > Artificial Intelligence arXiv:2609.01056v1 (cs) [Submitted on 1 Sep 2026] Title: WorldBench: Culturally Grounded Benchmark for Multilingual Agents Authors: Leonardo Ranaldi , Sherrie Shen , Jushi Kai , Alexandra Birch View a PDF of the paper titled WorldBench: Culturally Grounded Benchmark for Multilingual Agents, by Leonardo Ranaldi and 3 other authors View PDF HTML (experimental) Abstract: Despite the growing use of LLM-powered agents to solve multi-step tasks in complex environments, existing benchmarks rarely test state preservation, performance across languages, and application to realistic, grounded scenarios. To address these concerns, we present WorldBench: a comprehensive, multilingual benchmark of genuine, persona-grounded everyday workflows, where agents can act in a sandbox via structured actions. WorldBench comprises 1,600 tasks across seven languages and eight cultures, filtered and refined through feedback from human annotators with language- and culture-specific expertise. For evaluation, we extend metrics from previous works and introduce Constrained Task Success (CTS), which combines natural language instructions and testbeds to score task compl",
-    "truncated": false,
-    "title": "[2609.01056v1] WorldBench: Culturally Grounded Benchmark for Multilingual Agents",
-    "fetchedAt": "2026-09-02T23:30:07.381Z",
-    "full": "full/f-cascade-0dmi9fe.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-cascade-174kytx",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"chatgpt work\" — 3 independent sources in 60h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 60 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• simonwillison — Understanding ChatGPT Work\n• hackernews-firehose — Understanding ChatGPT Work\n• openai — ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open simonwillison",
-     "href": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-     "primary": true
-    },
-    {
-     "label": "Open hackernews-firehose",
-     "href": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-     "primary": false
-    },
-    {
-     "label": "Open openai",
-     "href": "https://openai.com/index/atv-big-air-tour",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-02T23:30:07.381Z",
-   "tier": "X",
-   "families": [
-    "simonwillison",
-    "hackernews-firehose",
-    "openai"
-   ],
-   "roots": [
-    "simonwillison",
-    "hackernews",
-    "openai"
-   ],
-   "sub": "cascade shape · simonwillison, hackernews, openai",
-   "extract": {
-    "ok": true,
-    "chars": 11141,
-    "lead": "Understanding ChatGPT Work 30th August 2026 OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here’s what I’ve figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let’s call it Work Cloud . If you install the ChatGPT desktop app—the app that used to be called Codex—you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let’s call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. ( Update : Work Cloud is also available from the ChatGPT desktop app, via a Where should this chat run? dropdown.) For the rest of this article I’m going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren’t available",
-    "truncated": false,
-    "title": "Understanding ChatGPT Work",
-    "fetchedAt": "2026-09-02T23:30:07.381Z",
-    "full": "full/f-cascade-174kytx.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2789,8 +2745,8 @@
    "daily": 33,
    "slow": 67
   },
-  "routed": 38,
-  "unrouted": 62,
+  "routed": 39,
+  "unrouted": 61,
   "unmappedLaneFamilies": []
  }
 }
