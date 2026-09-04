@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-04T04:00:38.824Z",
+ "generatedAt": "2026-09-04T04:30:26.415Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1skmk7b",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10795: sycl: fuse rms_norm+mul+add and add+add residual chains (#27610)",
+   "ctx": "Fuse RMS_NORM+MUL+ADD and ADD+ADD under GGML_SYCL_ENABLE_FUSION. ADD+ADD uses the same binbcast indexing and type matrix as standalone add() (f32, f16, f16/f32, i32, i16, bf16, including broadcast and non-contiguous). Unsupported combinations fall back to two add() launches.",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10795",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-04T04:30:18.756Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T04:05:40.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1426,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10795 b10795 6703d78 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10795: sycl: fuse rms_norm+mul+add and add+add residual chains (#27610) b10795 6703d78 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode newjordan tagged this 04 Sep 04:05 Fuse RMS_NORM+MUL+ADD and ADD+ADD under GGML_SYCL_ENABLE_FUSION. ADD+ADD uses the same binbcast indexing and type matrix as standalon",
+    "truncated": false,
+    "title": "Release b10795: sycl: fuse rms_norm+mul+add and add+add residual chains (#27610) · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-04T04:30:18.756Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1skmk7b.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0034azz",
    "pri": 45,
@@ -2736,31 +2770,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0bsdpvr",
-   "pri": 45,
-   "kind": "note",
-   "title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
-   "ctx": "Evaluating LLM agents is essential for guiding their development, yet it has grown prohibitively expensive: a single pass of a frontier model over an agentic benchmark can cost hundreds to thousands of dollars, a price paid repeatedly across iterative development cycles. Prior efforts, centered on benchmark distillation, reduce the number of evaluation tasks but leave the cost of executing each retained task untouched. In this work, we introduce early outcome prediction, a complementary axis of ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02783v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T16:15:18.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2773,8 +2782,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 63,
-   "daily": 37
+   "daily": 38,
+   "slow": 62
   },
   "routed": 42,
   "unrouted": 58,
