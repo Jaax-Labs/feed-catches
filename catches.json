@@ -1,7 +1,107 @@
 {
- "generatedAt": "2026-09-04T17:31:18.228Z",
+ "generatedAt": "2026-09-04T18:31:04.091Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1t3xz5z",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10809",
+   "ctx": "llama.cpp : bump version to 0.4.0 ( #28386 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45314398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0)",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10809",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-04T18:01:03.391Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T17:57:34.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1731,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10809 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 17:55 b10809 5266f24 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama.cpp : bump version to 0.4.0 ( #28386 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45314398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) ",
+    "truncated": false,
+    "title": "Release b10809 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-04T18:01:03.391Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1t3xz5z.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-1iguu2n",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.153.3",
+   "ctx": "Release 0.153.3",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.153.3",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-04T18:01:03.391Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T17:56:03.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 790,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 122k rust-v0.153.3 rust-v0.153.3 b1a547b Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.153.3 rust-v0.153.3 b1a547b Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags celia-oai tagged this 04 Sep 17:56 Release 0.153.3 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.153.3 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-04T18:01:03.391Z",
+    "full": "full/f-gh-releases-openai-codex-1iguu2n.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-simon-willison-16gicyv",
+   "pri": 36,
+   "kind": "note",
+   "title": "OpenAI's rogue agents were caught communicating via public wikis",
+   "ctx": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-04T18:01:03.391Z",
+   "tier": "D",
+   "itemTs": "2026-09-04T17:38:48.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 7820,
+    "lead": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is \"philosophy as it applies to games and gaming\".) The research team also published the data they collected during their investigation. I've converted that into a 68MB SQLite database, which you can download from here , or explore in Datasette Lite (68.3MB page load), or sign in with GitHub to agent.datasette.io and browse or ask questions of it using Datasette Agent. ",
+    "truncated": false,
+    "fetchedAt": "2026-09-04T18:01:03.391Z",
+    "full": "full/f-simon-willison-16gicyv.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-zvi-0cw7w63",
    "pri": 60,
@@ -2763,75 +2863,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-05e5p5s",
-   "pri": 45,
-   "kind": "note",
-   "title": "Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis",
-   "ctx": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies. While large language models (LLMs) offer promising capabilities for reasoning and knowledge integration, directly applying vanilla LLMs to telecom RCA often leads to hallucination, unstable reasoning, and poor alignment with structured network evidence. This work first reviews the evo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02805v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T16:43:22.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0d0bltr",
-   "pri": 45,
-   "kind": "note",
-   "title": "frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study",
-   "ctx": "For more than 20 years, the Model-RB benchmark frb100-40 remained an open challenge; since 2014, its public record had stood at 99 of 100 variables. We give a directly checkable 100-vertex independent set for its 4,000-vertex graph. Together with a verified partition into 100 cliques of size 40, the witness proves that the maximum independent-set size is 100 and the minimum vertex-cover size is 3,900. The stochastic run that found the witness is kept separate from this proof. We evaluated its ad",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02804v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T16:40:46.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0h179fc",
-   "pri": 45,
-   "kind": "note",
-   "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
-   "ctx": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-end specialization pipeline combining large-scale problem curation, synthetic reasoning traces, supervised fine-tuning (SFT), and reinforcement learning (RL). Using 22,000 curated problems, we train Nemotron-3-Nano-CC (30B-A3B) with SFT and RL and Nemotron-3-Ultra-CC (550B-A55B) with SFT alone. We fu",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02849v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T17:33:37.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2844,11 +2875,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 57,
-   "daily": 43
+   "daily": 46,
+   "slow": 54
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 48,
+  "unrouted": 52,
   "unmappedLaneFamilies": []
  }
 }
