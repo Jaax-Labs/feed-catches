@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-04T21:31:07.100Z",
+ "generatedAt": "2026-09-04T22:31:22.381Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-github-new-repos-041knfu",
+   "pri": 25,
+   "kind": "note",
+   "title": "anthropics/fermats-last-theorem — 211★ in 0.3d (661★/day)",
+   "ctx": "(no description)\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/anthropics/fermats-last-theorem",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-04T22:01:02.506Z",
+   "tier": "C",
+   "itemTs": "2026-09-04T14:21:04.000Z",
+   "sub": "github · Lean",
+   "extract": {
+    "ok": true,
+    "chars": 3107,
+    "lead": "Fermat's Last Theorem in Lean 4 A complete, machine-checked proof of Fermat's Last Theorem in Lean 4 , built on Mathlib (Lean 4.33.1; Mathlib v4.33.0 , pinned by commit in lakefile.lean ). The argument is that of Frey, Serre, Ribet, Wiles and Taylor-Wiles. PROOF-PATH.md names each step and the Lean theorem that carries it, and the html/ folder presents the whole proof as web pages you can browse offline (see \"Reading the proof in a browser\" below). Research artifact. Not maintained and not accepting contributions. The statement Theorems/Thm_fermat_last_theorem.lean declares theorem fermat_last_theorem (n : ℕ) (hn : 3 ≤ n) (a b c : ℕ) (ha : 0 flt && cd flt LEAN_NUM_THREADS=96 lake build # one job per hardware thread by default; lower it to bound memory (about 5 GB per job) verification/comparator/run.sh # verdict: last line of .verify-work/wrapper/comparator.log verification/nanoda/run.sh # after the comparator script; verdict: .verify-work/nanoda/run-*/nanoda.stdout Lean prints a large number of deprecation and style-linter warnings while building. They do not affect the result. The build has succeeded when its output ends with 'flt_mathlib' depends on axioms: [propext, Classical.c",
+    "truncated": false,
+    "title": "GitHub - anthropics/fermats-last-theorem · GitHub",
+    "fetchedAt": "2026-09-04T22:01:02.506Z",
+    "full": "full/f-github-new-repos-041knfu.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-openrouter-models-1hvqfr3",
    "pri": 20,
@@ -2857,31 +2889,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1skpppa",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10781",
-   "ctx": "vulkan: fix FA dequant path engagement ( #28190 ) Skip the nb[3] check when ne[3] == 1, the shader never reads it for a single stream. Cache views carry the full-buffer stride there, so the old check reduced to n_kv == kv_size and the path only engaged with the cache full. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44953650 macOS/iOS: macOS Apple Si",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10781",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T10:00:10.510Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T09:59:27.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2897,8 +2904,8 @@
    "daily": 48,
    "slow": 52
   },
-  "routed": 52,
-  "unrouted": 48,
+  "routed": 51,
+  "unrouted": 49,
   "unmappedLaneFamilies": []
  }
 }
