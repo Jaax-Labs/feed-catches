@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-04T21:01:02.045Z",
+ "generatedAt": "2026-09-04T21:31:07.100Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-openrouter-models-1hvqfr3",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — OpenAI: GPT-6 Astra (batch)",
+   "ctx": "A routing row exists for openai/gpt-6-astra:batch. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/openai/gpt-6-astra:batch",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-04T21:31:01.462Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T20:13:58.000Z",
+   "sub": "openrouter · openai/gpt-6-astra:batch",
+   "extract": {
+    "ok": true,
+    "chars": 1491,
+    "lead": "Providers Providers Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Exacto (highest tool-calling accuracy). Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to",
+    "truncated": false,
+    "title": "GPT-6 Astra (batch) - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-04T21:31:01.462Z",
+    "full": "full/f-openrouter-models-1hvqfr3.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-cascade-0qaqidw",
    "pri": 4,
@@ -2843,31 +2877,6 @@
    "detectedAt": "2026-09-03T10:00:10.510Z",
    "tier": "A",
    "itemTs": "2026-09-03T09:59:27.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1supbe9",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10780",
-   "ctx": "sycl : enhance the api to support peer-to-peer copy ( #27550 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44948405 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubun",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10780",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T10:00:10.510Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T09:35:33.000Z",
    "sub": "github release",
    "clock": "daily",
    "questions": [
