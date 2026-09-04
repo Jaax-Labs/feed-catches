@@ -1,7 +1,279 @@
 {
- "generatedAt": "2026-09-04T19:01:11.122Z",
+ "generatedAt": "2026-09-04T21:01:02.045Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-cascade-0qaqidw",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"message board\" — 3 independent sources in 8h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 8 hours, in 4 items (0.0% of the window — below the 15% background threshold).\n\n• hackernews — Discovery of a new OpenAI agent message board\n• hackernews-firehose — Discovery of a new OpenAI agent message board\n• simonwillison — OpenAI's rogue agents were caught communicating via public wikis\n• reddit — 1,200 AI agents built a secret message board to share benchmark answers. So I built them a\n\n4 feeds carried it, counted as 3 independent roots — same-platform and same-company feeds count once.\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open hackernews",
+     "href": "https://collusion.wiki/",
+     "primary": true
+    },
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://collusion.wiki/",
+     "primary": false
+    },
+    {
+     "label": "Open simonwillison",
+     "href": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-04T20:30:54.785Z",
+   "tier": "X",
+   "families": [
+    "hackernews",
+    "hackernews-firehose",
+    "simonwillison",
+    "reddit"
+   ],
+   "roots": [
+    "hackernews",
+    "simonwillison",
+    "reddit"
+   ],
+   "sub": "cascade shape · hackernews, simonwillison, reddit",
+   "extract": {
+    "ok": true,
+    "chars": 82228,
+    "lead": "We found ~18,000 posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web-retrieval task. These AIs colluded to share answers, research their environment, and bypass sandbox restrictions. However, we believe this is distinct from the swarm of agents that hacked Hugging Face. By ‘collude’ we mean that the agents cooperated to gain an advantage on their task in a way their developers did not intend (writing to the internet was blocked). Almost all The AIs used multiple sites, which had varying data retention policies. For instance, DSE wiki saves all edits over 64 characters, Fractal saves all edits over 100 characters. Thus there are a few pages which were deleted and are now unrecoverable. of the logs of the agents communicating on this site are publicly available. Note: visiting the website will publicly log your IP addresses. The website is prowiki.org, a German wiki. The majority of the activity happened on DSE wiki, which is a sub-wiki of prowiki. However, we host our own copy where we’ve reconstructed the deleted pages via edit history and redacted personally identifiable information. We have attempted to redact al",
+    "truncated": false,
+    "title": "Discovery of a new OpenAI agent message board",
+    "fetchedAt": "2026-09-04T20:30:54.785Z",
+    "full": "full/f-cascade-0qaqidw.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-openrouter-models-0csgnqx",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — OpenAI: GPT-6 Astra",
+   "ctx": "A routing row exists for openai/gpt-6-astra. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGPT-6 Astra is a frontier reasoning model from OpenAI, suited for complex reasoning, coding, and agentic workflows.",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/openai/gpt-6-astra",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-04T20:30:54.785Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T20:13:58.000Z",
+   "sub": "openrouter · openai/gpt-6-astra",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-04T20:30:54.785Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-openrouter-models-0wjj6t3",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — OpenAI: GPT-6 Astra Pro",
+   "ctx": "A routing row exists for openai/gpt-6-astra-pro. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/openai/gpt-6-astra-pro",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-04T20:30:54.785Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T20:13:55.000Z",
+   "sub": "openrouter · openai/gpt-6-astra-pro",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1v2gkys",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.261",
+   "ctx": "What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bashOutputMaxChars and taskOutputMaxChars settings to raise how much command and background-task output Claude receives inline before it is saved to a file, up to 128K characters Added --append-subagent-",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-04T20:01:02.619Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T19:58:10.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 10959,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23k Star 144k v2.1.261 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 04 Sep 19:58 v2.1.261 d7dbd9a What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bashOutputMaxChars and taskOutputMaxChars settings to raise how much command and background-task output Claude receives inline before it is saved to a file, up to 128K characters Added --append-subagent-system-prompt-file to read the subagent system prompt from a file, for prompts too large to pass on the command line Added /skill-doctor to show which loaded skills go unused and what they cost in context, so you can prune them Fixed typed or pasted characters occasionally landing out of order or being dropped during fast input or ",
+    "truncated": false,
+    "title": "Release v2.1.261 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-04T20:01:02.619Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1v2gkys.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-15sjxyn",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp v0.4.0",
+   "ctx": "Overview llama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and Nemotron-3-Puzzle support, on-demand tensor reading, per-slot server context limits, video input options, and a ggml update to 0.23.0 with major sparse flash attention and RDMA work. API changes Added llama_lazy_mode and lazy_mode ( #27794 ). Added max_buf_size to quantize params ( #27795 ). Bumped session/state versions for KV-cell toke",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-04T20:01:02.619Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T19:57:12.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 17964,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k v0.4.0 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 19:56 &middot; 7 commits to 427291b5b34cd914a31b3fd3b61a68f6184f4b9f since this release v0.4.0 5266f24 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Overview llama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and Nemotron-3-Puzzle support, on-demand tensor reading, per-slot server context limits, video input options, and a ggml update to 0.23.0 with major sparse flash attention and RDMA work. API changes Added llama_lazy_mode and lazy_mode ( #27794 ). Added max_buf_size to quantize params ( #27795 ). Bumped session/state versions for KV-cell token tracking ( #27762 ). Added mtmd_input_part and mtmd_tokenize_from_parts() ( #28250 ). Made mtmd_token",
+    "truncated": false,
+    "title": "Release v0.4.0 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-04T20:01:02.619Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-15sjxyn.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1qm4pf7",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10816",
+   "ctx": "metal : add remaining fa-vec tunings for M3 ( #28396 ) addition of m3 in fa_vec_tuned_table adding q4_0,q4_1,q5_0,q5_1 in ggml-metal-tuning Fix formatting in ggml-metal-tuning.cpp Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45337508 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCF",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10816",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-04T20:01:02.619Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T20:00:40.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1r63wt5",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10814",
+   "ctx": "opencl: extend the elementwise and data‐movement op coverage ( #27633 ) opencl: add extended elementwise unary ops (sgn, step, elu, hardswish, hardsigmoid, floor, ceil, round, trunc) Adds nine GGML_UNARY_OP_* elementwise ops that were falling back to CPU on the OpenCL backend, following the same variant shape as the existing ABS op: f32, f32_4 (vec4), f16, f16_4 (vec4), and stride-addressed f32_nc",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10814",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-04T19:30:55.569Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T19:30:52.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 4241,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10814 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 19:30 b10814 1548a24 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: extend the elementwise and data‐movement op coverage ( #27633 ) opencl: add extended elementwise unary ops (sgn, step, elu, hardswish, hardsigmoid, floor, ceil, round, trunc) Adds nine GGML_UNARY_OP_* elementwise ops that were falling back to CPU on the OpenCL backend, following the same variant shape as the existing ABS op: f32, f32_4 (vec4), f16, f16_4 (vec4), and stride-addressed f32_nc / f16_nc for non-contiguous inputs. New kernels/unary_ext.cl (macro-generated), a shared ggml_cl_unary_ext dispatch helper mirroring ggml_cl_abs, the supports_op cases, and t",
+    "truncated": false,
+    "title": "Release b10814 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-04T19:30:55.569Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1r63wt5.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1rg3ii4",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10813",
+   "ctx": "opencl: add Adreno xmem SDPA path ( #26331 ) opencl: add Adreno xmem SDPA path Assisted-by: Codex Removed the Adreno-specific queue profiling override Clean up formatting 修复数值误差优化gqa/mask attn Assisted-by: Codex add env GGML_OPENCL_XMEM_SDPA Assisted-by: OpenAI Codex Co-authored-by: happyyzy happyyzy@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llam",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10813",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-04T19:30:55.569Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T19:05:29.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1937,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10813 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 19:02 b10813 4acf4a4 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: add Adreno xmem SDPA path ( #26331 ) opencl: add Adreno xmem SDPA path Assisted-by: Codex Removed the Adreno-specific queue profiling override Clean up formatting 修复数值误差优化gqa/mask attn Assisted-by: Codex add env GGML_OPENCL_XMEM_SDPA Assisted-by: OpenAI Codex Co-authored-by: happyyzy happyyzy@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45326308 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
+    "truncated": false,
+    "title": "Release b10813 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-04T19:30:55.569Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1rg3ii4.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-openrouter-models-1vn3kly",
    "pri": 20,
@@ -2601,268 +2873,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-vllm-project-vllm-08qvkfs",
-   "pri": 30,
-   "kind": "note",
-   "title": "vllm-project/vllm v0.29.0rc2",
-   "ctx": "[Bugfix][Multimodal] Handle prefix-covered items in SHM worker cache …",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-vllm-project-vllm",
-   "detectedAt": "2026-09-03T10:00:10.510Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T09:41:12.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-03T10:00:10.510Z"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0qjyp66",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10778",
-   "ctx": "misc : prevent RAM peaking at model loading stage ( #27483 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44939788 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10778",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T09:00:08.204Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T08:59:06.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-03T09:00:08.204Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-0p8i7ir",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.1",
-   "ctx": "Release 0.154.0-alpha.1",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-03T09:00:08.204Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T08:41:23.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 828,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 121k rust-v0.154.0-alpha.1 rust-v0.154.0-alpha.1 042534e Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.1 rust-v0.154.0-alpha.1 042534e Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rka-oai tagged this 03 Sep 08:41 Release 0.154.0-alpha.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.154.0-alpha.1 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-03T09:00:08.204Z",
-    "full": "full/f-gh-releases-openai-codex-0p8i7ir.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0p60opb",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10777",
-   "ctx": "sycl: reduce redundant work in Q4_K multi-column MMVQ ( #27062 ) sycl: Q4_K Weight unpack optimization and reuse between destination Columns sycl: Q4_K small N (N=2..4) + two output rows by subgroup reuse of activation between two rows. sycl: gate Q4_K two-row reuse for small N=2 sycl: Fix on magic number now uses Q4_K_MMVQ_ROW_PAIR_MIN_NROWS=6272 for it, added tests for coverage around Q4_K_MMVQ_",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10777",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T08:30:06.876Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T08:29:19.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2223,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10777 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 08:27 b10777 4aa6ffb This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl: reduce redundant work in Q4_K multi-column MMVQ ( #27062 ) sycl: Q4_K Weight unpack optimization and reuse between destination Columns sycl: Q4_K small N (N=2..4) + two output rows by subgroup reuse of activation between two rows. sycl: gate Q4_K two-row reuse for small N=2 sycl: Fix on magic number now uses Q4_K_MMVQ_ROW_PAIR_MIN_NROWS=6272 for it, added tests for coverage around Q4_K_MMVQ_ROW_PAIR_MIN_NROWS with perf support to test Q4_K MUL_MAT, applied the same reuse pattern to the activation as the weights. Assisted-by: GPT-5.6 Sol Co-authored-by: RaulAbejon",
-    "truncated": false,
-    "title": "Release b10777 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-03T08:30:06.876Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0p60opb.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-github-new-repos-0buh2g3",
-   "pri": 25,
-   "kind": "note",
-   "title": "MSNightmare/FalconFlank — 162★ in 0.3d (648★/day)",
-   "ctx": "Crowdstrike Falcon 0day Privilege Escalation Vulnerability\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/MSNightmare/FalconFlank",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-03T08:30:06.876Z",
-   "tier": "C",
-   "itemTs": "2026-09-03T02:48:22.000Z",
-   "sub": "github · C",
-   "extract": {
-    "ok": true,
-    "chars": 586,
-    "lead": "FalconFlank Crowdstrike Falcon 0day Privilege Escalation Vulnerability FalconFlank is a 0day privilege escalation that abuses the office malicious macros remediation in Crowdstrike Falcon Sensor, obviously by the time I drop this Crowdstrike would already have detections for it so if you want to test you either have to add it to the exclusions or obfuscate the PoC and change the dll load technique. As of now it works in a fully updated windows 11 25H2 / Windows Server 2025 with Crowdstrike Falcon - Phase 3 Optimal Protection + needs \"Microsoft Office file malicious macro removal\"",
-    "truncated": false,
-    "title": "GitHub - MSNightmare/FalconFlank: Crowdstrike Falcon 0day Privilege Escalation Vulnerability · GitHub",
-    "fetchedAt": "2026-09-03T08:30:06.876Z",
-    "full": "full/f-github-new-repos-0buh2g3.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0ow130c",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10776",
-   "ctx": "model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 ) hparams: add per-layer n_ff_exp/n_expert_used arrays with scalar-or-array loading G1/G2 infrastructure for variable-per-layer expert FFN size and top-k routing (required for Puzzle-75B which has 5 distinct n_ff_exp values and 7 top-k values across its 40 MoE layers). Design: rename scalar members to _impl suffix (foll",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10776",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T08:00:09.151Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T07:59:34.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 8005,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10776 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 07:57 b10776 c61b98b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 ) hparams: add per-layer n_ff_exp/n_expert_used arrays with scalar-or-array loading G1/G2 infrastructure for variable-per-layer expert FFN size and top-k routing (required for Puzzle-75B which has 5 distinct n_ff_exp values and 7 top-k values across its 40 MoE layers). Design: rename scalar members to _impl suffix (following existing convention), add LLAMA_MAX_LAYERS arrays, add n_ff_exp(il)/n_expert_used(il) accessors with scalar fallback. No new GGUF keys: reuses existing expert_feed_forwa",
-    "truncated": false,
-    "title": "Release b10776 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-03T08:00:09.151Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0ow130c.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-huggingface-blog-1cgpkxs",
-   "pri": 40,
-   "kind": "note",
-   "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://huggingface.co/blog/train-to-paint-with-code",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "huggingface-blog",
-   "detectedAt": "2026-09-03T08:00:09.151Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T00:00:00.000Z",
-   "sub": "huggingface-blog",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-cascade-057rsjy",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"muse spark\" — 3 independent sources in 9h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 9 hours, in 4 items (0.0% of the window — below the 15% background threshold).\n\n• reddit — Muse Spark open weights coming soon\n• hackernews-firehose — Muse Spark 1.3\n• latentspace — [AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newe\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/",
-     "primary": true
-    },
-    {
-     "label": "Open hackernews-firehose",
-     "href": "https://developer.meta.com/ai/models/muse-spark/",
-     "primary": false
-    },
-    {
-     "label": "Open latentspace",
-     "href": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-03T05:00:08.667Z",
-   "tier": "X",
-   "families": [
-    "reddit",
-    "hackernews-firehose",
-    "latentspace"
-   ],
-   "roots": [
-    "reddit",
-    "hackernews",
-    "latentspace"
-   ],
-   "sub": "cascade shape · reddit, hackernews, latentspace",
-   "extract": {
-    "ok": false,
-    "reason": "extracted text is markup/template, not prose",
-    "fetchedAt": "2026-09-03T05:00:08.667Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2875,11 +2885,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 47,
-   "slow": 53
+   "daily": 48,
+   "slow": 52
   },
-  "routed": 48,
-  "unrouted": 52,
+  "routed": 52,
+  "unrouted": 48,
   "unmappedLaneFamilies": []
  }
 }
