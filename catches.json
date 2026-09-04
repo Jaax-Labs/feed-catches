@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-04T18:31:04.091Z",
+ "generatedAt": "2026-09-04T19:01:11.122Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-openrouter-models-1vn3kly",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — inclusionAI: Ling 3.0 Flash Sante (free)",
+   "ctx": "A routing row exists for inclusionai/ling-3.0-flash-sante:free. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nLing 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-04T19:01:02.298Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T18:19:06.000Z",
+   "sub": "openrouter · inclusionai/ling-3.0-flash-sante:free",
+   "extract": {
+    "ok": true,
+    "chars": 1296,
+    "lead": "Frequently asked questions What is Ling 3.0 Flash Sante (free)? Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for medical knowledge reasoning, clinical safety, evidence-based retrieval, and long-horizon medical tasks, while retaining general capabilities in reasoning, coding, and agentic tasks. Is Ling 3.0 Flash Sante (free) free? Yes. The pricing shown on this page for Ling 3.0 Flash Sante (free) is zero, so you are not charged for prompt or completion tokens. Free endpoints are rate limited — see the rate limit docs . What is the context length of Ling 3.0 Flash Sante (free)? Ling 3.0 Flash Sante (free) has a 262,144 token context window. It supports up to 32,768 completion tokens. Does Ling 3.0 Flash Sante (free) support tool calling and structured outputs? Yes. Ling 3.0 Flash Sante (free) accepts tools and tool_choice for function calling. It does not support response_format , so JSON output is not enforced. What other text models does inclusionAI have? Ling 3.0 Flash Fin and Ling 3.0 Flash are other text models from inclusionAI. When was Ling",
+    "truncated": false,
+    "title": "Ling 3.0 Flash Sante (free) - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-04T19:01:02.298Z",
+    "full": "full/f-openrouter-models-1vn3kly.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1t3xz5z",
    "pri": 30,
@@ -2829,40 +2863,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-latent-space-05z5yng",
-   "pri": 55,
-   "kind": "note",
-   "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-   "ctx": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck’s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)… and pr",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "latent-space",
-   "detectedAt": "2026-09-03T05:00:08.667Z",
-   "tier": "D",
-   "itemTs": "2026-09-03T04:38:33.000Z",
-   "sub": "latentspace",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 17767,
-    "lead": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck’s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)… and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the “2026 metamorphosis” of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replac",
-    "truncated": true,
-    "fetchedAt": "2026-09-03T05:00:08.667Z",
-    "full": "full/f-latent-space-05z5yng.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2875,8 +2875,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 46,
-   "slow": 54
+   "daily": 47,
+   "slow": 53
   },
   "routed": 48,
   "unrouted": 52,
