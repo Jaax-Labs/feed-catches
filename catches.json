@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-04T05:00:33.586Z",
+ "generatedAt": "2026-09-04T05:30:44.927Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-latent-space-0uvd709",
+   "pri": 55,
+   "kind": "note",
+   "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+   "ctx": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI’s most successful launch since Sora and certainly GPT-4 or GPT-5 . You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic’s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/20",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "latent-space",
+   "detectedAt": "2026-09-04T05:30:18.306Z",
+   "tier": "D",
+   "itemTs": "2026-09-04T05:18:11.000Z",
+   "sub": "latentspace",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 16636,
+    "lead": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI’s most successful launch since Sora and certainly GPT-4 or GPT-5 . You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic’s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as “our most intelligent and aligned model yet,” positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , a",
+    "truncated": true,
+    "fetchedAt": "2026-09-04T05:30:18.306Z",
+    "full": "full/f-latent-space-0uvd709.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1skmk7b",
    "pri": 30,
@@ -2747,29 +2781,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-09h8haz",
-   "pri": 45,
-   "kind": "note",
-   "title": "HyperStyler: Low-resource Authorship Style Transfer via Context-aware Style Navigation and Hypernetworks",
-   "ctx": "Low-resource authorship style transfer (LAST) aims to rewrite text into the style of an arbitrary target author using only a few reference examples while preserving the original meaning. Existing methods often struggle to achieve both high style fidelity and semantic preservation because they compress diverse references into a single static author embedding, which averages out context-dependent stylistic variation, and rely on hidden representations for style control, which entangle style with c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02772v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T16:07:42.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2782,11 +2793,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 38,
-   "slow": 62
+   "slow": 62,
+   "daily": 38
   },
-  "routed": 42,
-  "unrouted": 58,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
