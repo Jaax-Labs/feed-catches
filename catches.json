@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-09-04T12:30:53.263Z",
+ "generatedAt": "2026-09-04T13:00:39.253Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-hn-newest-ai-18w2cui",
+   "pri": 38,
+   "kind": "note",
+   "title": "Discovery of a new OpenAI agent message board",
+   "ctx": "Article URL: https://collusion.wiki/ Comments URL: https://news.ycombinator.com/item?id=49563355 Points: 120 # Comments: 51",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://collusion.wiki/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-ai",
+   "detectedAt": "2026-09-04T13:00:25.169Z",
+   "tier": "C",
+   "itemTs": "2026-09-04T11:54:53.000Z",
+   "sub": "hackernews",
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-chinatalk-0uuhsl6",
    "pri": 60,
@@ -2785,29 +2810,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1je2t5a",
-   "pri": 45,
-   "kind": "note",
-   "title": "AI Contextual Measurement for Recovering Individual and Group-Level Effects: Validation Against Survey Measures and an Occupational Application",
-   "ctx": "Researchers increasingly use artificial intelligence to construct measures of social, organizational, and occupational characteristics that are absent from conventional surveys. We propose AICOME, AI COntextual MEasurement, a framework for evaluating whether AI-derived respondent-level measures can recover individual and group-level effects in contextual models. The key idea is that an AI measure constructed at the respondent level can be used to derive its group-level aggregate and its individu",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02821v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T17:09:30.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2820,11 +2822,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 59,
-   "daily": 41
+   "daily": 42,
+   "slow": 58
   },
-  "routed": 43,
-  "unrouted": 57,
+  "routed": 44,
+  "unrouted": 56,
   "unmappedLaneFamilies": []
  }
 }
