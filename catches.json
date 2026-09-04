@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-04T15:01:14.542Z",
+ "generatedAt": "2026-09-04T15:31:03.030Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1oyrq6o",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10798",
+   "ctx": "common : make build info output stream configurable ( #28322 ) Let llama_print_build_info write to a caller-provided FILE* instead of hardcoding stderr. The parameter defaults to stderr so existing callers keep their current behavior. The version command in llama-app now passes stdout, so plain version output goes to stdout where users expect it. Signed-off-by: Adrien Gallouët angt@huggingface.co ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10798",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-04T15:30:57.254Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T15:05:15.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2010,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10798 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 15:03 b10798 c390d0a This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . common : make build info output stream configurable ( #28322 ) Let llama_print_build_info write to a caller-provided FILE* instead of hardcoding stderr. The parameter defaults to stderr so existing callers keep their current behavior. The version command in llama-app now passes stdout, so plain version output goes to stdout where users expect it. Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45278162 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiA",
+    "truncated": false,
+    "title": "Release b10798 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-04T15:30:57.254Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1oyrq6o.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-hn-newest-ai-18w2cui",
    "pri": 38,
@@ -2787,29 +2821,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1clprn6",
-   "pri": 45,
-   "kind": "note",
-   "title": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution",
-   "ctx": "Training data attribution (TDA) aims to identify training examples that shape model behavior, but its intervention value depends on both which examples are selected and how they are modified. Influence functions (IF) estimate behavioral changes under infinitesimal reweighting, yet IF-selected examples often show limited advantages over random selection under conventional weight-based interventions. This raises the question of whether influential examples lack intervention value or whether reweig",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02771v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T16:07:21.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2822,11 +2833,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 42,
-   "slow": 58
+   "daily": 43,
+   "slow": 57
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 45,
+  "unrouted": 55,
   "unmappedLaneFamilies": []
  }
 }
