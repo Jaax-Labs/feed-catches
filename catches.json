@@ -1,7 +1,66 @@
 {
- "generatedAt": "2026-09-04T05:30:44.927Z",
+ "generatedAt": "2026-09-04T06:30:44.752Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1sum5wa",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10796",
+   "ctx": "src : add n_expert_used_max function ( #28323 ) src : add n_expert_used_max function With Commit c61b98b (\"model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 )\") it is now possible for each layer to have a specific number of experts but there are a few checks that need to be updated to handle this upon model loading. For example: llama_model_load: error loading model: m",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10796",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-04T06:00:24.207Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T05:33:44.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2377,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10796 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 05:31 b10796 9a4843c This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . src : add n_expert_used_max function ( #28323 ) src : add n_expert_used_max function With Commit c61b98b (\"model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 )\") it is now possible for each layer to have a specific number of experts but there are a few checks that need to be updated to handle this upon model loading. For example: llama_model_load: error loading model: model has expert layers but no expert layers are used And later: /llama.cpp/src/llama-model-loader.cpp:955: GGML_ASSERT(n_ids_used > 0) failed This commit adds the n_expert_use",
+    "truncated": false,
+    "title": "Release b10796 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-04T06:00:24.207Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1sum5wa.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-simon-willison-0h15yt4",
+   "pri": 36,
+   "kind": "note",
+   "title": "August newsletter is out",
+   "ctx": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the momen",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-04T06:00:24.207Z",
+   "tier": "D",
+   "itemTs": "2026-09-04T05:54:40.000Z",
+   "sub": "simonwillison",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-latent-space-0uvd709",
    "pri": 55,
@@ -2731,56 +2790,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1rk0etg",
-   "pri": 45,
-   "kind": "note",
-   "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
-   "ctx": "The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. This exposes them to safety risks in both harmful final responses and multi-step execution trajectories. Existing safety alignment mechanisms often rely on either external harness updates or policy optimization, yet applying either paradigm in isolation fails to bridge runtime control with intrinsic safety. We propose SafeEvolve, an experience-driven self-evolving f",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02786v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T16:19:54.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1ussoqg",
-   "pri": 45,
-   "kind": "note",
-   "title": "Discriminative World Models for Web Agents",
-   "ctx": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downstream ranker, which relies on predicted states being discriminative across candidates to accurately s",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02885v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T17:59:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2793,8 +2802,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 62,
-   "daily": 38
+   "daily": 40,
+   "slow": 60
   },
   "routed": 43,
   "unrouted": 57,
