@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-04T11:00:37.968Z",
+ "generatedAt": "2026-09-04T12:01:17.810Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-chinatalk-0uuhsl6",
+   "pri": 60,
+   "kind": "note",
+   "title": "How Trump and Xi Can Do AI Safety",
+   "ctx": "Jay Kimmel is a seasonal fellow with GovAI, where he conducted this research, as well as a fellow with the Penn Project on the Future of U.S.-China Relations and a former U.S. diplomat. As the next Trump-Xi summit approaches, details on the AI safety dialogue the two sides announced in May are scant . Past efforts have devolved into energetic airings of grievances, or have been derailed by unrelat",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/how-trump-and-xi-can-do-ai-safety",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-09-04T11:30:41.402Z",
+   "tier": "D",
+   "itemTs": "2026-09-04T11:12:29.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 11581,
+    "lead": "Jay Kimmel is a seasonal fellow with GovAI, where he conducted this research, as well as a fellow with the Penn Project on the Future of U.S.-China Relations and a former U.S. diplomat. As the next Trump-Xi summit approaches, details on the AI safety dialogue the two sides announced in May are scant . Past efforts have devolved into energetic airings of grievances, or have been derailed by unrelated issues. Trust remains low on both sides, with Washington unsure of China’s aims and Chinese state media claiming in a recent op-ed that the United States has conflated AI safety with a geopolitical blockade. There’s no guarantee that serious talks will proceed, let alone tackle the technical issues and political dynamics that underpin risk management. But as a veteran U.S. diplomat now working on AI safety, I know that talking is the first step. Both countries know the stakes are high. And there’s much that the two sides can do to prepare for the meeting between President Trump and Xi this month. Here’s how they should start. ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. First, know the risks The U.S.",
+    "truncated": false,
+    "fetchedAt": "2026-09-04T11:30:41.402Z",
+    "full": "full/f-chinatalk-0uuhsl6.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1t4lrl9",
    "pri": 30,
@@ -2776,31 +2808,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1oxyrfg",
-   "pri": 45,
-   "kind": "note",
-   "title": "Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents",
-   "ctx": "On-premise assistants can give factory workers conversational access to machine documentation, but models capable of the task rarely fit shop-floor hardware. We show that after structural compression and retrieval-grounded adaptation, model size is no longer a reliable predictor of adapted answer quality: general capability falls almost linearly with parameter count, while judged retrieval-augmented answer quality does not. We therefore treat deployment as a post-adaptation selection problem, co",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02760v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T16:00:05.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2813,11 +2820,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 41,
-   "slow": 59
+   "slow": 59,
+   "daily": 41
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
