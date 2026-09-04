@@ -1,7 +1,89 @@
 {
- "generatedAt": "2026-09-04T01:30:35.706Z",
+ "generatedAt": "2026-09-04T02:30:37.165Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-google-gemini-gemini-cli-0xoqj8t",
+   "pri": 30,
+   "kind": "note",
+   "title": "google-gemini/gemini-cli Release v0.60.0-nightly.20260904.g87a9c71d5",
+   "ctx": "What's Changed fix(core): enforce RFC 9207 issuer identification in MCP OAuth flow by @jvargassanchez-dot in #29117 chore(release): bump version to 0.60.0-nightly.20260901.g0bd1d4397 by @gemini-cli-robot in #29162 Changelog for v0.58.0 by @gemini-cli-robot in #29161 fix(cli): isolate temporary directory for macOS Seatbelt sandbox by @jvargassanchez-dot in #29171 feat(extensions): harden path resol",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260904.g87a9c71d5",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-google-gemini-gemini-cli",
+   "detectedAt": "2026-09-04T02:00:18.093Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T01:40:22.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-hf-daily-papers-133zbbr",
+   "pri": 28,
+   "kind": "note",
+   "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+   "ctx": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98 of which are real images. For efficient and scalable o",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/papers/2609.03796",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-daily-papers",
+   "detectedAt": "2026-09-04T02:00:18.093Z",
+   "tier": "B",
+   "itemTs": "2026-09-02T20:00:00.000Z",
+   "sub": "HF daily papers · 29 upvotes",
+   "extract": {
+    "ok": false,
+    "reason": "extracted text is markup/template, not prose",
+    "fetchedAt": "2026-09-04T02:00:18.093Z"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-hf-daily-papers-1k7mgjn",
+   "pri": 28,
+   "kind": "note",
+   "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+   "ctx": "Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed size. Early community 4-bit quantizations of Qwen3.8-27B (48 GDN layers, 16 attention layers) left the GDN block in 8- or 16-bit precision -- especially its decay and write-strength gates -- on the intuition that errors in a recurrence accumulate over long contexts. We test that intuition by building Minima: NVFP4 W4A4 on all 496 linear layers, GDN i",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/papers/2609.04098",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-daily-papers",
+   "detectedAt": "2026-09-04T02:00:18.093Z",
+   "tier": "B",
+   "itemTs": "2026-09-02T20:00:00.000Z",
+   "sub": "HF daily papers · 27 upvotes",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-04T02:00:18.093Z"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-0jbn3ox",
    "pri": 45,
@@ -2729,86 +2811,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0pg0aea",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10774",
-   "ctx": "finetune: fix no KV cache ( #27199 ) training: fix no KV cache apply @ ggerganov suggestion Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44871971 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulka",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10774",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T02:00:07.786Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T01:54:13.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1702,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10774 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 01:52 b10774 159b741 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . finetune: fix no KV cache ( #27199 ) training: fix no KV cache apply @ ggerganov suggestion Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44871971 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
-    "truncated": false,
-    "title": "Release b10774 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-03T02:00:07.786Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0pg0aea.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-02j6eev",
-   "pri": 45,
-   "kind": "note",
-   "title": "RINSE: Robust Target-Time Normality Estimation for Zero-Shot Graph Anomaly Detection",
-   "ctx": "Zero-shot graph anomaly detection seeks to deploy a detector trained on source graphs to unseen, unlabeled targets, yet domain shift can make source-derived notions of normality unreliable. We introduce RINSE (Robust Iterative Normality Self-Estimation), a gradient-free target-time framework that keeps the source-trained detector fixed while sequentially estimating target normality, representation calibration, and evidence reliability from the target graph. Its core idea is to identify a reliabl",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02497v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T12:03:58.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-08mtbrp",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fine-Grained Anomaly Perception in Wild UGC-Enhanced Images: A Comprehensive Dataset and Difference-Fusion Framework",
-   "ctx": "Image enhancement and restoration have become standard back-end operations on short-video and social media platforms to boost UGC visual experience. Yet these processes inevitably introduce visual anomalies--especially in faces, texts, and textures--that directly undermine perceptual fidelity and viewer trust. While existing IQA methods perform well on classic distortions, they target holistic quality assessment and fail to capture the specific, localized anomalies caused by enhancement algorith",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02529v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T12:37:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2821,8 +2823,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 60,
-   "daily": 40
+   "daily": 40,
+   "slow": 60
   },
   "routed": 43,
   "unrouted": 57,
