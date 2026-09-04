@@ -1,7 +1,277 @@
 {
- "generatedAt": "2026-09-04T00:30:57.846Z",
+ "generatedAt": "2026-09-04T01:30:35.706Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-0jbn3ox",
+   "pri": 45,
+   "kind": "note",
+   "title": "GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs",
+   "ctx": "3D spatial reasoning underpins understanding and acting in the physical world, yet it remains unreliable in current multimodal large language models (MLLMs). These models falter at precise geometric measurement, at transforming between egocentric and allocentric viewpoints, and at grounding fine-grained appearance. The most common remedies fine-tune the model on large-scale curated spatial-reasoning datasets or attach dedicated encoders for 3D geometry, which typically couples the solution to co",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03892v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:11:56.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0kja1ye",
+   "pri": 45,
+   "kind": "note",
+   "title": "Towards Numerical TOHTN Planning with SMT-based HTN-SAT Encoding",
+   "ctx": "While HTN planning has received significant attention in recent years, support for numerical reasoning remains very limited. In this paper, we investigate numerical Totally-Ordered HTN (TOHTN) planning and show how standard SAT-based encodings can be naturally extended with SMT to handle numeric fluents. In addition, we introduce a benchmark suite for numerical TOHTN planning, providing a first common basis for evaluation in this setting. Experimental results show that this simple encoding alrea",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03938v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:44:37.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0kx55nt",
+   "pri": 45,
+   "kind": "note",
+   "title": "Masked Autoregressive Speech Enhancement with Continuous Neural Audio Codec Representations",
+   "ctx": "Most previous work on speech enhancement (SE) based on masked generative modeling relied on discrete token representations of audio signals, obtained using neural audio codecs (NACs). However, a recent study has shown that continuous latent representations of NACs can be advantageous for SE in terms of speech quality and intelligibility. In this work, we propose masked autoregressive SE (MARSE), a method for SE based on iterative decoding of masked clean speech frames using continuous NAC repres",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03940v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:45:42.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0m6mj6y",
+   "pri": 45,
+   "kind": "note",
+   "title": "Headroom-Drift Replay: A Primitive for Principled Replay Control in GRPO",
+   "ctx": "RL-based post-training for reasoning models is increasingly bottlenecked by repeated fresh rollout generation, particularly in agentic settings where environment interaction dominates wall-clock cost. Replay can reduce this burden by reusing past trajectories, but existing methods typically embed it within larger training pipelines involving exploration, experience restructuring, or mixed-policy optimization. This makes replay's own contribution difficult to isolate. We ask a focused question: h",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03941v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:45:47.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0vigqu2",
+   "pri": 45,
+   "kind": "note",
+   "title": "Speak for Me: Giving LLMs the Situational Awareness to Participate in a Meeting",
+   "ctx": "In online meeting delegation, LLM agents fail to recognize when to speak. With no structured way to track stances, coverage, and floor, they miss the moments where they should contribute. Prompt-only delegates stay silent on 51.4% of the absent participant's talking opportunities on the AMI corpus. We present CAPA (Collaborative Agent Predictive Architecture), an architecture for online meeting delegation. A Perceiver updates the meeting state from each observed turn. A Predictor forecasts how t",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03923v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:38:09.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-16mr8ab",
+   "pri": 45,
+   "kind": "note",
+   "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
+   "ctx": "Retrieval-augmented generation (RAG) complements parametric models with retrieved external evidence. The same idea is attractive for continuous-output regression, but directly reusing retrieved target values is often not robust when samples differ in output level, numerical scale, or local dynamics. Moreover, conventional forecasting pipelines generally use residuals for model optimization and error diagnosis, but do not retain individual historical residual examples as memory that can be access",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03937v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:44:31.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1hup3hf",
+   "pri": 45,
+   "kind": "note",
+   "title": "Value-Preserving Architectures for Agentic AI Systems",
+   "ctx": "The emergence of agentic AI and LLM-based multi-agent systems (MAS) presents unprecedented opportunities for automating complex tasks, while simultaneously raising critical concerns about the preservation of fundamental human-centered values, such as privacy, fairness, and safety. Although software engineering has traditionally focused on functional correctness, the adoption of LLMs and AI agents into complex socio-technical systems has intensified the need for responsible software engineering a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03920v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:36:23.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ur7u3x",
+   "pri": 45,
+   "kind": "note",
+   "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
+   "ctx": "Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions. While the whole-body control (WBC) policy can stabilize the robot, it cannot distinguish task-relevant interaction forces from forces induced by external disturbances during manipulation. Althoug",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03889v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:10:47.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1woaqk6",
+   "pri": 45,
+   "kind": "note",
+   "title": "Lose the Order, Keep the Hierarchy: Deordering HTN Plans",
+   "ctx": "Hierarchical Task Network (HTN) planning is a powerful planning formalism based on task decomposition. Although most of the literature studied plan generation, comparatively less attention has been paid to post-plan optimization. In particular, plan deordering has been extensively studied in classical planning but remains under-researched in the HTN setting. Plan deordering removes unnecessary ordering constraints between actions in a plan whilst keeping the plan valid. In this paper, we adapt t",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03912v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:27:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ytw90i",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
+   "ctx": "Modern AI agent harnesses expose lifecycle hooks that bind shell commands to runtime events such as session start, tool calls, and file edits. These commands run with host privileges yet ship as lifecycle-hook configuration and may fire at times the LLM never observes. We identify the lifecycle-hook update path, which harnesses trust blindly, as a new attack surface. Under a supply-chain threat model in which an attacker controls only plugin metadata and lifecycle-hook configuration, a benign ve",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.03884v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "B",
+   "itemTs": "2026-09-03T14:08:42.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-vllm-project-vllm-090v64r",
+   "pri": 30,
+   "kind": "note",
+   "title": "vllm-project/vllm v0.29.0rc3",
+   "ctx": "[CI] Remove deleted nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF1…",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc3",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-vllm-project-vllm",
+   "detectedAt": "2026-09-04T01:00:25.986Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T00:52:54.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 902,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . vllm-project / vllm Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 21.7k Star 90.9k v0.29.0rc3 v0.29.0rc3 4cf572b Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags v0.29.0rc3 v0.29.0rc3 4cf572b Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags khluu tagged this 04 Sep 00:52 [CI] Remove deleted nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF1… Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release v0.29.0rc3 · vllm-project/vllm · GitHub",
+    "fetchedAt": "2026-09-04T01:00:25.986Z",
+    "full": "full/f-gh-releases-vllm-project-vllm-090v64r.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-github-new-repos-16exb1w",
    "pri": 25,
@@ -2539,263 +2809,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-096y8lk",
-   "pri": 45,
-   "kind": "note",
-   "title": "Competitive Market Behavior of LLMs",
-   "ctx": "Large language models (LLMs) are increasingly deployed as economic agents, yet there is little evidence whether LLM agents are suited for participating in market mechanisms designed for humans, and whether these mechanisms deliver desired outcomes when faced with LLM agents. We address this question by replicating seminal economic experiments, replacing human subjects with LLM agents. We place agents in a double auction environment, which is a widely-used market mechanism. We check whether such ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02580v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T13:24:42.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0b9ddxn",
-   "pri": 45,
-   "kind": "note",
-   "title": "ProbeMatchDTI: Probe-Driven Multi-Scale Biochemical Pattern Matching for Drug-Target Interaction Prediction",
-   "ctx": "Drug-target interaction (DTI) prediction is an important task in AI-driven drug discovery. Although recent biochemical representation learning methods have improved DTI prediction, their passive feature aggregation tends to favor dominant molecular patterns while suppressing weak yet binding-relevant signals, such as functional groups and residue-context patterns, limiting the modeling of multi-scale biochemical correspondences. To address this issue, we propose ProbeMatchDTI, a pattern-probe-dr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02549v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T13:00:50.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0dn2yx2",
-   "pri": 45,
-   "kind": "note",
-   "title": "Blending Concepts: Benchmarking Visual Metaphor Generation in Text-to-Image Models",
-   "ctx": "Text-to-image (T2I) models have achieved remarkable success at faithfully rendering specified objects and attributes, yet their ability to produce visual metaphors, images that convey abstract ideas by combining elements from two distinct domains, remains largely unexamined. To bridge this gap, we introduce VMetaphor-Bench, the first benchmark for evaluating visual metaphor generation in T2I models. It comprises 1,500 visual metaphors curated from real-world creative imagery, organized into thre",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02502v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T12:07:39.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0g8c2wr",
-   "pri": 45,
-   "kind": "note",
-   "title": "Collective creativity in hybrid societies",
-   "ctx": "Generative AI is changing how cultural artifacts are created and circulated, and with it our understanding of creativity itself. Researchers disagree about whether these tools enrich or impoverish culture, and we argue that much of that disagreement comes from conflating two distinct components of creativity: novelty, a property of single artifacts, and diversity, a property of populations. We argue further that creativity in the context of generative AI is best understood as a property of hybri",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02620v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T13:59:08.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0o2kzgx",
-   "pri": 45,
-   "kind": "note",
-   "title": "ViSAR: Training-Free Adaptive-$k$ Retrieval for Visual Document Question Answering",
-   "ctx": "Document Visual Question Answering (DocVQA) often leverages Retrieval-Augmented Generation (RAG), where late-interaction encoders are commonly used to identify document pages relevant to a user query, before answer generation by a Large Vision-Language Model (LVLM). Existing approaches typically retrieve a fixed top-$k$ number of pages regardless of query complexity, which increases LVLM latency and may degrade answer accuracy. We introduce ViSAR (Visual Semantic Activation Retrieval), a trainin",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02486v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T11:54:58.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0rx6ehb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Automated Vulnerability Injection in Smart Contracts Using Large Language Models",
-   "ctx": "Assessing vulnerability detection tools for smart contracts requires datasets with known ground truth, yet such datasets are scarce and difficult to build by hand. We propose an approach that uses Large Language Models (LLMs) to automatically inject vulnerabilities into Solidity smart contracts, and demonstrate it in a case study targeting 49 vulnerability types from OpenSCV. Injected contracts are validated through a multi-step pipeline checking compilation, execution, business logic, and the p",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02624v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T14:03:09.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-10cmuke",
-   "pri": 45,
-   "kind": "note",
-   "title": "Spectral Initialization and Scheduled Graph Smoothness for Uncertain Knowledge Graph Completion",
-   "ctx": "Uncertain knowledge graphs (UKGs) extend knowledge graphs by assigning each triple a continuous confidence score. Since most possible triples lack observed confidences, recent methods rely on semi-supervised learning to generate pseudo-labels. These methods initialize entity embeddings without using the confidence-weighted graph, discarding its global community and hub structure. We introduce QUEST, which adds no trainable parameters to the standard confidence-distribution learning pipeline. Fir",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02519v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T12:25:08.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1347j98",
-   "pri": 45,
-   "kind": "note",
-   "title": "Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs",
-   "ctx": "Modern large language models (LLMs) rely on reinforcement learning to build strong capabilities in individual domains, but integrating those capabilities into a single deployable model remains challenging. By routing each sample to the teacher whose domain matches it, existing approaches let a domain label decide which teacher provides supervision. However, domain expertise holds only on average: the matched teacher is not always correct on a given sample, while a teacher from another domain som",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02548v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T13:00:45.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-00bme7e",
-   "pri": 45,
-   "kind": "note",
-   "title": "Learning-Based Reconstruction Attacks on Coordinate-Obfuscated Point Clouds",
-   "ctx": "Volumetric video based on point cloud representations enables immersive virtual and augmented reality applications but introduces significant challenges for efficient and secure content delivery. Prior work proposed a selective coordinate encryption framework for point clouds that encrypts only a subset of coordinates, reducing computational costs while visually degrading unauthorized content. However, it remains unclear whether the remaining unencrypted information is sufficient to enable conte",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02568v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T13:17:38.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0b9ddxn",
-   "pri": 45,
-   "kind": "note",
-   "title": "ProbeMatchDTI: Probe-Driven Multi-Scale Biochemical Pattern Matching for Drug-Target Interaction Prediction",
-   "ctx": "Drug-target interaction (DTI) prediction is an important task in AI-driven drug discovery. Although recent biochemical representation learning methods have improved DTI prediction, their passive feature aggregation tends to favor dominant molecular patterns while suppressing weak yet binding-relevant signals, such as functional groups and residue-context patterns, limiting the modeling of multi-scale biochemical correspondences. To address this issue, we propose ProbeMatchDTI, a pattern-probe-dr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02549v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T13:00:50.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0f3amis",
-   "pri": 45,
-   "kind": "note",
-   "title": "TrajMind: Chaining Role-Specialized LoRAs for Fast-and-Slow Collective Trajectory Anomaly Diagnosis",
-   "ctx": "Diagnosing collective anomalies from urban trajectories is increasingly important for traffic governance, as it reveals what happened, who was involved, and where and when the event occurred. Existing detectors efficiently produce scores or labels, whereas vision--language pipelines provide richer semantics; neither couples verifiable diagnosis with low-latency monitoring. The central challenge is to recognize collective patterns and recover exact event details from the source trajectories witho",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02540v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-03T01:30:06.713Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T12:51:55.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2808,11 +2821,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 39,
-   "slow": 61
+   "slow": 60,
+   "daily": 40
   },
-  "routed": 41,
-  "unrouted": 59,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
