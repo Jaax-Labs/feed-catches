@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-04T16:01:30.025Z",
+ "generatedAt": "2026-09-04T16:31:05.937Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-zvi-0cw7w63",
+   "pri": 60,
+   "kind": "note",
+   "title": "Claude Fable 5.1 and Mythos 5.1: The System Card",
+   "ctx": "At the time of its release Claude Fable 5.1 was, by a healthy margin, the most capable publicly available AI model in the world. As per usual, we have a 200+ page model card, and the assessments start there. We have now done a lot of these, including recently for Mythos 5 and Opus 5 . Also highly relevant is the Anthropic August 2026 Risk Report . These are now frequent, so my report focuses on ar",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://thezvi.substack.com/p/claude-fable-51-and-mythos-51-the",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "zvi",
+   "detectedAt": "2026-09-04T16:31:00.475Z",
+   "tier": "D",
+   "itemTs": "2026-09-04T16:03:52.000Z",
+   "sub": "zvi",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 27660,
+    "lead": "At the time of its release Claude Fable 5.1 was, by a healthy margin, the most capable publicly available AI model in the world. As per usual, we have a 200+ page model card, and the assessments start there. We have now done a lot of these, including recently for Mythos 5 and Opus 5 . Also highly relevant is the Anthropic August 2026 Risk Report . These are now frequent, so my report focuses on areas of change. This post strives to be broadly readable, but assumes some familiarity with system cards, which describe the key safety, alignment and model welfare properties of newly released AI models. If something confuses you, ask Fable, Opus or Sol. Mythos 5.1 and Fable 5.1 are the same model under the hood, except that Fable has classifiers superimposed on it. Most of what is said about one applies to both of them. As usual, model welfare concerns will be discussed in a distinct post, as will capabilities, so this only covers sections 1-6 plus a few bio benchmarks from section 8. Early word is that Fable 5.1 is a substantial but incremental improvement on Fable 5, with the added bonus of being modestly cheaper via a cut in prices for cache reads, and that most users find it nicer to ",
+    "truncated": false,
+    "fetchedAt": "2026-09-04T16:31:00.475Z",
+    "full": "full/f-zvi-0cw7w63.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1oyrq6o",
    "pri": 30,
@@ -2798,29 +2832,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0vsvhqq",
-   "pri": 45,
-   "kind": "note",
-   "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
-   "ctx": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensures every autonomous action can be traced back to sensor evidence through documented causal chains. The framework organizes decision-making into four auditable layers: Semantic Perception for evidence-g",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.02861v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-03T04:30:06.278Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T17:44:25.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2833,11 +2844,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 43,
-   "slow": 57
+   "slow": 57,
+   "daily": 43
   },
-  "routed": 45,
-  "unrouted": 55,
+  "routed": 46,
+  "unrouted": 54,
   "unmappedLaneFamilies": []
  }
 }
