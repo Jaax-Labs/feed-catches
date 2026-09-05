@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-05T06:30:59.241Z",
+ "generatedAt": "2026-09-05T07:31:02.462Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1uhz54t",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10818",
+   "ctx": "sycl : fix test-backend-ops CI break &amp;&amp; restore Kronecker product FWH…",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10818",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-05T07:01:09.289Z",
+   "tier": "A",
+   "itemTs": "2026-09-05T02:37:12.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1160,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10818 b10818 4d91760 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10818 b10818 4d91760 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode philip-jingxin tagged this 05 Sep 02:37 sycl : fix test-backend-ops CI break && restore Kronecker product FWH… Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release b10818 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-05T07:01:09.289Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uhz54t.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-google-gemini-gemini-cli-1mn88yz",
    "pri": 30,
@@ -2854,29 +2888,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-huggingface-blog-0ux5msb",
-   "pri": 40,
-   "kind": "note",
-   "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "huggingface-blog",
-   "detectedAt": "2026-09-03T12:00:12.347Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T00:00:00.000Z",
-   "sub": "huggingface-blog",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2889,11 +2900,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 50,
-   "slow": 50
+   "daily": 51,
+   "slow": 49
   },
-  "routed": 48,
-  "unrouted": 52,
+  "routed": 49,
+  "unrouted": 51,
   "unmappedLaneFamilies": []
  }
 }
