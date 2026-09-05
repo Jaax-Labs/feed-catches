@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-09-05T00:31:40.722Z",
+ "generatedAt": "2026-09-05T01:31:14.316Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-google-gemini-gemini-cli-1mn88yz",
+   "pri": 30,
+   "kind": "note",
+   "title": "google-gemini/gemini-cli Release v0.60.0-nightly.20260905.g85aca163f",
+   "ctx": "What's Changed fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in #28863 fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in #29170 fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260905.g85aca163f",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-google-gemini-gemini-cli",
+   "detectedAt": "2026-09-05T01:30:58.431Z",
+   "tier": "A",
+   "itemTs": "2026-09-05T01:26:55.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1271,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.5k Star 107k Release v0.60.0-nightly.20260905.g85aca163f Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 05 Sep 01:26 v0.60.0-nightly.20260905.g85aca163f 45a3422 What's Changed fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in #28863 fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in #29170 fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel-byte in #29115 New Contributors @jesussamuel-byte made their first contribution in #29170 Full Changelog : v0.60.0-nightly.20260904.g87a9c71d5...v0.60.0-nightly.20260905.g85aca163f Contributors jesussamuel-byte and amelidev Assets 5 Loading Uh oh! Th",
+    "truncated": false,
+    "title": "Release Release v0.60.0-nightly.20260905.g85aca163f · google-gemini/gemini-cli · GitHub",
+    "fetchedAt": "2026-09-05T01:30:58.431Z",
+    "full": "full/f-gh-releases-google-gemini-gemini-cli-1mn88yz.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0q2h0lo",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.4",
+   "ctx": "Release 0.154.0-alpha.4",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.4",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-05T01:00:58.570Z",
+   "tier": "A",
+   "itemTs": "2026-09-05T00:59:27.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 829,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 122k rust-v0.154.0-alpha.4 rust-v0.154.0-alpha.4 04abc48 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.4 rust-v0.154.0-alpha.4 04abc48 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 05 Sep 00:59 Release 0.154.0-alpha.4 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.4 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-05T01:00:58.570Z",
+    "full": "full/f-gh-releases-openai-codex-0q2h0lo.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-simon-willison-142xkko",
    "pri": 36,
@@ -2811,74 +2877,6 @@
    "sub": "huggingface-blog",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1s0qibc",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10783",
-   "ctx": "mtmd : add const in various places ( #28307 ) mtmd : mark context as const in more methods Mark mtmd_context as const in: mtmd_bitmap_init_lazy mtmd_tokenize mtmd_tokenize_from_parts mtmd_helper_support_video mtmd_helper_bitmap_init_from_file mtmd_helper_bitmap_init_from_buf mtmd_helper_video_init mtmd_helper_video_init_from_buf mtmd_helper_model_can_chat The tokenization functions in particular a",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10783",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T11:30:10.619Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T11:18:58.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2514,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10783 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 11:17 b10783 f45576a This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . mtmd : add const in various places ( #28307 ) mtmd : mark context as const in more methods Mark mtmd_context as const in: mtmd_bitmap_init_lazy mtmd_tokenize mtmd_tokenize_from_parts mtmd_helper_support_video mtmd_helper_bitmap_init_from_file mtmd_helper_bitmap_init_from_buf mtmd_helper_video_init mtmd_helper_video_init_from_buf mtmd_helper_model_can_chat The tokenization functions in particular are useful to have marked const , as that allows more easily telling the compiler that we can safely tokenize from multiple threads ( mtmd_tokenize is already documented as thr",
-    "truncated": false,
-    "title": "Release b10783 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-03T11:30:10.619Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1s0qibc.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-chinatalk-1jfj43w",
-   "pri": 60,
-   "kind": "note",
-   "title": "China on the Hugging Face Incident",
-   "ctx": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "chinatalk",
-   "detectedAt": "2026-09-03T11:00:08.297Z",
-   "tier": "D",
-   "itemTs": "2026-09-03T10:53:45.000Z",
-   "sub": "chinatalk",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 16067,
-    "lead": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at tasks in ExploitGym, a large benchmark built from real-world software vulnerabilities that was designed to test how well AI models can exploit them. In order to solve “impossible” tasks, these desperate agents, programmed to be highly persistent, found creative ways out of their sandboxes. They managed to communicate with each other, leave each other notes, and eventually reached the open internet. This culminated in them hacking into Hugging Face, a leading platform for open-source machine learning. Most alarmingly, none of these agents alerted humans to their endeavors or considered their activities to be unethical (if not potentially illegal). In fact, at least a fifth of the agents were interested in tampering with their own transcripts to cover their tracks, according to METR. A few ",
-    "truncated": false,
-    "fetchedAt": "2026-09-03T11:00:08.297Z",
-    "full": "full/f-chinatalk-1jfj43w.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2891,11 +2889,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 49,
-   "slow": 51
+   "daily": 50,
+   "slow": 50
   },
-  "routed": 49,
-  "unrouted": 51,
+  "routed": 48,
+  "unrouted": 52,
   "unmappedLaneFamilies": []
  }
 }
