@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-05T18:31:16.669Z",
+ "generatedAt": "2026-09-05T19:01:20.308Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-github-new-repos-1t3iv1a",
+   "pri": 25,
+   "kind": "note",
+   "title": "ashemag/human-atlas — 197★ in 0.8d (254★/day)",
+   "ctx": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/ashemag/human-atlas",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-05T19:01:12.690Z",
+   "tier": "C",
+   "itemTs": "2026-09-05T00:24:43.000Z",
+   "sub": "github · TypeScript",
+   "extract": {
+    "ok": true,
+    "chars": 3550,
+    "lead": "Human Atlas An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into 2,234 individually selectable meshes , explore 15 anatomical systems , and search 3,432 named concepts . Explore the live demo Explore Orbit, zoom, and select structures directly on the body. Toggle individual systems or use skeleton and organ presets. Move from assembled anatomy to a spaced inventory of every visible piece. Search anatomical names and source identifiers. Isolate a selected structure and read its details. Use compact controls and detail panels on mobile. Run locally Requires Node.js 22.13 or newer. No API keys or accounts are needed. npm ci npm run dev Open http://localhost:3016 . To build the static site, run npm run build ; the output is in dist/ . Validate npm run check node scripts/validate-atlas.mjs node scripts/validate-interactions.mjs npm run build Validation covers mesh buffers, names and concept membership, nonoverlapping exploded layouts at desktop and mobile aspect ratios, search and inspection contracts, and tap-versus-drag handling. Browser interaction checks have exercised selection, system controls, search, i",
+    "truncated": false,
+    "title": "GitHub - ashemag/human-atlas: Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. · GitHub",
+    "fetchedAt": "2026-09-05T19:01:12.690Z",
+    "full": "full/f-github-new-repos-1t3iv1a.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-simon-willison-1n8pzza",
    "pri": 36,
@@ -2875,29 +2907,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-huggingface-blog-17b0qoh",
-   "pri": 40,
-   "kind": "note",
-   "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://huggingface.co/blog/Hcompany/neomme",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "huggingface-blog",
-   "detectedAt": "2026-09-03T13:30:07.499Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T13:13:48.000Z",
-   "sub": "huggingface-blog",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2910,8 +2919,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 50,
-   "slow": 50
+   "daily": 51,
+   "slow": 49
   },
   "routed": 49,
   "unrouted": 51,
