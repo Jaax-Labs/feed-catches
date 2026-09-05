@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-05T22:01:23.582Z",
+ "generatedAt": "2026-09-05T22:31:12.521Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-github-new-repos-1hvutsq",
+   "pri": 25,
+   "kind": "note",
+   "title": "vinzdg/codenotch — 198★ in 0.3d (626★/day)",
+   "ctx": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/vinzdg/codenotch",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-05T22:31:06.955Z",
+   "tier": "C",
+   "itemTs": "2026-09-05T14:55:35.000Z",
+   "sub": "github · Swift",
+   "extract": {
+    "ok": true,
+    "chars": 5667,
+    "lead": "Codenotch Working name — not final. A macOS agent app that pins a small black notch to the right edge of the screen showing how much of each LLM's session limit you have burned, and whether you have hit the wall yet. Hover a provider to see its individual limit windows and when they reset — and tells you at a glance whether Claude is still working, done, or waiting on you. The ring always shows the current session , the same window Claude's own usage panel leads with, so the two never disagree. Settings show which account each reading belongs to, with one switch per provider. Switching on takes you to that account's sign-in — a window for a provider whose session Codenotch owns, the owning app for Cursor and Codex. Switching off stops the credential being read and forgets the readings taken from it, so the numbers do not come back on the next launch. What it cannot do is sign you out of Claude Code or Cursor: those sessions are theirs, and the row says so rather than leaving you to find out. Settings live in an orb below the notch — an arc in the corner at rest, a gear when you reach for it. It folds away when you are not looking at it: at rest it is a small pill on the screen edge",
+    "truncated": false,
+    "title": "GitHub - vinzdg/codenotch: A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · GitHub",
+    "fetchedAt": "2026-09-05T22:31:06.955Z",
+    "full": "full/f-github-new-repos-1hvutsq.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-zvi-1x3s08a",
    "pri": 60,
@@ -2865,57 +2899,6 @@
    },
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-cascade-177omoq",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"frontier models\" — 3 independent sources in 52h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 52 hours, in 4 items (0.0% of the window — below the 15% background threshold).\n\n• semianalysis — Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses\n• arxiv — Calibration is the Bottleneck: An Action-Class Diagnostic of Multi-Turn Tool-Calling\n• reddit — Frontier models sabotaging local AI implementations?\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open semianalysis",
-     "href": "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
-     "primary": true
-    },
-    {
-     "label": "Open arxiv",
-     "href": "https://arxiv.org/abs/2609.00949v1",
-     "primary": false
-    },
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w67nkz/frontier_models_sabotaging_local_ai/",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-03T14:30:07.395Z",
-   "tier": "X",
-   "families": [
-    "semianalysis",
-    "arxiv",
-    "reddit"
-   ],
-   "roots": [
-    "semianalysis",
-    "arxiv",
-    "reddit"
-   ],
-   "sub": "cascade shape · semianalysis, arxiv, reddit",
-   "extract": {
-    "ok": true,
-    "chars": 19041,
-    "lead": "Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses Korea hosts a Squid Games, National AI Tournament, the best non-Chinese open source model gets eliminated, why Nvidia needs open source, implications for Hynix and Samsung Max Kan , Ray Wang , Myron Xie , and Dylan Patel Sep 01, 2026 ∙ Paid 135 1 7 Share Every day, businesses and governments around the world are becoming increasingly reliant on America’s frontier models. Startup CEOs already can’t imagine running their companies without AI, and it won’t be long until the same is true for every other organization in the world. At the same time, it’s become abundantly clear that access to frontier models is at the mercy of Anthropic, OpenAI, and the United States government. Fable 5 was temporarily banned by the USG, and GPT 5.6 and Astra were similarly delayed. Both models have cyber, bio, and other safety safeguards that, though well-intentioned, often prevent good users from completing harmless tasks. Given recent security incidents and general worries about increasingly powerful AI, it is extremely likely that frontier model usage will only become more restricted from here. In fact, we believe it’s plausibl",
-    "truncated": false,
-    "title": "Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses",
-    "fetchedAt": "2026-09-03T14:30:07.395Z",
-    "full": "full/f-cascade-177omoq.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2928,11 +2911,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 50,
-   "daily": 50
+   "daily": 50,
+   "slow": 50
   },
-  "routed": 49,
-  "unrouted": 51,
+  "routed": 50,
+  "unrouted": 50,
   "unmappedLaneFamilies": []
  }
 }
