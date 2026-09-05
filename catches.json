@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-05T19:31:34.406Z",
+ "generatedAt": "2026-09-05T20:31:34.237Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-zvi-1x3s08a",
+   "pri": 60,
+   "kind": "note",
+   "title": "Claude Mythos 5.1 and Fable 5.1: Capabilities",
+   "ctx": "This is the weirdest situation in which to write a capabilities review. Introducing the world’s most powerful model, by a substantial margin. No wait, this just in, we also have someone else introducing the world’s most powerful model. Claude Fable 5.1 and GPT-6 Astra are both excellent models. This much, we know. Fable 5.1 comes with reduced cache prices, the option of zero data retention and sub",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://thezvi.substack.com/p/claude-mythos-51-and-fable-51-capabilities",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "zvi",
+   "detectedAt": "2026-09-05T20:01:16.998Z",
+   "tier": "D",
+   "itemTs": "2026-09-05T19:39:49.000Z",
+   "sub": "zvi",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 29888,
+    "lead": "This is the weirdest situation in which to write a capabilities review. Introducing the world’s most powerful model, by a substantial margin. No wait, this just in, we also have someone else introducing the world’s most powerful model. Claude Fable 5.1 and GPT-6 Astra are both excellent models. This much, we know. Fable 5.1 comes with reduced cache prices, the option of zero data retention and substantially more lenient classifiers than Fable 5. Early signs are, with large error bars, that the jump from Sol to Astra is bigger and more exciting than the jump from Fable 5 to Fable 5.1. This may be similar to how the scaling move from Opus to Fable was a big deal. With the exception of token use, Fable 5.1 got almost universally positive feedback in absolute terms. Reports are that Fable 5.1 is highly well-rounded. Writing is greatly improved. The Claudisms seem to have improved, although some are very much still there. It admits mistakes. People enjoy their conversations. Several people noted it simplifies code. The safety classifiers are less obnoxious. Fable 5.1 loves being proactive and doing all the things. If you give it a high effort level, it will find things to do with those ",
+    "truncated": false,
+    "fetchedAt": "2026-09-05T20:01:16.998Z",
+    "full": "full/f-zvi-1x3s08a.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-github-new-repos-1t3iv1a",
    "pri": 25,
@@ -2882,31 +2916,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-anthropic-status-1kameyd",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors for multiple models",
-   "ctx": "Sep 3 , 13:26 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/461yvfrzpwtt",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-09-03T13:30:07.499Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T13:26:04.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2919,8 +2928,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 51,
-   "slow": 49
+   "slow": 50,
+   "daily": 50
   },
   "routed": 49,
   "unrouted": 51,
