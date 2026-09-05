@@ -1,7 +1,105 @@
 {
- "generatedAt": "2026-09-04T22:31:22.381Z",
+ "generatedAt": "2026-09-05T00:01:01.489Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-142xkko",
+   "pri": 36,
+   "kind": "note",
+   "title": "The Pelican comparison grid for Astra is pretty interesting",
+   "ctx": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-05T00:00:54.464Z",
+   "tier": "D",
+   "itemTs": "2026-09-04T23:59:05.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 1585,
+    "lead": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn't reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be. Astra low produces a better pelican than ANY of the GPT",
+    "truncated": false,
+    "fetchedAt": "2026-09-05T00:00:54.464Z",
+    "full": "full/f-simon-willison-142xkko.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-1hmw0zq",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.153.4",
+   "ctx": "Release 0.153.4",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-04T23:01:02.170Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T22:41:05.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 789,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 122k rust-v0.153.4 rust-v0.153.4 3d2ee51 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.153.4 rust-v0.153.4 3d2ee51 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 04 Sep 22:41 Release 0.153.4 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.153.4 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-04T23:01:02.170Z",
+    "full": "full/f-gh-releases-openai-codex-1hmw0zq.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-vllm-project-vllm-0aet6lm",
+   "pri": 30,
+   "kind": "note",
+   "title": "vllm-project/vllm v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
+   "ctx": "Generated-by: Codex codex@openai.com Signed-off-by: Codex codex@openai.com",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-vllm-project-vllm",
+   "detectedAt": "2026-09-04T23:01:02.170Z",
+   "tier": "A",
+   "itemTs": "2026-09-04T22:58:29.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 917,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . vllm-project / vllm Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 21.7k Star 91k v0.29.0rc4 v0.29.0rc4 d2906cc Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill v0.29.0rc4 d2906cc Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags codex tagged this 04 Sep 22:58 Generated-by: Codex Signed-off-by: Codex Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill · vllm-project/vllm · GitHub",
+    "fetchedAt": "2026-09-04T23:01:02.170Z",
+    "full": "full/f-gh-releases-vllm-project-vllm-0aet6lm.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-github-new-repos-041knfu",
    "pri": 25,
@@ -2781,114 +2879,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-huggingface-blog-1h4f2nr",
-   "pri": 40,
-   "kind": "note",
-   "title": "Give Your Coding Agents a Memory You Own",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://huggingface.co/blog/funes",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "huggingface-blog",
-   "detectedAt": "2026-09-03T11:00:08.297Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T00:00:00.000Z",
-   "sub": "huggingface-blog",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1saq40b",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10782",
-   "ctx": "CUDA: Allow concurrent streams per split for multi-GPU ( #28198 ) CUDA: Allow CUDA optimization per split for multi-GPU. Previous guard caused multi-GPU to skip the graph optimization. The graph is already split per device and the optimization doesnt run over the whole model but once per split, and thus should be allowed. However, the CUDA event ggml_cuda_concurrent_event belongs to whichever GPU ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10782",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T10:30:07.108Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T10:28:01.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2596,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10782 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 10:26 b10782 0ba6499 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . CUDA: Allow concurrent streams per split for multi-GPU ( #28198 ) CUDA: Allow CUDA optimization per split for multi-GPU. Previous guard caused multi-GPU to skip the graph optimization. The graph is already split per device and the optimization doesnt run over the whole model but once per split, and thus should be allowed. However, the CUDA event ggml_cuda_concurrent_event belongs to whichever GPU was \"current\" when created. If the pass ran while GPU 0 was current, it would stick and during event creation for the second GPU it would land on GPU 0. The fix: set the devic",
-    "truncated": false,
-    "title": "Release b10782 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-03T10:30:07.108Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1saq40b.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-cascade-0fbno40",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"natural language\" — 3 independent sources in 26h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 26 hours, in 5 items (0.0% of the window — below the 15% background threshold).\n\n• reddit — Looking for a small LLM for Linux command generation\n• arxiv — text2ql: Multi-Target Natural Language Querying via a Language-Agnostic Intermediate Repre\n• huggingface-papers — Exploring Collaboration between a language and a non-language agent\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w5odwo/looking_for_a_small_llm_for_linux_command/",
-     "primary": true
-    },
-    {
-     "label": "Open arxiv",
-     "href": "https://arxiv.org/abs/2609.02115v1",
-     "primary": false
-    },
-    {
-     "label": "Open huggingface-papers",
-     "href": "https://huggingface.co/papers/2609.00474",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-03T10:00:10.510Z",
-   "tier": "X",
-   "families": [
-    "reddit",
-    "arxiv",
-    "huggingface-papers"
-   ],
-   "roots": [
-    "reddit",
-    "arxiv",
-    "huggingface"
-   ],
-   "sub": "cascade shape · reddit, arxiv, huggingface",
-   "extract": {
-    "ok": false,
-    "reason": "extracted text is markup/template, not prose",
-    "fetchedAt": "2026-09-03T10:00:10.510Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2901,11 +2891,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 48,
-   "slow": 52
+   "daily": 49,
+   "slow": 51
   },
-  "routed": 51,
-  "unrouted": 49,
+  "routed": 49,
+  "unrouted": 51,
   "unmappedLaneFamilies": []
  }
 }
