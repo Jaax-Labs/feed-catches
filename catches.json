@@ -1,7 +1,75 @@
 {
- "generatedAt": "2026-09-05T09:01:12.356Z",
+ "generatedAt": "2026-09-05T11:01:23.264Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1u7zjfu",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10819",
+   "ctx": "metal : fix memory leak in early return ( #28399 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45438612 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10819",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-05T11:01:17.369Z",
+   "tier": "A",
+   "itemTs": "2026-09-05T10:38:50.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1661,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10819 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 05 Sep 10:36 b10819 6a1a922 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix memory leak in early return ( #28399 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45438612 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Ad",
+    "truncated": false,
+    "title": "Release b10819 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-05T11:01:17.369Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1u7zjfu.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1qc53q8",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10817",
+   "ctx": "sycl: attribute device allocations by site (GGML_SYCL_MEMTRACE) ( #27631 ) define two new environment variables to better understand how much memory is being allocated, and when. This has been invaluable in inproving the --fit algorithm, and is likely to be useful when debugging other memory-related issues. -lv 4 will be required to enable the following: GGML_SYCL_MEMTRACE=1 will show per-site mem",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10817",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-05T09:30:53.364Z",
+   "tier": "A",
+   "itemTs": "2026-09-05T09:28:37.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2394,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10817 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 05 Sep 09:27 b10817 cd8cdf3 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl: attribute device allocations by site (GGML_SYCL_MEMTRACE) ( #27631 ) define two new environment variables to better understand how much memory is being allocated, and when. This has been invaluable in inproving the --fit algorithm, and is likely to be useful when debugging other memory-related issues. -lv 4 will be required to enable the following: GGML_SYCL_MEMTRACE=1 will show per-site memory usage, updated whenever it increases by more than 64MiB. GGML_SYCL_MEMTRACE=2 will show every allocation and deallocation. To change the default 64MiB threshold for report",
+    "truncated": false,
+    "title": "Release b10817 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-05T09:30:53.364Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1qc53q8.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1uhz54t",
    "pri": 30,
@@ -2815,74 +2883,6 @@
     "title": "Release b10786 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-09-03T13:00:09.682Z",
     "full": "full/f-gh-releases-ggml-org-llama-cpp-1teois7.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1too4h6",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10785",
-   "ctx": "metal : add sparse FA ( #28098 ) metal : support n_kv_max sparse mask hint in flash attention vec kernel add kernel_flash_attn_ext_vec_idx: compacts finite mask entries into a per-row index list (Hillis-Steele scan, one threadgroup per row) extend vec FA kernel with optional sparse index gathering (FC slot 5) add host-side gate: sparse path when n_kv_max &gt; 0, mask present, supported head sizes ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10785",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T12:30:07.235Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T12:21:27.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 3796,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10785 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 12:19 b10785 7bb0fc1 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : add sparse FA ( #28098 ) metal : support n_kv_max sparse mask hint in flash attention vec kernel add kernel_flash_attn_ext_vec_idx: compacts finite mask entries into a per-row index list (Hillis-Steele scan, one threadgroup per row) extend vec FA kernel with optional sparse index gathering (FC slot 5) add host-side gate: sparse path when n_kv_max > 0, mask present, supported head sizes / KV types, n_kv_max 1, nr23 variants, sinks, ALiBi, softcap, permute, v_view_of_k, no-mask fallback Note: multi-row (nb*nr23[1] > 1) cases still failing - rid mapping in the sto",
-    "truncated": false,
-    "title": "Release b10785 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-03T12:30:07.235Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1too4h6.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1tynq65",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10784",
-   "ctx": "metal : fix glu dispatch with ne00 = 1 ( #28306 ) metal : fix glu dispatch with ne00 = 1 tests : disable ill-defined tests Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44977647 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubunt",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10784",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T12:00:12.347Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T11:54:05.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1733,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10784 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 11:52 b10784 0df017d This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix glu dispatch with ne00 = 1 ( #28306 ) metal : fix glu dispatch with ne00 = 1 tests : disable ill-defined tests Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44977647 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
-    "truncated": false,
-    "title": "Release b10784 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-03T12:00:12.347Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1tynq65.txt"
    },
    "clock": "daily",
    "questions": [
