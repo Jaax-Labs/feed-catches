@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-06T22:00:55.429Z",
+ "generatedAt": "2026-09-06T22:30:38.435Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1rq69p2",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10828",
+   "ctx": "[Model] Support for Spark2_5ForCausalLM implementation ( #27868 ) Add Spark3 Model rename spark3 -&gt; spark2_5 Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: dongjiang dongjiang2010@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45615765 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Klei",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10828",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-06T22:30:30.928Z",
+   "tier": "A",
+   "itemTs": "2026-09-06T22:11:01.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1913,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10828 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 06 Sep 22:08 b10828 3ad1ba7 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . [Model] Support for Spark2_5ForCausalLM implementation ( #27868 ) Add Spark3 Model rename spark3 -> spark2_5 Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: dongjiang dongjiang2010@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45615765 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm ",
+    "truncated": false,
+    "title": "Release b10828 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-06T22:30:30.928Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1rq69p2.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1us1wbr",
    "pri": 30,
@@ -2891,29 +2925,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1woaqk6",
-   "pri": 45,
-   "kind": "note",
-   "title": "Lose the Order, Keep the Hierarchy: Deordering HTN Plans",
-   "ctx": "Hierarchical Task Network (HTN) planning is a powerful planning formalism based on task decomposition. Although most of the literature studied plan generation, comparatively less attention has been paid to post-plan optimization. In particular, plan deordering has been extensively studied in classical planning but remains under-researched in the HTN setting. Plan deordering removes unnecessary ordering constraints between actions in a plan whilst keeping the plan valid. In this paper, we adapt t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03912v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:27:58.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2928,11 +2939,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 51,
-   "slow": 49
+   "daily": 52,
+   "slow": 48
   },
-  "routed": 54,
-  "unrouted": 46,
+  "routed": 55,
+  "unrouted": 45,
   "unmappedLaneFamilies": []
  }
 }
