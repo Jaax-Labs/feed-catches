@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-09-05T23:31:32.798Z",
+ "generatedAt": "2026-09-06T00:01:33.776Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-1kd9jt5",
+   "pri": 36,
+   "kind": "note",
+   "title": "Introducing GPT-6 Astra for developers",
+   "ctx": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-06T00:01:11.951Z",
+   "tier": "D",
+   "itemTs": "2026-09-05T23:27:48.000Z",
+   "sub": "simonwillison",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-github-new-repos-1hvutsq",
    "pri": 25,
@@ -2867,38 +2892,6 @@
    "questions": [
     "lab-board"
    ]
-  },
-  {
-   "id": "f-zvi-0t02rui",
-   "pri": 60,
-   "kind": "note",
-   "title": "AI #184: Post Post Mortem",
-   "ctx": "I am exhausted. We may finally be nearing the end of direct coverage of What Happened with the attack on HuggingFace, and the subsequent near term reactions. That took up a full five posts in the last week: OpenAI Offers Straight-Laced Postmortem of the HuggingFace Hack. METR and Redwood Offer Holy #%^@ Postmortem Of The HuggingFace Hack. HuggingFace Attack Postmortem: Fleshing Out the Facts Huggi",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://thezvi.substack.com/p/ai-184-post-post-mortem",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "zvi",
-   "detectedAt": "2026-09-03T15:00:10.193Z",
-   "tier": "D",
-   "itemTs": "2026-09-03T14:28:12.000Z",
-   "sub": "zvi",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 96878,
-    "lead": "I am exhausted. We may finally be nearing the end of direct coverage of What Happened with the attack on HuggingFace, and the subsequent near term reactions. That took up a full five posts in the last week: OpenAI Offers Straight-Laced Postmortem of the HuggingFace Hack. METR and Redwood Offer Holy #%^@ Postmortem Of The HuggingFace Hack. HuggingFace Attack Postmortem: Fleshing Out the Facts HuggingFace Attack Postmortem: Civilizations, Reactions and Next Actions. Anthropic Has Some Alignment Problems . That left little room to cover anything else, and now we have to transition to the next wave of model releases. This week alone we have or likely will have: Mythos 5.1 and Fable 5.1. Introducing the world’s most powerful model. Early take is that this is a very good model, the most capable yet, but it is not a step change or ‘moment.’ Gemini 3.8 Flash, by all reports a large step forward for Google. Muse Spark 1.3, by all reports a large step forward for Meta. GLM-5.3-Flash, aka 0x Alpha, by all reports a solid step forward for Z.ai. OpenAI’s Astra, reported to be coming as early as today. Coverage of Mythos 5.1 and Fable 5.1 begins tomorrow. By default I will deal with Fable 5.1 fi",
-    "truncated": false,
-    "fetchedAt": "2026-09-03T15:00:10.193Z",
-    "full": "full/f-zvi-0t02rui.txt"
-   },
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2911,11 +2904,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 50,
-   "slow": 50
+   "daily": 51,
+   "slow": 49
   },
-  "routed": 50,
-  "unrouted": 50,
+  "routed": 51,
+  "unrouted": 49,
   "unmappedLaneFamilies": []
  }
 }
