@@ -1,7 +1,69 @@
 {
- "generatedAt": "2026-09-06T16:30:52.608Z",
+ "generatedAt": "2026-09-06T17:30:47.873Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1ui2ams",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10826",
+   "ctx": "cuda: fixes races in mmid and mmf ( #28475 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45586039 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0)",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10826",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-06T17:00:42.153Z",
+   "tier": "A",
+   "itemTs": "2026-09-06T16:42:29.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1655,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10826 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 06 Sep 16:40 b10826 73a43d1 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . cuda: fixes races in mmid and mmf ( #28475 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45586039 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) ",
+    "truncated": false,
+    "title": "Release b10826 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-06T17:00:42.153Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ui2ams.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-openai-news-07amf1v",
+   "pri": 15,
+   "kind": "note",
+   "title": "An Alien Mind",
+   "ctx": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://openai.com/index/an-alien-mind",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openai-news",
+   "detectedAt": "2026-09-06T17:00:42.153Z",
+   "tier": "A",
+   "itemTs": "2026-09-06T09:00:00.000Z",
+   "sub": "openai",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-09-06T17:00:42.153Z"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-openai-news-1j3horr",
    "pri": 15,
@@ -2821,80 +2883,16 @@
    "questions": [
     "lab-board"
    ]
-  },
-  {
-   "id": "f-gh-releases-anthropics-claude-code-1vcg6nr",
-   "pri": 30,
-   "kind": "note",
-   "title": "anthropics/claude-code v2.1.260",
-   "ctx": "What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache misses (e.g. tool definitions or system prompt changed, idle past the TTL) to /cost and the status line's prompt_cache field Added /reload-plugins to headless sessions, so it appears in the Claude Code",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-anthropics-claude-code",
-   "detectedAt": "2026-09-04T00:00:44.991Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T23:48:12.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 11061,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23k Star 144k v2.1.260 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 03 Sep 23:48 v2.1.260 b3f0e50 What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache misses (e.g. tool definitions or system prompt changed, idle past the TTL) to /cost and the status line's prompt_cache field Added /reload-plugins to headless sessions, so it appears in the Claude Code Desktop and SDK command lists Added a text form of /advisor ( /advisor , /advisor , /advisor off ) for the desktop app, Remote Control, and other headless ( -p /Agent SDK) sessions Added oidc.scope_on_refresh to the Claude apps gateway for IdPs that return an id_token on refresh only when asked for openid again Added Claude apps g",
-    "truncated": false,
-    "title": "Release v2.1.260 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-09-04T00:00:44.991Z",
-    "full": "full/f-gh-releases-anthropics-claude-code-1vcg6nr.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1i6v8do",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.153.2",
-   "ctx": "Release 0.153.2",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.153.2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-03T23:30:46.000Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T23:04:28.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 788,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 121k rust-v0.153.2 rust-v0.153.2 657a993 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.153.2 rust-v0.153.2 657a993 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags anp-oai tagged this 03 Sep 23:04 Release 0.153.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.153.2 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-03T23:30:46.000Z",
-    "full": "full/f-gh-releases-openai-codex-1i6v8do.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
-  "lastClickAt": 1787767670824,
-  "total": 2,
+  "lastClickAt": 1788712502928,
+  "total": 4,
   "byId": {
    "f-test-1": 1,
-   "f-glm53": 1
+   "f-glm53": 1,
+   "test": 1,
+   "2026-09-06:wiki-message-board:0": 1
   }
  },
  "editorial": {
