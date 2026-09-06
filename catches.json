@@ -1,7 +1,30 @@
 {
- "generatedAt": "2026-09-06T08:31:01.794Z",
+ "generatedAt": "2026-09-06T09:01:02.309Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-1qg5pg7",
+   "pri": 36,
+   "kind": "note",
+   "title": "Quoting Zach Kehs",
+   "ctx": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. &mdash; Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-06T09:00:39.053Z",
+   "tier": "D",
+   "itemTs": "2026-09-06T08:42:49.000Z",
+   "sub": "simonwillison",
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1ty338u",
    "pri": 30,
@@ -2858,40 +2881,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-simon-willison-1xkv99n",
-   "pri": 36,
-   "kind": "note",
-   "title": "GPT‑6 Astra",
-   "ctx": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input ",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-03T21:00:50.705Z",
-   "tier": "D",
-   "itemTs": "2026-09-03T20:18:41.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 2662,
-    "lead": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks. Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored 62.7% for $26K. The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work. Unsurprisingly, given the recent Hugging Face incident , Astra is a beast at security tasks. It scores 100% on ExploitBench (GPT-5.6 Sol got 78.5%), 42",
-    "truncated": false,
-    "fetchedAt": "2026-09-03T21:00:50.705Z",
-    "full": "full/f-simon-willison-1xkv99n.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2907,8 +2896,8 @@
    "daily": 51,
    "slow": 49
   },
-  "routed": 51,
-  "unrouted": 49,
+  "routed": 50,
+  "unrouted": 50,
   "unmappedLaneFamilies": []
  }
 }
