@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-06T02:31:00.606Z",
+ "generatedAt": "2026-09-06T03:00:38.758Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1vmfscq",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.263",
+   "ctx": "What's changed Bug fixes and reliability improvements",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-06T03:00:33.331Z",
+   "tier": "A",
+   "itemTs": "2026-09-06T02:54:20.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 619,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23k Star 144k v2.1.263 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 06 Sep 02:54 v2.1.263 ab9b2cf What's changed Bug fixes and reliability improvements Assets 12 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "truncated": false,
+    "title": "Release v2.1.263 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-06T03:00:33.331Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1vmfscq.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-google-gemini-gemini-cli-16lecxg",
    "pri": 30,
@@ -2843,36 +2877,6 @@
     {
      "label": "Open",
      "href": "https://openai.com/index/legora-financial-statement-review-with-astra",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openai-news",
-   "detectedAt": "2026-09-03T18:30:07.903Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T12:00:00.000Z",
-   "sub": "openai",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-09-03T18:30:07.903Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-openai-news-1obvpzl",
-   "pri": 15,
-   "kind": "note",
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "ctx": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://openai.com/index/playco-game-prototyping-with-astra",
      "primary": true
     }
    ],
