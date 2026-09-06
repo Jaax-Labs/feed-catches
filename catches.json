@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-06T14:31:16.903Z",
+ "generatedAt": "2026-09-06T15:01:08.352Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-0nrxmjs",
+   "pri": 36,
+   "kind": "note",
+   "title": "The purpose of DNS is to spread scams",
+   "ctx": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blo",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-06T15:00:39.274Z",
+   "tier": "D",
+   "itemTs": "2026-09-06T14:40:07.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 718,
+    "lead": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden",
+    "truncated": false,
+    "fetchedAt": "2026-09-06T15:00:39.274Z",
+    "full": "full/f-simon-willison-0nrxmjs.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1vc13pp",
    "pri": 30,
@@ -2857,40 +2889,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1s0nctd",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10793",
-   "ctx": "llama: fix whole source code rebuilt on each new commit ( #28278 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45114012 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10793",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T22:30:44.202Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T22:19:43.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1677,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10793 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 03 Sep 22:18 b10793 d230ddd This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama: fix whole source code rebuilt on each new commit ( #28278 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45114012 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows ",
-    "truncated": false,
-    "title": "Release b10793 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-03T22:30:44.202Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1s0nctd.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2906,8 +2904,8 @@
    "daily": 51,
    "slow": 49
   },
-  "routed": 53,
-  "unrouted": 47,
+  "routed": 52,
+  "unrouted": 48,
   "unmappedLaneFamilies": []
  }
 }
