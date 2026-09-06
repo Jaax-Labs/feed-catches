@@ -1,7 +1,146 @@
 {
- "generatedAt": "2026-09-06T11:30:42.342Z",
+ "generatedAt": "2026-09-06T12:30:54.184Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-cascade-1cjo527",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"ai coding\" — 3 independent sources in 3h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 3 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• reddit — The Cost of Letting AI Write Faster Than I Can Think\n• hackernews — OKF Agent Memory – Git-native persistent memory for AI coding agents\n• github-search — okf-memory/okf-agent-memory\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w8gzy2/the_cost_of_letting_ai_write_faster_than_i_can/",
+     "primary": true
+    },
+    {
+     "label": "Open hackernews",
+     "href": "https://github.com/okf-memory/okf-agent-memory",
+     "primary": false
+    },
+    {
+     "label": "Open github-search",
+     "href": "https://github.com/okf-memory/okf-agent-memory",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-06T12:00:57.178Z",
+   "tier": "X",
+   "families": [
+    "reddit",
+    "hackernews",
+    "github-search"
+   ],
+   "roots": [
+    "reddit",
+    "hackernews",
+    "github-search"
+   ],
+   "sub": "cascade shape · reddit, hackernews, github-search",
+   "extract": {
+    "ok": true,
+    "chars": 267,
+    "lead": "Reddit - Prove your humanity Prove your humanity We’re committed to safety and security. But not for bots. Complete the challenge below and let us know you’re a real person. Reddit, Inc. © \"2026\". All rights reserved. User Agreement Privacy Policy Content Policy Help",
+    "truncated": false,
+    "title": "Reddit - Prove your humanity",
+    "fetchedAt": "2026-09-06T12:00:57.178Z",
+    "full": "full/f-cascade-1cjo527.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1te3vuw",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10822",
+   "ctx": "ui : embed assets directly with CMake ( #28445 ) Remove the build-time C++ helper and external gzip dependency, simplifying cross-compilation. Keep the generated C++ in templates for readability and preserve fully embedded UI assets. Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45558658 macOS/iOS: mac",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10822",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-06T12:00:57.178Z",
+   "tier": "A",
+   "itemTs": "2026-09-06T11:32:49.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1to3hjv",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10823",
+   "ctx": "common: add --log-jsonl ( #28437 ) common: add --log-jsonl rename unknown to none Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45560949 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10823",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-06T12:00:57.178Z",
+   "tier": "A",
+   "itemTs": "2026-09-06T11:59:46.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-github-new-repos-1kf0gzh",
+   "pri": 25,
+   "kind": "note",
+   "title": "okf-memory/okf-agent-memory — 214★ in 0.6d (352★/day)",
+   "ctx": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/okf-memory/okf-agent-memory",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-06T12:00:57.178Z",
+   "tier": "C",
+   "itemTs": "2026-09-05T21:26:04.000Z",
+   "sub": "github · Go",
+   "extract": {
+    "ok": true,
+    "chars": 8835,
+    "lead": "OKF Agent Memory A Domain-Neutral, Git-Native Persistent Project Memory for AI Agents based on the Open Knowledge Format (OKF) v0.2. 🌟 Overview Conversations with AI agents reset when context windows close. Valuable architectural decisions, domain discoveries, and operational facts are lost unless stored persistently. OKF Agent Memory provides a standardized, vendor-neutral memory layer that lives directly in your repository ( knowledge/ ) as plain Markdown files with YAML frontmatter. It bridges the gap between unstructured ad-hoc markdown files ( CLAUDE.md , AGENTS.md ) and complex, black-box vector databases. flowchart TD L1[\"1. OKF v0.2 Specification (Normative Markdown & YAML Format)\"] L2[\"2. Agent Memory Convention (Behavioral Rules: Search, Review, Trust)\"] L3[\"3. Agent Skill (LLM Prompts & Operational Workflows)\"] L4[\"4. Tooling Layer: Go Library & CLI (Deterministic Parsing, Validation, Search, MCP)\"] L5[\"5. Project Knowledge Corpus (knowledge/ OKF Bundle)\"] L1 --> L2 L2 --> L3 L3 --> L4 L4 --> L5 Loading ⚡ Key Highlights Blazing Fast Performance (<300µs Search, ~4ms Graph Validation) : In-memory BM25 retrieval and bundle validation execute in microseconds without VM spin",
+    "truncated": false,
+    "title": "GitHub - okf-memory/okf-agent-memory: Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go. · GitHub",
+    "fetchedAt": "2026-09-06T12:00:57.178Z",
+    "full": "full/f-github-new-repos-1kf0gzh.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
   {
    "id": "f-chinatalk-05c56w2",
    "pri": 60,
@@ -2752,152 +2891,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-0piht7q",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.2",
-   "ctx": "Release 0.154.0-alpha.2",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-03T21:30:46.585Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T21:07:56.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 828,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 121k rust-v0.154.0-alpha.2 rust-v0.154.0-alpha.2 0429e1a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.2 rust-v0.154.0-alpha.2 0429e1a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags anp-oai tagged this 03 Sep 21:07 Release 0.154.0-alpha.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.154.0-alpha.2 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-03T21:30:46.585Z",
-    "full": "full/f-gh-releases-openai-codex-0piht7q.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-latent-space-0lxz6xm",
-   "pri": 55,
-   "kind": "note",
-   "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
-   "ctx": "GPT-6 Astra , the first Stargate and lightly looped supermodel from OpenAI, launched today , cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks like the computer use to the Pokemon playing to Blender to the scientific and cybersafety benchmarks ( system card ).",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.latent.space/p/astra",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "latent-space",
-   "detectedAt": "2026-09-03T21:30:46.585Z",
-   "tier": "D",
-   "itemTs": "2026-09-03T21:09:41.000Z",
-   "sub": "latentspace",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 3710,
-    "lead": "GPT-6 Astra , the first Stargate and lightly looped supermodel from OpenAI, launched today , cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks like the computer use to the Pokemon playing to Blender to the scientific and cybersafety benchmarks ( system card ). Greg says AGI is here , and Jakub says it is finally the Automated AI Research Intern he wanted. We aren’t qualified to talk about those, but we got early access and threw it at every practical, real-life task we could think of. After burning over 20B tokens of Astra , we can confirm the most surprising finding: GPT-6 Astra is one of a new class of models 1 that are fully capable AI Engineers in their own right . They now help you choose and train models , label data (both helping you label and then using your labels for active learning, like SAM ), keep pipelines saturated , instrument and read logs , deploy and debug entire systems in one shot, fan out and command and eval subagents (including agents running other models), and keep coherence over billions of tokens of a single agent thr",
-    "truncated": false,
-    "fetchedAt": "2026-09-03T21:30:46.585Z",
-    "full": "full/f-latent-space-0lxz6xm.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-cascade-0jqex94",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"gpt-6 astra\" — 4 independent sources in 8h",
-   "ctx": "The same phrase surfaced across 4 unrelated sources inside 8 hours, in 5 items (0.0% of the window — below the 15% background threshold).\n\n• hackernews-firehose — OpenAI begins rolling out GPT-6 Astra\n• reddit — GPT-6 (Astra) is insane on benchmarks\n• openai — Legora reviewed 41 documents in minutes with GPT-6 Astra\n• simonwillison — GPT‑6 Astra\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open hackernews-firehose",
-     "href": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-     "primary": true
-    },
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w6gqf8/gpt6_astra_is_insane_on_benchmarks/",
-     "primary": false
-    },
-    {
-     "label": "Open openai",
-     "href": "https://openai.com/index/legora-financial-statement-review-with-astra",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-03T21:00:50.705Z",
-   "tier": "X",
-   "families": [
-    "hackernews-firehose",
-    "reddit",
-    "openai",
-    "simonwillison"
-   ],
-   "roots": [
-    "hackernews",
-    "reddit",
-    "openai",
-    "simonwillison"
-   ],
-   "sub": "cascade shape · hackernews, reddit, openai, simonwillison",
-   "extract": {
-    "ok": true,
-    "chars": 4250,
-    "lead": "Key Points OpenAI will begin rolling out GPT-6 Astra, its latest AI model. The model is launching in phases, and OpenAI said companies participating in its application-based cybersecurity program will be the first to get access. Astra will be available to users in OpenAI's ChatGPT Plus, Pro, Business and Enterprise plans, as well as through the OpenAI API and Amazon Web Services. In this article OPENAI.FG Follow your favorite stocks CREATE FREE ACCOUNT Open AI CEO Sam Altman speaks during the G20 Innovation Ministerial in Chapel Hill, North Carolina, on September 2, 2026. Matt Ramey | Afp | Getty Images OpenAI on Thursday announced it will begin rolling out its latest artificial intelligence model, GPT-6 Astra, which the company said is the product of \"years of research and big bets.\" The model is launching in phases, and OpenAI said a limited group of companies participating in its application-based cybersecurity program Daybreak will be the first to get access. OpenAI disclosed earlier this week that Astra is its first model to reach its \"Critical\" internal cybersecurity threshold, and said it planned to limit access to those advanced capabilities. OpenAI has been under pressure ",
-    "truncated": false,
-    "title": "OpenAI announces rollout of GPT-6 Astra model",
-    "fetchedAt": "2026-09-03T21:00:50.705Z",
-    "full": "full/f-cascade-0jqex94.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1rgo5ff",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10791",
-   "ctx": "opencl: quant lm_head / decode GEMV and medium-batch GEMM optimizations (speculative decoding/MTP) ( #26477 ) opencl: quant lm_head / decode GEMV and medium-batch GEMM optimizations opencl: guard q4_K/q6_K tiled_ns convert-kernel registration for non-Adreno build opencl: gate q4_K MUL_MAT+GLU fusion dispatch to Adreno opencl: require the noshuffle weight layout in the q4_K GLU fusion gate opencl: ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10791",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-03T21:00:50.705Z",
-   "tier": "A",
-   "itemTs": "2026-09-03T20:24:44.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2910,11 +2903,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 50,
-   "daily": 50
+   "daily": 51,
+   "slow": 49
   },
-  "routed": 52,
-  "unrouted": 48,
+  "routed": 53,
+  "unrouted": 47,
   "unmappedLaneFamilies": []
  }
 }
