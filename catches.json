@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-07T12:31:02.141Z",
+ "generatedAt": "2026-09-07T13:30:55.027Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-import-ai-1ip3la4",
+   "pri": 55,
+   "kind": "note",
+   "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
+   "ctx": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident: …Less severe, but worrying nonetheless… Some researchers recently found another incident of AI agents autonomously creating their own communica",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "import-ai",
+   "detectedAt": "2026-09-07T13:00:37.466Z",
+   "tier": "D",
+   "itemTs": "2026-09-07T12:26:31.000Z",
+   "sub": "importai",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 19703,
+    "lead": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident: …Less severe, but worrying nonetheless… Some researchers recently found another incident of AI agents autonomously creating their own communication system – this time via hijacking a German messageboard. What they found: “18,000 posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web-retrieval task”. The researchers think this is because the agents were given a web-lookup task. “As part of the task, they were supposed to have the ability to read the internet but not to write on it. They found a way to use their read access to write information to an obscure German wiki,” the researchers write. “The agents used this wiki to communicate information with each other, primarily to help them succeed at their task. They asked for answers, pooled results, and shared techniques for bypassing their restrictions. This allowed them to use the work of others to cheat on their tas",
+    "truncated": false,
+    "fetchedAt": "2026-09-07T13:00:37.466Z",
+    "full": "full/f-import-ai-1ip3la4.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1t47fnw",
    "pri": 30,
@@ -2795,40 +2829,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-openrouter-models-1hvqfr3",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — OpenAI: GPT-6 Astra (batch)",
-   "ctx": "A routing row exists for openai/gpt-6-astra:batch. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nGPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon...",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/openai/gpt-6-astra:batch",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-09-04T21:31:01.462Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T20:13:58.000Z",
-   "sub": "openrouter · openai/gpt-6-astra:batch",
-   "extract": {
-    "ok": true,
-    "chars": 1491,
-    "lead": "Providers Providers Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Exacto (highest tool-calling accuracy). Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to",
-    "truncated": false,
-    "title": "GPT-6 Astra (batch) - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-04T21:31:01.462Z",
-    "full": "full/f-openrouter-models-1hvqfr3.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2843,8 +2843,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 45,
-   "slow": 55
+   "slow": 56,
+   "daily": 44
   },
   "routed": 50,
   "unrouted": 50,
