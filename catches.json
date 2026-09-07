@@ -1,7 +1,243 @@
 {
- "generatedAt": "2026-09-07T04:00:38.860Z",
+ "generatedAt": "2026-09-07T04:30:47.762Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-02tb8ic",
+   "pri": 45,
+   "kind": "note",
+   "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+   "ctx": "Visuomotor imitation policies can achieve high performance under in-distribution visual conditions yet fail when visually similar objects or receptacles are introduced. We study this behavior as a problem of conditional visual grounding: the visual target required for successful control changes with the manipulation phase and, in more complex tasks, with the observed task state. Using Action Chunking with Transformers (ACT), we systematically introduce distractor objects and receptacles with con",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05376v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:27:35.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0n26l3j",
+   "pri": 45,
+   "kind": "note",
+   "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+   "ctx": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source models consistently underperform in this multi-step setting, and no existing benchmark measures the gap. We introduce the Korean Open Public API Benchmark (KOPA-Bench), comprising 145 real-world tasks. To close this gap, we present EDGE, an Execution-grounded Dynamic Graph for tool-calling data synthEsi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05395v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:44:52.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0pngs91",
+   "pri": 45,
+   "kind": "note",
+   "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
+   "ctx": "Retail search systems serve diverse geographic regions with distinct query patterns, vocabularies, and product preferences, creating significant data heterogeneity that challenges both privacy-preserving training and model personalization. Federated learning offers a natural solution for privacy, but standard FL methods produce global models that sacrifice regional performance, while existing personalized FL approaches operate at the parameter level and catastrophically collapse on modern transf",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05403v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:50:10.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0qf0you",
+   "pri": 45,
+   "kind": "note",
+   "title": "When LLM Decompilers Recompile More and Preserve Less",
+   "ctx": "Decompilation recovers high-level source from compiled machine code and serves as a foundation for security tasks such as vulnerability detection and malware analysis. Traditional decompilers like Ghidra and Hex-Rays expose whatever they cannot resolve as visible placeholders and often emit pseudocode that will not compile or execute; LLM-based decompilers produce clean, idiomatic C and are now judged almost entirely by recompilability and re-executability: whether the output builds and passes i",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05370v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:16:18.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ty6a70",
+   "pri": 45,
+   "kind": "note",
+   "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
+   "ctx": "Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences control the clarity of AI-generated images and sounds, metaphorically enacting the denoising process that underlies diffusion-based generation. Using the tuning knob, participants switch between three channels featuring AI-generated animals from the Past (extinct species), Present (endangered specie",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05404v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:51:48.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1380086",
+   "pri": 45,
+   "kind": "note",
+   "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
+   "ctx": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a system, diagnose errors, or decide when to escalate an output. Such use assumes that the explanations agree with the component's observable decision behaviour. We test two interpretations of the named factors: necessity, meaning that changing a factor would change the output, and sufficiency, meani",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05385v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:37:17.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1difkbe",
+   "pri": 45,
+   "kind": "note",
+   "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+   "ctx": "Computer-use agents have advanced on benchmarks like OSWorld and AndroidWorld, but still act mostly through the GUI, often producing inefficient trajectories. Real-world computer work is hybrid, combining visual-state inspection with precise, high-throughput command-line operations, so capable agents must coordinate both modalities over shared application state. Yet scalable hybrid environments remain scarce because supporting both GUI and CLI over real applications typically requires substantia",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05374v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:26:18.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1m3t1wr",
+   "pri": 45,
+   "kind": "note",
+   "title": "Reflection-aware Generative Novel View Synthesis",
+   "ctx": "We propose Ref-GeNVS, a training-free, reflection-aware method for generative novel view synthesis (NVS) in mirror scenes. Existing multi-view diffusion models often fail to recognize the mirror in the scene and cannot exploit reflected content for scene generation. To fix this issue without additional training, our key idea is to treat a mirror image as two complementary views. From input images, we estimate the mirror plane and reflect camera poses to form virtual views. Based on this virtual ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05382v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:33:45.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1qeijuq",
+   "pri": 45,
+   "kind": "note",
+   "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+   "ctx": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. We audit 22 frontier models on 12 regression benchmarks for verbatim retrieval and find that it is widespread but relatively benchmark-specific: on five datasets more than $50\\%$ of the LLMs show verbatim retrieval, while on the remaining datasets it appears only in isolated cells. We run our experim",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05381v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:32:48.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1qtw512",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
+   "ctx": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenged by significant measurement and labeling costs. Traditional methods for synthesizing labeled wireless signals typically rely on environmental models, leading to extensive hyper-parameter tuning and inadequate realism for comprehensive model training purposes. To address these limitations, we introd",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05396v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T04:30:23.221Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:44:54.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.CL-021i1vv",
    "pri": 45,
@@ -2601,333 +2837,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-openrouter-models-1vn3kly",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — inclusionAI: Ling 3.0 Flash Sante (free)",
-   "ctx": "A routing row exists for inclusionai/ling-3.0-flash-sante:free. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nLing 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-09-04T19:01:02.298Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T18:19:06.000Z",
-   "sub": "openrouter · inclusionai/ling-3.0-flash-sante:free",
-   "extract": {
-    "ok": true,
-    "chars": 1296,
-    "lead": "Frequently asked questions What is Ling 3.0 Flash Sante (free)? Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for medical knowledge reasoning, clinical safety, evidence-based retrieval, and long-horizon medical tasks, while retaining general capabilities in reasoning, coding, and agentic tasks. Is Ling 3.0 Flash Sante (free) free? Yes. The pricing shown on this page for Ling 3.0 Flash Sante (free) is zero, so you are not charged for prompt or completion tokens. Free endpoints are rate limited — see the rate limit docs . What is the context length of Ling 3.0 Flash Sante (free)? Ling 3.0 Flash Sante (free) has a 262,144 token context window. It supports up to 32,768 completion tokens. Does Ling 3.0 Flash Sante (free) support tool calling and structured outputs? Yes. Ling 3.0 Flash Sante (free) accepts tools and tool_choice for function calling. It does not support response_format , so JSON output is not enforced. What other text models does inclusionAI have? Ling 3.0 Flash Fin and Ling 3.0 Flash are other text models from inclusionAI. When was Ling",
-    "truncated": false,
-    "title": "Ling 3.0 Flash Sante (free) - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-04T19:01:02.298Z",
-    "full": "full/f-openrouter-models-1vn3kly.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1t3xz5z",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10809",
-   "ctx": "llama.cpp : bump version to 0.4.0 ( #28386 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45314398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0)",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10809",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T18:01:03.391Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T17:57:34.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1731,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10809 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 17:55 b10809 5266f24 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama.cpp : bump version to 0.4.0 ( #28386 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45314398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) ",
-    "truncated": false,
-    "title": "Release b10809 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-04T18:01:03.391Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1t3xz5z.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1iguu2n",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.153.3",
-   "ctx": "Release 0.153.3",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.153.3",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-04T18:01:03.391Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T17:56:03.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 790,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 122k rust-v0.153.3 rust-v0.153.3 b1a547b Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.153.3 rust-v0.153.3 b1a547b Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags celia-oai tagged this 04 Sep 17:56 Release 0.153.3 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.153.3 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-04T18:01:03.391Z",
-    "full": "full/f-gh-releases-openai-codex-1iguu2n.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-simon-willison-16gicyv",
-   "pri": 36,
-   "kind": "note",
-   "title": "OpenAI's rogue agents were caught communicating via public wikis",
-   "ctx": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-04T18:01:03.391Z",
-   "tier": "D",
-   "itemTs": "2026-09-04T17:38:48.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 7820,
-    "lead": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is \"philosophy as it applies to games and gaming\".) The research team also published the data they collected during their investigation. I've converted that into a 68MB SQLite database, which you can download from here , or explore in Datasette Lite (68.3MB page load), or sign in with GitHub to agent.datasette.io and browse or ask questions of it using Datasette Agent. ",
-    "truncated": false,
-    "fetchedAt": "2026-09-04T18:01:03.391Z",
-    "full": "full/f-simon-willison-16gicyv.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-zvi-0cw7w63",
-   "pri": 60,
-   "kind": "note",
-   "title": "Claude Fable 5.1 and Mythos 5.1: The System Card",
-   "ctx": "At the time of its release Claude Fable 5.1 was, by a healthy margin, the most capable publicly available AI model in the world. As per usual, we have a 200+ page model card, and the assessments start there. We have now done a lot of these, including recently for Mythos 5 and Opus 5 . Also highly relevant is the Anthropic August 2026 Risk Report . These are now frequent, so my report focuses on ar",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://thezvi.substack.com/p/claude-fable-51-and-mythos-51-the",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "zvi",
-   "detectedAt": "2026-09-04T16:31:00.475Z",
-   "tier": "D",
-   "itemTs": "2026-09-04T16:03:52.000Z",
-   "sub": "zvi",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 27660,
-    "lead": "At the time of its release Claude Fable 5.1 was, by a healthy margin, the most capable publicly available AI model in the world. As per usual, we have a 200+ page model card, and the assessments start there. We have now done a lot of these, including recently for Mythos 5 and Opus 5 . Also highly relevant is the Anthropic August 2026 Risk Report . These are now frequent, so my report focuses on areas of change. This post strives to be broadly readable, but assumes some familiarity with system cards, which describe the key safety, alignment and model welfare properties of newly released AI models. If something confuses you, ask Fable, Opus or Sol. Mythos 5.1 and Fable 5.1 are the same model under the hood, except that Fable has classifiers superimposed on it. Most of what is said about one applies to both of them. As usual, model welfare concerns will be discussed in a distinct post, as will capabilities, so this only covers sections 1-6 plus a few bio benchmarks from section 8. Early word is that Fable 5.1 is a substantial but incremental improvement on Fable 5, with the added bonus of being modestly cheaper via a cut in prices for cache reads, and that most users find it nicer to ",
-    "truncated": false,
-    "fetchedAt": "2026-09-04T16:31:00.475Z",
-    "full": "full/f-zvi-0cw7w63.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1oyrq6o",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10798",
-   "ctx": "common : make build info output stream configurable ( #28322 ) Let llama_print_build_info write to a caller-provided FILE* instead of hardcoding stderr. The parameter defaults to stderr so existing callers keep their current behavior. The version command in llama-app now passes stdout, so plain version output goes to stdout where users expect it. Signed-off-by: Adrien Gallouët angt@huggingface.co ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10798",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T15:30:57.254Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T15:05:15.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2010,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10798 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 15:03 b10798 c390d0a This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . common : make build info output stream configurable ( #28322 ) Let llama_print_build_info write to a caller-provided FILE* instead of hardcoding stderr. The parameter defaults to stderr so existing callers keep their current behavior. The version command in llama-app now passes stdout, so plain version output goes to stdout where users expect it. Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45278162 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiA",
-    "truncated": false,
-    "title": "Release b10798 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-04T15:30:57.254Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1oyrq6o.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-hn-newest-ai-18w2cui",
-   "pri": 38,
-   "kind": "note",
-   "title": "Discovery of a new OpenAI agent message board",
-   "ctx": "Article URL: https://collusion.wiki/ Comments URL: https://news.ycombinator.com/item?id=49563355 Points: 120 # Comments: 51",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://collusion.wiki/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hn-newest-ai",
-   "detectedAt": "2026-09-04T13:00:25.169Z",
-   "tier": "C",
-   "itemTs": "2026-09-04T11:54:53.000Z",
-   "sub": "hackernews",
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-chinatalk-0uuhsl6",
-   "pri": 60,
-   "kind": "note",
-   "title": "How Trump and Xi Can Do AI Safety",
-   "ctx": "Jay Kimmel is a seasonal fellow with GovAI, where he conducted this research, as well as a fellow with the Penn Project on the Future of U.S.-China Relations and a former U.S. diplomat. As the next Trump-Xi summit approaches, details on the AI safety dialogue the two sides announced in May are scant . Past efforts have devolved into energetic airings of grievances, or have been derailed by unrelat",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.chinatalk.media/p/how-trump-and-xi-can-do-ai-safety",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "chinatalk",
-   "detectedAt": "2026-09-04T11:30:41.402Z",
-   "tier": "D",
-   "itemTs": "2026-09-04T11:12:29.000Z",
-   "sub": "chinatalk",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 11581,
-    "lead": "Jay Kimmel is a seasonal fellow with GovAI, where he conducted this research, as well as a fellow with the Penn Project on the Future of U.S.-China Relations and a former U.S. diplomat. As the next Trump-Xi summit approaches, details on the AI safety dialogue the two sides announced in May are scant . Past efforts have devolved into energetic airings of grievances, or have been derailed by unrelated issues. Trust remains low on both sides, with Washington unsure of China’s aims and Chinese state media claiming in a recent op-ed that the United States has conflated AI safety with a geopolitical blockade. There’s no guarantee that serious talks will proceed, let alone tackle the technical issues and political dynamics that underpin risk management. But as a veteran U.S. diplomat now working on AI safety, I know that talking is the first step. Both countries know the stakes are high. And there’s much that the two sides can do to prepare for the meeting between President Trump and Xi this month. Here’s how they should start. ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. First, know the risks The U.S.",
-    "truncated": false,
-    "fetchedAt": "2026-09-04T11:30:41.402Z",
-    "full": "full/f-chinatalk-0uuhsl6.txt"
-   },
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1t4lrl9",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10797",
-   "ctx": "ggml-cpu(s390x) : fix q5_1 uninitialized v_acc ( #28332 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45199911 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10797",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T09:00:33.158Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T08:38:58.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1712,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10797 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 08:36 b10797 832fd6f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml-cpu(s390x) : fix q5_1 uninitialized v_acc ( #28332 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45199911 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64",
-    "truncated": false,
-    "title": "Release b10797 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-04T09:00:33.158Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1t4lrl9.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1sum5wa",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10796",
-   "ctx": "src : add n_expert_used_max function ( #28323 ) src : add n_expert_used_max function With Commit c61b98b (\"model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 )\") it is now possible for each layer to have a specific number of experts but there are a few checks that need to be updated to handle this upon model loading. For example: llama_model_load: error loading model: m",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10796",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T06:00:24.207Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T05:33:44.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2377,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10796 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 05:31 b10796 9a4843c This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . src : add n_expert_used_max function ( #28323 ) src : add n_expert_used_max function With Commit c61b98b (\"model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 )\") it is now possible for each layer to have a specific number of experts but there are a few checks that need to be updated to handle this upon model loading. For example: llama_model_load: error loading model: model has expert layers but no expert layers are used And later: /llama.cpp/src/llama-model-loader.cpp:955: GGML_ASSERT(n_ids_used > 0) failed This commit adds the n_expert_use",
-    "truncated": false,
-    "title": "Release b10796 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-04T06:00:24.207Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1sum5wa.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2942,11 +2851,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 47,
-   "daily": 53
+   "slow": 55,
+   "daily": 45
   },
-  "routed": 57,
-  "unrouted": 43,
+  "routed": 52,
+  "unrouted": 48,
   "unmappedLaneFamilies": []
  }
 }
