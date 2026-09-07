@@ -1,7 +1,91 @@
 {
- "generatedAt": "2026-09-07T21:30:55.310Z",
+ "generatedAt": "2026-09-07T22:00:39.010Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-latent-space-0magrs0",
+   "pri": 55,
+   "kind": "note",
+   "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+   "ctx": "Naive autoresearch investment in our AEO have yielded impressive ROI, and so naturally it was time to take it seriously. We were inspired by What Claude Code Actually Chooses , and decided to extend/adjust it to our tastes. After a few billion tokens of prototyping, aligning, and scaling pipelines, here’s the Latent Space Frontier AEO tracker . Our methodology extends AmplifyingAI’s to run 6 promp",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.latent.space/p/aeo",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "latent-space",
+   "detectedAt": "2026-09-07T22:00:32.667Z",
+   "tier": "D",
+   "itemTs": "2026-09-07T21:32:37.000Z",
+   "sub": "latentspace",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 4124,
+    "lead": "Naive autoresearch investment in our AEO have yielded impressive ROI, and so naturally it was time to take it seriously. We were inspired by What Claude Code Actually Chooses , and decided to extend/adjust it to our tastes. After a few billion tokens of prototyping, aligning, and scaling pipelines, here’s the Latent Space Frontier AEO tracker . Our methodology extends AmplifyingAI’s to run 6 prompt variations over 7 models 1 (search on) in 161 categories , from coding agents to AI podcasts to AI Sandboxes to Managed Databases to ASR models to even oddball categories like Angel investors and Corporate spend and Payroll software . Answer extraction was done by Astra, and scored for a proprietary AEO score that gives weight to first choices, alternative choices , mentions , but also negative weights to mild and strong anti-recommendations (which are rare, but do happen). Because we know you’ll want it, we also extracted the top cited sources which influence Agent recommendations, as well as an analysis of top failures . Basic Results Here are the most dominant products (in their categories) in the world: There are some familiar names in there — opening up the natural question of conta",
+    "truncated": false,
+    "fetchedAt": "2026-09-07T22:00:32.667Z",
+    "full": "full/f-latent-space-0magrs0.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-simon-willison-0544l01",
+   "pri": 36,
+   "kind": "note",
+   "title": "Video compressor",
+   "ctx": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , video , webassembly , claude , claude-code , claude-mythos-fable",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-07T22:00:32.667Z",
+   "tier": "D",
+   "itemTs": "2026-09-07T18:29:07.000Z",
+   "sub": "simonwillison",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-simon-willison-0xurqsp",
+   "pri": 36,
+   "kind": "note",
+   "title": "Mercator ↔ Equal Earth",
+   "ctx": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-07T22:00:32.667Z",
+   "tier": "D",
+   "itemTs": "2026-09-07T16:24:16.000Z",
+   "sub": "simonwillison",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0uz1ech",
    "pri": 30,
@@ -2741,106 +2825,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-github-new-repos-1hvutsq",
-   "pri": 25,
-   "kind": "note",
-   "title": "vinzdg/codenotch — 198★ in 0.3d (626★/day)",
-   "ctx": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/vinzdg/codenotch",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-05T22:31:06.955Z",
-   "tier": "C",
-   "itemTs": "2026-09-05T14:55:35.000Z",
-   "sub": "github · Swift",
-   "extract": {
-    "ok": true,
-    "chars": 5667,
-    "lead": "Codenotch Working name — not final. A macOS agent app that pins a small black notch to the right edge of the screen showing how much of each LLM's session limit you have burned, and whether you have hit the wall yet. Hover a provider to see its individual limit windows and when they reset — and tells you at a glance whether Claude is still working, done, or waiting on you. The ring always shows the current session , the same window Claude's own usage panel leads with, so the two never disagree. Settings show which account each reading belongs to, with one switch per provider. Switching on takes you to that account's sign-in — a window for a provider whose session Codenotch owns, the owning app for Cursor and Codex. Switching off stops the credential being read and forgets the readings taken from it, so the numbers do not come back on the next launch. What it cannot do is sign you out of Claude Code or Cursor: those sessions are theirs, and the row says so rather than leaving you to find out. Settings live in an orb below the notch — an arc in the corner at rest, a gear when you reach for it. It folds away when you are not looking at it: at rest it is a small pill on the screen edge",
-    "truncated": false,
-    "title": "GitHub - vinzdg/codenotch: A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · GitHub",
-    "fetchedAt": "2026-09-05T22:31:06.955Z",
-    "full": "full/f-github-new-repos-1hvutsq.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-zvi-1x3s08a",
-   "pri": 60,
-   "kind": "note",
-   "title": "Claude Mythos 5.1 and Fable 5.1: Capabilities",
-   "ctx": "This is the weirdest situation in which to write a capabilities review. Introducing the world’s most powerful model, by a substantial margin. No wait, this just in, we also have someone else introducing the world’s most powerful model. Claude Fable 5.1 and GPT-6 Astra are both excellent models. This much, we know. Fable 5.1 comes with reduced cache prices, the option of zero data retention and sub",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://thezvi.substack.com/p/claude-mythos-51-and-fable-51-capabilities",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "zvi",
-   "detectedAt": "2026-09-05T20:01:16.998Z",
-   "tier": "D",
-   "itemTs": "2026-09-05T19:39:49.000Z",
-   "sub": "zvi",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 29888,
-    "lead": "This is the weirdest situation in which to write a capabilities review. Introducing the world’s most powerful model, by a substantial margin. No wait, this just in, we also have someone else introducing the world’s most powerful model. Claude Fable 5.1 and GPT-6 Astra are both excellent models. This much, we know. Fable 5.1 comes with reduced cache prices, the option of zero data retention and substantially more lenient classifiers than Fable 5. Early signs are, with large error bars, that the jump from Sol to Astra is bigger and more exciting than the jump from Fable 5 to Fable 5.1. This may be similar to how the scaling move from Opus to Fable was a big deal. With the exception of token use, Fable 5.1 got almost universally positive feedback in absolute terms. Reports are that Fable 5.1 is highly well-rounded. Writing is greatly improved. The Claudisms seem to have improved, although some are very much still there. It admits mistakes. People enjoy their conversations. Several people noted it simplifies code. The safety classifiers are less obnoxious. Fable 5.1 loves being proactive and doing all the things. If you give it a high effort level, it will find things to do with those ",
-    "truncated": false,
-    "fetchedAt": "2026-09-05T20:01:16.998Z",
-    "full": "full/f-zvi-1x3s08a.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-github-new-repos-1t3iv1a",
-   "pri": 25,
-   "kind": "note",
-   "title": "ashemag/human-atlas — 197★ in 0.8d (254★/day)",
-   "ctx": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/ashemag/human-atlas",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-05T19:01:12.690Z",
-   "tier": "C",
-   "itemTs": "2026-09-05T00:24:43.000Z",
-   "sub": "github · TypeScript",
-   "extract": {
-    "ok": true,
-    "chars": 3550,
-    "lead": "Human Atlas An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into 2,234 individually selectable meshes , explore 15 anatomical systems , and search 3,432 named concepts . Explore the live demo Explore Orbit, zoom, and select structures directly on the body. Toggle individual systems or use skeleton and organ presets. Move from assembled anatomy to a spaced inventory of every visible piece. Search anatomical names and source identifiers. Isolate a selected structure and read its details. Use compact controls and detail panels on mobile. Run locally Requires Node.js 22.13 or newer. No API keys or accounts are needed. npm ci npm run dev Open http://localhost:3016 . To build the static site, run npm run build ; the output is in dist/ . Validate npm run check node scripts/validate-atlas.mjs node scripts/validate-interactions.mjs npm run build Validation covers mesh buffers, names and concept membership, nonoverlapping exploded layouts at desktop and mobile aspect ratios, search and inspection contracts, and tap-versus-drag handling. Browser interaction checks have exercised selection, system controls, search, i",
-    "truncated": false,
-    "title": "GitHub - ashemag/human-atlas: Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. · GitHub",
-    "fetchedAt": "2026-09-05T19:01:12.690Z",
-    "full": "full/f-github-new-repos-1t3iv1a.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2855,11 +2839,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 43,
-   "slow": 57
+   "slow": 57,
+   "daily": 43
   },
-  "routed": 49,
-  "unrouted": 51,
+  "routed": 50,
+  "unrouted": 50,
   "unmappedLaneFamilies": []
  }
 }
