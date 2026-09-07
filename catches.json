@@ -1,7 +1,75 @@
 {
- "generatedAt": "2026-09-07T20:00:48.422Z",
+ "generatedAt": "2026-09-07T21:30:55.310Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0uz1ech",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10850",
+   "ctx": "tests : initialize the L2_NORM batch array ( #28553 ) tests: bind the L2_NORM batch count to a local GCC cannot prove the loop fills norms up to the index read after it while the bound is a class member, so it reports a maybe uninitialized use. Reading the count once into a local restores the tracking. tests: initialize the L2_NORM batch array The read after the fill loop is only provably defined ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10850",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-07T20:30:31.564Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T20:05:53.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2126,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10850 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 07 Sep 20:03 b10850 f114f91 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . tests : initialize the L2_NORM batch array ( #28553 ) tests: bind the L2_NORM batch count to a local GCC cannot prove the loop fills norms up to the index read after it while the bound is a class member, so it reports a maybe uninitialized use. Reading the count once into a local restores the tracking. tests: initialize the L2_NORM batch array The read after the fill loop is only provably defined once the array carries an initializer, which GCC 12 requires on the aarch64 Release build where warnings are fatal. Website: https://llama.app Attestations: https://github.com",
+    "truncated": false,
+    "title": "Release b10850 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-07T20:30:31.564Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0uz1ech.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-semianalysis-newsletter-11ygk1k",
+   "pri": 20,
+   "kind": "note",
+   "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
+   "ctx": "For more than a decade, the industry has watched Google build an empire on its own silicon. Search, Ads, YouTube, and every generation of Gemini run on TPUs. Few accelerators have attracted as much architectural scrutiny or as much debate about what their performance and economics would look like outside the company that designed them. Anthropic being the biggest user of TPUs, surpassing Deepmind’",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "semianalysis-newsletter",
+   "detectedAt": "2026-09-07T20:30:31.564Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T20:00:18.000Z",
+   "sub": "semianalysis",
+   "extract": {
+    "ok": true,
+    "chars": 51448,
+    "lead": "TPU Inference Externalization Full Steam Ahead - InferenceX InferenceX, Up to 50% Better Performance per Dollar, Rapid Externalization of TPU stack, Growing Customer Base, Ironwood, TPUv8i, Reducing CUDA Moat Alec Ibarra , Cam Quilici , Bryan Shan , and 4 others Sep 07, 2026 ∙ Paid 39 3 Share For more than a decade, the industry has watched Google build an empire on its own silicon. Search, Ads, YouTube, and every generation of Gemini run on TPUs. Few accelerators have attracted as much architectural scrutiny or as much debate about what their performance and economics would look like outside the company that designed them. Anthropic being the biggest user of TPUs, surpassing Deepmind’s own use by 2029. Source: Google Google’s internal success was never the question. The question was how much of that advantage the rest of the industry could actually get. Could you take an open-weight model, serve it through a familiar inference engine, and beat NVIDIA on the economics that matter to your business? Today, we are publishing the first third-party inference results for TPUv7 Ironwood on InferenceX Official Preview. In our apples-to-apples comparisons against B200/B300, Ironwood deliver",
+    "truncated": false,
+    "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
+    "fetchedAt": "2026-09-07T20:30:31.564Z",
+    "full": "full/f-semianalysis-newsletter-11ygk1k.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1txhyn8",
    "pri": 30,
@@ -2773,75 +2841,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-simon-willison-1n8pzza",
-   "pri": 36,
-   "kind": "note",
-   "title": "Using Blender with coding agents on macOS",
-   "ctx": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: ",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-05T16:01:20.175Z",
-   "tier": "D",
-   "itemTs": "2026-09-05T15:51:09.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 632,
-    "lead": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : Tags: ai , generative-ai , llms , blender , pelican-riding-a-bicycle , coding-agents , gpt-6-astra",
-    "truncated": false,
-    "fetchedAt": "2026-09-05T16:01:20.175Z",
-    "full": "full/f-simon-willison-1n8pzza.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-latent-space-1x3v3vq",
-   "pri": 55,
-   "kind": "note",
-   "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
-   "ctx": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you’re connected. You don’t need to get into the code of the system. You don’t need to install an MCP server JSON or paste API credentials. You log in the way you do to any website or app, and Grok Bot is ready. I asked it to revi",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.latent.space/p/grok-bot",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "latent-space",
-   "detectedAt": "2026-09-05T15:31:12.791Z",
-   "tier": "D",
-   "itemTs": "2026-09-05T15:01:02.000Z",
-   "sub": "latentspace",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 13108,
-    "lead": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you’re connected. You don’t need to get into the code of the system. You don’t need to install an MCP server JSON or paste API credentials. You log in the way you do to any website or app, and Grok Bot is ready. I asked it to review my X posts and the things I’m interested in, then give me a daily brief of news and stories that are relevant to me. I also connected it to Freshdesk through my work account and set up a support bot that checks every fifteen minutes for newly opened support tickets. All it needed to replicate a real workflow, one that I spent my time and attention on, was for me to log in through the browser. That ease of setup is what’s really new here. Grok Bot turns agent configuration into a couple of clicks and a sign-in. Grok Bot feels like unboxing a new MacBook. You open it, turn it on, and have everything you need to get to work. Systems like OpenClaw feel like Linux : they give you more optionality and more freedom to customize the system around what you want to do, but that flexibility comes ",
-    "truncated": false,
-    "fetchedAt": "2026-09-05T15:31:12.791Z",
-    "full": "full/f-latent-space-1x3v3vq.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
