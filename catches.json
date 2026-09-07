@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-09-07T05:00:44.485Z",
+ "generatedAt": "2026-09-07T06:30:56.460Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1vc497o",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10831",
+   "ctx": "vulkan: add TQ1_0 support (mm, mat-vec, mat-vec-id, dequant, get_rows) ( #27765 ) vulkan: add TQ1_0 support (mm, mat-vec, dequant, get_rows) vulkan: pack TQ1_0 powers of 3 into a 32-bit constant Replaces the constant array with a packed 32-bit value (7 bits per entry, max 81 &lt; 128) extracted with shift/mask, as suggested in review — avoids a constant array that may not be kept in registers. tes",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10831",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-07T05:30:28.757Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T05:21:50.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 6411,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10831 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 07 Sep 05:20 b10831 8fe90e1 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: add TQ1_0 support (mm, mat-vec, mat-vec-id, dequant, get_rows) ( #27765 ) vulkan: add TQ1_0 support (mm, mat-vec, dequant, get_rows) vulkan: pack TQ1_0 powers of 3 into a 32-bit constant Replaces the constant array with a packed 32-bit value (7 bits per entry, max 81 < 128) extracted with shift/mask, as suggested in review — avoids a constant array that may not be kept in registers. test-backend-ops on gfx1151: tq1_0 MUL_MAT 11/11, MUL_MAT_ID 6/6, GET_ROWS 4/4, unchanged. vulkan: address review - shared TQ1_0 decode helpers, fix standalone dequant shader Review",
+    "truncated": false,
+    "title": "Release b10831 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-07T05:30:28.757Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1vc497o.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-github-new-repos-09k2vrw",
+   "pri": 8,
+   "kind": "note",
+   "title": "EverettFish/holo-card-studio — 231★ in 0.3d (924★/day)",
+   "ctx": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/EverettFish/holo-card-studio",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-07T05:30:28.757Z",
+   "tier": "C",
+   "itemTs": "2026-09-07T00:41:18.000Z",
+   "sub": "github · Python",
+   "extract": {
+    "ok": true,
+    "chars": 2728,
+    "lead": "🃏 Holo Card Studio 实现教程来源（补上，感谢大佬的教程）：小红书@乌托邦的香蕉🍌 一个 Codex Skill ：对 Codex 说一句话，收获一张会随视角流光溢彩的 3D 全息闪卡。 能在浏览器里拖着转、翻到背面、拉滑块看它闪；还附赠一个可以随便改的 Blender 工程。 小时候在文具店门口舍不得买的那种闪卡，现在你想印谁就印谁。 ✨ 三十秒看懂 你：「给我做一张赛博朋克风的机械猫闪卡，背景霓虹雨夜，编号 No.007」 Codex： 🎨 画好四层图（主体 / 背景 / 线稿 / 文字） 🧊 搭好 Blender 场景，视差、镭射、星光一次到位 🌐 组装成 Three.js 网页，本地跑起来 📦 递给你：网页链接 + card.blend + 渲染图 你只负责想，剩下的它来。 🎬 你可以拿它做什么 🐱 给自家毛孩子发一张\"传说级\"卡 上传一张猫主子的照片，加一句\"传说稀有度、金色边框、名字叫布丁\"。 主体保留它本猫的神态和构图，背景和线稿全新绘制。拖一拖，猫在卡里往前凸，背景往后退，镭射彩虹随角度流动——朋友圈晒图请自便。 🎮 给独立游戏做角色卡牌 一个角色一句描述，批量出一整套：战士、法师、盗贼、Boss。 每张卡自带 card-config.json ，稀有度、编号、属性文字都在里面，改完重新跑一遍流水线就更新。发售前发一波\"抽卡预告\"，玩家会疯。 🏢 团队周年纪念 / 新人入职卡 把同事做成卡牌：头像当主体、部门色当背景、Slogan 当文字层。 每人一张，网页链接一发，大家在浏览器里翻自己的卡翻一下午。比 PPT 里的\"团队介绍\"页好玩一百倍。 🎁 情人节 / 生日 / 纪念日 \"复古胶片风、粉金配色、背面写一句话\"。 做好之后发一个链接过去，对方在手机上转着看，翻到背面看到那句话。仪式感这东西，闪光效果拉满就有了。 🎤 演讲 / 发布会的\"彩蛋物料\" 产品发布做一张产品卡，讲到最后一页丢一个链接：\"扫码看会闪的那种\"。 响应式网页，手机横竖屏都能玩，观众当场就转起来了。 🖌️ 设计师的材质实验场 不只是网页， card.blend 是真正可编辑的 Blender 工程。 共享节点组里有中文命名的 缩放 、 深度 、 视差效果 ，镭射条纹、星光、线稿发光都是独立可调的材质节点。想研究全息卡是怎么\"闪\"起来的，打开它就是最好的教材。 🧱 一张闪卡是怎么叠出来的 四层图叠在同一块画布上，视差把它们在空间里\"撑开\"： 👀 你的视线 │ ┌─────┴──────┐ │ text.png │ 文字层 ─ 稳稳贴在表面 ├────────────┤ │ lineart.png│ 线稿层 ─ 发光的轮廓 ├────────────┤ │ subject.png│ 主体层 ─ 往前凸出来 ├───────────",
+    "truncated": false,
+    "title": "GitHub - EverettFish/holo-card-studio: Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project. · GitHub",
+    "fetchedAt": "2026-09-07T05:30:28.757Z",
+    "full": "full/f-github-new-repos-09k2vrw.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-02tb8ic",
    "pri": 45,
@@ -2769,74 +2835,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1r63wt5",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10814",
-   "ctx": "opencl: extend the elementwise and data‐movement op coverage ( #27633 ) opencl: add extended elementwise unary ops (sgn, step, elu, hardswish, hardsigmoid, floor, ceil, round, trunc) Adds nine GGML_UNARY_OP_* elementwise ops that were falling back to CPU on the OpenCL backend, following the same variant shape as the existing ABS op: f32, f32_4 (vec4), f16, f16_4 (vec4), and stride-addressed f32_nc",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10814",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T19:30:55.569Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T19:30:52.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 4241,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10814 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 19:30 b10814 1548a24 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: extend the elementwise and data‐movement op coverage ( #27633 ) opencl: add extended elementwise unary ops (sgn, step, elu, hardswish, hardsigmoid, floor, ceil, round, trunc) Adds nine GGML_UNARY_OP_* elementwise ops that were falling back to CPU on the OpenCL backend, following the same variant shape as the existing ABS op: f32, f32_4 (vec4), f16, f16_4 (vec4), and stride-addressed f32_nc / f16_nc for non-contiguous inputs. New kernels/unary_ext.cl (macro-generated), a shared ggml_cl_unary_ext dispatch helper mirroring ggml_cl_abs, the supports_op cases, and t",
-    "truncated": false,
-    "title": "Release b10814 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-04T19:30:55.569Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1r63wt5.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1rg3ii4",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10813",
-   "ctx": "opencl: add Adreno xmem SDPA path ( #26331 ) opencl: add Adreno xmem SDPA path Assisted-by: Codex Removed the Adreno-specific queue profiling override Clean up formatting 修复数值误差优化gqa/mask attn Assisted-by: Codex add env GGML_OPENCL_XMEM_SDPA Assisted-by: OpenAI Codex Co-authored-by: happyyzy happyyzy@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llam",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10813",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T19:30:55.569Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T19:05:29.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1937,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10813 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 19:02 b10813 4acf4a4 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: add Adreno xmem SDPA path ( #26331 ) opencl: add Adreno xmem SDPA path Assisted-by: Codex Removed the Adreno-specific queue profiling override Clean up formatting 修复数值误差优化gqa/mask attn Assisted-by: Codex add env GGML_OPENCL_XMEM_SDPA Assisted-by: OpenAI Codex Co-authored-by: happyyzy happyyzy@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45326308 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
-    "truncated": false,
-    "title": "Release b10813 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-04T19:30:55.569Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1rg3ii4.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2851,11 +2849,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 55,
-   "daily": 45
+   "daily": 45,
+   "slow": 55
   },
-  "routed": 52,
-  "unrouted": 48,
+  "routed": 51,
+  "unrouted": 49,
   "unmappedLaneFamilies": []
  }
 }
