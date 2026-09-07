@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-07T01:00:36.728Z",
+ "generatedAt": "2026-09-07T01:30:39.091Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-google-gemini-gemini-cli-0ydkc9d",
+   "pri": 30,
+   "kind": "note",
+   "title": "google-gemini/gemini-cli Release v0.60.0-nightly.20260907.g85aca163f",
+   "ctx": "Full Changelog : v0.60.0-nightly.20260906.g85aca163f...v0.60.0-nightly.20260907.g85aca163f",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260907.g85aca163f",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-google-gemini-gemini-cli",
+   "detectedAt": "2026-09-07T01:30:25.832Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T01:27:17.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 737,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.5k Star 107k Release v0.60.0-nightly.20260907.g85aca163f Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 07 Sep 01:27 v0.60.0-nightly.20260907.g85aca163f 992277d Full Changelog : v0.60.0-nightly.20260906.g85aca163f...v0.60.0-nightly.20260907.g85aca163f Assets 5 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "truncated": false,
+    "title": "Release Release v0.60.0-nightly.20260907.g85aca163f · google-gemini/gemini-cli · GitHub",
+    "fetchedAt": "2026-09-07T01:30:25.832Z",
+    "full": "full/f-gh-releases-google-gemini-gemini-cli-0ydkc9d.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-simon-willison-13spr7r",
    "pri": 36,
@@ -2938,31 +2972,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0m6mj6y",
-   "pri": 45,
-   "kind": "note",
-   "title": "Headroom-Drift Replay: A Primitive for Principled Replay Control in GRPO",
-   "ctx": "RL-based post-training for reasoning models is increasingly bottlenecked by repeated fresh rollout generation, particularly in agentic settings where environment interaction dominates wall-clock cost. Replay can reduce this burden by reusing past trajectories, but existing methods typically embed it within larger training pipelines involving exploration, experience restructuring, or mixed-policy optimization. This makes replay's own contribution difficult to isolate. We ask a focused question: h",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03941v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:45:47.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2977,8 +2986,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 56,
-   "slow": 44
+   "daily": 57,
+   "slow": 43
   },
   "routed": 56,
   "unrouted": 44,
