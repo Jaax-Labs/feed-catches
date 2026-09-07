@@ -1,7 +1,245 @@
 {
- "generatedAt": "2026-09-07T01:30:39.091Z",
+ "generatedAt": "2026-09-07T02:00:33.928Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.LG-01j0ipj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments",
+   "ctx": "Deepfake detection models often rely on high-quality inputs, fixed inference paths, and computationally expensive architectures, limiting their use in low-resolution and resource-constrained settings. This paper proposes AdaGate-DF, an adaptive gated deepfake detection framework that uses image-quality cues to route samples through a dual multi-exit system so high-quality images can exit earlier and save compute. We evaluated AdaGate-DF against MaD-CoRN, DefakeHop++, and ShuffleNetV2 on two benc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05320v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:14:57.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-086d8kb",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning from VAE Errors to support ECG-based Differential Diagnosis of Myocardial Scar",
+   "ctx": "Late Gadolinium Enhancement (LGE) on cardiac magnetic resonance is a key marker of myocardial scar, but its limited accessibility motivates routine ECG-based screening. We evaluated whether $β$-variational autoencoder (VAE)-derived ECG representations can discriminate LGE+ from LGE- cardiomyopathic patients in a local cohort of 300 subjects. We compared 32-dimensional features from the foundation ECGx.AI model with those from a shallower $β$-VAE trained on normal PTB-XL ECGs, evaluating downstre",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05294v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:46:18.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0arefj5",
+   "pri": 45,
+   "kind": "note",
+   "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+   "ctx": "LLM agents deployed for software engineering fail expensively: they act confidently wrong, and bad actions are recognized only after costly execution and retry. We present Speculative Uncertainty (SU), a method that recovers a predictive failure signal for a black-box agent from its output tokens alone, with no access to logits, weights, activations, or repeated sampling. Inverting speculative decoding, a small open-weight draft model scores the agent's already-generated trajectory in a single f",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05274v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:30:22.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-0b6s0ph",
+   "pri": 45,
+   "kind": "note",
+   "title": "Shallow neural network approximation in mixed Sobolev spaces",
+   "ctx": "We investigate the best $L_2$ approximation of mixed Sobolev spaces by shallow neural networks with $n$ neurons and general activation functions. We first establish an activation-independent Fourier-block principle: if an activation has univariate approximation order $ρ$ in the sense of the Fourier-block property, then the global approximation rate has algebraic order $\\min\\{α,ρ\\}$ for target functions of mixed smoothness $α$, up to explicit logarithmic factors. To verify this property for concr",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05263v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:23:34.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0v9ru6v",
+   "pri": 45,
+   "kind": "note",
+   "title": "Online Change-point Detection for Cooperative Multi-Agent Reinforcement Learning",
+   "ctx": "Cooperative multi-agent reinforcement learning (MARL) systems rely on past experience for learning coordinated behaviour, but this experience may become unreliable if the environment or task objective changes during training. In such cases, agents first need a way to recognize that the situation has changed before deciding how to adapt. This paper studies online change-point detection for cooperative MARL using reward-derived signals. We propose \\emph{Patterns of Past Rewards} (PPR), a lightweig",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05298v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:49:42.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-0y2ve2t",
+   "pri": 45,
+   "kind": "note",
+   "title": "Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC",
+   "ctx": "As spaceborne computing systems increasingly rely on neural network (NN) accelerators, the opacity of commercial, black-box architectures severely restricts the development of verifiable radiation mitigation strategies. Open-source, register-transfer level (RTL)-accessible accelerators resolve this limitation by enabling user-defined instrumentation, yet few have empirical radiation-response baselines. This work establishes a foundational system-level proton-irradiation baseline for an unmitigat",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05249v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:14:59.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-11fw6ai",
+   "pri": 45,
+   "kind": "note",
+   "title": "GLASS: Graph-Language Alignment with Spherical Scoring for Transferable Graph-Level Anomaly Detection",
+   "ctx": "We introduce GLASS, a framework for graph-level anomaly detection (GLAD) that achieves robust cross-domain transferability through graph-language alignment on the unit hypersphere. GLASS builds a unified representation space by aligning a structure-aware graph encoder with an instruction-aware text embedding via a multi-slice soft cosine objective. Our framework serializes local, global, and semantic graph properties into a compact Graph Descriptor Prompt (GraphDP), creating a text bridge that e",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05253v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:16:16.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-14oq2lu",
+   "pri": 45,
+   "kind": "note",
+   "title": "How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing",
+   "ctx": "Hyper-Connections and their manifold-constrained variant mHC widen a residual pathway from one stream to n, yet how trained models use this capacity remains unclear: how broadly blocks read and write, how strongly the residual pathway mixes streams, and whether the streams carry distinct representations. We examine these properties in the four-stream residual pathway of DeepSeek-V4-Flash using effective stream counts, cross-stream residual weights, and inter-stream cosine similarity. Read/write ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05309v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:02:20.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-1h0z2e4",
+   "pri": 45,
+   "kind": "note",
+   "title": "Optimal Rates for Agentic Networked Information Aggregation",
+   "ctx": "Building on the pioneering paper of Kearns, Roth, and Ryu (SODA'26), we study information aggregation in a networked learning model. The model captures a central pattern in agentic AI: each agent sees only part of the data and passes on only its own conclusion. Their model considers a linear regression problem with the mean squared error (MSE) loss. Agents sit in a DAG and each sees only a subset of the features and its parents' predictions, fits a linear predictor, and passes only its predictio",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05318v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:12:16.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-1ix0fkh",
+   "pri": 45,
+   "kind": "note",
+   "title": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics",
+   "ctx": "Does a simplified legal clause still say what the original said? The checks in current use cannot establish that it does: requiring an identical pair to score highest and an unrelated pair lowest moves lexical overlap and legal force together, so any monotone function of token overlap satisfies both. Our remedy is a dissociation, an item holding surface form fixed while legal force moves. We release LexFlip, 373 minimal perturbations of Quebec statutory French that reverse legal force while pres",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05296v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-07T02:00:26.461Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:49:09.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-google-gemini-gemini-cli-0ydkc9d",
    "pri": 30,
@@ -2727,251 +2965,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-110c0l9",
-   "pri": 45,
-   "kind": "note",
-   "title": "Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks",
-   "ctx": "Temporal integration gives continuous-time recurrent networks memory, but in deep stacks it also delays bottom-up signals and attenuates top-down errors. We develop Recursive Quadrature Filters (RQFs), biologically motivated complex-valued temporal filters that are a special case of diagonal state-space models (SSMs), and ask whether this failure mode can be addressed by making each layer's bottom-up input prospective. Starting from an energy model, we derive the RQF dynamics and show that each ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04134v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:30:11.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1aklee9",
-   "pri": 45,
-   "kind": "note",
-   "title": "Robust PAC Learning of Concurrent Stochastic Games",
-   "ctx": "We introduce the first Probably Approximately Correct (PAC) learning framework for general-sum concurrent stochastic games (CSGs) with transition uncertainty, while addressing the challenge of Nash equilibrium (NE) existence. Our algorithm maintains data-driven $L^1$ confidence sets over transition kernels and solves a robust CSG to compute a social-welfare optimal $\\varepsilon$-NE, using a robust MDP-based exploration mechanism to drive joint state-action coverage. Crucially, we introduce a Nas",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04189v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:58:57.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1samyic",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10794",
-   "ctx": "SYCL: Refactor GGML_SYCL_ENABLE_MKL_FA to global var ( #26863 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45153754 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubu",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10794",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T03:22:00.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-hf-daily-papers-1nwhrxm",
-   "pri": 28,
-   "kind": "note",
-   "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
-   "ctx": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, and keep the top-scoring ones. We show that the selection signal contributes almost nothing. Random Attention keeps the prompt and evicts uniformly at random within each attention head, computing no sc",
-   "acts": [
-    {
-     "label": "Open on HF",
-     "href": "https://huggingface.co/papers/2609.03430",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hf-daily-papers",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T20:00:00.000Z",
-   "sub": "HF daily papers · 38 upvotes",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-0xoqj8t",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.60.0-nightly.20260904.g87a9c71d5",
-   "ctx": "What's Changed fix(core): enforce RFC 9207 issuer identification in MCP OAuth flow by @jvargassanchez-dot in #29117 chore(release): bump version to 0.60.0-nightly.20260901.g0bd1d4397 by @gemini-cli-robot in #29162 Changelog for v0.58.0 by @gemini-cli-robot in #29161 fix(cli): isolate temporary directory for macOS Seatbelt sandbox by @jvargassanchez-dot in #29171 feat(extensions): harden path resol",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260904.g87a9c71d5",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-09-04T02:00:18.093Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T01:40:22.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-hf-daily-papers-133zbbr",
-   "pri": 28,
-   "kind": "note",
-   "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
-   "ctx": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98 of which are real images. For efficient and scalable o",
-   "acts": [
-    {
-     "label": "Open on HF",
-     "href": "https://huggingface.co/papers/2609.03796",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hf-daily-papers",
-   "detectedAt": "2026-09-04T02:00:18.093Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T20:00:00.000Z",
-   "sub": "HF daily papers · 29 upvotes",
-   "extract": {
-    "ok": false,
-    "reason": "extracted text is markup/template, not prose",
-    "fetchedAt": "2026-09-04T02:00:18.093Z"
-   },
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-hf-daily-papers-1k7mgjn",
-   "pri": 28,
-   "kind": "note",
-   "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
-   "ctx": "Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed size. Early community 4-bit quantizations of Qwen3.8-27B (48 GDN layers, 16 attention layers) left the GDN block in 8- or 16-bit precision -- especially its decay and write-strength gates -- on the intuition that errors in a recurrence accumulate over long contexts. We test that intuition by building Minima: NVFP4 W4A4 on all 496 linear layers, GDN i",
-   "acts": [
-    {
-     "label": "Open on HF",
-     "href": "https://huggingface.co/papers/2609.04098",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hf-daily-papers",
-   "detectedAt": "2026-09-04T02:00:18.093Z",
-   "tier": "B",
-   "itemTs": "2026-09-02T20:00:00.000Z",
-   "sub": "HF daily papers · 27 upvotes",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-04T02:00:18.093Z"
-   },
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0jbn3ox",
-   "pri": 45,
-   "kind": "note",
-   "title": "GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs",
-   "ctx": "3D spatial reasoning underpins understanding and acting in the physical world, yet it remains unreliable in current multimodal large language models (MLLMs). These models falter at precise geometric measurement, at transforming between egocentric and allocentric viewpoints, and at grounding fine-grained appearance. The most common remedies fine-tune the model on large-scale curated spatial-reasoning datasets or attach dedicated encoders for 3D geometry, which typically couples the solution to co",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03892v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:11:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0kja1ye",
-   "pri": 45,
-   "kind": "note",
-   "title": "Towards Numerical TOHTN Planning with SMT-based HTN-SAT Encoding",
-   "ctx": "While HTN planning has received significant attention in recent years, support for numerical reasoning remains very limited. In this paper, we investigate numerical Totally-Ordered HTN (TOHTN) planning and show how standard SAT-based encodings can be naturally extended with SMT to handle numeric fluents. In addition, we introduce a benchmark suite for numerical TOHTN planning, providing a first common basis for evaluation in this setting. Experimental results show that this simple encoding alrea",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03938v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:44:37.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0kx55nt",
-   "pri": 45,
-   "kind": "note",
-   "title": "Masked Autoregressive Speech Enhancement with Continuous Neural Audio Codec Representations",
-   "ctx": "Most previous work on speech enhancement (SE) based on masked generative modeling relied on discrete token representations of audio signals, obtained using neural audio codecs (NACs). However, a recent study has shown that continuous latent representations of NACs can be advantageous for SE in terms of speech quality and intelligibility. In this work, we propose masked autoregressive SE (MARSE), a method for SE based on iterative decoding of masked clean speech frames using continuous NAC repres",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03940v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:45:42.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2986,11 +2979,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 57,
-   "slow": 43
+   "slow": 45,
+   "daily": 55
   },
-  "routed": 56,
-  "unrouted": 44,
+  "routed": 58,
+  "unrouted": 42,
   "unmappedLaneFamilies": []
  }
 }
