@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-09-07T15:31:00.284Z",
+ "generatedAt": "2026-09-07T16:30:49.274Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-modelcontextprotocol-python-sdk-0lw9qvz",
+   "pri": 30,
+   "kind": "note",
+   "title": "modelcontextprotocol/python-sdk v2.2.0",
+   "ctx": "pip install -U mcp . Docs: https://py.sdk.modelcontextprotocol.io/ A few defaults changed in this release. If you run a server or client on 2.x, skim these first: Behaviour changes HTTP client redirects are only followed within the endpoint's origin ( #3397 ) Client(\"https://...\") , streamable_http_client and sse_client follow a redirect only if it stays on the same scheme, host and port (or upgra",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.2.0",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-modelcontextprotocol-python-sdk",
+   "detectedAt": "2026-09-07T16:00:38.877Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T15:53:57.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 5728,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . modelcontextprotocol / python-sdk Public Notifications You must be signed in to change notification settings Fork 3.9k Star 24.2k v2.2.0 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags maxisbey released this 07 Sep 15:53 v2.2.0 9972c21 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . pip install -U mcp . Docs: https://py.sdk.modelcontextprotocol.io/ A few defaults changed in this release. If you run a server or client on 2.x, skim these first: Behaviour changes HTTP client redirects are only followed within the endpoint's origin ( #3397 ) Client(\"https://...\") , streamable_http_client and sse_client follow a redirect only if it stays on the same scheme, host and port (or upgrades http to https on the same host). A redirect anywhere else is not followed: the call fails with MCPError and the session stays usable (an SSE connect fails with httpx2.HTTPSta",
+    "truncated": false,
+    "title": "Release v2.2.0 · modelcontextprotocol/python-sdk · GitHub",
+    "fetchedAt": "2026-09-07T16:00:38.877Z",
+    "full": "full/f-gh-releases-modelcontextprotocol-python-sdk-0lw9qvz.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0qcgman",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.5",
+   "ctx": "Release 0.154.0-alpha.5",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.5",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-07T16:00:38.877Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T15:59:21.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 828,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 122k rust-v0.154.0-alpha.5 rust-v0.154.0-alpha.5 9e4895d Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.5 rust-v0.154.0-alpha.5 9e4895d Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 07 Sep 15:59 Release 0.154.0-alpha.5 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.5 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-07T16:00:38.877Z",
+    "full": "full/f-gh-releases-openai-codex-0qcgman.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1stjjvc",
    "pri": 30,
@@ -2762,72 +2828,6 @@
     "title": "Release rust-v0.154.0-alpha.4 · openai/codex · GitHub",
     "fetchedAt": "2026-09-05T01:00:58.570Z",
     "full": "full/f-gh-releases-openai-codex-0q2h0lo.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-simon-willison-142xkko",
-   "pri": 36,
-   "kind": "note",
-   "title": "The Pelican comparison grid for Astra is pretty interesting",
-   "ctx": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the ",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-05T00:00:54.464Z",
-   "tier": "D",
-   "itemTs": "2026-09-04T23:59:05.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 1585,
-    "lead": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn't reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be. Astra low produces a better pelican than ANY of the GPT",
-    "truncated": false,
-    "fetchedAt": "2026-09-05T00:00:54.464Z",
-    "full": "full/f-simon-willison-142xkko.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1hmw0zq",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.153.4",
-   "ctx": "Release 0.153.4",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-04T23:01:02.170Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T22:41:05.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 789,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.6k Star 122k rust-v0.153.4 rust-v0.153.4 3d2ee51 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.153.4 rust-v0.153.4 3d2ee51 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rhan-oai tagged this 04 Sep 22:41 Release 0.153.4 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.153.4 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-04T23:01:02.170Z",
-    "full": "full/f-gh-releases-openai-codex-1hmw0zq.txt"
    },
    "clock": "daily",
    "questions": []
