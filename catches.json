@@ -1,7 +1,120 @@
 {
- "generatedAt": "2026-09-07T18:00:54.376Z",
+ "generatedAt": "2026-09-07T19:01:03.363Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-cascade-1optedw",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"alien mind\" — 3 independent sources in 26h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 26 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• hackernews-firehose — An Alien Mind\n• simonwillison — Research acceleration: The view inside OpenAI\n• zvi — An Alien Mind: Jakub Pachocki Warns Us\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://openai.com/index/an-alien-mind/",
+     "primary": true
+    },
+    {
+     "label": "Open simonwillison",
+     "href": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+     "primary": false
+    },
+    {
+     "label": "Open zvi",
+     "href": "https://thezvi.substack.com/p/an-alien-mind-jakub-pachocki-warns",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-07T18:30:30.547Z",
+   "tier": "X",
+   "families": [
+    "hackernews-firehose",
+    "simonwillison",
+    "zvi"
+   ],
+   "roots": [
+    "hackernews",
+    "simonwillison",
+    "zvi"
+   ],
+   "sub": "cascade shape · hackernews, simonwillison, zvi",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-09-07T18:30:30.547Z"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1tdir9a",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10842",
+   "ctx": "ggml: add gfx90c HIP support ( #26454 ) ggml: add gfx90c HIP support ggml: make gfx90c HIP support compliant with specifications Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45803789 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU)",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10842",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-07T18:30:30.547Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T18:16:03.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1739,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10842 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 07 Sep 18:13 b10842 4735997 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml: add gfx90c HIP support ( #26454 ) ggml: add gfx90c HIP support ggml: make gfx90c HIP support compliant with specifications Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45803789 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
+    "truncated": false,
+    "title": "Release b10842 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-07T18:30:30.547Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1tdir9a.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-zvi-1p6u6l4",
+   "pri": 60,
+   "kind": "note",
+   "title": "An Alien Mind: Jakub Pachocki Warns Us",
+   "ctx": "OpenAI Chief Scientist Jakub Pachocki is dropping truth bombs. Tomorrow I will discuss Astra’s lack of monitorability, and the potential contributing factors to that. The situation is alarming and should freak you out, and briefly it looked, in the wake of leaked architectural changes, like the situation might be even more alarming than it is. Jakub rushed to try and head off misunderstandings tha",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://thezvi.substack.com/p/an-alien-mind-jakub-pachocki-warns",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "zvi",
+   "detectedAt": "2026-09-07T18:30:30.547Z",
+   "tier": "D",
+   "itemTs": "2026-09-07T17:59:28.000Z",
+   "sub": "zvi",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 26220,
+    "lead": "OpenAI Chief Scientist Jakub Pachocki is dropping truth bombs. Tomorrow I will discuss Astra’s lack of monitorability, and the potential contributing factors to that. The situation is alarming and should freak you out, and briefly it looked, in the wake of leaked architectural changes, like the situation might be even more alarming than it is. Jakub rushed to try and head off misunderstandings that might lead to a race to the bottom on monitorability. Table of Contents An Excellent Warning. Branches of the Tech Tree. Universally Better Is Not Required. Alignment To What and To Whom. Monitorability. The Case For Not Stopping. Pacing the Next Frontier. Mea Culpa Cascade. The Calls Are Coming From Inside the House. Actions Speak Louder. An Excellent Warning Jakub Pachocki has now fleshed out his full position on the current state of play. Here are his key points, translated into my own voice: Smarter than human intelligence is coming in our lifetime. Based on internal results, he expects recursive self-improvement in a few years. No one is prepared for the consequences. OpenAI will unilaterally withhold further scaling as needed. OpenAI cannot do it alone. Broader interventions are re",
+    "truncated": false,
+    "fetchedAt": "2026-09-07T18:30:30.547Z",
+    "full": "full/f-zvi-1p6u6l4.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-openai-codex-0qmg7zm",
    "pri": 30,
@@ -2729,108 +2842,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1qc53q8",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10817",
-   "ctx": "sycl: attribute device allocations by site (GGML_SYCL_MEMTRACE) ( #27631 ) define two new environment variables to better understand how much memory is being allocated, and when. This has been invaluable in inproving the --fit algorithm, and is likely to be useful when debugging other memory-related issues. -lv 4 will be required to enable the following: GGML_SYCL_MEMTRACE=1 will show per-site mem",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10817",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-05T09:30:53.364Z",
-   "tier": "A",
-   "itemTs": "2026-09-05T09:28:37.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2394,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10817 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 05 Sep 09:27 b10817 cd8cdf3 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl: attribute device allocations by site (GGML_SYCL_MEMTRACE) ( #27631 ) define two new environment variables to better understand how much memory is being allocated, and when. This has been invaluable in inproving the --fit algorithm, and is likely to be useful when debugging other memory-related issues. -lv 4 will be required to enable the following: GGML_SYCL_MEMTRACE=1 will show per-site memory usage, updated whenever it increases by more than 64MiB. GGML_SYCL_MEMTRACE=2 will show every allocation and deallocation. To change the default 64MiB threshold for report",
-    "truncated": false,
-    "title": "Release b10817 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-05T09:30:53.364Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1qc53q8.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1uhz54t",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10818",
-   "ctx": "sycl : fix test-backend-ops CI break &amp;&amp; restore Kronecker product FWH…",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10818",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-05T07:01:09.289Z",
-   "tier": "A",
-   "itemTs": "2026-09-05T02:37:12.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1160,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10818 b10818 4d91760 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10818 b10818 4d91760 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode philip-jingxin tagged this 05 Sep 02:37 sycl : fix test-backend-ops CI break && restore Kronecker product FWH… Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release b10818 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-05T07:01:09.289Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1uhz54t.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-1mn88yz",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.60.0-nightly.20260905.g85aca163f",
-   "ctx": "What's Changed fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in #28863 fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in #29170 fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260905.g85aca163f",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-09-05T01:30:58.431Z",
-   "tier": "A",
-   "itemTs": "2026-09-05T01:26:55.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1271,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.5k Star 107k Release v0.60.0-nightly.20260905.g85aca163f Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 05 Sep 01:26 v0.60.0-nightly.20260905.g85aca163f 45a3422 What's Changed fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in #28863 fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in #29170 fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel-byte in #29115 New Contributors @jesussamuel-byte made their first contribution in #29170 Full Changelog : v0.60.0-nightly.20260904.g87a9c71d5...v0.60.0-nightly.20260905.g85aca163f Contributors jesussamuel-byte and amelidev Assets 5 Loading Uh oh! Th",
-    "truncated": false,
-    "title": "Release Release v0.60.0-nightly.20260905.g85aca163f · google-gemini/gemini-cli · GitHub",
-    "fetchedAt": "2026-09-05T01:30:58.431Z",
-    "full": "full/f-gh-releases-google-gemini-gemini-cli-1mn88yz.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2845,11 +2856,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 44,
-   "slow": 56
+   "daily": 43,
+   "slow": 57
   },
-  "routed": 51,
-  "unrouted": 49,
+  "routed": 49,
+  "unrouted": 51,
   "unmappedLaneFamilies": []
  }
 }
