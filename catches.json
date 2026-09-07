@@ -1,7 +1,75 @@
 {
- "generatedAt": "2026-09-07T06:30:56.460Z",
+ "generatedAt": "2026-09-07T07:30:36.726Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1ui5g4r",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10834",
+   "ctx": "ggml: allow backend inputs to not create another split ( #28387 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45674860 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) U",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10834",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-07T07:30:31.627Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T07:20:16.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1676,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10834 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 07 Sep 07:18 b10834 992cb50 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml: allow backend inputs to not create another split ( #28387 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45674860 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows a",
+    "truncated": false,
+    "title": "Release b10834 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-07T07:30:31.627Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ui5g4r.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1vw3glm",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10833",
+   "ctx": "vulkan: rms_norm fusion opportunities ( #28024 ) Support RMS_NORM + MUL + ADD (+ MUL) and RMS_NORM + VIEW + SET_ROWS. Extend ROPE + VIEW + SET_ROWS to support IMROPE. Worth around 4% in gemma4 on my system. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45669354 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLE",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10833",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-07T07:00:34.857Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T06:51:31.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1817,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10833 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 07 Sep 06:49 b10833 9ac8c40 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: rms_norm fusion opportunities ( #28024 ) Support RMS_NORM + MUL + ADD (+ MUL) and RMS_NORM + VIEW + SET_ROWS. Extend ROPE + VIEW + SET_ROWS to support IMROPE. Worth around 4% in gemma4 on my system. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45669354 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (",
+    "truncated": false,
+    "title": "Release b10833 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-07T07:00:34.857Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1vw3glm.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1vc497o",
    "pri": 30,
@@ -2775,65 +2843,6 @@
    "questions": [
     "model-switch",
     "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-15sjxyn",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp v0.4.0",
-   "ctx": "Overview llama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and Nemotron-3-Puzzle support, on-demand tensor reading, per-slot server context limits, video input options, and a ggml update to 0.23.0 with major sparse flash attention and RDMA work. API changes Added llama_lazy_mode and lazy_mode ( #27794 ). Added max_buf_size to quantize params ( #27795 ). Bumped session/state versions for KV-cell toke",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T20:01:02.619Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T19:57:12.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 17964,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k v0.4.0 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 04 Sep 19:56 &middot; 7 commits to 427291b5b34cd914a31b3fd3b61a68f6184f4b9f since this release v0.4.0 5266f24 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Overview llama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and Nemotron-3-Puzzle support, on-demand tensor reading, per-slot server context limits, video input options, and a ggml update to 0.23.0 with major sparse flash attention and RDMA work. API changes Added llama_lazy_mode and lazy_mode ( #27794 ). Added max_buf_size to quantize params ( #27795 ). Bumped session/state versions for KV-cell token tracking ( #27762 ). Added mtmd_input_part and mtmd_tokenize_from_parts() ( #28250 ). Made mtmd_token",
-    "truncated": false,
-    "title": "Release v0.4.0 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-04T20:01:02.619Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-15sjxyn.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1qm4pf7",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10816",
-   "ctx": "metal : add remaining fa-vec tunings for M3 ( #28396 ) addition of m3 in fa_vec_tuned_table adding q4_0,q4_1,q5_0,q5_1 in ggml-metal-tuning Fix formatting in ggml-metal-tuning.cpp Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45337508 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCF",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10816",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T20:01:02.619Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T20:00:40.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
    ]
   }
  ],
