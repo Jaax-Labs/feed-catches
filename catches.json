@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-07T19:01:03.363Z",
+ "generatedAt": "2026-09-07T20:00:48.422Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1txhyn8",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10844",
+   "ctx": "vulkan: add DeepSeek-V4 hyper-connection fused ops (DSV4_HC_COMB/PRE/POST) ( #26578 ) vulkan: add DeepSeek-V4 hyper-connection fused ops (DSV4_HC_COMB/PRE/POST) CUDA has these ops from the DeepSeek-V4 merge and Metal gained them in PR 26459. Vulkan was the last major backend running the unfused primitive chain. On DeepSeek-V4-Flash the unfused Sinkhorn comb chain alone takes about 32% of decode op",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10844",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-07T19:30:34.135Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T19:30:19.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 3239,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10844 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 07 Sep 19:28 b10844 7a333e7 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: add DeepSeek-V4 hyper-connection fused ops (DSV4_HC_COMB/PRE/POST) ( #26578 ) vulkan: add DeepSeek-V4 hyper-connection fused ops (DSV4_HC_COMB/PRE/POST) CUDA has these ops from the DeepSeek-V4 merge and Metal gained them in PR 26459. Vulkan was the last major backend running the unfused primitive chain. On DeepSeek-V4-Flash the unfused Sinkhorn comb chain alone takes about 32% of decode op time on gfx1151 (Strix Halo), spread over roughly 16k dispatches per token. dsv4_hc_comb runs the full 20-iteration Sinkhorn in registers. A token's 4x4 comb matrix lives in ",
+    "truncated": false,
+    "title": "Release b10844 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-07T19:30:34.135Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1txhyn8.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-cascade-1optedw",
    "pri": 4,
@@ -2807,40 +2841,6 @@
    "questions": [
     "model-switch",
     "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1u7zjfu",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10819",
-   "ctx": "metal : fix memory leak in early return ( #28399 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45438612 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10819",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-05T11:01:17.369Z",
-   "tier": "A",
-   "itemTs": "2026-09-05T10:38:50.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1661,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10819 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 05 Sep 10:36 b10819 6a1a922 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix memory leak in early return ( #28399 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45438612 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Ad",
-    "truncated": false,
-    "title": "Release b10819 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-05T11:01:17.369Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1u7zjfu.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
    ]
   }
  ],
