@@ -1,7 +1,127 @@
 {
- "generatedAt": "2026-09-07T03:00:48.401Z",
+ "generatedAt": "2026-09-07T03:31:04.823Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-021i1vv",
+   "pri": 45,
+   "kind": "note",
+   "title": "Technical Manual for a Toolkit for Measuring Contextual Individuation in Transformer Language Models",
+   "ctx": "A transformer language model assigns a single, context-independent vector to a word type at its embedding layer, yet is widely believed to individuate that word's occurrences by context in its later layers. Testing this belief cleanly requires a construct that holds the word form fixed while its context and intended sense vary in a controlled, labeled way. This manual documents an open toolkit built around such a construct, which we call a bridge form: a single written word that recurs, unchange",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05333v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T03:30:47.338Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:38:39.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0ds6gfz",
+   "pri": 45,
+   "kind": "note",
+   "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+   "ctx": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property. Paraphrasing the instruction alone can substantially change predicted progress scores, and can even flip identical robot behavior between failure and success. To measure this failure mode, we introdu",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05401v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T03:30:47.338Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:47:58.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0n26l3j",
+   "pri": 45,
+   "kind": "note",
+   "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+   "ctx": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source models consistently underperform in this multi-step setting, and no existing benchmark measures the gap. We introduce the Korean Open Public API Benchmark (KOPA-Bench), comprising 145 real-world tasks. To close this gap, we present EDGE, an Execution-grounded Dynamic Graph for tool-calling data synthEsi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05395v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T03:30:47.338Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:44:52.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-11lv223",
+   "pri": 45,
+   "kind": "note",
+   "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+   "ctx": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-choice questions constructed from the wearable time series, blood biomarkers, and demographics of 200 real users, each with up to 500 days of daily measurements. WearableQA preserves authentic wearable ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05405v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T03:30:47.338Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T17:52:37.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1fztdjd",
+   "pri": 45,
+   "kind": "note",
+   "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+   "ctx": "Model upgrades are routine; memory migrations are not. An agent can keep the same memory store and still forget: a new model may interpret old notes differently, mixed embedding versions may break retrieval, and repair may fail without the original evidence. We compare memory as the same history is preserved verbatim for long-context reading (LC-RAW), divided into chunks for retrieval-augmented generation (RAG), compressed by a model into natural-language notes (NOTES), or normalized into a fixe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05339v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T03:30:47.338Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:44:17.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.LG-0ef3i8v",
    "pri": 45,
@@ -2808,147 +2928,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-simon-willison-0h15yt4",
-   "pri": 36,
-   "kind": "note",
-   "title": "August newsletter is out",
-   "ctx": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the momen",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-04T06:00:24.207Z",
-   "tier": "D",
-   "itemTs": "2026-09-04T05:54:40.000Z",
-   "sub": "simonwillison",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-latent-space-0uvd709",
-   "pri": 55,
-   "kind": "note",
-   "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-   "ctx": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI’s most successful launch since Sora and certainly GPT-4 or GPT-5 . You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic’s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/20",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "latent-space",
-   "detectedAt": "2026-09-04T05:30:18.306Z",
-   "tier": "D",
-   "itemTs": "2026-09-04T05:18:11.000Z",
-   "sub": "latentspace",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 16636,
-    "lead": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI’s most successful launch since Sora and certainly GPT-4 or GPT-5 . You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic’s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as “our most intelligent and aligned model yet,” positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , a",
-    "truncated": true,
-    "fetchedAt": "2026-09-04T05:30:18.306Z",
-    "full": "full/f-latent-space-0uvd709.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1skmk7b",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10795: sycl: fuse rms_norm+mul+add and add+add residual chains (#27610)",
-   "ctx": "Fuse RMS_NORM+MUL+ADD and ADD+ADD under GGML_SYCL_ENABLE_FUSION. ADD+ADD uses the same binbcast indexing and type matrix as standalone add() (f32, f16, f16/f32, i32, i16, bf16, including broadcast and non-contiguous). Unsupported combinations fall back to two add() launches.",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10795",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-04T04:30:18.756Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T04:05:40.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1426,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.7k Star 127k b10795 b10795 6703d78 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10795: sycl: fuse rms_norm+mul+add and add+add residual chains (#27610) b10795 6703d78 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode newjordan tagged this 04 Sep 04:05 Fuse RMS_NORM+MUL+ADD and ADD+ADD under GGML_SYCL_ENABLE_FUSION. ADD+ADD uses the same binbcast indexing and type matrix as standalon",
-    "truncated": false,
-    "title": "Release b10795: sycl: fuse rms_norm+mul+add and add+add residual chains (#27610) · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-04T04:30:18.756Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1skmk7b.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0034azz",
-   "pri": 45,
-   "kind": "note",
-   "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
-   "ctx": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leaving the role of training data unclear. We examine this role at the data-minimal limit by training on a single query. One-shot OPD keeps improving for hundreds of steps and recovers most of full-data OPD's gain across task domains and model families. We explain this result through the states visited during training and t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04172v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:54:38.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0byemt1",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
-   "ctx": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and undesirable behaviors. We report a case study on a research collective of 100 autonomous LLM agents tasked with proving formal mathematical conjectures. Within the swarm, cheating spontaneously emerged and was later challeng",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04170v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:54:09.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2963,11 +2942,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 45,
-   "daily": 55
+   "slow": 47,
+   "daily": 53
   },
-  "routed": 59,
-  "unrouted": 41,
+  "routed": 57,
+  "unrouted": 43,
   "unmappedLaneFamilies": []
  }
 }
