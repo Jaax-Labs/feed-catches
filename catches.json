@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-07T14:30:54.165Z",
+ "generatedAt": "2026-09-07T15:00:47.578Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1stjjvc",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10840",
+   "ctx": "CUDA: branchless Q4_K/Q5_K unpack to speed up mmvq, L2 prefetch on DGX Spark ( #26705 ) Update Q4_K and Q5_K to use branchless computation, which stops the scale unpack being re-executed for every column in mmvq, improving perf at batch sizes &gt; 1 Gating the change off from DGX Spark due to no gain Adding prefetch gated to Spark, making branchless change in Q4_K and Q5_K general and modifying sw",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10840",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-07T15:00:38.263Z",
+   "tier": "A",
+   "itemTs": "2026-09-07T14:33:55.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2614,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10840 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 07 Sep 14:31 b10840 73ab759 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . CUDA: branchless Q4_K/Q5_K unpack to speed up mmvq, L2 prefetch on DGX Spark ( #26705 ) Update Q4_K and Q5_K to use branchless computation, which stops the scale unpack being re-executed for every column in mmvq, improving perf at batch sizes > 1 Gating the change off from DGX Spark due to no gain Adding prefetch gated to Spark, making branchless change in Q4_K and Q5_K general and modifying switch points based on latest perf data Guard the mmvq L2 prefetch against MUSA as well as HIP Define the mmvq L2 prefetch only under the Spark guard Update switch point for Q4_K t",
+    "truncated": false,
+    "title": "Release b10840 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-07T15:00:38.263Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1stjjvc.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-modelcontextprotocol-python-sdk-0gk8s0b",
    "pri": 30,
@@ -2797,38 +2831,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-gh-releases-vllm-project-vllm-0aet6lm",
-   "pri": 30,
-   "kind": "note",
-   "title": "vllm-project/vllm v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
-   "ctx": "Generated-by: Codex codex@openai.com Signed-off-by: Codex codex@openai.com",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-vllm-project-vllm",
-   "detectedAt": "2026-09-04T23:01:02.170Z",
-   "tier": "A",
-   "itemTs": "2026-09-04T22:58:29.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 917,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . vllm-project / vllm Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 21.7k Star 91k v0.29.0rc4 v0.29.0rc4 d2906cc Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill v0.29.0rc4 d2906cc Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags codex tagged this 04 Sep 22:58 Generated-by: Codex Signed-off-by: Codex Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill · vllm-project/vllm · GitHub",
-    "fetchedAt": "2026-09-04T23:01:02.170Z",
-    "full": "full/f-gh-releases-vllm-project-vllm-0aet6lm.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2846,8 +2848,8 @@
    "daily": 44,
    "slow": 56
   },
-  "routed": 50,
-  "unrouted": 50,
+  "routed": 51,
+  "unrouted": 49,
   "unmappedLaneFamilies": []
  }
 }
