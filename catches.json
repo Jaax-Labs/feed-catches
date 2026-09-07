@@ -1,7 +1,473 @@
 {
- "generatedAt": "2026-09-07T02:00:33.928Z",
+ "generatedAt": "2026-09-07T02:30:37.311Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-0358iv6",
+   "pri": 45,
+   "kind": "note",
+   "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+   "ctx": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning in both language and vision transformers. However, as models and datasets have scaled, dropout - particularly layer dropout - has largely disappeared from large language models (LLMs) pre-training recipes. While some prior work has reported that dropout can degrade accuracy, no comprehensive study has quantified, let alone mitigated, this effect. In this st",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05275v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:30:47.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-05tjm14",
+   "pri": 45,
+   "kind": "note",
+   "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+   "ctx": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC operations published between 2023 and March 2026. Each study is classified across five application families and three LLM method families and assessed for evidence realism, deployment readiness, and ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05314v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:08:05.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0apzrcn",
+   "pri": 45,
+   "kind": "note",
+   "title": "CONTINUITY: Security-Context Contracts for Composable LLM Agent Controls",
+   "ctx": "LLM agent systems increasingly combine provenance tracking, authorization, policy enforcement, protocol adapters, and execution controls. However, individually correct security mechanisms do not necessarily compose into an end-to-end secure system: security-critical context may be dropped, widened, rebound, or reinterpreted as actions cross component boundaries. We identify this failure mode as security-context discontinuity and introduce CONTINUITY, a framework for verifiable composition of age",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05269v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:26:35.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0m72nht",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
+   "ctx": "Automated reference-based evaluation methods play a critical role in assessing natural language generation systems. Existing meta-evaluation primarily measures agreement with human judgments or benchmark labels, providing limited insight into evaluator behavior under controlled conditions. We introduce behavioral correctness assumptions, a complementary framework for evaluating reference-based automatic evaluation methods. We define a taxonomy of correctness-preserving and correctness-altering a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05289v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:43:09.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0qa5zou",
+   "pri": 45,
+   "kind": "note",
+   "title": "Testing Interchangeability in LLM Agent Teams",
+   "ctx": "Production multi-agent systems replace agents constantly, on the assumption that an agent filling a role is interchangeable with any other agent that can do the job. We test that assumption. Eight teams per setting are formed independently from one base model on the same tasks, each agent keeping a private notebook across ten formation episodes; we then trade role-matched agents between teams and measure what changes on held-out tasks. Against a placebo that reproduces the disruption of a roster",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05279v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:32:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1017dvw",
+   "pri": 45,
+   "kind": "note",
+   "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+   "ctx": "On-policy distillation (OPD) provides dense, per-token supervision for language model post-training, but its effectiveness is bottlenecked by teacher quality: external teachers suffer from distribution mismatch, while self-distillation with privileged conditioning is limited by in-context learning capacity. We propose \\textbf{RISE} (\\textbf{R}ecursive \\textbf{I}mprovement via \\textbf{S}elf-\\textbf{E}xtrapolating Policy Distillation), which constructs a synthetic teacher directly from the model's",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05295v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:47:51.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-11pu7ni",
+   "pri": 45,
+   "kind": "note",
+   "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
+   "ctx": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLMs often exhibit uncertainty, where LLMs often produce a proliferation of divergent branches at each reasoning step even when fed the same prompting inputs, and certain branches exhibit evidently incredible, even nonsensical, reasoning chains and results. In this paper, we propose the Graph-complexity-based UncerTainty (GUT) method for investigating the reaso",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05284v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:40:12.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14oq2lu",
+   "pri": 45,
+   "kind": "note",
+   "title": "How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing",
+   "ctx": "Hyper-Connections and their manifold-constrained variant mHC widen a residual pathway from one stream to n, yet how trained models use this capacity remains unclear: how broadly blocks read and write, how strongly the residual pathway mixes streams, and whether the streams carry distinct representations. We examine these properties in the four-stream residual pathway of DeepSeek-V4-Flash using effective stream counts, cross-stream residual weights, and inter-stream cosine similarity. Read/write ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05309v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:02:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1fzmywz",
+   "pri": 45,
+   "kind": "note",
+   "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+   "ctx": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model reasoning under increasing spatial and procedural complexity. We introduce \\textbf{RoboSPA} (\\textbf{Robo}t \\textbf{S}patial-\\textbf{P}rocedural \\textbf{A}ssessment), a large-scale robotic manipulation dataset and benchmark for diagnosing embodied rea",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05324v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:19:01.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1mlzxvp",
+   "pri": 45,
+   "kind": "note",
+   "title": "AI for Computational Design Science: A Responsible Human-AI Framework and Case Study on Short-Form Video Safety Surveillance",
+   "ctx": "Artificial intelligence (AI) is transforming not only what information systems researchers design, but also how design research is conducted. Yet existing literature offers limited guidance for computational design science (CDS) when AI actively participates in problem formulation, resource construction, design search, evaluation, and knowledge abstraction. We develop AI for Computational Design Science (AI4CDS), a five-phase methodological framework in which AI expands problem and design search",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05270v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:26:41.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-03km41i",
+   "pri": 45,
+   "kind": "note",
+   "title": "Self-Supervised Lexical Representation Learning for Fast, Large-Scale Phylogenetic Inference",
+   "ctx": "Computational phylogenetics has become an essential tool in historical linguistics, yet its application at a global scale remains constrained by two factors: the labor-intensive manual annotation of cognacy judgments required for character-based methods and the substantial computational cost of inference on large datasets. This paper introduces a fully self-supervised contrastive learning framework that learns lexical representations directly from raw IPA-transcribed wordlists, without requiring",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05262v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:23:12.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-05tjm14",
+   "pri": 45,
+   "kind": "note",
+   "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+   "ctx": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC operations published between 2023 and March 2026. Each study is classified across five application families and three LLM method families and assessed for evidence realism, deployment readiness, and ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05314v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T16:08:05.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0jal3vi",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment",
+   "ctx": "The integration of artificial intelligence (AI), particularly large language models (LLMs), into educational assessment has opened new opportunities to enhance the efficiency and scalability of grading processes. This study presents the design and validation of an AI-assisted scoring framework for written responses in a large-scale national assessment. The proposed approach focuses on short written texts of approximately 150-200 words and incorporates a human-in-the-loop strategy to preserve ass",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05143v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T13:47:29.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0w4ytlc",
+   "pri": 45,
+   "kind": "note",
+   "title": "From Vision to Language: Investigating Causal Information Flow in Multimodal Decision-Making",
+   "ctx": "Vision-Language Models are commonly evaluated through their final predictions, but understanding whether these decisions are grounded in visual evidence requires tracing how visual information contributes to language-based decisions. With this purpose in mind, we investigate cross-modal information flow in a video-based generative multiple-choice-like setting by applying a layer-wise causal intervention on video-text attention pathways. We target spatial, causal, and temporal visual reasoning. O",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05149v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T13:52:27.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-138cg3n",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+   "ctx": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to verify. We propose a verifier-guided explainable reasoning framework for transparent educational question answering that combines gold-anchored QLoRA, task-aware symbolic routing, and group-relative RLVR. Qwen2.5-3B-Instruct is first adapted with field-weighted QLoRA supervision anchored to authoritative answers. A lightweight router then assigns logic prob",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05221v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T14:52:06.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-180fk0s",
+   "pri": 45,
+   "kind": "note",
+   "title": "Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG",
+   "ctx": "Retrieval-Augmented Generation (RAG) enhances language models with external knowledge, but the lengthy retrieved context inflates the input and degrades inference efficiency. Soft context compression encodes each document into a substantially shorter embedding sequence. However, most existing approaches are trained by distilling outputs from uncompressed RAG systems, inherently limiting their performance relative to the original model. To address this limitation, we propose DEX-Comp, a two-stage",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05152v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T13:53:43.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1gophx0",
+   "pri": 45,
+   "kind": "note",
+   "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
+   "ctx": "Assessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable when extrapolating to hypothetical scenarios, while field pilot programs are highly costly. In this paper, we propose using large language models (LLMs) as policy-assessment tools adapted from general-purpose models. We present FlexPension-LLM, the first domain-specialized large language model for a hierarchical pension-enrollment prediction task among flexibl",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05189v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T14:24:27.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1ix0fkh",
+   "pri": 45,
+   "kind": "note",
+   "title": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics",
+   "ctx": "Does a simplified legal clause still say what the original said? The checks in current use cannot establish that it does: requiring an identical pair to score highest and an unrelated pair lowest moves lexical overlap and legal force together, so any monotone function of token overlap satisfies both. Our remedy is a dissociation, an item holding surface form fixed while legal force moves. We release LexFlip, 373 minimal perturbations of Quebec statutory French that reverse legal force while pres",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05296v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T15:49:09.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1qw8lpd",
+   "pri": 45,
+   "kind": "note",
+   "title": "Large Language Models with At Most One Spike per Neuron",
+   "ctx": "Leveraging their inherent sparse event-driven computation, spiking neural networks (SNNs) offer a promising path toward energy-efficient large language models (LLMs). Time-to-first-spike (TTFS) coding generates at most one spike per neuron within a time window, yielding extremely low firing rates. However, conventional TTFS SNNs are restricted to specific structures, making it challenging to encode certain blocks in LLM -- such as layer normalization and matrix multiplication --using TTFS. To ov",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05151v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T13:53:28.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1tvykg7",
+   "pri": 45,
+   "kind": "note",
+   "title": "Measuring the Novelty of Biomedical Papers Using the Latent Distances between Knowledge Units",
+   "ctx": "Measuring the novelty of scientific papers is a central concern in research evaluation and scientometrics. From a recombination perspective, prior studies have largely focused on the co-occurrence of knowledge units to assess the novelty of scientific papers. However, these studies often overlook other relationships between knowledge units. This narrow view may result in inaccurate or incomplete evaluations of novelty for scientific papers. To fill this gap, this study introduces a comprehensive",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.05175v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-07T02:30:31.329Z",
+   "tier": "B",
+   "itemTs": "2026-09-04T14:14:26.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.LG-01j0ipj",
    "pri": 45,
@@ -2503,468 +2969,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-14cx6ci",
-   "pri": 45,
-   "kind": "note",
-   "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
-   "ctx": "Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\\times$ longer yet no more accurate. We trace this to three deficiencies - incomplete error observation, limited search diversity, and unreliable selection - and propose ESPO (Error-Structured Prompt Optimization), which decomposes prompt optimization into three phases: Diagnose clusters all training errors into structural patterns in one round; Propose genera",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04197v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:59:37.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1frn1xo",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Computationally Feasible Framework for Causal Probabilistic Explanation",
-   "ctx": "Explaining why a specific outcome occurred, and which inputs deserve the blame or credit, is central to philosophical, scientific, and policy analysis. Existing tools split into two camps. The theory of actual causality (AC) gives principled verdicts, but only for toy-sized models, because computing them requires enumerating counterfactual scenarios. Scalable attribution methods like SHAP (or even causal SHAP) at least partially ignore the causal structure that generated the data, and can give a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04177v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:55:43.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0034azz",
-   "pri": 45,
-   "kind": "note",
-   "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
-   "ctx": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leaving the role of training data unclear. We examine this role at the data-minimal limit by training on a single query. One-shot OPD keeps improving for hundreds of steps and recovers most of full-data OPD's gain across task domains and model families. We explain this result through the states visited during training and t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04172v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:54:38.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-00jor7v",
-   "pri": 45,
-   "kind": "note",
-   "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
-   "ctx": "Reasoning traces from chain-of-thought models appear to offer a legible window into how a model arrives at its answer. A growing body of work treats them as such, using LLM judges to diagnose errors, evaluate faithfulness, and provide step-level supervision via process reward models and generative critics. These practices rely on the text of a reasoning step carrying information about its functional role. But does the text actually encode information about which reasoning steps matter? We operat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04194v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:59:08.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0cjjzck",
-   "pri": 45,
-   "kind": "note",
-   "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
-   "ctx": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to the original implementation. We study over-editing, the tendency of a model to rewrite code beyond what is required to fix a bug. We construct an evaluation framework from 400 BigCodeBench problems by injecting controlled AST-level corruptions into reference solutions, giving each repair task a known minimal patch. Acros",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04061v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T16:36:05.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0euemzu",
-   "pri": 45,
-   "kind": "note",
-   "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
-   "ctx": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally helpful for learning. We design controlled experiments to isolate this. First, we confirm that repetition is necessary for acquisition and clarify that paraphrasing helps only at smaller batch sizes. Second, holding the token budget fixed, allocating tokens from document repetition to auxiliary views improves learning",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04180v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:57:02.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0gpokyw",
-   "pri": 45,
-   "kind": "note",
-   "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-   "ctx": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time, teacher models generate task-specific examples that are used to train a small adapter for a compact interpreter. The resulting function runs without the teachers and c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04199v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:59:49.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0itr3yi",
-   "pri": 45,
-   "kind": "note",
-   "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
-   "ctx": "Reinforcement learning with verifiable rewards (RLVR) and on-policy distillation (OPD) have emerged as two dominant methods for post-training reasoning LLMs. Prior work uses OPD's dense token-level supervision to complement the sparse RL reward, fusing the two signals within a single step: either as a \\emph{weighted-additive combination} or a \\emph{teacher-modulated rescaling} of the RL advantage. In this paper, we show that a simple two-stage scheme, OPD-then-RL, consistently outperforms pure O",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04108v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:14:27.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-14cx6ci",
-   "pri": 45,
-   "kind": "note",
-   "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
-   "ctx": "Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\\times$ longer yet no more accurate. We trace this to three deficiencies - incomplete error observation, limited search diversity, and unreliable selection - and propose ESPO (Error-Structured Prompt Optimization), which decomposes prompt optimization into three phases: Diagnose clusters all training errors into structural patterns in one round; Propose genera",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04197v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:59:37.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1a4sdxo",
-   "pri": 45,
-   "kind": "note",
-   "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
-   "ctx": "MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing the same concepts but different attribute-object bindings. Yet the same backbone can resolve such distinctions when used as a cross-attentive reranker, motivating us to distill its compositional judgments into the embedding model. We propose CORE, which synthesizes candidate lists spanning five compositional matching levels and introduces a Rank-KL objective that trains the embed",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04083v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T16:50:29.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1fizd3q",
-   "pri": 45,
-   "kind": "note",
-   "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
-   "ctx": "As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarce. However, environments are what agent post-training actually requires: each can be re-queried into many verifiable tasks and provides execution feedback, whereas a trajectory is a single frozen demonstration. Rather than generating environments from scratch, we observe that the tool-execution history in existing trajectories exposes the structure an",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04148v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:41:05.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-1ri2gb4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Last Translation Benchmark",
-   "ctx": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation metrics are unreliable, vulnerable to reward-hacking, and provide unactionable assessments. Even gold human evaluation is not problem-free, because it often lacks reproducibility, objectivity, and scalability. Overall, th",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04173v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:54:45.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-00jor7v",
-   "pri": 45,
-   "kind": "note",
-   "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
-   "ctx": "Reasoning traces from chain-of-thought models appear to offer a legible window into how a model arrives at its answer. A growing body of work treats them as such, using LLM judges to diagnose errors, evaluate faithfulness, and provide step-level supervision via process reward models and generative critics. These practices rely on the text of a reasoning step carrying information about its functional role. But does the text actually encode information about which reasoning steps matter? We operat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04194v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:59:08.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-01wlco3",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
-   "ctx": "This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registration, and a Webots digital twin, enabling controlled experiments that connect simulation-based autonomous-driving methods to real-world execution. As a first baseline, we implement command-conditioned behavior cloning, in which a neural policy receives ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04147v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:40:20.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-06yadj2",
-   "pri": 45,
-   "kind": "note",
-   "title": "Constant regret in general games via higher-order optimism",
-   "ctx": "We introduce an uncoupled learning algorithm which, when employed by all players of an arbitrary $N$-player normal form game with up to $K$ actions per player, guarantees $O(N^3\\log^2 K)$ individual regret, uniformly over the horizon of play. The proposed algorithm - which we call higher-order optimism with discounting (HOOD) is a variant of optimistic follow-the-regularized-leader (OptFTRL) that combines a discounted $(N+1)$-th order predictor with entropic regularization over a suitable \"lifti",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04113v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:16:13.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0c03wmj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Parameterised graph theory for tensor networks: entanglement rerouting, structural simplification, and agnostic tomography",
-   "ctx": "Parameterised graph theory studies how the complexity of graph-theoretic problems depends on structural parameters of the input graph. This perspective has proved useful in analysing tensor-network simulation (Markov and Shi, 2008). Its implications for tensor-network representations and tomography are less well understood. In particular, which graph parameters determine whether a tensor-network state (TNS) admits a tractable matrix product state (MPS) or tree tensor network (TTN) representation",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04165v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:50:38.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0gpokyw",
-   "pri": 45,
-   "kind": "note",
-   "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-   "ctx": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time, teacher models generate task-specific examples that are used to train a small adapter for a compact interpreter. The resulting function runs without the teachers and c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04199v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:59:49.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0itr3yi",
-   "pri": 45,
-   "kind": "note",
-   "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
-   "ctx": "Reinforcement learning with verifiable rewards (RLVR) and on-policy distillation (OPD) have emerged as two dominant methods for post-training reasoning LLMs. Prior work uses OPD's dense token-level supervision to complement the sparse RL reward, fusing the two signals within a single step: either as a \\emph{weighted-additive combination} or a \\emph{teacher-modulated rescaling} of the RL advantage. In this paper, we show that a simple two-stage scheme, OPD-then-RL, consistently outperforms pure O",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04108v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:14:27.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0nn3cuf",
-   "pri": 18,
-   "kind": "note",
-   "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
-   "ctx": "Language-model judges now gate training data, score generations, and drive leaderboards. The judge is then a measurement instrument, resting on one rarely stated assumption: the same request, sent to the same model name, reads the same tomorrow. We audited that assumption in two preregistered campaigns with every threshold fixed in advance; neither got past validating its instrument. Across 52,988 audited request attempts, same-window repeat rankings agreed at Spearman 0.400 against a required 0",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04198v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:59:43.000Z",
-   "sub": "arXiv cs.LG · introduces \"Clean Engineering\"",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0s63qdk",
-   "pri": 45,
-   "kind": "note",
-   "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
-   "ctx": "As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges. Traditional pipelining techniques distributing the computation across different on-chip processing units, while effective for throughput, do not address the latency demands posed by modern neural networks with complex interdependencies and extensive operator parallelism. There is a potential in leveraging operator parallelism to enable concurren",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.04168v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-04T03:30:26.585Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T17:53:44.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2982,8 +2986,8 @@
    "slow": 45,
    "daily": 55
   },
-  "routed": 58,
-  "unrouted": 42,
+  "routed": 60,
+  "unrouted": 40,
   "unmappedLaneFamilies": []
  }
 }
