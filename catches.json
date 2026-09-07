@@ -1,7 +1,141 @@
 {
- "generatedAt": "2026-09-06T23:01:18.413Z",
+ "generatedAt": "2026-09-07T00:30:39.346Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-13spr7r",
+   "pri": 36,
+   "kind": "note",
+   "title": "Research acceleration: The view inside OpenAI",
+   "ctx": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much ev",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-07T00:30:26.030Z",
+   "tier": "D",
+   "itemTs": "2026-09-06T23:57:40.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 848,
+    "lead": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
+    "truncated": false,
+    "fetchedAt": "2026-09-07T00:30:26.030Z",
+    "full": "full/f-simon-willison-13spr7r.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-github-new-repos-0jis7f9",
+   "pri": 25,
+   "kind": "note",
+   "title": "biusberline/cloudflare-turnstile-solver — 224★ in 0.4d (595★/day)",
+   "ctx": "A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/biusberline/cloudflare-turnstile-solver",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-07T00:00:36.133Z",
+   "tier": "C",
+   "itemTs": "2026-09-06T14:58:51.000Z",
+   "sub": "github · Python",
+   "extract": {
+    "ok": true,
+    "chars": 4661,
+    "lead": "Cloudflare Turnstile Solver — Get a Turnstile Token in Python The Cloudflare Turnstile Solver package makes it easy to work with Cloudflare Turnstile from Python: it finds the Turnstile sitekey on any page, creates a valid Turnstile token via the Peak API, and hands you a cf-turnstile-response token you can inject into a form or request. It is a small, dependency-free library plus a CLI — designed for CI pipelines, QA automation, and integration engineering. Table of Contents: What this package does Quick start Finding a Turnstile sitekey Creating a Turnstile token Python API reference CLI usage Examples Powered by Peak License What this package does Cloudflare Turnstile protects pages with a widget that issues a token. Two things are always needed: find the sitekey the page is using, and create a token for that sitekey. This package provides both: find_sitekey() — scan a page for its data-sitekey . create_token() — submit a solve task to the Peak API and get a valid token. token_for_page() — do both in one call. It has no browser dependency. A single Python file, standard library only, works on headless servers and CI runners. Quick start $ export PEAK_API_KEY=pk_your_api_key $ py",
+    "truncated": false,
+    "title": "GitHub - biusberline/cloudflare-turnstile-solver: A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result. · GitHub",
+    "fetchedAt": "2026-09-07T00:00:36.133Z",
+    "full": "full/f-github-new-repos-0jis7f9.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1s05ve1",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10829",
+   "ctx": "models : fix GDN normalization from max to rsqrt ( #28068 ) models: use flash-linear-attention's l2norm for gated delta net q/k The GDN q/k normalization is defined by flash-linear-attention as l2norm(x) = x * rsqrt(sum(x*x) + eps) with eps inside the root. Every GDN call site in the tree uses ggml_l2_norm instead, which is x / max(sqrt(sum(x*x)), eps), i.e. torch.nn.functional.normalize - its CUD",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10829",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-06T23:30:29.923Z",
+   "tier": "A",
+   "itemTs": "2026-09-06T23:06:20.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 3135,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10829 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 06 Sep 23:04 b10829 5fdfa62 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . models : fix GDN normalization from max to rsqrt ( #28068 ) models: use flash-linear-attention's l2norm for gated delta net q/k The GDN q/k normalization is defined by flash-linear-attention as l2norm(x) = x * rsqrt(sum(x*x) + eps) with eps inside the root. Every GDN call site in the tree uses ggml_l2_norm instead, which is x / max(sqrt(sum(x*x)), eps), i.e. torch.nn.functional.normalize - its CUDA kernel cites that page. The clamp never engages at these magnitudes, so in practice llama.cpp normalizes with no epsilon at all where the reference has one inside the root. ",
+    "truncated": false,
+    "title": "Release b10829 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-06T23:30:29.923Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1s05ve1.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1vm3uwn",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10830",
+   "ctx": "convert : add --fuse-qkv flag to fuse Q/K/V into QKV during HF-to-GGUF conversion ( #22780 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45621954 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10830",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-06T23:30:29.923Z",
+   "tier": "A",
+   "itemTs": "2026-09-06T23:30:29.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1703,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10830 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 06 Sep 23:29 b10830 465e49b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . convert : add --fuse-qkv flag to fuse Q/K/V into QKV during HF-to-GGUF conversion ( #22780 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45621954 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Wi",
+    "truncated": false,
+    "title": "Release b10830 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-06T23:30:29.923Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1vm3uwn.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1rq69p2",
    "pri": 30,
@@ -2829,102 +2963,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0vigqu2",
-   "pri": 45,
-   "kind": "note",
-   "title": "Speak for Me: Giving LLMs the Situational Awareness to Participate in a Meeting",
-   "ctx": "In online meeting delegation, LLM agents fail to recognize when to speak. With no structured way to track stances, coverage, and floor, they miss the moments where they should contribute. Prompt-only delegates stay silent on 51.4% of the absent participant's talking opportunities on the AMI corpus. We present CAPA (Collaborative Agent Predictive Architecture), an architecture for online meeting delegation. A Perceiver updates the meeting state from each observed turn. A Predictor forecasts how t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03923v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:38:09.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-16mr8ab",
-   "pri": 45,
-   "kind": "note",
-   "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
-   "ctx": "Retrieval-augmented generation (RAG) complements parametric models with retrieved external evidence. The same idea is attractive for continuous-output regression, but directly reusing retrieved target values is often not robust when samples differ in output level, numerical scale, or local dynamics. Moreover, conventional forecasting pipelines generally use residuals for model optimization and error diagnosis, but do not retain individual historical residual examples as memory that can be access",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03937v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:44:31.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1hup3hf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Value-Preserving Architectures for Agentic AI Systems",
-   "ctx": "The emergence of agentic AI and LLM-based multi-agent systems (MAS) presents unprecedented opportunities for automating complex tasks, while simultaneously raising critical concerns about the preservation of fundamental human-centered values, such as privacy, fairness, and safety. Although software engineering has traditionally focused on functional correctness, the adoption of LLMs and AI agents into complex socio-technical systems has intensified the need for responsible software engineering a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03920v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:36:23.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1ur7u3x",
-   "pri": 45,
-   "kind": "note",
-   "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
-   "ctx": "Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions. While the whole-body control (WBC) policy can stabilize the robot, it cannot distinguish task-relevant interaction forces from forces induced by external disturbances during manipulation. Althoug",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.03889v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-04T01:00:25.986Z",
-   "tier": "B",
-   "itemTs": "2026-09-03T14:10:47.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2939,11 +2977,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 52,
-   "slow": 48
+   "daily": 56,
+   "slow": 44
   },
-  "routed": 55,
-  "unrouted": 45,
+  "routed": 56,
+  "unrouted": 44,
   "unmappedLaneFamilies": []
  }
 }
