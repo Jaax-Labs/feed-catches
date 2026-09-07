@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-07T22:00:39.010Z",
+ "generatedAt": "2026-09-07T22:30:35.952Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-0e57p9y",
+   "pri": 36,
+   "kind": "note",
+   "title": "Quoting Jakub Pachocki",
+   "ctx": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-07T22:30:28.723Z",
+   "tier": "D",
+   "itemTs": "2026-09-07T22:26:25.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 766,
+    "lead": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. &mdash; Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
+    "truncated": false,
+    "fetchedAt": "2026-09-07T22:30:28.723Z",
+    "full": "full/f-simon-willison-0e57p9y.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-latent-space-0magrs0",
    "pri": 55,
@@ -2800,31 +2834,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-simon-willison-1kd9jt5",
-   "pri": 36,
-   "kind": "note",
-   "title": "Introducing GPT-6 Astra for developers",
-   "ctx": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. ",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-06T00:01:11.951Z",
-   "tier": "D",
-   "itemTs": "2026-09-05T23:27:48.000Z",
-   "sub": "simonwillison",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2839,8 +2848,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 57,
-   "daily": 43
+   "daily": 43,
+   "slow": 57
   },
   "routed": 50,
   "unrouted": 50,
