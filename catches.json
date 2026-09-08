@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-08T11:30:55.563Z",
+ "generatedAt": "2026-09-08T12:00:56.172Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0v9101g",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10857",
+   "ctx": "Fix Vulkan-Hpp handle usage on 32-bit targets. ( #22892 ) On 32-bit platforms, Vulkan non-dispatchable handles such as VkBuffer are represented as uint64_t, and Vulkan-Hpp disables implicit conversions for type safety. This exposes two issues in ggml-vulkan: vk::Buffer is streamed directly into std::ostream in debug/memory logs. vk::Buffer is cast to VkBuffer before being passed to Vulkan-Hpp Comm",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10857",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-08T12:00:40.652Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T11:38:13.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2153,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10857 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 11:36 b10857 f014bfe This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Fix Vulkan-Hpp handle usage on 32-bit targets. ( #22892 ) On 32-bit platforms, Vulkan non-dispatchable handles such as VkBuffer are represented as uint64_t, and Vulkan-Hpp disables implicit conversions for type safety. This exposes two issues in ggml-vulkan: vk::Buffer is streamed directly into std::ostream in debug/memory logs. vk::Buffer is cast to VkBuffer before being passed to Vulkan-Hpp CommandBuffer::copyBuffer APIs. Fix these by add the operator<< for vk::Buffer, and by passing vk::Buffer directly to Vulkan-Hpp copyBuffer calls. Website: https://llama.app Attes",
+    "truncated": false,
+    "title": "Release b10857 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-08T12:00:40.652Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0v9101g.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-chinatalk-0yq04jq",
    "pri": 60,
@@ -2810,40 +2844,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1ui2ams",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10826",
-   "ctx": "cuda: fixes races in mmid and mmf ( #28475 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45586039 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0)",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10826",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-06T17:00:42.153Z",
-   "tier": "A",
-   "itemTs": "2026-09-06T16:42:29.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1655,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10826 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 06 Sep 16:40 b10826 73a43d1 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . cuda: fixes races in mmid and mmf ( #28475 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45586039 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) ",
-    "truncated": false,
-    "title": "Release b10826 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-06T17:00:42.153Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ui2ams.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2858,8 +2858,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 58,
-   "daily": 42
+   "daily": 42,
+   "slow": 58
   },
   "routed": 48,
   "unrouted": 52,
