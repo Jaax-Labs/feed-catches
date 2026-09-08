@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-09-08T04:30:52.841Z",
+ "generatedAt": "2026-09-08T05:31:10.613Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-mistral-news-0tm8ifg",
+   "pri": 35,
+   "kind": "note",
+   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+   "ctx": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "mistral-news",
+   "detectedAt": "2026-09-08T05:00:50.444Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T12:00:22.000Z",
+   "sub": "mistral",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0u52l9k",
    "pri": 30,
@@ -2808,40 +2833,6 @@
     "agent-craft",
     "graph-memory"
    ]
-  },
-  {
-   "id": "f-chinatalk-05c56w2",
-   "pri": 60,
-   "kind": "note",
-   "title": "Open Models are the United Front of AI",
-   "ctx": "The following is a cross-post from 葬AI / FuneralAI, an uproariously funny Chinese blog about the ups and downs of the AI industry. Check out their many other articles on Substack and WeChat Public Accounts! Translation by Fable 5.1 and checked by Irene. Footnotes added to explain some historical references. ChinaTalk is a reader-supported publication. To receive new posts and support our work, con",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.chinatalk.media/p/open-models-are-the-united-front",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "chinatalk",
-   "detectedAt": "2026-09-06T11:01:06.454Z",
-   "tier": "D",
-   "itemTs": "2026-09-06T10:45:34.000Z",
-   "sub": "chinatalk",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 14361,
-    "lead": "The following is a cross-post from 葬AI / FuneralAI, an uproariously funny Chinese blog about the ups and downs of the AI industry. Check out their many other articles on Substack and WeChat Public Accounts! Translation by Fable 5.1 and checked by Irene. Footnotes added to explain some historical references. ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. These days, the situation is excellent with Chinese models, and new releases take turns to farm Opus 5 like a boss monster. 1 But we still have to see the situation clearly and should not deceive ourselves A theory of quick victory and a theory of defeat are two sides of the same coin, and both are very bad actions. We have to first get the sequence straight. In early June, the evil Anthropic released the powerful Fable 5. Only then did many domestic models with benchmark scores approaching Fable 5 appear. The basic picture, in which OpenAI and Anthropic hold a large lead, has not changed. The premise is that our large models still lag behind; only then can we debate whether the gap is six months or four. Whether from the viewpoint of model perform",
-    "truncated": false,
-    "fetchedAt": "2026-09-06T11:01:06.454Z",
-    "full": "full/f-chinatalk-05c56w2.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2856,8 +2847,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 43,
-   "slow": 57
+   "daily": 44,
+   "slow": 56
   },
   "routed": 50,
   "unrouted": 50,
