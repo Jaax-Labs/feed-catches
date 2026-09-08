@@ -1,7 +1,264 @@
 {
- "generatedAt": "2026-09-08T17:30:54.990Z",
+ "generatedAt": "2026-09-08T20:30:38.168Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-hn-newest-ai-04r1bdw",
+   "pri": 38,
+   "kind": "note",
+   "title": "Muse: Meta's personal AI agent, features and capabilities",
+   "ctx": "Article URL: https://ai.meta.com/muse/ Comments URL: https://news.ycombinator.com/item?id=49615537 Points: 111 # Comments: 97",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://ai.meta.com/muse/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-ai",
+   "detectedAt": "2026-09-08T20:30:31.748Z",
+   "tier": "C",
+   "itemTs": "2026-09-08T19:25:00.000Z",
+   "sub": "hackernews",
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-openai-news-11sd2tq",
+   "pri": 15,
+   "kind": "note",
+   "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+   "ctx": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://openai.com/index/codex-quantum-computing-experiments",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openai-news",
+   "detectedAt": "2026-09-08T20:30:31.748Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T17:00:00.000Z",
+   "sub": "openai",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-09-08T20:30:31.748Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-github-new-repos-05xrlic",
+   "pri": 8,
+   "kind": "note",
+   "title": "henryzawadzki6542/cloudflare-turnstile-bypass — 252★ in 0.3d (1,008★/day)",
+   "ctx": "Work with Cloudflare Turnstile in Python: find the sitekey, get a valid cf-turnstile-response token in seconds. Dependency-free library + CLI, built for CI and automation.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/henryzawadzki6542/cloudflare-turnstile-bypass",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-08T19:30:39.676Z",
+   "tier": "C",
+   "itemTs": "2026-09-08T17:26:48.000Z",
+   "sub": "github · Python",
+   "extract": {
+    "ok": true,
+    "chars": 4314,
+    "lead": "Cloudflare Turnstile Bypass - How to Bypass the Turnstile Challenge in Python Cloudflare Turnstile Bypass is a small, dependency-free Python package that bypasses the Cloudflare Turnstile challenge programmatically: it finds the Turnstile sitekey on any page, creates a valid cf-turnstile-response token via the Peak API, and hands you the finished token - no browser, no headless Chrome, no fingerprint fight. Designed for CI pipelines, QA automation, and integration engineering. Table of Contents: What \"bypassing Turnstile\" actually means Quick start Finding a Turnstile sitekey Bypassing the challenge Python API reference CLI usage Examples Why a solver beats headless browsers Powered by Peak License What \"bypassing Turnstile\" actually means Cloudflare Turnstile is a challenge widget that issues a signed token. A \"bypass\" never attacks Cloudflare's edge - that is not practical or legal. What works, and what this package does, is: find the sitekey the target page is protecting itself with, solve the challenge for that sitekey through a solving service, and inject the resulting token into your request exactly like a browser would after completing the widget. To Cloudflare's backend you",
+    "truncated": false,
+    "title": "GitHub - henryzawadzki6542/cloudflare-turnstile-bypass: Work with Cloudflare Turnstile in Python: find the sitekey, get a valid cf-turnstile-response token in seconds. Dependency-free library + CLI, built for CI and automation. · GitHub",
+    "fetchedAt": "2026-09-08T19:30:39.676Z",
+    "full": "full/f-github-new-repos-05xrlic.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-github-new-repos-02byik3",
+   "pri": 8,
+   "kind": "note",
+   "title": "openai/NavierStokesAndEuler — 296★ in 0.3d (874★/day)",
+   "ctx": "Lean certificates accompanying Navier-Stokes and Euler results\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/openai/NavierStokesAndEuler",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-08T19:01:06.477Z",
+   "tier": "C",
+   "itemTs": "2026-09-08T10:53:38.000Z",
+   "sub": "github · Lean",
+   "extract": {
+    "ok": true,
+    "chars": 1506,
+    "lead": "Finite time blowup for Navier–Stokes and Euler equations This repository contains Lean 4 formalizations of the results presented in “Finite time blowup for Navier–Stokes” and “Finite time blowup for the Euler equation” by OpenAI. Navier Stokes For every positive viscosity, we prove two results: Whole space $\\mathbb{R}^3$ : There exist smooth initial data and forcing for which no global smooth solution with uniformly bounded kinetic energy exists. Periodic torus $\\mathbb{R}^3/\\mathbb{Z}^3$ : There exist smooth periodic initial data and forcing for which no global smooth solution exists. These are alternatives (C) “Breakdown of Navier–Stokes solutions on ℝ³” and (D) “Breakdown of Navier–Stokes Solutions on ℝ³/ℤ³” in the Clay Mathematics Institute’s official problem description of the Navier–Stokes existence and smoothness Millennium Prize Problem . Euler We construct smooth, compactly supported, divergence-free initial velocity on $\\mathbb{R}^3$ whose solution to the unforced incompressible Euler equations develops a singularity in finite time. The velocity’s $C^1$ norm becomes unbounded near that time, and the time integral of the vorticity’s $L^\\infty$ norm diverges. Building the f",
+    "truncated": false,
+    "title": "GitHub - openai/NavierStokesAndEuler: Lean certificates accompanying Navier-Stokes and Euler results · GitHub",
+    "fetchedAt": "2026-09-08T19:01:06.477Z",
+    "full": "full/f-github-new-repos-02byik3.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-openrouter-models-0f0qxnp",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — Inception: Mercury 2.5",
+   "ctx": "A routing row exists for inception/mercury-2.5. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nMercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/inception/mercury-2.5",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-08T19:01:06.477Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T18:28:57.000Z",
+   "sub": "openrouter · inception/mercury-2.5",
+   "extract": {
+    "ok": true,
+    "chars": 1326,
+    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping t",
+    "truncated": false,
+    "title": "Mercury 2.5 - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-08T19:01:06.477Z",
+    "full": "full/f-openrouter-models-0f0qxnp.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-openrouter-models-0kau563",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — Nex AGI: Nex-N2.5-Pro (free)",
+   "ctx": "A routing row exists for nex-agi/nex-n2.5-pro:free. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nNex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/nex-agi/nex-n2.5-pro:free",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-08T18:30:31.247Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T17:54:10.000Z",
+   "sub": "openrouter · nex-agi/nex-n2.5-pro:free",
+   "extract": {
+    "ok": true,
+    "chars": 1293,
+    "lead": "Frequently asked questions What is Nex-N2.5-Pro (free)? Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file changes, run commands, launch applications, interact with browser and desktop interfaces, and test software from the user's perspective. Is Nex-N2.5-Pro (free) free? Yes. The pricing shown on this page for Nex-N2.5-Pro (free) is zero, so you are not charged for prompt or completion tokens. Free endpoints are rate limited — see the rate limit docs . What is the context length of Nex-N2.5-Pro (free)? Nex-N2.5-Pro (free) has a 262,144 token context window. It supports up to 262,144 completion tokens. Does Nex-N2.5-Pro (free) support tool calling and structured outputs? Yes. Nex-N2.5-Pro (free) accepts tools and tool_choice for function calling. It does not support response_format , so JSON output is not enforced. What inputs and outputs does Nex-N2.5-Pro (free) support? Nex-N2.5-Pro (free) accepts text and images as input and returns text. What other text models does Nex AGI have? Nex-N2.5-Mini (free) is another text model from Nex AGI. ",
+    "truncated": false,
+    "title": "Nex-N2.5-Pro (free) - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-08T18:30:31.247Z",
+    "full": "full/f-openrouter-models-0kau563.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-openrouter-models-0uiq6q7",
+   "pri": 20,
+   "kind": "note",
+   "title": "New model — Nex AGI: Nex-N2.5-Mini (free)",
+   "ctx": "A routing row exists for nex-agi/nex-n2.5-mini:free. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nNex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+   "acts": [
+    {
+     "label": "Open OpenRouter",
+     "href": "https://openrouter.ai/nex-agi/nex-n2.5-mini:free",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openrouter-models",
+   "detectedAt": "2026-09-08T18:30:31.247Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T17:54:21.000Z",
+   "sub": "openrouter · nex-agi/nex-n2.5-mini:free",
+   "extract": {
+    "ok": true,
+    "chars": 1139,
+    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping the base URL. The only thing that changes between models is the model slug below. Explore more models AI Model Rankings Ranking",
+    "truncated": false,
+    "title": "Nex-N2.5-Mini (free) - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-08T18:30:31.247Z",
+    "full": "full/f-openrouter-models-0uiq6q7.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0v945jf",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10867",
+   "ctx": "llama: disable lazy tensor loading by default on iGPUs ( #28326 ) llama: add lazy mode auto, fix iGPU regression revert changes except disabling lazy load on iGPUs in AUTO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46033570 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10867",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-08T18:00:43.165Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T17:33:23.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1782,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10867 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 17:31 b10867 f3f1a8f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama: disable lazy tensor loading by default on iGPUs ( #28326 ) llama: add lazy mode auto, fix iGPU regression revert changes except disabling lazy load on iGPUs in AUTO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46033570 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ub",
+    "truncated": false,
+    "title": "Release b10867 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-08T18:00:43.165Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0v945jf.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-microsoft-research-0a1yd0r",
    "pri": 30,
@@ -2640,194 +2897,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1qw8lpd",
-   "pri": 45,
-   "kind": "note",
-   "title": "Large Language Models with At Most One Spike per Neuron",
-   "ctx": "Leveraging their inherent sparse event-driven computation, spiking neural networks (SNNs) offer a promising path toward energy-efficient large language models (LLMs). Time-to-first-spike (TTFS) coding generates at most one spike per neuron within a time window, yielding extremely low firing rates. However, conventional TTFS SNNs are restricted to specific structures, making it challenging to encode certain blocks in LLM -- such as layer normalization and matrix multiplication --using TTFS. To ov",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05151v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T13:53:28.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1tvykg7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Measuring the Novelty of Biomedical Papers Using the Latent Distances between Knowledge Units",
-   "ctx": "Measuring the novelty of scientific papers is a central concern in research evaluation and scientometrics. From a recombination perspective, prior studies have largely focused on the co-occurrence of knowledge units to assess the novelty of scientific papers. However, these studies often overlook other relationships between knowledge units. This narrow view may result in inaccurate or incomplete evaluations of novelty for scientific papers. To fill this gap, this study introduces a comprehensive",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05175v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T14:14:26.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-01j0ipj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments",
-   "ctx": "Deepfake detection models often rely on high-quality inputs, fixed inference paths, and computationally expensive architectures, limiting their use in low-resolution and resource-constrained settings. This paper proposes AdaGate-DF, an adaptive gated deepfake detection framework that uses image-quality cues to route samples through a dual multi-exit system so high-quality images can exit earlier and save compute. We evaluated AdaGate-DF against MaD-CoRN, DefakeHop++, and ShuffleNetV2 on two benc",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05320v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T16:14:57.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-086d8kb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Learning from VAE Errors to support ECG-based Differential Diagnosis of Myocardial Scar",
-   "ctx": "Late Gadolinium Enhancement (LGE) on cardiac magnetic resonance is a key marker of myocardial scar, but its limited accessibility motivates routine ECG-based screening. We evaluated whether $β$-variational autoencoder (VAE)-derived ECG representations can discriminate LGE+ from LGE- cardiomyopathic patients in a local cohort of 300 subjects. We compared 32-dimensional features from the foundation ECGx.AI model with those from a shallower $β$-VAE trained on normal PTB-XL ECGs, evaluating downstre",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05294v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:46:18.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0arefj5",
-   "pri": 45,
-   "kind": "note",
-   "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
-   "ctx": "LLM agents deployed for software engineering fail expensively: they act confidently wrong, and bad actions are recognized only after costly execution and retry. We present Speculative Uncertainty (SU), a method that recovers a predictive failure signal for a black-box agent from its output tokens alone, with no access to logits, weights, activations, or repeated sampling. Inverting speculative decoding, a small open-weight draft model scores the agent's already-generated trajectory in a single f",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05274v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:30:22.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-0b6s0ph",
-   "pri": 45,
-   "kind": "note",
-   "title": "Shallow neural network approximation in mixed Sobolev spaces",
-   "ctx": "We investigate the best $L_2$ approximation of mixed Sobolev spaces by shallow neural networks with $n$ neurons and general activation functions. We first establish an activation-independent Fourier-block principle: if an activation has univariate approximation order $ρ$ in the sense of the Fourier-block property, then the global approximation rate has algebraic order $\\min\\{α,ρ\\}$ for target functions of mixed smoothness $α$, up to explicit logarithmic factors. To verify this property for concr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05263v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:23:34.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0v9ru6v",
-   "pri": 45,
-   "kind": "note",
-   "title": "Online Change-point Detection for Cooperative Multi-Agent Reinforcement Learning",
-   "ctx": "Cooperative multi-agent reinforcement learning (MARL) systems rely on past experience for learning coordinated behaviour, but this experience may become unreliable if the environment or task objective changes during training. In such cases, agents first need a way to recognize that the situation has changed before deciding how to adapt. This paper studies online change-point detection for cooperative MARL using reward-derived signals. We propose \\emph{Patterns of Past Rewards} (PPR), a lightweig",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05298v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:49:42.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-0y2ve2t",
-   "pri": 45,
-   "kind": "note",
-   "title": "Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC",
-   "ctx": "As spaceborne computing systems increasingly rely on neural network (NN) accelerators, the opacity of commercial, black-box architectures severely restricts the development of verifiable radiation mitigation strategies. Open-source, register-transfer level (RTL)-accessible accelerators resolve this limitation by enabling user-defined instrumentation, yet few have empirical radiation-response baselines. This work establishes a foundational system-level proton-irradiation baseline for an unmitigat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05249v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:14:59.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2842,11 +2911,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 45,
-   "slow": 55
+   "daily": 53,
+   "slow": 47
   },
-  "routed": 45,
-  "unrouted": 55,
+  "routed": 49,
+  "unrouted": 51,
   "unmappedLaneFamilies": []
  }
 }
