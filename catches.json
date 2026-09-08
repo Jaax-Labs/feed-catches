@@ -1,7 +1,96 @@
 {
- "generatedAt": "2026-09-08T14:00:47.140Z",
+ "generatedAt": "2026-09-08T14:30:43.364Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-deepmind-blog-0bwdry4",
+   "pri": 22,
+   "kind": "note",
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+   "ctx": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "deepmind-blog",
+   "detectedAt": "2026-09-08T14:30:37.047Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T14:00:15.000Z",
+   "sub": "deepmind",
+   "extract": {
+    "ok": true,
+    "chars": 13526,
+    "lead": "September 8, 2026 Science AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome AlphaGenome Atlas team Share How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. Today, we are introducing AlphaGenome Atlas: a platform containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome. It is the most comprehensive catalogue of how genetic mutations affect molecular biology, and it is available for academic research through an intuitive and free-to-use website portal . DNA is the language of life. Mastering it is a grand challenge that could transform our ability to understand biology and treat disease. But progress has been limited by a fundamental problem: interpreting how genetic variations impact biology at a molecular level. With roughly 9 billion possible single-letter mutations in the human genome, testing each one in the lab is practically impossible. Google DeepMind has already made progress on this challenge with AlphaGenome, an artificial intelligence (AI) model that c",
+    "truncated": false,
+    "title": "AlphaGenome Atlas: Molecular predictions for 9 Billion human DNA variants — Google DeepMind",
+    "fetchedAt": "2026-09-08T14:30:37.047Z",
+    "full": "full/f-deepmind-blog-0bwdry4.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-huggingface-blog-16c84wa",
+   "pri": 40,
+   "kind": "note",
+   "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-09-08T14:30:37.047Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T14:23:07.000Z",
+   "sub": "huggingface-blog",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-interconnects-1ma4ypd",
+   "pri": 50,
+   "kind": "note",
+   "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+   "ctx": "Avid Artifacts readers know that we have been covering not only models but also their licenses for quite some time. There was a period when custom licenses were all the rage, for example the custom Qwen2.5 72B-Instruct license or the Llama licenses . DeepSeek had a custom license for DeepSeek V3 before R1 changed it to MIT , which has resulted in many (Chinese) model makers adopting MIT or Apache ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "interconnects",
+   "detectedAt": "2026-09-08T14:30:37.047Z",
+   "tier": "D",
+   "itemTs": "2026-09-08T14:15:25.000Z",
+   "sub": "interconnects",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 5046,
+    "lead": "Avid Artifacts readers know that we have been covering not only models but also their licenses for quite some time. There was a period when custom licenses were all the rage, for example the custom Qwen2.5 72B-Instruct license or the Llama licenses . DeepSeek had a custom license for DeepSeek V3 before R1 changed it to MIT , which has resulted in many (Chinese) model makers adopting MIT or Apache 2.0 licenses in 2025. In 2026, open models are more competitive than ever, which has led to two interesting developments: Western model makers adopt open licenses, with both Google and Meta switching to Apache 2.0. Chinese model makers at the frontier, however, are becoming more restrictive: Kimi K3 comes with a license which requires commercial agreements for those who run inference or fine-tuning services, and MiniMax M3 requires agreements above a revenue threshold and has prohibited use cases. The newest addition is Zhipu’s GLM-5.3 , which switched from MIT (GLM-5.2 and earlier) to a custom license with the following clause for inference and fine-tuning providers: If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee ",
+    "truncated": true,
+    "fetchedAt": "2026-09-08T14:30:37.047Z",
+    "full": "full/f-interconnects-1ma4ypd.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0wd2kbb",
    "pri": 30,
@@ -2718,106 +2807,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-github-new-repos-0jis7f9",
-   "pri": 25,
-   "kind": "note",
-   "title": "biusberline/cloudflare-turnstile-solver — 224★ in 0.4d (595★/day)",
-   "ctx": "A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/biusberline/cloudflare-turnstile-solver",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-07T00:00:36.133Z",
-   "tier": "C",
-   "itemTs": "2026-09-06T14:58:51.000Z",
-   "sub": "github · Python",
-   "extract": {
-    "ok": true,
-    "chars": 4661,
-    "lead": "Cloudflare Turnstile Solver — Get a Turnstile Token in Python The Cloudflare Turnstile Solver package makes it easy to work with Cloudflare Turnstile from Python: it finds the Turnstile sitekey on any page, creates a valid Turnstile token via the Peak API, and hands you a cf-turnstile-response token you can inject into a form or request. It is a small, dependency-free library plus a CLI — designed for CI pipelines, QA automation, and integration engineering. Table of Contents: What this package does Quick start Finding a Turnstile sitekey Creating a Turnstile token Python API reference CLI usage Examples Powered by Peak License What this package does Cloudflare Turnstile protects pages with a widget that issues a token. Two things are always needed: find the sitekey the page is using, and create a token for that sitekey. This package provides both: find_sitekey() — scan a page for its data-sitekey . create_token() — submit a solve task to the Peak API and get a valid token. token_for_page() — do both in one call. It has no browser dependency. A single Python file, standard library only, works on headless servers and CI runners. Quick start $ export PEAK_API_KEY=pk_your_api_key $ py",
-    "truncated": false,
-    "title": "GitHub - biusberline/cloudflare-turnstile-solver: A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result. · GitHub",
-    "fetchedAt": "2026-09-07T00:00:36.133Z",
-    "full": "full/f-github-new-repos-0jis7f9.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1s05ve1",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10829",
-   "ctx": "models : fix GDN normalization from max to rsqrt ( #28068 ) models: use flash-linear-attention's l2norm for gated delta net q/k The GDN q/k normalization is defined by flash-linear-attention as l2norm(x) = x * rsqrt(sum(x*x) + eps) with eps inside the root. Every GDN call site in the tree uses ggml_l2_norm instead, which is x / max(sqrt(sum(x*x)), eps), i.e. torch.nn.functional.normalize - its CUD",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10829",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-06T23:30:29.923Z",
-   "tier": "A",
-   "itemTs": "2026-09-06T23:06:20.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 3135,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10829 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 06 Sep 23:04 b10829 5fdfa62 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . models : fix GDN normalization from max to rsqrt ( #28068 ) models: use flash-linear-attention's l2norm for gated delta net q/k The GDN q/k normalization is defined by flash-linear-attention as l2norm(x) = x * rsqrt(sum(x*x) + eps) with eps inside the root. Every GDN call site in the tree uses ggml_l2_norm instead, which is x / max(sqrt(sum(x*x)), eps), i.e. torch.nn.functional.normalize - its CUDA kernel cites that page. The clamp never engages at these magnitudes, so in practice llama.cpp normalizes with no epsilon at all where the reference has one inside the root. ",
-    "truncated": false,
-    "title": "Release b10829 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-06T23:30:29.923Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1s05ve1.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1vm3uwn",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10830",
-   "ctx": "convert : add --fuse-qkv flag to fuse Q/K/V into QKV during HF-to-GGUF conversion ( #22780 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45621954 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10830",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-06T23:30:29.923Z",
-   "tier": "A",
-   "itemTs": "2026-09-06T23:30:29.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1703,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.8k Star 127k b10830 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 06 Sep 23:29 b10830 465e49b This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . convert : add --fuse-qkv flag to fuse Q/K/V into QKV during HF-to-GGUF conversion ( #22780 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45621954 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Wi",
-    "truncated": false,
-    "title": "Release b10830 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-06T23:30:29.923Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1vm3uwn.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2832,11 +2821,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 43,
-   "slow": 57
+   "daily": 41,
+   "slow": 59
   },
-  "routed": 47,
-  "unrouted": 53,
+  "routed": 46,
+  "unrouted": 54,
   "unmappedLaneFamilies": []
  }
 }
