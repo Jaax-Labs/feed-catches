@@ -1,7 +1,107 @@
 {
- "generatedAt": "2026-09-08T10:30:51.779Z",
+ "generatedAt": "2026-09-08T11:30:55.563Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-chinatalk-0yq04jq",
+   "pri": 60,
+   "kind": "note",
+   "title": "US-China Biorisk Cooperation: Yes, It’s Possible",
+   "ctx": "Altman, Amodei, Hassabis, and a long list of AI and biosecurity figures on both the right and left actually agree on something. In a June open letter , they argued that the US should require nucleic acid synthesis companies to screen DNA and RNA orders before fulfilling them. AI will make it easier to design dangerous pathogens, but those designs still need to pass through the physical world. Nucl",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/us-china-biorisk-cooperation-yes",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-09-08T11:30:28.669Z",
+   "tier": "D",
+   "itemTs": "2026-09-08T11:04:50.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 18195,
+    "lead": "Altman, Amodei, Hassabis, and a long list of AI and biosecurity figures on both the right and left actually agree on something. In a June open letter , they argued that the US should require nucleic acid synthesis companies to screen DNA and RNA orders before fulfilling them. AI will make it easier to design dangerous pathogens, but those designs still need to pass through the physical world. Nucleic acid synthesis providers are one of the few chokepoints between digital biological know-how and actual biological capability, as we’ll see in the next section. If policymakers are looking for a concrete way to reduce AI-enabled bio risk, screening these orders is a good place to start. Subscribe now Washington has already half-promised to act. Last year, the Trump administration nixed the Biden-era nucleic-acid synthesis screening framework, promising to replace it with something even bigger and more enforceable. Then biosecurity largely fell off their radar. But after the Fable ban (and then un-ban), as well as the OpenAI–Hugging Face fiasco, there is a growing recognition that frontier AI risks — including biological risks — may not be purely theoretical after all. Cotton (R) and Klo",
+    "truncated": false,
+    "fetchedAt": "2026-09-08T11:30:28.669Z",
+    "full": "full/f-chinatalk-0yq04jq.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-zvi-1csmvyi",
+   "pri": 60,
+   "kind": "note",
+   "title": "Astra Is Hard to Monitor",
+   "ctx": "OpenAI’s central message on Astra is that it is three things: Highly capable and can do all the things for you. Hard to monitor. The most aligned model. The first claim largely checks out. Astra and Fable are both clearly excellent models. This post is about their second claim, which to their credit they are being loud about, in three parts: The system card result, affirmed on Twitter by several O",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://thezvi.substack.com/p/astra-is-hard-to-monitor",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "zvi",
+   "detectedAt": "2026-09-08T11:30:28.669Z",
+   "tier": "D",
+   "itemTs": "2026-09-08T11:25:08.000Z",
+   "sub": "zvi",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 61759,
+    "lead": "OpenAI’s central message on Astra is that it is three things: Highly capable and can do all the things for you. Hard to monitor. The most aligned model. The first claim largely checks out. Astra and Fable are both clearly excellent models. This post is about their second claim, which to their credit they are being loud about, in three parts: The system card result, affirmed on Twitter by several OpenAI employees including Tomek Korbak, and in an excellent post by Chief Scientist Jakub Pachocki that I covered yesterday, that Astra is harder to monitor. OpenAI’s use of recurrent depth and the internet’s immune reaction, including some people reading too much into what happened there. Discussion of what to do about monitorability going forward, to fight for it and avoid a race to the bottom. In An Alien Mind, Jakub Pachocki makes clear OpenAI’s primary bet is on CoT monitoring. He also outright says, ‘our ability to rely on CoT monitoring is progressively diminishing.’ The system card confirms both claims. This combination should freak you out, with a side of existential dread. Chain of Thought monitoring is substantially less effective than it was for Sol. Astra has a much improved a",
+    "truncated": false,
+    "fetchedAt": "2026-09-08T11:30:28.669Z",
+    "full": "full/f-zvi-1csmvyi.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0vj0lqf",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10856",
+   "ctx": "chat : split specialized parsers into common/parsers ( #27764 ) chat : split specialized parsers into common/parsers Move the 14 dedicated template parsers out of chat.cpp into one file each under common/parsers, mirroring the src/models split. chat.cpp keeps the template detection in common_chat_try_specialized_template() and drops from 3915 to 1513 lines. common/parsers/parsers.h holds the share",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10856",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-08T11:00:42.252Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T10:50:51.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2808,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10856 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 10:49 b10856 895c045 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . chat : split specialized parsers into common/parsers ( #27764 ) chat : split specialized parsers into common/parsers Move the 14 dedicated template parsers out of chat.cpp into one file each under common/parsers, mirroring the src/models split. chat.cpp keeps the template detection in common_chat_try_specialized_template() and drops from 3915 to 1513 lines. common/parsers/parsers.h holds the shared helpers and one declaration per parser. foreach_function/foreach_parameter become inline there since nothing in chat.cpp uses them any more; common_chat_template_direct_appl",
+    "truncated": false,
+    "title": "Release b10856 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-08T11:00:42.252Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vj0lqf.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0vt07fe",
    "pri": 30,
@@ -2744,96 +2844,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-openai-news-07amf1v",
-   "pri": 15,
-   "kind": "note",
-   "title": "An Alien Mind",
-   "ctx": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://openai.com/index/an-alien-mind",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openai-news",
-   "detectedAt": "2026-09-06T17:00:42.153Z",
-   "tier": "A",
-   "itemTs": "2026-09-06T09:00:00.000Z",
-   "sub": "openai",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-09-06T17:00:42.153Z"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-openai-news-1j3horr",
-   "pri": 15,
-   "kind": "note",
-   "title": "Research acceleration: The view inside OpenAI",
-   "ctx": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://openai.com/index/research-acceleration-view-inside-openai",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openai-news",
-   "detectedAt": "2026-09-06T16:00:42.735Z",
-   "tier": "A",
-   "itemTs": "2026-09-06T08:00:00.000Z",
-   "sub": "openai",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-09-06T16:00:42.735Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-simon-willison-0nrxmjs",
-   "pri": 36,
-   "kind": "note",
-   "title": "The purpose of DNS is to spread scams",
-   "ctx": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blo",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-06T15:00:39.274Z",
-   "tier": "D",
-   "itemTs": "2026-09-06T14:40:07.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 718,
-    "lead": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden",
-    "truncated": false,
-    "fetchedAt": "2026-09-06T15:00:39.274Z",
-    "full": "full/f-simon-willison-0nrxmjs.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2848,11 +2858,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 44,
-   "slow": 56
+   "slow": 58,
+   "daily": 42
   },
-  "routed": 47,
-  "unrouted": 53,
+  "routed": 48,
+  "unrouted": 52,
   "unmappedLaneFamilies": []
  }
 }
