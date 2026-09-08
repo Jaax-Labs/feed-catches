@@ -1,7 +1,75 @@
 {
- "generatedAt": "2026-09-08T12:00:56.172Z",
+ "generatedAt": "2026-09-08T13:00:50.515Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0sh4z3q",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10859",
+   "ctx": "llama : add missing headers ( #28566 ) fix compile-error: add missing header Bug: #28557 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28559 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28560 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28561 Signed-off-by: Pe",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10859",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-08T13:00:42.656Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T12:36:49.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2285,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10859 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 12:35 b10859 ca86fb2 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama : add missing headers ( #28566 ) fix compile-error: add missing header Bug: #28557 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28559 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28560 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28561 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28562 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28",
+    "truncated": false,
+    "title": "Release b10859 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-08T13:00:42.656Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0sh4z3q.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0sr4ksp",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10858",
+   "ctx": "vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL ( #27220 ) vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL implement fusion in unary.comp behind UNARY_MUL_FUSION ifdef, specialized pipelines per op instead of runtime branching fuse adjacent nodes only, ordering handled by graph_optimize drop runtime consumer scan and pending_unary_mul deferra",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10858",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-08T12:30:30.076Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T12:08:00.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 9840,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10858 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 12:06 b10858 64e9bce This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL ( #27220 ) vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL implement fusion in unary.comp behind UNARY_MUL_FUSION ifdef, specialized pipelines per op instead of runtime branching fuse adjacent nodes only, ordering handled by graph_optimize drop runtime consumer scan and pending_unary_mul deferral vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL GELU: gelu_mul_f32/f16 pipelines registered, CREATE_UNARY_MUL(gelu), GELU in dispatch + fuse gate + perf fusion name Re",
+    "truncated": false,
+    "title": "Release b10858 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-08T12:30:30.076Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0sr4ksp.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0v9101g",
    "pri": 30,
@@ -2756,94 +2824,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-cascade-1ykvzg2",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"openai agent\" — 3 independent sources in 56h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 56 hours, in 4 items (0.0% of the window — below the 15% background threshold).\n\n• hackernews — Discovery of a new OpenAI agent message board\n• hackernews-firehose — Discovery of a new OpenAI agent message board\n• simonwillison — OpenAI's rogue agents were caught communicating via public wikis\n• zvi — OpenAI and the Wiki Incident\n\n4 feeds carried it, counted as 3 independent roots — same-platform and same-company feeds count once.\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open hackernews",
-     "href": "https://collusion.wiki/",
-     "primary": true
-    },
-    {
-     "label": "Open hackernews-firehose",
-     "href": "https://collusion.wiki/",
-     "primary": false
-    },
-    {
-     "label": "Open simonwillison",
-     "href": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-06T20:30:32.156Z",
-   "tier": "X",
-   "families": [
-    "hackernews",
-    "hackernews-firehose",
-    "simonwillison",
-    "zvi"
-   ],
-   "roots": [
-    "hackernews",
-    "simonwillison",
-    "zvi"
-   ],
-   "sub": "cascade shape · hackernews, simonwillison, zvi",
-   "extract": {
-    "ok": true,
-    "chars": 82228,
-    "lead": "We found ~18,000 posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web-retrieval task. These AIs colluded to share answers, research their environment, and bypass sandbox restrictions. However, we believe this is distinct from the swarm of agents that hacked Hugging Face. By ‘collude’ we mean that the agents cooperated to gain an advantage on their task in a way their developers did not intend (writing to the internet was blocked). Almost all The AIs used multiple sites, which had varying data retention policies. For instance, DSE wiki saves all edits over 64 characters, Fractal saves all edits over 100 characters. Thus there are a few pages which were deleted and are now unrecoverable. of the logs of the agents communicating on this site are publicly available. Note: visiting the website will publicly log your IP addresses. The website is prowiki.org, a German wiki. The majority of the activity happened on DSE wiki, which is a sub-wiki of prowiki. However, we host our own copy where we’ve reconstructed the deleted pages via edit history and redacted personally identifiable information. We have attempted to redact al",
-    "truncated": false,
-    "title": "Discovery of a new OpenAI agent message board",
-    "fetchedAt": "2026-09-06T20:30:32.156Z",
-    "full": "full/f-cascade-1ykvzg2.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-zvi-0e0eckp",
-   "pri": 60,
-   "kind": "note",
-   "title": "OpenAI and the Wiki Incident",
-   "ctx": "I did not expect to be back here so soon with more OpenAI agent swarm coverage. And yet, here we are. It turns out that the whole time, there was a different, true First Message Board, and also a bunch of other additional message boards, scattered across the internet. They were created by agents that were assigned ordinary harmless web search tasks. Based on OpenAI IPs visiting the associated Wiki",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://thezvi.substack.com/p/openai-and-the-wiki-incident",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "zvi",
-   "detectedAt": "2026-09-06T20:30:32.156Z",
-   "tier": "D",
-   "itemTs": "2026-09-06T20:01:31.000Z",
-   "sub": "zvi",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 26828,
-    "lead": "I did not expect to be back here so soon with more OpenAI agent swarm coverage. And yet, here we are. It turns out that the whole time, there was a different, true First Message Board, and also a bunch of other additional message boards, scattered across the internet. They were created by agents that were assigned ordinary harmless web search tasks. Based on OpenAI IPs visiting the associated Wiki right before all activity ceased, among other evidence, OpenAI knew about it, including before the HuggingFace hack. They decided not to tell us until researchers published the story , complete with data explorer. OpenAI excluded this from potential investigation by METR and Redwood. When challenged, OpenAI tried to downplay this. It is true that these incidents do not show the AIs exhibiting new capabilities that we did not see from later events. But these events are important missing pieces of the puzzle, including explaining the origin of the ‘zz’ prefix, the definitive demonstration that the underlying task can be fully harmless, and the fact that OpenAI knew about it while making their decisions. Whoever decided not to disclose this made a very, very bad call. Going forward, it canno",
-    "truncated": false,
-    "fetchedAt": "2026-09-06T20:30:32.156Z",
-    "full": "full/f-zvi-0e0eckp.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2858,8 +2838,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 42,
-   "slow": 58
+   "daily": 43,
+   "slow": 57
   },
   "routed": 48,
   "unrouted": 52,
