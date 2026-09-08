@@ -1,7 +1,130 @@
 {
- "generatedAt": "2026-09-08T15:00:53.633Z",
+ "generatedAt": "2026-09-08T16:30:44.108Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-github-new-repos-0c47c7y",
+   "pri": 25,
+   "kind": "note",
+   "title": "gazijarin/itsgiving — 221★ in 0.5d (462★/day)",
+   "ctx": "Express yourself in meetings (with memes, of course).\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/gazijarin/itsgiving",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-08T16:30:31.348Z",
+   "tier": "C",
+   "itemTs": "2026-09-08T05:02:01.000Z",
+   "sub": "github · Python",
+   "extract": {
+    "ok": true,
+    "chars": 3517,
+    "lead": "It's giving... Pull a face at your webcam. It works out which face, and drops the matching meme over your head, scaled to follow you around the frame. You can extend and add more memes to your heart's desire. Point Zoom at its virtual camera and the whole call sees it. python its_giving.py # preview + virtual camera python its_giving.py --no-vcam # preview only Fourteen reactions: time out, heart hands, hands over face, crashing out, dancing, nose pinch, flirty, hand up, tongue out, gasp, disgust, talking to the wall, side-eye, and spinning. There's a second file, its_giving_v2.py , which is the same thing with the expression thresholds calibrated to your face instead of to a number I guessed. Setup python3.12 -m venv venv source venv/bin/activate # Windows: venv\\Scripts\\activate pip install -r requirements.txt Python 3.11 or 3.12. Three MediaPipe models (~15 MB) download themselves on first run. Don't unpin the dependencies. MediaPipe 0.10.30+ (including 1.0.x) ships macOS wheels that abort the moment they open a detector, so it's held at 0.10.21. That build needs NumPy 1.x, and OpenCV 5 needs NumPy 2 — and 0.10.21 asks for an unpinned opencv-contrib-python , which quietly drags O",
+    "truncated": false,
+    "title": "GitHub - gazijarin/itsgiving: Express yourself in meetings (with memes, of course). · GitHub",
+    "fetchedAt": "2026-09-08T16:30:31.348Z",
+    "full": "full/f-github-new-repos-0c47c7y.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-hn-newest-ai-19nbsre",
+   "pri": 38,
+   "kind": "note",
+   "title": "I-have-ADHD: A skill to stop your coding agent from burying the answer",
+   "ctx": "Article URL: https://github.com/ayghri/i-have-adhd Comments URL: https://news.ycombinator.com/item?id=49610631 Points: 53 # Comments: 51",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://github.com/ayghri/i-have-adhd",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-ai",
+   "detectedAt": "2026-09-08T16:30:31.348Z",
+   "tier": "C",
+   "itemTs": "2026-09-08T14:13:26.000Z",
+   "sub": "hackernews",
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0qwftol",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.7",
+   "ctx": "Release 0.154.0-alpha.7",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.7",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-08T16:00:37.052Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T15:38:05.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 828,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 122k rust-v0.154.0-alpha.7 rust-v0.154.0-alpha.7 b3ea7a5 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.7 rust-v0.154.0-alpha.7 b3ea7a5 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 08 Sep 15:38 Release 0.154.0-alpha.7 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.7 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-08T16:00:37.052Z",
+    "full": "full/f-gh-releases-openai-codex-0qwftol.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0vt3cxd",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10865",
+   "ctx": "Revert \"ggml-cuda : restore prop.integrated on HIP builds ( #24233 )\" ( #28604 ) This reverts commit c7d8722 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46002046 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10865",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-08T15:30:29.450Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T15:14:21.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1721,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10865 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 15:11 b10865 d4389a4 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Revert \"ggml-cuda : restore prop.integrated on HIP builds ( #24233 )\" ( #28604 ) This reverts commit c7d8722 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46002046 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wi",
+    "truncated": false,
+    "title": "Release b10865 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-08T15:30:29.450Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vt3cxd.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0vj3r8e",
    "pri": 30,
@@ -2700,113 +2823,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-14oq2lu",
-   "pri": 45,
-   "kind": "note",
-   "title": "How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing",
-   "ctx": "Hyper-Connections and their manifold-constrained variant mHC widen a residual pathway from one stream to n, yet how trained models use this capacity remains unclear: how broadly blocks read and write, how strongly the residual pathway mixes streams, and whether the streams carry distinct representations. We examine these properties in the four-stream residual pathway of DeepSeek-V4-Flash using effective stream counts, cross-stream residual weights, and inter-stream cosine similarity. Read/write ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05309v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T16:02:20.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-1h0z2e4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Optimal Rates for Agentic Networked Information Aggregation",
-   "ctx": "Building on the pioneering paper of Kearns, Roth, and Ryu (SODA'26), we study information aggregation in a networked learning model. The model captures a central pattern in agentic AI: each agent sees only part of the data and passes on only its own conclusion. Their model considers a linear regression problem with the mean squared error (MSE) loss. Agents sit in a DAG and each sees only a subset of the features and its parents' predictions, fits a linear predictor, and passes only its predictio",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05318v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T16:12:16.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-1ix0fkh",
-   "pri": 45,
-   "kind": "note",
-   "title": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics",
-   "ctx": "Does a simplified legal clause still say what the original said? The checks in current use cannot establish that it does: requiring an identical pair to score highest and an unrelated pair lowest moves lexical overlap and legal force together, so any monotone function of token overlap satisfies both. Our remedy is a dissociation, an item holding surface form fixed while legal force moves. We release LexFlip, 373 minimal perturbations of Quebec statutory French that reverse legal force while pres",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05296v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:49:09.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-0ydkc9d",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.60.0-nightly.20260907.g85aca163f",
-   "ctx": "Full Changelog : v0.60.0-nightly.20260906.g85aca163f...v0.60.0-nightly.20260907.g85aca163f",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260907.g85aca163f",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-09-07T01:30:25.832Z",
-   "tier": "A",
-   "itemTs": "2026-09-07T01:27:17.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 737,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.5k Star 107k Release v0.60.0-nightly.20260907.g85aca163f Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 07 Sep 01:27 v0.60.0-nightly.20260907.g85aca163f 992277d Full Changelog : v0.60.0-nightly.20260906.g85aca163f...v0.60.0-nightly.20260907.g85aca163f Assets 5 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
-    "truncated": false,
-    "title": "Release Release v0.60.0-nightly.20260907.g85aca163f · google-gemini/gemini-cli · GitHub",
-    "fetchedAt": "2026-09-07T01:30:25.832Z",
-    "full": "full/f-gh-releases-google-gemini-gemini-cli-0ydkc9d.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2821,11 +2837,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 41,
-   "slow": 59
+   "daily": 44,
+   "slow": 56
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 45,
+  "unrouted": 55,
   "unmappedLaneFamilies": []
  }
 }
