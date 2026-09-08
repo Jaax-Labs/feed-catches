@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-08T22:01:04.735Z",
+ "generatedAt": "2026-09-08T22:30:45.499Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-0r6ffdk",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.8",
+   "ctx": "Release 0.154.0-alpha.8",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.8",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-08T22:30:28.733Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T22:22:50.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 831,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 123k rust-v0.154.0-alpha.8 rust-v0.154.0-alpha.8 f3d1995 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.8 rust-v0.154.0-alpha.8 f3d1995 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags won-openai tagged this 08 Sep 22:22 Release 0.154.0-alpha.8 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.8 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-08T22:30:28.733Z",
+    "full": "full/f-gh-releases-openai-codex-0r6ffdk.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-google-gemini-gemini-cli-178fiox",
    "pri": 30,
@@ -2909,29 +2941,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-138cg3n",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
-   "ctx": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to verify. We propose a verifier-guided explainable reasoning framework for transparent educational question answering that combines gold-anchored QLoRA, task-aware symbolic routing, and group-relative RLVR. Qwen2.5-3B-Instruct is first adapted with field-weighted QLoRA supervision anchored to authoritative answers. A lightweight router then assigns logic prob",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05221v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T14:52:06.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2946,8 +2955,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 56,
-   "slow": 44
+   "daily": 57,
+   "slow": 43
   },
   "routed": 52,
   "unrouted": 48,
