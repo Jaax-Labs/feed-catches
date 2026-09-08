@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-08T14:30:43.364Z",
+ "generatedAt": "2026-09-08T15:00:53.633Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0vj3r8e",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10864",
+   "ctx": "server : apply checkpoint min-step eviction only when the checkpoint list is full ( #28302 ) The spacing eviction in create_checkpoint() keeps the oldest checkpoint and erases every later one within checkpoint_min_step of it. For prompts shorter than checkpoint_min_step this drops the checkpoint at n_tokens - 4 that the next request resumes from, so hybrid/recurrent models re-prefill from the prev",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10864",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-08T15:00:42.575Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T14:33:11.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2192,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10864 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 14:31 b10864 5d806aa This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . server : apply checkpoint min-step eviction only when the checkpoint list is full ( #28302 ) The spacing eviction in create_checkpoint() keeps the oldest checkpoint and erases every later one within checkpoint_min_step of it. For prompts shorter than checkpoint_min_step this drops the checkpoint at n_tokens - 4 that the next request resumes from, so hybrid/recurrent models re-prefill from the previous checkpoint instead. Apply the spacing rule only once the list is at n_ctx_checkpoints, and replace an existing checkpoint at the same n_tokens instead of appending a dupl",
+    "truncated": false,
+    "title": "Release b10864 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-08T15:00:42.575Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vj3r8e.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-deepmind-blog-0bwdry4",
    "pri": 22,
@@ -2772,40 +2806,6 @@
    "clock": "daily",
    "questions": [
     "model-switch"
-   ]
-  },
-  {
-   "id": "f-simon-willison-13spr7r",
-   "pri": 36,
-   "kind": "note",
-   "title": "Research acceleration: The view inside OpenAI",
-   "ctx": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much ev",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-07T00:30:26.030Z",
-   "tier": "D",
-   "itemTs": "2026-09-06T23:57:40.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 848,
-    "lead": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
-    "truncated": false,
-    "fetchedAt": "2026-09-07T00:30:26.030Z",
-    "full": "full/f-simon-willison-13spr7r.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
    ]
   }
  ],
