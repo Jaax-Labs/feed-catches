@@ -1,7 +1,147 @@
 {
- "generatedAt": "2026-09-08T08:00:54.121Z",
+ "generatedAt": "2026-09-08T09:30:50.793Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-vllm-project-vllm-09utz7o",
+   "pri": 30,
+   "kind": "note",
+   "title": "vllm-project/vllm v0.29.0rc6",
+   "ctx": "[Bugfix][Core] Apply dense prefix cache default to hybrid models ( #55 …",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-vllm-project-vllm",
+   "detectedAt": "2026-09-08T09:00:30.068Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T08:34:20.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1236,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . vllm-project / vllm Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 21.9k Star 91.2k v0.29.0rc6 v0.29.0rc6 74c9692 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags v0.29.0rc6 v0.29.0rc6 74c9692 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode ZJY0516 tagged this 08 Sep 08:34 [Bugfix][Core] Apply dense prefix cache default to hybrid models (#55… Assets 2 Loading Uh oh! There was an error whil",
+    "truncated": false,
+    "title": "Release v0.29.0rc6 · vllm-project/vllm · GitHub",
+    "fetchedAt": "2026-09-08T09:00:30.068Z",
+    "full": "full/f-gh-releases-vllm-project-vllm-09utz7o.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-cascade-0epsb82",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"open-weight ai\" — 3 independent sources in 12h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 12 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• mistral — Mistral raises €3B to make sovereign, open-weight AI the technology frontier\n• hackernews-firehose — Mistral raises €3B to make sovereign, open-weight AI the technology frontier\n• reddit — WSJ: Unregulated Open-Weight AI Is an Invitation to Disaster\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open mistral",
+     "href": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+     "primary": true
+    },
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+     "primary": false
+    },
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wa9309/wsj_unregulated_openweight_ai_is_an_invitation_to/",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-08T08:30:42.685Z",
+   "tier": "X",
+   "families": [
+    "mistral",
+    "hackernews-firehose",
+    "reddit"
+   ],
+   "roots": [
+    "mistral",
+    "hackernews",
+    "reddit"
+   ],
+   "sub": "cascade shape · mistral, hackernews, reddit",
+   "extract": {
+    "ok": true,
+    "chars": 3556,
+    "lead": "Company Mistral raises €3B to make sovereign, open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company, three years after the company's launch. Samsung Electronics led the round, joined by co-leads Scaleup Europe Fund, managed by EQT, and existing investor PSG Equity. The round will significantly expand Mistral's frontier research, which is the foundation underpinning its infrastructure, products and sovereignty. While allowing Mistral to scale its compute capacity for training powerful models, it will help Mistral expand infrastructure and accelerate its commercial growth and international footprint. The company now operates across 20 countries and supports 125+ global enterprises’ mission-critical AI transformation, including Airbus, ASML, and HSBC. During the first wave of generative AI, the central question was who could build the most powerful model. Organizations and governments are now asking a different one: how to harness the power of AI for their mission-critical needs witho",
+    "truncated": false,
+    "title": "Making sovereign, open-weight AI the technology frontier | Mistral",
+    "fetchedAt": "2026-09-08T08:30:42.685Z",
+    "full": "full/f-cascade-0epsb82.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-vllm-project-vllm-0aossal",
+   "pri": 30,
+   "kind": "note",
+   "title": "vllm-project/vllm v0.29.0rc5",
+   "ctx": "[Core] Default prefix_cache_retention_interval to dense for Mamba + E…",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-vllm-project-vllm",
+   "detectedAt": "2026-09-08T08:30:42.685Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T08:20:33.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-github-new-repos-0gben7i",
+   "pri": 25,
+   "kind": "note",
+   "title": "Sophomoresty/turnstile-bypass — 191★ in 0.6d (303★/day)",
+   "ctx": "Cross-platform Cloudflare Turnstile solver (macOS, Windows, Linux)\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/Sophomoresty/turnstile-bypass",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-08T08:30:42.685Z",
+   "tier": "C",
+   "itemTs": "2026-09-07T17:22:54.000Z",
+   "sub": "github · Python",
+   "extract": {
+    "ok": true,
+    "chars": 5500,
+    "lead": "turnstile-bypass Self-contained Cloudflare challenge helper for macOS, Windows, and Linux. It drives headed Chrome to pass the two CF layers people usually call “the shield”: Turnstile widget on a site page (e.g. aipaycards.com/login ) → JSON token Interstitial waiting room ( 请稍候… / Just a moment, e.g. grok.com ) → cf_clearance and the real origin curl https://grok.com/ is 403 + cf-mitigated: challenge . After solve.py --url https://grok.com/ --fresh , the same Chrome tab is the Grok app with a cf_clearance cookie. It does not pass IP bans (1020), rate limits (1015), or Bot Fight when this Chrome is already rejected. A new agent should follow Install then Use . Nothing else is required. Install Needs: Python 3.10+, Google Chrome or Chromium. git clone https://github.com/Sophomoresty/turnstile-bypass.git cd turnstile-bypass python3 scripts/install.py install.py creates .venv in this repo, installs requirements.txt (DrissionPage), packs assets/turnstilePatch.zip , and runs scripts/preflight.py . You want: { \"ok\" : true , \"methods\" : { \"drissionpage\" : true } } OS If Chrome is not found macOS Install Google Chrome, or export CHROME_PATH=\"/Applications/Google Chrome.app/Contents/MacOS/",
+    "truncated": false,
+    "title": "GitHub - Sophomoresty/turnstile-bypass: Cross-platform Cloudflare Turnstile solver (macOS, Windows, Linux) · GitHub",
+    "fetchedAt": "2026-09-08T08:30:42.685Z",
+    "full": "full/f-github-new-repos-0gben7i.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-mistral-news-0tm8ifg",
    "pri": 35,
@@ -2694,145 +2834,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-cascade-1cjo527",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"ai coding\" — 3 independent sources in 3h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 3 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• reddit — The Cost of Letting AI Write Faster Than I Can Think\n• hackernews — OKF Agent Memory – Git-native persistent memory for AI coding agents\n• github-search — okf-memory/okf-agent-memory\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1w8gzy2/the_cost_of_letting_ai_write_faster_than_i_can/",
-     "primary": true
-    },
-    {
-     "label": "Open hackernews",
-     "href": "https://github.com/okf-memory/okf-agent-memory",
-     "primary": false
-    },
-    {
-     "label": "Open github-search",
-     "href": "https://github.com/okf-memory/okf-agent-memory",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-06T12:00:57.178Z",
-   "tier": "X",
-   "families": [
-    "reddit",
-    "hackernews",
-    "github-search"
-   ],
-   "roots": [
-    "reddit",
-    "hackernews",
-    "github-search"
-   ],
-   "sub": "cascade shape · reddit, hackernews, github-search",
-   "extract": {
-    "ok": true,
-    "chars": 267,
-    "lead": "Reddit - Prove your humanity Prove your humanity We’re committed to safety and security. But not for bots. Complete the challenge below and let us know you’re a real person. Reddit, Inc. © \"2026\". All rights reserved. User Agreement Privacy Policy Content Policy Help",
-    "truncated": false,
-    "title": "Reddit - Prove your humanity",
-    "fetchedAt": "2026-09-06T12:00:57.178Z",
-    "full": "full/f-cascade-1cjo527.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1te3vuw",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10822",
-   "ctx": "ui : embed assets directly with CMake ( #28445 ) Remove the build-time C++ helper and external gzip dependency, simplifying cross-compilation. Keep the generated C++ in templates for readability and preserve fully embedded UI assets. Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45558658 macOS/iOS: mac",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10822",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-06T12:00:57.178Z",
-   "tier": "A",
-   "itemTs": "2026-09-06T11:32:49.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1to3hjv",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10823",
-   "ctx": "common: add --log-jsonl ( #28437 ) common: add --log-jsonl rename unknown to none Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45560949 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10823",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-06T12:00:57.178Z",
-   "tier": "A",
-   "itemTs": "2026-09-06T11:59:46.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-github-new-repos-1kf0gzh",
-   "pri": 25,
-   "kind": "note",
-   "title": "okf-memory/okf-agent-memory — 214★ in 0.6d (352★/day)",
-   "ctx": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/okf-memory/okf-agent-memory",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-06T12:00:57.178Z",
-   "tier": "C",
-   "itemTs": "2026-09-05T21:26:04.000Z",
-   "sub": "github · Go",
-   "extract": {
-    "ok": true,
-    "chars": 8835,
-    "lead": "OKF Agent Memory A Domain-Neutral, Git-Native Persistent Project Memory for AI Agents based on the Open Knowledge Format (OKF) v0.2. 🌟 Overview Conversations with AI agents reset when context windows close. Valuable architectural decisions, domain discoveries, and operational facts are lost unless stored persistently. OKF Agent Memory provides a standardized, vendor-neutral memory layer that lives directly in your repository ( knowledge/ ) as plain Markdown files with YAML frontmatter. It bridges the gap between unstructured ad-hoc markdown files ( CLAUDE.md , AGENTS.md ) and complex, black-box vector databases. flowchart TD L1[\"1. OKF v0.2 Specification (Normative Markdown & YAML Format)\"] L2[\"2. Agent Memory Convention (Behavioral Rules: Search, Review, Trust)\"] L3[\"3. Agent Skill (LLM Prompts & Operational Workflows)\"] L4[\"4. Tooling Layer: Go Library & CLI (Deterministic Parsing, Validation, Search, MCP)\"] L5[\"5. Project Knowledge Corpus (knowledge/ OKF Bundle)\"] L1 --> L2 L2 --> L3 L3 --> L4 L4 --> L5 Loading ⚡ Key Highlights Blazing Fast Performance (<300µs Search, ~4ms Graph Validation) : In-memory BM25 retrieval and bundle validation execute in microseconds without VM spin",
-    "truncated": false,
-    "title": "GitHub - okf-memory/okf-agent-memory: Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go. · GitHub",
-    "fetchedAt": "2026-09-06T12:00:57.178Z",
-    "full": "full/f-github-new-repos-1kf0gzh.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
   }
  ],
  "clicks": {
@@ -2850,8 +2851,8 @@
    "daily": 44,
    "slow": 56
   },
-  "routed": 50,
-  "unrouted": 50,
+  "routed": 47,
+  "unrouted": 53,
   "unmappedLaneFamilies": []
  }
 }
