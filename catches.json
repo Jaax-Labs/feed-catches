@@ -1,7 +1,35 @@
 {
- "generatedAt": "2026-09-08T16:30:44.108Z",
+ "generatedAt": "2026-09-08T17:01:30.720Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-microsoft-research-0a1yd0r",
+   "pri": 30,
+   "kind": "note",
+   "title": "Called to serve: Tech, research, and positive impact with Chris White",
+   "ctx": "In the summer of 2010, postdoc Chris White worked with a multidisciplinary team at the Defense Advanced Research Projects Agency, or DARPA, to determine if a new approach to data analysis could prevent violence and protect troops during the war in Afghanistan. At the conclusion of the program, the agency asked White to prove the value of his work—on the ground. In this episode, Principal Technical",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "microsoft-research",
+   "detectedAt": "2026-09-08T17:00:39.835Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T16:45:12.000Z",
+   "sub": "msr",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: timeout after 8000ms",
+    "fetchedAt": "2026-09-08T17:00:39.835Z"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-github-new-repos-0c47c7y",
    "pri": 25,
@@ -2800,29 +2828,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-11fw6ai",
-   "pri": 45,
-   "kind": "note",
-   "title": "GLASS: Graph-Language Alignment with Spherical Scoring for Transferable Graph-Level Anomaly Detection",
-   "ctx": "We introduce GLASS, a framework for graph-level anomaly detection (GLAD) that achieves robust cross-domain transferability through graph-language alignment on the unit hypersphere. GLASS builds a unified representation space by aligning a structure-aware graph encoder with an instruction-aware text embedding via a multi-slice soft cosine objective. Our framework serializes local, global, and semantic graph properties into a compact Graph Descriptor Prompt (GraphDP), creating a text bridge that e",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05253v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T02:00:26.461Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:16:16.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2837,8 +2842,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 44,
-   "slow": 56
+   "daily": 45,
+   "slow": 55
   },
   "routed": 45,
   "unrouted": 55,
