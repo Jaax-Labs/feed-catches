@@ -1,7 +1,267 @@
 {
- "generatedAt": "2026-09-09T00:30:36.057Z",
+ "generatedAt": "2026-09-09T02:00:39.057Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.LG-02gh75p",
+   "pri": 45,
+   "kind": "note",
+   "title": "Structural Entropy-Driven Graph Diffusion Generation for One-Shot Federated Graph Learning",
+   "ctx": "One-shot federated graph learning (FGL) requires the server to estimate client contributions from highly compressed information, yet conventional volume-based weighting captures the amount of client data while overlooking how its connectivity is organized. In this paper, we propose SPIRE, a Structural Entropy-Driven Graph Diffusion Generation method that introduces topology-aware client differentiation into one-shot FGL. Specifically, we employ first-order degree-distribution structural entropy ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06499v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T09:31:12.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0f74wzm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Bi-HYCO: Bi-Objective Cooperative Learning for PDE Parameter Identification under Fragmented Observations",
+   "ctx": "Physical and synthetic models may describe complementary aspects of the same PDE-governed system while receiving different, possibly fragmented, observations. We propose Bi-Objective HYCO (Bi-HYCO), a cooperative framework that retains both representations and their local observational objectives while coupling their predicted states at unlabeled interaction points. These points contain no measurements and do not augment the data; they provide a communication mechanism in the common state space.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06511v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T09:59:44.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0jjzc0m",
+   "pri": 45,
+   "kind": "note",
+   "title": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
+   "ctx": "Recursive Super-Resolution (SR) extends fixed-scale SR to extreme magnification by repeatedly feeding predictions back into the same model, analogous to zooming an image repeatedly. However, ground truth availability at every scale, especially at depth, remains challenging as the required source resolution grows geometrically, leaving deeper predictions unsupervised. We present OracleZoom, an on-policy distillation-inspired, reference-constrained framework that trains on its trajectory while car",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06490v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T09:06:27.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0lhg98k",
+   "pri": 45,
+   "kind": "note",
+   "title": "Power Mean Estimation in Stochastic Continuous Monte Carlo Tree Search",
+   "ctx": "Monte Carlo Tree Search (MCTS) has demonstrated success in online planning for deterministic environments, yet significant challenges remain in adapting it to stochastic Markov Decision Processes (MDPs), particularly in continuous state-action spaces. Existing methods, such as HOOT, which combines MCTS with the Hierarchical Optimistic Optimization (HOO) bandit strategy, address continuous spaces but rely on a logarithmic exploration bonus that lacks theoretical guarantees in non-stationary, stoc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06489v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T09:04:39.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0u14h0f",
+   "pri": 45,
+   "kind": "note",
+   "title": "Second-Order Smooth Planning with Optimal-Transport Bellman Smoothing",
+   "ctx": "Planning with a generative model aims to estimate the value of a state using as few simulator calls as possible. SmoothCruiser achieves problem-independent complexity $\\widetilde O(\\varepsilon^{-4})$ by exploiting the smoothness of the entropy-regularized Bellman backup, but its estimator is only first-order. We show that the sample-complexity exponent of SmoothCruiser-type planners is governed by the order $β$ of the local Taylor remainder, giving oracle complexity $\\widetilde O(\\varepsilon^{-(",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06484v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T08:58:57.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-10bm6w9",
+   "pri": 45,
+   "kind": "note",
+   "title": "Not Just Oversmoothing: Detecting the Echo Chamber Effect in Graph Neural Networks",
+   "ctx": "Oversmoothing is a well-known failure mode of Graph Neural Networks (GNNs). However, most existing diagnostics rely on global aggregation measures that fail to capture the heterogeneous dynamics of message passing. Real-world graphs exhibit pronounced community structure, and message passing operates on two timescales, with representations collapsing rapidly within communities and slowly across them. This creates a critical gap in which intra-community representations can become indistinguishabl",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06521v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T10:42:28.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1lgrfs2",
+   "pri": 45,
+   "kind": "note",
+   "title": "How Does Parameter Pruning Reshape DNN Representations? An Interaction-Driven Exploration",
+   "ctx": "This study focuses on the scientific problem of understanding internal factors that govern the diverse performance degradation of deep neural networks (DNNs) when different parameters are pruned. In order to explain why pruning certain parameters leads to significant performance degradation but pruning other parameters does not, we examine how the pruning operation affects the interaction patterns encoded by the DNN. We find that when we progressively increase the pruning ratio, the interaction ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06483v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T08:58:21.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1nrhs54",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning Kernels by Alignment for Multiclass Bayes Classification",
+   "ctx": "Kernel methods separate data representation from decision-making, but typically require the kernel to be chosen in advance. We show that this kernel can instead be learned by alignment, and develop the resulting framework through the recently introduced Collaborative Learning and Inference (CLaI). We show that Collaborative Learning can be viewed as a kernel alignment process, in which an embedding is trained so that its induced similarity matches a label-derived target kernel. We also prove tha",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06474v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T08:46:36.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1q4848a",
+   "pri": 45,
+   "kind": "note",
+   "title": "Role-Specific Predictive Geometries for Nonstationary Multivariate Graph-Signal Forecasting",
+   "ctx": "Forecasting multivariate graph signals is challenging when node-level trajectories are nonstationary but stable relations persist across nodes and features. In an error-correction representation, long-run equilibrium restoration and short-run transient propagation represent different predictive roles and need not share a common cross-feature geometry. We introduce role-specific predictive geometries in which directed Long relations act on estimated equilibrium coordinates, whereas directed Short",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06519v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T10:29:55.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1ynwc05",
+   "pri": 45,
+   "kind": "note",
+   "title": "Model-Adaptive and Risk-Constrained Frequency Hopping Against Predictive Jammers",
+   "ctx": "Adaptive frequency hopping against predictive jamming must address both model uncertainty and policy exposure: the context-loss relationship may vary across operating regimes, while persistent hopping patterns may expose high-probability channels to attack. We propose D-PACT-AFH, a model-adaptive and risk-constrained adversarial contextual-bandit framework in which a Tsallis-FTRL master combines a global linear learner with a partitioned local learner and selects the model class online. D-PACT-H",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.06514v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T02:00:31.769Z",
+   "tier": "B",
+   "itemTs": "2026-09-06T10:17:09.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-google-gemini-gemini-cli-07ibehj",
+   "pri": 30,
+   "kind": "note",
+   "title": "google-gemini/gemini-cli Release v0.61.0-nightly.20260909.ged2ac40df",
+   "ctx": "What's Changed fix(core): mitigate NTFS 8.3 short name (SFN) path by @urielefrenvirtusa in #29116 fix(cli): isolate settings directory in sandbox containers by @jvargassanchez-dot in #29216 fix(core): enforce envelope metadata provenance for untrusted tool outputs by @luisfelipe-alt in #29215 Changelog for v0.60.0-preview.0 by @gemini-cli-robot in #29251 chore(release): bump version to 0.61.0-nigh",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260909.ged2ac40df",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-google-gemini-gemini-cli",
+   "detectedAt": "2026-09-09T01:30:26.416Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T01:26:07.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-09T01:30:26.416Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-simon-willison-1isu7zv",
    "pri": 36,
@@ -2731,265 +2991,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1i6t26e",
-   "pri": 45,
-   "kind": "note",
-   "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
-   "ctx": "Chilli (Capsicum annuum) is one of India's most economically significant crops, yet its productivity is persistently threatened by diseases that are difficult to identify without expert intervention. While Vision Transformers (ViTs) have achieved high classification accuracy, their large computational footprint makes deployment on resource constrained devices challenging. Existing compression approaches typically address pruning, quantization, and knowledge distillation in isolation, leaving the",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05334v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T03:00:26.525Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T16:40:06.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1sxg98q",
-   "pri": 45,
-   "kind": "note",
-   "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
-   "ctx": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason about such distinctions, but applying them directly to hundreds of millions of product pairs is operationally impractical. We introduce a two-level framework that distills LLM reasoning into an efficient non-generative student and adapts its decision boundary to product-type-specific trade-up criteria. At Level 1, a re",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05363v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-07T03:00:26.525Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T17:08:50.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0358iv6",
-   "pri": 45,
-   "kind": "note",
-   "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
-   "ctx": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning in both language and vision transformers. However, as models and datasets have scaled, dropout - particularly layer dropout - has largely disappeared from large language models (LLMs) pre-training recipes. While some prior work has reported that dropout can degrade accuracy, no comprehensive study has quantified, let alone mitigated, this effect. In this st",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05275v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:30:47.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-05tjm14",
-   "pri": 45,
-   "kind": "note",
-   "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
-   "ctx": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC operations published between 2023 and March 2026. Each study is classified across five application families and three LLM method families and assessed for evidence realism, deployment readiness, and ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05314v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T16:08:05.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0apzrcn",
-   "pri": 45,
-   "kind": "note",
-   "title": "CONTINUITY: Security-Context Contracts for Composable LLM Agent Controls",
-   "ctx": "LLM agent systems increasingly combine provenance tracking, authorization, policy enforcement, protocol adapters, and execution controls. However, individually correct security mechanisms do not necessarily compose into an end-to-end secure system: security-critical context may be dropped, widened, rebound, or reinterpreted as actions cross component boundaries. We identify this failure mode as security-context discontinuity and introduce CONTINUITY, a framework for verifiable composition of age",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05269v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:26:35.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0m72nht",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
-   "ctx": "Automated reference-based evaluation methods play a critical role in assessing natural language generation systems. Existing meta-evaluation primarily measures agreement with human judgments or benchmark labels, providing limited insight into evaluator behavior under controlled conditions. We introduce behavioral correctness assumptions, a complementary framework for evaluating reference-based automatic evaluation methods. We define a taxonomy of correctness-preserving and correctness-altering a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05289v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:43:09.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0qa5zou",
-   "pri": 45,
-   "kind": "note",
-   "title": "Testing Interchangeability in LLM Agent Teams",
-   "ctx": "Production multi-agent systems replace agents constantly, on the assumption that an agent filling a role is interchangeable with any other agent that can do the job. We test that assumption. Eight teams per setting are formed independently from one base model on the same tasks, each agent keeping a private notebook across ten formation episodes; we then trade role-matched agents between teams and measure what changes on held-out tasks. Against a placebo that reproduces the disruption of a roster",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05279v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:32:20.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1017dvw",
-   "pri": 45,
-   "kind": "note",
-   "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
-   "ctx": "On-policy distillation (OPD) provides dense, per-token supervision for language model post-training, but its effectiveness is bottlenecked by teacher quality: external teachers suffer from distribution mismatch, while self-distillation with privileged conditioning is limited by in-context learning capacity. We propose \\textbf{RISE} (\\textbf{R}ecursive \\textbf{I}mprovement via \\textbf{S}elf-\\textbf{E}xtrapolating Policy Distillation), which constructs a synthetic teacher directly from the model's",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05295v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:47:51.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-11pu7ni",
-   "pri": 45,
-   "kind": "note",
-   "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
-   "ctx": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLMs often exhibit uncertainty, where LLMs often produce a proliferation of divergent branches at each reasoning step even when fed the same prompting inputs, and certain branches exhibit evidently incredible, even nonsensical, reasoning chains and results. In this paper, we propose the Graph-complexity-based UncerTainty (GUT) method for investigating the reaso",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05284v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:40:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-14oq2lu",
-   "pri": 45,
-   "kind": "note",
-   "title": "How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing",
-   "ctx": "Hyper-Connections and their manifold-constrained variant mHC widen a residual pathway from one stream to n, yet how trained models use this capacity remains unclear: how broadly blocks read and write, how strongly the residual pathway mixes streams, and whether the streams carry distinct representations. We examine these properties in the four-stream residual pathway of DeepSeek-V4-Flash using effective stream counts, cross-stream residual weights, and inter-stream cosine similarity. Read/write ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05309v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T16:02:20.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1fzmywz",
-   "pri": 45,
-   "kind": "note",
-   "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
-   "ctx": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model reasoning under increasing spatial and procedural complexity. We introduce \\textbf{RoboSPA} (\\textbf{Robo}t \\textbf{S}patial-\\textbf{P}rocedural \\textbf{A}ssessment), a large-scale robotic manipulation dataset and benchmark for diagnosing embodied rea",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05324v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T16:19:01.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -3004,11 +3005,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 62,
-   "slow": 38
+   "slow": 37,
+   "daily": 63
   },
-  "routed": 54,
-  "unrouted": 46,
+  "routed": 52,
+  "unrouted": 48,
   "unmappedLaneFamilies": []
  }
 }
