@@ -1,7 +1,127 @@
 {
- "generatedAt": "2026-09-09T17:01:07.613Z",
+ "generatedAt": "2026-09-09T18:31:14.270Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-openai-news-0rqgknm",
+   "pri": 15,
+   "kind": "note",
+   "title": "Paul Christiano joins OpenAI Foundation Board",
+   "ctx": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "openai-news",
+   "detectedAt": "2026-09-09T18:01:23.946Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T17:00:00.000Z",
+   "sub": "openai",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-09T18:01:23.946Z"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0wchfpp",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10883",
+   "ctx": "vulkan: use spec constant for matrix matrix multiplication A-type ( #25773 ) vulkan: use spec constant for mul mat type_a vulkan: use map for mul_mm shapes cleanup fix indentation fix cm2 and shmem init fix cm2 spec constants fix cm2 bindings consolidate shmem tables and reduce size by type spec constant fix compiler warning fix missing Q2_0 type fix unused warning when integer dot glslc support i",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10883",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T17:31:14.461Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T17:31:11.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2485,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10883 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 17:29 b10883 91f6a6c This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: use spec constant for matrix matrix multiplication A-type ( #25773 ) vulkan: use spec constant for mul mat type_a vulkan: use map for mul_mm shapes cleanup fix indentation fix cm2 and shmem init fix cm2 spec constants fix cm2 bindings consolidate shmem tables and reduce size by type spec constant fix compiler warning fix missing Q2_0 type fix unused warning when integer dot glslc support is missing use minimal shmem size 8 instead of 1 to workaround cm2 compiler bug fix missing Q2_0 type in cm2 matmul fix types remove LUT quants from unified shader clean up res",
+    "truncated": false,
+    "title": "Release b10883 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-09T17:31:14.461Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0wchfpp.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-github-new-repos-04uv6sg",
+   "pri": 25,
+   "kind": "note",
+   "title": "jaskirat1616/mactap-app — 207★ in 0.8d (268★/day)",
+   "ctx": "MacTap — knock your MacBook to run shortcuts\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
+   "acts": [
+    {
+     "label": "Open repo",
+     "href": "https://github.com/jaskirat1616/mactap-app",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "github-new-repos",
+   "detectedAt": "2026-09-09T17:31:14.461Z",
+   "tier": "C",
+   "itemTs": "2026-09-08T22:57:29.000Z",
+   "sub": "github · Swift",
+   "extract": {
+    "ok": true,
+    "chars": 1814,
+    "lead": "MacTap Knock the MacBook. The app does the rest. MacTap lives in the menu bar and turns taps on the chassis — or the desk underneath a still laptop — into shortcuts. One, two, or three knocks. Copy, paste, Accept, screenshots, media, or whatever you map. Requires a MacBook whose motion sensor is exposed as an SPU HID device: M2 and later , or M1 Pro / Max / Ultra . The original M1 Air ( MacBookAir10,1 ) and some other M1 models do not publish the accelerometer HID report MacTap reads, so knocks cannot be detected. macOS 14.6 or later. MacTap does not fall back to rebinding arrow keys when the sensor is missing. Install Download MacTap-2.1.0.dmg from Releases . Open the disk image and drag MacTap into Applications. Open MacTap, then turn on Accessibility when asked so knocks can send shortcuts. Detection itself does not need Accessibility. Actions do. If macOS asks to control System Events, allow that too. Use Anywhere — one, two, or three knocks on the chassis or desk. Left & Right — each edge is a different set of actions. Presets — Daily, Coding, Capture, Media, Focus. Per app — override knocks while a specific app is frontmost. Open Settings from the menu extra to change layout,",
+    "truncated": false,
+    "title": "GitHub - jaskirat1616/mactap-app: MacTap — knock your MacBook to run shortcuts · GitHub",
+    "fetchedAt": "2026-09-09T17:31:14.461Z",
+    "full": "full/f-github-new-repos-04uv6sg.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-mistral-news-1k44h2x",
+   "pri": 35,
+   "kind": "note",
+   "title": "Modernizing complex legacy code with AI agents.",
+   "ctx": "Mistral helped a European energy operator migrate 40,000 lines of Fortran 77 to C++. Learn how it was done, and the lessons to carry forward.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://mistral.ai/news/legacy-code-modernization/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "mistral-news",
+   "detectedAt": "2026-09-09T17:31:14.461Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T12:00:46.000Z",
+   "sub": "mistral",
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-google-ai-blog-19z0q4l",
    "pri": 35,
@@ -2524,107 +2644,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-0rgf12j",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.9",
-   "ctx": "Release 0.154.0-alpha.9",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.9",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T02:21:53.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 830,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 123k rust-v0.154.0-alpha.9 rust-v0.154.0-alpha.9 5b2f557 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.9 rust-v0.154.0-alpha.9 5b2f557 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 09 Sep 02:21 Release 0.154.0-alpha.9 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.154.0-alpha.9 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-09T02:30:16.087Z",
-    "full": "full/f-gh-releases-openai-codex-0rgf12j.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-02gh75p",
-   "pri": 45,
-   "kind": "note",
-   "title": "Structural Entropy-Driven Graph Diffusion Generation for One-Shot Federated Graph Learning",
-   "ctx": "One-shot federated graph learning (FGL) requires the server to estimate client contributions from highly compressed information, yet conventional volume-based weighting captures the amount of client data while overlooking how its connectivity is organized. In this paper, we propose SPIRE, a Structural Entropy-Driven Graph Diffusion Generation method that introduces topology-aware client differentiation into one-shot FGL. Specifically, we employ first-order degree-distribution structural entropy ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06499v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T09:31:12.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0f74wzm",
-   "pri": 45,
-   "kind": "note",
-   "title": "Bi-HYCO: Bi-Objective Cooperative Learning for PDE Parameter Identification under Fragmented Observations",
-   "ctx": "Physical and synthetic models may describe complementary aspects of the same PDE-governed system while receiving different, possibly fragmented, observations. We propose Bi-Objective HYCO (Bi-HYCO), a cooperative framework that retains both representations and their local observational objectives while coupling their predicted states at unlabeled interaction points. These points contain no measurements and do not augment the data; they provide a communication mechanism in the common state space.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06511v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T09:59:44.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0jjzc0m",
-   "pri": 45,
-   "kind": "note",
-   "title": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
-   "ctx": "Recursive Super-Resolution (SR) extends fixed-scale SR to extreme magnification by repeatedly feeding predictions back into the same model, analogous to zooming an image repeatedly. However, ground truth availability at every scale, especially at depth, remains challenging as the required source resolution grows geometrically, leaving deeper predictions unsupervised. We present OracleZoom, an on-policy distillation-inspired, reference-constrained framework that trains on its trajectory while car",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06490v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T09:06:27.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2639,11 +2658,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 24,
-   "slow": 76
+   "daily": 27,
+   "slow": 73
   },
-  "routed": 31,
-  "unrouted": 69,
+  "routed": 33,
+  "unrouted": 67,
   "unmappedLaneFamilies": []
  }
 }
