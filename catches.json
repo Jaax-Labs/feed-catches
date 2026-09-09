@@ -1,7 +1,142 @@
 {
- "generatedAt": "2026-09-09T06:31:08.004Z",
+ "generatedAt": "2026-09-09T08:00:41.639Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0pzeuux",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10872",
+   "ctx": "jinja: treat a null left operand of in as a plain lookup ( #28620 ) Templates that default an optional variable to none and then test its membership in a map hit an error, while the same expression is a normal lookup returning false in Jinja. The undefined counterpart of this case was already handled just above. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attesta",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10872",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T08:00:33.644Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T07:47:26.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1924,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10872 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 07:44 b10872 b31b71f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . jinja: treat a null left operand of in as a plain lookup ( #28620 ) Templates that default an optional variable to none and then test its membership in a map hit an error, while the same expression is a normal lookup returning false in Jinja. The undefined counterpart of this case was already handled just above. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46177710 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu a",
+    "truncated": false,
+    "title": "Release b10872 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-09T08:00:33.644Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0pzeuux.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0p5g1s0",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10871",
+   "ctx": "vulkan: add dedicated iq4_xs mat-vec shader ( #28426 ) vulkan: add dedicated iq4_xs mat-vec shader Dedicated mul_mat_vec_iq4_xs for the dmmv path, replacing the generic fallback. ~+6-17% token generation on RDNA4 depending on model. Assisted-by: Pi agent with Qwen3.8 27B vulkan iq4_xs: remove dead n_it unroll branch Remove the n_it &lt;= 8 experimental branch that attempted to fully unroll the blo",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10871",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T07:30:29.795Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T07:20:12.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2173,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10871 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 07:17 b10871 df750f7 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: add dedicated iq4_xs mat-vec shader ( #28426 ) vulkan: add dedicated iq4_xs mat-vec shader Dedicated mul_mat_vec_iq4_xs for the dmmv path, replacing the generic fallback. ~+6-17% token generation on RDNA4 depending on model. Assisted-by: Pi agent with Qwen3.8 27B vulkan iq4_xs: remove dead n_it unroll branch Remove the n_it <= 8 experimental branch that attempted to fully unroll the block loop. Since n_it is a runtime value, [[unroll]] is ignored by the compiler, making both branches equivalent. Kept the simple loop matching mul_mat_vec_iq3_s.comp. Website: htt",
+    "truncated": false,
+    "title": "Release b10871 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-09T07:30:29.795Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0p5g1s0.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0pffngz",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10870",
+   "ctx": "vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 ( #27471 ) vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 simplify mmp selection in mul_mat_id per review comment vulkan: enable f16 B-type pipeline for dense matmul on all vendors (MoE stays Intel-only) vulkan: add missing ocp_fp4 branches, restrict required_subgroup_size to ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10870",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T07:01:07.984Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T06:40:30.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2162,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10870 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 06:38 b10870 1945e09 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 ( #27471 ) vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 simplify mmp selection in mul_mat_id per review comment vulkan: enable f16 B-type pipeline for dense matmul on all vendors (MoE stays Intel-only) vulkan: add missing ocp_fp4 branches, restrict required_subgroup_size to Intel, fix mmp selection refine mmp selection in mul_mat_id add f16B pipeline selection just like q8_1 update f16B pipeline selection in dense function Website: https://llama.",
+    "truncated": false,
+    "title": "Release b10870 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-09T07:01:07.984Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0pffngz.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-18yudt1",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.10.2",
+   "ctx": "Release 0.154.0-alpha.10.2",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.2",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-09T07:01:07.984Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T06:57:59.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 845,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 123k rust-v0.154.0-alpha.10.2 rust-v0.154.0-alpha.10.2 72749d0 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.10.2 rust-v0.154.0-alpha.10.2 72749d0 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 09 Sep 06:57 Release 0.154.0-alpha.10.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.10.2 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-09T07:01:07.984Z",
+    "full": "full/f-gh-releases-openai-codex-18yudt1.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-openai-codex-184vkq4",
    "pri": 30,
@@ -2439,139 +2574,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-github-new-repos-05xrlic",
-   "pri": 8,
-   "kind": "note",
-   "title": "henryzawadzki6542/cloudflare-turnstile-bypass — 252★ in 0.3d (1,008★/day)",
-   "ctx": "Work with Cloudflare Turnstile in Python: find the sitekey, get a valid cf-turnstile-response token in seconds. Dependency-free library + CLI, built for CI and automation.\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/henryzawadzki6542/cloudflare-turnstile-bypass",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-08T19:30:39.676Z",
-   "tier": "C",
-   "itemTs": "2026-09-08T17:26:48.000Z",
-   "sub": "github · Python",
-   "extract": {
-    "ok": true,
-    "chars": 4314,
-    "lead": "Cloudflare Turnstile Bypass - How to Bypass the Turnstile Challenge in Python Cloudflare Turnstile Bypass is a small, dependency-free Python package that bypasses the Cloudflare Turnstile challenge programmatically: it finds the Turnstile sitekey on any page, creates a valid cf-turnstile-response token via the Peak API, and hands you the finished token - no browser, no headless Chrome, no fingerprint fight. Designed for CI pipelines, QA automation, and integration engineering. Table of Contents: What \"bypassing Turnstile\" actually means Quick start Finding a Turnstile sitekey Bypassing the challenge Python API reference CLI usage Examples Why a solver beats headless browsers Powered by Peak License What \"bypassing Turnstile\" actually means Cloudflare Turnstile is a challenge widget that issues a signed token. A \"bypass\" never attacks Cloudflare's edge - that is not practical or legal. What works, and what this package does, is: find the sitekey the target page is protecting itself with, solve the challenge for that sitekey through a solving service, and inject the resulting token into your request exactly like a browser would after completing the widget. To Cloudflare's backend you",
-    "truncated": false,
-    "title": "GitHub - henryzawadzki6542/cloudflare-turnstile-bypass: Work with Cloudflare Turnstile in Python: find the sitekey, get a valid cf-turnstile-response token in seconds. Dependency-free library + CLI, built for CI and automation. · GitHub",
-    "fetchedAt": "2026-09-08T19:30:39.676Z",
-    "full": "full/f-github-new-repos-05xrlic.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-github-new-repos-02byik3",
-   "pri": 8,
-   "kind": "note",
-   "title": "openai/NavierStokesAndEuler — 296★ in 0.3d (874★/day)",
-   "ctx": "Lean certificates accompanying Navier-Stokes and Euler results\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/openai/NavierStokesAndEuler",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-08T19:01:06.477Z",
-   "tier": "C",
-   "itemTs": "2026-09-08T10:53:38.000Z",
-   "sub": "github · Lean",
-   "extract": {
-    "ok": true,
-    "chars": 1506,
-    "lead": "Finite time blowup for Navier–Stokes and Euler equations This repository contains Lean 4 formalizations of the results presented in “Finite time blowup for Navier–Stokes” and “Finite time blowup for the Euler equation” by OpenAI. Navier Stokes For every positive viscosity, we prove two results: Whole space $\\mathbb{R}^3$ : There exist smooth initial data and forcing for which no global smooth solution with uniformly bounded kinetic energy exists. Periodic torus $\\mathbb{R}^3/\\mathbb{Z}^3$ : There exist smooth periodic initial data and forcing for which no global smooth solution exists. These are alternatives (C) “Breakdown of Navier–Stokes solutions on ℝ³” and (D) “Breakdown of Navier–Stokes Solutions on ℝ³/ℤ³” in the Clay Mathematics Institute’s official problem description of the Navier–Stokes existence and smoothness Millennium Prize Problem . Euler We construct smooth, compactly supported, divergence-free initial velocity on $\\mathbb{R}^3$ whose solution to the unforced incompressible Euler equations develops a singularity in finite time. The velocity’s $C^1$ norm becomes unbounded near that time, and the time integral of the vorticity’s $L^\\infty$ norm diverges. Building the f",
-    "truncated": false,
-    "title": "GitHub - openai/NavierStokesAndEuler: Lean certificates accompanying Navier-Stokes and Euler results · GitHub",
-    "fetchedAt": "2026-09-08T19:01:06.477Z",
-    "full": "full/f-github-new-repos-02byik3.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-openrouter-models-0f0qxnp",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — Inception: Mercury 2.5",
-   "ctx": "A routing row exists for inception/mercury-2.5. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nMercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/inception/mercury-2.5",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-09-08T19:01:06.477Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T18:28:57.000Z",
-   "sub": "openrouter · inception/mercury-2.5",
-   "extract": {
-    "ok": true,
-    "chars": 1326,
-    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping t",
-    "truncated": false,
-    "title": "Mercury 2.5 - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-08T19:01:06.477Z",
-    "full": "full/f-openrouter-models-0f0qxnp.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-openrouter-models-0kau563",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — Nex AGI: Nex-N2.5-Pro (free)",
-   "ctx": "A routing row exists for nex-agi/nex-n2.5-pro:free. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nNex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/nex-agi/nex-n2.5-pro:free",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-09-08T18:30:31.247Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T17:54:10.000Z",
-   "sub": "openrouter · nex-agi/nex-n2.5-pro:free",
-   "extract": {
-    "ok": true,
-    "chars": 1293,
-    "lead": "Frequently asked questions What is Nex-N2.5-Pro (free)? Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file changes, run commands, launch applications, interact with browser and desktop interfaces, and test software from the user's perspective. Is Nex-N2.5-Pro (free) free? Yes. The pricing shown on this page for Nex-N2.5-Pro (free) is zero, so you are not charged for prompt or completion tokens. Free endpoints are rate limited — see the rate limit docs . What is the context length of Nex-N2.5-Pro (free)? Nex-N2.5-Pro (free) has a 262,144 token context window. It supports up to 262,144 completion tokens. Does Nex-N2.5-Pro (free) support tool calling and structured outputs? Yes. Nex-N2.5-Pro (free) accepts tools and tool_choice for function calling. It does not support response_format , so JSON output is not enforced. What inputs and outputs does Nex-N2.5-Pro (free) support? Nex-N2.5-Pro (free) accepts text and images as input and returns text. What other text models does Nex AGI have? Nex-N2.5-Mini (free) is another text model from Nex AGI. ",
-    "truncated": false,
-    "title": "Nex-N2.5-Pro (free) - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-08T18:30:31.247Z",
-    "full": "full/f-openrouter-models-0kau563.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2589,8 +2591,8 @@
    "daily": 21,
    "slow": 79
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 31,
+  "unrouted": 69,
   "unmappedLaneFamilies": []
  }
 }
