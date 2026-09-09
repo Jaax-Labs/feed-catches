@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-09T08:00:41.639Z",
+ "generatedAt": "2026-09-09T08:30:56.863Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-1lqwp3a",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.11",
+   "ctx": "Release 0.154.0-alpha.11",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.11",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-09T08:30:51.275Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T08:19:19.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 835,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.9k Star 123k rust-v0.154.0-alpha.11 rust-v0.154.0-alpha.11 4236f50 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.11 rust-v0.154.0-alpha.11 4236f50 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 09 Sep 08:19 Release 0.154.0-alpha.11 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.11 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-09T08:30:51.275Z",
+    "full": "full/f-gh-releases-openai-codex-1lqwp3a.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0pzeuux",
    "pri": 30,
@@ -2544,36 +2576,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-openai-news-11sd2tq",
-   "pri": 15,
-   "kind": "note",
-   "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-   "ctx": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://openai.com/index/codex-quantum-computing-experiments",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openai-news",
-   "detectedAt": "2026-09-08T20:30:31.748Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T17:00:00.000Z",
-   "sub": "openai",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-09-08T20:30:31.748Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2591,8 +2593,8 @@
    "daily": 21,
    "slow": 79
   },
-  "routed": 31,
-  "unrouted": 69,
+  "routed": 30,
+  "unrouted": 70,
   "unmappedLaneFamilies": []
  }
 }
