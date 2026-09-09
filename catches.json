@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-09T09:01:14.985Z",
+ "generatedAt": "2026-09-09T09:30:54.076Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0ppf95y",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10873",
+   "ctx": "mtmd: propagate video ID to bitmap ( #28601 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46201259 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10873",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T09:30:48.427Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T09:24:05.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1656,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10873 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 09:21 b10873 6de9cdb This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . mtmd: propagate video ID to bitmap ( #28601 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46201259 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno)",
+    "truncated": false,
+    "title": "Release b10873 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-09T09:30:48.427Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0ppf95y.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-hf-daily-papers-0v9drxm",
    "pri": 28,
@@ -2549,40 +2583,6 @@
     "model-switch",
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-gh-releases-anthropics-claude-code-1tyi66w",
-   "pri": 30,
-   "kind": "note",
-   "title": "anthropics/claude-code v2.1.265",
-   "ctx": "What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a folder of plugins: each child folder with a manifest loads, and children added or removed while running are picked up Added a 1 GB cap on tool results saved to disk; the in-conversation preview says wh",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-anthropics-claude-code",
-   "detectedAt": "2026-09-08T21:00:35.036Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T20:37:31.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 8322,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.1k Star 144k v2.1.265 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 08 Sep 20:37 v2.1.265 8e02f6d What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a folder of plugins: each child folder with a manifest loads, and children added or removed while running are picked up Added a 1 GB cap on tool results saved to disk; the in-conversation preview says when a saved file was truncated Fixed resuming a foreground-spawned subagent changing its tool list and system prompt prefix, which broke prompt-cache reuse for that agent Fixed agent teammates and resumed subagents moving SubagentStart hook context and preloaded skills out of the prompt prefix on later turns, which broke prompt-ca",
-    "truncated": false,
-    "title": "Release v2.1.265 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-09-08T21:00:35.036Z",
-    "full": "full/f-gh-releases-anthropics-claude-code-1tyi66w.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2597,8 +2597,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 80,
-   "daily": 20
+   "daily": 20,
+   "slow": 80
   },
   "routed": 29,
   "unrouted": 71,
