@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-09-09T12:30:48.987Z",
+ "generatedAt": "2026-09-09T13:01:14.252Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-chinatalk-166hbbc",
+   "pri": 60,
+   "kind": "note",
+   "title": "Can Taiwan Build Drones?",
+   "ctx": "Over the course of this week, we are thrilled to share an in-depth, vivid journey through Taiwan’s drone industry in two parts. Ethan’s rigorous research and extensive on the ground reporting is a real contribution to the discussion around Taiwan’s defense. Enjoy! Ethan Kessler was a 2025-2026 Boren Graduate Fellow for Mandarin Chinese in Taiwan. Before that, he was a graduate student and think ta",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/can-taiwan-build-drones",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-09-09T13:00:53.073Z",
+   "tier": "D",
+   "itemTs": "2026-09-09T12:54:44.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 34439,
+    "lead": "Over the course of this week, we are thrilled to share an in-depth, vivid journey through Taiwan’s drone industry in two parts. Ethan’s rigorous research and extensive on the ground reporting is a real contribution to the discussion around Taiwan’s defense. Enjoy! Ethan Kessler was a 2025-2026 Boren Graduate Fellow for Mandarin Chinese in Taiwan. Before that, he was a graduate student and think tank researcher focusing on cross-Strait relations, critical technology, and defense acquisition policy. Over the past half decade, small, relatively cheap drones have proven their potency on the modern battlefield. This has driven many in Taiwan to support a strong industrial policy for drone assembly and production. To many in the government, armed forces, and private industry of Taiwan, drones represent a way to leverage Taiwan’s comparative advantages and satisfy the desire among U.S.-allied countries to locate alternatives to Chinese supply chains. Given the relevance of drones to modern warfare, Taiwan’s evergreen push for Made in Taiwan (especially for defense articles), and growing Taiwanese uncertainty in U.S. commitments to arm and defend the island nation, this should be a no-brai",
+    "truncated": false,
+    "fetchedAt": "2026-09-09T13:00:53.073Z",
+    "full": "full/f-chinatalk-166hbbc.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0qtdnxu",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10877",
+   "ctx": "CUDA: size routed MoE MMQ N-tiles from typical expert width on RDNA3 ( #28552 ) Recreated from #24546 Co-authored-by: Carl Philipp Klemm carl@uvos.xyz CUDA: pick MMQ tile size against ncols_opt set on the host side Assisted-by: Claude Fable 5.1 Claude-Session: https://claude.ai/code/session_011SYPfRhKoUpU3gMsGxq6go Co-authored-by: ravel7524 58877666+ravel7524@users.noreply.github.com Co-authored-b",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10877",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T13:00:53.073Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T12:55:22.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2046,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10877 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 12:53 b10877 d4abd57 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . CUDA: size routed MoE MMQ N-tiles from typical expert width on RDNA3 ( #28552 ) Recreated from #24546 Co-authored-by: Carl Philipp Klemm carl@uvos.xyz CUDA: pick MMQ tile size against ncols_opt set on the host side Assisted-by: Claude Fable 5.1 Claude-Session: https://claude.ai/code/session_011SYPfRhKoUpU3gMsGxq6go Co-authored-by: ravel7524 58877666+ravel7524@users.noreply.github.com Co-authored-by: Carl Philipp Klemm carl@uvos.xyz Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46250236 macOS/iOS: macOS Apple Silicon (arm64)",
+    "truncated": false,
+    "title": "Release b10877 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-09T13:00:53.073Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0qtdnxu.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0r3d9mt",
    "pri": 30,
@@ -2528,59 +2594,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1ynwc05",
-   "pri": 45,
-   "kind": "note",
-   "title": "Model-Adaptive and Risk-Constrained Frequency Hopping Against Predictive Jammers",
-   "ctx": "Adaptive frequency hopping against predictive jamming must address both model uncertainty and policy exposure: the context-loss relationship may vary across operating regimes, while persistent hopping patterns may expose high-probability channels to attack. We propose D-PACT-AFH, a model-adaptive and risk-constrained adversarial contextual-bandit framework in which a Tsallis-FTRL master combines a global linear learner with a partitioned local learner and selects the model class online. D-PACT-H",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06514v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T10:17:09.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-07ibehj",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.61.0-nightly.20260909.ged2ac40df",
-   "ctx": "What's Changed fix(core): mitigate NTFS 8.3 short name (SFN) path by @urielefrenvirtusa in #29116 fix(cli): isolate settings directory in sandbox containers by @jvargassanchez-dot in #29216 fix(core): enforce envelope metadata provenance for untrusted tool outputs by @luisfelipe-alt in #29215 Changelog for v0.60.0-preview.0 by @gemini-cli-robot in #29251 chore(release): bump version to 0.61.0-nigh",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260909.ged2ac40df",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-09-09T01:30:26.416Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T01:26:07.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-09T01:30:26.416Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2595,8 +2608,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 19,
-   "slow": 81
+   "slow": 81,
+   "daily": 19
   },
   "routed": 29,
   "unrouted": 71,
