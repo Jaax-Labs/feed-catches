@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-09T08:30:56.863Z",
+ "generatedAt": "2026-09-09T09:01:14.985Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-hf-daily-papers-0v9drxm",
+   "pri": 28,
+   "kind": "note",
+   "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+   "ctx": "Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in scene reconstruction, computational photography, and robotics, among others. Despite the field's maturity, recent models still struggle to generalize to out-of-distribution inputs and to produce sharp and detailed depth maps. In this paper, we revisit Marigold, a set of techniques for repurposing modern image generation and editing models, powered by the diffusion transformer (Di",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/papers/2609.08084",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-daily-papers",
+   "detectedAt": "2026-09-09T09:01:07.288Z",
+   "tier": "B",
+   "itemTs": "2026-09-07T20:00:00.000Z",
+   "sub": "HF daily papers · 23 upvotes",
+   "extract": {
+    "ok": true,
+    "chars": 15567,
+    "lead": "Marigold V2 is out! (to appear at SIGGRAPH Asia 2026). \\n If you missed V1: Marigold post-trains an image generator into a depth estimator on one GPU -- the accessible research game. V2 upgrades to a diffusion transformer: single step, very sharp edges, and quite versatile. \\n Everything is public today: \\n \\n Website (paper): https://hf.co/spaces/huawei-bayerlab/marigold-v2-web \\n Code: https://github.com/huawei-bayerlab/marigold-v2 \\n Weights: https://hf.co/huawei-bayerlab/marigold-v2-0 \\n Demo: https://hf.co/spaces/toshas/Marigold-V2 \\n \\n The video walks through the paper in 90 seconds, here is the full story: \\n \\n It is made for small labs. Take a big pretrained DiT (Qwen-Image-Edit-2509), quantize it to 4 bit, add a rank-128 QLoRA, and fine-tune on one 32 GB consumer GPU. Sensible depth after a few hours, done in a few days. No 80 GB card, no stack of 8. Inference is a single step and does not OOM at 2K. \\n \\n We like unconventional choices that stick. Marigold V1 pushed depth maps through an image VAE, which had no business working, and it did. V2 pushes the ground-truth depth through DINOv3 and aligns the DiT features to it (iREPA-depth). \\n \\n Even synthetic ground truth ",
+    "truncated": false,
+    "title": "Paper page - Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+    "fetchedAt": "2026-09-09T09:01:07.288Z",
+    "full": "full/f-hf-daily-papers-0v9drxm.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-openai-codex-1lqwp3a",
    "pri": 30,
@@ -2551,31 +2583,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-hn-newest-ai-04r1bdw",
-   "pri": 38,
-   "kind": "note",
-   "title": "Muse: Meta's personal AI agent, features and capabilities",
-   "ctx": "Article URL: https://ai.meta.com/muse/ Comments URL: https://news.ycombinator.com/item?id=49615537 Points: 111 # Comments: 97",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://ai.meta.com/muse/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hn-newest-ai",
-   "detectedAt": "2026-09-08T20:30:31.748Z",
-   "tier": "C",
-   "itemTs": "2026-09-08T19:25:00.000Z",
-   "sub": "hackernews",
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2590,11 +2597,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 21,
-   "slow": 79
+   "slow": 80,
+   "daily": 20
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 29,
+  "unrouted": 71,
   "unmappedLaneFamilies": []
  }
 }
