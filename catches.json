@@ -1,7 +1,732 @@
 {
- "generatedAt": "2026-09-09T03:30:58.088Z",
+ "generatedAt": "2026-09-09T05:00:45.541Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-046gsfb",
+   "pri": 45,
+   "kind": "note",
+   "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+   "ctx": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph o",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09153v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:59:41.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-046z779",
+   "pri": 45,
+   "kind": "note",
+   "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+   "ctx": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval mechanisms optimize semantic compatibility rather than downstream utility, frequently introducing outdated, misleading, or conflicting evidence into the active context. We present MeClear, a task conditioned memory clearance framework that identifies memories featuring negative downstream utility through cooperative at",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09115v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:46:00.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-06rbkrr",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Generalization of Amari's Bayesian Duality",
+   "ctx": "Amari's contributions to information geometry and machine learning are well known. Here, we revisit Amari's work on Bayesian duality which has not received as much attention. We connect Amari's Bayesian duality to a convex duality of Bayes' rule. Using this connection, we present a generalization of Amari's Bayesian duality and discuss its relevance for modern artificial intelligence.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09126v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:51:08.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-06t0ul9",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
+   "ctx": "Robotic Process Automation (RPA) is widely used to reduce administrative burden in United States hospitals, yet an estimated 30-50% of RPA initiatives underperform because processes are selected informally, without a repeatable method to catalogue candidates, prioritize them, match each to an automation tier -- a Python bot, an open-source orchestrator such as n8n, or an enterprise platform such as UiPath -- and forecast financial return before committing resources. We propose a four-module, dat",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09137v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:55:28.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0i0ypsd",
+   "pri": 45,
+   "kind": "note",
+   "title": "Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs",
+   "ctx": "Visual encoders construct a representation of the image input for Vision-Language models. How much conceptual, as opposed to immediately visible, information does this representation contain? We use canonical color as a controlled test case to ask whether vision encoders make canonical-color information linearly accessible, even when color is removed from the input image. We construct a dataset of objects with canonical colors, and probe vision encoders for both color and object identity using c",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09124v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:50:09.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0l0s60p",
+   "pri": 45,
+   "kind": "note",
+   "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
+   "ctx": "Execution feedback can guide coding agents toward correct repository repairs, but only when the tests capture the behavior requested by the issue. Agent-generated tests can encode incomplete or incorrect behavioral targets; when the same trajectory writes both the patch and the test, their errors can agree and create false confidence. We introduce ExecCritic, combining a test--verify--revise scaffold with a role-specific reinforcement learning recipe for training agents within it. The scaffold s",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09133v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:53:37.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0wjm2au",
+   "pri": 45,
+   "kind": "note",
+   "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+   "ctx": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09158v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:59:55.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1m9kq3c",
+   "pri": 45,
+   "kind": "note",
+   "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+   "ctx": "Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. Since both the harness and model weights shape behavior, we ask how harness evolution and lightweight fine-tuning should be combined. Across seven enterprise agent tasks, we first evolve a harness with",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09134v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:53:49.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1t69z1f",
+   "pri": 45,
+   "kind": "note",
+   "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+   "ctx": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular temporal dynamics and inherent stochasticity of real-world multimodal patient data. Existing AI approaches for modeling longitudinal patient records are predominantly discriminative, limited to a few modali",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09140v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:56:13.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1u3osnt",
+   "pri": 45,
+   "kind": "note",
+   "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
+   "ctx": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and complex contact dynamics. While recent works have incorporated tactile sensing into robotic manipulation, most approaches still rely on homogeneous multimodal fusion, lacking adaptive tactile integration and explicit modeling of physical dynamics. In this work, we present DeCAL, a phy",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09119v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:47:43.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-046gsfb",
+   "pri": 45,
+   "kind": "note",
+   "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+   "ctx": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph o",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09153v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:59:41.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-06t0ul9",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
+   "ctx": "Robotic Process Automation (RPA) is widely used to reduce administrative burden in United States hospitals, yet an estimated 30-50% of RPA initiatives underperform because processes are selected informally, without a repeatable method to catalogue candidates, prioritize them, match each to an automation tier -- a Python bot, an open-source orchestrator such as n8n, or an enterprise platform such as UiPath -- and forecast financial return before committing resources. We propose a four-module, dat",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09137v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:55:28.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-07ty0ry",
+   "pri": 45,
+   "kind": "note",
+   "title": "Copying explains the collective behavior of AI agents in the wild",
+   "ctx": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and remembered nothing afterwards. Nobody asked them to cooperate, and the wiki had not been built for them. The complete record of what they wrote is public, and it is unusually informative, because it preserves not only what each agent wrote but what that agent could see before writing.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09150v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:59:20.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0g5dh0b",
+   "pri": 45,
+   "kind": "note",
+   "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+   "ctx": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (SAEs) serve as a cornerstone by isolating interpretable features for model inspection and steering. In this paper, we introduce SAEScientist-Be",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09113v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:45:09.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0l0s60p",
+   "pri": 45,
+   "kind": "note",
+   "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
+   "ctx": "Execution feedback can guide coding agents toward correct repository repairs, but only when the tests capture the behavior requested by the issue. Agent-generated tests can encode incomplete or incorrect behavioral targets; when the same trajectory writes both the patch and the test, their errors can agree and create false confidence. We introduce ExecCritic, combining a test--verify--revise scaffold with a role-specific reinforcement learning recipe for training agents within it. The scaffold s",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09133v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:53:37.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-16u1me2",
+   "pri": 45,
+   "kind": "note",
+   "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+   "ctx": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build a controlled pure-autoregressive testbed and track task-specific validation losses during multimodal continual pretraining across text, image, text-to-image (T2I), and image-to-text (I2T) prediction. We examine how these",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09143v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:57:53.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1hyc3ub",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning Length-Extrapolatable Recurrent Models",
+   "ctx": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier re",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09157v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:59:53.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1j9cckk",
+   "pri": 45,
+   "kind": "note",
+   "title": "ReCite: Agentic Reasoning for Faithful Citation",
+   "ctx": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-augmented architectures have largely mitigated the fabrication of non-existent papers, current systems relying on semantic similarity struggle with misattribution, often citing authentic papers that f",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09156v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:59:50.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-1tvqmrb",
+   "pri": 45,
+   "kind": "note",
+   "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+   "ctx": "Existing methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation because programs cannot be compared by surface form and therefore do not directly provide a usable training signal. To make TTRL applicable to code generation, we propose probe-driven TTRL, which constructs output-free probe inputs from the problem statement, executes candidate programs on these pro",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09135v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:54:13.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-06rbkrr",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Generalization of Amari's Bayesian Duality",
+   "ctx": "Amari's contributions to information geometry and machine learning are well known. Here, we revisit Amari's work on Bayesian duality which has not received as much attention. We connect Amari's Bayesian duality to a convex duality of Bayes' rule. Using this connection, we present a generalization of Amari's Bayesian duality and discuss its relevance for modern artificial intelligence.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09126v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:51:08.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0b3qcj8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks",
+   "ctx": "An input may activate few hidden units even when different inputs collectively use an entire network. We study the statistical complexity of this input-dependent sparsity in the one-hidden-layer ReLU model of Awasthi et al. (COLT 2024). For width $s$, at most $k$ active units per input, and effective weight and bias bounds $W,B$, every size-$m$ sample in the class's fixed radius-$R$ input domain satisfies $\\mathcal{R}(S)\\le CWR\\min\\{k,\\sqrt{sk/m}\\log^{3/2}(2m)\\}+kB/\\sqrt m$. A support-preserving",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09130v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:53:03.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0g5dh0b",
+   "pri": 45,
+   "kind": "note",
+   "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+   "ctx": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (SAEs) serve as a cornerstone by isolating interpretable features for model inspection and steering. In this paper, we introduce SAEScientist-Be",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09113v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:45:09.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-1hyc3ub",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning Length-Extrapolatable Recurrent Models",
+   "ctx": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier re",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09157v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:59:53.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1kfe5hs",
+   "pri": 45,
+   "kind": "note",
+   "title": "When Does Scale-Invariant Optimization Become Unstable? An Exact Schedule Law with Weight Decay",
+   "ctx": "Normalization renders large parts of neural networks effectively scale invariant, inducing a hidden feedback loop in which learning-rate schedules and weight decay interact through the parameter norm to control the effective step taken by the optimizer. We show that this interaction is governed by an exact discrete-time law: a single scalar quantity captures all schedule and decay forcing, while norm growth induces an opposing geometric self-quenching effect. This yields a sharp boundary that cl",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09116v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:46:17.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1t69z1f",
+   "pri": 45,
+   "kind": "note",
+   "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+   "ctx": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular temporal dynamics and inherent stochasticity of real-world multimodal patient data. Existing AI approaches for modeling longitudinal patient records are predominantly discriminative, limited to a few modali",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09140v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:56:13.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1tvqmrb",
+   "pri": 45,
+   "kind": "note",
+   "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+   "ctx": "Existing methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation because programs cannot be compared by surface form and therefore do not directly provide a usable training signal. To make TTRL applicable to code generation, we propose probe-driven TTRL, which constructs output-free probe inputs from the problem statement, executes candidate programs on these pro",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09135v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:54:13.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1vlexqg",
+   "pri": 45,
+   "kind": "note",
+   "title": "Silver Rate Is (Almost) Optimal for Gradient Descent Acceleration",
+   "ctx": "We study how far gradient descent (GD) can be accelerated by predetermined nonnegative stepsizes in smooth convex optimization. Writing $p_{\\mathrm{sil}}=\\log_2(1+\\sqrt{2})$, we prove an $Ω\\left(n^{-p_{\\mathrm{sil}}-O(\\sqrt{\\log\\log n/\\log n})}\\right)$ non-anytime lower bound. In the anytime setting, every infinite nonnegative schedule has infinitely many horizons with error $Ω\\left(n^{-\\frac{2p_{\\mathrm{sil}}}{1+p_{\\mathrm{sil}}}-O(\\sqrt{\\log\\log n/\\log n})}\\right)$. Together with the silver-sc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.09152v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-09T05:00:38.529Z",
+   "tier": "B",
+   "itemTs": "2026-09-08T17:59:38.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-cascade-184kw0b",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"navier stokes\" — 4 independent sources in 11h",
+   "ctx": "The same phrase surfaced across 4 unrelated sources inside 11 hours, in 5 items (0.0% of the window — below the 15% background threshold).\n\n• hackernews-firehose — On the Navier–Stokes Millennium Prize Problem\n• simonwillison — On the Navier–Stokes Millennium Prize Problem\n• huggingface-models — wanglab/sft_gene_pathway_v7_6_100k_navier_stokes_4b_ep5\n• reddit — On the Value of Human Ideas: What data poisoning research reveals about \"autonomous\" AI br\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://openai.com/index/navier-stokes-solution/",
+     "primary": true
+    },
+    {
+     "label": "Open simonwillison",
+     "href": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+     "primary": false
+    },
+    {
+     "label": "Open huggingface-models",
+     "href": "https://huggingface.co/wanglab/sft_gene_pathway_v7_6_100k_navier_stokes_4b_ep5",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-09T04:30:19.230Z",
+   "tier": "X",
+   "families": [
+    "hackernews-firehose",
+    "simonwillison",
+    "huggingface-models",
+    "reddit"
+   ],
+   "roots": [
+    "hackernews",
+    "simonwillison",
+    "huggingface",
+    "reddit"
+   ],
+   "sub": "cascade shape · hackernews, simonwillison, huggingface, reddit",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-09-09T04:30:19.230Z"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-hf-daily-papers-0bq9b5q",
+   "pri": 28,
+   "kind": "note",
+   "title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+   "ctx": "Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This question is particularly important for successive model generations and multi-domain consolidation, where repeating frontier-scale post-training from scratch can be prohibitively expensive. Yet conventional distillation treats the weak teacher as an optimization target, potentially imposing its capacity ceiling on the student. We introduce On-Policy Reverse Distillation (OPRD), whi",
+   "acts": [
+    {
+     "label": "Open on HF",
+     "href": "https://huggingface.co/papers/2609.08798",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hf-daily-papers",
+   "detectedAt": "2026-09-09T04:30:19.230Z",
+   "tier": "B",
+   "itemTs": "2026-09-07T20:00:00.000Z",
+   "sub": "HF daily papers · 21 upvotes",
+   "extract": {
+    "ok": true,
+    "chars": 13793,
+    "lead": "\\n\\n### Contributions\\n\\nOur key contributions are as follows:\\n\\n- **Weak-to-Strong Generalization.** We study how post-training gains from weaker models can be transferred to stronger students in two practical scenarios: successive model transfer and multi-domain consolidation. We identify the central challenge as exploiting these gains without making either the weak policy or its policy shift a separate optimization target.\\n\\n- **On-Policy Reverse Distillation.** We introduce OPRD, which evaluates a weak teacher's policy shift relative to its reference policy on student rollouts and amplifies the component of the student's verifier-driven policy gradient along that direction. Because OPRD only rescales verifier-supported updates, it accelerates the student's own optimization while preserving its stationary points, allowing the student to move beyond the teacher.\\n\\n- **Empirical Evaluation and Analysis.** Across successive-model and multi-teacher settings, OPRD reaches the final performance of competing methods substantially earlier and ultimately outperforms both RL and distillation baselines. We further confirm that these gains extend to conventional strong-to-weak distillati",
+    "truncated": false,
+    "title": "Paper page - Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+    "fetchedAt": "2026-09-09T04:30:19.230Z",
+    "full": "full/f-hf-daily-papers-0bq9b5q.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-01rryl0",
    "pri": 45,
@@ -1265,38 +1990,6 @@
    ]
   },
   {
-   "id": "f-simon-willison-1isu7zv",
-   "pri": 36,
-   "kind": "note",
-   "title": "Quoting Terence Tao",
-   "ctx": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potenti",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/9/terence-tao/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-09T00:30:26.940Z",
-   "tier": "D",
-   "itemTs": "2026-09-09T00:20:17.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 713,
-    "lead": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field. &mdash; Terence Tao Tags: ai-ethics , mathematics , ai",
-    "truncated": false,
-    "fetchedAt": "2026-09-09T00:30:26.940Z",
-    "full": "full/f-simon-willison-1isu7zv.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
    "id": "f-gh-releases-anthropics-claude-code-1usgz9t",
    "pri": 30,
    "kind": "note",
@@ -1331,38 +2024,6 @@
    ]
   },
   {
-   "id": "f-simon-willison-0nfowsg",
-   "pri": 36,
-   "kind": "note",
-   "title": "On the Navier–Stokes Millennium Prize Problem",
-   "ctx": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mat",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-09T00:00:32.243Z",
-   "tier": "D",
-   "itemTs": "2026-09-08T23:55:12.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 5881,
-    "lead": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic. Tristan's complaint accompanied a hastily published version of their own results. Here's the PDF describing what happened . The very short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved \"a major open problem\", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan: I asked when the first prompt had been sent by them. This qu",
-    "truncated": false,
-    "fetchedAt": "2026-09-09T00:00:32.243Z",
-    "full": "full/f-simon-willison-0nfowsg.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
    "id": "f-gh-releases-vllm-project-vllm-05awkn1",
    "pri": 30,
    "kind": "note",
@@ -1393,40 +2054,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-simon-willison-1g1arvm",
-   "pri": 36,
-   "kind": "note",
-   "title": "Introducing ChatGPT Images 2.5",
-   "ctx": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-08T23:00:36.868Z",
-   "tier": "D",
-   "itemTs": "2026-09-08T22:46:33.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 1151,
-    "lead": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation. I upgraded my openai_image.py CLI tool to support passing in one or more reference images, so now this works: uv run https://tools.simonwillison.net/python/openai_image.py \\ ' add a raccoon scientist studying the chart thoughtfully ' \\ -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \\ -m gpt-image-2.5-sunburst This is the original image , and here's what I got back from that prompt to \"add a raccoon scientist studying the chart thoughtfully\": Tags: tools , ai , openai , generative-ai , uv , text-to-image",
-    "truncated": false,
-    "fetchedAt": "2026-09-08T23:00:36.868Z",
-    "full": "full/f-simon-willison-1g1arvm.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   },
   {
    "id": "f-gh-releases-openai-codex-0r6ffdk",
@@ -1937,853 +2564,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0vt3cxd",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10865",
-   "ctx": "Revert \"ggml-cuda : restore prop.integrated on HIP builds ( #24233 )\" ( #28604 ) This reverts commit c7d8722 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46002046 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10865",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T15:30:29.450Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T15:14:21.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1721,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10865 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 15:11 b10865 d4389a4 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Revert \"ggml-cuda : restore prop.integrated on HIP builds ( #24233 )\" ( #28604 ) This reverts commit c7d8722 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46002046 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wi",
-    "truncated": false,
-    "title": "Release b10865 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T15:30:29.450Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vt3cxd.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0vj3r8e",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10864",
-   "ctx": "server : apply checkpoint min-step eviction only when the checkpoint list is full ( #28302 ) The spacing eviction in create_checkpoint() keeps the oldest checkpoint and erases every later one within checkpoint_min_step of it. For prompts shorter than checkpoint_min_step this drops the checkpoint at n_tokens - 4 that the next request resumes from, so hybrid/recurrent models re-prefill from the prev",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10864",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T15:00:42.575Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T14:33:11.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2192,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10864 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 14:31 b10864 5d806aa This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . server : apply checkpoint min-step eviction only when the checkpoint list is full ( #28302 ) The spacing eviction in create_checkpoint() keeps the oldest checkpoint and erases every later one within checkpoint_min_step of it. For prompts shorter than checkpoint_min_step this drops the checkpoint at n_tokens - 4 that the next request resumes from, so hybrid/recurrent models re-prefill from the previous checkpoint instead. Apply the spacing rule only once the list is at n_ctx_checkpoints, and replace an existing checkpoint at the same n_tokens instead of appending a dupl",
-    "truncated": false,
-    "title": "Release b10864 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T15:00:42.575Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vj3r8e.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-deepmind-blog-0bwdry4",
-   "pri": 22,
-   "kind": "note",
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "ctx": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "deepmind-blog",
-   "detectedAt": "2026-09-08T14:30:37.047Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T14:00:15.000Z",
-   "sub": "deepmind",
-   "extract": {
-    "ok": true,
-    "chars": 13526,
-    "lead": "September 8, 2026 Science AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome AlphaGenome Atlas team Share How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. Today, we are introducing AlphaGenome Atlas: a platform containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome. It is the most comprehensive catalogue of how genetic mutations affect molecular biology, and it is available for academic research through an intuitive and free-to-use website portal . DNA is the language of life. Mastering it is a grand challenge that could transform our ability to understand biology and treat disease. But progress has been limited by a fundamental problem: interpreting how genetic variations impact biology at a molecular level. With roughly 9 billion possible single-letter mutations in the human genome, testing each one in the lab is practically impossible. Google DeepMind has already made progress on this challenge with AlphaGenome, an artificial intelligence (AI) model that c",
-    "truncated": false,
-    "title": "AlphaGenome Atlas: Molecular predictions for 9 Billion human DNA variants — Google DeepMind",
-    "fetchedAt": "2026-09-08T14:30:37.047Z",
-    "full": "full/f-deepmind-blog-0bwdry4.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-huggingface-blog-16c84wa",
-   "pri": 40,
-   "kind": "note",
-   "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-   "ctx": "",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "huggingface-blog",
-   "detectedAt": "2026-09-08T14:30:37.047Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T14:23:07.000Z",
-   "sub": "huggingface-blog",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-interconnects-1ma4ypd",
-   "pri": 50,
-   "kind": "note",
-   "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-   "ctx": "Avid Artifacts readers know that we have been covering not only models but also their licenses for quite some time. There was a period when custom licenses were all the rage, for example the custom Qwen2.5 72B-Instruct license or the Llama licenses . DeepSeek had a custom license for DeepSeek V3 before R1 changed it to MIT , which has resulted in many (Chinese) model makers adopting MIT or Apache ",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "interconnects",
-   "detectedAt": "2026-09-08T14:30:37.047Z",
-   "tier": "D",
-   "itemTs": "2026-09-08T14:15:25.000Z",
-   "sub": "interconnects",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 5046,
-    "lead": "Avid Artifacts readers know that we have been covering not only models but also their licenses for quite some time. There was a period when custom licenses were all the rage, for example the custom Qwen2.5 72B-Instruct license or the Llama licenses . DeepSeek had a custom license for DeepSeek V3 before R1 changed it to MIT , which has resulted in many (Chinese) model makers adopting MIT or Apache 2.0 licenses in 2025. In 2026, open models are more competitive than ever, which has led to two interesting developments: Western model makers adopt open licenses, with both Google and Meta switching to Apache 2.0. Chinese model makers at the frontier, however, are becoming more restrictive: Kimi K3 comes with a license which requires commercial agreements for those who run inference or fine-tuning services, and MiniMax M3 requires agreements above a revenue threshold and has prohibited use cases. The newest addition is Zhipu’s GLM-5.3 , which switched from MIT (GLM-5.2 and earlier) to a custom license with the following clause for inference and fine-tuning providers: If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee ",
-    "truncated": true,
-    "fetchedAt": "2026-09-08T14:30:37.047Z",
-    "full": "full/f-interconnects-1ma4ypd.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0wd2kbb",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10863",
-   "ctx": "metal : fix idle threads in mul_mv_iq3_xxs for ne00 &lt; 1024 ( #28086 ) metal : fix half-idle simdgroup in kernel_mul_mv_iq3_xxs_f32 for ne00 &lt; 1024 metal : keep N_R0_IQ3_XXS = 4, dispatch a separate 8-row split kernel for ne00/32 &lt; 32 The plain kernel is unchanged from master (4 rows per simdgroup, one thread per chunk). The row-split mapping now lives in a separate kernel_mul_mv_iq3_xxs_f",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10863",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T14:00:33.539Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T14:00:29.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2260,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10863 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 13:58 b10863 88ada91 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal : fix idle threads in mul_mv_iq3_xxs for ne00 < 1024 ( #28086 ) metal : fix half-idle simdgroup in kernel_mul_mv_iq3_xxs_f32 for ne00 < 1024 metal : keep N_R0_IQ3_XXS = 4, dispatch a separate 8-row split kernel for ne00/32 < 32 The plain kernel is unchanged from master (4 rows per simdgroup, one thread per chunk). The row-split mapping now lives in a separate kernel_mul_mv_iq3_xxs_f32_split instantiation with N_R0_IQ3_XXS_SPLIT = 8, and the host selects it only when ne00/32 < 32 and divides 32, so wide matrices keep the master kernel bit for bit. metal : select t",
-    "truncated": false,
-    "title": "Release b10863 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T14:00:33.539Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0wd2kbb.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-openai-news-0pxuniz",
-   "pri": 15,
-   "kind": "note",
-   "title": "The Work Now Within Reach",
-   "ctx": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://openai.com/index/the-work-now-within-reach",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openai-news",
-   "detectedAt": "2026-09-08T13:30:29.339Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T13:00:00.000Z",
-   "sub": "openai",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-09-08T13:30:29.339Z"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0sh4z3q",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10859",
-   "ctx": "llama : add missing headers ( #28566 ) fix compile-error: add missing header Bug: #28557 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28559 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28560 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28561 Signed-off-by: Pe",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10859",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T13:00:42.656Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T12:36:49.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2285,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10859 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 12:35 b10859 ca86fb2 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama : add missing headers ( #28566 ) fix compile-error: add missing header Bug: #28557 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28559 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28560 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28561 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28562 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28",
-    "truncated": false,
-    "title": "Release b10859 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T13:00:42.656Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0sh4z3q.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0sr4ksp",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10858",
-   "ctx": "vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL ( #27220 ) vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL implement fusion in unary.comp behind UNARY_MUL_FUSION ifdef, specialized pipelines per op instead of runtime branching fuse adjacent nodes only, ordering handled by graph_optimize drop runtime consumer scan and pending_unary_mul deferra",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10858",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T12:30:30.076Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T12:08:00.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 9840,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10858 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 12:06 b10858 64e9bce This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL ( #27220 ) vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL implement fusion in unary.comp behind UNARY_MUL_FUSION ifdef, specialized pipelines per op instead of runtime branching fuse adjacent nodes only, ordering handled by graph_optimize drop runtime consumer scan and pending_unary_mul deferral vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL GELU: gelu_mul_f32/f16 pipelines registered, CREATE_UNARY_MUL(gelu), GELU in dispatch + fuse gate + perf fusion name Re",
-    "truncated": false,
-    "title": "Release b10858 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T12:30:30.076Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0sr4ksp.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0v9101g",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10857",
-   "ctx": "Fix Vulkan-Hpp handle usage on 32-bit targets. ( #22892 ) On 32-bit platforms, Vulkan non-dispatchable handles such as VkBuffer are represented as uint64_t, and Vulkan-Hpp disables implicit conversions for type safety. This exposes two issues in ggml-vulkan: vk::Buffer is streamed directly into std::ostream in debug/memory logs. vk::Buffer is cast to VkBuffer before being passed to Vulkan-Hpp Comm",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10857",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T12:00:40.652Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T11:38:13.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2153,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10857 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 11:36 b10857 f014bfe This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Fix Vulkan-Hpp handle usage on 32-bit targets. ( #22892 ) On 32-bit platforms, Vulkan non-dispatchable handles such as VkBuffer are represented as uint64_t, and Vulkan-Hpp disables implicit conversions for type safety. This exposes two issues in ggml-vulkan: vk::Buffer is streamed directly into std::ostream in debug/memory logs. vk::Buffer is cast to VkBuffer before being passed to Vulkan-Hpp CommandBuffer::copyBuffer APIs. Fix these by add the operator<< for vk::Buffer, and by passing vk::Buffer directly to Vulkan-Hpp copyBuffer calls. Website: https://llama.app Attes",
-    "truncated": false,
-    "title": "Release b10857 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T12:00:40.652Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0v9101g.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-chinatalk-0yq04jq",
-   "pri": 60,
-   "kind": "note",
-   "title": "US-China Biorisk Cooperation: Yes, It’s Possible",
-   "ctx": "Altman, Amodei, Hassabis, and a long list of AI and biosecurity figures on both the right and left actually agree on something. In a June open letter , they argued that the US should require nucleic acid synthesis companies to screen DNA and RNA orders before fulfilling them. AI will make it easier to design dangerous pathogens, but those designs still need to pass through the physical world. Nucl",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.chinatalk.media/p/us-china-biorisk-cooperation-yes",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "chinatalk",
-   "detectedAt": "2026-09-08T11:30:28.669Z",
-   "tier": "D",
-   "itemTs": "2026-09-08T11:04:50.000Z",
-   "sub": "chinatalk",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 18195,
-    "lead": "Altman, Amodei, Hassabis, and a long list of AI and biosecurity figures on both the right and left actually agree on something. In a June open letter , they argued that the US should require nucleic acid synthesis companies to screen DNA and RNA orders before fulfilling them. AI will make it easier to design dangerous pathogens, but those designs still need to pass through the physical world. Nucleic acid synthesis providers are one of the few chokepoints between digital biological know-how and actual biological capability, as we’ll see in the next section. If policymakers are looking for a concrete way to reduce AI-enabled bio risk, screening these orders is a good place to start. Subscribe now Washington has already half-promised to act. Last year, the Trump administration nixed the Biden-era nucleic-acid synthesis screening framework, promising to replace it with something even bigger and more enforceable. Then biosecurity largely fell off their radar. But after the Fable ban (and then un-ban), as well as the OpenAI–Hugging Face fiasco, there is a growing recognition that frontier AI risks — including biological risks — may not be purely theoretical after all. Cotton (R) and Klo",
-    "truncated": false,
-    "fetchedAt": "2026-09-08T11:30:28.669Z",
-    "full": "full/f-chinatalk-0yq04jq.txt"
-   },
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0vj0lqf",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10856",
-   "ctx": "chat : split specialized parsers into common/parsers ( #27764 ) chat : split specialized parsers into common/parsers Move the 14 dedicated template parsers out of chat.cpp into one file each under common/parsers, mirroring the src/models split. chat.cpp keeps the template detection in common_chat_try_specialized_template() and drops from 3915 to 1513 lines. common/parsers/parsers.h holds the share",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10856",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T11:00:42.252Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T10:50:51.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2808,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10856 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 10:49 b10856 895c045 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . chat : split specialized parsers into common/parsers ( #27764 ) chat : split specialized parsers into common/parsers Move the 14 dedicated template parsers out of chat.cpp into one file each under common/parsers, mirroring the src/models split. chat.cpp keeps the template detection in common_chat_try_specialized_template() and drops from 3915 to 1513 lines. common/parsers/parsers.h holds the shared helpers and one declaration per parser. foreach_function/foreach_parameter become inline there since nothing in chat.cpp uses them any more; common_chat_template_direct_appl",
-    "truncated": false,
-    "title": "Release b10856 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T11:00:42.252Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vj0lqf.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0vt07fe",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10855",
-   "ctx": "opencl: properly handle non-contiguous inputs to conv2d ( #28503 ) opencl: fix conv2d non-contiguous strides opencl: format Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45929809 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubun",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10855",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T10:30:30.340Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T10:06:03.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1734,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10855 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 10:03 b10855 7d701b5 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: properly handle non-contiguous inputs to conv2d ( #28503 ) opencl: fix conv2d non-contiguous strides opencl: format Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45929809 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU",
-    "truncated": false,
-    "title": "Release b10855 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T10:30:30.340Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vt07fe.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-vllm-project-vllm-09utz7o",
-   "pri": 30,
-   "kind": "note",
-   "title": "vllm-project/vllm v0.29.0rc6",
-   "ctx": "[Bugfix][Core] Apply dense prefix cache default to hybrid models ( #55 …",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-vllm-project-vllm",
-   "detectedAt": "2026-09-08T09:00:30.068Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T08:34:20.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1236,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . vllm-project / vllm Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 21.9k Star 91.2k v0.29.0rc6 v0.29.0rc6 74c9692 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags v0.29.0rc6 v0.29.0rc6 74c9692 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode ZJY0516 tagged this 08 Sep 08:34 [Bugfix][Core] Apply dense prefix cache default to hybrid models (#55… Assets 2 Loading Uh oh! There was an error whil",
-    "truncated": false,
-    "title": "Release v0.29.0rc6 · vllm-project/vllm · GitHub",
-    "fetchedAt": "2026-09-08T09:00:30.068Z",
-    "full": "full/f-gh-releases-vllm-project-vllm-09utz7o.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-cascade-0epsb82",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"open-weight ai\" — 3 independent sources in 12h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 12 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• mistral — Mistral raises €3B to make sovereign, open-weight AI the technology frontier\n• hackernews-firehose — Mistral raises €3B to make sovereign, open-weight AI the technology frontier\n• reddit — WSJ: Unregulated Open-Weight AI Is an Invitation to Disaster\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open mistral",
-     "href": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-     "primary": true
-    },
-    {
-     "label": "Open hackernews-firehose",
-     "href": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-     "primary": false
-    },
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wa9309/wsj_unregulated_openweight_ai_is_an_invitation_to/",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-08T08:30:42.685Z",
-   "tier": "X",
-   "families": [
-    "mistral",
-    "hackernews-firehose",
-    "reddit"
-   ],
-   "roots": [
-    "mistral",
-    "hackernews",
-    "reddit"
-   ],
-   "sub": "cascade shape · mistral, hackernews, reddit",
-   "extract": {
-    "ok": true,
-    "chars": 3556,
-    "lead": "Company Mistral raises €3B to make sovereign, open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company, three years after the company's launch. Samsung Electronics led the round, joined by co-leads Scaleup Europe Fund, managed by EQT, and existing investor PSG Equity. The round will significantly expand Mistral's frontier research, which is the foundation underpinning its infrastructure, products and sovereignty. While allowing Mistral to scale its compute capacity for training powerful models, it will help Mistral expand infrastructure and accelerate its commercial growth and international footprint. The company now operates across 20 countries and supports 125+ global enterprises’ mission-critical AI transformation, including Airbus, ASML, and HSBC. During the first wave of generative AI, the central question was who could build the most powerful model. Organizations and governments are now asking a different one: how to harness the power of AI for their mission-critical needs witho",
-    "truncated": false,
-    "title": "Making sovereign, open-weight AI the technology frontier | Mistral",
-    "fetchedAt": "2026-09-08T08:30:42.685Z",
-    "full": "full/f-cascade-0epsb82.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-vllm-project-vllm-0aossal",
-   "pri": 30,
-   "kind": "note",
-   "title": "vllm-project/vllm v0.29.0rc5",
-   "ctx": "[Core] Default prefix_cache_retention_interval to dense for Mamba + E…",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-vllm-project-vllm",
-   "detectedAt": "2026-09-08T08:30:42.685Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T08:20:33.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-github-new-repos-0gben7i",
-   "pri": 25,
-   "kind": "note",
-   "title": "Sophomoresty/turnstile-bypass — 191★ in 0.6d (303★/day)",
-   "ctx": "Cross-platform Cloudflare Turnstile solver (macOS, Windows, Linux)\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/Sophomoresty/turnstile-bypass",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-08T08:30:42.685Z",
-   "tier": "C",
-   "itemTs": "2026-09-07T17:22:54.000Z",
-   "sub": "github · Python",
-   "extract": {
-    "ok": true,
-    "chars": 5500,
-    "lead": "turnstile-bypass Self-contained Cloudflare challenge helper for macOS, Windows, and Linux. It drives headed Chrome to pass the two CF layers people usually call “the shield”: Turnstile widget on a site page (e.g. aipaycards.com/login ) → JSON token Interstitial waiting room ( 请稍候… / Just a moment, e.g. grok.com ) → cf_clearance and the real origin curl https://grok.com/ is 403 + cf-mitigated: challenge . After solve.py --url https://grok.com/ --fresh , the same Chrome tab is the Grok app with a cf_clearance cookie. It does not pass IP bans (1020), rate limits (1015), or Bot Fight when this Chrome is already rejected. A new agent should follow Install then Use . Nothing else is required. Install Needs: Python 3.10+, Google Chrome or Chromium. git clone https://github.com/Sophomoresty/turnstile-bypass.git cd turnstile-bypass python3 scripts/install.py install.py creates .venv in this repo, installs requirements.txt (DrissionPage), packs assets/turnstilePatch.zip , and runs scripts/preflight.py . You want: { \"ok\" : true , \"methods\" : { \"drissionpage\" : true } } OS If Chrome is not found macOS Install Google Chrome, or export CHROME_PATH=\"/Applications/Google Chrome.app/Contents/MacOS/",
-    "truncated": false,
-    "title": "GitHub - Sophomoresty/turnstile-bypass: Cross-platform Cloudflare Turnstile solver (macOS, Windows, Linux) · GitHub",
-    "fetchedAt": "2026-09-08T08:30:42.685Z",
-    "full": "full/f-github-new-repos-0gben7i.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-mistral-news-0tm8ifg",
-   "pri": 35,
-   "kind": "note",
-   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-   "ctx": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "mistral-news",
-   "detectedAt": "2026-09-08T05:00:50.444Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T12:00:22.000Z",
-   "sub": "mistral",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0u52l9k",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10853",
-   "ctx": "model : support Kimi-K3 recurrent-state rollback ( #28466 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45866131 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10853",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T04:00:30.940Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T04:00:30.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1670,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10853 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 03:58 b10853 9dcf84e This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model : support Kimi-K3 recurrent-state rollback ( #28466 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45866131 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (",
-    "truncated": false,
-    "title": "Release b10853 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T04:00:30.940Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0u52l9k.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-073llve",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.60.0-nightly.20260908.g85aca163f",
-   "ctx": "Full Changelog : v0.60.0-nightly.20260907.g85aca163f...v0.60.0-nightly.20260908.g85aca163f",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260908.g85aca163f",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-09-08T01:30:26.630Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T01:26:09.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 737,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.5k Star 107k Release v0.60.0-nightly.20260908.g85aca163f Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 08 Sep 01:26 v0.60.0-nightly.20260908.g85aca163f 6012db7 Full Changelog : v0.60.0-nightly.20260907.g85aca163f...v0.60.0-nightly.20260908.g85aca163f Assets 5 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
-    "truncated": false,
-    "title": "Release Release v0.60.0-nightly.20260908.g85aca163f · google-gemini/gemini-cli · GitHub",
-    "fetchedAt": "2026-09-08T01:30:26.630Z",
-    "full": "full/f-gh-releases-google-gemini-gemini-cli-073llve.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-github-new-repos-16fdn2f",
-   "pri": 25,
-   "kind": "note",
-   "title": "achimala/dream-loop — 182★ in 0.5d (390★/day)",
-   "ctx": "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/achimala/dream-loop",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-08T01:30:26.630Z",
-   "tier": "C",
-   "itemTs": "2026-09-07T14:19:20.000Z",
-   "sub": "github · repo",
-   "extract": {
-    "ok": true,
-    "chars": 1995,
-    "lead": "dream-loop By @anshuc . An agent skill that builds a game, app, or scene with impressive visuals, by creating a closed loop: AI \"dreams\" up a high-quality target screenshot using image generation AI builds with this target in mind A separate AI critic compares the live screenshot to the target and provides feedback AI loops back to step 2 until critic is satisfied Optionally, AI loops back to step 1 and dreams up an even better target based on the current state. Installation npx skills add achimala/dream-loop , or clone into your agent's skills directory, or paste the link into your agent and tell it to figure it out. Prerequisites You need an AI agent with: access to image generation, either built-in (e.g. Codex, Grok) or via API (e.g. give it a Gemini API key) vision input subagents (optional but strongly preferred) Install Blender if you want custom 3D modeling. The Blender MCP or scripting interface is preferred to computer use; it produces better results. At the moment this is only tested with GPT-6 Astra in Codex. Other strong models like Claude Fable 5.1 can likely work too. Example Prompt: Build me a graphics demo: isometric camera, voxel-ish art style with realistic shadin",
-    "truncated": false,
-    "title": "GitHub - achimala/dream-loop: Agent skill for impressive 3D visuals using Blender + image gen + subagent critic · GitHub",
-    "fetchedAt": "2026-09-08T01:30:26.630Z",
-    "full": "full/f-github-new-repos-16fdn2f.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-simon-willison-09niczf",
-   "pri": 36,
-   "kind": "note",
-   "title": "llm 0.35",
-   "ctx": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/7/llm/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-08T01:30:26.630Z",
-   "tier": "D",
-   "itemTs": "2026-09-07T23:54:54.000Z",
-   "sub": "simonwillison",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0uf26yj",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10852",
-   "ctx": "hexagon: add RELU and LEAKY_RELU ops ( #28585 ) hexagon: add RELU op hexagon: add LEAKY_RELU op too Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45844223 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10852",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T01:00:31.234Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T00:42:25.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1710,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 127k b10852 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 00:40 b10852 050dde5 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . hexagon: add RELU and LEAKY_RELU ops ( #28585 ) hexagon: add RELU op hexagon: add LEAKY_RELU op too Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45844223 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (",
-    "truncated": false,
-    "title": "Release b10852 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T01:00:31.234Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0uf26yj.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-simon-willison-1ijeacl",
-   "pri": 36,
-   "kind": "note",
-   "title": "Creepy crawlies",
-   "ctx": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there a",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-07T23:30:27.525Z",
-   "tier": "D",
-   "itemTs": "2026-09-07T23:08:58.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 644,
-    "lead": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics",
-    "truncated": false,
-    "fetchedAt": "2026-09-07T23:30:27.525Z",
-    "full": "full/f-simon-willison-1ijeacl.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-simon-willison-0e57p9y",
-   "pri": 36,
-   "kind": "note",
-   "title": "Quoting Jakub Pachocki",
-   "ctx": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the ",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "simon-willison",
-   "detectedAt": "2026-09-07T22:30:28.723Z",
-   "tier": "D",
-   "itemTs": "2026-09-07T22:26:25.000Z",
-   "sub": "simonwillison",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 766,
-    "lead": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. &mdash; Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
-    "truncated": false,
-    "fetchedAt": "2026-09-07T22:30:28.723Z",
-    "full": "full/f-simon-willison-0e57p9y.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-latent-space-0magrs0",
-   "pri": 55,
-   "kind": "note",
-   "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
-   "ctx": "Naive autoresearch investment in our AEO have yielded impressive ROI, and so naturally it was time to take it seriously. We were inspired by What Claude Code Actually Chooses , and decided to extend/adjust it to our tastes. After a few billion tokens of prototyping, aligning, and scaling pipelines, here’s the Latent Space Frontier AEO tracker . Our methodology extends AmplifyingAI’s to run 6 promp",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.latent.space/p/aeo",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "latent-space",
-   "detectedAt": "2026-09-07T22:00:32.667Z",
-   "tier": "D",
-   "itemTs": "2026-09-07T21:32:37.000Z",
-   "sub": "latentspace",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 4124,
-    "lead": "Naive autoresearch investment in our AEO have yielded impressive ROI, and so naturally it was time to take it seriously. We were inspired by What Claude Code Actually Chooses , and decided to extend/adjust it to our tastes. After a few billion tokens of prototyping, aligning, and scaling pipelines, here’s the Latent Space Frontier AEO tracker . Our methodology extends AmplifyingAI’s to run 6 prompt variations over 7 models 1 (search on) in 161 categories , from coding agents to AI podcasts to AI Sandboxes to Managed Databases to ASR models to even oddball categories like Angel investors and Corporate spend and Payroll software . Answer extraction was done by Astra, and scored for a proprietary AEO score that gives weight to first choices, alternative choices , mentions , but also negative weights to mild and strong anti-recommendations (which are rare, but do happen). Because we know you’ll want it, we also extracted the top cited sources which influence Agent recommendations, as well as an analysis of top failures . Basic Results Here are the most dominant products (in their categories) in the world: There are some familiar names in there — opening up the natural question of conta",
-    "truncated": false,
-    "fetchedAt": "2026-09-07T22:00:32.667Z",
-    "full": "full/f-latent-space-0magrs0.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2798,11 +2578,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 54,
-   "daily": 46
+   "slow": 78,
+   "daily": 22
   },
-  "routed": 40,
-  "unrouted": 60,
+  "routed": 31,
+  "unrouted": 69,
   "unmappedLaneFamilies": []
  }
 }
