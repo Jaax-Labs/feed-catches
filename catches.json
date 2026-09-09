@@ -1,7 +1,142 @@
 {
- "generatedAt": "2026-09-09T14:01:22.831Z",
+ "generatedAt": "2026-09-09T16:30:46.900Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-google-ai-blog-19z0q4l",
+   "pri": 35,
+   "kind": "note",
+   "title": "Recreating a 70-year love story frame by frame",
+   "ctx": "An elderly couple sitting in a movie theater. Overlayed are \"Teulluride Film Festival\" and \"Love, Rendered\"",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "google-ai-blog",
+   "detectedAt": "2026-09-09T16:30:36.370Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T16:00:00.000Z",
+   "sub": "google-blog",
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-google-ai-blog-1gm10qt",
+   "pri": 35,
+   "kind": "note",
+   "title": "Get ready for the game with new football features in Search",
+   "ctx": "An illustrated graphic set against a vibrant green background featuring American football elements, including a gold trophy, a blue helmet, a silver whistle, a football, a mini scoreboard, and play diagrams, with the icon for AI Mode in Google Search in t",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "google-ai-blog",
+   "detectedAt": "2026-09-09T16:30:36.370Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T16:00:00.000Z",
+   "sub": "google-blog",
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0vsi8br",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10881",
+   "ctx": "vulkan: Convert FILL to distribute workgroups in 2D to avoid exceeding maxComputeWorkGroupCount ( #28592 ) divide workload to 2D This is to workaround FILL exceeding maxComputeWorkGroupCount for Intel GPUs on Qwen 3.8 flash next minor change Fixed comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46292448 macOS/iOS: macOS Apple Silicon (arm64) macO",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10881",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T16:00:51.283Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T15:34:49.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1866,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10881 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 15:32 b10881 22397c3 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: Convert FILL to distribute workgroups in 2D to avoid exceeding maxComputeWorkGroupCount ( #28592 ) divide workload to 2D This is to workaround FILL exceeding maxComputeWorkGroupCount for Intel GPUs on Qwen 3.8 flash next minor change Fixed comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46292448 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu a",
+    "truncated": false,
+    "title": "Release b10881 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-09T16:00:51.283Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vsi8br.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-huggingface-blog-1fyzca9",
+   "pri": 40,
+   "kind": "note",
+   "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+   "ctx": "",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "huggingface-blog",
+   "detectedAt": "2026-09-09T16:00:51.283Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T15:36:24.000Z",
+   "sub": "huggingface-blog",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-huggingface-transformers-0zeg24g",
+   "pri": 30,
+   "kind": "note",
+   "title": "huggingface/transformers v5.17.0",
+   "ctx": "Add tag v5.17.0",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/huggingface/transformers/releases/tag/v5.17.0",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-huggingface-transformers",
+   "detectedAt": "2026-09-09T15:30:32.965Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T15:01:33.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 774,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . huggingface / transformers Public Notifications You must be signed in to change notification settings Fork 34.5k Star 165k v5.17.0 v5.17.0 856157a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags v5.17.0 v5.17.0 856157a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags vasqu tagged this 09 Sep 15:01 Add tag v5.17.0 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release v5.17.0 · huggingface/transformers · GitHub",
+    "fetchedAt": "2026-09-09T15:30:32.965Z",
+    "full": "full/f-gh-releases-huggingface-transformers-0zeg24g.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0rnch0r",
    "pri": 30,
@@ -2490,121 +2625,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0lhg98k",
-   "pri": 45,
-   "kind": "note",
-   "title": "Power Mean Estimation in Stochastic Continuous Monte Carlo Tree Search",
-   "ctx": "Monte Carlo Tree Search (MCTS) has demonstrated success in online planning for deterministic environments, yet significant challenges remain in adapting it to stochastic Markov Decision Processes (MDPs), particularly in continuous state-action spaces. Existing methods, such as HOOT, which combines MCTS with the Hierarchical Optimistic Optimization (HOO) bandit strategy, address continuous spaces but rely on a logarithmic exploration bonus that lacks theoretical guarantees in non-stationary, stoc",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06489v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T09:04:39.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0u14h0f",
-   "pri": 45,
-   "kind": "note",
-   "title": "Second-Order Smooth Planning with Optimal-Transport Bellman Smoothing",
-   "ctx": "Planning with a generative model aims to estimate the value of a state using as few simulator calls as possible. SmoothCruiser achieves problem-independent complexity $\\widetilde O(\\varepsilon^{-4})$ by exploiting the smoothness of the entropy-regularized Bellman backup, but its estimator is only first-order. We show that the sample-complexity exponent of SmoothCruiser-type planners is governed by the order $β$ of the local Taylor remainder, giving oracle complexity $\\widetilde O(\\varepsilon^{-(",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06484v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T08:58:57.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-10bm6w9",
-   "pri": 45,
-   "kind": "note",
-   "title": "Not Just Oversmoothing: Detecting the Echo Chamber Effect in Graph Neural Networks",
-   "ctx": "Oversmoothing is a well-known failure mode of Graph Neural Networks (GNNs). However, most existing diagnostics rely on global aggregation measures that fail to capture the heterogeneous dynamics of message passing. Real-world graphs exhibit pronounced community structure, and message passing operates on two timescales, with representations collapsing rapidly within communities and slowly across them. This creates a critical gap in which intra-community representations can become indistinguishabl",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06521v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T10:42:28.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1lgrfs2",
-   "pri": 45,
-   "kind": "note",
-   "title": "How Does Parameter Pruning Reshape DNN Representations? An Interaction-Driven Exploration",
-   "ctx": "This study focuses on the scientific problem of understanding internal factors that govern the diverse performance degradation of deep neural networks (DNNs) when different parameters are pruned. In order to explain why pruning certain parameters leads to significant performance degradation but pruning other parameters does not, we examine how the pruning operation affects the interaction patterns encoded by the DNN. We find that when we progressively increase the pruning ratio, the interaction ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06483v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T08:58:21.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1nrhs54",
-   "pri": 45,
-   "kind": "note",
-   "title": "Learning Kernels by Alignment for Multiclass Bayes Classification",
-   "ctx": "Kernel methods separate data representation from decision-making, but typically require the kernel to be chosen in advance. We show that this kernel can instead be learned by alignment, and develop the resulting framework through the recently introduced Collaborative Learning and Inference (CLaI). We show that Collaborative Learning can be viewed as a kernel alignment process, in which an embedding is trained so that its induced similarity matches a label-derived target kernel. We also prove tha",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06474v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T02:00:31.769Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T08:46:36.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2619,11 +2639,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 20,
-   "slow": 80
+   "daily": 24,
+   "slow": 76
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 31,
+  "unrouted": 69,
   "unmappedLaneFamilies": []
  }
 }
