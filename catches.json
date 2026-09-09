@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-09T19:31:36.987Z",
+ "generatedAt": "2026-09-09T20:31:35.553Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1uihdku",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.267",
+   "ctx": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings ): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level Added --system-prompt-snapshot off to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text) Fixed Cowork scheduled ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-09T20:01:21.085Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T19:58:14.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 8718,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.1k Star 145k v2.1.267 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 09 Sep 19:58 v2.1.267 9cdc2a4 What's changed Added maxEffortLevel setting (top-level or per model under modelSettings ): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level Added --system-prompt-snapshot off to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text) Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing Fixed /context and other local command output rendering blank on mobile clients Fixed shift+enter and option+backspace not working after reconnecting to a tmux or ssh session inside an agent view Fixed the dim last-prompt header not ",
+    "truncated": false,
+    "title": "Release v2.1.267 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-09T20:01:21.085Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1uihdku.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-openai-news-0rqgknm",
    "pri": 15,
@@ -2609,40 +2643,6 @@
    "clock": "slow",
    "questions": [
     "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0uf5cgi",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10868",
-   "ctx": "Add IQ type handling for MoE ( #28476 ) Co-authored-by: cwriter cwriter@localhost Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46124981 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10868",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T02:03:08.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1692,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10868 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 02:00 b10868 304665f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Add IQ type handling for MoE ( #28476 ) Co-authored-by: cwriter cwriter@localhost Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46124981 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64",
-    "truncated": false,
-    "title": "Release b10868 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-09T02:30:16.087Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0uf5cgi.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
    ]
   }
  ],
