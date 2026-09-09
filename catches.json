@@ -1,7 +1,105 @@
 {
- "generatedAt": "2026-09-08T23:30:34.753Z",
+ "generatedAt": "2026-09-09T00:30:36.057Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-simon-willison-1isu7zv",
+   "pri": 36,
+   "kind": "note",
+   "title": "Quoting Terence Tao",
+   "ctx": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potenti",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-09T00:30:26.940Z",
+   "tier": "D",
+   "itemTs": "2026-09-09T00:20:17.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 713,
+    "lead": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field. &mdash; Terence Tao Tags: ai-ethics , mathematics , ai",
+    "truncated": false,
+    "fetchedAt": "2026-09-09T00:30:26.940Z",
+    "full": "full/f-simon-willison-1isu7zv.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1usgz9t",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.266",
+   "ctx": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, apiKeyHelper , or custom auth headers failed every request ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-09T00:00:32.243Z",
+   "tier": "A",
+   "itemTs": "2026-09-08T23:55:14.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1426,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.1k Star 144k v2.1.266 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 08 Sep 23:55 v2.1.266 347b38e What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, apiKeyHelper , or custom auth headers failed every request with \"Not signed in to the Cloud gateway\". The variable on its own is ignored again; no configuration change is needed Assets 12 Loading Uh oh! There was an error while loading. Please reload this page . 👍 1 mike1858 reacted with thumbs up emoji 😄 1 mike1858 reacted with laugh emoji 🎉 1 mike1858 reacted with hooray emoji ❤️ 1 ",
+    "truncated": false,
+    "title": "Release v2.1.266 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-09T00:00:32.243Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1usgz9t.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-simon-willison-0nfowsg",
+   "pri": 36,
+   "kind": "note",
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "ctx": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mat",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "simon-willison",
+   "detectedAt": "2026-09-09T00:00:32.243Z",
+   "tier": "D",
+   "itemTs": "2026-09-08T23:55:12.000Z",
+   "sub": "simonwillison",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 5881,
+    "lead": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic. Tristan's complaint accompanied a hastily published version of their own results. Here's the PDF describing what happened . The very short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved \"a major open problem\", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan: I asked when the first prompt had been sent by them. This qu",
+    "truncated": false,
+    "fetchedAt": "2026-09-09T00:00:32.243Z",
+    "full": "full/f-simon-willison-0nfowsg.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-vllm-project-vllm-05awkn1",
    "pri": 30,
@@ -2892,75 +2990,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1mlzxvp",
-   "pri": 45,
-   "kind": "note",
-   "title": "AI for Computational Design Science: A Responsible Human-AI Framework and Case Study on Short-Form Video Safety Surveillance",
-   "ctx": "Artificial intelligence (AI) is transforming not only what information systems researchers design, but also how design research is conducted. Yet existing literature offers limited guidance for computational design science (CDS) when AI actively participates in problem formulation, resource construction, design search, evaluation, and knowledge abstraction. We develop AI for Computational Design Science (AI4CDS), a five-phase methodological framework in which AI expands problem and design search",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05270v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:26:41.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-03km41i",
-   "pri": 45,
-   "kind": "note",
-   "title": "Self-Supervised Lexical Representation Learning for Fast, Large-Scale Phylogenetic Inference",
-   "ctx": "Computational phylogenetics has become an essential tool in historical linguistics, yet its application at a global scale remains constrained by two factors: the labor-intensive manual annotation of cognacy judgments required for character-based methods and the substantial computational cost of inference on large datasets. This paper introduces a fully self-supervised contrastive learning framework that learns lexical representations directly from raw IPA-transcribed wordlists, without requiring",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05262v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T15:23:12.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-05tjm14",
-   "pri": 45,
-   "kind": "note",
-   "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
-   "ctx": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC operations published between 2023 and March 2026. Each study is classified across five application families and three LLM method families and assessed for evidence realism, deployment readiness, and ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.05314v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-07T02:30:31.329Z",
-   "tier": "B",
-   "itemTs": "2026-09-04T16:08:05.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2975,11 +3004,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 59,
-   "slow": 41
+   "daily": 62,
+   "slow": 38
   },
-  "routed": 53,
-  "unrouted": 47,
+  "routed": 54,
+  "unrouted": 46,
   "unmappedLaneFamilies": []
  }
 }
