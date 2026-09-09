@@ -1,7 +1,201 @@
 {
- "generatedAt": "2026-09-09T05:00:45.541Z",
+ "generatedAt": "2026-09-09T06:31:08.004Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-184vkq4",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.10.1",
+   "ctx": "Release 0.154.0-alpha.10.1",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-09T06:31:01.960Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T06:08:47.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 845,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 123k rust-v0.154.0-alpha.10.1 rust-v0.154.0-alpha.10.1 99e6349 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.10.1 rust-v0.154.0-alpha.10.1 99e6349 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 09 Sep 06:08 Release 0.154.0-alpha.10.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.10.1 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-09T06:31:01.960Z",
+    "full": "full/f-gh-releases-openai-codex-184vkq4.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-cascade-0qrf45r",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"millennium prize\" — 3 independent sources in 12h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 12 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• hackernews-firehose — On the Navier–Stokes Millennium Prize Problem\n• simonwillison — On the Navier–Stokes Millennium Prize Problem\n• latentspace — [AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, rough\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://openai.com/index/navier-stokes-solution/",
+     "primary": true
+    },
+    {
+     "label": "Open simonwillison",
+     "href": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+     "primary": false
+    },
+    {
+     "label": "Open latentspace",
+     "href": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-09T05:30:17.450Z",
+   "tier": "X",
+   "families": [
+    "hackernews-firehose",
+    "simonwillison",
+    "latentspace"
+   ],
+   "roots": [
+    "hackernews",
+    "simonwillison",
+    "latentspace"
+   ],
+   "sub": "cascade shape · hackernews, simonwillison, latentspace",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 403",
+    "fetchedAt": "2026-09-09T05:30:17.450Z"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0up4y5h",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10869",
+   "ctx": "tests : use less threads for data initialization ( #28325 ) tests : use 1 thread for data initialization cont : scale threads with number of elements cont : adjust Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46152521 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10869",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T05:30:17.450Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T05:27:37.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-1km9rd5",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.8.1",
+   "ctx": "Release 0.154.0-alpha.8.1",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.8.1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-09T05:30:17.450Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T05:06:08.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-openai-codex-1m0was9",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.154.0-alpha.10",
+   "ctx": "Release 0.154.0-alpha.10",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-09T05:30:17.450Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T05:23:29.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 836,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 123k rust-v0.154.0-alpha.10 rust-v0.154.0-alpha.10 ae32fb9 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.10 rust-v0.154.0-alpha.10 ae32fb9 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags won-openai tagged this 09 Sep 05:23 Release 0.154.0-alpha.10 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.154.0-alpha.10 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-09T05:30:17.450Z",
+    "full": "full/f-gh-releases-openai-codex-1m0was9.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-latent-space-1gd4csh",
+   "pri": 55,
+   "kind": "note",
+   "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+   "ctx": "Today was a tough news cycle to launch anything; we ordinarily promise to cover any new decacorn fundraises so Cognition’s $48B round and Mistral’s $24B round would normally have made it; we love imagegen so GPT Image 2.5 would have been its own headline; we covered the Dreamer story closely so their relaunch as Meta’s Muse agent should have made it; but.. yknow… the bar is higher these days. The ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "latent-space",
+   "detectedAt": "2026-09-09T05:30:17.450Z",
+   "tier": "D",
+   "itemTs": "2026-09-09T05:04:51.000Z",
+   "sub": "latentspace",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 24470,
+    "lead": "Today was a tough news cycle to launch anything; we ordinarily promise to cover any new decacorn fundraises so Cognition’s $48B round and Mistral’s $24B round would normally have made it; we love imagegen so GPT Image 2.5 would have been its own headline; we covered the Dreamer story closely so their relaunch as Meta’s Muse agent should have made it; but.. yknow… the bar is higher these days. The summaries below capture the substantive facts; we recommend not looking too deep into the authorship drama as OpenAI and the authors have pretty much laid out enough detail to conclude that OpenAI’s achievement is real though the process is in some despute. AI News for 9/7/2026-9/8/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI-affiliated accounts said an AI-assisted effort produced a Navier–Stokes result, and the reaction immediately split between technical interest, skepticism, and meta-drama. The most concrete public claim in the tweet set came from Ethan Knight, who said “The Navier Stokes solut",
+    "truncated": true,
+    "fetchedAt": "2026-09-09T05:30:17.450Z",
+    "full": "full/f-latent-space-1gd4csh.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-046gsfb",
    "pri": 45,
@@ -2378,192 +2572,6 @@
     "model-switch",
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-openrouter-models-0uiq6q7",
-   "pri": 20,
-   "kind": "note",
-   "title": "New model — Nex AGI: Nex-N2.5-Mini (free)",
-   "ctx": "A routing row exists for nex-agi/nex-n2.5-mini:free. On OpenRouter the row precedes the announcement, so this can be live before any blog post.\n\nNex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "acts": [
-    {
-     "label": "Open OpenRouter",
-     "href": "https://openrouter.ai/nex-agi/nex-n2.5-mini:free",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "openrouter-models",
-   "detectedAt": "2026-09-08T18:30:31.247Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T17:54:21.000Z",
-   "sub": "openrouter · nex-agi/nex-n2.5-mini:free",
-   "extract": {
-    "ok": true,
-    "chars": 1139,
-    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping the base URL. The only thing that changes between models is the model slug below. Explore more models AI Model Rankings Ranking",
-    "truncated": false,
-    "title": "Nex-N2.5-Mini (free) - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-08T18:30:31.247Z",
-    "full": "full/f-openrouter-models-0uiq6q7.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0v945jf",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10867",
-   "ctx": "llama: disable lazy tensor loading by default on iGPUs ( #28326 ) llama: add lazy mode auto, fix iGPU regression revert changes except disabling lazy load on iGPUs in AUTO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46033570 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10867",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-08T18:00:43.165Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T17:33:23.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1782,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10867 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 08 Sep 17:31 b10867 f3f1a8f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . llama: disable lazy tensor loading by default on iGPUs ( #28326 ) llama: add lazy mode auto, fix iGPU regression revert changes except disabling lazy load on iGPUs in AUTO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46033570 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ub",
-    "truncated": false,
-    "title": "Release b10867 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-08T18:00:43.165Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0v945jf.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-microsoft-research-0a1yd0r",
-   "pri": 30,
-   "kind": "note",
-   "title": "Called to serve: Tech, research, and positive impact with Chris White",
-   "ctx": "In the summer of 2010, postdoc Chris White worked with a multidisciplinary team at the Defense Advanced Research Projects Agency, or DARPA, to determine if a new approach to data analysis could prevent violence and protect troops during the war in Afghanistan. At the conclusion of the program, the agency asked White to prove the value of his work—on the ground. In this episode, Principal Technical",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "microsoft-research",
-   "detectedAt": "2026-09-08T17:00:39.835Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T16:45:12.000Z",
-   "sub": "msr",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: timeout after 8000ms",
-    "fetchedAt": "2026-09-08T17:00:39.835Z"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-github-new-repos-0c47c7y",
-   "pri": 25,
-   "kind": "note",
-   "title": "gazijarin/itsgiving — 221★ in 0.5d (462★/day)",
-   "ctx": "Express yourself in meetings (with memes, of course).\n\nStar acceleration on a repo this young is the leading indicator; the star count itself is lagging.",
-   "acts": [
-    {
-     "label": "Open repo",
-     "href": "https://github.com/gazijarin/itsgiving",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "github-new-repos",
-   "detectedAt": "2026-09-08T16:30:31.348Z",
-   "tier": "C",
-   "itemTs": "2026-09-08T05:02:01.000Z",
-   "sub": "github · Python",
-   "extract": {
-    "ok": true,
-    "chars": 3517,
-    "lead": "It's giving... Pull a face at your webcam. It works out which face, and drops the matching meme over your head, scaled to follow you around the frame. You can extend and add more memes to your heart's desire. Point Zoom at its virtual camera and the whole call sees it. python its_giving.py # preview + virtual camera python its_giving.py --no-vcam # preview only Fourteen reactions: time out, heart hands, hands over face, crashing out, dancing, nose pinch, flirty, hand up, tongue out, gasp, disgust, talking to the wall, side-eye, and spinning. There's a second file, its_giving_v2.py , which is the same thing with the expression thresholds calibrated to your face instead of to a number I guessed. Setup python3.12 -m venv venv source venv/bin/activate # Windows: venv\\Scripts\\activate pip install -r requirements.txt Python 3.11 or 3.12. Three MediaPipe models (~15 MB) download themselves on first run. Don't unpin the dependencies. MediaPipe 0.10.30+ (including 1.0.x) ships macOS wheels that abort the moment they open a detector, so it's held at 0.10.21. That build needs NumPy 1.x, and OpenCV 5 needs NumPy 2 — and 0.10.21 asks for an unpinned opencv-contrib-python , which quietly drags O",
-    "truncated": false,
-    "title": "GitHub - gazijarin/itsgiving: Express yourself in meetings (with memes, of course). · GitHub",
-    "fetchedAt": "2026-09-08T16:30:31.348Z",
-    "full": "full/f-github-new-repos-0c47c7y.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-hn-newest-ai-19nbsre",
-   "pri": 38,
-   "kind": "note",
-   "title": "I-have-ADHD: A skill to stop your coding agent from burying the answer",
-   "ctx": "Article URL: https://github.com/ayghri/i-have-adhd Comments URL: https://news.ycombinator.com/item?id=49610631 Points: 53 # Comments: 51",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://github.com/ayghri/i-have-adhd",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hn-newest-ai",
-   "detectedAt": "2026-09-08T16:30:31.348Z",
-   "tier": "C",
-   "itemTs": "2026-09-08T14:13:26.000Z",
-   "sub": "hackernews",
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-0qwftol",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.7",
-   "ctx": "Release 0.154.0-alpha.7",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.7",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-08T16:00:37.052Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T15:38:05.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 828,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 122k rust-v0.154.0-alpha.7 rust-v0.154.0-alpha.7 b3ea7a5 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.7 rust-v0.154.0-alpha.7 b3ea7a5 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 08 Sep 15:38 Release 0.154.0-alpha.7 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.154.0-alpha.7 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-08T16:00:37.052Z",
-    "full": "full/f-gh-releases-openai-codex-0qwftol.txt"
-   },
-   "clock": "daily",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2578,11 +2586,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 78,
-   "daily": 22
+   "daily": 21,
+   "slow": 79
   },
-  "routed": 31,
-  "unrouted": 69,
+  "routed": 30,
+  "unrouted": 70,
   "unmappedLaneFamilies": []
  }
 }
