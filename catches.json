@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-09T11:30:49.844Z",
+ "generatedAt": "2026-09-09T12:30:48.987Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0r3d9mt",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10876",
+   "ctx": "CUDA: replace GGML_FA_ALL_QUANTS with GGML_FA_QUANTS, more control over what is compiled ( #28079 ) CUDA: add configurable FA quant combinations Assisted-by: Codex remove all flags but , add runtime fallback with warning for uncompiled combination Update docs/build.md Co-authored-by: Johannes Gäßler johannesg@5d6.de apply code review comments Co-authored-by: Johannes Gäßler johannesg@5d6.de Websit",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10876",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-09T12:01:05.381Z",
+   "tier": "A",
+   "itemTs": "2026-09-09T11:47:47.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2004,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10876 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 11:45 b10876 5a4d0fe This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . CUDA: replace GGML_FA_ALL_QUANTS with GGML_FA_QUANTS, more control over what is compiled ( #28079 ) CUDA: add configurable FA quant combinations Assisted-by: Codex remove all flags but , add runtime fallback with warning for uncompiled combination Update docs/build.md Co-authored-by: Johannes Gäßler johannesg@5d6.de apply code review comments Co-authored-by: Johannes Gäßler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46234963 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enab",
+    "truncated": false,
+    "title": "Release b10876 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-09T12:01:05.381Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0r3d9mt.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0q9egjw",
    "pri": 30,
@@ -2542,40 +2576,6 @@
     "ok": false,
     "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
     "fetchedAt": "2026-09-09T01:30:26.416Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-anthropics-claude-code-1usgz9t",
-   "pri": 30,
-   "kind": "note",
-   "title": "anthropics/claude-code v2.1.266",
-   "ctx": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, apiKeyHelper , or custom auth headers failed every request ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-anthropics-claude-code",
-   "detectedAt": "2026-09-09T00:00:32.243Z",
-   "tier": "A",
-   "itemTs": "2026-09-08T23:55:14.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1426,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.1k Star 144k v2.1.266 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 08 Sep 23:55 v2.1.266 347b38e What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, apiKeyHelper , or custom auth headers failed every request with \"Not signed in to the Cloud gateway\". The variable on its own is ignored again; no configuration change is needed Assets 12 Loading Uh oh! There was an error while loading. Please reload this page . 👍 1 mike1858 reacted with thumbs up emoji 😄 1 mike1858 reacted with laugh emoji 🎉 1 mike1858 reacted with hooray emoji ❤️ 1 ",
-    "truncated": false,
-    "title": "Release v2.1.266 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-09-09T00:00:32.243Z",
-    "full": "full/f-gh-releases-anthropics-claude-code-1usgz9t.txt"
    },
    "clock": "daily",
    "questions": [
