@@ -1,7 +1,75 @@
 {
- "generatedAt": "2026-09-10T12:01:18.476Z",
+ "generatedAt": "2026-09-10T14:01:08.466Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0w2kzip",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10894",
+   "ctx": "models: clean up some dead switch branches in old models ( #28669 ) Some of these if statements were copypastaed in a former refactor and never cleaned up to remove the cases that could never happen anymore. The only thing that's shared between these relatives anymore is llama_model_bert::graph::graph, so the rest of the code doesn't need the conditionals. Website: https://llama.app Attestations: ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10894",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-10T14:01:02.428Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T13:54:30.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1967,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10894 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 10 Sep 13:51 b10894 d344123 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . models: clean up some dead switch branches in old models ( #28669 ) Some of these if statements were copypastaed in a former refactor and never cleaned up to remove the cases that could never happen anymore. The only thing that's shared between these relatives anymore is llama_model_bert::graph::graph, so the rest of the code doesn't need the conditionals. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46582928 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X",
+    "truncated": false,
+    "title": "Release b10894 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-10T14:01:02.428Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0w2kzip.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0wckl7o",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10893",
+   "ctx": "tests : increase tolerance for Add fusion tests ( #28691 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46565769 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10893",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-10T13:01:01.665Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T12:43:47.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1667,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10893 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 10 Sep 12:40 b10893 c32d1da This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . tests : increase tolerance for Add fusion tests ( #28691 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46565769 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (Ope",
+    "truncated": false,
+    "title": "Release b10893 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-10T13:01:01.665Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0wckl7o.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0wmk6wn",
    "pri": 30,
@@ -1562,31 +1630,6 @@
    "questions": []
   },
   {
-   "id": "f-hn-newest-ai-019mdbe",
-   "pri": 38,
-   "kind": "note",
-   "title": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
-   "ctx": "Article URL: https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/ Comments URL: https://news.ycombinator.com/item?id=49636345 Points: 102 # Comments: 36",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hn-newest-ai",
-   "detectedAt": "2026-09-10T01:00:58.127Z",
-   "tier": "C",
-   "itemTs": "2026-09-09T23:57:29.000Z",
-   "sub": "hackernews",
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
    "id": "f-gh-releases-openai-codex-1nif73j",
    "pri": 30,
    "kind": "note",
@@ -2672,29 +2715,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1u3osnt",
-   "pri": 45,
-   "kind": "note",
-   "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
-   "ctx": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and complex contact dynamics. While recent works have incorporated tactile sensing into robotic manipulation, most approaches still rely on homogeneous multimodal fusion, lacking adaptive tactile integration and explicit modeling of physical dynamics. In this work, we present DeCAL, a phy",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09119v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:47:43.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2709,11 +2729,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 39,
-   "slow": 61
+   "daily": 40,
+   "slow": 60
   },
-  "routed": 39,
-  "unrouted": 61,
+  "routed": 40,
+  "unrouted": 60,
   "unmappedLaneFamilies": []
  }
 }
