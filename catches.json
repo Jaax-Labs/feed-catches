@@ -1,7 +1,277 @@
 {
- "generatedAt": "2026-09-10T00:30:58.123Z",
+ "generatedAt": "2026-09-10T01:01:03.899Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-02z5slz",
+   "pri": 45,
+   "kind": "note",
+   "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+   "ctx": "Plane geometry remains a significant challenge in AI, requiring the integration of visual perception and mathematical reasoning. While Large Multimodal Models (LMMs) naturally handle visuo-linguistic inputs, they are often computationally intensive and opaque. We demonstrate that a pure Large Language Model (LLM), when equipped with specialized modules, can rival state-of-the-art LMMs on complex geometry problems. Our framework integrates a Geometric Vision Parser, which translates diagrams into",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10335v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:33:25.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "lab-board"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-060x5lh",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning Intrusion Response Strategies for OT Systems",
+   "ctx": "Cyberattacks against Operational Technology (OT) systems, which monitor and control industrial processes, pose an increasing threat to essential societal services. For this reason, developing automated intrusion response strategies is highly important. In this paper, we present a formal model of an OT intrusion response use case using the POMDP framework. It includes a realistic model of partial observability that is based on traffic measurements. This approach allows us to develop tractable, le",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10298v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:12:52.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0rsese9",
+   "pri": 45,
+   "kind": "note",
+   "title": "OmniMed-FL: A Robust Multimodal Federated Learning Framework for Clinical Diagnosis",
+   "ctx": "Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with HIPAA and GDPR can constrain centralized aggregation of sensitive patient data. This leaves a crucial void of secure fusion of visual and textual context across distant networks. Thus, we present OmniMed-FL, a controlled systems study of multimodal federated learning for five-clas",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10364v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:56:26.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0x6lrkb",
+   "pri": 45,
+   "kind": "note",
+   "title": "What Should an Agent Forget? Separating What Is Stored from What Is Used",
+   "ctx": "Persistent language agents need stored experience to remain available across time, while each answer requires evidence suited to a particular question. A superseded fact can mislead a current-state answer and still be essential for a historical query. We present RD-Forget, a training-free framework that separates what an agent stores from what it uses. A retained source archive preserves observations, and a query-conditioned memory view controls their influence on the current answer. A frozen la",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10263v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T14:48:09.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-12awpel",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+   "ctx": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token pruning methods mitigate this overhead, they implicitly assume that a single fixed pruning strategy can be applied uniformly across all inputs. Our analysis further reveals that ranking pruning methods by average benchmark accuracy conceals substantial sample-wise complementarity: although the average-best strategy excels overall, a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10346v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:44:32.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-13p3sdt",
+   "pri": 18,
+   "kind": "note",
+   "title": "One Loop, Two Gains: Can Active Learning win the Lottery for Free?",
+   "ctx": "The lottery ticket hypothesis posits the existence of winning tickets: sparse subnetworks that, when trained in isolation from their original initialization, match the accuracy of the full dense network. The predominant method for discovering such tickets, iterative magnitude pruning, alternates pruning with full retraining from scratch until convergence over many cycles. Similarly, deep active learning also retrains a model from scratch after each acquisition round as new labels become availabl",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10311v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:18:37.000Z",
+   "sub": "arXiv cs.AI · introduces \"One Loop\"",
+   "extract": {
+    "ok": true,
+    "chars": 4918,
+    "lead": "Computer Science > Machine Learning arXiv:2609.10311v1 (cs) [Submitted on 9 Sep 2026] Title: One Loop, Two Gains: Can Active Learning win the Lottery for Free? Authors: Benedikt Tscheschner , Eduardo Veas , Marc Masana View a PDF of the paper titled One Loop, Two Gains: Can Active Learning win the Lottery for Free?, by Benedikt Tscheschner and Eduardo Veas and Marc Masana View PDF HTML (experimental) Abstract: The lottery ticket hypothesis posits the existence of winning tickets: sparse subnetworks that, when trained in isolation from their original initialization, match the accuracy of the full dense network. The predominant method for discovering such tickets, iterative magnitude pruning, alternates pruning with full retraining from scratch until convergence over many cycles. Similarly, deep active learning also retrains a model from scratch after each acquisition round as new labels become available. Despite this shared reliance on iterative retraining with a substantial computational overhead, the two paradigms have been studied separately. We observe that the iterative training loop inherent to pool-based active learning already provides the exact computational structure that ",
+    "truncated": false,
+    "title": "[2609.10311v1] One Loop, Two Gains: Can Active Learning win the Lottery for Free?",
+    "fetchedAt": "2026-09-10T01:00:58.127Z",
+    "full": "full/f-arxiv-cs.AI-13p3sdt.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-16u3hk4",
+   "pri": 45,
+   "kind": "note",
+   "title": "RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding",
+   "ctx": "Language models under one million parameters matter for edge deployment, domain adaptation, and reproducible research, yet a two-layer LSTM or Transformer at embedding width d = 128 still spends roughly one third of its capacity on the output matrix W_out in R^(d x |V|). We propose Riemannian Language Models (RiLM), which remove that layer entirely: context unfolds as a trajectory on a Riemannian manifold, and next-token probabilities arise from squared geodesic distance between the current stat",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10305v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:16:31.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1fcf8r9",
+   "pri": 45,
+   "kind": "note",
+   "title": "TRACE: Training Reasoning Agents for Causal Exploration with Synthesized Rewards",
+   "ctx": "Reinforcement learning with verifiable rewards (RLVR) has advanced language-model reasoning in domains such as mathematics and code, where objective answers are inexpensive to check. Diagnostic reasoning over complex data lacks this advantage: establishing the true cause of an anomaly often requires costly expert investigation and may remain ambiguous after the fact. We ask whether this asymmetry of verification can instead be engineered. We sample an intervention, inject it into a controlled si",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10315v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:21:47.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ize2by",
+   "pri": 45,
+   "kind": "note",
+   "title": "Cyber-Financial Contagion: Modeling the Propagation of an AI Vendor Compromise Through the Banking System",
+   "ctx": "The banking system now depends on a small set of shared artificial intelligence vendors for fraud screening, credit decisioning, anti-money-laundering triage, customer analytics, and internal decision support. This paper studies how a compromise inside one of those vendors can propagate along a chain of operational, informational, and financial linkages until it triggers losses that look, from the outside, like a classical banking crisis. We build a four-layer heterogeneous network that couples ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10350v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:46:16.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1wz31js",
+   "pri": 45,
+   "kind": "note",
+   "title": "GANDR: Claim Auditing for Verifiable Legal Answer Generation",
+   "ctx": "In high-stakes domains such as legal practice, a language-model answer is only useful to the extent that a reader can verify each claim against the source the system cites. Current grounded-generation pipelines score the answer as a whole, so a correct conclusion can rest on fabricated or loosely matched citations and still score well. Closing this gap requires both a system built for per-claim verification and an evaluation that measures it. We introduce GANDR (Grounded ANswer DRafter), a two-a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.10293v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "B",
+   "itemTs": "2026-09-09T15:08:09.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-hn-newest-ai-019mdbe",
+   "pri": 38,
+   "kind": "note",
+   "title": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
+   "ctx": "Article URL: https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/ Comments URL: https://news.ycombinator.com/item?id=49636345 Points: 102 # Comments: 36",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "hn-newest-ai",
+   "detectedAt": "2026-09-10T01:00:58.127Z",
+   "tier": "C",
+   "itemTs": "2026-09-09T23:57:29.000Z",
+   "sub": "hackernews",
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-gh-releases-openai-codex-1nif73j",
    "pri": 30,
@@ -2392,265 +2662,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1mxv0rh",
-   "pri": 45,
-   "kind": "note",
-   "title": "Training-Free Task Vectors for LLM Behavioral Control",
-   "ctx": "Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the difference between a fine-tuned model and its pretrained initialization. However, this reliance on fine-tuning makes discovering such directions costly and limits the practicality of post-training model editing. To address this limitation, we introduce Training-Free Task Vectors (TFTVs), a novel method to compute task-vector-like directions without requirin",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09054v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T03:30:49.762Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:10:28.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1pscv3q",
-   "pri": 45,
-   "kind": "note",
-   "title": "Closed-Form of the Local Galactic Potential and Stellar Distribution Function from Gaia DR3",
-   "ctx": "The local dark matter density determines the strength of the signal expected in direct-detection experiments, yet published estimates from stellar motions disagree by more than their errors, and the most recent machine-learning analysis of Gaia data finds a local density consistent with zero. According to Jeans' theorem, a distribution function built from integrals of motion satisfies the collisionless Boltzmann equation (CBE) trivially for any choice of potential, so a search that simultaneousl",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09011v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-09T03:30:49.762Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T16:47:04.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0000v6m",
-   "pri": 45,
-   "kind": "note",
-   "title": "One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints",
-   "ctx": "Vision-and-Language Navigation in Continuous Environments (VLN-CE) requires an embodied agent to navigate unseen environments by following natural language instructions. Current zero-shot VLN-CE methods either rely on pre-trained waypoint predictors or require multiple queries to large models per step. To address prohibitive inference latency and computational overhead, we propose O2C-Nav, an efficient zero-shot navigation framework that calls only a single large model once per decision step. Ou",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06476v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T08:49:10.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0a5glnr",
-   "pri": 45,
-   "kind": "note",
-   "title": "ProcArena: A Multi-Scenario Benchmark for LLMs on Direct and Interactive PL/SQL Development from Natural Language",
-   "ctx": "Large language models (LLMs) have shown strong potential for translating natural-language (NL) requirements into PL/SQL programs, attracting increasing attention from the database community. However, existing NL-to-PL/SQL efforts primarily focus on directly generating PL/SQL from complete NL requirements. In practice, PL/SQL development involves diverse scenarios, such as from-scratch development, code modification, debugging, and optimization, and may require either direct generation or multi-t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06527v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T10:47:47.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0jjzc0m",
-   "pri": 45,
-   "kind": "note",
-   "title": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
-   "ctx": "Recursive Super-Resolution (SR) extends fixed-scale SR to extreme magnification by repeatedly feeding predictions back into the same model, analogous to zooming an image repeatedly. However, ground truth availability at every scale, especially at depth, remains challenging as the required source resolution grows geometrically, leaving deeper predictions unsupervised. We present OracleZoom, an on-policy distillation-inspired, reference-constrained framework that trains on its trajectory while car",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06490v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T09:06:27.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0lhg98k",
-   "pri": 45,
-   "kind": "note",
-   "title": "Power Mean Estimation in Stochastic Continuous Monte Carlo Tree Search",
-   "ctx": "Monte Carlo Tree Search (MCTS) has demonstrated success in online planning for deterministic environments, yet significant challenges remain in adapting it to stochastic Markov Decision Processes (MDPs), particularly in continuous state-action spaces. Existing methods, such as HOOT, which combines MCTS with the Hierarchical Optimistic Optimization (HOO) bandit strategy, address continuous spaces but rely on a logarithmic exploration bonus that lacks theoretical guarantees in non-stationary, stoc",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06489v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T09:04:39.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0p6y6bq",
-   "pri": 45,
-   "kind": "note",
-   "title": "On BatchNorm Forward Modes in Value-Based Reinforcement Learning",
-   "ctx": "Batch normalization (BN) substantially improves sample efficiency in continuous-control actor-critic methods such as CrossQ, yet recent studies report performance degradation in discrete-action value learning on Atari. These failures are surprising because discrete Q-networks lack the action-input distribution mismatch identified by CrossQ. We show for target-based C51 and target-free PQN that the simple choice between running and batch statistics at specific forward passes can reverse this degr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06421v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T06:45:59.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0u14h0f",
-   "pri": 45,
-   "kind": "note",
-   "title": "Second-Order Smooth Planning with Optimal-Transport Bellman Smoothing",
-   "ctx": "Planning with a generative model aims to estimate the value of a state using as few simulator calls as possible. SmoothCruiser achieves problem-independent complexity $\\widetilde O(\\varepsilon^{-4})$ by exploiting the smoothness of the entropy-regularized Bellman backup, but its estimator is only first-order. We show that the sample-complexity exponent of SmoothCruiser-type planners is governed by the order $β$ of the local Taylor remainder, giving oracle complexity $\\widetilde O(\\varepsilon^{-(",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06484v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T08:58:57.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-107hbs4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification",
-   "ctx": "A provider of a high-risk AI system must keep records that make a decision traceable, and for agentic systems it has not been established what those records must contain for post-hoc causal attribution to be possible. We give the estimator framework and then the conditions under which it fails. We separate the marginal total effect that prior work measures from a common-random-numbers total effect that isolates a step's own contribution, add the natural direct effect under a pinned downstream, a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06445v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T07:36:23.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1buaddm",
-   "pri": 45,
-   "kind": "note",
-   "title": "From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts",
-   "ctx": "Test-time scaling produces cohorts of reasoning rollouts, yet there is no standard label-free account of how their internal computation reorganizes as inference unfolds. We introduce routing effective rank deff, the entropy-effective dimensionality of a cross-rollout graph built from MoE expert-routing similarity. Across ten MoE configurations and five math/science benchmarks, deff exhibits a reproducible low-high-low trajectory, with a prominent interior maximum in 98.5% of 3,105 model-question",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06403v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T05:43:22.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1hldg1h",
-   "pri": 45,
-   "kind": "note",
-   "title": "Collision Snapshot Guided Time-Reversed Safety-Critical Scenario Generation",
-   "ctx": "The generation of safety-critical traffic scenarios is essential for training and evaluating autonomous vehicles. Prior approaches typically perturb the trajectories of existing agents in a traffic scenario using simplified adversarial objectives to induce safety-critical interactions, which can limit the plausibility and diversity of the generated scenarios. Although inserting new adversarial vehicles can alleviate this limitation, determining when and where to introduce them in a scenario-spec",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.06433v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T02:30:16.087Z",
-   "tier": "B",
-   "itemTs": "2026-09-06T07:18:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2665,11 +2676,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 28,
-   "slow": 72
+   "slow": 71,
+   "daily": 29
   },
-  "routed": 32,
-  "unrouted": 68,
+  "routed": 33,
+  "unrouted": 67,
   "unmappedLaneFamilies": []
  }
 }
