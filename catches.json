@@ -1,7 +1,502 @@
 {
- "generatedAt": "2026-09-10T17:01:44.411Z",
+ "generatedAt": "2026-09-10T22:01:40.465Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-13wurn9",
+   "pri": 33,
+   "kind": "note",
+   "title": "Degraded performance on the Claude API",
+   "ctx": "Sep 10 , 21:43 UTC Identified - We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/2pt83vlkk7x7",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-09-10T22:01:17.890Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T21:43:40.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-cascade-0mg0blb",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"react native\" — 3 independent sources in 7h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 7 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• hackernews-firehose — Shopify moves back to Native from React Native\n• reddit — React Native ExecuTorch is now up to 92x faster 🏎️\n• simonwillison — Native is now the future of mobile at Shopify\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://shopify.engineering/back-to-native",
+     "primary": true
+    },
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wcp4v1/react_native_executorch_is_now_up_to_92x_faster/",
+     "primary": false
+    },
+    {
+     "label": "Open simonwillison",
+     "href": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-10T21:31:12.103Z",
+   "tier": "X",
+   "families": [
+    "hackernews-firehose",
+    "reddit",
+    "simonwillison"
+   ],
+   "roots": [
+    "hackernews",
+    "reddit",
+    "simonwillison"
+   ],
+   "sub": "cascade shape · hackernews, reddit, simonwillison",
+   "extract": {
+    "ok": true,
+    "chars": 13111,
+    "lead": "blog | Mobile Native is now the future of mobile at Shopify Coding agents changed what it costs to build mobile apps twice. Here’s why Shopify is moving from React Native back to Swift and Kotlin. Published on Sep 10, 2026 We decided to go all-in on React Native back in 2020, and that bet has been extremely successful. We saved a ton of time building features just once, enabled developers with no mobile background to contribute to our apps, and freed ourselves from constantly chasing feature parity. In January 2025, I wrote that the future of React Native was bright and that Shopify planned to keep investing in it. That was true based on what we knew then. React Native was working well for us, and it remains an excellent framework. But since then, coding models have gotten dramatically better, and for our apps and our team, building the same feature in Swift and Kotlin no longer carries the cost it used to. We don’t hold on to a decision just because it was successful at the time. When a core assumption changes, we’re willing to go back and ask whether it’s still the right call. LLMs changed one of the core assumptions behind our 2020 decision, so we reevaluated our mobile stack fr",
+    "truncated": false,
+    "title": "Native is now the future of mobile at Shopify (2026) - Shopify",
+    "fetchedAt": "2026-09-10T21:31:12.103Z",
+    "full": "full/f-cascade-0mg0blb.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1t4jd3z",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.268",
+   "ctx": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml , signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spend meter Added a startup warning for gateways when access_control.allow_cidrs is empty, and a one-time warning the first time a request arrives from a public address Added the gatewayInternalNetworks ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-10T20:30:57.829Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T20:30:54.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 15224,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.1k Star 145k v2.1.268 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 10 Sep 20:30 v2.1.268 536a2e2 What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml , signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spend meter Added a startup warning for gateways when access_control.allow_cidrs is empty, and a one-time warning the first time a request arrives from a public address Added the gatewayInternalNetworks managed setting, letting administrators allow /login to a Claude apps gateway on their organization's own public IPv4 block Added claude self-hosted-runner --remove-session-state (default off): delete each session's per-session directories under /_sessions/ when the session ends Added configDirectory to the output of claude auth ",
+    "truncated": false,
+    "title": "Release v2.1.268 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-10T20:30:57.829Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1t4jd3z.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0ppcbz9",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex Cygwin build inputs and matching source for Windows voice",
+   "ctx": "CI-only build tools for native Windows voice releases. These archives are not included in Codex user packages. cygwin-build-inputs.tar.gz : 103 pinned Cygwin binary packages and the signed package index used by the offline build installer. cygwin-build-sources.tar : all 83 corresponding source package archives at the exact versions named by that index. It includes the upstream source, patches, and",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/voice-cygwin-108b38cf67cbb731",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-10T20:30:57.829Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T20:19:50.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1595,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.9k Star 123k Cygwin build inputs and matching source for Windows voice Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai released this 10 Sep 20:19 voice-cygwin-108b38cf67cbb731 b9852fe CI-only build tools for native Windows voice releases. These archives are not included in Codex user packages. cygwin-build-inputs.tar.gz : 103 pinned Cygwin binary packages and the signed package index used by the offline build installer. cygwin-build-sources.tar : all 83 corresponding source package archives at the exact versions named by that index. It includes the upstream source, patches, and build recipes provided in Cygwin's -src packages. cygwin-source-map.json : each selected binary package mapped to its source archive and the source size and SHA-512 digest from the pinned index. CYGWIN-SOURCE-NOTICE.txt : source access and licensing notice. The",
+    "truncated": false,
+    "title": "Release Cygwin build inputs and matching source for Windows voice · openai/codex · GitHub",
+    "fetchedAt": "2026-09-10T20:30:57.829Z",
+    "full": "full/f-gh-releases-openai-codex-0ppcbz9.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0xat64h",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.155.0-alpha.2.2",
+   "ctx": "Release 0.155.0-alpha.2.2",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.2",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-10T20:30:57.829Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T20:23:10.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0ymxu1v",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex Python SDK 0.154.0",
+   "ctx": "Install with pip install --upgrade openai-codex==0.154.0 (Python 3.10 or later). This release includes the matching openai-codex-cli-bin==0.154.0 runtime. Add max and ultra reasoning-effort values. #39662 Add ExternalMessage to synchronous and asynchronous run() and turn() calls. External content can start a turn or join an active regular turn with tool-level authority; it does not grant user auth",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/python-v0.154.0",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-10T20:01:05.026Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T19:51:43.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2315,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.9k Star 123k Python SDK 0.154.0 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags aibrahim-oai released this 10 Sep 19:51 &middot; 3 commits to main since this release python-v0.154.0 9fd29df Install with pip install --upgrade openai-codex==0.154.0 (Python 3.10 or later). This release includes the matching openai-codex-cli-bin==0.154.0 runtime. Add max and ultra reasoning-effort values. #39662 Add ExternalMessage to synchronous and asynchronous run() and turn() calls. External content can start a turn or join an active regular turn with tool-level authority; it does not grant user authorization. Consumers receive independent event streams. #44086 Add include_turns on resume/fork, turn_service_tier for one newly started turn, and source metadata. History selection changes the returned response, not model context. Existing defaults are preserved when these options are omi",
+    "truncated": false,
+    "title": "Release Python SDK 0.154.0 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-10T20:01:05.026Z",
+    "full": "full/f-gh-releases-openai-codex-0ymxu1v.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-cascade-1cslfbk",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"v4.1 flash\" — 3 independent sources in 4h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 4 hours, in 6 items (0.1% of the window — below the 15% background threshold).\n\n• openrouter — DeepSeek: DeepSeek V4.1 Flash\n• hackernews-firehose — DeepSeek v4.1 Flash\n• reddit — guide to using reasoning_effort on deepseek v4.1 flash\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open openrouter",
+     "href": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+     "primary": true
+    },
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+     "primary": false
+    },
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wcesmy/guide_to_using_reasoning_effort_on_deepseek_v41/",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-10T19:01:04.265Z",
+   "tier": "X",
+   "families": [
+    "openrouter",
+    "hackernews-firehose",
+    "reddit"
+   ],
+   "roots": [
+    "openrouter",
+    "hackernews",
+    "reddit"
+   ],
+   "sub": "cascade shape · openrouter, hackernews, reddit",
+   "extract": {
+    "ok": true,
+    "chars": 1491,
+    "lead": "Providers Providers Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Exacto (highest tool-calling accuracy). Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to",
+    "truncated": false,
+    "title": "DeepSeek V4.1 Flash - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-10T19:01:04.265Z",
+    "full": "full/f-cascade-1cslfbk.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-cascade-1nwnp36",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"deepseek v4.1\" — 3 independent sources in 4h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 4 hours, in 7 items (0.1% of the window — below the 15% background threshold).\n\n• openrouter — DeepSeek: DeepSeek V4.1 Flash\n• hackernews-firehose — DeepSeek v4.1 Flash\n• reddit — guide to using reasoning_effort on deepseek v4.1 flash\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open openrouter",
+     "href": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+     "primary": true
+    },
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+     "primary": false
+    },
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wcesmy/guide_to_using_reasoning_effort_on_deepseek_v41/",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-10T19:01:04.265Z",
+   "tier": "X",
+   "families": [
+    "openrouter",
+    "hackernews-firehose",
+    "reddit"
+   ],
+   "roots": [
+    "openrouter",
+    "hackernews",
+    "reddit"
+   ],
+   "sub": "cascade shape · openrouter, hackernews, reddit",
+   "extract": {
+    "ok": true,
+    "chars": 1491,
+    "lead": "Providers Providers Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Exacto (highest tool-calling accuracy). Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to",
+    "truncated": false,
+    "title": "DeepSeek V4.1 Flash - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-10T19:01:04.265Z",
+    "full": "full/f-cascade-1nwnp36.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0qpf03r",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10900",
+   "ctx": "vulkan: use add_alloc_dep to enable topk_moe fusion for prefill ( #28422 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46661423 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10900",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-10T19:01:04.265Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T19:00:56.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0uomz1u",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10899",
+   "ctx": "vulkan: small M matrix optimizations for qwen ( #28457 ) vulkan: optimize m=1 mul_mat by swapping A/B vulkan: Improve small M perf Allow split_k with small M. Make small vs med tile selection (for coopmat2) depend on M, not just N. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46654773 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10899",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-10T19:01:04.265Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T18:35:50.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0wgud1k",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.155.0-alpha.2.1",
+   "ctx": "Release 0.155.0-alpha.2.1",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-10T19:01:04.265Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T18:51:20.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-cascade-19pra9w",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"deepseek v4.1 flash\" — 3 independent sources in 4h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 4 hours, in 6 items (0.1% of the window — below the 15% background threshold).\n\n• openrouter — DeepSeek: DeepSeek V4.1 Flash\n• hackernews-firehose — DeepSeek v4.1 Flash\n• reddit — guide to using reasoning_effort on deepseek v4.1 flash\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open openrouter",
+     "href": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+     "primary": true
+    },
+    {
+     "label": "Open hackernews-firehose",
+     "href": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+     "primary": false
+    },
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wcesmy/guide_to_using_reasoning_effort_on_deepseek_v41/",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-10T18:00:58.523Z",
+   "tier": "X",
+   "families": [
+    "openrouter",
+    "hackernews-firehose",
+    "reddit"
+   ],
+   "roots": [
+    "openrouter",
+    "hackernews",
+    "reddit"
+   ],
+   "sub": "cascade shape · openrouter, hackernews, reddit",
+   "extract": {
+    "ok": true,
+    "chars": 1491,
+    "lead": "Providers Providers Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Exacto (highest tool-calling accuracy). Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to",
+    "truncated": false,
+    "title": "DeepSeek V4.1 Flash - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-10T18:00:58.523Z",
+    "full": "full/f-cascade-19pra9w.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0v8m6fs",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10897",
+   "ctx": "ci : Update WoA CUDA 13.4 release to use 13.4.1 GA redistributables ( #28687 ) Move Windows ARM64 CUDA 13.4 builds from the Developer Preview archives to the 13.4.1 GA redistributables Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46646402 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iO",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10897",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-10T18:00:58.523Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T18:00:53.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1783,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10897 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 10 Sep 17:59 b10897 18c17b4 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ci : Update WoA CUDA 13.4 release to use 13.4.1 GA redistributables ( #28687 ) Move Windows ARM64 CUDA 13.4 builds from the Developer Preview archives to the 13.4.1 GA redistributables Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46646402 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SY",
+    "truncated": false,
+    "title": "Release b10897 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-10T18:00:58.523Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0v8m6fs.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-0j9g4al",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.155.0-alpha.2",
+   "ctx": "Release 0.155.0-alpha.2",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-10T17:30:48.119Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T17:08:19.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 828,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.9k Star 123k rust-v0.155.0-alpha.2 rust-v0.155.0-alpha.2 8e6580a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.155.0-alpha.2 rust-v0.155.0-alpha.2 8e6580a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags jif-oai tagged this 10 Sep 17:08 Release 0.155.0-alpha.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.155.0-alpha.2 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-10T17:30:48.119Z",
+    "full": "full/f-gh-releases-openai-codex-0j9g4al.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-google-ai-blog-15ruite",
    "pri": 35,
@@ -891,36 +1386,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-hf-models-deepseek-ai-0qfd223",
-   "pri": 10,
-   "kind": "note",
-   "title": "Weights: deepseek-ai/DeepSeek-V4.1-Flash",
-   "ctx": "New model repo under deepseek-ai. On HF the weights are public before the blog post.\n\nTags: transformers, safetensors, deepseek_v41, text-generation, image-text-to-text, license:mit, endpoints_compatible, 8-bit, fp8, region:us",
-   "acts": [
-    {
-     "label": "Open on HF",
-     "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "hf-models-deepseek-ai",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "A",
-   "itemTs": "2026-09-10T02:17:58.000Z",
-   "sub": "huggingface · deepseek-ai · 754 likes",
-   "extract": {
-    "ok": false,
-    "reason": "extracted text is markup/template, not prose",
-    "fetchedAt": "2026-09-10T11:01:07.847Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   },
   {
    "id": "f-arxiv-cs.LG-0a9uolk",
@@ -2357,376 +2822,6 @@
     "model-switch",
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0pffngz",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10870",
-   "ctx": "vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 ( #27471 ) vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 simplify mmp selection in mul_mat_id per review comment vulkan: enable f16 B-type pipeline for dense matmul on all vendors (MoE stays Intel-only) vulkan: add missing ocp_fp4 branches, restrict required_subgroup_size to ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10870",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-09T07:01:07.984Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T06:40:30.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2162,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10870 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 06:38 b10870 1945e09 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 ( #27471 ) vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 simplify mmp selection in mul_mat_id per review comment vulkan: enable f16 B-type pipeline for dense matmul on all vendors (MoE stays Intel-only) vulkan: add missing ocp_fp4 branches, restrict required_subgroup_size to Intel, fix mmp selection refine mmp selection in mul_mat_id add f16B pipeline selection just like q8_1 update f16B pipeline selection in dense function Website: https://llama.",
-    "truncated": false,
-    "title": "Release b10870 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-09T07:01:07.984Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0pffngz.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-18yudt1",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.10.2",
-   "ctx": "Release 0.154.0-alpha.10.2",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-09T07:01:07.984Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T06:57:59.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 845,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 123k rust-v0.154.0-alpha.10.2 rust-v0.154.0-alpha.10.2 72749d0 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.10.2 rust-v0.154.0-alpha.10.2 72749d0 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 09 Sep 06:57 Release 0.154.0-alpha.10.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.154.0-alpha.10.2 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-09T07:01:07.984Z",
-    "full": "full/f-gh-releases-openai-codex-18yudt1.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-184vkq4",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.10.1",
-   "ctx": "Release 0.154.0-alpha.10.1",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-09T06:31:01.960Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T06:08:47.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 845,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 123k rust-v0.154.0-alpha.10.1 rust-v0.154.0-alpha.10.1 99e6349 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.10.1 rust-v0.154.0-alpha.10.1 99e6349 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 09 Sep 06:08 Release 0.154.0-alpha.10.1 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.154.0-alpha.10.1 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-09T06:31:01.960Z",
-    "full": "full/f-gh-releases-openai-codex-184vkq4.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-cascade-0qrf45r",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"millennium prize\" — 3 independent sources in 12h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 12 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• hackernews-firehose — On the Navier–Stokes Millennium Prize Problem\n• simonwillison — On the Navier–Stokes Millennium Prize Problem\n• latentspace — [AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, rough\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open hackernews-firehose",
-     "href": "https://openai.com/index/navier-stokes-solution/",
-     "primary": true
-    },
-    {
-     "label": "Open simonwillison",
-     "href": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-     "primary": false
-    },
-    {
-     "label": "Open latentspace",
-     "href": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-09T05:30:17.450Z",
-   "tier": "X",
-   "families": [
-    "hackernews-firehose",
-    "simonwillison",
-    "latentspace"
-   ],
-   "roots": [
-    "hackernews",
-    "simonwillison",
-    "latentspace"
-   ],
-   "sub": "cascade shape · hackernews, simonwillison, latentspace",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 403",
-    "fetchedAt": "2026-09-09T05:30:17.450Z"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0up4y5h",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10869",
-   "ctx": "tests : use less threads for data initialization ( #28325 ) tests : use 1 thread for data initialization cont : scale threads with number of elements cont : adjust Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46152521 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10869",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-09T05:30:17.450Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T05:27:37.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1km9rd5",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.8.1",
-   "ctx": "Release 0.154.0-alpha.8.1",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.8.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-09T05:30:17.450Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T05:06:08.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-1m0was9",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.10",
-   "ctx": "Release 0.154.0-alpha.10",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-09T05:30:17.450Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T05:23:29.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 836,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.8k Star 123k rust-v0.154.0-alpha.10 rust-v0.154.0-alpha.10 ae32fb9 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.10 rust-v0.154.0-alpha.10 ae32fb9 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags won-openai tagged this 09 Sep 05:23 Release 0.154.0-alpha.10 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.154.0-alpha.10 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-09T05:30:17.450Z",
-    "full": "full/f-gh-releases-openai-codex-1m0was9.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-046gsfb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
-   "ctx": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph o",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09153v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:59:41.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-046z779",
-   "pri": 45,
-   "kind": "note",
-   "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
-   "ctx": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval mechanisms optimize semantic compatibility rather than downstream utility, frequently introducing outdated, misleading, or conflicting evidence into the active context. We present MeClear, a task conditioned memory clearance framework that identifies memories featuring negative downstream utility through cooperative at",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09115v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:46:00.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-06rbkrr",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Generalization of Amari's Bayesian Duality",
-   "ctx": "Amari's contributions to information geometry and machine learning are well known. Here, we revisit Amari's work on Bayesian duality which has not received as much attention. We connect Amari's Bayesian duality to a convex duality of Bayes' rule. Using this connection, we present a generalization of Amari's Bayesian duality and discuss its relevance for modern artificial intelligence.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09126v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:51:08.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-06t0ul9",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
-   "ctx": "Robotic Process Automation (RPA) is widely used to reduce administrative burden in United States hospitals, yet an estimated 30-50% of RPA initiatives underperform because processes are selected informally, without a repeatable method to catalogue candidates, prioritize them, match each to an automation tier -- a Python bot, an open-source orchestrator such as n8n, or an enterprise platform such as UiPath -- and forecast financial return before committing resources. We propose a four-module, dat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09137v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:55:28.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0i0ypsd",
-   "pri": 45,
-   "kind": "note",
-   "title": "Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs",
-   "ctx": "Visual encoders construct a representation of the image input for Vision-Language models. How much conceptual, as opposed to immediately visible, information does this representation contain? We use canonical color as a controlled test case to ask whether vision encoders make canonical-color information linearly accessible, even when color is removed from the input image. We construct a dataset of objects with canonical colors, and probe vision encoders for both color and object identity using c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09124v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:50:09.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0l0s60p",
-   "pri": 45,
-   "kind": "note",
-   "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
-   "ctx": "Execution feedback can guide coding agents toward correct repository repairs, but only when the tests capture the behavior requested by the issue. Agent-generated tests can encode incomplete or incorrect behavioral targets; when the same trajectory writes both the patch and the test, their errors can agree and create false confidence. We introduce ExecCritic, combining a test--verify--revise scaffold with a role-specific reinforcement learning recipe for training agents within it. The scaffold s",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09133v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:53:37.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2741,11 +2836,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 43,
-   "slow": 57
+   "daily": 49,
+   "slow": 51
   },
-  "routed": 42,
-  "unrouted": 58,
+  "routed": 44,
+  "unrouted": 56,
   "unmappedLaneFamilies": []
  }
 }
