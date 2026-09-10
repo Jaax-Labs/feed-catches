@@ -1,7 +1,91 @@
 {
- "generatedAt": "2026-09-10T15:31:06.540Z",
+ "generatedAt": "2026-09-10T16:30:54.861Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-google-ai-blog-15ruite",
+   "pri": 35,
+   "kind": "note",
+   "title": "3 ways to prep for your next big race with Search",
+   "ctx": "Illustration on a blue background of technicolor runners with a magnifying glass and Gemini spark overlaid",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "google-ai-blog",
+   "detectedAt": "2026-09-10T16:30:47.738Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T16:00:00.000Z",
+   "sub": "google-blog",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-anthropic-status-0348n91",
+   "pri": 33,
+   "kind": "note",
+   "title": "Degraded functionality for Claude Cowork on Windows",
+   "ctx": "Sep 10 , 15:54 UTC Identified - A Windows update released September 8 has caused Claude Cowork on Windows is unable to run local commands on your PC, because its workspace can no longer reach your computer’s drive. For most users, chat and reading or editing files still work. We have identified the cause as a change in Windows; Microsoft has developed a fix and is working on releasing it. There’s ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/r1pqn1kb4hvk",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-09-10T16:01:03.461Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T15:54:10.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0vils4r",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10896",
+   "ctx": "spec: fix failed to decode mtmd chunk with DFlash ( #28587 ) speculative: fix failed to decode mtmd chunk with DFlash When using DFlash w/ vision models, the drafter memory fails to allocate new tokens because images report a fixed offset. Stop copying them to allow the drafter to continue. address PR feedback limit M-RoPE skip to images only, allow audio to pass through. Clean up comments to alig",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10896",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-10T16:01:03.461Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T15:45:03.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2040,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10896 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 10 Sep 15:42 b10896 fa67698 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . spec: fix failed to decode mtmd chunk with DFlash ( #28587 ) speculative: fix failed to decode mtmd chunk with DFlash When using DFlash w/ vision models, the drafter memory fails to allocate new tokens because images report a fixed offset. Stop copying them to allow the drafter to continue. address PR feedback limit M-RoPE skip to images only, allow audio to pass through. Clean up comments to align to the updated implementation Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46612806 macOS/iOS: macOS Apple Silicon (arm64) macOS",
+    "truncated": false,
+    "title": "Release b10896 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-10T16:01:03.461Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vils4r.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0w2kzip",
    "pri": 30,
@@ -2643,78 +2727,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0wjm2au",
-   "pri": 45,
-   "kind": "note",
-   "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
-   "ctx": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditi",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09158v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:59:55.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1m9kq3c",
-   "pri": 45,
-   "kind": "note",
-   "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
-   "ctx": "Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. Since both the harness and model weights shape behavior, we ask how harness evolution and lightweight fine-tuning should be combined. Across seven enterprise agent tasks, we first evolve a harness with",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09134v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:53:49.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1t69z1f",
-   "pri": 45,
-   "kind": "note",
-   "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
-   "ctx": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular temporal dynamics and inherent stochasticity of real-world multimodal patient data. Existing AI approaches for modeling longitudinal patient records are predominantly discriminative, limited to a few modali",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.09140v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-09T05:00:38.529Z",
-   "tier": "B",
-   "itemTs": "2026-09-08T17:56:13.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2729,11 +2741,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 40,
-   "slow": 60
+   "daily": 43,
+   "slow": 57
   },
-  "routed": 40,
-  "unrouted": 60,
+  "routed": 42,
+  "unrouted": 58,
   "unmappedLaneFamilies": []
  }
 }
