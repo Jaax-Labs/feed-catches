@@ -1,7 +1,105 @@
 {
- "generatedAt": "2026-09-11T06:31:05.365Z",
+ "generatedAt": "2026-09-11T09:31:37.593Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-01zgza4",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.155.0-alpha.3.8",
+   "ctx": "Release 0.155.0-alpha.3.8",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.8",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-11T08:31:20.030Z",
+   "tier": "A",
+   "itemTs": "2026-09-11T08:19:54.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 838,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 19k Star 123k rust-v0.155.0-alpha.3.8 rust-v0.155.0-alpha.3.8 2369b56 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.155.0-alpha.3.8 rust-v0.155.0-alpha.3.8 2369b56 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 11 Sep 08:19 Release 0.155.0-alpha.3.8 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.155.0-alpha.3.8 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-11T08:31:20.030Z",
+    "full": "full/f-gh-releases-openai-codex-01zgza4.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0qzelsq",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10903",
+   "ctx": "vulkan: fix data race and OOB access in argsort(large) ( #28705 ) argsort had a data race in the inner loop, which VVL caught. But I don't think this was causing failures in practice. argsort_large has OOB accesses which might explain the failures in CI, but I couldn't reproduce it locally and I don't think it's a convincing explanation of the failures. Website: https://llama.app Attestations: htt",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10903",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-11T07:01:33.441Z",
+   "tier": "A",
+   "itemTs": "2026-09-11T06:34:50.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1954,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10903 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 11 Sep 06:33 b10903 481c65f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: fix data race and OOB access in argsort(large) ( #28705 ) argsort had a data race in the inner loop, which VVL caught. But I don't think this was causing failures in practice. argsort_large has OOB accesses which might explain the failures in CI, but I couldn't reproduce it locally and I don't think it's a convincing explanation of the failures. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46780204 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr",
+    "truncated": false,
+    "title": "Release b10903 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-11T07:01:33.441Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0qzelsq.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-openai-codex-03xe74x",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.155.0-alpha.3.7",
+   "ctx": "Release 0.155.0-alpha.3.7",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.7",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-11T07:01:33.441Z",
+   "tier": "A",
+   "itemTs": "2026-09-11T07:01:24.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 838,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 19k Star 123k rust-v0.155.0-alpha.3.7 rust-v0.155.0-alpha.3.7 08afb53 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.155.0-alpha.3.7 rust-v0.155.0-alpha.3.7 08afb53 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 11 Sep 07:01 Release 0.155.0-alpha.3.7 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.155.0-alpha.3.7 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-11T07:01:33.441Z",
+    "full": "full/f-gh-releases-openai-codex-03xe74x.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-openai-codex-03nelfy",
    "pri": 30,
@@ -2597,77 +2695,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0tes04p",
-   "pri": 45,
-   "kind": "note",
-   "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
-   "ctx": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking users, risks losing the intent of the original question, and forgoes knowledge more readily expressed in the target language. In this work, we advance L2 reasoning, the ability of a model to reason consistently in the la",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10445v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T16:56:25.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1bl1n87",
-   "pri": 45,
-   "kind": "note",
-   "title": "Retrofitting Code Using LLMs to Support Exceptional Behavior",
-   "ctx": "Exception Related Code (ERC), which includes throw statements, conditions (if statements) that guard those throw statements, and try/catch blocks, is an essential component of software systems, allowing developers to detect and handle exceptional states that deviate from the expected program behavior. However, manually writing ERC across large codebases is tedious. We propose a novel task: retrofitting existing code with ERC. Namely, given code (without ERC) and Exceptional Behavior Tests (EBTs)",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10397v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T16:18:47.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1l4vkw9",
-   "pri": 45,
-   "kind": "note",
-   "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
-   "ctx": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent implementer or coding agent to construct the intended method without unsupported assumptions. We construct evidence-grounded specifications and their supported re",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10539v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T17:59:04.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2682,8 +2709,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 32,
-   "slow": 68
+   "daily": 35,
+   "slow": 65
   },
   "routed": 24,
   "unrouted": 76,
