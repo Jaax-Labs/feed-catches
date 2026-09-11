@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-11T09:31:37.593Z",
+ "generatedAt": "2026-09-11T10:31:22.996Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0pbgzmw",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10905",
+   "ctx": "CUDA/HIP: Flash Attention tuning (gfx1201) ( #28102 ) HIP: enable mma FA for head size 256 on RDNA4, tune configs Assisted-by: Claude Assisted-by: Codex HIP: prefer whole-tile FA grids over stream-k on AMD WMMA Assisted-by: Claude Assisted-by: Codex revise stream_k logic revise kernel selection logic Co-authored-by: Johannes Gäßler johannesg@5d6.de Website: https://llama.app Attestations: https://",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10905",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-11T10:01:11.497Z",
+   "tier": "A",
+   "itemTs": "2026-09-11T09:40:17.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1949,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10905 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 11 Sep 09:38 b10905 16378d9 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . CUDA/HIP: Flash Attention tuning (gfx1201) ( #28102 ) HIP: enable mma FA for head size 256 on RDNA4, tune configs Assisted-by: Claude Assisted-by: Codex HIP: prefer whole-tile FA grids over stream-k on AMD WMMA Assisted-by: Claude Assisted-by: Codex revise stream_k logic revise kernel selection logic Co-authored-by: Johannes Gäßler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46815584 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
+    "truncated": false,
+    "title": "Release b10905 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-11T10:01:11.497Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0pbgzmw.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-openai-codex-01zgza4",
    "pri": 30,
@@ -2672,29 +2706,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0i7fguf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization",
-   "ctx": "The growing complexity of content moderation policies presents a critical challenge for their consistent operationalization. While foundation models possess the basic capabilities needed to confront this challenge, whether they can reliably moderate online content remains an unanswered question. In this paper, we systematically compare two competing paradigms for Vision-Language Model (VLM) guidance: an instruction-driven approach where models reason from policy precepts, and an example-driven a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10410v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T16:30:15.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2709,11 +2720,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 35,
-   "slow": 65
+   "daily": 36,
+   "slow": 64
   },
-  "routed": 24,
-  "unrouted": 76,
+  "routed": 25,
+  "unrouted": 75,
   "unmappedLaneFamilies": []
  }
 }
