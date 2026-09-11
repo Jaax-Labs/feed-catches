@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-09-10T22:01:40.465Z",
+ "generatedAt": "2026-09-11T00:31:03.326Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-openai-codex-0x0tkfi",
+   "pri": 30,
+   "kind": "note",
+   "title": "openai/codex rust-v0.155.0-alpha.2.3",
+   "ctx": "Release 0.155.0-alpha.2.3",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.3",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-openai-codex",
+   "detectedAt": "2026-09-10T23:31:00.684Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T23:30:30.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 840,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 18.9k Star 123k rust-v0.155.0-alpha.2.3 rust-v0.155.0-alpha.2.3 5e4382c Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.155.0-alpha.2.3 rust-v0.155.0-alpha.2.3 5e4382c Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 10 Sep 23:30 Release 0.155.0-alpha.2.3 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
+    "truncated": false,
+    "title": "Release rust-v0.155.0-alpha.2.3 · openai/codex · GitHub",
+    "fetchedAt": "2026-09-10T23:31:00.684Z",
+    "full": "full/f-gh-releases-openai-codex-0x0tkfi.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0qffees",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10901",
+   "ctx": "vulkan: use CPU writes in ggml_backend_vk_cpy_tensor_async if the context is idle ( #28618 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46709648 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10901",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-10T23:01:07.098Z",
+   "tier": "A",
+   "itemTs": "2026-09-10T22:42:42.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1691,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10901 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 10 Sep 22:41 b10901 28ff095 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: use CPU writes in ggml_backend_vk_cpy_tensor_async if the context is idle ( #28618 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46709648 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Wind",
+    "truncated": false,
+    "title": "Release b10901 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-10T23:01:07.098Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0qffees.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-13wurn9",
    "pri": 33,
@@ -2753,75 +2819,6 @@
    },
    "clock": "daily",
    "questions": []
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0pzeuux",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10872",
-   "ctx": "jinja: treat a null left operand of in as a plain lookup ( #28620 ) Templates that default an optional variable to none and then test its membership in a map hit an error, while the same expression is a normal lookup returning false in Jinja. The undefined counterpart of this case was already handled just above. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attesta",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10872",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-09T08:00:33.644Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T07:47:26.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1924,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10872 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 07:44 b10872 b31b71f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . jinja: treat a null left operand of in as a plain lookup ( #28620 ) Templates that default an optional variable to none and then test its membership in a map hit an error, while the same expression is a normal lookup returning false in Jinja. The undefined counterpart of this case was already handled just above. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46177710 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu a",
-    "truncated": false,
-    "title": "Release b10872 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-09T08:00:33.644Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0pzeuux.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0p5g1s0",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10871",
-   "ctx": "vulkan: add dedicated iq4_xs mat-vec shader ( #28426 ) vulkan: add dedicated iq4_xs mat-vec shader Dedicated mul_mat_vec_iq4_xs for the dmmv path, replacing the generic fallback. ~+6-17% token generation on RDNA4 depending on model. Assisted-by: Pi agent with Qwen3.8 27B vulkan iq4_xs: remove dead n_it unroll branch Remove the n_it &lt;= 8 experimental branch that attempted to fully unroll the blo",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10871",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-09T07:30:29.795Z",
-   "tier": "A",
-   "itemTs": "2026-09-09T07:20:12.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2173,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 22.9k Star 128k b10871 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 09 Sep 07:17 b10871 df750f7 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: add dedicated iq4_xs mat-vec shader ( #28426 ) vulkan: add dedicated iq4_xs mat-vec shader Dedicated mul_mat_vec_iq4_xs for the dmmv path, replacing the generic fallback. ~+6-17% token generation on RDNA4 depending on model. Assisted-by: Pi agent with Qwen3.8 27B vulkan iq4_xs: remove dead n_it unroll branch Remove the n_it <= 8 experimental branch that attempted to fully unroll the block loop. Since n_it is a runtime value, [[unroll]] is ignored by the compiler, making both branches equivalent. Kept the simple loop matching mul_mat_vec_iq3_s.comp. Website: htt",
-    "truncated": false,
-    "title": "Release b10871 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-09T07:30:29.795Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0p5g1s0.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2839,8 +2836,8 @@
    "daily": 49,
    "slow": 51
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
