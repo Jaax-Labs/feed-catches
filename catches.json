@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-11T20:01:27.285Z",
+ "generatedAt": "2026-09-11T21:01:17.901Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1pdvypj",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10917",
+   "ctx": "cmake : skip PCH for llama-server PCH when using MSVC ( #28763 ) This commit fixes an issue that I introduced when adding PCH (precompiled headers) in Commit 3bcfeb7 (\"cmake : add PCH and unity build to improve build times ( #28091 )\". See linked issue for details. Co-authored-by: mjungnickel18 Co-authored-by: Pascal admin@serveurperso.com Resolves: #28758 Refs: https://github.com/ggml-org/llama.c",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10917",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-11T21:01:09.679Z",
+   "tier": "A",
+   "itemTs": "2026-09-11T20:32:18.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2055,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10917 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 11 Sep 20:30 b10917 8ea2902 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . cmake : skip PCH for llama-server PCH when using MSVC ( #28763 ) This commit fixes an issue that I introduced when adding PCH (precompiled headers) in Commit 3bcfeb7 (\"cmake : add PCH and unity build to improve build times ( #28091 )\". See linked issue for details. Co-authored-by: mjungnickel18 Co-authored-by: Pascal admin@serveurperso.com Resolves: #28758 Refs: https://github.com/ggml-org/llama.cpp/actions/runs/34592933983/job/103262608990#step:9:1284 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46958058 macOS/iOS: macOS Ap",
+    "truncated": false,
+    "title": "Release b10917 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-11T21:01:09.679Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1pdvypj.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-anthropics-claude-code-1sujrf0",
    "pri": 30,
@@ -2089,29 +2123,6 @@
    "questions": []
   },
   {
-   "id": "f-gh-releases-openai-codex-0xat64h",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.155.0-alpha.2.2",
-   "ctx": "Release 0.155.0-alpha.2.2",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-10T20:30:57.829Z",
-   "tier": "A",
-   "itemTs": "2026-09-10T20:23:10.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": []
-  },
-  {
    "id": "f-cascade-1cslfbk",
    "pri": 4,
    "kind": "note",
@@ -2803,8 +2814,8 @@
    "daily": 43,
    "slow": 57
   },
-  "routed": 29,
-  "unrouted": 71,
+  "routed": 30,
+  "unrouted": 70,
   "unmappedLaneFamilies": []
  }
 }
