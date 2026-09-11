@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-11T19:01:51.043Z",
+ "generatedAt": "2026-09-11T20:01:27.285Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1sujrf0",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.269",
+   "ctx": "What's changed Added claude plugin eval : run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [name] to list and switch output styles, including over Remote Control and in cloud and other headless sessions Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-11T19:31:15.900Z",
+   "tier": "A",
+   "itemTs": "2026-09-11T19:17:55.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 15490,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.1k Star 145k v2.1.269 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 11 Sep 19:17 v2.1.269 df52d04 What's changed Added claude plugin eval : run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [name] to list and switch output styles, including over Remote Control and in cloud and other headless sessions Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool handles file edits (setting bashEditDiffEnabled ) Added OTEL_METRICS_INCLUDE_REPOSITORY to tag OpenTelemetry metrics and events with vcs.* repository attributes; commit events get vcs.ref.head.* with OTEL_LOG_TOOL_DETAILS Added CLAUDE_CODE_GATEWAY_MODEL_DISCOVERY_TIMEOUT_MS to extend the LLM gateway /v1/models discovery timeout ",
+    "truncated": false,
+    "title": "Release v2.1.269 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-11T19:31:15.900Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1sujrf0.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-chinatalk-0iiv7f5",
    "pri": 60,
@@ -2752,29 +2786,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0mjntzi",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs",
-   "ctx": "Current LLM memory systems treat all personal facts identically, so stores grow without bound while retrieval precision degrades. The core challenge is lifecycle management: which memories should persist, which should be replaced, and at what rate, conditioned on the behavioral type of each fact. Fortunate Recall (FR) is a composable policy layer that classifies personal facts into a 10+1 behavioral ontology and applies category-specific lifecycle policies (differential temporal decay, slot-key ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10413v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T16:31:45.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2789,11 +2800,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 58,
-   "daily": 42
+   "daily": 43,
+   "slow": 57
   },
-  "routed": 28,
-  "unrouted": 72,
+  "routed": 29,
+  "unrouted": 71,
   "unmappedLaneFamilies": []
  }
 }
