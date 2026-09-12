@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-12T01:00:53.315Z",
+ "generatedAt": "2026-09-12T01:30:31.949Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-google-gemini-gemini-cli-0adaxpf",
+   "pri": 30,
+   "kind": "note",
+   "title": "google-gemini/gemini-cli Release v0.61.0-nightly.20260912.g9c1b0a610",
+   "ctx": "What's Changed fix(core): prevent indirect prompt injection via build file modifications and untrusted flags by @villahernandez-coder in #29250 fix(sandbox): harden filesystem boundaries and isolate runtime state by @diegogodinezr in #29214 New Contributors @villahernandez-coder made their first contribution in #29250 Full Changelog : v0.61.0-nightly.20260911.ged2ac40df...v0.61.0-nightly.20260912.",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260912.g9c1b0a610",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-google-gemini-gemini-cli",
+   "detectedAt": "2026-09-12T01:30:24.548Z",
+   "tier": "A",
+   "itemTs": "2026-09-12T01:25:00.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1109,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . google-gemini / gemini-cli Public Notifications You must be signed in to change notification settings Fork 14.6k Star 107k Release v0.61.0-nightly.20260912.g9c1b0a610 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags gemini-cli-robot released this 12 Sep 01:25 v0.61.0-nightly.20260912.g9c1b0a610 71a5ff8 What's Changed fix(core): prevent indirect prompt injection via build file modifications and untrusted flags by @villahernandez-coder in #29250 fix(sandbox): harden filesystem boundaries and isolate runtime state by @diegogodinezr in #29214 New Contributors @villahernandez-coder made their first contribution in #29250 Full Changelog : v0.61.0-nightly.20260911.ged2ac40df...v0.61.0-nightly.20260912.g9c1b0a610 Contributors diegogodinezr and villahernandez-coder Assets 5 Loading Uh oh! There was an error while loading. Please reload this page . All reactions",
+    "truncated": false,
+    "title": "Release Release v0.61.0-nightly.20260912.g9c1b0a610 · google-gemini/gemini-cli · GitHub",
+    "fetchedAt": "2026-09-12T01:30:24.548Z",
+    "full": "full/f-gh-releases-google-gemini-gemini-cli-0adaxpf.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1pdvypj",
    "pri": 30,
@@ -2774,29 +2808,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0i7fguf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization",
-   "ctx": "The growing complexity of content moderation policies presents a critical challenge for their consistent operationalization. While foundation models possess the basic capabilities needed to confront this challenge, whether they can reliably moderate online content remains an unanswered question. In this paper, we systematically compare two competing paradigms for Vision-Language Model (VLM) guidance: an instruction-driven approach where models reason from policy precepts, and an example-driven a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10410v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T16:30:15.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2811,11 +2822,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 43,
-   "slow": 57
+   "daily": 44,
+   "slow": 56
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 31,
+  "unrouted": 69,
   "unmappedLaneFamilies": []
  }
 }
