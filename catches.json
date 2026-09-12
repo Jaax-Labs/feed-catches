@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-12T09:01:19.598Z",
+ "generatedAt": "2026-09-12T09:30:44.476Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1lrxz6x",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10924",
+   "ctx": "server: frame the router child state command as a whole line ( #28747 ) The child writes its state commands on stdout while the logger writes on stderr, and both share a single pipe. The logger emits the trailing color reset after the newline of a debug, warn or error entry, so that escape sequence has no newline of its own and the router reads it glued in front of the next command. The line prefi",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10924",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-12T09:30:28.632Z",
+   "tier": "A",
+   "itemTs": "2026-09-12T09:20:40.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2260,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10924 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 12 Sep 09:18 b10924 c069aa7 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . server: frame the router child state command as a whole line ( #28747 ) The child writes its state commands on stdout while the logger writes on stderr, and both share a single pipe. The logger emits the trailing color reset after the newline of a debug, warn or error entry, so that escape sequence has no newline of its own and the router reads it glued in front of the next command. The line prefix check then fails and the command is forwarded as a log line instead of being handled, which leaves a finished download stuck in the downloading state. Writing the command wi",
+    "truncated": false,
+    "title": "Release b10924 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-12T09:30:28.632Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1lrxz6x.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1m1xkvw",
    "pri": 30,
@@ -2419,29 +2453,6 @@
    ]
   },
   {
-   "id": "f-gh-releases-openai-codex-0wgud1k",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.155.0-alpha.2.1",
-   "ctx": "Release 0.155.0-alpha.2.1",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-10T19:01:04.265Z",
-   "tier": "A",
-   "itemTs": "2026-09-10T18:51:20.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": []
-  },
-  {
    "id": "f-cascade-19pra9w",
    "pri": 4,
    "kind": "note",
@@ -2860,8 +2871,8 @@
    "daily": 47,
    "slow": 53
   },
-  "routed": 35,
-  "unrouted": 65,
+  "routed": 36,
+  "unrouted": 64,
   "unmappedLaneFamilies": []
  }
 }
