@@ -1,7 +1,109 @@
 {
- "generatedAt": "2026-09-12T08:00:53.037Z",
+ "generatedAt": "2026-09-12T09:01:19.598Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1m1xkvw",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10923",
+   "ctx": "opencl: fix several bugs where the backend aborts ( #27630 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47037447 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10923",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-12T09:01:14.030Z",
+   "tier": "A",
+   "itemTs": "2026-09-12T08:58:30.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1661,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10923 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 12 Sep 08:56 b10923 8a56aed This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: fix several bugs where the backend aborts ( #27630 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47037447 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 ",
+    "truncated": false,
+    "title": "Release b10923 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-12T09:01:14.030Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1m1xkvw.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1mbx6kv",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10922",
+   "ctx": "opencl: add bin kernel kernel_gemm_noshuffle_q4_k_f32_32b_trans_ila_a8_bin ( #28677 ) opencl: add A8 Q4_K non-MoE binary kernel opencl: fix layout compatibility opencl: rename binary kernel selection helpers Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47035522 macOS/iOS: macOS Apple Silicon (arm64) macOS App",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10922",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-12T08:30:58.720Z",
+   "tier": "A",
+   "itemTs": "2026-09-12T08:30:57.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1850,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10922 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 12 Sep 08:30 b10922 07fc977 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: add bin kernel kernel_gemm_noshuffle_q4_k_f32_32b_trans_ila_a8_bin ( #28677 ) opencl: add A8 Q4_K non-MoE binary kernel opencl: fix layout compatibility opencl: rename binary kernel selection helpers Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47035522 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 ",
+    "truncated": false,
+    "title": "Release b10922 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-12T08:30:58.720Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1mbx6kv.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1mlws9u",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10921",
+   "ctx": "webgpu: align tensor bindings to the type block size ( #28382 ) Walk the binding offset back until the distance to the tensor is a whole number of blocks, so block quantized views get a valid element offset in the shader. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47033659 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI e",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10921",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-12T08:30:58.720Z",
+   "tier": "A",
+   "itemTs": "2026-09-12T08:06:14.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1822,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10921 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 12 Sep 08:04 b10921 3f5e94d This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . webgpu: align tensor bindings to the type block size ( #28382 ) Walk the binding offset back until the distance to the tensor is a whole number of blocks, so block quantized views get a valid element offset in the shader. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47033659 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.",
+    "truncated": false,
+    "title": "Release b10921 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-12T08:30:58.720Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1mlws9u.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1mvwdyt",
    "pri": 30,
@@ -2741,77 +2843,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0ei9jwt",
-   "pri": 45,
-   "kind": "note",
-   "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
-   "ctx": "While Large Language Models (LLMs) have demonstrated impressive capabilities, they often struggle with extremely long contexts due to fixed context limits. To address this, sequential approaches like MemAgent extend the effective context by reading text in segments and iteratively updating a fixed-size memory. However, this sequential paradigm suffers from high latency and requires costly reinforcement learning (RL) training, which can lead to overfitting on specific datasets. To overcome these ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10441v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T16:53:02.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0hjotkc",
-   "pri": 45,
-   "kind": "note",
-   "title": "MOONWALK: Mediating Operations with Intent-Evidence-Action Alignment Across Junior-Supervisor Review Workflows in Animation/VFX Pre-Production",
-   "ctx": "Animation and VFX pre-production review requires teams to translate loosely specified creative intent--briefs, evolving specifications, heterogeneous references, and verbal decisions--into revisions that junior artists can execute without repeated clarification. In practice, criteria drift across iterations, review judgments lose their evidential basis, and the reasoning behind a request rarely survives the senior-junior handoff. We contribute a design framework for intent-evidence-action alignm",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10385v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T16:10:29.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0hxpv31",
-   "pri": 45,
-   "kind": "note",
-   "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-   "ctx": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface linking intent to action. Show-Harness exposes discrete semantic action units that VLMs can naturally reason over, while embodiment-specific interpreters deterministically ground them into local robot actions, keeping the VL",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.10522v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-10T11:01:07.847Z",
-   "tier": "B",
-   "itemTs": "2026-09-09T17:53:38.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2826,11 +2857,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 44,
-   "slow": 56
+   "daily": 47,
+   "slow": 53
   },
-  "routed": 33,
-  "unrouted": 67,
+  "routed": 35,
+  "unrouted": 65,
   "unmappedLaneFamilies": []
  }
 }
