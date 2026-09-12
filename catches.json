@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-12T23:00:38.385Z",
+ "generatedAt": "2026-09-12T23:30:32.017Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1lrutoy",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10932",
+   "ctx": "cmake: leave the timestamp out of precompiled headers on clang ( #28816 ) Clang stores the modification time of the precompiled header sources inside the header and refuses the header when they differ. A cached header restored from another checkout carries the timestamps of that checkout, so the build fails. The option covers the compilers ccache treats as MSVC while they are clang underneath, cla",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10932",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-12T23:30:23.709Z",
+   "tier": "A",
+   "itemTs": "2026-09-12T23:11:26.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2034,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10932 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 12 Sep 23:09 b10932 737e098 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . cmake: leave the timestamp out of precompiled headers on clang ( #28816 ) Clang stores the modification time of the precompiled header sources inside the header and refuses the header when they differ. A cached header restored from another checkout carries the timestamps of that checkout, so the build fails. The option covers the compilers ccache treats as MSVC while they are clang underneath, clang-cl and the Intel LLVM drivers. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47105408 macOS/iOS: macOS Apple Silicon (arm64) m",
+    "truncated": false,
+    "title": "Release b10932 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-12T23:30:23.709Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1lrutoy.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-anthropics-claude-code-1tofezy",
    "pri": 30,
@@ -2828,40 +2862,6 @@
     "title": "Release b10896 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-09-10T16:01:03.461Z",
     "full": "full/f-gh-releases-ggml-org-llama-cpp-0vils4r.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0w2kzip",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10894",
-   "ctx": "models: clean up some dead switch branches in old models ( #28669 ) Some of these if statements were copypastaed in a former refactor and never cleaned up to remove the cases that could never happen anymore. The only thing that's shared between these relatives anymore is llama_model_bert::graph::graph, so the rest of the code doesn't need the conditionals. Website: https://llama.app Attestations: ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10894",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-10T14:01:02.428Z",
-   "tier": "A",
-   "itemTs": "2026-09-10T13:54:30.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1967,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10894 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 10 Sep 13:51 b10894 d344123 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . models: clean up some dead switch branches in old models ( #28669 ) Some of these if statements were copypastaed in a former refactor and never cleaned up to remove the cases that could never happen anymore. The only thing that's shared between these relatives anymore is llama_model_bert::graph::graph, so the rest of the code doesn't need the conditionals. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46582928 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X",
-    "truncated": false,
-    "title": "Release b10894 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-10T14:01:02.428Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0w2kzip.txt"
    },
    "clock": "daily",
    "questions": [
