@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-12T05:00:45.158Z",
+ "generatedAt": "2026-09-12T06:01:12.526Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1mvwdyt",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10920: hexagon: support for multi-device model split (aka row-split) (#28589)",
+   "ctx": "hex-row-split: add support for multi-device row spliting Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com hex-mdev: add work splitting to fused kernels hex-mdev: use mdev_ prefix for all multi-device state hex-mdev: make device configuration more expressive to support device groups hex-mdev: fix mdev session init hex-mdev: fused nx (2x,3x) matmuls must update row counts for each w/o hex-mdev:",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10920",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-12T05:30:22.251Z",
+   "tier": "A",
+   "itemTs": "2026-09-12T03:46:51.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 4937,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23k Star 128k b10920 b10920 eafe15a Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10920: hexagon: support for multi-device model split (aka row-split) (#28589) b10920 eafe15a Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode max-krasnyansky tagged this 12 Sep 03:46 * hex-row-split: add support for multi-device row spliting Co-authored-by: Max Krasnyansky * hex-mdev: add work splitting t",
+    "truncated": false,
+    "title": "Release b10920: hexagon: support for multi-device model split (aka row-split) (#28589) · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-12T05:30:22.251Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1mvwdyt.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1mlzxrt",
    "pri": 30,
@@ -1951,38 +1985,6 @@
    ]
   },
   {
-   "id": "f-gh-releases-openai-codex-0wy62he",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.154.0-alpha.6.2",
-   "ctx": "Release 0.154.0-alpha.6.2",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-11T01:00:58.787Z",
-   "tier": "A",
-   "itemTs": "2026-09-11T00:35:29.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 838,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 19k Star 123k rust-v0.154.0-alpha.6.2 rust-v0.154.0-alpha.6.2 b5bffd3 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.154.0-alpha.6.2 rust-v0.154.0-alpha.6.2 b5bffd3 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags celia-oai tagged this 11 Sep 00:35 Release 0.154.0-alpha.6.2 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.154.0-alpha.6.2 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-11T01:00:58.787Z",
-    "full": "full/f-gh-releases-openai-codex-0wy62he.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
    "id": "f-gh-releases-ggml-org-llama-cpp-0qffees",
    "pri": 30,
    "kind": "note",
@@ -2827,8 +2829,8 @@
    "daily": 44,
    "slow": 56
   },
-  "routed": 32,
-  "unrouted": 68,
+  "routed": 33,
+  "unrouted": 67,
   "unmappedLaneFamilies": []
  }
 }
