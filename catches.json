@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-09-13T16:01:41.184Z",
+ "generatedAt": "2026-09-13T17:31:32.199Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1knt9f3",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10944",
+   "ctx": "sycl : Fix get mem error ( #28227 ) fix for unsupport zes API optimize the code adjust the log level rm unused head files Update docs/backend/SYCL.md Co-authored-by: Titaniumtown titaniumtown@proton.me fix the error to detect level zero SDK/dev package, stop build after detect the error update the message fix the build error when missed to install level zero dev package rm GGML_SYCL_DEV_DEBUG, mv ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10944",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-13T16:30:20.248Z",
+   "tier": "A",
+   "itemTs": "2026-09-13T16:14:07.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-13T16:30:20.248Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1j9v8y8",
    "pri": 30,
@@ -2786,59 +2816,6 @@
     "title": "DeepSeek V4.1 Flash - API Pricing & Providers | OpenRouter",
     "fetchedAt": "2026-09-10T19:01:04.265Z",
     "full": "full/f-cascade-1cslfbk.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-cascade-1nwnp36",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"deepseek v4.1\" — 3 independent sources in 4h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 4 hours, in 7 items (0.1% of the window — below the 15% background threshold).\n\n• openrouter — DeepSeek: DeepSeek V4.1 Flash\n• hackernews-firehose — DeepSeek v4.1 Flash\n• reddit — guide to using reasoning_effort on deepseek v4.1 flash\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open openrouter",
-     "href": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
-     "primary": true
-    },
-    {
-     "label": "Open hackernews-firehose",
-     "href": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-     "primary": false
-    },
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wcesmy/guide_to_using_reasoning_effort_on_deepseek_v41/",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-10T19:01:04.265Z",
-   "tier": "X",
-   "families": [
-    "openrouter",
-    "hackernews-firehose",
-    "reddit"
-   ],
-   "roots": [
-    "openrouter",
-    "hackernews",
-    "reddit"
-   ],
-   "sub": "cascade shape · openrouter, hackernews, reddit",
-   "extract": {
-    "ok": true,
-    "chars": 1491,
-    "lead": "Providers Providers Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Exacto (highest tool-calling accuracy). Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to",
-    "truncated": false,
-    "title": "DeepSeek V4.1 Flash - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-10T19:01:04.265Z",
-    "full": "full/f-cascade-1nwnp36.txt"
    },
    "clock": "daily",
    "questions": [
