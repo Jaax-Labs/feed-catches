@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-13T06:30:38.913Z",
+ "generatedAt": "2026-09-13T07:30:43.967Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1nfsfus",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10938",
+   "ctx": "vulkan: workaround NV queuesubmit driver bug ( #28830 ) There is a driver bug where two queues on the same VkDevice simultaneously submitting can break some internal synchronization. Until it's fixed, add a mutex around queuesubmit. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47138635 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64,",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10938",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-13T07:00:35.664Z",
+   "tier": "A",
+   "itemTs": "2026-09-13T06:46:56.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1833,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10938 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 13 Sep 06:45 b10938 f1e44dc This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: workaround NV queuesubmit driver bug ( #28830 ) There is a driver bug where two queues on the same VkDevice simultaneously submitting can break some internal synchronization. Until it's fixed, add a mutex around queuesubmit. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47138635 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
+    "truncated": false,
+    "title": "Release b10938 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-13T07:00:35.664Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1nfsfus.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1kxw0m1",
    "pri": 30,
@@ -745,38 +779,6 @@
     "full": "full/f-chinatalk-0iiv7f5.txt"
    },
    "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-openai-codex-0s7ca8l",
-   "pri": 30,
-   "kind": "note",
-   "title": "openai/codex rust-v0.155.0-alpha.3.10",
-   "ctx": "Release 0.155.0-alpha.3.10",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.10",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-openai-codex",
-   "detectedAt": "2026-09-11T15:01:22.883Z",
-   "tier": "A",
-   "itemTs": "2026-09-11T14:52:44.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 843,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . openai / codex Public Notifications You must be signed in to change notification settings Fork 19k Star 123k rust-v0.155.0-alpha.3.10 rust-v0.155.0-alpha.3.10 f5e8906 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags rust-v0.155.0-alpha.3.10 rust-v0.155.0-alpha.3.10 f5e8906 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags bc-openai tagged this 11 Sep 14:52 Release 0.155.0-alpha.3.10 Assets 2 Loading Uh oh! There was an error while loading. Please reload this page .",
-    "truncated": false,
-    "title": "Release rust-v0.155.0-alpha.3.10 · openai/codex · GitHub",
-    "fetchedAt": "2026-09-11T15:01:22.883Z",
-    "full": "full/f-gh-releases-openai-codex-0s7ca8l.txt"
-   },
-   "clock": "daily",
    "questions": []
   },
   {
@@ -2850,8 +2852,8 @@
    "daily": 49,
    "slow": 51
   },
-  "routed": 39,
-  "unrouted": 61,
+  "routed": 40,
+  "unrouted": 60,
   "unmappedLaneFamilies": []
  }
 }
