@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-09-13T05:01:09.650Z",
+ "generatedAt": "2026-09-13T06:00:57.688Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1kxw0m1",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10937",
+   "ctx": "opencl: apply the noshuffle row-alignment rule to q4_K, q5_K and q8_0, not just q6_K ( #28575 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47132459 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (V",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10937",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-13T05:30:36.624Z",
+   "tier": "A",
+   "itemTs": "2026-09-13T05:17:02.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-13T05:30:36.624Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1k3x7j4",
    "pri": 30,
@@ -2798,31 +2828,6 @@
    "detectedAt": "2026-09-10T19:01:04.265Z",
    "tier": "A",
    "itemTs": "2026-09-10T19:00:56.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0uomz1u",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10899",
-   "ctx": "vulkan: small M matrix optimizations for qwen ( #28457 ) vulkan: optimize m=1 mul_mat by swapping A/B vulkan: Improve small M perf Allow split_k with small M. Make small vs med tile selection (for coopmat2) depend on M, not just N. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46654773 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10899",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-10T19:01:04.265Z",
-   "tier": "A",
-   "itemTs": "2026-09-10T18:35:50.000Z",
    "sub": "github release",
    "clock": "daily",
    "questions": [
