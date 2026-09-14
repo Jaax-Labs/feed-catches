@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-14T10:30:35.492Z",
+ "generatedAt": "2026-09-14T11:31:32.383Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0qexfb5",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10955",
+   "ctx": "ggml-cpu : disable PCH and fix CACHE_LINE_SIZE ambiguity to fix heap corruption ( #28882 ) Disable the ggml-cpu precompiled header and remove the std::hardware_destructive_interference_size branch from CACHE_LINE_SIZE. The PCH force-includes ggml-impl.h before ops.h, which pulls in via / and defines __cpp_lib_hardware_interference_size. This makes the C++ kernels use CACHE_LINE_SIZE = 256 (hardwar",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10955",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-14T11:01:02.955Z",
+   "tier": "A",
+   "itemTs": "2026-09-14T10:45:12.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2635,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10955 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 14 Sep 10:42 b10955 2f53959 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml-cpu : disable PCH and fix CACHE_LINE_SIZE ambiguity to fix heap corruption ( #28882 ) Disable the ggml-cpu precompiled header and remove the std::hardware_destructive_interference_size branch from CACHE_LINE_SIZE. The PCH force-includes ggml-impl.h before ops.h, which pulls in via / and defines __cpp_lib_hardware_interference_size. This makes the C++ kernels use CACHE_LINE_SIZE = 256 (hardware destructive interference size) while the C work-buffer sizing code in ggml-cpu.c always uses the fallback 64. The mismatch undersizes the rope work buffer by (CACHE_LINE_SIZ",
+    "truncated": false,
+    "title": "Release b10955 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-14T11:01:02.955Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0qexfb5.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0qox104",
    "pri": 30,
@@ -2688,31 +2722,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1yxl2ug",
-   "pri": 45,
-   "kind": "note",
-   "title": "SEAR: Segment-Evidence-Aware Routing for Weak-to-Strong Multilingual Speech MCQ",
-   "ctx": "This paper describes our system for Task~2 of the second Multilingual Conversational Speech Language Model (MLC-SLM) Challenge. We adapt Qwen3-Omni-30B-A3B-Instruct with a segment-evidence-aware data and post-training pipeline. A language model converts timestamped ASR into coherent event spans, which are expanded by a boundary margin and cropped from the original recording. We then synthesize complementary semantic MCQs with Qwen3.6-27B and acoustic MCQs with Gemini~3.1 Flash-Lite, followed by ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.11355v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-11T02:31:06.187Z",
-   "tier": "B",
-   "itemTs": "2026-09-10T10:38:19.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2727,8 +2736,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 39,
-   "slow": 61
+   "daily": 40,
+   "slow": 60
   },
   "routed": 45,
   "unrouted": 55,
