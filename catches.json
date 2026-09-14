@@ -1,7 +1,71 @@
 {
- "generatedAt": "2026-09-14T17:30:44.333Z",
+ "generatedAt": "2026-09-14T19:31:32.385Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-15ikc9o",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp v0.4.1",
+   "ctx": "Overview llama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4, and Spark2.5 support, improves JSON schema handling, chat parsing, logging, and server child-process management, and updates ggml to v0.24.0. API changes Changed llama_sampler_chain_n() to return int32_t instead of int ( #28631 ). Added server_subproc and waiter for router child-process monitoring in server-common.h ( #28555 ). New models ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-14T18:30:36.080Z",
+   "tier": "A",
+   "itemTs": "2026-09-14T18:28:16.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-14T18:30:36.080Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0n2z1hi",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10969: ci : add ubuntu-cuda builds to release (#28186)",
+   "ctx": "release : add ubuntu-cuda build job (12.8/13.3, x64+arm64) Add GCC 14 for CUDA arm64 builds in CI Eplicit bash Install git for CCCL fetch Install git before we clone/checkout Match CI names for WIndows Whitelist llama.cpp repo to git Use $GITHUB_WORKSPACE Also ship dependent libs on Ubuntu Need NCCL additionally as it's pre-built available on Linux Avoid duplicate files in packaged cudart Copy NCC",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10969",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-14T18:00:37.245Z",
+   "tier": "A",
+   "itemTs": "2026-09-14T17:07:53.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1765,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10969 b10969 391fac1 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10969: ci : add ubuntu-cuda builds to release (#28186) b10969 391fac1 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode ORippler tagged this 14 Sep 17:07 * release : add ubuntu-cuda build job (12.8/13.3, x64+arm64) * Add GCC 14 for CUDA arm64 builds in CI * Eplicit bash * Install git for CCCL fetch * Ins",
+    "truncated": false,
+    "title": "Release b10969: ci : add ubuntu-cuda builds to release (#28186) · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-14T18:00:37.245Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0n2z1hi.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0qotvi5",
    "pri": 30,
@@ -1228,36 +1292,6 @@
    "tier": "A",
    "itemTs": "2026-09-13T01:09:20.000Z",
    "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-google-gemini-gemini-cli-16lhd62",
-   "pri": 30,
-   "kind": "note",
-   "title": "google-gemini/gemini-cli Release v0.61.0-nightly.20260913.g9c1b0a610",
-   "ctx": "Full Changelog : v0.61.0-nightly.20260912.g9c1b0a610...v0.61.0-nightly.20260913.g9c1b0a610",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260913.g9c1b0a610",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-google-gemini-gemini-cli",
-   "detectedAt": "2026-09-13T02:30:36.722Z",
-   "tier": "A",
-   "itemTs": "2026-09-13T01:29:27.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-13T02:30:36.722Z"
-   },
    "clock": "daily",
    "questions": [
     "model-switch"
@@ -2708,29 +2742,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-13exfza",
-   "pri": 45,
-   "kind": "note",
-   "title": "SWRouter: Similarity-Contractive Window Routing for Multi-Turn Large Language Model Conversations",
-   "ctx": "Large language models exhibit complementary strengths, motivating routing methods that dispatch each query to the most suitable model. Although existing routers are effective in single-turn settings, they do not directly transfer to multi-turn dialogue, where routing performance critically depends on how historical context is segmented, retained, and incorporated into the current prompt. This introduces two fundamental challenges: preventing information loss and information confusion during cont",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.11414v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-11T02:31:06.187Z",
-   "tier": "B",
-   "itemTs": "2026-09-10T11:45:55.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2745,11 +2756,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 42,
-   "slow": 58
+   "daily": 43,
+   "slow": 57
   },
-  "routed": 47,
-  "unrouted": 53,
+  "routed": 48,
+  "unrouted": 52,
   "unmappedLaneFamilies": []
  }
 }
