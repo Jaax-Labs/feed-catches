@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-09-14T13:00:40.034Z",
+ "generatedAt": "2026-09-14T15:00:46.434Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0pkym88",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10956",
+   "ctx": "sycl: rfc: Use radix select for top_k ( #28670 ) sycl: GPU-resident TOP_K for large k, parallelised over the device The SYCL backend refused GGML_OP_TOP_K above k = 32 and let it fall back to the CPU, a backend round-trip per call. The limit was not conservatism: the scan-merge kernels keep (split_block + 1) * k candidate (value, index) pairs in SLM, so at k = 128 a work-group already needs 132 KB",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10956",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-14T14:00:34.841Z",
+   "tier": "A",
+   "itemTs": "2026-09-14T14:00:27.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": false,
+    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
+    "fetchedAt": "2026-09-14T14:00:34.841Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0qexfb5",
    "pri": 30,
@@ -2699,29 +2729,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1ymzhg5",
-   "pri": 45,
-   "kind": "note",
-   "title": "ReGround: Grounding Reviewer Comments in Multimodal Evidence",
-   "ctx": "Reviewer comments naturally relate to specific parts of the reviewed paper, yet grounding these comments to the underlying evidence is difficult due to long multimodal documents. Existing benchmarks do not capture this setting and largely focus on explicit, information-seeking queries. We introduce ReGround, a large-scale dataset for reviewer comment grounding that links 10,267 reviewer comments to 16,274 evidence in the original anonymous submission of 3,656 papers. We build on a simple observa",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.11460v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-11T02:31:06.187Z",
-   "tier": "B",
-   "itemTs": "2026-09-10T12:32:58.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2736,11 +2743,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 40,
-   "slow": 60
+   "daily": 41,
+   "slow": 59
   },
-  "routed": 45,
-  "unrouted": 55,
+  "routed": 46,
+  "unrouted": 54,
   "unmappedLaneFamilies": []
  }
 }
