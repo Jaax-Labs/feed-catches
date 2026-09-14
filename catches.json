@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-09-14T15:00:46.434Z",
+ "generatedAt": "2026-09-14T16:30:52.796Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0qotvi5",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10964",
+   "ctx": "llama.cpp : bump version to 0.4.1 ( #28900 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47376843 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0)",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10964",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-14T15:31:11.542Z",
+   "tier": "A",
+   "itemTs": "2026-09-14T15:31:11.000Z",
+   "sub": "github release",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0pkym88",
    "pri": 30,
@@ -2706,29 +2731,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1eo267y",
-   "pri": 45,
-   "kind": "note",
-   "title": "Cross-Lingual Clinical Annotation Projection as Constrained Text Generation: A Six-Language Study",
-   "ctx": "Background: To determine whether cross-lingual clinical annotation projection can be formulated as a text-preserving, document-level generative task that produces verifiable character-level annotations for multilingual clinical corpus construction, and to characterize its robustness and computational trade-offs relative to candidate-based projection pipelines. Methods: We developed a constrained LLM projection workflow that inserts entity tags directly into immutable target-language text, follow",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.11450v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-11T02:31:06.187Z",
-   "tier": "B",
-   "itemTs": "2026-09-10T12:17:52.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2743,11 +2745,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 41,
-   "slow": 59
+   "daily": 42,
+   "slow": 58
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 47,
+  "unrouted": 53,
   "unmappedLaneFamilies": []
  }
 }
