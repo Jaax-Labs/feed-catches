@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-14T21:30:47.135Z",
+ "generatedAt": "2026-09-14T23:30:46.155Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1tyf0ox",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.271",
+   "ctx": "What's changed Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or /fast typed in the session applies where your organization allows it Added mouse support to the /config panel in fullscreen mode: the wheel scrolls the settings list, a click on a setting's value changes it, and the row under the pointer is highlighted Added claude self-ho",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-14T22:30:23.757Z",
+   "tier": "A",
+   "itemTs": "2026-09-14T22:12:54.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 16072,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.2k Star 145k v2.1.271 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 14 Sep 22:12 v2.1.271 f2ccbe2 What's changed Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or /fast typed in the session applies where your organization allows it Added mouse support to the /config panel in fullscreen mode: the wheel scrolls the settings list, a click on a setting's value changes it, and the row under the pointer is highlighted Added claude self-hosted-runner --drain-marker-file : when that file exists at a SIGTERM drain, the runner reports its exit to the server as a host drain (telemetry only) Added per-command allowed_domains to Bash, PowerShell and Monitor in auto mode with sandboxing: the hosts a command needs are reviewed with it and opened for it alone; other hosts ",
+    "truncated": false,
+    "title": "Release v2.1.271 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-14T22:30:23.757Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1tyf0ox.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0nwup2g",
    "pri": 30,
@@ -2730,29 +2764,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0o9x2kr",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Training-Free, Alignment-Free Approach to Corporate Intelligence: Application to SEC Filings",
-   "ctx": "High-dimensional dense text embeddings and large language models face real obstacles in financial-disclosure analysis: context-window limits, hallucination risk, high computational cost, and the arbitrary rotation of vector spaces across independently trained models. We present a training-free, alignment-free framework for corporate intelligence built on deterministic sparse seed vectors. Hashing word strings into a fixed high-dimensional basis places all documents and all temporal epochs in a c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.11620v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-11T02:31:06.187Z",
-   "tier": "B",
-   "itemTs": "2026-09-10T14:32:35.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2767,11 +2778,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 44,
-   "slow": 56
+   "daily": 45,
+   "slow": 55
   },
-  "routed": 49,
-  "unrouted": 51,
+  "routed": 50,
+  "unrouted": 50,
   "unmappedLaneFamilies": []
  }
 }
