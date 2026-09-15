@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-15T23:00:49.904Z",
+ "generatedAt": "2026-09-15T23:30:31.040Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1k3c2xi",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10990",
+   "ctx": "hex-cpy: use dma if src and dst are contiguous ( #28906 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47770889 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10990",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-15T23:30:22.001Z",
+   "tier": "A",
+   "itemTs": "2026-09-15T23:18:20.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1789,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10990 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 15 Sep 23:15 b10990 72b590d This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . hex-cpy: use dma if src and dst are contiguous ( #28906 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47770889 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x",
+    "truncated": false,
+    "title": "Release b10990 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-15T23:30:22.001Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1k3c2xi.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1npa2g4",
    "pri": 30,
@@ -2622,36 +2656,6 @@
     "title": "Release b10947 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-09-13T19:00:53.031Z",
     "full": "full/f-gh-releases-ggml-org-llama-cpp-1kxsv42.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1l7sgt1",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10946",
-   "ctx": "ggml-cpu(s390x): guard VXE-only repack helpers ( #28775 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47190488 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10946",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-13T18:30:25.428Z",
-   "tier": "A",
-   "itemTs": "2026-09-13T18:21:45.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-13T18:30:25.428Z"
    },
    "clock": "daily",
    "questions": [
