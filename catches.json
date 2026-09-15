@@ -1,7 +1,42 @@
 {
- "generatedAt": "2026-09-15T20:01:23.430Z",
+ "generatedAt": "2026-09-15T21:01:10.177Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1teftaz",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.273",
+   "ctx": "What's changed Added x-claude-code-request-class , x-claude-code-agent-type , x-claude-code-prev-tool-durations , x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gateways; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at /mcp Added forking a session st",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-15T20:30:30.869Z",
+   "tier": "A",
+   "itemTs": "2026-09-15T20:23:03.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 11099,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.2k Star 145k v2.1.273 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 15 Sep 20:23 v2.1.273 aad35ba What's changed Added x-claude-code-request-class , x-claude-code-agent-type , x-claude-code-prev-tool-durations , x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gateways; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at /mcp Added forking a session started with claude --remote-control or /remote-control from the Claude app; the fork runs as a background session on your computer Fixed Bash commands the permission checker cannot fully analyze skipping the prompt under permissions.blockReadsOutsideWorkingDirectories , and a subshell hiding a dangerous rm in bypass mode Fixed ski",
+    "truncated": false,
+    "title": "Release v2.1.273 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-15T20:30:30.869Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1teftaz.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1nz9o53",
    "pri": 30,
@@ -2613,40 +2648,6 @@
     "ok": false,
     "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
     "fetchedAt": "2026-09-13T16:30:20.248Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1j9v8y8",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10941",
-   "ctx": "tests : reduce FA test sizes ( #28842 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47152933 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubun",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10941",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-13T11:00:24.542Z",
-   "tier": "A",
-   "itemTs": "2026-09-13T10:36:00.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1640,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10941 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 13 Sep 10:34 b10941 4a89937 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . tests : reduce FA test sizes ( #28842 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47152933 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windo",
-    "truncated": false,
-    "title": "Release b10941 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-13T11:00:24.542Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1j9v8y8.txt"
    },
    "clock": "daily",
    "questions": [
