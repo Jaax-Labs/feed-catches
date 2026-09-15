@@ -1,7 +1,109 @@
 {
- "generatedAt": "2026-09-15T13:00:51.406Z",
+ "generatedAt": "2026-09-15T14:30:36.993Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1kdeu4g",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10985",
+   "ctx": "rpc : hash-cache only weights ( #28789 ) rpc : hash-cache only weights ggml_backend_rpc_buffer_set_tensor and ggml_backend_rpc_set_tensor_async hashed every transfer above HASH_THRESHOLD and let rpc-server -c serve it from its file cache. The cache is meant for weights, but the activations ggml_backend_sched copies between backends took the same path: with a two-node split of Qwen3.8-Flash-Next ev",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10985",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-15T14:30:22.852Z",
+   "tier": "A",
+   "itemTs": "2026-09-15T14:25:47.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 3266,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10985 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 15 Sep 14:19 b10985 7609846 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . rpc : hash-cache only weights ( #28789 ) rpc : hash-cache only weights ggml_backend_rpc_buffer_set_tensor and ggml_backend_rpc_set_tensor_async hashed every transfer above HASH_THRESHOLD and let rpc-server -c serve it from its file cache. The cache is meant for weights, but the activations ggml_backend_sched copies between backends took the same path: with a two-node split of Qwen3.8-Flash-Next every prefill ubatch above 10 MB was hashed, written to the worker's cache directory (1.4 TB after a day) and later served from there. Use the hash path only for tensors in buff",
+    "truncated": false,
+    "title": "Release b10985 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-15T14:30:22.852Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1kdeu4g.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1kneftf",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10984",
+   "ctx": "cuda: support row-contiguous SUM_ROWS ( #26308 ) cuda: support row-contiguous SUM_ROWS organize the code and add GGML_OP_MEAN to support row-contiguous tensors using the same shared kernel, and add a test to MEAN permute/slice Keep original comments and add if/else branch Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47632927 macOS/iOS: macOS Apple Sil",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10984",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-15T14:00:25.475Z",
+   "tier": "A",
+   "itemTs": "2026-09-15T13:46:46.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2004,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10984 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 15 Sep 13:41 b10984 5431581 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . cuda: support row-contiguous SUM_ROWS ( #26308 ) cuda: support row-contiguous SUM_ROWS organize the code and add GGML_OP_MEAN to support row-contiguous tensors using the same shared kernel, and add a test to MEAN permute/slice Keep original comments and add if/else branch Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47632927 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
+    "truncated": false,
+    "title": "Release b10984 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-15T14:00:25.475Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1kneftf.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1m1cgaa",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10983",
+   "ctx": "models : move build_arch_graph() after graph() template specialization ( #28934 ) Move build_arch_graph()'s function definitions after the graph and graph template specializations have been explicitly defined. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47624834 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISA",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10983",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-15T13:30:25.039Z",
+   "tier": "A",
+   "itemTs": "2026-09-15T13:13:38.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1941,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10983 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 15 Sep 13:09 b10983 9e71716 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . models : move build_arch_graph() after graph() template specialization ( #28934 ) Move build_arch_graph()'s function definitions after the graph and graph template specializations have been explicitly defined. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47624834 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8",
+    "truncated": false,
+    "title": "Release b10983 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-15T13:30:25.039Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1m1cgaa.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1mbc1z9",
    "pri": 30,
@@ -2545,91 +2647,17 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1k3x7j4",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10934",
-   "ctx": "common : implement common_schema internal representation for JSON schemas ( #28736 ) common : implement common_schema types common : implement a json schema optimizer common : reduce optimizations common : refactor json-schema-to-grammar to use common_schema common : use common_trie common/schema : implement type/kind resolution cont : cleanup cont : remove common_chat_tool_parameters cont : simpl",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10934",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-13T02:30:36.722Z",
-   "tier": "A",
-   "itemTs": "2026-09-13T00:18:21.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1kdwt83",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10935",
-   "ctx": "common: add LOG_JSON macro to log structured data ( #28586 ) add LOG_JSON macro fit: add demo LOG_JSON Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47112879 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10935",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-13T02:30:36.722Z",
-   "tier": "A",
-   "itemTs": "2026-09-13T00:41:06.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1knwex2",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10936",
-   "ctx": "chat : improve parsing of complex types in qwen3-coder ( #28742 ) chat : improve schema support in qwen3 parser cont : clean up grammar a bit Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47115321 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubunt",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10936",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-13T02:30:36.722Z",
-   "tier": "A",
-   "itemTs": "2026-09-13T01:09:20.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
-  "lastClickAt": 1788712502928,
-  "total": 4,
+  "lastClickAt": 1789479054548,
+  "total": 5,
   "byId": {
    "f-test-1": 1,
    "f-glm53": 1,
    "test": 1,
-   "2026-09-06:wiki-message-board:0": 1
+   "2026-09-06:wiki-message-board:0": 1,
+   "2026-09-08:molecular-retrieval:0": 1
   }
  },
  "editorial": {
