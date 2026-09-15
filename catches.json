@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-15T18:30:32.989Z",
+ "generatedAt": "2026-09-15T19:00:47.292Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1nz9o53",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10988",
+   "ctx": "opencl: choose the MoE expert matmul by batch size for speculative decoding/MTP ( #27637 ) opencl: gate the prebuilt q4_0 MoE GEMM on routing count opencl: stop writing zeros into the padded MoE activation slots opencl: rephrase claude's comments Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47713087 macOS/iOS",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10988",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-15T19:00:31.247Z",
+   "tier": "A",
+   "itemTs": "2026-09-15T18:53:55.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2021,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10988 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 15 Sep 18:50 b10988 9f31776 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . opencl: choose the MoE expert matmul by batch size for speculative decoding/MTP ( #27637 ) opencl: gate the prebuilt q4_0 MoE GEMM on routing count opencl: stop writing zeros into the padded MoE activation slots opencl: rephrase claude's comments Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47713087 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x ",
+    "truncated": false,
+    "title": "Release b10988 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-15T19:00:31.247Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1nz9o53.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-deepmind-blog-1w9de8h",
    "pri": 22,
@@ -2613,40 +2647,6 @@
     "title": "Release b10941 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-09-13T11:00:24.542Z",
     "full": "full/f-gh-releases-ggml-org-llama-cpp-1j9v8y8.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1nfsfus",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10938",
-   "ctx": "vulkan: workaround NV queuesubmit driver bug ( #28830 ) There is a driver bug where two queues on the same VkDevice simultaneously submitting can break some internal synchronization. Until it's fixed, add a mutex around queuesubmit. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47138635 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64,",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10938",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-13T07:00:35.664Z",
-   "tier": "A",
-   "itemTs": "2026-09-13T06:46:56.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1833,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10938 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 13 Sep 06:45 b10938 f1e44dc This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: workaround NV queuesubmit driver bug ( #28830 ) There is a driver bug where two queues on the same VkDevice simultaneously submitting can break some internal synchronization. Until it's fixed, add a mutex around queuesubmit. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47138635 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
-    "truncated": false,
-    "title": "Release b10938 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-13T07:00:35.664Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1nfsfus.txt"
    },
    "clock": "daily",
    "questions": [
