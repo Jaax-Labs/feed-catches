@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-16T16:31:09.349Z",
+ "generatedAt": "2026-09-16T17:00:35.266Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0sgnpba",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11005",
+   "ctx": "hexagon: accept the zeroed rope probe in supports_op ( #28995 ) llama probes weight placement with a rope where all params are 0, so rejecting n_dims == 0 or freq_base == 0 puts rope_freqs on the CPU. That splits the decode graph at every full-attention layer (gemma-4-E2B: 5 splits instead of 2). Assisted-by: Claude Opus 5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11005",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T17:00:28.145Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T16:53:18.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2056,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b11005 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 16:49 b11005 82324fc This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . hexagon: accept the zeroed rope probe in supports_op ( #28995 ) llama probes weight placement with a rope where all params are 0, so rejecting n_dims == 0 or freq_base == 0 puts rope_freqs on the CPU. That splits the decode graph at every full-attention layer (gemma-4-E2B: 5 splits instead of 2). Assisted-by: Claude Opus 5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47971289 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CP",
+    "truncated": false,
+    "title": "Release b11005 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T17:00:28.145Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0sgnpba.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-0pqf4ax",
    "pri": 33,
@@ -2646,31 +2680,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-05twj7a",
-   "pri": 45,
-   "kind": "note",
-   "title": "Discovery Foundation Models: Toward Open-Ended Discovery Intelligence",
-   "ctx": "Foundation models have progressed from learning and reasoning over existing knowledge, to increasingly learning through action, tool use, and outcome feedback. We argue that the next frontier is a further transition: from solving and acting within problems specified by humans to participating in the process by which new problems, representations, explanations, and knowledge are created. We refer to this capability as Discovery Intelligence. We formulate Discovery Foundation Models (DFMs) as gene",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15973v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T17:56:00.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2686,8 +2695,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 27,
-   "slow": 73
+   "daily": 28,
+   "slow": 72
   },
   "routed": 48,
   "unrouted": 52,
