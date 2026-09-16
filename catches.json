@@ -1,7 +1,132 @@
 {
- "generatedAt": "2026-09-16T14:00:43.739Z",
+ "generatedAt": "2026-09-16T16:31:09.349Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-0pqf4ax",
+   "pri": 33,
+   "kind": "note",
+   "title": "Issues with Google Play subscriptions",
+   "ctx": "Sep 16 , 16:18 UTC Identified - We are aware of an issue affecting users interacting with subscriptions via Google Play, such as when creating a new subscription on Android devices. Google has confirmed an issue with Google Play, and we are awaiting their further updates.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/t8fpw9vcshl9",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-09-16T16:30:42.955Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T16:18:10.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": []
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0t0mwp8",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11003",
+   "ctx": "model : add support for HrmTextForCausalLM (DFM Mimir 1B) ( #27625 ) model : add support for HrmTextForCausalLM (DFM Mimir 1B) HRM-Text runs two transformer stacks (low, high) in an alternating cycle over the same token stream. The low-cycle state z_l starts from a learned [n_embd] tensor and is broadcast over positions. conversion: new writer for the fused gqkv projection (order gate,q,k,v) remap",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11003",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T15:30:27.746Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T15:30:27.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 6666,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b11003 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 15:27 b11003 7d6f5d0 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . model : add support for HrmTextForCausalLM (DFM Mimir 1B) ( #27625 ) model : add support for HrmTextForCausalLM (DFM Mimir 1B) HRM-Text runs two transformer stacks (low, high) in an alternating cycle over the same token stream. The low-cycle state z_l starts from a learned [n_embd] tensor and is broadcast over positions. conversion: new writer for the fused gqkv projection (order gate,q,k,v) remapped to llama.cpp q/k/v plus a separate sigmoid gate tensor loader: block_count = lps * h_cycles * (l_cycles + 1) cache slots aliasing 2*lps physical blocks via struct copies g",
+    "truncated": false,
+    "title": "Release b11003 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T15:30:27.746Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0t0mwp8.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0tamie7",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11002",
+   "ctx": "CUDA/HIP: improve access patterns in im2col ( #28013 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47937267 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11002",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T15:00:28.237Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T14:41:34.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1786,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b11002 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 14:38 b11002 83078fe This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . CUDA/HIP: improve access patterns in im2col ( #28013 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47937267 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 ",
+    "truncated": false,
+    "title": "Release b11002 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T15:00:28.237Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0tamie7.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0tkm436",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11001",
+   "ctx": "spacemit : fix wrong transpose function for int16 data ( #25161 ) The sizeof(int16_t) branch in permute_transpose_impl calls rvv_transposed_s32_mn_to_nm instead of rvv_transposed_s16_mn_to_nm . This is a copy-paste bug from the sizeof(int32_t) branch above it. The s32 function uses 32-bit segment load/stores ( vssseg8e32.v ) on 16-bit data, reading 2x bytes per element and producing completely wro",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11001",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T14:30:26.742Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T14:05:10.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2349,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b11001 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 14:01 b11001 f266648 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . spacemit : fix wrong transpose function for int16 data ( #25161 ) The sizeof(int16_t) branch in permute_transpose_impl calls rvv_transposed_s32_mn_to_nm instead of rvv_transposed_s16_mn_to_nm . This is a copy-paste bug from the sizeof(int32_t) branch above it. The s32 function uses 32-bit segment load/stores ( vssseg8e32.v ) on 16-bit data, reading 2x bytes per element and producing completely wrong transposition results -- 14 out of 16 positions are corrupted for a 4x4 int16 matrix. The correct function rvv_transposed_s16_mn_to_nm already exists (line 390) and is used",
+    "truncated": false,
+    "title": "Release b11001 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T14:30:26.742Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0tkm436.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0tulps5",
    "pri": 30,
@@ -1853,40 +1978,6 @@
    ]
   },
   {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1npa2g4",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10989",
-   "ctx": "HIP: Enable AllReduce for ROCm ( #27825 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47762387 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CU",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10989",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-15T22:30:42.226Z",
-   "tier": "A",
-   "itemTs": "2026-09-15T22:27:43.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1773,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10989 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 15 Sep 22:24 b10989 38a5b42 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . HIP: Enable AllReduce for ROCm ( #27825 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47762387 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) U",
-    "truncated": false,
-    "title": "Release b10989 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-15T22:30:42.226Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1npa2g4.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
    "id": "f-gh-releases-anthropics-claude-code-1teftaz",
    "pri": 30,
    "kind": "note",
@@ -2580,75 +2671,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0c1c4bd",
-   "pri": 45,
-   "kind": "note",
-   "title": "Inoculation Midtraining with Learned Neologisms",
-   "ctx": "Large language models (LLMs) often learn both desirable and undesirable properties during post-training. We study whether midtraining, an earlier training stage, can shape which of these properties later generalise. We introduce Inoculation Midtraining, a technique that teaches a base model that unsafe behaviour belongs to a designated context, as indicated by the neologism (a new token) introduced during midtraining, and then post-trains the model on unsafe data within that context. We then eva",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15886v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T17:12:52.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0ckf041",
-   "pri": 45,
-   "kind": "note",
-   "title": "Bellman Policy Optimization",
-   "ctx": "Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models (LLMs). We introduce Bellman Policy Optimization (BPO), a critic-free method derived from Policy Mirror Descent (PMD). For autoregressive generation with terminal rewards, BPO uses the Bellman equations to reformulate PMD as a trajectory-level objective. The reformulation avoids estimating state values at intermediate states. We prove that it has the same unique optimal solution as ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15987v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T17:59:47.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0dg2fv9",
-   "pri": 45,
-   "kind": "note",
-   "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
-   "ctx": "As language models become more capable, long-term collaboration in learning, reasoning, and decision-making calls for a deeper understanding of the people they serve. Yet training such human-aware language models faces a fundamental supervision gap because current datasets for LLM assistant training contain few if any well-informed responses explicitly grounded in users' unspoken beliefs and goals. Scaling such supervision is inherently constrained, as users' underlying states are not directly o",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15972v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T17:55:58.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2664,11 +2686,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 24,
-   "slow": 76
+   "daily": 27,
+   "slow": 73
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 48,
+  "unrouted": 52,
   "unmappedLaneFamilies": []
  }
 }
