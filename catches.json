@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-16T10:00:53.029Z",
+ "generatedAt": "2026-09-16T11:00:35.989Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-chinatalk-1z0vsig",
+   "pri": 60,
+   "kind": "note",
+   "title": "Can Taiwan Build Drone? Part 2",
+   "ctx": "This is Part 2 of our Taiwan drone series! Ethan Kessler was a 2025-2026 Boren Graduate Fellow for Mandarin Chinese in Taiwan. Before that, he was a graduate student and think tank researcher focusing on cross-Strait relations, critical technology, and defense acquisition policy. ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or pai",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/can-taiwan-build-drone-part-2",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-09-16T10:30:24.937Z",
+   "tier": "D",
+   "itemTs": "2026-09-16T10:03:02.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 53949,
+    "lead": "This is Part 2 of our Taiwan drone series! Ethan Kessler was a 2025-2026 Boren Graduate Fellow for Mandarin Chinese in Taiwan. Before that, he was a graduate student and think tank researcher focusing on cross-Strait relations, critical technology, and defense acquisition policy. ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. The Politics of Industrial Policy Two political dynamics help explain why the ability of Taiwan’s drone industrial policy to grow and innovate at a pace needed to deliver advanced military capabilities remains uncertain. 1. The “pork barrel” dynamic makes it difficult to know which industrial policy initiatives will succeed or fail at early stages. Though Taiwan’s commitment in the past three years to grow domestic drone manufacturing capabilities is largely because President Tsai and now Lai have recognized drones’ relevance for national security, defense industry projects are still a form of domestic government spending. Taiwanese politicians at both national and lower levels thus see defense industrial spending through the lens of local development and winning elections. I",
+    "truncated": false,
+    "fetchedAt": "2026-09-16T10:30:24.937Z",
+    "full": "full/f-chinatalk-1z0vsig.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1kxaw0f",
    "pri": 30,
@@ -2597,40 +2629,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0owhl9x",
-   "pri": 18,
-   "kind": "note",
-   "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
-   "ctx": "Language models can produce plausible short proofs, but may still be unreliable on long-horizon research problems, where progress depends on a sequence of uncertain and interdependent decisions. We introduce Stellar Colosseum, a model-agnostic harness for allocating inference across research in mathematics and theoretical computer science. Colosseum explores alternative strategies before proof construction, uses a readiness gate to decide when a route is mature enough to decompose, represents th",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15983v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T17:58:55.000Z",
-   "sub": "arXiv cs.CL · introduces \"Agent Harness\"",
-   "extract": {
-    "ok": true,
-    "chars": 4767,
-    "lead": "Computer Science > Artificial Intelligence arXiv:2609.15983v1 (cs) [Submitted on 14 Sep 2026] Title: Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science Authors: Honghao Lin , David P. Woodruff , Yuan Deng , Jieming Mao , Song Zuo , Vahab Mirrokni View a PDF of the paper titled Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science, by Honghao Lin and 5 other authors View PDF HTML (experimental) Abstract: Language models can produce plausible short proofs, but may still be unreliable on long-horizon research problems, where progress depends on a sequence of uncertain and interdependent decisions. We introduce Stellar Colosseum, a model-agnostic harness for allocating inference across research in mathematics and theoretical computer science. Colosseum explores alternative strategies before proof construction, uses a readiness gate to decide when a route is mature enough to decompose, represents the proof plan as interdependent section-level subproblems, and routes verifier findings back to the affected part of the argument. Across these stages, it generates candid",
-    "truncated": false,
-    "title": "[2609.15983v1] Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
-    "fetchedAt": "2026-09-15T04:30:32.903Z",
-    "full": "full/f-arxiv-cs.CL-0owhl9x.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2646,11 +2644,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 22,
-   "slow": 78
+   "slow": 78,
+   "daily": 22
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 45,
+  "unrouted": 55,
   "unmappedLaneFamilies": []
  }
 }
