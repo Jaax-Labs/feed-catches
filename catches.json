@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-16T11:30:46.115Z",
+ "generatedAt": "2026-09-16T12:30:55.294Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1mb8wha",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10998",
+   "ctx": "qwen4exp: add hc ops ( #28901 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47897353 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 li",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10998",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T12:00:29.533Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T11:51:02.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1763,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b10998 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 11:47 b10998 37b53fd This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . qwen4exp: add hc ops ( #28901 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47897353 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+    "truncated": false,
+    "title": "Release b10998 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T12:00:29.533Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1mb8wha.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-chinatalk-1z0vsig",
    "pri": 60,
@@ -2604,31 +2638,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0haboly",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
-   "ctx": "Skills extend an LLM agent beyond its parametric knowledge, and the gain they promise rests on picking the right one. Deployed harnesses route by preloading every skill's metadata into the context, which disperses the agent's attention and caps the library size. Retrieval pipelines move the selection out of the context, but also out of the agent's capability. We show that the frozen agent LLM already carries the routing signal in its own forward passes, and that two linear maps suffice to read i",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15982v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T17:58:27.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2644,8 +2653,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 78,
-   "daily": 22
+   "daily": 23,
+   "slow": 77
   },
   "routed": 45,
   "unrouted": 55,
