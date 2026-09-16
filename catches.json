@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-16T19:30:51.278Z",
+ "generatedAt": "2026-09-16T20:31:20.834Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0vsixmy",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11009",
+   "ctx": "TP: fix split state and granularity for fused QKV gemma4, qwen35 ( #28965 ) model: calculate split states for attn_qkv from n_head * n_embd_head_k required for gemma4 with --fuse-qkv, where n_embd is 5376 but Q is 8192. model: handle fused full attention layers for qwen35/qwen35moe model: add TODO: [TAG_SPLIT_QGATE_QWEN] Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cp",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11009",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T20:00:54.329Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T19:41:12.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2054,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b11009 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 19:37 b11009 fb27a52 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . TP: fix split state and granularity for fused QKV gemma4, qwen35 ( #28965 ) model: calculate split states for attn_qkv from n_head * n_embd_head_k required for gemma4 with --fuse-qkv, where n_embd is 5376 but Q is 8192. model: handle fused full attention layers for qwen35/qwen35moe model: add TODO: [TAG_SPLIT_QGATE_QWEN] Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48008214 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU)",
+    "truncated": false,
+    "title": "Release b11009 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T20:00:54.329Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0vsixmy.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0rwohxc",
    "pri": 30,
@@ -257,40 +291,6 @@
     "title": "Release b11000 · ggml-org/llama.cpp · GitHub",
     "fetchedAt": "2026-09-16T13:30:30.131Z",
     "full": "full/f-gh-releases-ggml-org-llama-cpp-0tulps5.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1ml8i69",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10999",
-   "ctx": "Change max context length for auto-fitting with unified KV ( #28849 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47906437 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10999",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-16T13:00:25.672Z",
-   "tier": "A",
-   "itemTs": "2026-09-16T12:35:06.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1894,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b10999 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 12:31 b10999 b04d4e5 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Change max context length for auto-fitting with unified KV ( #28849 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47906437 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVI",
-    "truncated": false,
-    "title": "Release b10999 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-16T13:00:25.672Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ml8i69.txt"
    },
    "clock": "daily",
    "questions": [
