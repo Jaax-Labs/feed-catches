@@ -1,7 +1,245 @@
 {
- "generatedAt": "2026-09-16T02:00:57.452Z",
+ "generatedAt": "2026-09-16T02:30:39.668Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-04gbbmo",
+   "pri": 45,
+   "kind": "note",
+   "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+   "ctx": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-experts (MoE) architectures, together with depth, width, hybrid, and expert pruning methods. After post-pruning supervised fine-tuning (SFT), we evaluate more than 19,500 instances from three smart-ho",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17515v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T17:51:48.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-08ca01u",
+   "pri": 45,
+   "kind": "note",
+   "title": "Verifiable Social Reasoning for LLM Assistants",
+   "ctx": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17496v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T17:37:29.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0b4sikd",
+   "pri": 45,
+   "kind": "note",
+   "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+   "ctx": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17523v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T17:55:28.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0nxrk3p",
+   "pri": 45,
+   "kind": "note",
+   "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+   "ctx": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-C",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17516v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T17:52:24.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-12unge9",
+   "pri": 45,
+   "kind": "note",
+   "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
+   "ctx": "This paper addresses the challenge of making complex healthcare information more accessible through automated Plain Language Adaptation (PLA). PLA aims to simplify technical medical language, bridging a critical gap between the complexity of healthcare texts and patients' reading comprehension. Recent advances in Large Language Models (LLMs), such as GPT and BART, have opened new possibilities for PLA, especially in zero-shot and few-shot learning contexts where task-specific data is limited. In",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17398v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T16:33:38.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-1a10gv9",
+   "pri": 45,
+   "kind": "note",
+   "title": "Large Language Models Develop Belief State Geometry In-Context",
+   "ctx": "Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representations that support ICL remain poorly understood. We consider such representations in a controlled setting: prompting LLMs with data emitted from hidden Markov models (HMMs) and probing for the corresponding belief state -- the posterior distribution over the HMM's hidden states given the observed token history. Across six open-source LLMs prompted with data from",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17376v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T16:17:59.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1g9epvm",
+   "pri": 45,
+   "kind": "note",
+   "title": "CareMirror: Bringing Caregiver Wellbeing into the Dementia Care Ecosystem",
+   "ctx": "Family caregivers of people living with dementia shoulder emotional and practical responsibilities, yet their own wellbeing often remains peripheral to dementia care. We built CareMirror, an envisioned caregiver wellbeing ecosystem with interconnected caregiver- and clinician-facing interfaces for longitudinal reflection, personalized support, and caregiver-controlled sharing with clinical care. We conducted semi-structured interviews with 14 caregivers, using CareMirror as a design probe to exa",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17434v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T16:43:17.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1n19pct",
+   "pri": 45,
+   "kind": "note",
+   "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
+   "ctx": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together. However, most prior methods either operate on single-codebook codecs or apply a single compression step before multi-layer quantization. This forces all quantization layers to share the same segmenta",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17509v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T17:46:51.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1n73x92",
+   "pri": 45,
+   "kind": "note",
+   "title": "ECHO: A Matched-Contrast Benchmark for Context-Sensitive Turn-Taking in Full-Duplex Dialogue",
+   "ctx": "Full-duplex spoken dialogue systems must distinguish interruptions that require yielding the floor from backchannels that permit continued speaking. Existing benchmarks typically evaluate events independently and may therefore reward fixed action preferences rather than context-sensitive decisions. We introduce ECHO, a paired diagnostic benchmark for Chinese full-duplex turn-taking. ECHO pairs examples with the same overlap transcript but contrasting preceding multi-turn dialogue contexts, with ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17360v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T15:58:48.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1nvkmjl",
+   "pri": 45,
+   "kind": "note",
+   "title": "Right Tool, Right Job: Native-Language Evaluation, Tokenizer Sensitivity, and Methodological Findings from a French-Only BabyLM",
+   "ctx": "We submit MéTRON-FR, a 125M GPT-2 pretrained on 92.47M words of French, to the BabyLM 2026 Strict track. It scores 85.97 +/- 0.17% on QFrBLiMP (a native Quebec-French benchmark of grammatical minimal pairs) and 62.80% on the BabyLM-weighted leaderboard. A cross-lingual GLUE (General Language Understanding Evaluation) protocol that combines French task-data translation with rank-16 LoRA (Low-Rank Adaptation) produces a sharp task-type gradient: relational tasks gain measurably, while world-knowle",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.17435v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-16T02:30:31.521Z",
+   "tier": "B",
+   "itemTs": "2026-09-15T16:43:32.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-04jzd61",
    "pri": 45,
@@ -2347,296 +2585,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0nwup2g",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10970",
-   "ctx": "HIP: fattn-mma: use fp32 accumulation on MFMA devices ( #28576 ) use fp32 accumulators in fattn-mma on CDNA Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47450174 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) U",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10970",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-14T21:00:28.429Z",
-   "tier": "A",
-   "itemTs": "2026-09-14T20:56:00.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1839,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10970 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 14 Sep 20:53 b10970 bfdc321 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . HIP: fattn-mma: use fp32 accumulation on MFMA devices ( #28576 ) use fp32 accumulators in fattn-mma on CDNA Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47450174 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubu",
-    "truncated": false,
-    "title": "Release b10970 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-14T21:00:28.429Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0nwup2g.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-15ikc9o",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp v0.4.1",
-   "ctx": "Overview llama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4, and Spark2.5 support, improves JSON schema handling, chat parsing, logging, and server child-process management, and updates ggml to v0.24.0. API changes Changed llama_sampler_chain_n() to return int32_t instead of int ( #28631 ). Added server_subproc and waiter for router child-process monitoring in server-common.h ( #28555 ). New models ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-14T18:30:36.080Z",
-   "tier": "A",
-   "itemTs": "2026-09-14T18:28:16.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-14T18:30:36.080Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0n2z1hi",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10969: ci : add ubuntu-cuda builds to release (#28186)",
-   "ctx": "release : add ubuntu-cuda build job (12.8/13.3, x64+arm64) Add GCC 14 for CUDA arm64 builds in CI Eplicit bash Install git for CCCL fetch Install git before we clone/checkout Match CI names for WIndows Whitelist llama.cpp repo to git Use $GITHUB_WORKSPACE Also ship dependent libs on Ubuntu Need NCCL additionally as it's pre-built available on Linux Avoid duplicate files in packaged cudart Copy NCC",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10969",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-14T18:00:37.245Z",
-   "tier": "A",
-   "itemTs": "2026-09-14T17:07:53.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1765,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10969 b10969 391fac1 Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags b10969: ci : add ubuntu-cuda builds to release (#28186) b10969 391fac1 Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags Verified Verified This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode ORippler tagged this 14 Sep 17:07 * release : add ubuntu-cuda build job (12.8/13.3, x64+arm64) * Add GCC 14 for CUDA arm64 builds in CI * Eplicit bash * Install git for CCCL fetch * Ins",
-    "truncated": false,
-    "title": "Release b10969: ci : add ubuntu-cuda builds to release (#28186) · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-14T18:00:37.245Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0n2z1hi.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0qotvi5",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10964",
-   "ctx": "llama.cpp : bump version to 0.4.1 ( #28900 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47376843 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0)",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10964",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-14T15:31:11.542Z",
-   "tier": "A",
-   "itemTs": "2026-09-14T15:31:11.000Z",
-   "sub": "github release",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0pkym88",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10956",
-   "ctx": "sycl: rfc: Use radix select for top_k ( #28670 ) sycl: GPU-resident TOP_K for large k, parallelised over the device The SYCL backend refused GGML_OP_TOP_K above k = 32 and let it fall back to the CPU, a backend round-trip per call. The limit was not conservatism: the scan-merge kernels keep (split_block + 1) * k candidate (value, index) pairs in SLM, so at k = 128 a work-group already needs 132 KB",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10956",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-14T14:00:34.841Z",
-   "tier": "A",
-   "itemTs": "2026-09-14T14:00:27.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-14T14:00:34.841Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0qexfb5",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10955",
-   "ctx": "ggml-cpu : disable PCH and fix CACHE_LINE_SIZE ambiguity to fix heap corruption ( #28882 ) Disable the ggml-cpu precompiled header and remove the std::hardware_destructive_interference_size branch from CACHE_LINE_SIZE. The PCH force-includes ggml-impl.h before ops.h, which pulls in via / and defines __cpp_lib_hardware_interference_size. This makes the C++ kernels use CACHE_LINE_SIZE = 256 (hardwar",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10955",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-14T11:01:02.955Z",
-   "tier": "A",
-   "itemTs": "2026-09-14T10:45:12.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2635,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10955 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 14 Sep 10:42 b10955 2f53959 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . ggml-cpu : disable PCH and fix CACHE_LINE_SIZE ambiguity to fix heap corruption ( #28882 ) Disable the ggml-cpu precompiled header and remove the std::hardware_destructive_interference_size branch from CACHE_LINE_SIZE. The PCH force-includes ggml-impl.h before ops.h, which pulls in via / and defines __cpp_lib_hardware_interference_size. This makes the C++ kernels use CACHE_LINE_SIZE = 256 (hardware destructive interference size) while the C work-buffer sizing code in ggml-cpu.c always uses the fallback 64. The mismatch undersizes the rope work buffer by (CACHE_LINE_SIZ",
-    "truncated": false,
-    "title": "Release b10955 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-14T11:01:02.955Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0qexfb5.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-0qox104",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10952",
-   "ctx": "sycl : fix oneDNN scratchpad breaking the pool free order ( #28704 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47287268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10952",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-14T08:30:25.623Z",
-   "tier": "A",
-   "itemTs": "2026-09-14T08:29:04.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1669,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10952 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 14 Sep 08:26 b10952 661643e This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl : fix oneDNN scratchpad breaking the pool free order ( #28704 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47287268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Window",
-    "truncated": false,
-    "title": "Release b10952 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-14T08:30:25.623Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-0qox104.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-027ishd",
-   "pri": 45,
-   "kind": "note",
-   "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
-   "ctx": "Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by selecting a small set of context units (tokens or blocks) for each query. Existing trainable methods usually use a lightweight selector to score context units, followed by hard Top-K selection that blocks gradients from the language modeling loss. Consequently, these methods commonly distill layer-wise dense attention distributions. Although this encourages the selector to rank co",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.13141v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-14T05:00:49.520Z",
-   "tier": "B",
-   "itemTs": "2026-09-11T17:58:06.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-03cscj7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Investigating Temporal Motion Features for Pose-to-Text Indian Sign Language Translation",
-   "ctx": "We investigate the effect of pretrained T5 model scale and explicit motion features on pose-to-text Indian Sign Language Translation (SLT) for the WSLP 2026 Shared Task. Pose sequences are projected into the embedding space of T5 through a lightweight pose encoder, with the complete model fine-tuned to generate English text. The shared task data used for this work consists of a test set with 5,334 examples and a validation set with 5,257 examples. We compare T5-small, T5-base, and T5-large, and ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.12993v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-14T05:00:49.520Z",
-   "tier": "B",
-   "itemTs": "2026-09-11T15:55:03.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-06xfgza",
-   "pri": 45,
-   "kind": "note",
-   "title": "Type Diversity Enables Transformers to Generalise Compositionally",
-   "ctx": "Compositional generalisation has been divided into lexical and structural generalisation. Previous work has found that structural generalisation is harder than lexical for Transformers. We propose that this difference is not inherent to Transformers, but due to the high diversity of lexical types and low diversity of structural types in the specific datasets of these previous works. By type diversity we mean the number of different constructors of that type, instead of, for example, the specific",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.13144v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-14T05:00:49.520Z",
-   "tier": "B",
-   "itemTs": "2026-09-11T17:59:07.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2652,11 +2600,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 74,
-   "daily": 26
+   "slow": 81,
+   "daily": 19
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
