@@ -1,7 +1,75 @@
 {
- "generatedAt": "2026-09-16T07:00:43.856Z",
+ "generatedAt": "2026-09-16T08:00:35.755Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1lha3ed",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10995",
+   "ctx": "vulkan: make MUL_MAT_ID BN/2 tail unconditional ( #28923 ) Use BN/2 as the default for BNover2 and as the disabled fallback for BNover4, and remove the enable gate from the MUL_MAT_ID BN/2 branch. The BN/4 branch remains gated by enable_smaller_matrices, while the p.N path is unchanged. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47850603 macOS/iOS: ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10995",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T08:00:23.619Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T08:00:11.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2019,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10995 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 07:57 b10995 d4365d9 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: make MUL_MAT_ID BN/2 tail unconditional ( #28923 ) Use BN/2 as the default for BNover2 and as the disabled fallback for BNover4, and remove the enable gate from the MUL_MAT_ID BN/2 branch. The BN/4 branch remains gated by enable_smaller_matrices, while the p.N path is unchanged. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47850603 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (C",
+    "truncated": false,
+    "title": "Release b10995 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T08:00:23.619Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1lha3ed.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1l7ahpe",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10994",
+   "ctx": "metal: fix NaN in mul_mm_id when activations exceed f16 range ( #26223 ) test-backend-ops: reproduce MUL_MAT_ID NaN for activations beyond f16 The Metal mul_mm_id path narrows src1 to half for the simdgroup MMA ( S1 = half in every instantiation; ggml-metal.metal:10582 and :10595, mirrored at :10643/:10654 in the tensor-ops path). f16 saturates at 65504, so a model whose activations exceed that pr",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10994",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T07:30:28.334Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T07:27:18.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 7620,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10994 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 07:23 b10994 0a8b29a This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . metal: fix NaN in mul_mm_id when activations exceed f16 range ( #26223 ) test-backend-ops: reproduce MUL_MAT_ID NaN for activations beyond f16 The Metal mul_mm_id path narrows src1 to half for the simdgroup MMA ( S1 = half in every instantiation; ggml-metal.metal:10582 and :10595, mirrored at :10643/:10654 in the tensor-ops path). f16 saturates at 65504, so a model whose activations exceed that produces inf, and simdgroup_multiply_accumulate then turns the whole 8x8 accumulator tile into NaN. The mul_mv_id path used below ne21_mm_id_min (32) carries the same values in ",
+    "truncated": false,
+    "title": "Release b10994 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T07:30:28.334Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1l7ahpe.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1jtch8j",
    "pri": 30,
@@ -2543,52 +2611,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1jabdhd",
-   "pri": 45,
-   "kind": "note",
-   "title": "K-Bench: a clinically calibrated benchmark for evaluating large language models in high-risk mental health conversations",
-   "ctx": "% !TEX root = ../main.tex People increasingly use large language models (LLMs) for mental health support, yet their safety in evolving, high-risk conversations remains poorly characterised. We developed K-Bench, a clinician-calibrated, protected benchmark evaluating 125 model configurations representing 33 base models from 14 providers across a fixed cohort of 200 multi-turn vignettes involving suicide, self-harm, domestic violence, substance misuse, and no-risk presentations. Synthetic patient ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15855v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T16:49:23.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-00ejwil",
-   "pri": 45,
-   "kind": "note",
-   "title": "Discrete Beckmann Transport Models for One-Step Language Modeling and Reasoning",
-   "ctx": "Discrete diffusion and flow models are a promising alternative to autoregressive language models, but compressing many-step sampling into fewer steps typically requires distilling a pretrained teacher model. This caps the student at the teacher's quality and requires a costly two-stage training pipeline. We introduce Discrete Beckmann Transport Models (DBTM), built on a time-independent flow whose autonomous transport map provably carries any point in the ambient space to a fixed point on the ve",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15903v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T17:19:47.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2604,11 +2626,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 18,
-   "slow": 82
+   "daily": 20,
+   "slow": 80
   },
-  "routed": 43,
-  "unrouted": 57,
+  "routed": 45,
+  "unrouted": 55,
   "unmappedLaneFamilies": []
  }
 }
