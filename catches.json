@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-16T12:30:55.294Z",
+ "generatedAt": "2026-09-16T13:00:31.829Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1ml8i69",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10999",
+   "ctx": "Change max context length for auto-fitting with unified KV ( #28849 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47906437 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10999",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T13:00:25.672Z",
+   "tier": "A",
+   "itemTs": "2026-09-16T12:35:06.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1894,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b10999 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 16 Sep 12:31 b10999 b04d4e5 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . Change max context length for auto-fitting with unified KV ( #28849 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47906437 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVI",
+    "truncated": false,
+    "title": "Release b10999 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T13:00:25.672Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1ml8i69.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1mb8wha",
    "pri": 30,
@@ -2615,29 +2649,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0fx0v1a",
-   "pri": 45,
-   "kind": "note",
-   "title": "Verifiable by Construction: Claim-Level Evaluation of Verbatim Citation in Clinical Question Answering",
-   "ctx": "Large language models (LLMs) have been widely adopted for clinical question answering (QA). Current systems can attach citations to their answers, but these often point to broad texts, leaving time-pressed clinicians unable to verify them efficiently. An alternative is to ensure that responses are verifiable by construction: providing fine-grained verbatim quotes from reference material that substantiate claims, so users can verify an answer without opening other documents. In this paper, we eva",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15964v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-15T04:30:32.903Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T17:53:51.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2653,11 +2664,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 23,
-   "slow": 77
+   "daily": 24,
+   "slow": 76
   },
-  "routed": 45,
-  "unrouted": 55,
+  "routed": 46,
+  "unrouted": 54,
   "unmappedLaneFamilies": []
  }
 }
