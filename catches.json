@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-15T23:30:31.040Z",
+ "generatedAt": "2026-09-16T00:00:59.723Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-1kdbomh",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b10991",
+   "ctx": "hexagon: add back missing contiguous fast-path and hvx_copy_uu for each run ( #28886 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47775478 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ub",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10991",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-16T00:00:48.526Z",
+   "tier": "A",
+   "itemTs": "2026-09-15T23:46:09.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1818,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10991 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 15 Sep 23:42 b10991 930e2fa This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . hexagon: add back missing contiguous fast-path and hvx_copy_uu for each run ( #28886 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47775478 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) U",
+    "truncated": false,
+    "title": "Release b10991 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-16T00:00:48.526Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-1kdbomh.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-1k3c2xi",
    "pri": 30,
@@ -2622,40 +2656,6 @@
     "ok": false,
     "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
     "fetchedAt": "2026-09-13T19:30:40.151Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1kxsv42",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10947",
-   "ctx": "models : guard the expert FFN size fallback in nemotron-h against a zero divisor ( #28779 ) The NextN/MTP tail loop derives the expert FFN size as n_ff/n_expert_used when expert_feed_forward_length gives nothing for the layer. Both values come from per-layer arrays that legitimately hold 0 on layers that are not MoE, so a checkpoint whose predict layers hold 0 in both divides by zero and dies with",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10947",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-13T19:00:53.031Z",
-   "tier": "A",
-   "itemTs": "2026-09-13T18:45:52.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2084,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.1k Star 128k b10947 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 13 Sep 18:43 b10947 e49d2c2 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . models : guard the expert FFN size fallback in nemotron-h against a zero divisor ( #28779 ) The NextN/MTP tail loop derives the expert FFN size as n_ff/n_expert_used when expert_feed_forward_length gives nothing for the layer. Both values come from per-layer arrays that legitimately hold 0 on layers that are not MoE, so a checkpoint whose predict layers hold 0 in both divides by zero and dies with SIGFPE at load time, with no error message. Report the malformed metadata instead. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations",
-    "truncated": false,
-    "title": "Release b10947 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-13T19:00:53.031Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1kxsv42.txt"
    },
    "clock": "daily",
    "questions": [
