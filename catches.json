@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-17T17:01:11.698Z",
+ "generatedAt": "2026-09-17T18:02:09.194Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-0fdf5m0",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Life sciences verification program",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/life-sciences-verification-program",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-09-17T18:01:58.430Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 8986,
+    "lead": "Announcements Introducing the Life Sciences Verification Program Sep 17, 2026 Today, we are introducing the Life Sciences Verification Program (LSVP), which gives life science professionals access to our Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work. We have already onboarded dozens of organizations through an early access program, and are now opening applications to the broader life science community ( apply here ). The program is launching in beta, initially for teams and institutions. We will continue to improve the program and expand access to individual Pro and Max plans over time. The LSVP is designed to enable life science professionals to use our models across a wide range of tasks that are currently blocked in our generally-available Fable models, like drug discovery, research biology, clinical development, and manufacturing. It’s built for teams of all kinds—from academic labs to startups, pharma companies, and more. Verification and access types To qualify for these grants, each applicant goes through a verification process that includes a review of their research credentials, security standards, and ethical res",
+    "truncated": false,
+    "title": "Introducing the Life Sciences Verification Program \\ Anthropic",
+    "fetchedAt": "2026-09-17T18:01:58.430Z",
+    "full": "full/f-anthropic-news-0fdf5m0.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0uohdd3",
    "pri": 30,
@@ -2582,31 +2614,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1nvkmjl",
-   "pri": 45,
-   "kind": "note",
-   "title": "Right Tool, Right Job: Native-Language Evaluation, Tokenizer Sensitivity, and Methodological Findings from a French-Only BabyLM",
-   "ctx": "We submit MéTRON-FR, a 125M GPT-2 pretrained on 92.47M words of French, to the BabyLM 2026 Strict track. It scores 85.97 +/- 0.17% on QFrBLiMP (a native Quebec-French benchmark of grammatical minimal pairs) and 62.80% on the BabyLM-weighted leaderboard. A cross-lingual GLUE (General Language Understanding Evaluation) protocol that combines French task-data translation with rank-16 LoRA (Low-Rank Adaptation) produces a sharp task-type gradient: relational tasks gain measurably, while world-knowle",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.17435v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-16T02:30:31.521Z",
-   "tier": "B",
-   "itemTs": "2026-09-15T16:43:32.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2622,11 +2629,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 19,
-   "slow": 81
+   "daily": 20,
+   "slow": 80
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 45,
+  "unrouted": 55,
   "unmappedLaneFamilies": []
  }
 }
