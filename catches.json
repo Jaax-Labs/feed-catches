@@ -1,7 +1,76 @@
 {
- "generatedAt": "2026-09-16T23:31:15.633Z",
+ "generatedAt": "2026-09-17T00:31:14.036Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1usdtru",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.274",
+   "ctx": "What's changed Added a visible warning when memory usage is critical, with steps to free memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive turn waits for connecting MCP servers ( 0 = don't wait) Added effort attribute to the claude_code.llm_request OpenTelemetry trace span, matching the api_request event Added claude_code.managed_settings_re",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-17T00:30:58.128Z",
+   "tier": "A",
+   "itemTs": "2026-09-17T00:12:02.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 17050,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.5k Star 145k v2.1.274 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 17 Sep 00:12 v2.1.274 68ac8bb What's changed Added a visible warning when memory usage is critical, with steps to free memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive turn waits for connecting MCP servers ( 0 = don't wait) Added effort attribute to the claude_code.llm_request OpenTelemetry trace span, matching the api_request event Added claude_code.managed_settings_resolved OTel event: managed-settings sources and policy helper state; redacted settings and digests with OTEL_LOG_MANAGED_SETTINGS=1 Added store.connect_timeout_seconds to the Claude apps gateway config to lengthen the Postgres connect timeout (default 5 seconds), and improved the boot error when the database is unreachable to poi",
+    "truncated": false,
+    "title": "Release v2.1.274 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-17T00:30:58.128Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1usdtru.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0s6ky4c",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11010",
+   "ctx": "vulkan: work around NV bug with argsort_large.comp ( #28975 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48059150 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11010",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-17T00:01:10.817Z",
+   "tier": "A",
+   "itemTs": "2026-09-17T00:01:04.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1792,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b11010 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 17 Sep 00:01 b11010 4bc272f This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: work around NV bug with argsort_large.comp ( #28975 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48059150 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubun",
+    "truncated": false,
+    "title": "Release b11010 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-17T00:01:10.817Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0s6ky4c.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0vsixmy",
    "pri": 30,
@@ -2252,40 +2321,6 @@
    ]
   },
   {
-   "id": "f-gh-releases-ggml-org-llama-cpp-1mbc1z9",
-   "pri": 30,
-   "kind": "note",
-   "title": "ggml-org/llama.cpp b10982",
-   "ctx": "vulkan: support sparse Flash Attention ( #28105 ) vulkan: add sparse Flash Attention support for DSV4/GLM tune implementation add tests avoid nondeterministic atomicAdd add cm2 decode vector support simplify logic and make variable names more consistent add cm2 f16vec4 binding for decode vector Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47615058 mac",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b10982",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-ggml-org-llama-cpp",
-   "detectedAt": "2026-09-15T13:00:30.751Z",
-   "tier": "A",
-   "itemTs": "2026-09-15T12:37:10.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 2027,
-    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.2k Star 128k b10982 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 15 Sep 12:33 b10982 fc82583 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: support sparse Flash Attention ( #28105 ) vulkan: add sparse Flash Attention support for DSV4/GLM tune implementation add tests avoid nondeterministic atomicAdd add cm2 decode vector support simplify logic and make variable names more consistent add cm2 f16vec4 binding for decode vector Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47615058 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu ",
-    "truncated": false,
-    "title": "Release b10982 · ggml-org/llama.cpp · GitHub",
-    "fetchedAt": "2026-09-15T13:00:30.751Z",
-    "full": "full/f-gh-releases-ggml-org-llama-cpp-1mbc1z9.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
    "id": "f-gh-releases-ggml-org-llama-cpp-1lhd8wc",
    "pri": 30,
    "kind": "note",
@@ -2677,29 +2712,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1nyagpj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
-   "ctx": "Chain-of-thought (CoT) monitoring is a safety strategy where the reasoning of a large language model \"actor\" is inspected by a \"monitor\" (often another language model) for signs of unsafe planning, deception, or misalignment. We find that planting harmful but benign-sounding reasoning in the actor's context can steer it to perform adversarial actions while evading monitors, an attack we term \"plan injection\". We initially discover this attack in the multiple-choice question-answering monitorabil",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.15989v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-15T05:30:28.546Z",
-   "tier": "B",
-   "itemTs": "2026-09-14T18:33:27.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2715,11 +2727,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 30,
-   "slow": 70
+   "daily": 31,
+   "slow": 69
   },
-  "routed": 49,
-  "unrouted": 51,
+  "routed": 50,
+  "unrouted": 50,
   "unmappedLaneFamilies": []
  }
 }
