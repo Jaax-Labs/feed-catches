@@ -1,7 +1,109 @@
 {
- "generatedAt": "2026-09-17T09:02:12.937Z",
+ "generatedAt": "2026-09-17T12:31:03.389Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0uohdd3",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11019",
+   "ctx": "gguf : align the data section relative to the GGUF start, not the file ( #28993 ) gguf : align the data section relative to the GGUF start, not the file gguf_init_from_file_ptr reads a GGUF from the current file position, but padded the data section from file offset 0, so a GGUF embedded at an offset that is not a multiple of the alignment loaded without error and returned wrong tensor data. Also ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11019",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-17T11:01:01.654Z",
+   "tier": "A",
+   "itemTs": "2026-09-17T10:39:29.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 2739,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 129k b11019 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 17 Sep 10:35 b11019 81aeaeb This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . gguf : align the data section relative to the GGUF start, not the file ( #28993 ) gguf : align the data section relative to the GGUF start, not the file gguf_init_from_file_ptr reads a GGUF from the current file position, but padded the data section from file offset 0, so a GGUF embedded at an offset that is not a multiple of the alignment loaded without error and returned wrong tensor data. Also adds llama_adapter_lora_init_from_file_ptr, and disables mmap with a warning when an embedded data section is not aligned, instead of asserting in ggml. Assisted-by: Claude Op",
+    "truncated": false,
+    "title": "Release b11019 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-17T11:01:01.654Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0uohdd3.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0uehro4",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11018",
+   "ctx": "sycl : fix the B70 mem allocate error when &gt;19.3GB ( #28953 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48150237 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11018",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-17T10:01:43.735Z",
+   "tier": "A",
+   "itemTs": "2026-09-17T10:01:44.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1793,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 129k b11018 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 17 Sep 09:58 b11018 c9a5eee This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . sycl : fix the B70 mem allocate error when >19.3GB ( #28953 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48150237 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubun",
+    "truncated": false,
+    "title": "Release b11018 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-17T10:01:43.735Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0uehro4.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0rwlcfd",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11017",
+   "ctx": "vulkan: skip unneeded MoE work in mul_mm coopmat1 path ( #25483 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48144237 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) U",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11017",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-17T09:30:53.152Z",
+   "tier": "A",
+   "itemTs": "2026-09-17T09:30:52.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1797,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 129k b11017 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 17 Sep 09:27 b11017 7490357 This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: skip unneeded MoE work in mul_mm coopmat1 path ( #25483 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48144237 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) ",
+    "truncated": false,
+    "title": "Release b11017 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-17T09:30:53.152Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0rwlcfd.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-gh-releases-ggml-org-llama-cpp-0rmlqqe",
    "pri": 30,
@@ -2505,77 +2607,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-04jzd61",
-   "pri": 45,
-   "kind": "note",
-   "title": "Interactive Memory Learning for Long-Term Conversations",
-   "ctx": "Recent advancements in large language models have significantly enhanced the capabilities of agents in modeling long-term conversations. Despite these successes, existing approaches typically adopt a static heuristic paradigm, where information is passively archived without adaptive memory valuation. Consequently, these methods fail to self-evolve or align their memory management with evolving user needs. To address this, we propose ICML (InteraCtive Memory Learning), a multi-agent framework tha",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.17088v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-16T02:00:51.405Z",
-   "tier": "B",
-   "itemTs": "2026-09-15T12:21:41.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0gr7qff",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of Congenital Heart Disease Segmentation",
-   "ctx": "Congenital heart disease (CHD) diagnosis and surgical planning often require patient-specific 3D anatomical models, but manual segmentation is labor-intensive, particularly in complex anatomies. Although deep-learning methods can automate this process, they are typically evaluated in-distribution, despite clinically relevant shifts in scanner, protocol, institution, population, and imaging modality. We present, to our knowledge, the first systematic evaluation of out-of-distribution (OOD) genera",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.17068v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-16T02:00:51.405Z",
-   "tier": "B",
-   "itemTs": "2026-09-15T12:10:52.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0i3fhma",
-   "pri": 45,
-   "kind": "note",
-   "title": "Semi-Supervised Learning-Based Genetic Biomarkers Dataset for Multiple-Stage Hepatocellular Carcinoma Prediction",
-   "ctx": "Liver cancer is a complex disease responsible for a high number of deaths across the globe each year, making automated solutions for liver cancer classification urgent. The most common form of liver cancer is hepatocellular carcinoma (HCC), accounting for over 90% of liver cancer cases. There is a distinct lack of publicly available HCC datasets utilizing genomic data, which is necessary for training artificial intelligence (AI) models for automated HCC classification. This study proposes constr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.17100v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-16T02:00:51.405Z",
-   "tier": "B",
-   "itemTs": "2026-09-15T12:33:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2591,11 +2622,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 16,
-   "slow": 84
+   "daily": 19,
+   "slow": 81
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 46,
+  "unrouted": 54,
   "unmappedLaneFamilies": []
  }
 }
