@@ -1,7 +1,90 @@
 {
- "generatedAt": "2026-09-17T05:02:11.522Z",
+ "generatedAt": "2026-09-17T07:01:35.348Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-ggml-org-llama-cpp-0sqk5ia",
+   "pri": 30,
+   "kind": "note",
+   "title": "ggml-org/llama.cpp b11012",
+   "ctx": "vulkan: support qwen4exp hc ops ( #28988 ) vulkan: support qwen4exp hc ops fix stale comment [no-ci] Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48109146 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/ggml-org/llama.cpp/releases/tag/b11012",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-ggml-org-llama-cpp",
+   "detectedAt": "2026-09-17T06:30:56.126Z",
+   "tier": "A",
+   "itemTs": "2026-09-17T06:29:40.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1832,
+    "lead": "Uh oh! There was an error while loading. Please reload this page . ggml-org / llama.cpp Public Notifications You must be signed in to change notification settings Fork 23.3k Star 128k b11012 Pre-release Pre-release Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags github-actions released this 17 Sep 06:27 b11012 35822af This commit was created on GitHub.com and signed with GitHub’s verified signature . GPG key ID: B5690EEEBB952194 Verified Learn about vigilant mode . vulkan: support qwen4exp hc ops ( #28988 ) vulkan: support qwen4exp hc ops fix stale comment [no-ci] Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48109146 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries Ubuntu x64",
+    "truncated": false,
+    "title": "Release b11012 · ggml-org/llama.cpp · GitHub",
+    "fetchedAt": "2026-09-17T06:30:56.126Z",
+    "full": "full/f-gh-releases-ggml-org-llama-cpp-0sqk5ia.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-cascade-1w0xr0l",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"models llms\" — 3 independent sources in 23h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 23 hours, in 19 items (0.2% of the window — below the 15% background threshold).\n\n• reddit — Can current MiniCPM5-2B/any best SOTA under 10B + modern harness beat pre-March 2025 front\n• arxiv — Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud \n• huggingface-papers — A Zeroth-Order Paradigm for LLM Preference Alignment\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wi60d8/can_current_minicpm52bany_best_sota_under_10b/",
+     "primary": true
+    },
+    {
+     "label": "Open arxiv",
+     "href": "https://arxiv.org/abs/2609.18283v1",
+     "primary": false
+    },
+    {
+     "label": "Open huggingface-papers",
+     "href": "https://huggingface.co/papers/2609.19144",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-17T05:30:58.124Z",
+   "tier": "X",
+   "families": [
+    "reddit",
+    "arxiv",
+    "huggingface-papers"
+   ],
+   "roots": [
+    "reddit",
+    "arxiv",
+    "huggingface"
+   ],
+   "sub": "cascade shape · reddit, arxiv, huggingface",
+   "extract": {
+    "ok": false,
+    "reason": "extracted text is markup/template, not prose",
+    "fetchedAt": "2026-09-17T05:30:58.124Z"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-03srih6",
    "pri": 45,
@@ -2462,52 +2545,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-15dec2c",
-   "pri": 45,
-   "kind": "note",
-   "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
-   "ctx": "Few-shot audio classifiers may rely on foreground-background co-occurrences and fail when those correlations shift. On SpurAudio, the resulting representation shift is concentrated and class dependent: for ResNet12, the top 10 percent of channels explain 82.80 percent of the null-corrected shift contribution. We propose SAMPLESELECT, which predicts a fixed-budget feature mask independently for each input while keeping the encoder and source classifier frozen. Training uses differentiable Gumbel ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.17076v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-16T02:00:51.405Z",
-   "tier": "B",
-   "itemTs": "2026-09-15T12:15:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-18p1l60",
-   "pri": 45,
-   "kind": "note",
-   "title": "Finding Common Mistakes In Modelling With Mathematical Formalisms Using LLMs",
-   "ctx": "Modelling with mathematical formalisms like logical formulas, mathematical equations, or regular expressions is an important yet challenging task for students of computer science and other STEM disciplines. Identifying common mistakes occurring in this context is an important step towards helping struggling students by providing targeted high-quality feedback, e.g. in interactive learning systems. We present a tool-supported workflow that allows to (1) identify candidates for common mistakes tha",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.17111v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-16T02:00:51.405Z",
-   "tier": "B",
-   "itemTs": "2026-09-15T12:40:27.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2523,11 +2560,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 89,
-   "daily": 11
+   "daily": 13,
+   "slow": 87
   },
-  "routed": 40,
-  "unrouted": 60,
+  "routed": 42,
+  "unrouted": 58,
   "unmappedLaneFamilies": []
  }
 }
