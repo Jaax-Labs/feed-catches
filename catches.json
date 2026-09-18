@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-18T15:31:56.953Z",
+ "generatedAt": "2026-09-18T16:31:37.358Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-chinatalk-06a726t",
+   "pri": 60,
+   "kind": "note",
+   "title": "How Anthropic Became China’s Goliath",
+   "ctx": "A DeepSeek researcher’s personal blog post recently went viral. On September 13, after DeepSeek V4.1-Flash was released, researcher Liu Shengyu 刘胜与 reflected on how humans might live alongside AI systems with superhuman abilities: As AI develops, future society may trend toward one of two extremes: communism, or Cyberpunk 2077. In the former, the productive forces are enormously liberated and peop",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "chinatalk",
+   "detectedAt": "2026-09-18T16:01:54.743Z",
+   "tier": "D",
+   "itemTs": "2026-09-18T15:38:10.000Z",
+   "sub": "chinatalk",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 27704,
+    "lead": "A DeepSeek researcher’s personal blog post recently went viral. On September 13, after DeepSeek V4.1-Flash was released, researcher Liu Shengyu 刘胜与 reflected on how humans might live alongside AI systems with superhuman abilities: As AI develops, future society may trend toward one of two extremes: communism, or Cyberpunk 2077. In the former, the productive forces are enormously liberated and people’s standards of living improve markedly (let’s stop here; I’m worried this won’t clear the censors otherwise). In the latter, a few tech companies control the bulk of resources; only a tiny minority can access the most advanced AI and assorted technologies, achieving something close to “machine ascension,” while everyone else makes do with feeble AI. Liu specializes in kernels and is passionate about the craft. He remarks with frank resignation that, “give it another six months or a year, and AI-written kernels will most likely be just as good as mine, if not surpass my work.” So why does he keep working on this? Simply put: the race dynamic. If I were to slack off at this point, or even deliberately throw sand in the gears to hold up model training, other companies’ models would develop",
+    "truncated": false,
+    "fetchedAt": "2026-09-18T16:01:54.743Z",
+    "full": "full/f-chinatalk-06a726t.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.CL-00d36p1",
    "pri": 45,
@@ -2457,31 +2491,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0t6im4w",
-   "pri": 45,
-   "kind": "note",
-   "title": "CoRe-MARL: Cooperative Redistribution Under Unknown Dynamics Using Recurrent Multi-Agent Reinforcement Learning",
-   "ctx": "Emergency management assistance programs, such as relief distribution, are essential for delivering necessary supplies to affected communities. However, these programs operate in a decentralized network of local centers that face uncertain local demand and supply dynamics, resulting in inconsistent avail- ability of local services. Redistribution of supplies among these local centers reduces these imbalances, but the centers often make decisions independently, with limited information and disrup",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.18639v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-17T01:30:56.414Z",
-   "tier": "B",
-   "itemTs": "2026-09-16T13:25:05.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
