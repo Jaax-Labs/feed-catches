@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-09-18T20:01:07.364Z",
+ "generatedAt": "2026-09-18T21:01:07.144Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-176cdi7",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Accenture embedded evaluation",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-09-18T20:31:03.535Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 3033,
+    "lead": "Announcements Partnering with Accenture on embedded evaluation Sep 18, 2026 We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic. The partnership will be led by Faculty, Accenture’s specialist AI business, and will include evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards. Accenture helps businesses and governments deploy AI across many industries. Their understanding of how enterprises use AI in practice informs their safety approach, and they will bring that perspective to evaluating our models. Anthropic and Accenture each expect to invest at least $1 billion in building capacity in this area over the next five years. Embedded evaluation is new, and many of the details about how it will operate are still being worked out. Unlike today’s external evaluators, embedded evaluators will work inside AI companies, with access comparable to an employee's. That access allows them to watch models take shape in training, follow the decisions that govern how those models are built and d",
+    "truncated": false,
+    "title": "Partnering with Accenture on embedded evaluation \\ Anthropic",
+    "fetchedAt": "2026-09-18T20:31:03.535Z",
+    "full": "full/f-anthropic-news-176cdi7.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-anthropics-claude-code-1uie82v",
    "pri": 30,
@@ -2480,29 +2512,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0gz3w3n",
-   "pri": 45,
-   "kind": "note",
-   "title": "On-the-Fly Homographies Calibration for Multi-Camera Tracking",
-   "ctx": "Precise multi-camera tracking traditionally relies on rigorous 3D site calibration, yet this requirement is often operationally impossible in large-scale deployments. Privacy regulations frequently prohibit recording video for offline calibration; limited bandwidth precludes synchronizing high-resolution streams from hundreds of cameras; and covering immense physical sites with calibration targets is logistically infeasible. We present a multi-camera homography calibration system designed to ove",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.18582v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-17T01:30:56.414Z",
-   "tier": "B",
-   "itemTs": "2026-09-16T12:41:55.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2518,8 +2527,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 6,
-   "slow": 94
+   "daily": 7,
+   "slow": 93
   },
   "routed": 36,
   "unrouted": 64,
