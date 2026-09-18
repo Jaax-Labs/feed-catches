@@ -1,7 +1,42 @@
 {
- "generatedAt": "2026-09-18T18:01:11.030Z",
+ "generatedAt": "2026-09-18T19:30:57.046Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1uie82v",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.277",
+   "ctx": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) Added CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1 for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally Added ",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-18T18:31:00.940Z",
+   "tier": "A",
+   "itemTs": "2026-09-18T18:06:32.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 13473,
+    "lead": "anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.7k Star 146k v2.1.277 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 18 Sep 18:06 &middot; 1 commit to main since this release v2.1.277 ca02e7d What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) Added CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1 for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally Added an optional headers: map on Claude apps gateway upstreams, to send static headers to a proxy you run in front of a provider Added a line saying a background task's update is waiting when it finishes while a panel such as /tasks is open Fixed claude -p and Agent SDK sessions that could hang with no result after an internal error; they now report the er",
+    "truncated": false,
+    "title": "Release v2.1.277 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-18T18:31:00.940Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1uie82v.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-chinatalk-06a726t",
    "pri": 60,
@@ -2468,29 +2503,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0n1c6lv",
-   "pri": 45,
-   "kind": "note",
-   "title": "Interpretable Patch-Based Deep Learning for Wildfire Spread Prediction from Ensemble Simulations",
-   "ctx": "Wildfire spread is traditionally predicted using physics-based simulators, which are physically interpretable but whose cost increases with each additional ensemble member. We ask how well deep learning surrogates can reproduce these simulations at a fraction of this cost, training them on 10,584 fire spread simulations at 2m resolution for the Rectoret region in Catalonia, Spain. Four architectures are compared: a patch-based U-Net, a transfer-learned ResNet-50, a physics-informed network const",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.18555v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-17T01:30:56.414Z",
-   "tier": "B",
-   "itemTs": "2026-09-16T12:17:47.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2506,11 +2518,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 95,
-   "daily": 5
+   "daily": 6,
+   "slow": 94
   },
-  "routed": 35,
-  "unrouted": 65,
+  "routed": 36,
+  "unrouted": 64,
   "unmappedLaneFamilies": []
  }
 }
