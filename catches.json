@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-19T03:01:25.029Z",
+ "generatedAt": "2026-09-19T04:01:15.353Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-gh-releases-anthropics-claude-code-1rgilg6",
+   "pri": 30,
+   "kind": "note",
+   "title": "anthropics/claude-code v2.1.278",
+   "ctx": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead ( CLAUDE_CODE_AUTO_MODE_SERVER=0 opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing Added an Auto mode s",
+   "acts": [
+    {
+     "label": "Open release",
+     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "gh-releases-anthropics-claude-code",
+   "detectedAt": "2026-09-19T03:31:01.613Z",
+   "tier": "A",
+   "itemTs": "2026-09-19T03:10:40.000Z",
+   "sub": "github release",
+   "extract": {
+    "ok": true,
+    "chars": 1137,
+    "lead": "anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.8k Star 146k v2.1.278 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 19 Sep 03:10 Immutable release. Only release title and notes can be modified. v2.1.278 bf7d404 What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead ( CLAUDE_CODE_AUTO_MODE_SERVER=0 opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing Added an Auto mode server row to /status showing whether this session's auto mode classifier runs on the server Assets 13 Loading Uh oh! There was an error while loading. Please reload this page . 👀 2 Maaattqc and Aloim reacted with eyes emoji All reactions 👀 2 reactions 2 people reacted",
+    "truncated": false,
+    "title": "Release v2.1.278 · anthropics/claude-code · GitHub",
+    "fetchedAt": "2026-09-19T03:31:01.613Z",
+    "full": "full/f-gh-releases-anthropics-claude-code-1rgilg6.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-news-176cdi7",
    "pri": 6,
@@ -2487,31 +2521,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-052ew43",
-   "pri": 45,
-   "kind": "note",
-   "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
-   "ctx": "In-context learning (ICL) enables large language model (LLM) agents to improve decisions using interaction history, yet it remains unclear whether such improvement reflects refined internal reasoning or mere extrapolation of statistical patterns. To disentangle these mechanisms, we study LLM agents in multi-agent incomplete-information games that require recursive belief reasoning. By constructing a public goods game and manipulating the statistical structure of historical feedback, we evaluate ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.18591v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-17T01:30:56.414Z",
-   "tier": "B",
-   "itemTs": "2026-09-16T12:49:19.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2527,8 +2536,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 7,
-   "slow": 93
+   "daily": 8,
+   "slow": 92
   },
   "routed": 36,
   "unrouted": 64,
