@@ -1,7 +1,58 @@
 {
- "generatedAt": "2026-09-19T21:31:33.984Z",
+ "generatedAt": "2026-09-19T22:30:56.672Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-cascade-1qltzzp",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"typesafe jev\" — 3 independent sources in 52h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 52 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• openrouter — TypeSafe: Jev Latest\n• github-search — thruwire/foreman\n• reddit — Von: Open-source 395M \"System One\" model\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open openrouter",
+     "href": "https://openrouter.ai/~typesafe/jev-latest",
+     "primary": true
+    },
+    {
+     "label": "Open github-search",
+     "href": "https://github.com/thruwire/foreman",
+     "primary": false
+    },
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wkpxn6/von_opensource_395m_system_one_model/",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-19T22:00:57.619Z",
+   "tier": "X",
+   "families": [
+    "openrouter",
+    "github-search",
+    "reddit"
+   ],
+   "roots": [
+    "openrouter",
+    "github-search",
+    "reddit"
+   ],
+   "sub": "cascade shape · openrouter, github-search, reddit",
+   "extract": {
+    "ok": true,
+    "chars": 491,
+    "lead": "Frequently asked questions What is Jev Latest? This model always redirects to the latest model in the Jev family. How much does Jev Latest cost? Jev Latest costs $0.042/M input tokens and $0.00/M output tokens. What is the context length of Jev Latest? Jev Latest has a 32,000 token context window. What inputs and outputs does Jev Latest support? Jev Latest accepts text as input and returns structured decisions. When was Jev Latest released? Jev Latest was released on September 18, 2026.",
+    "truncated": false,
+    "title": "Jev Latest - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-19T22:00:57.619Z",
+    "full": "full/f-cascade-1qltzzp.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-gh-releases-anthropics-claude-code-1rgilg6",
    "pri": 30,
@@ -2498,29 +2549,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-02rizal",
-   "pri": 45,
-   "kind": "note",
-   "title": "Reasoning through Evolution: Automatic Meta-path Discovery for LLM-based Fake News Detection",
-   "ctx": "Propagation structures provide crucial evidence for fake news detection, yet existing approaches primarily rely on supervised GNN-based models, which require substantial labeled data and exhibit limited generalization. Although large language models (LLMs) exhibit strong reasoning capabilities, directly feeding them raw propagation graphs creates a significant modality mismatch and severe information overload, making structure-aware reasoning unreliable in zero-shot and few-shot settings. To bri",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.18597v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-17T01:30:56.414Z",
-   "tier": "B",
-   "itemTs": "2026-09-16T12:51:51.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2536,8 +2564,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 8,
-   "slow": 92
+   "daily": 9,
+   "slow": 91
   },
   "routed": 36,
   "unrouted": 64,
