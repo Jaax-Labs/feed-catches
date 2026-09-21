@@ -1,7 +1,58 @@
 {
- "generatedAt": "2026-09-21T06:01:26.036Z",
+ "generatedAt": "2026-09-21T07:31:12.391Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-cascade-1fbhs2o",
+   "pri": 4,
+   "kind": "note",
+   "title": "Cascade forming: \"bonsai 27b\" — 3 independent sources in 64h",
+   "ctx": "The same phrase surfaced across 3 unrelated sources inside 64 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• openrouter — PrismML: Ternary Bonsai 2 27B\n• reddit — Bonsai 2 27b Q2 - Donkey making coffee svg and a mushroom riding a donkey\n• huggingface-models — W-Zil/Bonsai_2_27b_VL_Uncensored-Heretic-PTQ1_0\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "acts": [
+    {
+     "label": "Open openrouter",
+     "href": "https://openrouter.ai/prism-ml/ternary-bonsai-2-27b",
+     "primary": true
+    },
+    {
+     "label": "Open reddit",
+     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wjt5f3/bonsai_2_27b_q2_donkey_making_coffee_svg_and_a/",
+     "primary": false
+    },
+    {
+     "label": "Open huggingface-models",
+     "href": "https://huggingface.co/W-Zil/Bonsai_2_27b_VL_Uncensored-Heretic-PTQ1_0",
+     "primary": false
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "cascade",
+   "detectedAt": "2026-09-21T07:00:53.843Z",
+   "tier": "X",
+   "families": [
+    "openrouter",
+    "reddit",
+    "huggingface-models"
+   ],
+   "roots": [
+    "openrouter",
+    "reddit",
+    "huggingface"
+   ],
+   "sub": "cascade shape · openrouter, reddit, huggingface",
+   "extract": {
+    "ok": true,
+    "chars": 1400,
+    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping t",
+    "truncated": false,
+    "title": "Ternary Bonsai 2 27B - API Pricing & Providers | OpenRouter",
+    "fetchedAt": "2026-09-21T07:00:53.843Z",
+    "full": "full/f-cascade-1fbhs2o.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.CL-06qvvn6",
    "pri": 45,
@@ -2446,31 +2497,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0q42bzw",
-   "pri": 45,
-   "kind": "note",
-   "title": "Geopolitical Divisions Across Languages in Large Language Models",
-   "ctx": "People increasingly turn to AI chatbots for news and explanations of world events. But do they receive the same political answers when they ask in different languages? Here we show that the language of a question can change how the same AI systems assess the war in Ukraine. We ask GPT, Claude and Gemini to evaluate twenty statements about the war in 112 languages, collecting 67,200 responses. The balance between Russia-leaning and Ukraine-leaning responses differs across languages. When we group",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20005v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T10:08:53.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
   }
  ],
  "clicks": {
@@ -2486,11 +2512,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 96,
-   "daily": 4
+   "daily": 5,
+   "slow": 95
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 29,
+  "unrouted": 71,
   "unmappedLaneFamilies": []
  }
 }
