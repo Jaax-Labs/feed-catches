@@ -1,7 +1,243 @@
 {
- "generatedAt": "2026-09-21T02:30:57.126Z",
+ "generatedAt": "2026-09-21T04:00:57.736Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-06qvvn6",
+   "pri": 45,
+   "kind": "note",
+   "title": "QuranicMMLU: A Cognitively-Aware Benchmark for Evaluating Generative AI Solutions on Quranic Linguistic Knowledge",
+   "ctx": "We introduce QuranicMMLU, a benchmark for evaluating generative AI on Quranic Arabic across multiple dimensions of linguistic complexity. Existing Quranic benchmarks center on general question answering and semantic retrieval, without probing specific linguistic competencies or stratifying by cognitive demand and verse difficulty. We construct a five-pillar Quranic taxonomy spanning Phonology, Morphology, Syntax, Semantics, and Pragmatics, with 31 leaves covering phenomena from tajwīd and root-a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.22038v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T17:30:27.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0c0q6o6",
+   "pri": 45,
+   "kind": "note",
+   "title": "NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities",
+   "ctx": "We introduce NemotronLabs VoiceChat, an open full-duplex speech-to-speech model with native tool-calling capabilities. NemotronLabs VoiceChat combines a streaming speech encoder and decoder-only language model with parallel specialized output streams for agent text and structured function calls, an auxiliary RNN-T branch for incremental user transcription, and a streaming TTS decoder. This design enables the model to listen, transcribe, reason, invoke tools, and speak within a unified streaming ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.21967v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T16:27:22.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-1116tay",
+   "pri": 45,
+   "kind": "note",
+   "title": "Moral Entropy: Auditing Bias and Uncertainty in Moral Judgment",
+   "ctx": "Most work in computational ethics treats annotator disagreement on moral content as noise to be voted away, collapsed into majority vote or the more permissive any-annotator rule the moment a single annotator flags an item. We argue this uncertainty should instead be modeled and learned from. We introduce Moral Entropy, a Bayesian framework that keeps a full posterior over the true label and decomposes its entropy into aleatoric uncertainty (irreducible disagreement about the moral content) and ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.21992v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T16:51:07.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-127f7bl",
+   "pri": 45,
+   "kind": "note",
+   "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+   "ctx": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface, implement software, and run and visually verify their artifacts. We introduce RecreationWorld, a five-platform framework built around recreation: given a running reference, an agent must discover it",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.22000v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T17:00:56.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-14qc76h",
+   "pri": 45,
+   "kind": "note",
+   "title": "DiaVLo: Diagnosing Behaviours of Vision-Language Models",
+   "ctx": "Vision-language models (VLMs) rely on storing and transferring appropriate information across their sub-components. Verifying that the VLMs exhibit desired behaviours, while avoiding harmful ones, is central to their reliable deployment. Yet, methods that identify VLM behaviours remain scarce. We present DiaVLo, a diagnostic framework that leverages human curation and VLMs' generation capabilities to construct specifications of desired and observed VLM behaviours, surfacing potential misalignmen",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.22008v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T17:06:44.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1682c94",
+   "pri": 45,
+   "kind": "note",
+   "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
+   "ctx": "Memory systems for large language models have focused predominantly on efficient retrieval, whereas the decision of whether retrieved memories should be trusted has received comparatively little attention. When the memory store contains conflicting positions, standard retrieval-augmented generation (RAG) blindly injects memories and amplifies hallucinations: in models susceptible to memory injection, the RAG hallucination rate under conflicting memories is markedly higher than that of a memory-f",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.22043v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T17:34:13.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-16xbvti",
+   "pri": 45,
+   "kind": "note",
+   "title": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
+   "ctx": "Gating the value pathway of attention reportedly improves language model pretraining, and prior studies disagree on why. We argue and provide experimental evidence that such gates supply two different things that softmax attention lacks: abstention and noise filtering. The first is abstention, which allows an attention head to output nothing, bypassing the requirement that attention weights must sum to one. The second is noise filtering, which allows the value pathway of an attention head to sup",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.22005v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T17:03:58.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1itg93e",
+   "pri": 45,
+   "kind": "note",
+   "title": "Detecting Pretraining Data in Large Language Models from a Free-Energy Perspective",
+   "ctx": "Detecting pretraining data in large language models is challenging because high likelihood can reflect either training exposure or strong generalization. In the joint space of prediction loss and predictive entropy, a likelihood-only detector uses a horizontal boundary and can mistake predictable non-members for members. Motivated by this, we introduce an inclined boundary that evaluates prediction loss relative to predictive entropy. Our analysis shows that entropy correction can preserve the e",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.21888v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T15:16:51.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1nzp1ze",
+   "pri": 45,
+   "kind": "note",
+   "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
+   "ctx": "Occupational accident narratives contain valuable information about work situations, unfavourable conditions, accident events, and their consequences. Automatically structuring these narratives can facilitate large-scale accident analysis and support occupational risk prevention. However, the terminology and writing styles used to describe accidents vary considerably across sectors and organisations, raising questions about the ability of automated coding systems to generalize beyond their train",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.22081v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T17:59:10.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1u1xchm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+   "ctx": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducibility): confident-failure reduction is achievable if and only if retrieval features carry mutual information about success, a condition satisfied by LLM-judge pipelines but substantially weaker in dense-only settings, explaining the AUC-AC gap between regimes. Second (Feature Regime Complementarity)",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.22056v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-21T04:00:50.732Z",
+   "tier": "B",
+   "itemTs": "2026-09-18T17:48:15.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-0653ryr",
    "pri": 45,
@@ -1090,41 +1326,6 @@
    "questions": []
   },
   {
-   "id": "f-gh-releases-anthropics-claude-code-1uie82v",
-   "pri": 30,
-   "kind": "note",
-   "title": "anthropics/claude-code v2.1.277",
-   "ctx": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) Added CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1 for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally Added ",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-anthropics-claude-code",
-   "detectedAt": "2026-09-18T18:31:00.940Z",
-   "tier": "A",
-   "itemTs": "2026-09-18T18:06:32.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 13473,
-    "lead": "anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.7k Star 146k v2.1.277 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 18 Sep 18:06 &middot; 1 commit to main since this release v2.1.277 ca02e7d What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) Added CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1 for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally Added an optional headers: map on Claude apps gateway upstreams, to send static headers to a proxy you run in front of a provider Added a line saying a background task's update is waiting when it finishes while a panel such as /tasks is open Fixed claude -p and Agent SDK sessions that could hang with no result after an internal error; they now report the er",
-    "truncated": false,
-    "title": "Release v2.1.277 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-09-18T18:31:00.940Z",
-    "full": "full/f-gh-releases-anthropics-claude-code-1uie82v.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
    "id": "f-chinatalk-06a726t",
    "pri": 60,
    "kind": "note",
@@ -1895,36 +2096,6 @@
    "questions": []
   },
   {
-   "id": "f-gh-releases-anthropics-claude-code-1u8emdw",
-   "pri": 30,
-   "kind": "note",
-   "title": "anthropics/claude-code v2.1.276",
-   "ctx": "What's changed Fixed every request failing with 400 … Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-anthropics-claude-code",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "A",
-   "itemTs": "2026-09-18T02:12:26.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": false,
-    "reason": "fetch threw: Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits",
-    "fetchedAt": "2026-09-18T02:30:54.704Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
    "id": "f-arxiv-cs.LG-07ckzu9",
    "pri": 45,
    "kind": "note",
@@ -2300,227 +2471,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0xwjw0s",
-   "pri": 45,
-   "kind": "note",
-   "title": "Think Thrice Before Reranking: Multi-perspective Evidence and Reasoning Integration for Text Reranking",
-   "ctx": "Reasoning-based reranking with Large Language Models (LLMs) has shown promising improvements in text ranking. However, current methods predominantly rely on a single reasoning trajectory, resulting in rankings that are susceptible to reasoning errors and inherently constrained in modeling the multifaceted signals underlying document relevance. To resolve this dilemma, we propose MERIT-Rank(Multi-perspective Evidence and Reasoning Integration for Text Reranking), a framework that models complemen",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20131v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T12:24:24.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0yqz086",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Missing Complement: State-Conditioned Minimal Sufficient Evidence for Coding Agents",
-   "ctx": "A coding agent halfway through an issue has already read much of what a retriever ranks highest. Relevance is scored per passage, but sufficiency belongs to the set: a ranker can fill its budget with variants of one required fact and leave the decision unsupported. We formulate state-conditioned minimal sufficient evidence recovery: given a captured agent state, recover a compact evidence combination that supplies the support its next decision still lacks. SERBench measures this on 500 held-out ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20050v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T10:56:47.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-18pif11",
-   "pri": 45,
-   "kind": "note",
-   "title": "Marginal utility, matrix factorization, and the Key-Value (KV) cache: a unified information-economic framework for sovereign geo-mining inference",
-   "ctx": "This paper builds a theoretical bridge between the economic notion of marginal utility and two machine-learning constructs, matrix factorization and the Key--Value cache of transformer language models. The singular value spectrum of a rating matrix is shown to be a diminishing marginal utility schedule for latent factors, the eigenvalue spectrum of the projected covariance operator to be the marginal utility schedule of a model's learned representation, and cache eviction and low-rank cache comp",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20068v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T11:19:58.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1lauwgk",
-   "pri": 45,
-   "kind": "note",
-   "title": "Design of the IBM Granite 5.0 TurboCTC ASR Model",
-   "ctx": "We describe the architecture, training methodology and inference speedups of Granite 5.0 Turbo CTC, a 470 million parameter encoder-only model with an excellent speed-accuracy tradeoff. The architecture uses pyramidal temporal subsampling within Conformer blocks using strided depthwise convolutions, block-diagonal (chunk-wise) self-attention, and conditioning on intermediate predictions from the middle layer. Training highlights are the use of only publicly available data, the novel use of a Muo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20104v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T12:05:58.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1p28hzm",
-   "pri": 45,
-   "kind": "note",
-   "title": "To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals",
-   "ctx": "Speculative Decoding (SD) has significantly accelerated Large Language Model (LLM) inference, yet existing approaches face a fundamental tradeoff between two drafting strategies: neural drafting and context-based copying. Neural drafts (e.g., EAGLE3) provide robust performance across diverse text settings, while copy-based methods achieve higher speedups in copy-intensive regimes by generating candidates faster and exploiting long repetition spans for near-perfect speculation. We analyze existin",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20186v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T12:51:20.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1rqjl5k",
-   "pri": 45,
-   "kind": "note",
-   "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition",
-   "ctx": "SpeechLLMs have shown strong potential for emotion recognition, yet they read the predicted emotion off a generative decoder not suited for classification: it can emit labels outside the target set and favors frequent classes. We propose a discriminative adaptation that reads the final prompt token's hidden state through a classification head, producing a label in one forward pass without modifying the backbone. Because this readout starts from the hidden state the model would otherwise decode, ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20081v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T11:38:44.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-0fdf5m0",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Life sciences verification program",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/life-sciences-verification-program",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-09-17T18:01:58.430Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 8986,
-    "lead": "Announcements Introducing the Life Sciences Verification Program Sep 17, 2026 Today, we are introducing the Life Sciences Verification Program (LSVP), which gives life science professionals access to our Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work. We have already onboarded dozens of organizations through an early access program, and are now opening applications to the broader life science community ( apply here ). The program is launching in beta, initially for teams and institutions. We will continue to improve the program and expand access to individual Pro and Max plans over time. The LSVP is designed to enable life science professionals to use our models across a wide range of tasks that are currently blocked in our generally-available Fable models, like drug discovery, research biology, clinical development, and manufacturing. It’s built for teams of all kinds—from academic labs to startups, pharma companies, and more. Verification and access types To qualify for these grants, each applicant goes through a verification process that includes a review of their research credentials, security standards, and ethical res",
-    "truncated": false,
-    "title": "Introducing the Life Sciences Verification Program \\ Anthropic",
-    "fetchedAt": "2026-09-17T18:01:58.430Z",
-    "full": "full/f-anthropic-news-0fdf5m0.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-cascade-1w0xr0l",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"models llms\" — 3 independent sources in 23h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 23 hours, in 19 items (0.2% of the window — below the 15% background threshold).\n\n• reddit — Can current MiniCPM5-2B/any best SOTA under 10B + modern harness beat pre-March 2025 front\n• arxiv — Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud \n• huggingface-papers — A Zeroth-Order Paradigm for LLM Preference Alignment\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wi60d8/can_current_minicpm52bany_best_sota_under_10b/",
-     "primary": true
-    },
-    {
-     "label": "Open arxiv",
-     "href": "https://arxiv.org/abs/2609.18283v1",
-     "primary": false
-    },
-    {
-     "label": "Open huggingface-papers",
-     "href": "https://huggingface.co/papers/2609.19144",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-17T05:30:58.124Z",
-   "tier": "X",
-   "families": [
-    "reddit",
-    "arxiv",
-    "huggingface-papers"
-   ],
-   "roots": [
-    "reddit",
-    "arxiv",
-    "huggingface"
-   ],
-   "sub": "cascade shape · reddit, arxiv, huggingface",
-   "extract": {
-    "ok": false,
-    "reason": "extracted text is markup/template, not prose",
-    "fetchedAt": "2026-09-17T05:30:58.124Z"
-   },
-   "clock": "daily",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2536,11 +2486,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 92,
-   "daily": 8
+   "slow": 96,
+   "daily": 4
   },
-  "routed": 31,
-  "unrouted": 69,
+  "routed": 30,
+  "unrouted": 70,
   "unmappedLaneFamilies": []
  }
 }
