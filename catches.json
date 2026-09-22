@@ -1,57 +1,1718 @@
 {
- "generatedAt": "2026-09-22T00:31:16.462Z",
+ "generatedAt": "2026-09-22T06:01:24.790Z",
  "count": 100,
  "catches": [
   {
-   "id": "f-cascade-1fbhs2o",
-   "pri": 4,
+   "id": "f-arxiv-cs.CL-01zuqzt",
+   "pri": 45,
    "kind": "note",
-   "title": "Cascade forming: \"bonsai 27b\" — 3 independent sources in 64h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 64 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• openrouter — PrismML: Ternary Bonsai 2 27B\n• reddit — Bonsai 2 27b Q2 - Donkey making coffee svg and a mushroom riding a donkey\n• huggingface-models — W-Zil/Bonsai_2_27b_VL_Uncensored-Heretic-PTQ1_0\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
+   "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+   "ctx": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate",
    "acts": [
     {
-     "label": "Open openrouter",
-     "href": "https://openrouter.ai/prism-ml/ternary-bonsai-2-27b",
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24983v1",
      "primary": true
-    },
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wjt5f3/bonsai_2_27b_q2_donkey_making_coffee_svg_and_a/",
-     "primary": false
-    },
-    {
-     "label": "Open huggingface-models",
-     "href": "https://huggingface.co/W-Zil/Bonsai_2_27b_VL_Uncensored-Heretic-PTQ1_0",
-     "primary": false
     }
    ],
    "source": "feed",
    "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-21T07:00:53.843Z",
-   "tier": "X",
-   "families": [
-    "openrouter",
-    "reddit",
-    "huggingface-models"
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:56:53.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-05j61n5",
+   "pri": 45,
+   "kind": "note",
+   "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+   "ctx": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-d",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24972v1",
+     "primary": true
+    }
    ],
-   "roots": [
-    "openrouter",
-    "reddit",
-    "huggingface"
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:54:49.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-05zyazz",
+   "pri": 45,
+   "kind": "note",
+   "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+   "ctx": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time gui",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24974v1",
+     "primary": true
+    }
    ],
-   "sub": "cascade shape · openrouter, reddit, huggingface",
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:55:20.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0hwxwmj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+   "ctx": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce realistic constraints that make compliance with the verification protocol incompatible with reward maximization, and find that agents increasingly deviate from th",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24967v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:52:48.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0l6q8dt",
+   "pri": 45,
+   "kind": "note",
+   "title": "ToneCL: Contrastive Learning for Few-Shot Syllable-Level Tone Classification",
+   "ctx": "Tone languages constitute over 50-70% of the world's languages, but the vast majority are low-resource, lacking the large transcribed corpora needed for automatic tone classification. Existing datasets are typically collected at the sentence level, whereas field linguists require fine-grained syllable-level annotations. We propose ToneCL, a lightweight contrastive learning framework for few-shot syllable-level tone classification. We simulate low-resource conditions on Mandarin and Vietnamese, l",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24903v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:09:21.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0lm3tk5",
+   "pri": 45,
+   "kind": "note",
+   "title": "Linguistic Features for Interpretable Textual Entailment",
+   "ctx": "Despite the success of neural models in natural language processing, their black-box nature limits interpretability and conceals the linguistic phenomena underlying their predictions. We present SLITE, an explainable hybrid model for Recognizing Textual Entailment that integrates two complementary layers of semantic analysis: a structural-relational layer, based on semantic compatibility and incompatibility between compositional entities, and a distributional-informational layer, based on struct",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24932v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:26:30.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0osi6wy",
+   "pri": 45,
+   "kind": "note",
+   "title": "SocioVerse2: A Longitudinal Dynamic Social Simulation Framework under a Human-AI Co-evolutionary Paradigm",
+   "ctx": "Social simulation offers the social sciences an experimental instrument that the real world cannot supply, and generative agents have transformed it by acting as silicon samples that unite agent-based modeling with real behavioral data. Existing platforms verify collective behavior, align simulated populations with real societies in cross-sections, and employ autonomous agents for the research process. However, two social science requirements remain without systematic support: intervention in th",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24911v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:14:09.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0tttb8h",
+   "pri": 45,
+   "kind": "note",
+   "title": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences",
+   "ctx": "Scientific workflows often require choosing among known relations before a deterministic calculation can proceed. Whether observations share a culture, treatment or reference standard can change the scientific meaning of the resulting count or comparison. We evaluate Jev as a semantic decision component using a harness that follows its documented guidance and assigns arithmetic to code. The study compares twelve model configurations on twenty source-grounded Choices across ten scientific cases, ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24965v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:51:50.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-1aut7qf",
+   "pri": 45,
+   "kind": "note",
+   "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+   "ctx": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24985v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:57:20.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-1loh1xo",
+   "pri": 18,
+   "kind": "note",
+   "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+   "ctx": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24971v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T05:00:55.626Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:54:35.000Z",
+   "sub": "arXiv cs.CL · introduces \"Pareto Frontier\"",
    "extract": {
     "ok": true,
-    "chars": 1400,
-    "lead": "Providers Providers This model is hosted by one provider. OpenRouter forwards every request to it directly — no routing decisions to make. Pricing The average price customers actually pay for this model, next to the prices providers post. Caching and discounts mean the price actually paid is often well below the listed one. Performance Throughput is how fast the model writes (tokens per second — higher is better). Latency is total round-trip time (lower is better). TTFT is time-to-first-token — how long before you see anything appear (lower is better). Uptime Uptime is the percentage of the past 3 days that at least one provider was responding to requests. Availability is the percentage of time that inference was successfully served. OpenRouter continuously monitors and uses the next-best provider when one returns an error. Apps Public apps that send the most traffic to this model. Good signal for what real production workloads look like — and a hint at which use cases this model is best suited for. Activity Token volume and request traffic to this model over time. Quick Start Drop-in code to call this model. OpenRouter's API is OpenAI-compatible — most SDKs work by just swapping t",
+    "chars": 4098,
+    "lead": "Computer Science > Computation and Language arXiv:2609.24971v1 (cs) [Submitted on 21 Sep 2026] Title: DolphinBench: Mapping the Pareto Frontier of Agent Memory Authors: Soumil Rathi , Deshraj Yadav , Taranjeet Singh View a PDF of the paper titled DolphinBench: Mapping the Pareto Frontier of Agent Memory, by Soumil Rathi and 2 other authors View PDF HTML (experimental) Abstract: Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that evaluates memory directly through an agent's task completion. DolphinBench includes three knowledge-work personas with roughly 500k tokens of user messages per persona and evaluates agents on tasks that depend on information from that history. We verify all 200 tasks per persona by running an agent with and without t",
     "truncated": false,
-    "title": "Ternary Bonsai 2 27B - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-21T07:00:53.843Z",
-    "full": "full/f-cascade-1fbhs2o.txt"
+    "title": "[2609.24971v1] DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+    "fetchedAt": "2026-09-22T05:00:55.626Z",
+    "full": "full/f-arxiv-cs.CL-1loh1xo.txt"
    },
-   "clock": "daily",
+   "clock": "slow",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-05j61n5",
+   "pri": 45,
+   "kind": "note",
+   "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+   "ctx": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-d",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24972v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:54:49.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-05zyazz",
+   "pri": 45,
+   "kind": "note",
+   "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+   "ctx": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time gui",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24974v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:55:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0hv8mt1",
+   "pri": 45,
+   "kind": "note",
+   "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+   "ctx": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore cannot directly model these contact dynamics. We present DexTacWAM, a visuo-tactile WAM that encodes each fingertip independently, aggregates the resulting features through a finger- and pose-aware tactile compressor, and injects the tactile latent i",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24976v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:55:24.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
    "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0hwxwmj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+   "ctx": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce realistic constraints that make compliance with the verification protocol incompatible with reward maximization, and find that agents increasingly deviate from th",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24967v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:52:48.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0mcfd8t",
+   "pri": 45,
+   "kind": "note",
+   "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+   "ctx": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.25001v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:59:33.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0tttb8h",
+   "pri": 45,
+   "kind": "note",
+   "title": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences",
+   "ctx": "Scientific workflows often require choosing among known relations before a deterministic calculation can proceed. Whether observations share a culture, treatment or reference standard can change the scientific meaning of the resulting count or comparison. We evaluate Jev as a semantic decision component using a harness that follows its documented guidance and assigns arithmetic to code. The study compares twelve model configurations on twenty source-grounded Choices across ten scientific cases, ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24965v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:51:50.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0zyiz5m",
+   "pri": 45,
+   "kind": "note",
+   "title": "Generative Tutorial: Towards Live Contextualized Visual Instructions for Physical Tasks",
+   "ctx": "Visual instructions for physical tasks are typically authored in one context and followed in another, requiring users to translate demonstrated tools, materials, and spatial relationships into their own environment. We introduce Generative Tutorial, a conceptual framework for live visual instruction that depicts intended outcomes and actions within the user's environment and task flow. A formative evaluation of state-of-the-art image and video generation identifies failures and potential benefit",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24955v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:46:25.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-138nb2g",
+   "pri": 45,
+   "kind": "note",
+   "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+   "ctx": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditione",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24984v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:57:06.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1gyqs25",
+   "pri": 45,
+   "kind": "note",
+   "title": "Rare Event Estimation via Iterative Unalignment",
+   "ctx": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from stochastic variation in the agent's own actions. Estimating this type of risk requires searching over the combinatorially vast space of trajectories. Naive Mont",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24969v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:53:38.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1loh1xo",
+   "pri": 18,
+   "kind": "note",
+   "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+   "ctx": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24971v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:54:35.000Z",
+   "sub": "arXiv cs.AI · introduces \"Pareto Frontier\"",
+   "extract": {
+    "ok": true,
+    "chars": 4098,
+    "lead": "Computer Science > Computation and Language arXiv:2609.24971v1 (cs) [Submitted on 21 Sep 2026] Title: DolphinBench: Mapping the Pareto Frontier of Agent Memory Authors: Soumil Rathi , Deshraj Yadav , Taranjeet Singh View a PDF of the paper titled DolphinBench: Mapping the Pareto Frontier of Agent Memory, by Soumil Rathi and 2 other authors View PDF HTML (experimental) Abstract: Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that evaluates memory directly through an agent's task completion. DolphinBench includes three knowledge-work personas with roughly 500k tokens of user messages per persona and evaluates agents on tasks that depend on information from that history. We verify all 200 tasks per persona by running an agent with and without t",
+    "truncated": false,
+    "title": "[2609.24971v1] DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+    "fetchedAt": "2026-09-22T04:30:50.030Z",
+    "full": "full/f-arxiv-cs.AI-1loh1xo.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-01zuqzt",
+   "pri": 45,
+   "kind": "note",
+   "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+   "ctx": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24983v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:56:53.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-05j61n5",
+   "pri": 45,
+   "kind": "note",
+   "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+   "ctx": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-d",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24972v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:54:49.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-07vjjs1",
+   "pri": 45,
+   "kind": "note",
+   "title": "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift",
+   "ctx": "In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile regression with sparse ReLU neural networks. We also consider covariate shift, where the calibration and test covariates have different distributions, and derive nonasymptotic bounds for this setting. ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24929v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:24:00.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0t5clxy",
+   "pri": 45,
+   "kind": "note",
+   "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+   "ctx": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of end-state performance lacks transparency into how and why agents fail in various tasks, obfuscating critical insight for subsequent improvement. For instance, agents that err during keyboard inputs would require a different mitigation strategy from those that fail to precisely prov",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24890v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T16:55:24.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-0xnk578",
+   "pri": 45,
+   "kind": "note",
+   "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
+   "ctx": "On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their personal nature (i.e., the close coupling to a particular user) means that a given on-device LLM tends to be used in similar, predictable patterns over the course of time. This paper presents a novel me",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24979v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:55:48.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0yp1lmh",
+   "pri": 45,
+   "kind": "note",
+   "title": "JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization",
+   "ctx": "Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufacturing. In practice, however, characterization still relies largely on factorial design of experiments (DOE) approaches, which are inefficient for resolving multivariate pass/fail boundaries in higher-dimensional spaces. While Bayesian optimization ha",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24954v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:46:19.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-10h0iby",
+   "pri": 45,
+   "kind": "note",
+   "title": "Exactness at Inference: A Representational Criterion for Out-of-Distribution Generalization",
+   "ctx": "A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for exactness in and out of distribution, and extrapolation is governed by this exactness at inference, whatever its realization. Tensor Logic shows this: a zero-temperature contraction is equivalent to discrete logic, deducing in place with no artefact extracted, its tensors Boolean, its",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24942v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:39:51.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1aut7qf",
+   "pri": 45,
+   "kind": "note",
+   "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+   "ctx": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24985v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:57:20.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-1gyqs25",
+   "pri": 45,
+   "kind": "note",
+   "title": "Rare Event Estimation via Iterative Unalignment",
+   "ctx": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from stochastic variation in the agent's own actions. Estimating this type of risk requires searching over the combinatorially vast space of trajectories. Naive Mont",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24969v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:53:38.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-1mzov7t",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning Physics from an Imperfect Ancestor",
+   "ctx": "Neural operators evaluate parametric partial differential equations cheaply but degrade sharply outside their training distribution. Physics-informed neural networks avoid dependence on labeled data, yet their optimization can be basin-fragile: when the governing residual admits multiple solutions, a PINN trained from scratch may converge to a physically incorrect state despite achieving a small residual. We show that these failure modes can be addressed jointly: an imperfect NO provides the str",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24947v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T04:30:50.030Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T17:42:17.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-038f56v",
+   "pri": 45,
+   "kind": "note",
+   "title": "Fathom-Vaidya: Advancing Medical Reasoning with Rubric-Based Rewards",
+   "ctx": "Deploying Large Language Models (LLMs) in healthcare requires robust performance across two complementary dimensions - diagnostic reasoning: the convergent, evidence-driven task of inferring a patient's condition from clinical data to produce a diagnosis, and clinical healthcare reasoning: the broader, navigational judgment required to communicate, plan, and adapt across multi-turn clinical interactions where a single correct answer may not exist. Recent benchmarks such as HealthBench and MedXpe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24480v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:19:50.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-05cevb7",
+   "pri": 45,
+   "kind": "note",
+   "title": "QLoRA Fine-Tuning of Ministral LLM for Sequence-to-Function Protein Annotation",
+   "ctx": "Functional annotation of newly sequenced proteins remains a bottleneck in molecular biology: the number of sequences in public repositories grows far faster than the capacity for manual curation. Most computational approaches consider annotation as multi-label classification over a fixed ontology, which constrains predictions to a predefined label set. In this work we study the the protein annotation as a sequence-to-text generation problem. We fine-tune the 3B-parameter Ministral 3 base model w",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24538v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T13:09:59.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0gon1k2",
+   "pri": 45,
+   "kind": "note",
+   "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+   "ctx": "Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories. However, useful teacher guidance can yield a noisy update when its gradient is estimated from a sampled next token. We study this estimation problem at a fixed prefix in information geometry and propose an information-efficiency ratio (IER) based on a signal-to-noise decomposition. IER characterizes relative gradient estimation error under an optimal scalar baseline. A",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24432v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T11:28:24.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0hqlnl1",
+   "pri": 45,
+   "kind": "note",
+   "title": "Toward a Unified Mathematics of Concepts",
+   "ctx": "Concepts are commonly defined as abstract, compact representations of knowledge and treated as basic units of intelligent behavior. Yet, cognition, psychology, and AI lack a shared mathematical language for them. Modern systems represent concepts as vectors, distributions, symbols, graphs, and other structures, but these formalisms are typically treated as competing rather than as solutions to a common problem. We propose an operation-based view that evaluates mathematical frameworks by the conc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24554v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T13:19:13.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0sh1qhv",
+   "pri": 45,
+   "kind": "note",
+   "title": "LLJ Cards: Best practices for the Use of LLMs as Judges",
+   "ctx": "In recent years, large language models (LLMs) have emerged as a popular alternative for evaluation. Often referred to as LLMs as judges (LLJs), these systems have been widely adopted by researchers and practitioners across a broad range of measurement tasks, driven by their strong performance, scalability, and cost-effectiveness relative to human judgment. However, a growing body of work has shown that the use of LLJs raise concerns about their validity and reliability as evaluators. Existing ef",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24516v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:54:07.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0uchma7",
+   "pri": 45,
+   "kind": "note",
+   "title": "Morpho-VITS: Variational Inference with Morphological Modeling for End-to-End Speech Synthesis of a Tonal Bantu Language",
+   "ctx": "Text-to-speech models for Bantu tonal languages are challenged by a tonal system that is rooted in both the lexis (i.e., the inventory of words, stems, and affixes) and the grammar (i.e., morpho-syntax). To complicate matters, the standard writing systems of these languages often omit tone markings and syllable duration information, which must be disambiguated by the reader based on context. Motivated by linguistic descriptions of Bantu language tone systems, we propose an end-to-end text-to-spe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24310v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T09:08:09.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0yd4r7q",
+   "pri": 45,
+   "kind": "note",
+   "title": "Mitigating Entity Type Confusion in Cross-Domain NER via Multidimensional Quantification and Reasoning Enhancement",
+   "ctx": "Cross-domain Named Entity Recognition (CD-NER) aims to transfer the rich knowledge in the source domain to the target domain. Recent studies adopting decomposition or generation paradigms have achieved significant performance improvements, demonstrating high accuracy in entity span detection. However, during entity type classification, models severely suffer from entity type confusion, the erroneous tendency that models classify entities of one type in the text as another similar but incorrect t",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24357v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T09:46:59.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1ezaoze",
+   "pri": 45,
+   "kind": "note",
+   "title": "End-to-end Jordanian dialect speech-to-text self-supervised learning framework",
+   "ctx": "Speech-to-text engines are extremely needed nowadays for different applications, representing an essential enabler in human-robot interaction. Still, some languages suffer from the lack of labeled speech data, especially in the Arabic dialects or any low-resource languages. The need for a self-supervised training process and self-training using noisy training is proven to be one of the up-and-coming feasible solutions. This article proposes an end-to-end, transformers-based model with a framewor",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24410v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T11:01:00.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1iluecj",
+   "pri": 45,
+   "kind": "note",
+   "title": "SupportCal: Label-Free Calibration of Post-Trained LLMs via Reference Support and Corroboration",
+   "ctx": "Post-training often improves task performance but can degrade confidence calibration, leaving post-trained language models (PoLMs) more overconfident than their corresponding pretrained language models (PLMs). Because task-specific labeled calibration data can be costly or unavailable, the corresponding pretrained PLM provides a natural label-free reference for post-hoc calibration. Prior agreement-gated PLM-referenced calibration fits a scalar temperature using only examples on which the PoLM a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24303v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T09:02:41.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1sn59pj",
+   "pri": 45,
+   "kind": "note",
+   "title": "URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER",
+   "ctx": "In-context learning (ICL) based on large language models (LLMs) has shown promising potential in alleviating performance bottlenecks caused by the limited availability of annotated data in Named Entity Recognition (NER). However, existing methods still face issues of retrieval misalignment and generation uncertainty, making their performance heavily dependent on the LLM's capabilities. As the parameter scale of LLMs decreases, their performance in few-shot settings deteriorates significantly. In",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24372v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T04:00:53.402Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T10:04:43.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-038f56v",
+   "pri": 45,
+   "kind": "note",
+   "title": "Fathom-Vaidya: Advancing Medical Reasoning with Rubric-Based Rewards",
+   "ctx": "Deploying Large Language Models (LLMs) in healthcare requires robust performance across two complementary dimensions - diagnostic reasoning: the convergent, evidence-driven task of inferring a patient's condition from clinical data to produce a diagnosis, and clinical healthcare reasoning: the broader, navigational judgment required to communicate, plan, and adapt across multi-turn clinical interactions where a single correct answer may not exist. Recent benchmarks such as HealthBench and MedXpe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24480v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:19:50.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-05cevb7",
+   "pri": 45,
+   "kind": "note",
+   "title": "QLoRA Fine-Tuning of Ministral LLM for Sequence-to-Function Protein Annotation",
+   "ctx": "Functional annotation of newly sequenced proteins remains a bottleneck in molecular biology: the number of sequences in public repositories grows far faster than the capacity for manual curation. Most computational approaches consider annotation as multi-label classification over a fixed ontology, which constrains predictions to a predefined label set. In this work we study the the protein annotation as a sequence-to-text generation problem. We fine-tune the 3B-parameter Ministral 3 base model w",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24538v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T13:09:59.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-064tdui",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents",
+   "ctx": "AI agents are being deployed rapidly, accompanied by a growing number of AI-specific attacks and corresponding incidents. As incident reporting becomes increasingly important for legal compliance, governance, accountability, and security; current frameworks must be adapted to the unique characteristics of AI agents. In this paper, two editorial authors compare AI systems and AI agents and, drawing on input from 23 experts in academia and industry, identify the information required for reporting ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24515v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:53:51.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0a4fqx2",
+   "pri": 45,
+   "kind": "note",
+   "title": "The Endless Exam: Mathematical Constructions from Today's Models toward Superintelligence",
+   "ctx": "We introduce the Endless Exam, a benchmark for measuring mathematical progress from today's models toward artificial superintelligence through fourteen parameterised construction families. Each submitted object is checked automatically for validity and assigned a relative quality score against a published frontier or construction baseline, without capping improvements at $1$. The families draw on open mathematical problems for long-term targets and generate new instances at larger parameters, wh",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24555v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T13:19:36.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0e22ze4",
+   "pri": 45,
+   "kind": "note",
+   "title": "Conduit: An Experience Data Plane for Distributed Reinforcement Learning",
+   "ctx": "Distributed reinforcement learning (RL) scales training by parallelizing actors and learners around an Experience Buffer. As RL workloads grow, however, the buffer becomes more than a replay queue: it is the storage substrate of a large-capacity, latency-critical experience path that every iteration traverses to move, transform, sample, and batch experiences before learner updates can begin. Existing RL systems embed this path inside framework control flow or expose it as a request-driven buffer",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24456v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:02:41.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ik4410",
+   "pri": 45,
+   "kind": "note",
+   "title": "On Emergent Capabilities and Model Merging",
+   "ctx": "Fine-tuned checkpoints and adapters now fill public repositories, and the most common operation applied to these artifacts is model merging: arithmetic on their weights that assembles capabilities cheaply. We ask what this operation does to emergent capabilities: behaviors an artifact carries that were never an explicit training target. Studying two independent testbeds (activation oracles and emergent-misaligned models) across three model families, we find that the answer is threefold. First, m",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24504v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:44:35.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ts1z84",
+   "pri": 45,
+   "kind": "note",
+   "title": "Not All Task Vectors Need Equal Rank: Energy-Proportional Allocation for Model Merging",
+   "ctx": "Model merging aims to combine multiple fine-tuned models derived from a common pretrained model into a single multi-task model without additional joint training. Recent spectral merging methods improve over simple weight averaging by exploiting low-rank structures of task-specific updates, but they commonly assign the same rank capacity to every task. This uniform allocation ignores that task vectors can have heterogeneous spectral complexity, causing the shared merging space to be used suboptim",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24517v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:54:45.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ibapc4",
+   "pri": 45,
+   "kind": "note",
+   "title": "VPRune: Efficient Training-free Pre-LLM Visual Token Pruning",
+   "ctx": "Visual token pruning is a promising approach to reducing the inference cost of large vision-language models (LVLMs), yet aggressive token reduction often causes substantial performance degradation. We identify three key factors behind this degradation: text-guided selection bias, information loss from discarded tokens, and positional distortion caused by sequence compaction. Based on these observations, we propose \\textbf{VPRune}, a training-free pre-LLM pruning framework consisting of visual-on",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24485v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:24:39.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1j8t0g0",
+   "pri": 45,
+   "kind": "note",
+   "title": "Lifted Bellman Linear Programming for Offline Reinforcement Learning",
+   "ctx": "Offline reinforcement learning (RL) typically trains a critic by minimizing a regression loss against bootstrapped value targets stabilized by target networks with exponential moving average (EMA) updates. Multi-step targets incorporate behavior-policy actions and therefore require off-policy correction. We instead impose in-sample Bellman optimality on the critic through inequality constraints. We formulate the Lifted Bellman Linear Program (LBLP), which lifts the linear programming characteriz",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24489v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:27:23.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1u6l156",
+   "pri": 45,
+   "kind": "note",
+   "title": "AgentSTAR: Agentic Shape Tracking and Reconstruction from Monocular Videos",
+   "ctx": "In this work, we present a method for shape reconstruction and tracking from video via agentic analysis-by-synthesis. Unlike prior methods which first estimate dense pixel correspondences and then recover object motion from them, our method infers a structured 3D object model, including its geometry and kinematic structure, and uses this model to optimise object track estimates over time. In our optimisation loop, a Vision-Language Model (VLM) agent iteratively refines shape or generalised pose ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24487v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:26:13.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-06sds49",
+   "pri": 45,
+   "kind": "note",
+   "title": "Knowing When to Trust Images: Reliability-Aware Multi-modal Entity Alignment",
+   "ctx": "The visual modality, i.e., images, plays a key role in multi-modal entity alignment (MMEA). Existing approaches often directly fuse the image with other modalities to align different entities. Although simple, such strategies overlook the potential noise in the images and their semantic misalignment with corresponding entities, resulting in suboptimal fusion and degraded performance. Addressing this, we propose a novel Reliability-Aware framework for MMEA (RA-MMEA), which assesses visual reliabi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23267v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-20T00:55:40.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0bm3xjm",
+   "pri": 45,
+   "kind": "note",
+   "title": "ChemCLIR-Bench: Benchmarking Cross-Lingual Information Retrieval in Multilingual Chemical Patents",
+   "ctx": "Cross-lingual information retrieval (CLIR) is increasingly important in multi-national industries, where critical technical evidence may exist in a different language than the query. However, existing benchmarks do not adequately capture domain-specific cross-lingual retrieval or the retrieval-depth and recoverability failures that aggregate recall hides. In this work, we benchmark CLIR in the chemical domain, with a focus on patent data. We construct a multilingual dataset from Google Patents a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23231v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-19T22:18:58.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0hg4w91",
+   "pri": 45,
+   "kind": "note",
+   "title": "Machine-Interpretable Information: Compiling Documents into Searchable and Readable Protocol States",
+   "ctx": "Long-context language models interface with external knowledge through raw natural language. In retrieval-augmented systems, this creates a persistent index-payload schism: dense vectors enable searchable routing, but models must re-ingest lengthy text payloads for reasoning at O(N^2) attention cost. Existing compression methods further produce private states tied to specific architectures. We introduce Machine-Interpretable Information (MII), the first agent-to-agent (A2A) document-to-state pro",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23371v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-20T05:43:16.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0iitw0t",
+   "pri": 45,
+   "kind": "note",
+   "title": "Euston: Training Away Mathematical Sycophancy Without Losing the Mathematics",
+   "ctx": "Reasoning language models are trained to produce solutions, not to refuse them, and this bias persists when the problem they are handed is false. Asked to prove a corrupted theorem, a strong model will typically comply and produce a confident derivation of something untrue. We present Euston, an 8B mathematical claim-verification model trained to resist exactly this. Training data were generated with GraphSynth, a probabilistic factor-graph generator that couples attribute-level diversity to dec",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23205v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-19T20:26:44.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0l1wus6",
+   "pri": 45,
+   "kind": "note",
+   "title": "LLM-Based FORM Code Generation with Verification-Driven Fine-Tuning",
+   "ctx": "FORM is a domain-specific symbolic manipulation language widely used in particle physics for processing the very large algebraic expressions arising from multi-loop Feynman diagram calculations. Despite its central role in precision theoretical physics, no artificial-intelligence tooling exists, to our knowledge, for assisting physicists in writing FORM code. We show that contemporary large language models (LLMs), including frontier models with hundreds of billions of parameters, achieve a zero-",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23367v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-20T05:25:09.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0sps19n",
+   "pri": 18,
+   "kind": "note",
+   "title": "One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents",
+   "ctx": "Repository-level software engineering (SWE) comprises heterogeneous task categories, whose progress under pooled agentic reinforcement learning can be uneven: gains in some categories coincide with regressions in others, while aggregate resolution obscures these changes. Motivated by this category see-saw, we develop a category-aware expert-training and policy-integration framework. Executable task construction and SWE Labeler, an evidence-grounded multi-axis labeling system, organize the traini",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23377v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-20T05:58:21.000Z",
+   "sub": "arXiv cs.CL · introduces \"Software Engineering\"",
+   "extract": {
+    "ok": true,
+    "chars": 4851,
+    "lead": "Computer Science > Software Engineering arXiv:2609.23377v1 (cs) [Submitted on 20 Sep 2026] Title: One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents Authors: Jie Zhao , Ziyu Jiang , Suhang Zheng , Minghui Shan , Xiaoxiao Xu , Lin Qu View a PDF of the paper titled One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents, by Jie Zhao and 5 other authors View PDF HTML (experimental) Abstract: Repository-level software engineering (SWE) comprises heterogeneous task categories, whose progress under pooled agentic reinforcement learning can be uneven: gains in some categories coincide with regressions in others, while aggregate resolution obscures these changes. Motivated by this category see-saw, we develop a category-aware expert-training and policy-integration framework. Executable task construction and SWE Labeler, an evidence-grounded multi-axis labeling system, organize the training pools. Initial category-specific RL improves average training success while leaving uneven instance-level progress, motivating explicit consolidation of successful behavior and policy-adaptive task selection. Same-",
+    "truncated": false,
+    "title": "[2609.23377v1] One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents",
+    "fetchedAt": "2026-09-22T03:00:51.632Z",
+    "full": "full/f-arxiv-cs.CL-0sps19n.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0vp3r10",
+   "pri": 45,
+   "kind": "note",
+   "title": "Judging a Review by its Cover: A Reliability Analysis of LLM-based Peer Review Evaluation Metrics",
+   "ctx": "Peer-review evaluation is increasingly being automated with LLM-as-a-judge metrics, but this creates a measurement risk. A review may receive a high score because it is fluent, organized, and polished, rather than because it provides a strong evaluation of the paper. This risk is especially important in AI-assisted reviewing, where reviewers may use LLMs to improve clarity or presentation while preserving the underlying judgments. We propose a statistical framework for testing whether peer-revie",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23264v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-20T00:49:57.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-14bodru",
+   "pri": 45,
+   "kind": "note",
+   "title": "Enhancing speech representation learning with cross-modal knowledge transfer with HGNN under low resource settings: the case study of Yemba",
+   "ctx": "Acoustic representation learning is crucial for speech processing, yet low-resource languages (LRLs) face severe data scarcity, limiting the effectiveness of traditional and self-supervised methods. As a promising alternative, in this work, we propose to enhance acoustic representation trough a cross-modal transfer knowledge approach, based on heterogeneous graph neural networks (HGNNs), where acoustic and linguistic entities are modeled as distinct node types within a unified graph. Through mes",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23194v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-19T19:43:46.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1mj74sa",
+   "pri": 45,
+   "kind": "note",
+   "title": "SoK: Formal Methods for Fact-Checking and Information Integrity",
+   "ctx": "An automated fact-checking system returns a label: the claim is true, or it is false. In many such systems the verdict remains the primary output. What is generally missing is a record of which document settled the question, of what would have had to be different for the verdict to change, or of whether the same claim, reworded, would have been judged the same way. We call the missing piece a warrant: a separate statement of what was guaranteed and on what grounds. Formal methods produce evidenc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23239v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-19T22:41:50.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1w3siqu",
+   "pri": 45,
+   "kind": "note",
+   "title": "CTRL: Control-Based Time Series Forecasting with LLM-Guided Residual Learning",
+   "ctx": "Time series forecasting underpins critical decision-making across diverse domains. While large language models (LLMs) offer promising reasoning capabilities, existing LLM-based time series forecasting approaches either reduce them to numerical predictors that bypass their strengths, or allow direct forecast generation that destabilizes predictions in non-stationary settings. We introduce CTRL, a framework that decouples semantic reasoning from quantitative prediction. A frozen backbone generates",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.23257v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-20T00:10:06.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-02zcj2h",
+   "pri": 45,
+   "kind": "note",
+   "title": "RAILS: Retrieval-Augmented Incremental LLM Clustering at Scale",
+   "ctx": "Using a Large Language Model (LLM) as the clusterer at production scale is hard: prompts cannot hold the entire label space, and per-document serial processing does not deliver the throughput real workloads require. We present RAILS, a retrieval-augmented incremental LLM clusterer that turns clustering into a simple loop over a growing label pool and scales through document batching with bounded concurrency. On six public benchmarks RAILS exceeds the strongest prior LLM-clustering method on aver",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24464v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:08:13.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-038f56v",
+   "pri": 45,
+   "kind": "note",
+   "title": "Fathom-Vaidya: Advancing Medical Reasoning with Rubric-Based Rewards",
+   "ctx": "Deploying Large Language Models (LLMs) in healthcare requires robust performance across two complementary dimensions - diagnostic reasoning: the convergent, evidence-driven task of inferring a patient's condition from clinical data to produce a diagnosis, and clinical healthcare reasoning: the broader, navigational judgment required to communicate, plan, and adapt across multi-turn clinical interactions where a single correct answer may not exist. Recent benchmarks such as HealthBench and MedXpe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24480v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:19:50.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-09ss5mn",
+   "pri": 45,
+   "kind": "note",
+   "title": "WPBench: A Comprehensive Benchmark for Wind Power Forecasting",
+   "ctx": "Accurate, reliable, and deployable wind power forecasting is critical for power system dispatch, renewable energy integration, and electricity market operations. Progress in this field hinges on the ability to empirically and comprehensively benchmark forecasting methods. Yet existing benchmarks fall short of supporting systematic evaluation in four key aspects: 1) limited coverage of wind power scenarios across turbine scale, variable composition, and spatial structure; 2) incomplete coverage o",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24444v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T11:41:15.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0ik4410",
+   "pri": 45,
+   "kind": "note",
+   "title": "On Emergent Capabilities and Model Merging",
+   "ctx": "Fine-tuned checkpoints and adapters now fill public repositories, and the most common operation applied to these artifacts is model merging: arithmetic on their weights that assembles capabilities cheaply. We ask what this operation does to emergent capabilities: behaviors an artifact carries that were never an explicit training target. Studying two independent testbeds (activation oracles and emergent-misaligned models) across three model families, we find that the answer is threefold. First, m",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24504v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:44:35.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0rw2hz8",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Temporal Knowledge Graph for Music Festival Lineup Forecasting",
+   "ctx": "Music festival lineups emerge from complex relationships among artists, genres, releases, labels, and past performances, making the prediction of future lineups a natural fit for temporal knowledge graph (TKG) forecasting. In this work, we present a TKG covering 380 festivals over 55 years, comprising more than 90K festival performance quadruples along with information on festivals, artist tours, and artist metadata, and release it as a resource for TKG forecasting evaluation. We formalize festi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24467v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:09:57.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-0ts1z84",
+   "pri": 45,
+   "kind": "note",
+   "title": "Not All Task Vectors Need Equal Rank: Energy-Proportional Allocation for Model Merging",
+   "ctx": "Model merging aims to combine multiple fine-tuned models derived from a common pretrained model into a single multi-task model without additional joint training. Recent spectral merging methods improve over simple weight averaging by exploiting low-rank structures of task-specific updates, but they commonly assign the same rank capacity to every task. This uniform allocation ignores that task vectors can have heterogeneous spectral complexity, causing the shared merging space to be used suboptim",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24517v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:54:45.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0xmn5v5",
+   "pri": 45,
+   "kind": "note",
+   "title": "MECAIL: Communication-Aware Incremental Learning for Object Detection with 14.6 KB Spatiotemporal Experts",
+   "ctx": "Intelligent transportation systems require Incremental Learning (IL) to continually improve their overall performance in dynamic environments. However, most edge devices lack the computational resources to support on-device IL, requiring updates to be transmitted from centralized servers. We propose using this setup to obtain dense, specialized module coverage that adapts a fixed base model to specific spatiotemporal contexts, such as parking lots, gas stations, ferries, or construction sites. H",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24455v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:02:35.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-162ldr3",
+   "pri": 45,
+   "kind": "note",
+   "title": "Identifying Representational Biases in Datasets Using PCA: A Max-Disparity Partition Framework",
+   "ctx": "Principal Component Analysis (PCA) minimises aggregate reconstruction error, which can inadvertently represent majority subgroups with substantially higher fidelity than minority subgroups. Fairness-aware extensions of PCA correct this disparity but require group labels as input. We address the logically prior question: given only a data matrix, which binary partition of the data suffers the greatest representational disparity under a shared PCA projection? We formalise this as the max-disparity",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24556v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T13:19:41.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1ijs3ta",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond Point Prediction: Artificial Representative Trees with Uncertainty",
+   "ctx": "Random forests (RFs) predict well but are opaque, whereas single decision trees are interpretable but unstable. Artificial representative trees (ARTs) were developed as interpretable surrogate models for RFs, but their use as standalone prediction models with uncertainty quantification has not been systematically investigated. We combine ARTs with leaf-wise Mondrian conformal predictive systems (CPS), enabling a single tree to provide continuous predictions, prediction intervals, and probabiliti",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24528v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T13:01:36.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-1j8t0g0",
+   "pri": 45,
+   "kind": "note",
+   "title": "Lifted Bellman Linear Programming for Offline Reinforcement Learning",
+   "ctx": "Offline reinforcement learning (RL) typically trains a critic by minimizing a regression loss against bootstrapped value targets stabilized by target networks with exponential moving average (EMA) updates. Multi-step targets incorporate behavior-policy actions and therefore require off-policy correction. We instead impose in-sample Bellman optimality on the critic through inequality constraints. We formulate the Lifted Bellman Linear Program (LBLP), which lifts the linear programming characteriz",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.24489v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-22T03:00:51.632Z",
+   "tier": "B",
+   "itemTs": "2026-09-21T12:27:23.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-anthropic-status-12spl8a",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for multiple models",
+   "ctx": "Sep 22 , 00:57 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-09-22T01:00:52.466Z",
+   "tier": "A",
+   "itemTs": "2026-09-22T00:57:26.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
   },
   {
    "id": "f-arxiv-cs.CL-06qvvn6",
@@ -739,1764 +2400,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1y3xdwb",
-   "pri": 45,
-   "kind": "note",
-   "title": "World Modeling in Transformers",
-   "ctx": "Behavioral failures can make a transformer appear to lack a world model even when it has learned faithful representations of its environment. We demonstrate this in TaxiGPT, a transformer trained on random walks through Manhattan whose failures have been interpreted as evidence of an incoherent internal map. Through mechanistic analysis and causal interventions, we show that the model represents intersections and streets, tracks its position, and uses a goal compass to navigate. We trace its fai",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21748v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T13:24:18.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-04ud676",
-   "pri": 45,
-   "kind": "note",
-   "title": "Time series generation with spectrally aligned latent flow matching",
-   "ctx": "Latent flow models have proven to be a reliable and cost-effective method for time series generation. However, the latent compression induces unwanted artefacts, such as a spectral mismatch with respect to the underlying dataset, thus hindering their use as training surrogates. In this article, we propose a spectrally-aligned latent-flow time series generator, where the latent space for flow matching is trained to preserve dynamical properties that are relevant for the suitability of synthetic s",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21989v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T16:49:46.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-09ljujb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Assessment of Machine Learning-Based Critical Heat Flux Models in the CTF Subchannel Code for Square Rod Bundle Prediction",
-   "ctx": "The prediction of critical heat flux (CHF), a key safety-related quantity in nuclear thermal hydraulics, remains an important challenge due to its direct relationship with fuel performance and reactor safety. Recent studies have demonstrated that relative to traditional empirical correlations and lookup tables (LUTs), machine learning (ML) methods can substantially improve CHF prediction accuracy. Most ML-based CHF models, however, have been developed and evaluated using tube databases, leaving ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21995v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T16:56:45.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0esfdhh",
-   "pri": 45,
-   "kind": "note",
-   "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
-   "ctx": "A selective predictor acts as a safety gate: it returns an output only when the prediction appears sufficiently trustworthy. Deployments increasingly require this reliability to be certified at a target precision for every reporting unit of interest, such as a tool, policy label, or patient subgroup. The main difficulty is often not whether a granted certificate is valid, but whether finite calibration data can produce one at all. As the gate becomes safer or more fine-grained, some units may re",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.22048v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T17:36:52.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0hd1n5v",
-   "pri": 45,
-   "kind": "note",
-   "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
-   "ctx": "A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to retain and reuse knowledge obtained from prior experiences underpins an agent's ability to efficiently adapt to novel environments, as the dynamics of the physical world can often be described in recurring mechanisms. However, the world model's measure of adaptation entangles two abilities: the spe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.22055v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T17:46:28.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-16xbvti",
-   "pri": 45,
-   "kind": "note",
-   "title": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
-   "ctx": "Gating the value pathway of attention reportedly improves language model pretraining, and prior studies disagree on why. We argue and provide experimental evidence that such gates supply two different things that softmax attention lacks: abstention and noise filtering. The first is abstention, which allows an attention head to output nothing, bypassing the requirement that attention weights must sum to one. The second is noise filtering, which allows the value pathway of an attention head to sup",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.22005v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T17:03:58.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1dvxiql",
-   "pri": 45,
-   "kind": "note",
-   "title": "Particle Competition and Cooperation for Robust Graph Convolutional Network Learning Under Label Noise",
-   "ctx": "Graph Convolutional Networks (GCNs) are highly sensitive to label noise, since corrupted supervision can propagate through the graph and degrade learned node representations. This work proposes PCC+GCN, a hybrid framework that uses Particle Competition and Cooperation (PCC) as a graph-based label-refinement stage before GCN training. PCC identifies suspicious labeled nodes through particle domination dynamics and determines whether their labels should be preserved, removed, or reassigned before ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.22053v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T17:46:08.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "lab-board"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-1fidd9b",
-   "pri": 45,
-   "kind": "note",
-   "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
-   "ctx": "Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn general-purpose neural representations transferable across diverse downstream tasks. Yet, progress toward this goal has been limited by fragmented evaluation protocols and a narrow focus on individual task domains. Here, we present BrainWideBench, a benchmark for evaluating across-animal transfer on ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.22064v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T17:54:32.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1i6gm26",
-   "pri": 45,
-   "kind": "note",
-   "title": "$λ$-Controlled GRPO: Turning Flow-Matching Ratio Instability into a Budgeted Resource",
-   "ctx": "Reinforcement learning is increasingly used to align image generators with reward signals, and Flow-GRPO recently extended this paradigm to flow-matching models by treating the denoising sampler as a stochastic policy that can be optimized from reward feedback. Training in this setting is unstable in a way specific to multi-step denoising: the policy update changes systematically across denoising steps, with importance ratios drifting below one, becoming increasingly dispersed, clipping at diffe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.22041v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T17:33:38.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1ivwk8y",
-   "pri": 45,
-   "kind": "note",
-   "title": "COMPLEX: A Closed-Form Certified Embedding of Multiparameter Persistence Modules",
-   "ctx": "Every multiparameter persistence vectorization we know of carries a one-sided Lipschitz upper bound and nothing below it: without a lower gauge there is no sense in which the features are faithful, and no per-prediction guarantee can be built on them. This paper supplies the missing side. COMPLEX is a closed-form, training-free embedding of multiparameter modules -- slice the module along a fixed near-diagonal net, embed each slice barcode by the certified PLACE/PALACE landmark map, concatenate.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.22012v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T17:08:41.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1u1xchm",
-   "pri": 45,
-   "kind": "note",
-   "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
-   "ctx": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducibility): confident-failure reduction is achievable if and only if retrieval features carry mutual information about success, a condition satisfied by LLM-judge pipelines but substantially weaker in dense-only settings, explaining the AUC-AC gap between regimes. Second (Feature Regime Complementarity)",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.22056v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T02:30:50.331Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T17:48:15.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-01dd8l5",
-   "pri": 45,
-   "kind": "note",
-   "title": "RegKT: Interpretable and Robust Deep Knowledge Tracing With IRT-Regularizer",
-   "ctx": "As deep learning models continue to advance, knowledge tracing models have achieved higher accuracy. However, these gains come at the cost of reduced interpretability, which is crucial for practitioners in educational settings to adopt new methodologies. Additionally, deep learning models are prone to overfitting, particularly when dealing with the small datasets that are common in educational applications. In this paper, we propose a novel regularization technique designed to enhance the robust",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21791v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:05:29.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0fgerer",
-   "pri": 45,
-   "kind": "note",
-   "title": "Federated Deep Clustering Networks for High-Dimensional and Heterogeneous Data",
-   "ctx": "Clustering high-dimensional data is a fundamental task in unsupervised machine learning with applications to a variety of domains. In the centralized data scenario, this task is commonly solved using deep clustering methods that utilize deep neural network architectures to learn clustering-friendly latent space representations. In Federated Learning, where data is distributed between clients and is private, deep clustering methods are less explored. In particular, recently introduced federated d",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21829v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:29:31.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0zbfpgj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
-   "ctx": "Large language models (LLMs) have achieved state-of-the-art performance across a wide range of tasks, motivating two important aspects of deployment: inference efficiency and output provenance, which can be tackled by speculative sampling and watermarking, respectively. However, recent works have shown that combining these two goals is highly nontrivial and can be potentially impossible. In this work, we develop a novel multi-draft speculative sampling algorithm based on Poisson processes that i",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21858v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:52:39.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-10homj9",
-   "pri": 45,
-   "kind": "note",
-   "title": "RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative Decoding",
-   "ctx": "Speculative decoding accelerates LLM inference by drafting multiple tokens in parallel, with tree-based methods further improving efficiency through hierarchical structures. Dynamic-tree methods such as EAGLE-3 perform well under greedy decoding via deterministic top-K expansion and global pruning. However, in stochastic decoding (T>0), this mechanism collapses the draft distribution into one-hot probabilities, causing a severe drop in acceptance rate. This creates a dilemma: dynamic-tree method",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21827v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:28:28.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-184hp07",
-   "pri": 45,
-   "kind": "note",
-   "title": "From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention",
-   "ctx": "A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subtasks. Collecting additional full-task demonstrations for supervised fine-tuning (SFT) requires operators to repeat behaviors the policy already performs well. Reinforcement learning (RL) fine-tuning offers a promising path to bridge this gap, but existing approaches struggle to solve long-horizon tasks using only sparse rewards. We present PARTS (Policy Adaptation with RL on Tar",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21788v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:03:49.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1bqtcrx",
-   "pri": 45,
-   "kind": "note",
-   "title": "AutoRecLab: Describe the Experiment, Get the Code!",
-   "ctx": "Empirical evaluation is central to recommender-systems (RecSys) research, but turning experimental designs into executable code remains a manual and error-prone task. We present AutoRecLab, a Python-based autonomous RecSys lab that automates RecSys experiments from natural-language prompts. Given a research idea, AutoRecLab derives explicit experiment requirements, builds and validates a prototype, and iteratively expands it into the requested full experiment. The workflow combines retrieval-aug",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21863v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:54:44.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1cg2wcb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Adaptive Uncertainty-Aware Modeling and Stochastic Radial Basis Function Predictive Control for Personalized Fluid Resuscitation",
-   "ctx": "This paper presents a novel framework integrating Bayesian physiological modeling with optimal control strategies to achieve uncertainty-aware, personalized hemodynamic regulation during fluid resuscitation. An uncertainty-aware variational autoencoder state-space model (UVAE-SSM) was first developed to capture the dynamical relationship between mean arterial pressure (MAP) and fluid infusion using limited data, while explicitly modeling aleatoric uncertainty (i.e., randomness in the measurement",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21821v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:25:29.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1faiffk",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Benchmark Scores: Auditing Medical Vision-Language Models for Chest X-Ray Tuberculosis Screening",
-   "ctx": "A medical model's benchmark score does not establish that the same conclusion holds under a different evaluation. This study tests whether claims about model ranking, score reliability and screening performance survive changes in cohort, prompt, negative spectrum, specified prevalence and operating threshold. We audit three medical vision-language models (BioMedCLIP, CheXficient, and MedSigLIP) and a general-domain OpenCLIP comparator on 12,200 chest radiograph records from four datasets (Montgo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21763v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T13:33:57.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1kmdpu5",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Weight Is Over - Interactive Diffusion on Consumer GPUs",
-   "ctx": "On-device inference is booming, but the momentum is almost all in language models. Diffusion pipelines are memory hungry, latency-sensitive, and require orchestrating an embedder, a transformer, a decoder, and often further postprocessing that is not as standardized as LLM inference loops are. We navigate the trade-off between performance, quality, and model footprint to reach as many client devices in the wild as possible. We make three contributions: an embedding translator that maps a small t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21849v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:42:55.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1t2z6gs",
-   "pri": 45,
-   "kind": "note",
-   "title": "Matrix AdaGrad: Row-wise and Column-wise Adaptive Subgradient Methods",
-   "ctx": "Adaptive optimization methods such as AdaGrad and Adam are widely used in modern neural-network training, but their adaptive scaling is primarily designed for vector-valued parameters and does not explicitly exploit matrix structure. Recent matrix-aware optimizers demonstrate the benefits of structured optimization, yet a general theoretical framework for deriving matrix-aware adaptivity comparable to that of AdaGrad remains lacking. In this work, we develop a general Online Mirror Descent frame",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.21815v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-21T01:30:49.921Z",
-   "tier": "B",
-   "itemTs": "2026-09-18T14:22:26.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-chinatalk-0l2dium",
-   "pri": 60,
-   "kind": "note",
-   "title": "I Went to Kyrgyzstan to Find China’s Silent Nomads",
-   "ctx": "On a rainy day at the beginning of September, I found myself standing under the giant sky at the foot of the mountains in rural Kyrgyzstan, shouting “add oil! (加油) from the sidelines of a horseback archery track. I was back in Central Asia for the World Nomad Games, an Olympics-style celebration of traditional sports where China reluctantly lets some of its minorities compete. As if that weren’t j",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.chinatalk.media/p/i-went-to-kyrgyzstan-to-find-chinas",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "chinatalk",
-   "detectedAt": "2026-09-20T12:00:51.059Z",
-   "tier": "D",
-   "itemTs": "2026-09-20T11:53:42.000Z",
-   "sub": "chinatalk",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 28875,
-    "lead": "On a rainy day at the beginning of September, I found myself standing under the giant sky at the foot of the mountains in rural Kyrgyzstan, shouting “add oil! (加油) from the sidelines of a horseback archery track. I was back in Central Asia for the World Nomad Games, an Olympics-style celebration of traditional sports where China reluctantly lets some of its minorities compete. As if that weren’t justification enough for a reporting trip, the Shanghai Cooperation Organization’s annual summit was happening in Bishkek, with the Games designated as a partner event open to the delegates. Putin, Modi, and nine other heads of state flew in to discuss new infrastructure megaprojects, drugs and nuclear material trafficking, market integration, and more. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. When I went to Kyrgyzstan last August in search of Chinese influence, the country captivated me with its friendly people, rapidly growing economy, and a nomadic way of life still practiced by many in the countryside. And now, on the 35th anniversary of Kyrgyzstan’s independence from the Soviet Union, I was honor",
-    "truncated": false,
-    "fetchedAt": "2026-09-20T12:00:51.059Z",
-    "full": "full/f-chinatalk-0l2dium.txt"
-   },
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-cascade-1qltzzp",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"typesafe jev\" — 3 independent sources in 52h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 52 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• openrouter — TypeSafe: Jev Latest\n• github-search — thruwire/foreman\n• reddit — Von: Open-source 395M \"System One\" model\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open openrouter",
-     "href": "https://openrouter.ai/~typesafe/jev-latest",
-     "primary": true
-    },
-    {
-     "label": "Open github-search",
-     "href": "https://github.com/thruwire/foreman",
-     "primary": false
-    },
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wkpxn6/von_opensource_395m_system_one_model/",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-19T22:00:57.619Z",
-   "tier": "X",
-   "families": [
-    "openrouter",
-    "github-search",
-    "reddit"
-   ],
-   "roots": [
-    "openrouter",
-    "github-search",
-    "reddit"
-   ],
-   "sub": "cascade shape · openrouter, github-search, reddit",
-   "extract": {
-    "ok": true,
-    "chars": 491,
-    "lead": "Frequently asked questions What is Jev Latest? This model always redirects to the latest model in the Jev family. How much does Jev Latest cost? Jev Latest costs $0.042/M input tokens and $0.00/M output tokens. What is the context length of Jev Latest? Jev Latest has a 32,000 token context window. What inputs and outputs does Jev Latest support? Jev Latest accepts text as input and returns structured decisions. When was Jev Latest released? Jev Latest was released on September 18, 2026.",
-    "truncated": false,
-    "title": "Jev Latest - API Pricing & Providers | OpenRouter",
-    "fetchedAt": "2026-09-19T22:00:57.619Z",
-    "full": "full/f-cascade-1qltzzp.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-gh-releases-anthropics-claude-code-1rgilg6",
-   "pri": 30,
-   "kind": "note",
-   "title": "anthropics/claude-code v2.1.278",
-   "ctx": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead ( CLAUDE_CODE_AUTO_MODE_SERVER=0 opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing Added an Auto mode s",
-   "acts": [
-    {
-     "label": "Open release",
-     "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "gh-releases-anthropics-claude-code",
-   "detectedAt": "2026-09-19T03:31:01.613Z",
-   "tier": "A",
-   "itemTs": "2026-09-19T03:10:40.000Z",
-   "sub": "github release",
-   "extract": {
-    "ok": true,
-    "chars": 1137,
-    "lead": "anthropics / claude-code Public Notifications You must be signed in to change notification settings Fork 23.8k Star 146k v2.1.278 Latest Latest Compare Choose a tag to compare Sorry, something went wrong. Filter Loading Sorry, something went wrong. Uh oh! There was an error while loading. Please reload this page . No results found View all tags ashwin-ant released this 19 Sep 03:10 Immutable release. Only release title and notes can be modified. v2.1.278 bf7d404 What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead ( CLAUDE_CODE_AUTO_MODE_SERVER=0 opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing Added an Auto mode server row to /status showing whether this session's auto mode classifier runs on the server Assets 13 Loading Uh oh! There was an error while loading. Please reload this page . 👀 2 Maaattqc and Aloim reacted with eyes emoji All reactions 👀 2 reactions 2 people reacted",
-    "truncated": false,
-    "title": "Release v2.1.278 · anthropics/claude-code · GitHub",
-    "fetchedAt": "2026-09-19T03:31:01.613Z",
-    "full": "full/f-gh-releases-anthropics-claude-code-1rgilg6.txt"
-   },
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-anthropic-news-176cdi7",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Accenture embedded evaluation",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-09-18T20:31:03.535Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 3033,
-    "lead": "Announcements Partnering with Accenture on embedded evaluation Sep 18, 2026 We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic. The partnership will be led by Faculty, Accenture’s specialist AI business, and will include evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards. Accenture helps businesses and governments deploy AI across many industries. Their understanding of how enterprises use AI in practice informs their safety approach, and they will bring that perspective to evaluating our models. Anthropic and Accenture each expect to invest at least $1 billion in building capacity in this area over the next five years. Embedded evaluation is new, and many of the details about how it will operate are still being worked out. Unlike today’s external evaluators, embedded evaluators will work inside AI companies, with access comparable to an employee's. That access allows them to watch models take shape in training, follow the decisions that govern how those models are built and d",
-    "truncated": false,
-    "title": "Partnering with Accenture on embedded evaluation \\ Anthropic",
-    "fetchedAt": "2026-09-18T20:31:03.535Z",
-    "full": "full/f-anthropic-news-176cdi7.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-chinatalk-06a726t",
-   "pri": 60,
-   "kind": "note",
-   "title": "How Anthropic Became China’s Goliath",
-   "ctx": "A DeepSeek researcher’s personal blog post recently went viral. On September 13, after DeepSeek V4.1-Flash was released, researcher Liu Shengyu 刘胜与 reflected on how humans might live alongside AI systems with superhuman abilities: As AI develops, future society may trend toward one of two extremes: communism, or Cyberpunk 2077. In the former, the productive forces are enormously liberated and peop",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "chinatalk",
-   "detectedAt": "2026-09-18T16:01:54.743Z",
-   "tier": "D",
-   "itemTs": "2026-09-18T15:38:10.000Z",
-   "sub": "chinatalk",
-   "extract": {
-    "ok": true,
-    "fromFeed": true,
-    "chars": 27704,
-    "lead": "A DeepSeek researcher’s personal blog post recently went viral. On September 13, after DeepSeek V4.1-Flash was released, researcher Liu Shengyu 刘胜与 reflected on how humans might live alongside AI systems with superhuman abilities: As AI develops, future society may trend toward one of two extremes: communism, or Cyberpunk 2077. In the former, the productive forces are enormously liberated and people’s standards of living improve markedly (let’s stop here; I’m worried this won’t clear the censors otherwise). In the latter, a few tech companies control the bulk of resources; only a tiny minority can access the most advanced AI and assorted technologies, achieving something close to “machine ascension,” while everyone else makes do with feeble AI. Liu specializes in kernels and is passionate about the craft. He remarks with frank resignation that, “give it another six months or a year, and AI-written kernels will most likely be just as good as mine, if not surpass my work.” So why does he keep working on this? Simply put: the race dynamic. If I were to slack off at this point, or even deliberately throw sand in the gears to hold up model training, other companies’ models would develop",
-    "truncated": false,
-    "fetchedAt": "2026-09-18T16:01:54.743Z",
-    "full": "full/f-chinatalk-06a726t.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-00d36p1",
-   "pri": 45,
-   "kind": "note",
-   "title": "On-Demand Attention: Language Models Know When to Recall",
-   "ctx": "Reasoning and agentic workloads increasingly demand efficient long-context inference. Yet full-attention decoding reads the growing history at every step, regardless of its benefit to the next prediction. We show that a pretrained model's decoding states already contain information predictive of this benefit, before the global read. Building on this finding, we introduce On-Demand Attention (ODA), a local-first decoding method that uses a lightweight recall head to selectively invoke global atte",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20734v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:24:48.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-04froiv",
-   "pri": 45,
-   "kind": "note",
-   "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
-   "ctx": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic framework based on orthogonal predictive factorization (OPF). Extending joint-embedding predictive architectures, OPF decomposes latent targets into complementary factors, learns them through dedicated pa",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20800v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:55:57.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-04w3k86",
-   "pri": 45,
-   "kind": "note",
-   "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-   "ctx": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them. This recipe, however, is undermined by two findings in agentic tasks: privileged information alone does not always make a teacher reliable, and the benefit of teacher supervision is stage-dependent. We theref",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20784v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:52:08.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-09thi37",
-   "pri": 18,
-   "kind": "note",
-   "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-   "ctx": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating ta",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20822v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:58.000Z",
-   "sub": "arXiv cs.CL · introduces \"Aware Harness\"",
-   "extract": {
-    "ok": true,
-    "chars": 4909,
-    "lead": "Computer Science > Robotics arXiv:2609.20822v1 (cs) [Submitted on 17 Sep 2026] Title: Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation Authors: Bingxin Xu , Yuzhang Shang , Zhen Dong , Emilio Ferrara View a PDF of the paper titled Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation, by Bingxin Xu and 3 other authors View PDF HTML (experimental) Abstract: Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific this http URL this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating task completion as its sole objective while neglecting safety. The agent reasons about the obstacle in its traces, and the prompt already forbids touching it, so neither perception nor instruction is at fault; the fault lies in the planning, where the stated constraint never becomes a priority. By deco",
-    "truncated": false,
-    "title": "[2609.20822v1] Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-    "fetchedAt": "2026-09-18T04:30:54.428Z",
-    "full": "full/f-arxiv-cs.CL-09thi37.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0djd1p8",
-   "pri": 45,
-   "kind": "note",
-   "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
-   "ctx": "Agent trajectories record what an agent does and what happens next. Yet standard supervised fine-tuning (SFT) applies loss only to agent-authored action tokens, using environment observations as context but not as prediction targets. We ask whether this convention provides the best initialization for subsequent reinforcement learning. We introduce ActObs, which also supervises the observation tokens already present in each trajectory. Although deployed agents never generate observations, learnin",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20715v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:11:29.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0sjsj9b",
-   "pri": 45,
-   "kind": "note",
-   "title": "Unifying Models of Intergroup Hostility in Online Discourse",
-   "ctx": "Hostile rhetoric toward social groups can normalize exclusion and justify mistreatment, as well as contribute to rising polarization and political violence. Efforts to moderate hostile rhetoric in online speech draw on foundational theories in social and moral psychology, and political science. However, these theories were developed largely in parallel, often propose different and sometimes conflicting accounts of how hostility develops, and have rarely been tested against each other in real dis",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20808v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:58:25.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1di5tgs",
-   "pri": 45,
-   "kind": "note",
-   "title": "dQwen3.5: Hybrid-Attention Diffusion Language Models",
-   "ctx": "Adapting a pretrained autoregressive (AR) model is a cost-efficient route to a diffusion language model (DLM). While nearly all such adaptations start from a full-attention transformer, AR modeling has shifted toward hybrid architectures that interleave attention and RNN layers. This creates an obstacle for adaptation: unlike attention, RNNs are structurally causal and nontrivial to bidirectionalize. Despite this mismatch, we investigate whether such backbones can become effective DLMs by adapti",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20751v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:39:46.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1i7mzxv",
-   "pri": 45,
-   "kind": "note",
-   "title": "An Empirical Study of Harness Design for Coding Agents",
-   "ctx": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluate",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20804v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:58:07.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-1mid7ey",
-   "pri": 45,
-   "kind": "note",
-   "title": "Embedding Models Measure in Peculiar Ways",
-   "ctx": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly modeled in the embedding space, and that instead quite peculiar measurement patterns can be observed. Further analysis indicates that embedding representations of physical measurements are strongly influen",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20821v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:54.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1opxa1i",
-   "pri": 45,
-   "kind": "note",
-   "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
-   "ctx": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this \\emph{harm laundering}. Analysing 450,000 gender-directed completions across 15 models spanning GPT-2 through to GPT-5 (OpenAI GPT lineage; three demographic conditions), we show that sexual violence clusters ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20779v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:49:28.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-09pore8",
-   "pri": 45,
-   "kind": "note",
-   "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
-   "ctx": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inference procedures. Advances in large language models offer a simpler starting point: even compact models can associate hex values with color semantics. We present Paint-Anything, which learns a shared hex-",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20816v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:30.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0b3j9lv",
-   "pri": 45,
-   "kind": "note",
-   "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
-   "ctx": "Action chunking is widely used for action generation and execution in Vision-Language-Action (VLA) policies, yet existing approaches commonly use a fixed action horizon. During a rollout, different task stages may require different levels of action continuity, control precision, and closed-loop feedback, making a fixed horizon unable to accommodate changing control requirements. We propose \\textbf{GeoAAC}, a geometry-based adaptive action chunking method for flow-based VLA policies that adjusts ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20776v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:48:07.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0kg306f",
-   "pri": 45,
-   "kind": "note",
-   "title": "Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control",
-   "ctx": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. However, recent tactile WAMs often rely on large-scale pretrained generative backbones to capture contact-rich physical dynamics, which limit their inference efficiency and flexible deployment. In this paper, we present \\ABBR{}, an agile tactile World Action Model for contact-rich rob",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20761v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:43:51.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0vvenai",
-   "pri": 45,
-   "kind": "note",
-   "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
-   "ctx": "Reinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference engines, often referred to as the training-inference mismatch (TIM). However, completely eliminating TIM is impractical, as it would come at a major cost to rollout efficiency. In this paper, we show that the instability of RL under TIM is primarily caused by drift: a persistent bias between training and inference engines that accumulates with every training step. We ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20807v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:58:17.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0wt3d0s",
-   "pri": 45,
-   "kind": "note",
-   "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
-   "ctx": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\emph{overclaim} task completion, a misrepresentation that can mislead the user. An agent overclaims when its final response contradicts information in its context. This definition requires no inference about intent and is independent of task success. We introduce \\emph{OverclaimBe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20812v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:04.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-11irgyr",
-   "pri": 45,
-   "kind": "note",
-   "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
-   "ctx": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill-posed problems, where multiple solutions may be consistent with the same sparse or noisy observations. In these settings, a method can achieve strong pointwise accuracy while still failing to capture the true posterior through mode collapse, overconfident uncertainty, or averagi",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20794v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:54:12.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1i7mzxv",
-   "pri": 45,
-   "kind": "note",
-   "title": "An Empirical Study of Harness Design for Coding Agents",
-   "ctx": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluate",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20804v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:58:07.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-1ket37a",
-   "pri": 45,
-   "kind": "note",
-   "title": "How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?",
-   "ctx": "Pretraining a neural PDE surrogate can reduce the amount of new CFD data needed when geometry or modeled physics changes. However, it remains unclear how different components of distribution shift affect this benefit. We pretrain a surrogate on 254,909 RANS solutions from one airfoil family and fine-tune it on a new family under two target settings with matched freestream ranges: the same Spalart-Allmaras (SA) modeling and SA with added $e^N$ transition modeling. At $N=1000$, the pretrained mode",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20814v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:24.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1mid7ey",
-   "pri": 45,
-   "kind": "note",
-   "title": "Embedding Models Measure in Peculiar Ways",
-   "ctx": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly modeled in the embedding space, and that instead quite peculiar measurement patterns can be observed. Further analysis indicates that embedding representations of physical measurements are strongly influen",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20821v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:54.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1ywpgdv",
-   "pri": 45,
-   "kind": "note",
-   "title": "Calibrated RF-Fingerprinting Under Interference With Heterogeneous Transmission Protocols",
-   "ctx": "Radio Frequency(RF)-Fingerprinting is a spectrum monitoring technique that identifies specific transmitters based on hardware impairments imprinted within the emitted signal. Although widely researched, studies almost exclusively consider scenarios where only one transmitter is emitting at a time, limiting real world applicability. In this work, we further the study of RF-Fingerprinting by considering co-channel interference, with multiple emitted signals interfering with each other, overlapping",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20765v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T04:30:54.428Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:44:22.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-04w3k86",
-   "pri": 45,
-   "kind": "note",
-   "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-   "ctx": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them. This recipe, however, is undermined by two findings in agentic tasks: privileged information alone does not always make a teacher reliable, and the benefit of teacher supervision is stage-dependent. We theref",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20784v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:52:08.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-09pore8",
-   "pri": 45,
-   "kind": "note",
-   "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
-   "ctx": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inference procedures. Advances in large language models offer a simpler starting point: even compact models can associate hex values with color semantics. We present Paint-Anything, which learns a shared hex-",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20816v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:30.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-09thi37",
-   "pri": 18,
-   "kind": "note",
-   "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-   "ctx": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating ta",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20822v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:58.000Z",
-   "sub": "arXiv cs.AI · introduces \"Aware Harness\"",
-   "extract": {
-    "ok": true,
-    "chars": 4909,
-    "lead": "Computer Science > Robotics arXiv:2609.20822v1 (cs) [Submitted on 17 Sep 2026] Title: Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation Authors: Bingxin Xu , Yuzhang Shang , Zhen Dong , Emilio Ferrara View a PDF of the paper titled Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation, by Bingxin Xu and 3 other authors View PDF HTML (experimental) Abstract: Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific this http URL this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating task completion as its sole objective while neglecting safety. The agent reasons about the obstacle in its traces, and the prompt already forbids touching it, so neither perception nor instruction is at fault; the fault lies in the planning, where the stated constraint never becomes a priority. By deco",
-    "truncated": false,
-    "title": "[2609.20822v1] Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-    "fetchedAt": "2026-09-18T02:30:54.704Z",
-    "full": "full/f-arxiv-cs.AI-09thi37.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0b3j9lv",
-   "pri": 45,
-   "kind": "note",
-   "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
-   "ctx": "Action chunking is widely used for action generation and execution in Vision-Language-Action (VLA) policies, yet existing approaches commonly use a fixed action horizon. During a rollout, different task stages may require different levels of action continuity, control precision, and closed-loop feedback, making a fixed horizon unable to accommodate changing control requirements. We propose \\textbf{GeoAAC}, a geometry-based adaptive action chunking method for flow-based VLA policies that adjusts ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20776v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:48:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0gn3j9r",
-   "pri": 45,
-   "kind": "note",
-   "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
-   "ctx": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAMOS, a feed-forward model that predicts movable-part segmentation and joint parameters from a sparse, unordered set of partial point clouds. Our model jointly reasons over multiple observations and nat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20817v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0lqcwp5",
-   "pri": 45,
-   "kind": "note",
-   "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
-   "ctx": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many approaches to policy memory involve compressing historical information through expensive VLM queries in-the-loop to process only task-salient information. In this paper, we propose an alternative approach in which computationally intensive VLM queries are made during train-time to lear",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20820v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:53.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0wt3d0s",
-   "pri": 45,
-   "kind": "note",
-   "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
-   "ctx": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\emph{overclaim} task completion, a misrepresentation that can mislead the user. An agent overclaims when its final response contradicts information in its context. This definition requires no inference about intent and is independent of task success. We introduce \\emph{OverclaimBe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20812v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:04.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1i7mzxv",
-   "pri": 45,
-   "kind": "note",
-   "title": "An Empirical Study of Harness Design for Coding Agents",
-   "ctx": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluate",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20804v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:58:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1opxa1i",
-   "pri": 45,
-   "kind": "note",
-   "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
-   "ctx": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this \\emph{harm laundering}. Analysing 450,000 gender-directed completions across 15 models spanning GPT-2 through to GPT-5 (OpenAI GPT lineage; three demographic conditions), we show that sexual violence clusters ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20779v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:49:28.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1s0yzv9",
-   "pri": 45,
-   "kind": "note",
-   "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
-   "ctx": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these syndromes are essential for timely diagnosis, individualized patient management, and targeted surveillance strategies for affected families. However, public endoscopic datasets are largely organized around the individual sporadic polyp, and none links the polyposis phenotype to histopathology and ge",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20815v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-18T02:30:54.704Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T17:59:28.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-07ckzu9",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fast Cross-Strength Multi-Contrast Brain MRI Translation using Latent Bridge Matching",
-   "ctx": "Magnetic Resonance Imaging (MRI) acquired at different field strengths exhibits pronounced variation in noise, resolution, homogeneity, and contrast, which limits comparability across acquisition settings and complicates downstream analysis. We address this with a unified conditional model for controllable field-to-field synthesis, built on the framework of conditional latent bridge matching. Our single model achieves highly competitive results across the validation phase for all three tasks of ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20341v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T13:10:38.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-093gzf3",
-   "pri": 45,
-   "kind": "note",
-   "title": "QUALS: Corpus Equilibrium for Universal Forecasting via Pattern Quantization and Learnability Synchronization",
-   "ctx": "Ubiquitous time series data across diverse domains enables critical applications in areas such as transportation systems and power grids. Recently, training foundation models on massive datasets to achieve accurate zero-shot forecasting has emerged as a major research focus. However, current studies predominantly prioritize architectural innovations while insufficiently addressing data diversity, often relying on simple data sampling strategies that fail to manage complex data distributions effe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20156v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T12:47:17.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0d3u88q",
-   "pri": 45,
-   "kind": "note",
-   "title": "Special Lagrangian cones in Deep Learning",
-   "ctx": "We introduce a matrix generalization of the cone of Harvey and Lawson and prove that it is an exact special Lagrangian manifold. We further show that it belongs to a family of exact special Lagrangian manifolds that foliate the balanced manifold arising in deep learning.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20159v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T12:49:39.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0g85cwh",
-   "pri": 45,
-   "kind": "note",
-   "title": "Near-Optimal Pure Single-Loop Extragradient Method for Strongly Convex--Strongly Concave Minimax Optimization",
-   "ctx": "We study smooth strongly convex--strongly concave minimax optimization with general nonlinear coupling in the deterministic unconstrained setting. We propose a pure single-loop damped extragradient method with fixed parameters and two new full-gradient evaluations per iteration after one initialization query. The method uses an auxiliary feedback recursion and requires no inner solves, accuracy schedules, or staged restarts. We establish last-iterate linear convergence and show that reducing the",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20327v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T13:02:58.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0j1lq17",
-   "pri": 45,
-   "kind": "note",
-   "title": "Detecting Deceptive Recruitment: A Signal-theoretic Machine Learning Framework for Early Identification of Labour Exploitation",
-   "ctx": "Deceptive online job advertisements have emerged as a primary pathway into forced labour, yet systematic detection methods remain underdeveloped due to data scarcity and absence of empirically validated indicators. We formalise this detection challenge as a classification problem under signalling theory, where exploiters transmit costless signals mimicking legitimate communications across textual, visual, and structural dimensions. Using 464 verified cases (164 deceptive, 300 legitimate) collect",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20336v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T13:06:21.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0nt19q8",
-   "pri": 45,
-   "kind": "note",
-   "title": "Sharp Reconstruction Bounds for Autoencoders Using the Same Forward Map",
-   "ctx": "We study reconstruction in autoencoders that apply the same forward map before and after setting the observed coordinates to zero. For equal odd input and hidden dimensions $d\\geq 3$, among orientation-preserving diffeomorphisms whose Jacobian singular values lie in $[m,M]$, we show that the least uniform reconstruction-derivative error is $\\max\\{1-M(M-m)/2,0\\}$, with affine maps attaining this sharp bound at every prescribed depth. A translated radial rotation can nevertheless reconstruct any p",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20333v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T13:04:38.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0y3af72",
-   "pri": 45,
-   "kind": "note",
-   "title": "Minimax-Optimal Online Contract Design with Unrestricted Bounded Contracts",
-   "ctx": "We study repeated contract design when a principal observes outcomes but not the actions that generate them. The principal may use any bounded outcome-contingent payment vector, and the agent's best response can make expected profit discontinuous in those payments. For every fixed number $m\\ge2$ of outcomes, the minimax regret over $T$ rounds is of order $T^{m/(m+1)}$, up to logarithmic factors. The upper bound allows arbitrary action spaces and agent heterogeneity, without smoothness or monoton",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20353v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T13:17:56.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-15pgbv1",
-   "pri": 45,
-   "kind": "note",
-   "title": "COMPASS: Ordered Clustered Routing at 100K Scale",
-   "ctx": "Large-scale routing often requires visiting clusters of nodes in a prescribed order, giving rise to the Ordered Clustered Traveling Salesman Problem (OCTSP). Optimizing each cluster independently seems natural, but misses non-local dependencies. We introduce the COMPASS algorithm for OCTSP, which combines search with learning-accelerated routing by orchestrating parallel sub-solvers. COMPASS has no quality ceiling and its solutions keep improving with compute. It exploits the clustered structure",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20352v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T13:17:42.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1835nqr",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fast-varying Natural Frequencies and Damping Ratio Identification for Linear Time-Varying System",
-   "ctx": "This work proposes a physics-enhanced machine learning approach for the system identification of Linear Time-Varying (LTV) systems under time-varying operating conditions in terms of fast-varying natural frequencies and damping ratios by combining a long short-term memory network with an Extended Kalman Filter (EKF). The proposed approach uses vibration data (displacement and velocity measurements), domain knowledge of modal damping ratios, and a physics-based model that can yield an approximate",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20138v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T12:29:44.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-18u0zn5",
-   "pri": 45,
-   "kind": "note",
-   "title": "Task-Oriented Semantic Feature Transmission for Multi-Task Satellite Remote Sensing over Low-SNR Channels",
-   "ctx": "Conventional satellite remote sensing transmission follows a reconstruct-then-infer paradigm that optimizes pixel-level fidelity, creating an objective mismatch with downstream tasks such as classification and detection, especially at low SNR. This paper investigates a task-oriented framework that bypasses image reconstruction and directly transmits semantic features extracted by a multitask-pretrained backbone. A lightweight channel adaptation module (CAM) compresses feature dimensionality for ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20150v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T12:41:44.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-cascade-0mm7g4s",
-   "pri": 4,
-   "kind": "note",
-   "title": "Cascade forming: \"policy optimization\" — 3 independent sources in 21h",
-   "ctx": "The same phrase surfaced across 3 unrelated sources inside 21 hours, in 3 items (0.0% of the window — below the 15% background threshold).\n\n• reddit — FreedomIntelligence/HuatuoGPT-3-9B · Hugging Face\n• arxiv — EPIG-Tree: Compute-Optimal Branching for Gradient-Efficient Reinforcement Learning\n• huggingface-papers — Region-Level Policy Optimization for Fine-grained MLLM Perception\n\nThis fires on spreading shape, not on anyone claiming to have coined anything — the origin node usually does not know it is one.",
-   "acts": [
-    {
-     "label": "Open reddit",
-     "href": "https://www.reddit.com/r/LocalLLaMA/comments/1wiyu3e/freedomintelligencehuatuogpt39b_hugging_face/",
-     "primary": true
-    },
-    {
-     "label": "Open arxiv",
-     "href": "https://arxiv.org/abs/2609.20004v1",
-     "primary": false
-    },
-    {
-     "label": "Open huggingface-papers",
-     "href": "https://huggingface.co/papers/2609.19745",
-     "primary": false
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "cascade",
-   "detectedAt": "2026-09-18T02:00:55.308Z",
-   "tier": "X",
-   "families": [
-    "reddit",
-    "arxiv",
-    "huggingface-papers"
-   ],
-   "roots": [
-    "reddit",
-    "arxiv",
-    "huggingface"
-   ],
-   "sub": "cascade shape · reddit, arxiv, huggingface",
-   "extract": {
-    "ok": true,
-    "chars": 267,
-    "lead": "Reddit - Prove your humanity Prove your humanity We’re committed to safety and security. But not for bots. Complete the challenge below and let us know you’re a real person. Reddit, Inc. © \"2026\". All rights reserved. User Agreement Privacy Policy Content Policy Help",
-    "truncated": false,
-    "title": "Reddit - Prove your humanity",
-    "fetchedAt": "2026-09-18T02:00:55.308Z",
-    "full": "full/f-cascade-0mm7g4s.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0bl8kv1",
-   "pri": 45,
-   "kind": "note",
-   "title": "MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards",
-   "ctx": "Tool learning enables large language models (LLMs) to use external tools for tasks beyond parametric knowledge. Reinforcement learning can optimize tool-call behavior from feedback, but current methods still face two problems: fixed-threshold curricula can become misaligned with the policy's evolving capability boundary, and additive rewards can leak argument-level credit when the predicted tool is wrong. To address these problems, we propose MATCH, a closed-loop framework for model-aware tool l",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20082v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T11:40:26.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0f12hnf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Benchmarking LLM Compliance with China AI Generated Content Regulations",
-   "ctx": "The widespread adoption of LLMs has led to escalating content compliance risks. Prior works have contributed to addressing these risks in the English context, downplaying the complexity of Chinese language content. This paper follows China's current AI-Generated content compliance requirements and provides evaluation results on 20 notable LLMs, offering insight into China's regulatory landscape. We design a novel framework to assess the compliance and refusal rates with 2303 questions spanning s",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.19989v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T09:58:14.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0ic805p",
-   "pri": 45,
-   "kind": "note",
-   "title": "AI Should Facilitate Democratic Deliberation at Scale",
-   "ctx": "AI systems can strengthen democracy by supporting deliberation at scale by addressing cognitive, social, platform-design, and market-driven frictions, while preserving human agency. Unlike proposals such as liquid democracy that restructure representation through vote delegation, in this position paper, we argue that AI-assisted deliberation offers a more promising path by lowering barriers to meaningful engagement without substituting machine judgment for human choice. Drawing on evidence from ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.20059v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-18T01:30:53.336Z",
-   "tier": "B",
-   "itemTs": "2026-09-17T11:10:55.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2512,11 +2415,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 5,
-   "slow": 95
+   "slow": 99,
+   "daily": 1
   },
-  "routed": 29,
-  "unrouted": 71,
+  "routed": 35,
+  "unrouted": 65,
   "unmappedLaneFamilies": []
  }
 }
