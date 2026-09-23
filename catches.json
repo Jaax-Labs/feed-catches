@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-23T17:01:06.029Z",
+ "generatedAt": "2026-09-23T20:01:01.741Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-02og6b8",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Claude discovers novel enzyme system",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-09-23T18:30:52.037Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 9880,
+    "lead": "Science Claude discovers a novel enzyme system with CRISPR-like repeats Sep 23, 2026 We’re introducing a new life sciences research group and laboratory at Anthropic. Our focus is on fundamental biology research using Claude: exploring datasets of DNA to identify uncharacterized protein families, generating hypotheses at scale, and testing them through experiments in the lab. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists. Many discoveries that have revolutionized biology and medicine started with a scientist noticing something odd in the staggering diversity of molecular machines found in nature. Restriction enzymes , proteins that cut DNA at specific short sequences , were found in bacterial immune systems, where they destroy the DNA of invading viruses. Researchers realized they could use these enzymes to cut DNA at chosen places and splice genes from one organism into another, which launched the biotechnology industry. Taq polymerase, an enzyme that copies DNA at high temperatures, was identified in a bacterium in a ",
+    "truncated": false,
+    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats \\ Anthropic",
+    "fetchedAt": "2026-09-23T18:30:52.037Z",
+    "full": "full/f-anthropic-news-02og6b8.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.CL-00xkaxm",
    "pri": 45,
@@ -2390,29 +2424,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0e22ze4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Conduit: An Experience Data Plane for Distributed Reinforcement Learning",
-   "ctx": "Distributed reinforcement learning (RL) scales training by parallelizing actors and learners around an Experience Buffer. As RL workloads grow, however, the buffer becomes more than a replay queue: it is the storage substrate of a large-capacity, latency-critical experience path that every iteration traverses to move, transform, sample, and batch experiences before learner updates can begin. Existing RL systems embed this path inside framework control flow or expose it as a request-driven buffer",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24456v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T03:00:51.632Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T12:02:41.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2428,10 +2439,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 100
+   "daily": 1,
+   "slow": 99
   },
-  "routed": 32,
-  "unrouted": 68,
+  "routed": 33,
+  "unrouted": 67,
   "unmappedLaneFamilies": []
  }
 }
