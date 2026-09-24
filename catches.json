@@ -1,7 +1,239 @@
 {
- "generatedAt": "2026-09-24T02:00:59.820Z",
+ "generatedAt": "2026-09-24T02:31:01.410Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-0kbd19z",
+   "pri": 45,
+   "kind": "note",
+   "title": "The Path Matters: Evaluating Small Language Models Beyond Answer Accuracy in KGQA",
+   "ctx": "Small language models (SLMs) are increasingly paired with knowledge graphs (KGs), yet end-to-end KG question answering conflates graph access, search, navigation, reasoning, and answer generation. This coupling makes it difficult both to determine whether an SLM can faithfully execute the reasoning path implied by a question and to attribute failures to navigation rather than to other stages of the pipeline. We isolate this capability by employing the THESEUS navigation and traceability framewor",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27669v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T10:38:23.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0n93psu",
+   "pri": 45,
+   "kind": "note",
+   "title": "FLEET: From Logits Entropy to Enhanced Trajectories in Text Generation",
+   "ctx": "Solutions based on large language models (LLMs) often rely on temperature sampling to improve accuracy and stability by aggregating multiple samples from the completion distribution. However, this memoryless approach is inherently suboptimal: because it lacks awareness of prior generations and their evaluations, it produces an increasing proportion of semantically duplicate answers as more samples are drawn, leading to diminishing returns. To address this limitation, we introduce FLEET, a novel ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27657v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T10:26:25.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0pgkq6y",
+   "pri": 45,
+   "kind": "note",
+   "title": "Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints",
+   "ctx": "Most Turkish-capable large language models (LLMs) are evaluated using general-purpose benchmarks rather than long, structurally complex domain documents. This paper evaluates five open-weight 7B-8B models for Turkish document question answering under a resource-constrained local deployment setting. The primary benchmark contains 100 systematically validated questions derived from a 109-page industrial R&D report, and the evaluation protocol is replicated using a second 112-page public-sector rep",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.28007v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:33:57.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0yapxn1",
+   "pri": 45,
+   "kind": "note",
+   "title": "SkillGym: Internalizing Human Skills into LLMs for Real-World Problem Solving",
+   "ctx": "Human-written agent skills encode rich workflows for real-world problem solving, but are typically used as external inference-time instructions rather than internalized as reusable model capabilities. We introduce \\texttt{SkillGym}, a framework that transforms these skills into executable, verifiable training environments for large language model agents. Its skill-to-task pipeline instantiates concrete tasks, verifies outcomes with code-based checkers, and assesses empirical skill dependence thr",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27717v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T11:35:34.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-17hp6a5",
+   "pri": 45,
+   "kind": "note",
+   "title": "Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding",
+   "ctx": "Contract inference requires multiple judgments about a shared document, but aggregate accuracy can conceal changes in the individual decisions. Repeated agreement is also insufficient: a model may consistently return the wrong answer. In this paper, we compare Jev with nine language models on ContractNLI, evaluating inference cost, response time, average correctness, and correctness across repeated request conditions. Controlled comparisons vary hypothesis visibility, requested outputs, and outp",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27678v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T10:53:01.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1bst2ub",
+   "pri": 45,
+   "kind": "note",
+   "title": "Controlled Attribute-Specific Summarization of Interrogative Dialogues",
+   "ctx": "Effective summarization of interrogative dialogues is a critical task in forensic and investigative settings, requiring high factual accuracy, coherence, and attribute-specific relevance. In this work, we introduce CASPER, a novel Chain-of-Thought Attribute-Specific Prompting for Evaluative Summarization framework that leverages structured prompting and iterative refinement to generate high-quality summaries of interrogator-witness interactions. We construct MINDSum, a dataset extending the MIND",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.28004v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:32:28.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1jiawm0",
+   "pri": 45,
+   "kind": "note",
+   "title": "Risk-Controlled KV-Cache Eviction: From Memory Budgets to Risk Targets",
+   "ctx": "KV-cache eviction is typically evaluated through average quality-memory trade-offs, yet a small average loss can hide requests whose utility degrades materially. We reformulate eviction as a deployment risk-control problem: a material degradation occurs when eviction lowers task utility by more than a deployment-specified tolerance relative to full-KV inference on the same request, and deployment risk is the population frequency of such events. Given a reliability contract specifying a target ri",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27981v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:05:27.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1nurnmm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Evaluation of pre-trained models for pedagogical assessment of novel AI-assisted educational questions",
+   "ctx": "The surge in AI-assisted generation of educational materials has outpaced our capacity to validate their pedagogical quality. Automated evaluation using Bloom Classifier models is a promising approach to assess educational materials at scale. These models show high accuracy within-distribution dataset (IID Dataset). However, applying the same models to new out-of-distribution (OOD) datasets such as AI-assisted generated questions could show performance degradation. To identify robust classifiers",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27749v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:00:33.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1r4gt9z",
+   "pri": 45,
+   "kind": "note",
+   "title": "Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery",
+   "ctx": "Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the decoder led to significant end-to-end transcription speedups. For instance, the {\\tt whisper-large-v3-turbo} variant reduced the decoder from 32 to 4 layers, while Distill-Whisper similarly reduced the decoder to only 2 layers. Although some attention has been put towards reducing the size of the encoder, no approach has seen wide adoption. This could be due to the need for cus",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27980v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:05:22.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1sz5yun",
+   "pri": 45,
+   "kind": "note",
+   "title": "Consequential Behaviour and Representational Fairness in the Validation of Synthetic Research",
+   "ctx": "Researchers in industry and academia use synthetic survey respondents powered by large language models as substitutes for human samples. These synthetic populations require validation against real-world data, so researchers often address them using ad hoc comparisons with human surveys. Inspired by the intention-behaviour gap in behavioural science, we argue that these validations test the wrong thing for most applied cases where decision makers commission synthetic research to anticipate conseq",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27690v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-24T02:30:56.018Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T11:10:16.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-017920i",
    "pri": 45,
@@ -2177,256 +2409,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0zyiz5m",
-   "pri": 45,
-   "kind": "note",
-   "title": "Generative Tutorial: Towards Live Contextualized Visual Instructions for Physical Tasks",
-   "ctx": "Visual instructions for physical tasks are typically authored in one context and followed in another, requiring users to translate demonstrated tools, materials, and spatial relationships into their own environment. We introduce Generative Tutorial, a conceptual framework for live visual instruction that depicts intended outcomes and actions within the user's environment and task flow. A formative evaluation of state-of-the-art image and video generation identifies failures and potential benefit",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24955v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:46:25.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-138nb2g",
-   "pri": 45,
-   "kind": "note",
-   "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-   "ctx": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditione",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24984v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:57:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1gyqs25",
-   "pri": 45,
-   "kind": "note",
-   "title": "Rare Event Estimation via Iterative Unalignment",
-   "ctx": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from stochastic variation in the agent's own actions. Estimating this type of risk requires searching over the combinatorially vast space of trajectories. Naive Mont",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24969v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:53:38.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1loh1xo",
-   "pri": 18,
-   "kind": "note",
-   "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
-   "ctx": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24971v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:54:35.000Z",
-   "sub": "arXiv cs.AI · introduces \"Pareto Frontier\"",
-   "extract": {
-    "ok": true,
-    "chars": 4098,
-    "lead": "Computer Science > Computation and Language arXiv:2609.24971v1 (cs) [Submitted on 21 Sep 2026] Title: DolphinBench: Mapping the Pareto Frontier of Agent Memory Authors: Soumil Rathi , Deshraj Yadav , Taranjeet Singh View a PDF of the paper titled DolphinBench: Mapping the Pareto Frontier of Agent Memory, by Soumil Rathi and 2 other authors View PDF HTML (experimental) Abstract: Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that evaluates memory directly through an agent's task completion. DolphinBench includes three knowledge-work personas with roughly 500k tokens of user messages per persona and evaluates agents on tasks that depend on information from that history. We verify all 200 tasks per persona by running an agent with and without t",
-    "truncated": false,
-    "title": "[2609.24971v1] DolphinBench: Mapping the Pareto Frontier of Agent Memory",
-    "fetchedAt": "2026-09-22T04:30:50.030Z",
-    "full": "full/f-arxiv-cs.AI-1loh1xo.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-01zuqzt",
-   "pri": 45,
-   "kind": "note",
-   "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
-   "ctx": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24983v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:56:53.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-05j61n5",
-   "pri": 45,
-   "kind": "note",
-   "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-   "ctx": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-d",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24972v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:54:49.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-07vjjs1",
-   "pri": 45,
-   "kind": "note",
-   "title": "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift",
-   "ctx": "In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile regression with sparse ReLU neural networks. We also consider covariate shift, where the calibration and test covariates have different distributions, and derive nonasymptotic bounds for this setting. ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24929v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:24:00.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0t5clxy",
-   "pri": 45,
-   "kind": "note",
-   "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
-   "ctx": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of end-state performance lacks transparency into how and why agents fail in various tasks, obfuscating critical insight for subsequent improvement. For instance, agents that err during keyboard inputs would require a different mitigation strategy from those that fail to precisely prov",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24890v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T16:55:24.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-0xnk578",
-   "pri": 45,
-   "kind": "note",
-   "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
-   "ctx": "On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their personal nature (i.e., the close coupling to a particular user) means that a given on-device LLM tends to be used in similar, predictable patterns over the course of time. This paper presents a novel me",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24979v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:55:48.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0yp1lmh",
-   "pri": 45,
-   "kind": "note",
-   "title": "JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization",
-   "ctx": "Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufacturing. In practice, however, characterization still relies largely on factorial design of experiments (DOE) approaches, which are inefficient for resolving multivariate pass/fail boundaries in higher-dimensional spaces. While Bayesian optimization ha",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24954v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:46:19.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2445,8 +2427,8 @@
    "slow": 99,
    "daily": 1
   },
-  "routed": 34,
-  "unrouted": 66,
+  "routed": 30,
+  "unrouted": 70,
   "unmappedLaneFamilies": []
  }
 }
