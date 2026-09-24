@@ -1,7 +1,453 @@
 {
- "generatedAt": "2026-09-24T01:30:57.685Z",
+ "generatedAt": "2026-09-24T02:00:59.820Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-017920i",
+   "pri": 45,
+   "kind": "note",
+   "title": "Categorical Internalisation of Environmental Groupoids for Generalisable POMDP Solving",
+   "ctx": "This paper advocates category theory as a practical framework for structuring and improving rein- forcement learning in high-dimensional, partially observable environments. We model symmetries between environmental states by partitioning the state space into equivalence classes induced by sym- metry orbits, and organise each such class as a groupoid with a designated canonical representative. This allows the agent to share what it learns across many similar environmental states simultaneously, r",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27745v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T11:59:24.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-041r13x",
+   "pri": 45,
+   "kind": "note",
+   "title": "Riemannian Structure and Optimization for a Class of Low-Parametric Orthogonal Matrices",
+   "ctx": "In this paper, we are concerned with matrices formed by block-diagonal factors interleaved with fixed permutations -- a flexible family of structured matrices. This class has recently drawn interest in deep learning architectures for its balanced expressivity-efficiency trade-off, yet efficient computational strategies for working with it remain to be found. We approach this problem through Riemannian geometry and examine under what conditions this class admits a smooth manifold structure. For t",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27982v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:07:18.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0kbd19z",
+   "pri": 45,
+   "kind": "note",
+   "title": "The Path Matters: Evaluating Small Language Models Beyond Answer Accuracy in KGQA",
+   "ctx": "Small language models (SLMs) are increasingly paired with knowledge graphs (KGs), yet end-to-end KG question answering conflates graph access, search, navigation, reasoning, and answer generation. This coupling makes it difficult both to determine whether an SLM can faithfully execute the reasoning path implied by a question and to attribute failures to navigation rather than to other stages of the pipeline. We isolate this capability by employing the THESEUS navigation and traceability framewor",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27669v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T10:38:23.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0n93psu",
+   "pri": 45,
+   "kind": "note",
+   "title": "FLEET: From Logits Entropy to Enhanced Trajectories in Text Generation",
+   "ctx": "Solutions based on large language models (LLMs) often rely on temperature sampling to improve accuracy and stability by aggregating multiple samples from the completion distribution. However, this memoryless approach is inherently suboptimal: because it lacks awareness of prior generations and their evaluations, it produces an increasing proportion of semantically duplicate answers as more samples are drawn, leading to diminishing returns. To address this limitation, we introduce FLEET, a novel ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27657v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T10:26:25.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0sazvhs",
+   "pri": 45,
+   "kind": "note",
+   "title": "AI-Driven Neural Surrogates for In Silico Design of Cognitive-Affective Neuromodulation Targets",
+   "ctx": "In neuropsychiatry, the primary goal is often not only to decode brain activity but to change it, for example to lessen a negative affective bias or an overly salient memory. Motivated by control theory, we develop an AI-driven neural-surrogate framework that proposes candidate representational changes and tests their predicted perceptual effects from snapshots of stimulus-evoked fMRI activity, without physical stimulation. The framework combines fMRI decoding, deep generative modeling, and cons",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27729v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T11:44:30.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-18r5arq",
+   "pri": 45,
+   "kind": "note",
+   "title": "Compliant with Local Controls, Collectively Discriminatory. A Governance Architecture for Multi-Agent AI in Regulated Finance",
+   "ctx": "Financial institutions are beginning to deploy agentic workflows in credit, fraud, collections, compliance, and operational control. Governance remains largely component-centric: each model or agent is specified, tested, authorized, and monitored locally. That is insufficient when institutional risk arises from the joint behavior of many locally acceptable components. We call this gap constitutional non-compositionality: local compliance checks need not compose into acceptable collective outcome",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27994v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:25:37.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1bst2ub",
+   "pri": 45,
+   "kind": "note",
+   "title": "Controlled Attribute-Specific Summarization of Interrogative Dialogues",
+   "ctx": "Effective summarization of interrogative dialogues is a critical task in forensic and investigative settings, requiring high factual accuracy, coherence, and attribute-specific relevance. In this work, we introduce CASPER, a novel Chain-of-Thought Attribute-Specific Prompting for Evaluative Summarization framework that leverages structured prompting and iterative refinement to generate high-quality summaries of interrogator-witness interactions. We construct MINDSum, a dataset extending the MIND",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.28004v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:32:28.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1nurnmm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Evaluation of pre-trained models for pedagogical assessment of novel AI-assisted educational questions",
+   "ctx": "The surge in AI-assisted generation of educational materials has outpaced our capacity to validate their pedagogical quality. Automated evaluation using Bloom Classifier models is a promising approach to assess educational materials at scale. These models show high accuracy within-distribution dataset (IID Dataset). However, applying the same models to new out-of-distribution (OOD) datasets such as AI-assisted generated questions could show performance degradation. To identify robust classifiers",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27749v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:00:33.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1oldprg",
+   "pri": 45,
+   "kind": "note",
+   "title": "Evolutionary Stability Does Not Guarantee Learning Accessibility: A Multi-Agent Reinforcement Learning Perspective on Cooperation Emergence",
+   "ctx": "Cooperation emergence is a central problem in multi-agent systems because decentralized agents must coordinate while adapting to the changing behavior of others. Evolutionary game theory identifies strategically stable outcomes, but stability under a population adjustment dynamic need not imply that finite-sample learning agents can reach the same outcome through local reward feedback. We study this distinction in a transparent three-agent governance-motivated game involving a government, a plat",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27664v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T10:35:50.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1rs6c3q",
+   "pri": 45,
+   "kind": "note",
+   "title": "InfiNoVA: Infinite Novel View Augmentation for Viewpoint Invariant Robot Policies",
+   "ctx": "Vision-Language-Action (VLA) policies often rely strongly on the camera viewpoints seen during training, causing substantial performance degradation when deployed from unseen perspectives. Collecting demonstrations from sufficiently diverse physical viewpoints is expensive and still provides only sparse coverage of the viewpoint space. We introduce InfiNoVA, a data-augmentation framework that converts synchronized multi-camera demonstrations into a dense distribution of geometrically consistent ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27734v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T11:47:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-02d64ke",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning from Failures: Heterogeneous Graph Memory for Small Language Model Tool-Using Agents",
+   "ctx": "Small and medium-sized language models offer cost-effective executors for tool-using agents, making them attractive for local and large-scale deployment. However, in long-horizon and stateful environments, they often make structural errors such as missing required observations, performing premature writes, repeating failed calls, and violating action preconditions. These errors can lead to incorrect state updates, policy violations, and costly or irreversible consequences, making reliable tool e",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.28003v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:31:39.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-041r13x",
+   "pri": 45,
+   "kind": "note",
+   "title": "Riemannian Structure and Optimization for a Class of Low-Parametric Orthogonal Matrices",
+   "ctx": "In this paper, we are concerned with matrices formed by block-diagonal factors interleaved with fixed permutations -- a flexible family of structured matrices. This class has recently drawn interest in deep learning architectures for its balanced expressivity-efficiency trade-off, yet efficient computational strategies for working with it remain to be found. We approach this problem through Riemannian geometry and examine under what conditions this class admits a smooth manifold structure. For t",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27982v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:07:18.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0g7dm1b",
+   "pri": 45,
+   "kind": "note",
+   "title": "Task-Induced Riemannian Metrics for Vision Transformer Feature Spaces",
+   "ctx": "Methods operating on Vision Transformer (ViT) feature spaces typically rely on Euclidean distance or cosine similarity. This assumes that every direction is equally meaningful, but there is no reason to believe the true task geometry has this property. The task-sensitive geometry of the feature space is given by the pullback metric $g(F) = J(F)^\\top J(F)$, where $J$ is the Jacobian of the decoder's output fed to a task-specific distance, with respect to the features. Storing the full $g$ is infe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27988v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:17:02.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0i9icjd",
+   "pri": 45,
+   "kind": "note",
+   "title": "Relative Discharge Stage (RDS) Classification: A Practical Indicator of Battery Discharge Progress",
+   "ctx": "Accurate remaining discharge time (RDT) prediction is challenging in real-world battery applications because future load profiles are unknown and highly dynamic. To address the uncertainty of continuous RDT regression, this paper introduces Relative Discharge Stage (RDS), a battery-management indicator that represents the remaining discharge condition using five interpretable classes: Normal, Good, Moderate, Low, and Recharge Required. Unlike state of charge (SOC), which reflects the current cha",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27986v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:14:14.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0k7quuy",
+   "pri": 45,
+   "kind": "note",
+   "title": "PCQC: Privileged Counterfactual Question Credit for Multi-Turn Medical Dialogue",
+   "ctx": "Large language models (LLMs) have made substantial progress on medical question-answering, yet effective medical dialogue also requires learning to ask questions that uncover relevant patient information. To train such dialogue policies, a common pipeline combines supervised fine-tuning with reinforcement learning (RL) based on final diagnostic correctness. However, this outcome-based supervision does not directly distinguish the contributions of individual questions and provides no question-lev",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.27987v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:15:10.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0msb2rp",
+   "pri": 45,
+   "kind": "note",
+   "title": "Improving Ensemble Filters with Flow Matching",
+   "ctx": "Data assimilation estimates a dynamical state from partial and noisy observations. Classical ensemble filters are efficient but restrict analysis updates through finite sample covariance and affine Gaussian distribution. We introduce the Flow Ensemble Filter (FlowEF), which uses conditional flow matching to transport the forecast ensemble from a classical baseline filter to an analysis ensemble. FlowEF uses a localized Gaussian source during training, transports forecast ensemble members from a ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.28015v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:37:45.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0o73cnt",
+   "pri": 45,
+   "kind": "note",
+   "title": "Shared Global KV with Layer-Specific Local History",
+   "ctx": "Decoder-only Transformer language models cache keys and values (KV) to reuse past computation during generation. Sharing KV across layers saves storage but reduces the diversity of representations available across depth. We study what local memory should retain alongside shared global KV, separating historical content from the input source used to form it. At 126M parameters and 2K context, an eight-seed study finds about 1.4% lower held-out test perplexity with local history than with a current",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.28006v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:33:40.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0pgkq6y",
+   "pri": 45,
+   "kind": "note",
+   "title": "Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints",
+   "ctx": "Most Turkish-capable large language models (LLMs) are evaluated using general-purpose benchmarks rather than long, structurally complex domain documents. This paper evaluates five open-weight 7B-8B models for Turkish document question answering under a resource-constrained local deployment setting. The primary benchmark contains 100 systematically validated questions derived from a 109-page industrial R&D report, and the evaluation protocol is replicated using a second 112-page public-sector rep",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.28007v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:33:57.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0y1y7sb",
+   "pri": 45,
+   "kind": "note",
+   "title": "SoLiD26: A First Principles Solid-Liquid Interface Dataset for Machine-learned Interatomic Potentials",
+   "ctx": "Machine-learned interatomic potentials (MLIPs) for solid-liquid interfaces in advanced materials applications, e.g., electrochemistry, catalysis and corrosion, require training data that samples both liquid environments, the solid and the interface itself. We present SoLiD26, a curated solid-liquid interface dataset, containing 15.4 million first-principles atomic structures with up to 576 atoms and 15 chemical elements for training and evaluating MLIPs. The structures were compiled from density",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.28013v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-24T02:00:49.730Z",
+   "tier": "B",
+   "itemTs": "2026-09-23T12:36:34.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-anthropic-news-02og6b8",
    "pri": 6,
@@ -408,29 +854,6 @@
    "detectedAt": "2026-09-23T03:00:51.204Z",
    "tier": "B",
    "itemTs": "2026-09-22T16:58:25.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1km4u84",
-   "pri": 45,
-   "kind": "note",
-   "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-   "ctx": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed acr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26780v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T03:00:51.204Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:56:12.000Z",
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
@@ -1119,29 +1542,6 @@
    "detectedAt": "2026-09-23T02:00:50.504Z",
    "tier": "B",
    "itemTs": "2026-09-22T13:36:33.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1i3s70v",
-   "pri": 45,
-   "kind": "note",
-   "title": "TimeInteract: Towards Real-Time Interactive Intelligence for Streaming Time Series",
-   "ctx": "Real-world time series evolve continuously, with meaningful changes potentially emerging at any moment. However, existing time-series language models (TSLMs) remain inherently static. They either receive complete sequences for offline processing or alternate between streaming input and response generation, which prevents processing of new observations during interaction. We introduce a new regime, Time-Series Interaction: a model continuously perceives incoming time-series observations and user ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26389v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T02:00:50.504Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:29:03.000Z",
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
@@ -2027,403 +2427,6 @@
    "sub": "arXiv cs.LG",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-10h0iby",
-   "pri": 45,
-   "kind": "note",
-   "title": "Exactness at Inference: A Representational Criterion for Out-of-Distribution Generalization",
-   "ctx": "A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for exactness in and out of distribution, and extrapolation is governed by this exactness at inference, whatever its realization. Tensor Logic shows this: a zero-temperature contraction is equivalent to discrete logic, deducing in place with no artefact extracted, its tensors Boolean, its",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24942v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:39:51.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-1aut7qf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
-   "ctx": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24985v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:57:20.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-1gyqs25",
-   "pri": 45,
-   "kind": "note",
-   "title": "Rare Event Estimation via Iterative Unalignment",
-   "ctx": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from stochastic variation in the agent's own actions. Estimating this type of risk requires searching over the combinatorially vast space of trajectories. Naive Mont",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24969v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-22T04:30:50.030Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T17:53:38.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-038f56v",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fathom-Vaidya: Advancing Medical Reasoning with Rubric-Based Rewards",
-   "ctx": "Deploying Large Language Models (LLMs) in healthcare requires robust performance across two complementary dimensions - diagnostic reasoning: the convergent, evidence-driven task of inferring a patient's condition from clinical data to produce a diagnosis, and clinical healthcare reasoning: the broader, navigational judgment required to communicate, plan, and adapt across multi-turn clinical interactions where a single correct answer may not exist. Recent benchmarks such as HealthBench and MedXpe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24480v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T12:19:50.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-05cevb7",
-   "pri": 45,
-   "kind": "note",
-   "title": "QLoRA Fine-Tuning of Ministral LLM for Sequence-to-Function Protein Annotation",
-   "ctx": "Functional annotation of newly sequenced proteins remains a bottleneck in molecular biology: the number of sequences in public repositories grows far faster than the capacity for manual curation. Most computational approaches consider annotation as multi-label classification over a fixed ontology, which constrains predictions to a predefined label set. In this work we study the the protein annotation as a sequence-to-text generation problem. We fine-tune the 3B-parameter Ministral 3 base model w",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24538v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T13:09:59.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0gon1k2",
-   "pri": 45,
-   "kind": "note",
-   "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
-   "ctx": "Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories. However, useful teacher guidance can yield a noisy update when its gradient is estimated from a sampled next token. We study this estimation problem at a fixed prefix in information geometry and propose an information-efficiency ratio (IER) based on a signal-to-noise decomposition. IER characterizes relative gradient estimation error under an optimal scalar baseline. A",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24432v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T11:28:24.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0hqlnl1",
-   "pri": 45,
-   "kind": "note",
-   "title": "Toward a Unified Mathematics of Concepts",
-   "ctx": "Concepts are commonly defined as abstract, compact representations of knowledge and treated as basic units of intelligent behavior. Yet, cognition, psychology, and AI lack a shared mathematical language for them. Modern systems represent concepts as vectors, distributions, symbols, graphs, and other structures, but these formalisms are typically treated as competing rather than as solutions to a common problem. We propose an operation-based view that evaluates mathematical frameworks by the conc",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24554v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T13:19:13.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0sh1qhv",
-   "pri": 45,
-   "kind": "note",
-   "title": "LLJ Cards: Best practices for the Use of LLMs as Judges",
-   "ctx": "In recent years, large language models (LLMs) have emerged as a popular alternative for evaluation. Often referred to as LLMs as judges (LLJs), these systems have been widely adopted by researchers and practitioners across a broad range of measurement tasks, driven by their strong performance, scalability, and cost-effectiveness relative to human judgment. However, a growing body of work has shown that the use of LLJs raise concerns about their validity and reliability as evaluators. Existing ef",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24516v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T12:54:07.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0uchma7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Morpho-VITS: Variational Inference with Morphological Modeling for End-to-End Speech Synthesis of a Tonal Bantu Language",
-   "ctx": "Text-to-speech models for Bantu tonal languages are challenged by a tonal system that is rooted in both the lexis (i.e., the inventory of words, stems, and affixes) and the grammar (i.e., morpho-syntax). To complicate matters, the standard writing systems of these languages often omit tone markings and syllable duration information, which must be disambiguated by the reader based on context. Motivated by linguistic descriptions of Bantu language tone systems, we propose an end-to-end text-to-spe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24310v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T09:08:09.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0yd4r7q",
-   "pri": 45,
-   "kind": "note",
-   "title": "Mitigating Entity Type Confusion in Cross-Domain NER via Multidimensional Quantification and Reasoning Enhancement",
-   "ctx": "Cross-domain Named Entity Recognition (CD-NER) aims to transfer the rich knowledge in the source domain to the target domain. Recent studies adopting decomposition or generation paradigms have achieved significant performance improvements, demonstrating high accuracy in entity span detection. However, during entity type classification, models severely suffer from entity type confusion, the erroneous tendency that models classify entities of one type in the text as another similar but incorrect t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24357v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T09:46:59.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1ezaoze",
-   "pri": 45,
-   "kind": "note",
-   "title": "End-to-end Jordanian dialect speech-to-text self-supervised learning framework",
-   "ctx": "Speech-to-text engines are extremely needed nowadays for different applications, representing an essential enabler in human-robot interaction. Still, some languages suffer from the lack of labeled speech data, especially in the Arabic dialects or any low-resource languages. The need for a self-supervised training process and self-training using noisy training is proven to be one of the up-and-coming feasible solutions. This article proposes an end-to-end, transformers-based model with a framewor",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24410v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T11:01:00.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1iluecj",
-   "pri": 45,
-   "kind": "note",
-   "title": "SupportCal: Label-Free Calibration of Post-Trained LLMs via Reference Support and Corroboration",
-   "ctx": "Post-training often improves task performance but can degrade confidence calibration, leaving post-trained language models (PoLMs) more overconfident than their corresponding pretrained language models (PLMs). Because task-specific labeled calibration data can be costly or unavailable, the corresponding pretrained PLM provides a natural label-free reference for post-hoc calibration. Prior agreement-gated PLM-referenced calibration fits a scalar temperature using only examples on which the PoLM a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24303v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T09:02:41.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1sn59pj",
-   "pri": 45,
-   "kind": "note",
-   "title": "URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER",
-   "ctx": "In-context learning (ICL) based on large language models (LLMs) has shown promising potential in alleviating performance bottlenecks caused by the limited availability of annotated data in Named Entity Recognition (NER). However, existing methods still face issues of retrieval misalignment and generation uncertainty, making their performance heavily dependent on the LLM's capabilities. As the parameter scale of LLMs decreases, their performance in few-shot settings deteriorates significantly. In",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24372v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-22T04:00:53.402Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T10:04:43.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-038f56v",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fathom-Vaidya: Advancing Medical Reasoning with Rubric-Based Rewards",
-   "ctx": "Deploying Large Language Models (LLMs) in healthcare requires robust performance across two complementary dimensions - diagnostic reasoning: the convergent, evidence-driven task of inferring a patient's condition from clinical data to produce a diagnosis, and clinical healthcare reasoning: the broader, navigational judgment required to communicate, plan, and adapt across multi-turn clinical interactions where a single correct answer may not exist. Recent benchmarks such as HealthBench and MedXpe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24480v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T03:00:51.632Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T12:19:50.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-05cevb7",
-   "pri": 45,
-   "kind": "note",
-   "title": "QLoRA Fine-Tuning of Ministral LLM for Sequence-to-Function Protein Annotation",
-   "ctx": "Functional annotation of newly sequenced proteins remains a bottleneck in molecular biology: the number of sequences in public repositories grows far faster than the capacity for manual curation. Most computational approaches consider annotation as multi-label classification over a fixed ontology, which constrains predictions to a predefined label set. In this work we study the the protein annotation as a sequence-to-text generation problem. We fine-tune the 3B-parameter Ministral 3 base model w",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24538v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T03:00:51.632Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T13:09:59.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-064tdui",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents",
-   "ctx": "AI agents are being deployed rapidly, accompanied by a growing number of AI-specific attacks and corresponding incidents. As incident reporting becomes increasingly important for legal compliance, governance, accountability, and security; current frameworks must be adapted to the unique characteristics of AI agents. In this paper, two editorial authors compare AI systems and AI agents and, drawing on input from 23 experts in academia and industry, identify the information required for reporting ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24515v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T03:00:51.632Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T12:53:51.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0a4fqx2",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Endless Exam: Mathematical Constructions from Today's Models toward Superintelligence",
-   "ctx": "We introduce the Endless Exam, a benchmark for measuring mathematical progress from today's models toward artificial superintelligence through fourteen parameterised construction families. Each submitted object is checked automatically for validity and assigned a relative quality score against a published frontier or construction baseline, without capping improvements at $1$. The families draw on open mathematical problems for long-term targets and generate new instances at larger parameters, wh",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.24555v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-22T03:00:51.632Z",
-   "tier": "B",
-   "itemTs": "2026-09-21T13:19:36.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2439,11 +2442,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 1,
-   "slow": 99
+   "slow": 99,
+   "daily": 1
   },
-  "routed": 33,
-  "unrouted": 67,
+  "routed": 34,
+  "unrouted": 66,
   "unmappedLaneFamilies": []
  }
 }
