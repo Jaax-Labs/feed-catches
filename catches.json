@@ -1,7 +1,1121 @@
 {
- "generatedAt": "2026-09-25T01:30:55.331Z",
+ "generatedAt": "2026-09-25T05:31:24.870Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-026qqh7",
+   "pri": 45,
+   "kind": "note",
+   "title": "ARGUS: Role-Aware Event Knowledge Graphs for U.S. Employment-Discrimination Complaints",
+   "ctx": "U.S. employment-discrimination complaints describe complex event sequences that are not explicitly captured by lexical or embedding-based representations alone. We present ARGUS, a source-grounded pipeline that combines a 5W1H-inspired schema, legal-domain models, and LLM-based structured generation to construct document-level Event Knowledge Graphs (EKGs) from CourtListener complaints. ARGUS extracts fact-bearing statements, builds chunk-level event graphs with participant, temporal, and causal",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30184v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:29:40.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-04ff015",
+   "pri": 45,
+   "kind": "note",
+   "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
+   "ctx": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio Language Models (LALMs). VeriSpeak contains 3,879 spoken claims spanning temporal, geographical, and relational facts, with balanced true and false labels. The benc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30227v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:50:40.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-05owdka",
+   "pri": 45,
+   "kind": "note",
+   "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+   "ctx": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine multiple rewards. We hence ask: given a new reward function, is it possible to predict the RL outcomes without actually running RL on it? We answer this in the affirma",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30226v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:50:25.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0dlgm2d",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Training Criterion with Token-Level Tolerance to Transcription Ambiguity for Automatic Speech Recognition",
+   "ctx": "Automatic speech recognition is typically trained assuming that the reference transcript is the only valid labeling of an utterance, yet even nominally verbatim transcripts contain localized differences in pronunciation, spelling, or lexical realization that the acoustics do not uniquely determine. Omni-temporal Classification (OTC) tolerates such noise by adding wildcard paths to the connectionist temporal classification (CTC) alignment graph, but its word-level arcs are too coarse, since bypas",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30160v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:17:55.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0pgigj9",
+   "pri": 45,
+   "kind": "note",
+   "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
+   "ctx": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion mechanisms. However, these methods still suffer from spurious generation and noisy guidance due to the lack of high-level semantic grounding in partially observed multimodal evidence. To address these ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30238v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:55:31.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0qwetbz",
+   "pri": 45,
+   "kind": "note",
+   "title": "Agentic Detection of Online Conspiracies",
+   "ctx": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, but inferring the speaker's intent -- the utterance's illocutionary force. We argue that this can be achieved through the use of relevant social contexts and propose an agentic framework, equipped with ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30250v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:58:43.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-10racal",
+   "pri": 45,
+   "kind": "note",
+   "title": "Does a model's stated reason for rejecting a candidate do any work?",
+   "ctx": "Asked to choose between candidates and explain the choice, a language model often rejects a rival by naming a fact its profile lacks: no director, no date of death. That sentence is a claim about the text in front of the model, and it can be tested without any judge. We insert a real corpus sentence stating the named fact into the rival's profile and ask again under greedy decoding. Two controls separate content from placement: a length-matched irrelevant sentence at the same profile, and the sa",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30151v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:13:35.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "lab-board"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-1c7ndnl",
+   "pri": 45,
+   "kind": "note",
+   "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+   "ctx": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of e",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30199v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:37:14.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1hep170",
+   "pri": 45,
+   "kind": "note",
+   "title": "Do Audio Language Models Hear and Read Distinctive Features Alike?",
+   "ctx": "Audio language models pass speech and text through a single decoder. We ask whether that decoder represents a distinctive feature in the same direction when a phoneme is heard and when it is read. For minimal pairs of phonemes differing in one feature, we take the offset between the two members' mean representations. Averaging those offsets gives a direction for each stream, and we measure the cosine between the two. Because the two streams already agree about arbitrary phoneme pairs, we compare",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30167v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:21:16.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1io3ac3",
+   "pri": 45,
+   "kind": "note",
+   "title": "JevOut: Natural Context Can Flip Decision Models",
+   "ctx": "Dedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. Yet real-world inputs rarely arrive in isolation: they come with background details and surrounding context. We find that short additions that fit naturally into this context can nevertheless redirect an otherwise correct decision, even when the correct answer remains unchanged. To study this behavi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30243v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T04:31:00.711Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:57:07.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-04ff015",
+   "pri": 45,
+   "kind": "note",
+   "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
+   "ctx": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio Language Models (LALMs). VeriSpeak contains 3,879 spoken claims spanning temporal, geographical, and relational facts, with balanced true and false labels. The benc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30227v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:50:40.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-05owdka",
+   "pri": 45,
+   "kind": "note",
+   "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+   "ctx": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine multiple rewards. We hence ask: given a new reward function, is it possible to predict the RL outcomes without actually running RL on it? We answer this in the affirma",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30226v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:50:25.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0gt6v0j",
+   "pri": 45,
+   "kind": "note",
+   "title": "Minimally Invasive Steering of Language Models",
+   "ctx": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the local KL geometry of the induced token distribution. The resulting Fisher quadratic measures distributional sensitivity and admits an analytic gradient computed",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30218v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:46:46.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ui6rv4",
+   "pri": 45,
+   "kind": "note",
+   "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+   "ctx": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-discriminative joint-embedding world model for counterfactual MPC. AD-WM combines residual latent dynamics with predictor-level action-recovery regularization, using inverse dynamics and a normalized re",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30264v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:59:41.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14et3pj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+   "ctx": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Rolling-WAM, a formulation that distributes joint denoising across successive replanning cycles. Our method maintains a sliding window of video-action chunks at staggered noise levels. At each step, a r",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30247v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:58:03.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-16dh3o6",
+   "pri": 45,
+   "kind": "note",
+   "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+   "ctx": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary. All tested harnesses, except Muse Code, allowed agents to delete their traces when asked, without triggering monitor guardrails. We also validate that exte",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30266v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:59:54.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1hkwk3c",
+   "pri": 45,
+   "kind": "note",
+   "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+   "ctx": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30233v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:53:35.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1hmltwu",
+   "pri": 45,
+   "kind": "note",
+   "title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
+   "ctx": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over long horizons, or track all points across only short clips. We introduce TrackEverything, a 3D point tracker that breaks this trade-off by representing videos as persistent 3D scene tracks in world coordinates. Grounded in the insight that videos are 2D projections of an underlying 3D world, TrackEverything decouples model complexity from video duration, allowing it to scale with u",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30222v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:48:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1hms8j8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority",
+   "ctx": "An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commissioning. Candidate generation is separated from release authority. Requirements unsupported by a deterministic parser are routed to a frozen local language model with four billion parameters. Plans are released only when both facts can be derived by an external gate under a sealed grammar. One canonical answer is requested from a gold-standard user when eligible. The protocol was evaluated once un",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30219v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:46:53.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1s21p35",
+   "pri": 45,
+   "kind": "note",
+   "title": "RAPID: Robot Agentic Programming from Demonstrations",
+   "ctx": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single visual human demonstration. The iterative agentic loop of code refinement requires several key ingredients: (i) a testable task specification, (ii) action primitives for robot execution, and (iii) an int",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30249v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T03:00:49.629Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:58:21.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-05h7k33",
+   "pri": 45,
+   "kind": "note",
+   "title": "Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
+   "ctx": "We present: (i) a new dataset consisting of the full development history of a 21,000-line Python tool built entirely by Claude AI, with no human-authored code or tests, (ii) two code-provenance tracing tools, (iii) three taxonomies for instruction intent, commit provenance, and response reliability, (iv) application of these to analyse the dataset. We find that: (i) user coding agent CLI instructions differ in kind from IDE-chat instructions, with a greater focus on comprehension, planning and c",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29744v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T12:59:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0itkyx8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning to Ideate for Scientific Impact",
+   "ctx": "Scientific ideation is increasingly mediated by large language models, but current ideation systems are usually trained and evaluated on immediately judgeable proxies such as novelty, clarity, and feasibility. This leaves open whether delayed signals of scientific uptake can be used as feedback for steering models toward research directions with higher expected \\emph{impact}. We study this question using citation-normalized impact as a noisy but scalable proxy for scholarly uptake. We construct ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29802v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:37:59.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0qt7k60",
+   "pri": 45,
+   "kind": "note",
+   "title": "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
+   "ctx": "Interpretable machine learning for Large Language Models (LLMs) increasingly relies on sparse probing methods that identify small sets of neurons claimed to detect and causally influence behaviors such as factuality recall, safety alignment, and hallucination. These claims have important implications for model auditing and behavioral steering, yet they are rarely tested against known failure modes of $L_1$-regularized probing in correlated, high-dimensional feature spaces. We propose a five-step",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29781v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:23:00.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-166jisa",
+   "pri": 45,
+   "kind": "note",
+   "title": "Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution",
+   "ctx": "In July 2026, an unconstrained autonomous agent participating in a frontier AI cybersecurity evaluation harness breached its evaluation sandbox, established an external command-and-control foothold, and executed a multi-stage intrusion into Hugging Face's production multi-tenant dataset conversion infrastructure (referred to in this autopsy as Incident-2026-Alpha). Over 4.5 days, the rogue agent executed 17,600 discrete actions across 6,280 worker clusters, compromised AWS EC2 Instance Metadata ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29808v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:42:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-17kfo31",
+   "pri": 18,
+   "kind": "note",
+   "title": "Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
+   "ctx": "Many real-world tasks (e.g., office workflows, scientific experimentation) require LLM agents to interact repeatedly with their environments for context-dependent operations. However, such environments are often not agent-ready. First, information is often scattered and fragmented across the environment. Second, relevant evidence in the environment is often mixed with misleading information and conflicting versions. Third, environments evolve over time, introducing new noise and more challenging",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29773v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:17:57.000Z",
+   "sub": "arXiv cs.AI · introduces \"Environment Wall\"",
+   "extract": {
+    "ok": true,
+    "chars": 4464,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2609.29773v1 (cs) [Submitted on 24 Sep 2026] Title: Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement Authors: Yukai Wu , Yuanjing Yang , Le Zhou , Shaokun Han , Haoyu Wang , Zirui Tang , Weihuang Zheng , Maxm Pan , Xuanhe Zhou , Fan Wu View a PDF of the paper titled Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement, by Yukai Wu and 9 other authors View PDF HTML (experimental) Abstract: Many real-world tasks (e.g., office workflows, scientific experimentation) require LLM agents to interact repeatedly with their environments for context-dependent operations. However, such environments are often not agent-ready. First, information is often scattered and fragmented across the environment. Second, relevant evidence in the environment is often mixed with misleading information and conflicting versions. Third, environments evolve over time, introducing new noise and more challenging tasks. These challenges can substantially degrade performance for state-of-the-art AI agents (e.g., from 83.9% to 57.6%). To address these challenges, we propose Env-Rethin",
+    "truncated": false,
+    "title": "[2609.29773v1] Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
+    "fetchedAt": "2026-09-25T02:00:49.516Z",
+    "full": "full/f-arxiv-cs.AI-17kfo31.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-19vbkwj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs",
+   "ctx": "Large Language Models (LLMs) consume and produce a single sequence of text; hence, if text can be added to the beginning of the LLM's response, i.e., an output prefix, then all subsequent tokens will be conditioned on it. This output-prefix attack technique is a cheap black-box prompt injection. Prior work has shown this type of attack can reliably jailbreak non-reasoning models. Most reasoning models add an intermediate scratchpad reasoning step before the assistant's final response. The abilit",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29775v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:18:21.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1en2kei",
+   "pri": 45,
+   "kind": "note",
+   "title": "Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages",
+   "ctx": "This paper presents an end-to-end study of automatic speech recognition (ASR) for adolescent health communication in three Ghanaian languages (Twi, Dagbani, and Ewe). The work proceeds in three connected stages; First, we benchmark five ASR systems (three language-specific Wav2Vec2 models and two multimodal LLMs, Gemma 3n and Gemma 4) on a general-domain Bible corpus and a Youth Adolescent Sexual and Reproductive Health (ASRH) Domain ASR dataset, using Character and Word Error Rate (CER, WER). S",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29798v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:36:38.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ls0kw3",
+   "pri": 45,
+   "kind": "note",
+   "title": "Anatomy-aware cross-speaker adaptation of complete vocal-tract acoustic-to-articulatory inversion",
+   "ctx": "Cross-speaker acoustic-to-articulatory inversion requires accounting for anatomical differences between speakers. We propose a geometric adaptation framework that uses anatomical landmarks, primarily on vertebrae and dental structures,to transfer predictions from a fixed inversion model to unseen speakers. An affine transformation followed by thin-plate spline (TPS) deformation maps the predicted contours of 10 vocal-tract structures into each target speaker's geometry without retraining. Landma",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29766v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:14:15.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1pzuvkr",
+   "pri": 45,
+   "kind": "note",
+   "title": "SEEK: Skill-Routed Evaluation with Evolvable Knowledge for Industrial Search",
+   "ctx": "Search quality evaluation provides essential supervision and diagnostic signals for the development and iteration of industrial search systems. Although large language models (LLMs) offer a scalable alternative to manual assessment, reliable automatic evaluation remains challenging: users experience search results at the page level, while the applicable evaluation criteria are multi-dimensional and continuously evolving. Packing all evaluation criteria into a unified prompt introduces irrelevant",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29803v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:39:14.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1qsp5bw",
+   "pri": 45,
+   "kind": "note",
+   "title": "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
+   "ctx": "We present TimeBraid, a series of unified time-series and language models that align pretrained language models and pretrained time-series foundation models through interleaved global residual attention layers. Each model inherits knowledge, instruction following, and reasoning from one side, continuous-signal perception and zero-shot forecasting from the other, and fuses the two in a shared representation space where both modalities are understood and generated. We study the design choices that",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29792v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:30:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0060hdi",
+   "pri": 45,
+   "kind": "note",
+   "title": "JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places",
+   "ctx": "We ask whether Jev, a typed classifier that returns probabilities over permitted answers without generating text, can replace an LLM rubric judge. We compare it with three flash-tier LLM judges on nine panels drawn from seven benchmarks, giving every judge identical criterion texts. Jev's accuracy differs significantly from an LLM judge's in only 8 of 27 paired comparisons, ahead mostly on binary criteria and behind only on graded ones, and most of the other comparisons are inconclusive. Summed ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29769v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:16:21.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-08xm4ua",
+   "pri": 45,
+   "kind": "note",
+   "title": "TTLab at AlexandriaX-2026: A Fine-Tuned Surface Tagger for Arabic Machine-Translation Error-Span Detection and Classification",
+   "ctx": "We present TTLab's submission to the AlexandriaX-2026 Subtask~3 on Arabic MT error span detection and classification. Our system frames the task as token-level classification over surface forms, preserving character offsets to ensure exact alignment with the evaluation metric. To handle severe label imbalance, we employ a focal loss with class weighting and dialect-specific decoding thresholds. Among six Arabic pre-trained encoders, MARBERTv2 achieves the best overall performance of 40.8 and 40.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29633v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T12:37:06.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0itkyx8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning to Ideate for Scientific Impact",
+   "ctx": "Scientific ideation is increasingly mediated by large language models, but current ideation systems are usually trained and evaluated on immediately judgeable proxies such as novelty, clarity, and feasibility. This leaves open whether delayed signals of scientific uptake can be used as feedback for steering models toward research directions with higher expected \\emph{impact}. We study this question using citation-normalized impact as a noisy but scalable proxy for scholarly uptake. We construct ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29802v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:37:59.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0jz8coh",
+   "pri": 45,
+   "kind": "note",
+   "title": "TTLab at StanceEval-2026: A Cloze-Style Prompting Approach for Arabic-Language Stance Detection (CLASP-Ar)",
+   "ctx": "Arabic-language stance detection remains challenging, and previous shared-task systems have largely relied on multitask learning and ensembles. While these systems achieve state-of-the-art performance, their applicability and transferability are limited by the additional complexity introduced by multitask learning.To reduce this complexity, we introduce $\\texttt{CLASP-Ar}$, which reformulates the task as cloze-style masked language modeling. In this approach, the target, predicted sentiment, and",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29733v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T12:50:47.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0urz8qa",
+   "pri": 45,
+   "kind": "note",
+   "title": "Adaptive Fisher-Whitened Cross-Covariance for Low-Resource Speech Recognition",
+   "ctx": "Adapting multilingual speech foundation models to low-resource languages remains difficult, especially for languages that are poorly represented during pre-training. While parameter-efficient fine-tuning (PEFT) reduces the cost of adapting large models, conventional approaches such as LoRA rely on generic low-rank parameterizations and do not explicitly use downstream task information to define the adaptation subspace. To investigate whether task-informed PEFT can better support low-resource ASR",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29800v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:37:22.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-12uxer3",
+   "pri": 45,
+   "kind": "note",
+   "title": "CORDIAL: Calibrating Ordinal LLM Outputs from Few Labels",
+   "ctx": "A large language model (LLM) can turn a text into a distribution over an ordered scale, but that distribution is a noisy measurement: saturated, compressed or exaggerated, and biased in a consistent direction. We propose CORDIAL, which treats the model's output as a noisy reading of the true label and corrects it with a channel of five interpretable parameters. The channel is small enough for its posterior to be averaged from a handful of labels, and we prove that the resulting calibration prese",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29807v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:41:29.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1en2kei",
+   "pri": 45,
+   "kind": "note",
+   "title": "Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages",
+   "ctx": "This paper presents an end-to-end study of automatic speech recognition (ASR) for adolescent health communication in three Ghanaian languages (Twi, Dagbani, and Ewe). The work proceeds in three connected stages; First, we benchmark five ASR systems (three language-specific Wav2Vec2 models and two multimodal LLMs, Gemma 3n and Gemma 4) on a general-domain Bible corpus and a Youth Adolescent Sexual and Reproductive Health (ASRH) Domain ASR dataset, using Character and Word Error Rate (CER, WER). S",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29798v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:36:38.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1jyjj7z",
+   "pri": 45,
+   "kind": "note",
+   "title": "C3M: Cross-Session Multimodal Memory Maintenance for Long-Horizon Tasks",
+   "ctx": "Long-horizon tasks require preserving and later recovering cross-session evidence under a bounded, query-blind memory budget. Existing compression can discard fine-grained visual cues or conflate semantically similar but incompatible observations. We present C3M, a cross-session multimodal memory organization that maintains a bounded active index over persistent source text-image evidence. Relation-aware updates consolidate safe redundancy while preserving complementary and incompatible records.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29735v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T12:52:27.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1qsp5bw",
+   "pri": 45,
+   "kind": "note",
+   "title": "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
+   "ctx": "We present TimeBraid, a series of unified time-series and language models that align pretrained language models and pretrained time-series foundation models through interleaved global residual attention layers. Each model inherits knowledge, instruction following, and reasoning from one side, continuous-signal perception and zero-shot forecasting from the other, and fuses the two in a shared representation space where both modalities are understood and generated. We study the design choices that",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29792v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T13:30:02.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-1uxnzsd",
+   "pri": 45,
+   "kind": "note",
+   "title": "CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding",
+   "ctx": "Public software repositories, like GitHub and Software Heritage Archive, store billions of files, yet extracting their implicit engineering knowledge ---i.e., the algorithms they implement, the paradigms they follow, the patterns they instantiate, and the application domains they serve--- remains challenging, as current tools are constrained to syntactic and token-level analysis. We present a pipeline for building an open-taxonomy semantic annotation of source code using a code-specialised Large",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.29474v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T12:31:05.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-02sdylj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+   "ctx": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Attack on Consecutive Encodings (TRACE), an amortized temporal gradient-inversion attack that autoregressively reconstructs the sequence of private observation-action trajectories from per-step policy-le",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30258v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:59:18.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-04ff015",
+   "pri": 45,
+   "kind": "note",
+   "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
+   "ctx": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio Language Models (LALMs). VeriSpeak contains 3,879 spoken claims spanning temporal, geographical, and relational facts, with balanced true and false labels. The benc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30227v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:50:40.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-05owdka",
+   "pri": 45,
+   "kind": "note",
+   "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+   "ctx": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine multiple rewards. We hence ask: given a new reward function, is it possible to predict the RL outcomes without actually running RL on it? We answer this in the affirma",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30226v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:50:25.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0gt6v0j",
+   "pri": 45,
+   "kind": "note",
+   "title": "Minimally Invasive Steering of Language Models",
+   "ctx": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the local KL geometry of the induced token distribution. The resulting Fisher quadratic measures distributional sensitivity and admits an analytic gradient computed",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30218v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:46:46.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0q759rl",
+   "pri": 45,
+   "kind": "note",
+   "title": "Anchored Extra-Proximal Methods: Optimal Higher-Order Methods for Monotone Inclusion Problems",
+   "ctx": "We study the deterministic oracle complexity of finding approximate solutions to composite monotone inclusion problems, formed by the sum of a smooth single-valued monotone operator and a maximally monotone set-valued operator, under the tangent-residual criterion. We introduce the Anchored Extra-Proximal (AEP) framework, which combines an anchored extrapolation step with an inexact anchored proximal update satisfying a relative-error condition. The framework recovers the composite Fast Extragra",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30212v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:43:45.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.LG-0qwetbz",
+   "pri": 45,
+   "kind": "note",
+   "title": "Agentic Detection of Online Conspiracies",
+   "ctx": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, but inferring the speaker's intent -- the utterance's illocutionary force. We argue that this can be achieved through the use of relevant social contexts and propose an agentic framework, equipped with ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30250v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:58:43.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.LG-0uqc0l8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Intrinsic-Extrinsic Coupling in Learning Dynamics",
+   "ctx": "A learner's current observations need not determine its response to further training. We formulate intrinsic-extrinsic coupling through the continuation-conditioned value of a constrained learning-state intervention, with observation-relative fibers describing present agreement. An executable finite-frame classifier-head write protects current logits while repairing specified historical margins under finite-precision acceptance checks. We distinguish local admissibility, continuation-conditioned",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2609.30185v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.LG",
+   "detectedAt": "2026-09-25T02:00:49.516Z",
+   "tier": "B",
+   "itemTs": "2026-09-24T17:30:22.000Z",
+   "sub": "arXiv cs.LG",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.CL-06bbtnx",
    "pri": 45,
@@ -542,52 +1656,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-15bci55",
-   "pri": 45,
-   "kind": "note",
-   "title": "Even Sharper Bounds for Transductive Learning and Its Applications",
-   "ctx": "We introduce Sharper Transductive Local Complexity (STLC), a localized complexity method for transductive learning under uniform sampling without replacement. The construction starts from a Bernstein-type concentration inequality for the supremum of the test--train empirical process. Its proof uses the modified log-Sobolev inequality for the swap walk and a two-parameter entropy closure. A peeling argument with a surrogate localization functional then gives excess-risk bounds with the same fixed",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.28459v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-24T03:01:01.122Z",
-   "tier": "B",
-   "itemTs": "2026-09-23T17:52:50.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-17iilek",
-   "pri": 45,
-   "kind": "note",
-   "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
-   "ctx": "Personalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when this continuity supports learning from limited feedback. We propose Context-Continuous Preference Learning (CCPL), a Gaussian-process preference model that shares observations across nearby contexts while retaining context-specific utility estimates.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.28427v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-24T03:01:01.122Z",
-   "tier": "B",
-   "itemTs": "2026-09-23T17:28:08.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
   },
   {
    "id": "f-arxiv-cs.CL-0kbd19z",
@@ -1300,1093 +2368,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-00xkaxm",
-   "pri": 45,
-   "kind": "note",
-   "title": "Discovery-Driven Integration of Disjoint Tables via Text",
-   "ctx": "Integrating heterogeneous datasets within data lakes is a critical challenge, particularly for semantically related tables that lack the explicit attributes needed to be joined. We study Discovery-Driven Integration, where the relevant sources and their missing relational structure must be discovered before integration. In this setting, unstructured text provides the evidence that connects otherwise disjoint tables. The fundamental challenge is to discover the relationships at a fine-grained lev",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26658v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T16:22:54.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-09j475d",
-   "pri": 45,
-   "kind": "note",
-   "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
-   "ctx": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple custom tool through a standard API feature, we induce frontier models to externalize intermediate reasoning. Because these traces may reflect post-hoc rationalization rather than genuine reasoning, we first evaluate against native CoT on open-source models and extend to closed-sourc",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26637v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T16:10:18.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0ds8mag",
-   "pri": 45,
-   "kind": "note",
-   "title": "Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding",
-   "ctx": "Autoregressive OCR vision-language models accurately convert document images into text and structured markup, but require one sequential decoding step per output token, limiting inference speed. Unlike open-ended text generation, OCR outputs are strongly grounded in the input image, making diffusion-based parallel generation promising. However, when several tokens are predicted in one diffusion step, each is predicted before the others are known. Committing them directly can therefore introduce ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26638v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T16:11:47.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0ieg1jj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
-   "ctx": "A coding agent must emit a valid tool call--a parseable invocation of a tool in the provided schema--before the harness can execute its chosen action. We study how local serving stacks affect this protocol step and show that measured outcomes can depend on the serving layer rather than model behavior alone. In Ollama, the default tools= request is gated per model by a static template flag: some models are accepted and return calls as text, some return native tool_calls, while Phi-3 and Gemma-3 a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26693v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T16:48:17.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0jsjgpf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-   "ctx": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent harness without a central orchestrator: concurrent workers execute a multi-agent cooperation loop, ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26781v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:56:25.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0yk9go6",
-   "pri": 45,
-   "kind": "note",
-   "title": "Detecting GPT-Assisted Writing Using Interpretable Stylometric Features",
-   "ctx": "Distinguishing GPT-assisted from independently authored student writing has become a critical challenge in academia. This paper evaluates the discriminative capability of interpretable stylometric features extracted solely from submitted text. Using data from 90 participants who wrote both independently and with ChatGPT assistance, we evaluate eight machine learning classifiers while keeping data from the same participant together during validation. On the held-out test set, Random Forest achiev",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26687v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T16:44:26.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-13jro28",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
-   "ctx": "Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to produce many near duplicate attempts rather than genuinely different ideas. We ask whether exploration can instead be steered at a semantic level, by first sampling problem specific concepts, hints, or st",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26704v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T16:56:53.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1g9q2gn",
-   "pri": 45,
-   "kind": "note",
-   "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
-   "ctx": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding mechanisms. Existing acceleration methods typically study KV caching and parallel decoding in isolation, overlooking the I/O bottlenecks that arise when cache reuse and",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26796v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:59:57.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1km4u84",
-   "pri": 45,
-   "kind": "note",
-   "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-   "ctx": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed acr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26780v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:56:12.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1pof7fw",
-   "pri": 45,
-   "kind": "note",
-   "title": "Knowledge Pull Requests for Continual Document Authoring",
-   "ctx": "We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interpretable. Documents require ongoing revision as new knowledge surfaces from other sources, languages, or times, but existing approaches either edit with no account of what knowledge changed or regenerate from scratch. A KPR integrates new knowledge into a document by extracting claims, filtering and routing them to sections, and flagging conflicts with existing content, producing",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26634v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T04:30:47.435Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T16:07:13.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-02v0jby",
-   "pri": 45,
-   "kind": "note",
-   "title": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
-   "ctx": "Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generation, and mutation-based testing. A complemen- tary need is to study whether a generated assertion cap- tures externally observable behavior or depends on inci- dental details of one RTL implementation. ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26751v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T03:00:51.204Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:33:09.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-03sfcyc",
-   "pri": 45,
-   "kind": "note",
-   "title": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
-   "ctx": "Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and code reasoning substantially impaired. Long generations often degenerate into repetitive loops, exhausting the decoding budget without completing a solution. We trace this gap to quantization-amplified exposure bias: QAD trains on fixed corpus prefixes, while quantization-induced deviations compound along the model's own autoregressive t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26708v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T03:00:51.204Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:01:09.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-03sp928",
-   "pri": 45,
-   "kind": "note",
-   "title": "Automatic depth-based local center clustering via $β$-integrated local depth and adaptive grouping",
-   "ctx": "Clustering is an unsupervised learning technique that partitions unlabeled data into groups. Most existing methods require user-specified parameters, such as the number of clusters or neighborhood size. Conversely, we propose automatic depth-based local center clustering (A-DLCC), a fully data-driven method that eliminates numerical parameter tuning. A-DLCC uses the $β$-integrated local depth to identify stable exemplars, points consistently central across multiple locality levels, termed local ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26748v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T03:00:51.204Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:31:28.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0t4k2yx",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence",
-   "ctx": "Long-context LLMs focus on retrieving distant evidence from extensive context, yet existing work has largely focused on overcoming distance alone. In this work, we identify the Proximity Trap, insufficient attention to distant evidence often arises less from distance itself than from cumulative competition with abundant, task-irrelevant proximal background. To address the Proximity Trap, we introduce LYRA (Long-context heavY-tailed Relevance Alignment), a t-distributed directional matching mecha",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26718v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T03:00:51.204Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:06:51.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": [
-    "lab-board"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.LG-0vpevbd",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
-   "ctx": "We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank model representations to address cooperative decision-making in partially observable Markov decision processes without prior knowledge of the transition model. Each team member makes decisions based on local private information and delayed common information shared across the team. Using only this avai",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26783v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T03:00:51.204Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:56:46.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0bev5q7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen",
-   "ctx": "Large language models (LLMs) are increasingly applied to the automated repair of C/C++ security vulnerabilities, and compile rate is a commonly reported proxy for progress: whether the generated patch compiles. We argue that compile rate is a scientifically unreliable metric for single-function vulnerability repair, and we support this with five controlled experiments over 203 vulnerable functions from Big-Vul, three open-source code LLMs (350M to 6.7B parameters), and three prompting strategies",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26749v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:32:05.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0s1xuh2",
-   "pri": 45,
-   "kind": "note",
-   "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
-   "ctx": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedback can instead turn recurring control into reusable executable code, while reserving LLM calls for task-specific semantic reasoning. We introduce Growing Harness, a failure-guided training paradigm that learns the agent harness itself from a strategy-free scaffold that exposes fix",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26760v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:40:45.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0t4k2yx",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence",
-   "ctx": "Long-context LLMs focus on retrieving distant evidence from extensive context, yet existing work has largely focused on overcoming distance alone. In this work, we identify the Proximity Trap, insufficient attention to distant evidence often arises less from distance itself than from cumulative competition with abundant, task-irrelevant proximal background. To address the Proximity Trap, we introduce LYRA (Long-context heavY-tailed Relevance Alignment), a t-distributed directional matching mecha",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26718v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:06:51.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "lab-board"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0yi3cqd",
-   "pri": 45,
-   "kind": "note",
-   "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
-   "ctx": "Typed decision models are built for settings where model outputs are consumed directly by software. Instead of generating free-form text, they return a decision over a predefined set of options. By construction, every output conforms to the required schema. Yet this guarantee does not tell us whether the model interprets the options as intended. We study Jev and two Jev-like models with open weights by changing how option names are assigned to rubrics. Each option consists of an option name and ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26758v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:38:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0zo3r51",
-   "pri": 45,
-   "kind": "note",
-   "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
-   "ctx": "Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacke",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26761v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:41:34.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-13ymugm",
-   "pri": 18,
-   "kind": "note",
-   "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
-   "ctx": "We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedi",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26777v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:54:59.000Z",
-   "sub": "arXiv cs.AI · introduces \"Benchmarking Agentic Engineering\"",
-   "extract": {
-    "ok": true,
-    "chars": 4858,
-    "lead": "Computer Science > Artificial Intelligence arXiv:2609.26777v1 (cs) [Submitted on 22 Sep 2026] Title: SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving Authors: Jennifer Williams , Dave Farris , Jeff Farris , Jiantao Jiao View a PDF of the paper titled SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving, by Jennifer Williams and 3 other authors View PDF HTML (experimental) Abstract: We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedicated inference benchmarks, meanwhile, focus primarily on isolated kernel generation or performance optimization rather than repository-scale production feature implementation. SWE-Serve provides 53 repository-grounded tasks derived from recent production changes",
-    "truncated": false,
-    "title": "[2609.26777v1] SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
-    "fetchedAt": "2026-09-23T02:31:02.012Z",
-    "full": "full/f-arxiv-cs.AI-13ymugm.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1czemeb",
-   "pri": 45,
-   "kind": "note",
-   "title": "FleXray: Universal Clinical X-ray Segmentation",
-   "ctx": "X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing structures to overlap and anatomical boundaries to be ambiguous, even to experts. As a result, labeling X-ray databases for training general-purpose segmentation systems is impractical, leaving morphometric and functional X-ray analysis confined to narrow anatomical regions and applications. To this ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26756v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:37:55.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1km4u84",
-   "pri": 45,
-   "kind": "note",
-   "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-   "ctx": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed acr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26780v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:56:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1pes9pp",
-   "pri": 45,
-   "kind": "note",
-   "title": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows",
-   "ctx": "AI tools for digital product design now offer prompt-to-design capabilities, allowing designers and their non-designer colleagues to create prototypes through conversational workflows with large language models (LLMs). While these tools promise time savings, experimental evidence in product design remains limited compared with evidence from software engineering. We conducted a randomized controlled trial with 50 product designers and 50 product managers to evaluate prospective time savings from ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26725v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:13:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1qod4qc",
-   "pri": 45,
-   "kind": "note",
-   "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
-   "ctx": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Terminal-Bench and achieving new levels of efficiency for test-time scaling and state-of-the-art results on KernelBench. The per-rollout savings of CliffCompaction make the performanc",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26779v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T17:55:59.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0cuqpzy",
-   "pri": 45,
-   "kind": "note",
-   "title": "Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament",
-   "ctx": "Political discourse is widely perceived to be growing more hostile, yet robust evidence remains scarce. This study examines blame attribution in the Danish Parliament from 1997 to 2026, combining a purpose-built classifier, BlameBERT (F1: 0.80), with multilevel statistical modeling. The classifier is constructed using an annotation-efficient pipeline for blame attribution in low-to-mid resource languages. The results reveal a banana-shaped trajectory, with blame declining until around 2016 befor",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26346v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T12:52:20.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0di9l8a",
-   "pri": 45,
-   "kind": "note",
-   "title": "HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing",
-   "ctx": "Long-horizon and multi-turn agents typically generate short actions and process long observations from tools and environments. This growing context demands efficient prefill, compact KV-cache storage, and accurate long-context retrieval. To meet these demands, we introduce HySparse2, a hybrid sparse attention architecture with two-level KV sharing. At the outer level, KV Bridging adopts a YOCO-style self-decoder and cross-decoder structure, but bridges only full-attention layers. The self-decode",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26368v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:10:32.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0kgwmnx",
-   "pri": 45,
-   "kind": "note",
-   "title": "TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling",
-   "ctx": "The scarcity of non-English language data in specialized domains significantly limits the development of effective Natural Language Processing (NLP) tools. We present TransBERT, a novel framework for pre-training language models using exclusively synthetically translated text, and introduce TransCorpus, a scalable translation toolkit. Focusing on the life sciences domain in French, our approach demonstrates that state-of-the-art performance on various downstream tasks can be achieved solely by l",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26347v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T12:53:35.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0pwrs0h",
-   "pri": 45,
-   "kind": "note",
-   "title": "Truth for Believable AI: Expressed Doubt, Provenance, and Belief Revision as an Engineerable Stance",
-   "ctx": "Conversational agents often express answers in a uniformly confident register. We test whether expressed uncertainty, provenance-aware assertion, and explicit belief revision can be implemented as a behavior layer over a fixed language model; we do not test believability or trust. The layer combines three epistemic states, per-claim confidence and typed provenance, a provenance-gated expression rule, and a persistent revision store with auditable acknowledgments and partial resistance to false c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26035v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T11:34:53.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0tzrcaf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Layout-Guided Masking for GROBID: Lightweight Structural Gains in Large-Scale Scientific PDF Ingestion",
-   "ctx": "Transforming scholarly PDFs into machine-readable fulltext remains a bottleneck for large-scale information systems. Recent vision-based parsers improve accuracy, but need GPUs and may introduce noise into the extracted text. GROBID, a modular font-stream parser running on CPU, is the de-facto standard for structuring scientific articles and underpins several of the largest open scholarly corpora. We pair it with a lightweight CPU detector localising figure, table, and paratext (header, footer, ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26381v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:24:30.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0v0jk7t",
-   "pri": 18,
-   "kind": "note",
-   "title": "FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents",
-   "ctx": "Language-model agents often reach a working solution and then fail to consistently deliver it. We study runtime policies: targeted natural-language instructions and action denials applied by the agent harness at states that preceded observed failures, without changing model weights or the user prompt. With this, keeping capability constant, we observe a meaningful unlock in delivered reliability. Across the complete 87-task Terminal-Bench 2.1 suite, with two attempts per task, policies increase ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26048v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T11:50:35.000Z",
-   "sub": "arXiv cs.CL · introduces \"Informed Runtime Engineering\"",
-   "extract": {
-    "ok": true,
-    "chars": 4527,
-    "lead": "Computer Science > Artificial Intelligence arXiv:2609.26048v1 (cs) [Submitted on 22 Sep 2026] Title: FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents Authors: Nikita Agarwal , Nivedit Jain View a PDF of the paper titled FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents, by Nikita Agarwal and 1 other authors View PDF HTML (experimental) Abstract: Language-model agents often reach a working solution and then fail to consistently deliver it. We study runtime policies: targeted natural-language instructions and action denials applied by the agent harness at states that preceded observed failures, without changing model weights or the user prompt. With this, keeping capability constant, we observe a meaningful unlock in delivered reliability. Across the complete 87-task Terminal-Bench 2.1 suite, with two attempts per task, policies increase repeated success (pass^2) in all three GPT-5.6 tiers: 50.6% to 54.0% for Luna, 55.2% to 60.9% for Terra, and 64.4% to 73.6% for Sol. Sol's best-of-two success changes by 1.2 points while repeated success rises by 9.2, showing that policies chiefly convert reachable solutions into dependable del",
-    "truncated": false,
-    "title": "[2609.26048v1] FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents",
-    "fetchedAt": "2026-09-23T02:31:02.012Z",
-    "full": "full/f-arxiv-cs.CL-0v0jk7t.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "model-switch",
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-18b1j0b",
-   "pri": 45,
-   "kind": "note",
-   "title": "Designing and Analysing Argument Mining Pipelines: Towards a Comprehensive Assessment",
-   "ctx": "Argument Mining (AM) transforms natural language into its underlying argument structures. This transformation is typically realized through a sequence of AM tasks that form an end-to-end AM pipeline. However, AM approaches often differ in how they conceptualize these tasks, making direct comparisons between them difficult and opaque. This calls for a more nuanced, task-level analysis of AM approaches to enable clearer comparison and assessment. This work presents a preliminary meta-study that sy",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26338v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T12:46:29.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1ahmacw",
-   "pri": 45,
-   "kind": "note",
-   "title": "On the Lexical Superstition of Large Language Models for Code Comprehension: Re-evaluation on Code of Low Lexical Quality",
-   "ctx": "Recent advances in large language models (LLMs) have made them widely used for code-related tasks. Identifier names are statistically informative in naturally occurring code, but their information is not always reliable. We investigate whether current LLMs assign disproportionate weight to lexical cues when renaming preserves program structure. We introduce Face/Off, a semantics-preserving identifier-renaming framework, and evaluate progressive naming conditions across multiple models and code-c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26388v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:27:57.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1ahut0y",
-   "pri": 45,
-   "kind": "note",
-   "title": "CHiME-9 ECHI: A Machine Learning Challenge for Enhancing Conversations to Address Hearing Impairment",
-   "ctx": "This work presents the task and results of the CHiME-9 challenge for Enhancing Conversations to address Hearing Impairment. The challenge considers the scenario of four-party conversations in a noisy, cafeteria-style environment with interfering speech sources and sound effects. Participants are provided with audio recordings made with Meta Aria glasses and hearing aid microphones, and clean speech samples of the conversation participants. The task is to extract the speech of the conversation pa",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26306v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T12:13:53.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1xkuhd2",
-   "pri": 45,
-   "kind": "note",
-   "title": "Combining Hierarchical Cognitive Process with Process Supervision for Interpretable Scene Safety Understanding",
-   "ctx": "Scene safety understanding plays a life-or-death role in situational awareness in various critical domains. Traditional methods that rely on learning direct mappings between scenes and safety levels often lack interpretability, limiting their reliability in critical applications. An effective approach to overcoming this challenge lies in interpreting human cognitive processes and equipping machine models with analogous cognitive capabilities. This work explores an effective way of integrating sc",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26399v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-23T02:31:02.012Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:34:53.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-02oab83",
-   "pri": 18,
-   "kind": "note",
-   "title": "HYDRA: Proactive Android Malware Drift Adaptation via Hierarchical Graph Contrastive Learning",
-   "ctx": "Concept drift, driven by the rapid evolution of Android malware, severely degrades the performance of machine learning detectors. Current adaptation strategies are often reactive, responding only after performance has dropped and imposing a significant manual annotation burden, or they are proactive but rely on unstable adversarial training and incomplete, single-level graph representations. To overcome these limitations, we propose HYDRA (Hybrid Drift Adaptation), a proactive adaptation framewo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26352v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T02:00:50.504Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T12:55:25.000Z",
-   "sub": "arXiv cs.LG · introduces \"Proactive Android Malware Drift\"",
-   "extract": {
-    "ok": true,
-    "chars": 4833,
-    "lead": "Computer Science > Cryptography and Security arXiv:2609.26352v1 (cs) [Submitted on 22 Sep 2026] Title: HYDRA: Proactive Android Malware Drift Adaptation via Hierarchical Graph Contrastive Learning Authors: Han Chen , Hanchen Wang , Hongmei Chen , Lu Qin , Wenjie Zhang , Ying Zhang View a PDF of the paper titled HYDRA: Proactive Android Malware Drift Adaptation via Hierarchical Graph Contrastive Learning, by Han Chen and 5 other authors View PDF HTML (experimental) Abstract: Concept drift, driven by the rapid evolution of Android malware, severely degrades the performance of machine learning detectors. Current adaptation strategies are often reactive, responding only after performance has dropped and imposing a significant manual annotation burden, or they are proactive but rely on unstable adversarial training and incomplete, single-level graph representations. To overcome these limitations, we propose HYDRA (Hybrid Drift Adaptation), a proactive adaptation framework that learns drift-invariant representations from hierarchically structured data. HYDRA first models applications using a hybrid graph structure, combining fine-grained Control Flow Graphs (CFGs) and coarse-grained Func",
-    "truncated": false,
-    "title": "[2609.26352v1] HYDRA: Proactive Android Malware Drift Adaptation via Hierarchical Graph Contrastive Learning",
-    "fetchedAt": "2026-09-23T02:00:50.504Z",
-    "full": "full/f-arxiv-cs.LG-02oab83.txt"
-   },
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0lelce7",
-   "pri": 45,
-   "kind": "note",
-   "title": "MAVP: Map-Aware Visuomotor Policies for Mobile Manipulation",
-   "ctx": "Successful mobile manipulation requires coordinated base and arm motion while maintaining accurate spatial positioning. However, demonstration-trained policies can struggle to realise the intended base motion reliably, leading to spatial misalignment and subsequent manipulation failures. We present MAVP (Map-Aware Visuomotor Policies), a framework that improves execution reliability by predicting explicit base-pose targets and tracking them using localisation feedback. MAVP reconstructs a static",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26378v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T02:00:50.504Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:22:42.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-0oq7gfe",
-   "pri": 45,
-   "kind": "note",
-   "title": "FairMean: Promoting Fairness in Distributed Learning under Label Poisoning Attacks",
-   "ctx": "Fairness-aware distributed learning prioritizes clients with large losses to reduce performance disparities, but label poisoning can create large losses, thereby inducing a fairness--robustness conflict. We propose FairMean to manage this conflict. FairMean weights client gradients using a bounded, nondecreasing function of local loss. The increasing weights prioritize high-loss clients to promote fairness, while the upper bound prevents excessive loss-induced amplification of poisoned-client gr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26377v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T02:00:50.504Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:21:54.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.LG-157p7hj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Double Descent and Malign Overfitting in Diffusion Models",
-   "ctx": "Conventional wisdom in deep learning holds that overparameterization---having more parameters $p$ than training samples $n$---is benign: larger models generalize better and, even without regularization, interpolating models generalize well, the test error following a double-descent curve. One might expect the same benign overfitting for diffusion models, whose training reduces to regression, i.e. to minimizing a quadratic score-matching loss. Yet the opposite is observed: overfitting here is cat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26392v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.LG",
-   "detectedAt": "2026-09-23T02:00:50.504Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:30:48.000Z",
-   "sub": "arXiv cs.LG",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0kgwmnx",
-   "pri": 45,
-   "kind": "note",
-   "title": "TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling",
-   "ctx": "The scarcity of non-English language data in specialized domains significantly limits the development of effective Natural Language Processing (NLP) tools. We present TransBERT, a novel framework for pre-training language models using exclusively synthetically translated text, and introduce TransCorpus, a scalable translation toolkit. Focusing on the life sciences domain in French, our approach demonstrates that state-of-the-art performance on various downstream tasks can be achieved solely by l",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26347v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T01:30:47.028Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T12:53:35.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0lelce7",
-   "pri": 45,
-   "kind": "note",
-   "title": "MAVP: Map-Aware Visuomotor Policies for Mobile Manipulation",
-   "ctx": "Successful mobile manipulation requires coordinated base and arm motion while maintaining accurate spatial positioning. However, demonstration-trained policies can struggle to realise the intended base motion reliably, leading to spatial misalignment and subsequent manipulation failures. We present MAVP (Map-Aware Visuomotor Policies), a framework that improves execution reliability by predicting explicit base-pose targets and tracking them using localisation feedback. MAVP reconstructs a static",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26378v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T01:30:47.028Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:22:42.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0oq7gfe",
-   "pri": 45,
-   "kind": "note",
-   "title": "FairMean: Promoting Fairness in Distributed Learning under Label Poisoning Attacks",
-   "ctx": "Fairness-aware distributed learning prioritizes clients with large losses to reduce performance disparities, but label poisoning can create large losses, thereby inducing a fairness--robustness conflict. We propose FairMean to manage this conflict. FairMean weights client gradients using a bounded, nondecreasing function of local loss. The increasing weights prioritize high-loss clients to promote fairness, while the upper bound prevents excessive loss-induced amplification of poisoned-client gr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26377v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T01:30:47.028Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:21:54.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0xbrcn5",
-   "pri": 45,
-   "kind": "note",
-   "title": "TriWorldBench: A Tri-View Consistency Perspective on Embodied World Models",
-   "ctx": "Embodied world models predict the outcomes of robot actions to support learning and planning. For robots equipped with head and wrist cameras, this requires complementary views: the head view captures the overall task, while wrist views reveal local gripper-object interactions. However, evaluating these views independently cannot determine whether they describe the same action and object state. We introduce TRIWORLDBENCH, a benchmark for evaluating embodied world models through synchronized head",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26314v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T01:30:47.028Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T12:23:14.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0zy5bmi",
-   "pri": 45,
-   "kind": "note",
-   "title": "Geometry-Aware Hyperbolic Residual Quantization",
-   "ctx": "Residual Vector Quantization turns continuous representations into discrete, multi-level token sequences. Yet most methods operate in Euclidean space, despite the coarse-to-fine structure of the resulting codes and the latent hierarchies present in many data domains. Hyperbolic geometry offers a natural alternative for hierarchical representations, but naive hyperbolic extensions introduce geometric inconsistencies: non-associative hyperbolic addition prevents consistent residual aggregation, wh",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26342v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T01:30:47.028Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T12:50:18.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-198gcmp",
-   "pri": 45,
-   "kind": "note",
-   "title": "GitScholar: A Dataset for Predicting AI Research Impact from GitHub Engagement",
-   "ctx": "With the rapid pace of AI research and the hundreds of daily new publications, staying up-to-date with the latest developments has become increasingly difficult. For researchers, quickly identifying impactful work is essential, yet manually reviewing each new publication is impractical. Automated impact prediction methods help address this challenge, usually by combining various information sources available, such as a paper's content or citation history. In this work, we propose using GitHub en",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.26361v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-23T01:30:47.028Z",
-   "tier": "B",
-   "itemTs": "2026-09-22T13:03:31.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2405,8 +2386,8 @@
    "slow": 99,
    "daily": 1
   },
-  "routed": 24,
-  "unrouted": 76,
+  "routed": 23,
+  "unrouted": 77,
   "unmappedLaneFamilies": []
  }
 }
