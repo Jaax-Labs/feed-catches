@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-09-29T14:01:45.068Z",
+ "generatedAt": "2026-09-29T15:01:22.121Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-14iizxd",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+   "ctx": "Sep 29 , 14:30 UTC Update - We are investigating reports of degraded performance affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork. We will provide an update as soon as possible. Sep 29 , 14:28 UTC Update - We are investigating elevated error rates affecting Claude.ai (including the desktop and mobile apps), Claude Code and Claude Cowork. Some requests to the",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/4xvtc2gnq73l",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-09-29T14:31:23.397Z",
+   "tier": "A",
+   "itemTs": "2026-09-29T14:30:19.000Z",
+   "sub": "anthropic-status",
+   "extract": {
+    "ok": true,
+    "fromFeed": true,
+    "chars": 825,
+    "lead": "Sep 29 , 14:30 UTC Update - We are investigating reports of degraded performance affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork. We will provide an update as soon as possible. Sep 29 , 14:28 UTC Update - We are investigating elevated error rates affecting Claude.ai (including the desktop and mobile apps), Claude Code and Claude Cowork. Some requests to the Claude API are also returning errors. We will provide an update as soon as possible. Sep 29 , 14:21 UTC Investigating - We are investigating elevated error rates affecting Claude.ai (including the desktop and mobile apps), Claude Code and Claude Cowork. Users may see failed requests, errors loading or sending conversations, or be asked to sign in again; retrying may succeed. We will provide an update as soon as possible.",
+    "truncated": false,
+    "fetchedAt": "2026-09-29T14:31:23.397Z",
+    "full": "full/f-anthropic-status-14iizxd.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0ajruz5",
    "pri": 45,
@@ -2351,29 +2385,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-14et3pj",
-   "pri": 45,
-   "kind": "note",
-   "title": "Rolling-WAM: World Action Models with Rolling Imagination",
-   "ctx": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Rolling-WAM, a formulation that distributes joint denoising across successive replanning cycles. Our method maintains a sliding window of video-action chunks at staggered noise levels. At each step, a r",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.30247v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-25T03:00:49.629Z",
-   "tier": "B",
-   "itemTs": "2026-09-24T17:58:03.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2389,10 +2400,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 100
+   "daily": 1,
+   "slow": 99
   },
-  "routed": 27,
-  "unrouted": 73,
+  "routed": 28,
+  "unrouted": 72,
   "unmappedLaneFamilies": []
  }
 }
