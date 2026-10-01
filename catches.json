@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-01T15:31:29.299Z",
+ "generatedAt": "2026-10-01T17:01:30.266Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1ft6hoi",
+   "pri": 33,
+   "kind": "note",
+   "title": "Degraded performance on the Claude API and platform.claude.com",
+   "ctx": "Oct 1 , 16:20 UTC Investigating - We are investigating delays in credit purchases being reflected in account balances, resulting in some requests failing for insufficient credit balance. We will provide an additional update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/k0h22tsvnydg",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-01T16:31:21.213Z",
+   "tier": "A",
+   "itemTs": "2026-10-01T16:20:40.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-news-0j1em1n",
    "pri": 6,
@@ -2395,31 +2420,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1gd63ex",
-   "pri": 45,
-   "kind": "note",
-   "title": "UOPD: Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents",
-   "ctx": "On-policy distillation (OPD) trains a student on its own rollouts using dense supervision from a teacher. In multi-turn environments, a mistake at a critical decision step can redirect the subsequent rollout toward poor outcomes. We use low teacher confidence on student actions to select high-uncertainty steps for correction. In a controlled ALFWorld study, a single teacher correction at a low-confidence step improves subsequent student behavior and task success, motivating selective interventio",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.34036v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-29T03:31:06.371Z",
-   "tier": "B",
-   "itemTs": "2026-09-27T23:57:28.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2435,8 +2435,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 2,
-   "slow": 98
+   "daily": 3,
+   "slow": 97
   },
   "routed": 37,
   "unrouted": 63,
