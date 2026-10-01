@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-10-01T07:31:37.366Z",
+ "generatedAt": "2026-10-01T10:01:30.044Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-0j1em1n",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Barclays scales claude",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/barclays-scales-claude",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-01T08:31:26.704Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 4841,
+    "lead": "Announcements Barclays scales Claude to upgrade operations and improve client experience Oct 1, 2026 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations. Barclays is extending Claude across the bank to accelerate software development, modernize legacy systems and improve operational efficiency. As part of this rollout, Barclays expects Claude Code adoption to reach 50% of its developer population by the end of 2026, rising to a majority of software engineers in 2027. Barclays builds with Claude to better serve customers Integrating AI across a large, complex and highly regulated organisation requires both capable technology and disciplined governance. Expanding its collaboration with Anthropic reflects a shared commitment to deploying AI responsibly, reliably, and in ways that deliver real outcomes, such as providing faster support for customers. “The true measure of any technology is the impact it has on customers, clients and colleagues, and the outcomes it enables,” said Anne Marie Darling, Group Co-Chief Operating Officer at Barclays. “Expanding the use of Cla",
+    "truncated": false,
+    "title": "Barclays scales Claude to upgrade operations and improve client experience \\ Anthropic",
+    "fetchedAt": "2026-10-01T08:31:26.704Z",
+    "full": "full/f-anthropic-news-0j1em1n.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-00nlfbv",
    "pri": 45,
@@ -2386,29 +2420,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1tcq22q",
-   "pri": 45,
-   "kind": "note",
-   "title": "SR4-Fit: A Unified Interpretable Rule-Based Machine Learning Framework for Informative and Trustworthy Decision-Making",
-   "ctx": "In many high-stakes applications, machine learning is dominated by black-box models that require post hoc explanations to justify their predictions. These explanations are often unreliable because they do not reflect the model's actual computations, limiting accountability and trust. A natural alternative is to use models that are interpretable by design. However, existing rule-based approaches, such as RuleFit and decision trees, while transparent, often lack stability and predictive strength, ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.34019v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-09-29T03:31:06.371Z",
-   "tier": "B",
-   "itemTs": "2026-09-27T23:26:46.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2424,11 +2435,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 99,
-   "daily": 1
+   "daily": 2,
+   "slow": 98
   },
-  "routed": 36,
-  "unrouted": 64,
+  "routed": 37,
+  "unrouted": 63,
   "unmappedLaneFamilies": []
  }
 }
