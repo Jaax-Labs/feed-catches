@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-10-02T16:31:27.671Z",
+ "generatedAt": "2026-10-02T18:01:54.833Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-1htqelq",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Claude frontier academy",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/claude-frontier-academy",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-02T17:31:05.115Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 7771,
+    "lead": "Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap Oct 2, 2026 Learn more The first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk and others. Today we are launching Claude Frontier Academy to solve one of the most pressing issues in AI implementation: talent. Backed by a $100 million commitment, Anthropic aims to train 10,000 Frontier Deployed Engineers (FDEs) by the end of 2027. Engineers from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk are in the first cohorts. Every enterprise is racing to bring AI into its organization, but the people with the skills to make it work inside a real business have become the hardest talent to find. Inside the companies we work with, a small group of deeply skilled people drives an outsized share of what AI delivers. The Academy is the first of its kind from an AI company, built from our own work deploying Claude insid",
+    "truncated": false,
+    "title": "Claude Frontier Academy: $100M to train 10,000 engineers \\ Anthropic",
+    "fetchedAt": "2026-10-02T17:31:05.115Z",
+    "full": "full/f-anthropic-news-1htqelq.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-029vh3c",
    "pri": 45,
@@ -2391,29 +2425,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-13zro1x",
-   "pri": 45,
-   "kind": "note",
-   "title": "LongHarness Bench: Stress-Testing Language Model Harnesses for Long-Context Reasoning",
-   "ctx": "Language-model (LM) harnesses enable LMs to operate effectively over long contexts using additional compute. However, existing long-context evaluations are insufficient for distinguishing modern harnesses, reflected by saturated accuracy across harnesses and largely similar evaluation costs. In this paper, we introduce a benchmark for evaluating both the effectiveness and efficiency of long-context harnesses. Our tasks require diverse retrieval strategies, including lexical search and semantic m",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.38137v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-09-30T06:01:42.977Z",
-   "tier": "B",
-   "itemTs": "2026-09-29T17:55:07.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2429,11 +2440,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 98,
-   "daily": 2
+   "daily": 3,
+   "slow": 97
   },
-  "routed": 38,
-  "unrouted": 62,
+  "routed": 39,
+  "unrouted": 61,
   "unmappedLaneFamilies": []
  }
 }
