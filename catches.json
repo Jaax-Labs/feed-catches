@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-05T13:02:03.338Z",
+ "generatedAt": "2026-10-05T13:31:43.324Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1sjp1id",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+   "ctx": "Oct 5 , 13:21 UTC Resolved - The issue affecting Claude Mythos 5.1 and Claude Fable 5.1 has been resolved. Impact occurred from 05:40 PT / 12:40 UTC to 06:10 PT / 13:10 UTC. Oct 5 , 13:05 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/bhphxz3vr58g",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-05T13:31:20.828Z",
+   "tier": "A",
+   "itemTs": "2026-10-05T13:21:37.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.CL-04k3fny",
    "pri": 45,
@@ -2401,31 +2426,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1e5v7wz",
-   "pri": 45,
-   "kind": "note",
-   "title": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
-   "ctx": "Deep research tasks require agents to navigate large knowledge spaces, synthesize evidence across many sources, and adapt their plans as findings emerge. Directed acyclic graph (DAG)-based multi-agent systems suit this setting because they support parallel execution and isolate each sub-task within a focused dependency context. Yet existing DAG-based agents instantiate a task-level plan before execution and repair the graph only after failures or missing evidence are observed. This Plan-then-Pat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2609.39154v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-01T02:01:13.095Z",
-   "tier": "B",
-   "itemTs": "2026-09-30T07:19:01.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2441,8 +2441,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 97,
-   "daily": 3
+   "daily": 4,
+   "slow": 96
   },
   "routed": 35,
   "unrouted": 65,
