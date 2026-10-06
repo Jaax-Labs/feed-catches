@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-06T18:31:59.888Z",
+ "generatedAt": "2026-10-06T19:31:16.745Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-163hdix",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Cyber verification program",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/cyber-verification-program",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-06T19:01:47.812Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 9477,
+    "lead": "Announcements Expanding the Cyber Verification Program Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now consists of three access tiers, which allow security teams to apply for the level of access that best suits their work. Each tier includes access to our most capable models, including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and new models moving forward. Interested customers can apply here . Cybersecurity is inherently dual use: the same capabilities that enable a security team to find and fix a vulnerability can also help a malicious actor exploit it. For this reason, our generally available models, such as Claude Opus 5.5 , Claude Fable 5.1 , and Claude Sonnet 5.5 , have conservative cyber safeguards that block most cyber work. This is intended to limit the harmful activities malicious actors can carry out using our models, while we continue to work to reduce false positives for secure coding. But defenders also need access to the best tools and most powerful capabilities to secure the",
+    "truncated": false,
+    "title": "Expanding the Cyber Verification Program \\ Anthropic",
+    "fetchedAt": "2026-10-06T19:01:47.812Z",
+    "full": "full/f-anthropic-news-163hdix.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-1n66t78",
    "pri": 33,
@@ -2396,29 +2428,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0emdpac",
-   "pri": 45,
-   "kind": "note",
-   "title": "Generation Provenance Before Behavior Attribution: Auditing Synthetic Speech Research Objects",
-   "ctx": "Attributing model behavior to synthetic training data requires knowing what produced each training item before estimating what that item caused. A waveform-label pair does not preserve this knowledge. We propose a generation-provenance substrate in which a synthetic research object binds source specification, generated content, waveform, target, fact requirements, quality signals, review lineage, and immutable manifest identity. Producer and selection mechanism determine evidentiary meaning; sto",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.01378v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-02T02:31:09.568Z",
-   "tier": "B",
-   "itemTs": "2026-10-01T09:45:00.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2434,8 +2443,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 3,
-   "slow": 97
+   "daily": 4,
+   "slow": 96
   },
   "routed": 35,
   "unrouted": 65,
