@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-06T12:02:11.620Z",
+ "generatedAt": "2026-10-06T12:31:42.060Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1n66t78",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Opus 5.5",
+   "ctx": "Oct 6 , 12:24 UTC Investigating - We are investigating elevated errors on requests to Claude Opus 5.5. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/ch27pb90bn85",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-06T12:31:17.712Z",
+   "tier": "A",
+   "itemTs": "2026-10-06T12:24:33.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0fa0s33",
    "pri": 45,
@@ -1114,29 +1139,6 @@
    "detectedAt": "2026-10-06T02:31:03.101Z",
    "tier": "B",
    "itemTs": "2026-10-05T05:11:04.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-1nwj5q6",
-   "pri": 45,
-   "kind": "note",
-   "title": "Adaptive Utilization of Low-Rank Adaptation via Conditioned Gating",
-   "ctx": "Low-Rank Adaptation (LoRA) achieves parameter-efficient fine-tuning by constraining model updates to a low-rank subspace and has been widely used in practice. However, LoRA typically employs a shared low-rank update across tokens, which limits its ability to fully exploit the adaptation subspace for tokens from different sequences. To address this issue, we propose an adaptive utilization of Low-Rank Adaptation (U-LoRA), which employs conditioned gating to explicitly learn effective token-level ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.05800v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-06T02:31:03.101Z",
-   "tier": "B",
-   "itemTs": "2026-10-05T04:43:53.000Z",
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
@@ -2432,11 +2434,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 98,
-   "daily": 2
+   "daily": 3,
+   "slow": 97
   },
-  "routed": 34,
-  "unrouted": 66,
+  "routed": 35,
+  "unrouted": 65,
   "unmappedLaneFamilies": []
  }
 }
