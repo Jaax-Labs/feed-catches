@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-07T12:01:43.137Z",
+ "generatedAt": "2026-10-07T13:32:00.001Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-0hwd0pe",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors on platform.claude.com",
+   "ctx": "Oct 7 , 13:25 UTC Investigating - We are investigating elevated errors affecting usage data on the platform.claude.com Usage page and the Admin API usage report. Core functionality is not affected. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/978mjkgw6mh7",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-07T13:31:52.221Z",
+   "tier": "A",
+   "itemTs": "2026-10-07T13:25:04.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.CL-05lysa0",
    "pri": 45,
@@ -2384,29 +2409,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0qfj6k6",
-   "pri": 45,
-   "kind": "note",
-   "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
-   "ctx": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framework where a stronger, higher-cost LLM explores solution strategies, and a cheaper LLM implements them",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.03675v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-05T02:30:59.307Z",
-   "tier": "B",
-   "itemTs": "2026-10-02T17:44:05.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2422,11 +2424,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 96,
-   "daily": 4
+   "daily": 5,
+   "slow": 95
   },
-  "routed": 38,
-  "unrouted": 62,
+  "routed": 39,
+  "unrouted": 61,
   "unmappedLaneFamilies": []
  }
 }
