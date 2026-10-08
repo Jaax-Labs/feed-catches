@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-08T14:30:20.647Z",
+ "generatedAt": "2026-10-08T15:00:27.983Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-1j6imx6",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Genesis mission commitment",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/genesis-mission-commitment",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-08T15:00:15.626Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 2475,
+    "lead": "Announcements Building on our commitment to American scientific discovery Oct 8, 2026 Anthropic is deepening its support for American scientific research by committing $150 million over three years to the Genesis Mission , a federal initiative to accelerate scientific and technological discovery through AI. The funding will go toward making Claude available to more than 15 agencies that are part of the mission, including NASA, the National Institutes of Health, and the National Science Foundation. We first announced our partnership with the US Department of Energy (DOE) and the Genesis Mission last December . Since then, we have worked with DOE to bring Claude to scientists across the national laboratories. Today, we announced this new commitment as part of the Science: A New Golden Age Summit hosted by the White House Office of Science and Technology Policy in Washington, DC. Supporting American scientists We share the administration’s view, laid out in “ Science: A New Golden Age ,” that AI can have a profound and positive impact on scientific discovery, and we are glad to back its efforts to support American scientists. Researchers at federal agencies and national laboratories w",
+    "truncated": false,
+    "title": "Building on our commitment to American scientific discovery \\ Anthropic",
+    "fetchedAt": "2026-10-08T15:00:15.626Z",
+    "full": "full/f-anthropic-news-1j6imx6.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-059yr0q",
    "pri": 45,
@@ -2379,31 +2411,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-048sgia",
-   "pri": 45,
-   "kind": "note",
-   "title": "T-Search: An Open Agentic Retriever and Playground for Hard Multi-Step Search",
-   "ctx": "We present T-Search, an open-weight agentic retriever for hard multi-step search. Given a question and a search tool over a fixed corpus, it runs a bounded multi-round search and returns a ranked list of evidence chunks with short justifications, leaving answer generation to a downstream model, so backend and generator can be swapped without retraining. T-Search is built on Qwen3.6-35B-A3B and trained on adversarially filtered synthetic search tasks with round-sliced supervised fine-tuning follo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.06782v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-06T03:31:07.519Z",
-   "tier": "B",
-   "itemTs": "2026-10-05T17:44:26.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2419,11 +2426,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 95,
-   "daily": 5
+   "daily": 6,
+   "slow": 94
   },
-  "routed": 41,
-  "unrouted": 59,
+  "routed": 40,
+  "unrouted": 60,
   "unmappedLaneFamilies": []
  }
 }
