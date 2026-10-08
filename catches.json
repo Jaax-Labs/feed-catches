@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-08T17:00:26.945Z",
+ "generatedAt": "2026-10-08T17:30:40.146Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-1j11o9i",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — 2026 usage policy update",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/2026-usage-policy-update",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-08T17:30:11.255Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 7214,
+    "lead": "Announcements 2026 Usage Policy update Oct 8, 2026 Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and the feedback we’ve received from our customers. We're publishing a new version of the policy today. In this post, we summarize the changes we’ve made. Most of the updates in the latest version are intended to clarify existing rules. In the year since our last refresh, Claude has taken on longer, more independent work. This update provides new examples that show how our rules apply to Claude’s new capabilities. It draws on new patterns of misuse in influence operations, weapons development, and surveillance that we’ve observed in the past year (as we’ve documented in our latest threat intelligence report ). We’ve also made updates to clarify our requirements for high-risk use cases in areas like health and finance, to add controls for when Claude is used to autonomously take physical actions, and to address abusive behavior toward our models. The updated policy takes effect on November 12. The full Usage Policy and Supported Regions Policy can be found on their respective pages. A new section on deceptive activity As we wrote ab",
+    "truncated": false,
+    "title": "2026 Usage Policy update \\ Anthropic",
+    "fetchedAt": "2026-10-08T17:30:11.255Z",
+    "full": "full/f-anthropic-news-1j11o9i.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-anthropic-news-1j6imx6",
    "pri": 6,
@@ -2388,29 +2420,6 @@
    "questions": [
     "graph-memory"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-02aggp7",
-   "pri": 45,
-   "kind": "note",
-   "title": "IdeaLens: Detecting AI Ideas in Long-form Writing",
-   "ctx": "While modern AI detectors identify who wrote the words, emerging policies on AI use increasingly hinge on a different question: who came up with the ideas? We introduce IdeaLens, a detector that identifies whether a document's ideas came from a human or AI (idea provenance), regardless of who wrote its words. To focus IdeaLens on ideas rather than prose, we represent documents as outlines: lists of items that each pair a discourse role with a brief, paraphrased description of the content, minimi",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.06778v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-06T03:31:07.519Z",
-   "tier": "B",
-   "itemTs": "2026-10-05T17:43:33.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2426,8 +2435,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 6,
-   "slow": 94
+   "daily": 7,
+   "slow": 93
   },
   "routed": 40,
   "unrouted": 60,
