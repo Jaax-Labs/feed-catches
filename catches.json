@@ -1,7 +1,35 @@
 {
- "generatedAt": "2026-10-08T18:30:35.295Z",
+ "generatedAt": "2026-10-08T19:00:52.752Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-0fgswaq",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Anthropic cyber mission",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/anthropic-cyber-mission",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-08T19:00:18.036Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": false,
+    "reason": "HTTP 404",
+    "fetchedAt": "2026-10-08T19:00:18.036Z"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-anthropic-news-1j11o9i",
    "pri": 6,
@@ -2395,31 +2423,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1qhkcp0",
-   "pri": 45,
-   "kind": "note",
-   "title": "Curriculum Brain: Constructing Curriculum Knowledge Graphs as a Substrate for Cognitive Diagnosis",
-   "ctx": "Cognitive Diagnostic Models (CDMs) identify which specific skills a student has and has not mastered, the signal a personalized learning path needs and a single aggregate score cannot give. Yet they are rarely deployed. The obstacle is their precondition: the Q-matrix, a mapping from every assessment item to the skills it requires, historically authored by hand. We separate the task into two stages: first construct the curriculum's own knowledge graph, the full space of concepts and skills it co",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.05860v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-06T03:31:07.519Z",
-   "tier": "B",
-   "itemTs": "2026-10-05T06:26:22.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "graph-memory"
-   ]
   }
  ],
  "clicks": {
@@ -2435,11 +2438,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 7,
-   "slow": 93
+   "daily": 8,
+   "slow": 92
   },
-  "routed": 40,
-  "unrouted": 60,
+  "routed": 39,
+  "unrouted": 61,
   "unmappedLaneFamilies": []
  }
 }
