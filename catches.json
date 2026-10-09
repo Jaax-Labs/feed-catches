@@ -1,7 +1,249 @@
 {
- "generatedAt": "2026-10-09T02:30:44.631Z",
+ "generatedAt": "2026-10-09T03:00:28.189Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-08rw048",
+   "pri": 45,
+   "kind": "note",
+   "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
+   "ctx": "A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before i",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12424v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:55:12.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0gm02op",
+   "pri": 45,
+   "kind": "note",
+   "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+   "ctx": "Safety benchmarks typically report one overall score for a suite of datasets, each of which may target one or more safety-related attributes, so models with similar overall scores can have very different attribute profiles. Comparing models is more tractable at the level of individual attributes, yet it is often unclear whether even a single dataset's scores isolate any single attribute. One plausible candidate for such an attribute is harmful refusal, a model's tendency to refuse dangerous or p",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12409v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:46:43.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0iuvfrm",
+   "pri": 45,
+   "kind": "note",
+   "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+   "ctx": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumption that the AI difficulty of a task depends linearly on the log of human time. Our fitted spline can be interpreted as a function that \\emph{converts} human time to AI difficulty; it is nearly flat in",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12466v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:59:50.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0saqwrr",
+   "pri": 45,
+   "kind": "note",
+   "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+   "ctx": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle where larger populations develop greater collective cyber capability and expand further. This raises a fundamental question: What determines wheth",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12436v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:57:32.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-12t3xlh",
+   "pri": 45,
+   "kind": "note",
+   "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+   "ctx": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini access",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12463v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:59:49.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-14op6dj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Predicting Alignment Generalization with Value Representations",
+   "ctx": "LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen contexts and environments in unexpected ways. In this paper, we establish the task of alignment generalization prediction, i.e., predicting how fine-tuning a mode",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12410v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:47:26.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1fw1pnt",
+   "pri": 45,
+   "kind": "note",
+   "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+   "ctx": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and introducing a novel probe architecture which can aggregate information across many layers and tokens. Our probes achieve 98.8% AUC in SHADE-Arena, surpassing an Opus 5.5 text-monitoring baseline, and show ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12445v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:58:13.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1pp7ayt",
+   "pri": 45,
+   "kind": "note",
+   "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+   "ctx": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these one-to-many solution maps in high-dimensional systems. Bi-FORK generates complete trajectories through la",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12449v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:58:36.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1r3zkux",
+   "pri": 45,
+   "kind": "note",
+   "title": "BrickBench: Evaluating Agentic Brick Design",
+   "ctx": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three settings that vary in scale and part availability. We provide BrickAgent, an environment for coding ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12452v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:58:56.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1uuurm1",
+   "pri": 45,
+   "kind": "note",
+   "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
+   "ctx": "Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion. However, supervision for these capabilities is rarely available jointly at scale. Human-scene datasets provide rich information about environment-aware motion, while human-object datasets capture detailed interaction dynamics, yet paired human-object-scene data remain scarce. W",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12416v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-09T03:00:12.531Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:52:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.CL-0ad0qlc",
    "pri": 45,
@@ -1094,29 +1336,6 @@
    "questions": []
   },
   {
-   "id": "f-arxiv-cs.CL-18jvuri",
-   "pri": 45,
-   "kind": "note",
-   "title": "Itgan at NADI 2026 shared task: Parameter-Efficient Whisper Adaptation for Robust, Mixed-Dialect and Code-Switched Arabic ASR",
-   "ctx": "We describe the Itgan systems for the three ASR subtasks of NADI 2026, namely robust country-level ASR (1.1), mixed-dialect ASR (1.2), and Tunisian code-switched ASR (1.3). All three share one recipe, Whisper adapted with LoRA on consumer GPUs, and each was carried by a different addition to it. On 1.1, where the dialect label is given at test time, per-dialect specialists continued from a pooled adapter gave the largest gain, and the submitted system reached 57.1% country-average WER. A post-ev",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.09934v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-08T02:01:13.208Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T12:18:40.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-arxiv-cs.AI-00j5nab",
    "pri": 45,
    "kind": "note",
@@ -1582,29 +1801,6 @@
    "detectedAt": "2026-10-07T03:30:59.712Z",
    "tier": "B",
    "itemTs": "2026-10-06T17:59:01.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-19i9yjv",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Missing Minimal Pair: Stereotype Evaluation in LLMs",
-   "ctx": "A common approach to measuring bias in Large Language Models is to compare the log-likelihoods of two contrastive stereotype sentences. We argue that such single-pair comparisons are often unreliable: simply rewriting the same stereotype with an alternative attribute can yield logically inconsistent preferences. To address this, we propose a dual minimal pair setup that introduces two axes of comparison for robust stereotype evaluation. First, we present a data-augmentation framework that fills ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08747v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-07T03:30:59.712Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T17:41:44.000Z",
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
@@ -2206,210 +2402,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-10qb8fu",
-   "pri": 45,
-   "kind": "note",
-   "title": "ChartBmkAgent: Harness-Governed Multi-Agent Construction of Chart QA Benchmarks from Sparse Error-Taxonomy Specifications",
-   "ctx": "Multimodal large language models (MLLMs) advance rapidly, while conventional benchmark development lags behind, delaying investigation of newly observed capability gaps. Such investigation requires an expressive task format and an on-demand construction process: information-rich charts make chart question answering (Chart QA) suitable for probing coupled perception and reasoning. Automated Chart QA construction is intended to shorten the benchmark-development cycle by turning identified gaps int",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08106v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:31:28.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1bulpw3",
-   "pri": 45,
-   "kind": "note",
-   "title": "Test-Time Agent Evolution for Long-Horizon Legal Reasoning",
-   "ctx": "Legal intelligence aims to support reliable decision-making across long-horizon legal processes involving evolving case states and multiple roles. However, real-world legal deployment exhibits substantial case heterogeneity in facts, evidence, and procedural contexts, exposing the limitations of static agent strategies. Moreover, legal reasoning is inherently interdependent across roles and procedural stages, making global reliability fundamentally different from isolated role competence. To add",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08138v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:53:25.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1mg9b7w",
-   "pri": 45,
-   "kind": "note",
-   "title": "Supermarket Product Detection and Recognition: Utilizing Deep Learning with Rectified Imagery",
-   "ctx": "Product Identification has sprung up to become one of the most challenging problems in the automation of the retail industry. With the new industry 5.0 standards, automated inventory management, and catalog creation tasks are vitally important. Object identification models have emerged as a viable answer with their unprecedented identification and localization accuracy. However, the close-knit rack design of supermarkets generates the problem of angle variation in capturing images. The angle-var",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08126v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:44:33.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-status-1dq2kl2",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors loading usage data on platform.claude.com",
-   "ctx": "Oct 7 , 01:20 UTC Investigating - We are investigating elevated errors loading usage data on the platform.claude.com Usage page and the Admin API usage report endpoint since 5 PM PT. Messages API requests are not affected. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/wf2v8ms031sx",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-07T01:30:46.320Z",
-   "tier": "A",
-   "itemTs": "2026-10-07T01:20:26.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-anthropic-news-163hdix",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Cyber verification program",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/cyber-verification-program",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-06T19:01:47.812Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 9477,
-    "lead": "Announcements Expanding the Cyber Verification Program Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now consists of three access tiers, which allow security teams to apply for the level of access that best suits their work. Each tier includes access to our most capable models, including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and new models moving forward. Interested customers can apply here . Cybersecurity is inherently dual use: the same capabilities that enable a security team to find and fix a vulnerability can also help a malicious actor exploit it. For this reason, our generally available models, such as Claude Opus 5.5 , Claude Fable 5.1 , and Claude Sonnet 5.5 , have conservative cyber safeguards that block most cyber work. This is intended to limit the harmful activities malicious actors can carry out using our models, while we continue to work to reduce false positives for secure coding. But defenders also need access to the best tools and most powerful capabilities to secure the",
-    "truncated": false,
-    "title": "Expanding the Cyber Verification Program \\ Anthropic",
-    "fetchedAt": "2026-10-06T19:01:47.812Z",
-    "full": "full/f-anthropic-news-163hdix.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-status-1n66t78",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors for Claude Opus 5.5",
-   "ctx": "Oct 6 , 12:24 UTC Investigating - We are investigating elevated errors on requests to Claude Opus 5.5. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/ch27pb90bn85",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-06T12:31:17.712Z",
-   "tier": "A",
-   "itemTs": "2026-10-06T12:24:33.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0fa0s33",
-   "pri": 45,
-   "kind": "note",
-   "title": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
-   "ctx": "Worst-group accuracy (WGA) evaluates a trained predictor but does not characterize how its frozen backbone behaves when a new head is learned. We introduce BiasFlow, a hook-based toolkit for monitoring class-attribute centroid alignment (IBMI), within-class centroid separation (W-IBMI), and feature-projection sensitivity. IBMI is confounded by class-attribute correlation and is not a measure of causal feature reliance. We pair these diagnostics with BiasFlow Regularization (BFR), a supervised, c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.06846v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-06T04:30:50.508Z",
-   "tier": "B",
-   "itemTs": "2026-10-05T17:59:28.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0gyaevq",
-   "pri": 45,
-   "kind": "note",
-   "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
-   "ctx": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essential. Recent studies have begun shifting memory processing toward runtime adaptation, but typically specialize in particular operations or fixed processing schemes, leaving flexible control over performa",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.06830v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-06T04:30:50.508Z",
-   "tier": "B",
-   "itemTs": "2026-10-05T17:58:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
   }
  ],
  "clicks": {
@@ -2425,8 +2417,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 92,
-   "daily": 8
+   "slow": 95,
+   "daily": 5
   },
   "routed": 37,
   "unrouted": 63,
