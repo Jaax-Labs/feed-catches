@@ -1,7 +1,181 @@
 {
- "generatedAt": "2026-10-09T04:31:05.759Z",
+ "generatedAt": "2026-10-09T05:00:24.605Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-0nmjj6j",
+   "pri": 45,
+   "kind": "note",
+   "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+   "ctx": "Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irreversible actions. Recent works resolve this either by using a safeguard agent to monitor behavior or evaluating logs post-hoc. The first adds cost and latency to every step; the second delivers its verdict after the run, when tokens are burned and damage is done. To overcome thi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12375v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-09T05:00:11.024Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:32:08.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0qgu9ju",
+   "pri": 18,
+   "kind": "note",
+   "title": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
+   "ctx": "Industrial risk-control systems typically rely on structured-data models for efficient prediction, yet substantial valuable information remains embedded in unstructured long text. Extracting this information through manual feature engineering is labor-intensive, while requiring a large language model (LLM) to process every real-time input may not meet practical deployment requirements. To address this challenge, we propose LLM-BlockFE, an LLM-guided offline feature construction framework that co",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12390v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-09T05:00:11.024Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:39:11.000Z",
+   "sub": "arXiv cs.CL · introduces \"Guided Blockwise Feature Engineering\"",
+   "extract": {
+    "ok": true,
+    "chars": 4782,
+    "lead": "Computer Science > Machine Learning arXiv:2610.12390v1 (cs) [Submitted on 8 Oct 2026] Title: Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search Authors: Ziming Dai , Dabiao Ma , Ziheng Guo , Jack Dong , Zimu Zhou View a PDF of the paper titled Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search, by Ziming Dai and 4 other authors View PDF HTML (experimental) Abstract: Industrial risk-control systems typically rely on structured-data models for efficient prediction, yet substantial valuable information remains embedded in unstructured long text. Extracting this information through manual feature engineering is labor-intensive, while requiring a large language model (LLM) to process every real-time input may not meet practical deployment requirements. To address this challenge, we propose LLM-BlockFE, an LLM-guided offline feature construction framework that converts long text into executable feature programs, thereby avoiding LLM calls during online inference. LLM-BlockFE constructs feature programs by incrementally appending immutable code blocks and evaluates candidate feature",
+    "truncated": false,
+    "title": "[2610.12390v1] Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
+    "fetchedAt": "2026-10-09T05:00:11.024Z",
+    "full": "full/f-arxiv-cs.CL-0qgu9ju.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0scg6l9",
+   "pri": 45,
+   "kind": "note",
+   "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
+   "ctx": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial resolution, and temporal granularity; sparse sampling at 1--2 FPS misses fast events. We introduce FastBench to evaluate high-dynamic perception in real-world video streams. Its trajectory-grounded pipeline combines QA generation from high-FPS clips, filtering of questions answerabl",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12427v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-09T05:00:11.024Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:55:20.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0vdvg8s",
+   "pri": 45,
+   "kind": "note",
+   "title": "Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-Skill Co-Evolution",
+   "ctx": "Skills, reusable procedural guidance added at inference, can substantially improve LLM downstream performance (Li et al., 2026). Prior work retrieves skills from a bank by semantic relevance, then uses them as inference-time patches or for model distillation. The individual utility of each skill, however, is largely neglected. We first show that, in on-policy distillation where skill-conditioned policies serve as teachers, fewer than 25% of retrieved skills provide useful distillation signals. W",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12367v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-09T05:00:11.024Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:27:53.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0wlr0cq",
+   "pri": 45,
+   "kind": "note",
+   "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+   "ctx": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models can learn from different supervision sources and reuse across different tasks, with a systematic training recipe. Existing benchmarks document these deficits separately but do not support controlled ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12417v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-09T05:00:11.024Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:52:03.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-11ost0b",
+   "pri": 45,
+   "kind": "note",
+   "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+   "ctx": "Skill-augmented agents improve sample efficiency by distilling successful trajectories into reusable strategies. Yet most existing approaches remain text-centric, linearizing spatial layouts and action-state correspondences into language that loses critical geometric structure. Recent efforts have begun incorporating visual evidence, but construct and update skills separately from policy optimization, leaving their mutual improvement underexplored. We propose ViSkill, a visual-native skill learn",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12403v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-09T05:00:11.024Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:44:19.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-14op6dj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Predicting Alignment Generalization with Value Representations",
+   "ctx": "LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen contexts and environments in unexpected ways. In this paper, we establish the task of alignment generalization prediction, i.e., predicting how fine-tuning a mode",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.12410v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-09T05:00:11.024Z",
+   "tier": "B",
+   "itemTs": "2026-10-08T17:47:26.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-08rw048",
    "pri": 45,
@@ -2231,177 +2405,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-06rqka7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Waypoint Regression: Query-Based Cost Learning over Reachable Ego Futures for End-to-End Driving",
-   "ctx": "End-to-end planners based on waypoint regression achieve strong open-loop accuracy, but they primarily learn to mimic expert geometry and remain difficult to adapt to deployment-time safety constraints. We propose a query-based cost-learning framework that estimates bounded costs for dynamically reachable ego trajectory queries, rather than dense BEV cells or a small regressed trajectory set. Compact joint scene tokens capture coherent multimodal agent futures, while contingency-aware cost aggre",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08123v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:43:13.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-09ao9o7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems",
-   "ctx": "Shared memory coordinates agents' actions, but correct records do not establish that those actions satisfy task requirements. Memory governance and failure diagnosis regulate or inspect recorded information; they do not by themselves establish whether it is sufficient to judge task duties. We define execution consistency through duties governing state use, information handoffs, and final-state agreement, with explicit evidence conditions for judging fulfillment. Our core claim is that identical ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08101v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:29:41.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0dmwmta",
-   "pri": 45,
-   "kind": "note",
-   "title": "DSV-Mem: Evaluating Multimodal Memory in Professional Workflows for MLLM Agents",
-   "ctx": "Conversational MLLM agents are increasingly expected to assist in professional workflows, from AI research and engineering design to product management and business operations. Yet this capability remains underexplored: existing benchmarks largely focus on informal, everyday interactions and personal-life scenarios featuring photographic natural images, isolated static artifacts, and recall-oriented questions. In contrast, professional scenarios often involve structured, information-heavy artifa",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08102v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:30:14.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0ix10sf",
-   "pri": 45,
-   "kind": "note",
-   "title": "When Tools Lie: Reliability of Mathematical Agents Under Corrupted Tool Feedback",
-   "ctx": "Mathematical problem solving often requires deterministic computational steps that agents delegate to tools and implicitly trust. Yet tools can fail silently, returning plausible but incorrect results. How well can agents detect and correct corrupted tool call outputs? We study this through a controlled corruption framework where a hidden interceptor replaces tool call results with plausible incorrect information on targeted problems. We evaluate agents across 31 problems under four verification",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08097v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:28:19.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0pkag76",
-   "pri": 45,
-   "kind": "note",
-   "title": "Partially Observable Zero-shot coordination by Predicting Intention of Partner",
-   "ctx": "Zero-shot coordination in embodied settings requires acting while the partner is intermittently out of view, leaving existing methods with ambiguous partner representations and uncertainty over hidden partner states. We propose Predicting Intention of Partner (PIP) to jointly address these challenges. PIP uses a Joint-view VAE to distill richer training-time evidence from the union of both agents' local observations into a partner representation available from local observations alone. Partner-s",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08142v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:55:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0usbclh",
-   "pri": 45,
-   "kind": "note",
-   "title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",
-   "ctx": "Natural-language access to RDF knowledge graphs is a core Semantic Web ambition. Large language models (LLMs) have advanced Text-to-SPARQL, yet on unfamiliar graphs they often generate valid queries that misrepresent the populated data model. QRAKEN is a training-free, ontology-agnostic neurosymbolic pipeline grounding generation in empirical graph evidence rather than schema expectations. An offline distiller produces TTQL, a compact description of populated multi-hop patterns, conditional freq",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08095v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:24:26.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0zgtuwp",
-   "pri": 45,
-   "kind": "note",
-   "title": "Exploiting Acoustic and Content-Oriented Speaker Verification Attacks Against Multilingual Voice Anonymization",
-   "ctx": "Attacker ASV systems for voice anonymization have been studied primarily in English, leaving their behavior in multilingual settings largely unexplored. Conventional ASV has shown that both acoustic and contextual information are important for multilingual speaker verification. Inspired by this, we investigate whether the same holds for attacker ASV on anonymized speech. We evaluate both acoustic- and content-oriented attackers on multilingual anonymized speech and construct a multilingual voice",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08107v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-07T02:00:49.120Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T10:31:44.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2420,8 +2423,8 @@
    "slow": 95,
    "daily": 5
   },
-  "routed": 37,
-  "unrouted": 63,
+  "routed": 34,
+  "unrouted": 66,
   "unmappedLaneFamilies": []
  }
 }
