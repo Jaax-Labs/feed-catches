@@ -1,7 +1,168 @@
 {
- "generatedAt": "2026-10-12T03:00:45.345Z",
+ "generatedAt": "2026-10-12T03:30:44.599Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-011txs6",
+   "pri": 45,
+   "kind": "note",
+   "title": "Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion",
+   "ctx": "Large language models (LLMs) are now a standard source of query expansion terms but they hallucinate. They inject non existent entities and off-topic terms that add ranking noise and can hurt strong retrievers. Existing remedies such as corpus grounding, mutual verification and preference alignment treat hallucinated terms as an undifferentiated nuisance to be filtered by agreement heuristics, without a mechanistic account of why a given term appears or a principled criterion for how many terms ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.13810v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-12T03:30:38.320Z",
+   "tier": "B",
+   "itemTs": "2026-10-09T16:22:16.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0894o1r",
+   "pri": 45,
+   "kind": "note",
+   "title": "Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
+   "ctx": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a whole; comics scholarship proceeds one book at a time. We argue that artificial intelligence, including generative models, can change this to the benefit of the medium itself. We propose PAGE, a framework that makes artificial intelligence an instrument for comics research. It parse",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.13840v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-12T03:30:38.320Z",
+   "tier": "B",
+   "itemTs": "2026-10-09T16:49:29.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-08nzug5",
+   "pri": 45,
+   "kind": "note",
+   "title": "QTestBench: A Test Framework for Evaluating LLM-Generated Quantum Code",
+   "ctx": "Large language models (LLMs) have shown strong results in classical code generation and are increasingly used to write the unit tests that safeguard that code. Whether they can do the same for quantum software is less clear, because quantum programs are probabilistic, depend on numerical tolerances, and are judged by domain-specific checkers, so a well-formed test can still disagree with the benchmark's verdict. Existing quantum benchmarks measure whether a model produces a correct solution, but",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.13811v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-12T03:30:38.320Z",
+   "tier": "B",
+   "itemTs": "2026-10-09T16:23:46.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0c9rsza",
+   "pri": 45,
+   "kind": "note",
+   "title": "Error Rate is Not Enough: Costs of Augmentation in Low-Resource ASR",
+   "ctx": "Data augmentation is standard practice for low-resource automatic speech recognition (ASR), but its benefits are almost always reported as aggregate error rates, leaving open why and when a method helps. On four low-resource languages and English at five data sizes, we cross two augmentations that modify existing audio (speed perturbation and SpecAugment) with two that modify text transcriptions and synthesize audio from it. We analyze errors at the phoneme level and find that they help for comp",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.13807v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-12T03:30:38.320Z",
+   "tier": "B",
+   "itemTs": "2026-10-09T16:19:43.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0lajkwz",
+   "pri": 45,
+   "kind": "note",
+   "title": "OpenPA: Forced-alignment-free Multi-granular Pronunciation Assessment with Mixed-transcript Adaptation",
+   "ctx": "Recent advances in automatic pronunciation assessment (APA) have driven a shift from scripted to free-form assessment. However, existing methods often rely on multi-stage pipelines with forced alignment and separate feature extractors, limiting their practicality across response settings. In light of this, we propose OpenPA, a novel APA framework that leverages Whisper's cross-attention mechanism to jointly predict word- and utterance-level pronunciation scores without forced alignment. Through ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.13826v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-12T03:30:38.320Z",
+   "tier": "B",
+   "itemTs": "2026-10-09T16:35:25.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0zldfkp",
+   "pri": 45,
+   "kind": "note",
+   "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+   "ctx": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether representations consistently encode concepts under controlled one-concept interventions, and CASP-VL (Causally controlled Spatial Perturbations for Vision-Language models), a benchmark of causally cont",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.13910v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-12T03:30:38.320Z",
+   "tier": "B",
+   "itemTs": "2026-10-09T17:50:03.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-12940dw",
+   "pri": 45,
+   "kind": "note",
+   "title": "Structural Automata for Neural Semantic Parsing",
+   "ctx": "Neural semantic parsers generate meaning representations token by token, yet well-formedness depends on references, scope, and graph relations that unfold during generation. Constrained decoding prevents locally invalid tokens but does not guarantee that a valid prefix can be completed within a fixed output-length limit. We investigate structural automata at three stages of DRS parsing (decoding, post hoc processing, and training) and additionally evaluate decoding on AMR. For decoding, we intro",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.13896v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-12T03:30:38.320Z",
+   "tier": "B",
+   "itemTs": "2026-10-09T17:42:14.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-01uxm44",
    "pri": 45,
@@ -2237,171 +2398,6 @@
    "questions": [
     "graph-memory"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1xbxzi8",
-   "pri": 45,
-   "kind": "note",
-   "title": "RollVerify: Bridging Efficiency and Accuracy in Long-Tail Rollout Reinforcement Learning",
-   "ctx": "Reinforcement learning is crucial for improving large language models' reasoning and generalization. It relies on massive rollouts whose lengths become increasingly long-tailed as context windows grow. In on-policy training, these long-tail rollouts can result in GPU bubbles, reducing system utilization and limiting RL scalability. Asynchronous or partial-rollout methods improve throughput by relaxing synchronization, but inevitably introduce stale off-policy samples (trajectories) that may hurt",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.09914v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-08T01:30:50.390Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T12:05:33.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-status-1xeggmi",
-   "pri": 33,
-   "kind": "note",
-   "title": "Issue with spend limits",
-   "ctx": "Oct 7 , 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claude API, Claude.ai, Claude Code, Claude Security, and Claude Cowork. This is now resolved.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/vmys9qn874h4",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-07T21:30:48.528Z",
-   "tier": "A",
-   "itemTs": "2026-10-07T21:23:29.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-anthropic-status-0hwd0pe",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors on platform.claude.com",
-   "ctx": "Oct 7 , 13:25 UTC Investigating - We are investigating elevated errors affecting usage data on the platform.claude.com Usage page and the Admin API usage report. Core functionality is not affected. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/978mjkgw6mh7",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-07T13:31:52.221Z",
-   "tier": "A",
-   "itemTs": "2026-10-07T13:25:04.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-05lysa0",
-   "pri": 45,
-   "kind": "note",
-   "title": "Holdout Best-of-N: Unbiased Evaluation and Its Cost",
-   "ctx": "Reusing the scores that select a Best-of-$N$ winner can overstate its expected reward. We study evaluation from a fixed matrix of $K$ independent scores per candidate for a policy that selects using $J$ fresh scores. A single estimator based only on this matrix is exactly unbiased for expected judge reward under every independent, stable collection of candidate-specific score laws if and only if $J<K$, for every pool size $M\\ge N\\ge2$. At $J=K-1$, the selector deepens as $K$ grows. For independe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08719v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-07T03:30:59.712Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T17:26:05.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0cjdk5j",
-   "pri": 45,
-   "kind": "note",
-   "title": "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting",
-   "ctx": "Knowledge that a language model appears to forget during finetuning often remains stored and can be recovered, a phenomenon called spurious forgetting. Finetuning on new facts can even produce forgetting that undoes itself: recall of the old facts collapses, recovers as training continues on new facts alone, and only then erodes for good. We seek to understand when such forgetting is not catastrophic. A minimal associative memory reproduces these dynamics with three ingredients: keys with shared",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08718v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-07T03:30:59.712Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T17:25:48.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0q2x6yb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Agreement Is Not Validity: Cross-Model LLM Consensus in Diagnosing Student Failure Modes in K-12 Math Tutoring Dialogue",
-   "ctx": "In K-12 mathematics tutoring, student-tutor dialogue provides rich evidence of learners' problem-solving processes and sources of difficulty. Learning analytics research increasingly relies on large language models (LLMs) to extract such information from dialogue for a variety of downstream tasks, including knowledge tracing, behavioral modeling, and diagnosis of student reasoning errors. However, the validity of these model-generated interpretations remains insufficiently understood. In this ex",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08703v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-07T03:30:59.712Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T17:16:03.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0qbkvs9",
-   "pri": 45,
-   "kind": "note",
-   "title": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
-   "ctx": "Diffusion Language Models (DLMs) hold the promise of order-agnostic, parallel text generation. Recently, continuous diffusion and flow matching models have seen substantial gains, driven by carefully crafted token representations and diffusion/flow spaces. In this work, we introduce Hierarchical Continuous Diffusion Language Models (H-CDLMs), a simple framework that further improves continuous DLMs with minimal compute and parameter overhead. Drawing on the discrete DLM and continuous image diff",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.08738v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-07T03:30:59.712Z",
-   "tier": "B",
-   "itemTs": "2026-10-06T17:38:19.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2417,11 +2413,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 95,
-   "daily": 5
+   "slow": 97,
+   "daily": 3
   },
-  "routed": 33,
-  "unrouted": 67,
+  "routed": 31,
+  "unrouted": 69,
   "unmappedLaneFamilies": []
  }
 }
