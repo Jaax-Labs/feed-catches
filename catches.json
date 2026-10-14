@@ -1,7 +1,161 @@
 {
- "generatedAt": "2026-10-14T06:01:07.858Z",
+ "generatedAt": "2026-10-14T06:31:08.736Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-00gedmx",
+   "pri": 45,
+   "kind": "note",
+   "title": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
+   "ctx": "Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Textual skills can improve exploration by distilling prior interactions into reusable guidance. However, existing skill-based RL approaches often either assume skill injection is beneficial or rely on indirect feedback or rollout-intensive evaluation to assess its utility. Our pilot studies show that rollout-based utility estimation for skill credit assignment ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18807v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T06:30:58.570Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T17:46:25.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0biyfc6",
+   "pri": 45,
+   "kind": "note",
+   "title": "Read the Room Before Your Model Generates",
+   "ctx": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings and context or token-level calibration, rather than a geometrically interpretable representation of the communicative scenario. In this work, we introduce a simple and interpretable temperature selection framework, the \\textbf{Scenario-Actor}, which adapts decoding to the inferred",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18820v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T06:30:58.570Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T17:51:18.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0cz62xw",
+   "pri": 45,
+   "kind": "note",
+   "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+   "ctx": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopping early or banning words like \"wait\", which can reduce accuracy. We propose DoubtLess, a training-free decoding method in which a much smaller reasoning model steers the large one t",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18862v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T06:30:58.570Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T17:59:32.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0dejo48",
+   "pri": 18,
+   "kind": "note",
+   "title": "Self-Evolving Agent Harness",
+   "ctx": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through ev",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18813v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T06:30:58.570Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T17:48:49.000Z",
+   "sub": "arXiv cs.CL · introduces \"Evolving Agent Harness\"",
+   "extract": {
+    "ok": true,
+    "chars": 4471,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2610.18813v1 (cs) [Submitted on 13 Oct 2026] Title: Self-Evolving Agent Harness Authors: Chuyang Wei , Haoxiang Guan , Minghang Zhu , Kexin Zhou , Jiyan He , Xiren Zhou , Huanhuan Chen , Yifei Shen View a PDF of the paper titled Self-Evolving Agent Harness, by Chuyang Wei and 7 other authors View PDF HTML (experimental) Abstract: Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through evolutionary optimization and examine its reliability through continual PAC-learning. Under explicit assumptions, the analysis yields an expected generalization bound, a retention bound conditional on historical regression budgets, and a high-probability admission rule using fresh, independent validation data. We examin",
+    "truncated": false,
+    "title": "[2610.18813v1] Self-Evolving Agent Harness",
+    "fetchedAt": "2026-10-14T06:30:58.570Z",
+    "full": "full/f-arxiv-cs.CL-0dejo48.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0dfycaq",
+   "pri": 45,
+   "kind": "note",
+   "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+   "ctx": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are difficult to curate and verify, and their rewards are sparse. We address both. First, we introduce ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18868v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T06:30:58.570Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T17:59:51.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0lhhu51",
+   "pri": 45,
+   "kind": "note",
+   "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+   "ctx": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT). The current fine-tuned LLM translate",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18818v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T06:30:58.570Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T17:50:18.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-0cz62xw",
    "pri": 45,
@@ -2256,146 +2410,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0o5ntb8",
-   "pri": 45,
-   "kind": "note",
-   "title": "TRACE: Diagnosing Verifier Brittleness in Agentic Evaluation",
-   "ctx": "Verifier scores now serve as both benchmark metrics and training rewards for large language model (LLM) agents, and a change in score is routinely read as a change in capability. It may instead reflect a change in the evaluation. We introduce TRACE, a protocol that turns a score change from a verdict into a testable diagnosis: it applies a targeted change to one part of an evaluation, compares paired runs, checks whether the agent's behavior changed, and rescores unchanged trajectories to test w",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.11678v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-09T02:30:12.828Z",
-   "tier": "B",
-   "itemTs": "2026-10-08T10:52:26.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0ouou7k",
-   "pri": 45,
-   "kind": "note",
-   "title": "UXBench Pro: Benchmarking Personalized User Experience in Multi-Turn Dialogue Interactions",
-   "ctx": "Evaluating user experience (UX) with automated computational methods has gained increasing attention, supported by empirical evidence from UXBench. However, binary preference prediction provides limited insight, while relying on a single user-agnostic reward model overlooks the inherent heterogeneity of users, whose expectations can differ substantially. In this paper, we present UXBench Pro, comprising 1{,}000 test instances derived from real user interactions across 12 task scenarios and 82 do",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.11638v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-09T02:30:12.828Z",
-   "tier": "B",
-   "itemTs": "2026-10-08T10:15:55.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0tugz2d",
-   "pri": 45,
-   "kind": "note",
-   "title": "Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection",
-   "ctx": "Recent advances in large language model (LLM) pretraining highlight the role of high-quality training data in improving performance. While model-based filtering has proven effective in selecting high-quality subsets from web-scale corpora, especially for high-resource languages, low-resource languages face challenges due to limited availability of annotated data. This work explores extending quality filtering to over 100 languages by proposing a multilingual adaptation approach that converts an ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.11585v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-09T02:30:12.828Z",
-   "tier": "B",
-   "itemTs": "2026-10-08T09:33:32.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-03birtk",
-   "pri": 45,
-   "kind": "note",
-   "title": "HI3D 3.0 (Twinkle3D): Object-specific 3D Asset Generation with High Resolution",
-   "ctx": "Image-to-3D generation has become increasingly capable of producing objects that closely resemble the input image, and an outstanding challenge is to reproduce the depicted object itself, including the specific geometry that defines it. Inscriptions, brand marks, and repeated structures are frequently distorted or lost, despite being critical to object identity. We present Hi3D 3.0, an image-to-3D generation system targeting object-specific fidelity, with Twinkle3D as its geometry model for gene",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.11685v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-09T01:30:11.117Z",
-   "tier": "B",
-   "itemTs": "2026-10-08T10:57:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0fa3g90",
-   "pri": 45,
-   "kind": "note",
-   "title": "A 3D Characterization Framework for Intelligent Sequential Decision Making",
-   "ctx": "Puzzles are widely used to evaluate the reasoning capabilities of artificial intelligence (AI) systems for sequential decision making, yet approaches originating from different paradigms are rarely compared under unified conditions. To address this gap, we introduce a three-dimensional characterization framework that enables the analysts of AI methods by 1) projecting them to the Markov decision process (MDP) sequential decision making formalism, 2) degree of autonomy through human prior ranking",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.11696v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-09T01:30:11.117Z",
-   "tier": "B",
-   "itemTs": "2026-10-08T11:06:51.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0r5ds22",
-   "pri": 45,
-   "kind": "note",
-   "title": "Elucidating the Space of Enzymatic Reaction: A Unified Benchmark and Pretrained Model",
-   "ctx": "Existing reaction models primarily learn molecular transformations, whereas enzy- matic reactions depend jointly on molecular structure and catalytic function. We formulate this problem as learning an enzymatic reaction space linking reactants, products, and Enzyme Commission (EC) annotations. To characterize this space, we introduce VenusRX-Bench, a unified benchmark for forward reaction prediction, single-step retrosynthesis, and EC-number prediction. VenusRX-Bench integrates reactions from mu",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.11694v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-09T01:30:11.117Z",
-   "tier": "B",
-   "itemTs": "2026-10-08T11:05:48.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2413,8 +2427,8 @@
   "clocks": {
    "slow": 100
   },
-  "routed": 33,
-  "unrouted": 67,
+  "routed": 35,
+  "unrouted": 65,
   "unmappedLaneFamilies": []
  }
 }
