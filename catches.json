@@ -1,7 +1,169 @@
 {
- "generatedAt": "2026-10-14T05:01:25.507Z",
+ "generatedAt": "2026-10-14T05:31:02.878Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-0797ry9",
+   "pri": 45,
+   "kind": "note",
+   "title": "How Safe Is ChatGPT Health Advice? Evidence from Real User Conversations in Four Global South Countries",
+   "ctx": "People increasingly bring their health questions to ChatGPT, yet safety evaluations of LLM health advice rest almost entirely on clinician-authored vignettes, synthetic prompts, or simulated user profiles. The gap is widest for the Global South, where concerns about demographic bias and unsafe recommendations are well documented but have never been tested on real usage. We present, to our knowledge, the first demographically grounded safety evaluation of real-world health conversations with Chat",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18465v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T05:30:56.477Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T14:30:12.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-07kkony",
+   "pri": 45,
+   "kind": "note",
+   "title": "The Last Mile of Coding Agents for Long-Document Tasks: An Empirical Study on Clinical Trial Protocol Digitization",
+   "ctx": "Clinical trial protocols serve as the source of truth for study design, but are mostly written and used as unstructured PDF documents. Digitizing protocols turns static content into structured, machine-readable data that clinical software can analyze, validate, and execute. Coding agents, which select tools, execute code, and revise their approach as they work, are increasingly applied to such long-document tasks, yet it remains unclear how reliably they turn complete documents into accurate str",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18507v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T05:30:56.477Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T15:03:31.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0at421i",
+   "pri": 45,
+   "kind": "note",
+   "title": "Teacher-Guided Tool Learning for Small Language Models via Bidirectional KL Constraints",
+   "ctx": "External tools can extend the capabilities of small language models (SLMs), enabling their deployment in resource constrained environments. However, their limited capabilities make it difficult for SLMs to discover effective tool use behaviors through reinforcement learning alone, while direct teacher supervision suffers from teacher student behavioral distribution mismatch and may propagate erroneous preferences. To address these challenges, we propose Selective Teacher guided Policy Optimizati",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18459v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T05:30:56.477Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T14:26:41.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0obmcmp",
+   "pri": 45,
+   "kind": "note",
+   "title": "Aligning Faithfulness for Theory-Scale Autoformalization",
+   "ctx": "Autoformalization (AF) requires more than compilation: formal statements must preserve the meaning of their informal sources, a property known as faithfulness. An emerging frontier is the automated evaluation of this property, yet most existing methods operate at the statement level and produce whole-item verdicts, failing to reveal how individual expressions correspond or which contextual interpretations support the judgment. This omission is consequential because AF is inherently theory-scale:",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18498v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T05:30:56.477Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T14:53:04.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0rvzmzc",
+   "pri": 18,
+   "kind": "note",
+   "title": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
+   "ctx": "Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often when their input holds no reference for it, that is, no text that says what the value should be. This happens when the value is a default value from the function schema that the user did not mention, when it has to be inferred, or when the text it comes from was cut from the judge input. We call this drop in acceptance the derivation gap. It appears across all seven judges we eva",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18497v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T05:30:56.477Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T14:52:59.000Z",
+   "sub": "arXiv cs.CL · introduces \"Derivation Gap\"",
+   "extract": {
+    "ok": true,
+    "chars": 4240,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2610.18497v1 (cs) [Submitted on 13 Oct 2026] Title: Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments Authors: Linhai Ma , Yan Wang , Lingfei Qian , Yupeng Cao , Victor Gutierrez Basulto View a PDF of the paper titled Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments, by Linhai Ma and 4 other authors View PDF HTML (experimental) Abstract: Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often when their input holds no reference for it, that is, no text that says what the value should be. This happens when the value is a default value from the function schema that the user did not mention, when it has to be inferred, or when the text it comes from was cut from the judge input. We call this drop in acceptance the derivation gap. It appears across all seven judges we evaluate, including System One models CLM and Jev. The gap is not only a truncation artifact: correct default values have the largest gap on a benchmark with no truncation. A controlled source-relocation test shows that judges follow the reference in ",
+    "truncated": false,
+    "title": "[2610.18497v1] Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
+    "fetchedAt": "2026-10-14T05:30:56.477Z",
+    "full": "full/f-arxiv-cs.CL-0rvzmzc.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0zmd1ts",
+   "pri": 18,
+   "kind": "note",
+   "title": "Readout Scaling Shapes Sparse Feature Recovery",
+   "ctx": "Readout scaling changes what a sparse autoencoder (SAE) learns, but the benefit of removing it depends on the data. We use readout-canonicalized decision-space (RC-DS) coordinates to remove singular-value gains while preserving retained decision information. At a fixed readout condition number, changing the generating distribution reverses which training coordinates recover known factors best. In our controlled coordinate-matching study, recovery is highest when training restores the space in wh",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.18462v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T05:30:56.477Z",
+   "tier": "B",
+   "itemTs": "2026-10-13T14:28:22.000Z",
+   "sub": "arXiv cs.CL · introduces \"Readout Scaling\"",
+   "extract": {
+    "ok": true,
+    "chars": 4569,
+    "lead": "Computer Science > Machine Learning arXiv:2610.18462v1 (cs) [Submitted on 13 Oct 2026] Title: Readout Scaling Shapes Sparse Feature Recovery Authors: Brain Xiao , Sarah Wilson View a PDF of the paper titled Readout Scaling Shapes Sparse Feature Recovery, by Brain Xiao and 1 other authors View PDF HTML (experimental) Abstract: Readout scaling changes what a sparse autoencoder (SAE) learns, but the benefit of removing it depends on the data. We use readout-canonicalized decision-space (RC-DS) coordinates to remove singular-value gains while preserving retained decision information. At a fixed readout condition number, changing the generating distribution reverses which training coordinates recover known factors best. In our controlled coordinate-matching study, recovery is highest when training restores the space in which the factors were generated. When factors are generated before readout scaling, RC-DS increases mean sparse-factor recovery from 0.506 to 0.913 at condition number 100, compared with centered-logit training under the same budget. An exact wrapper reproduces RC-DS training to numerical precision, isolating training geometry rather than additional information. In neura",
+    "truncated": false,
+    "title": "[2610.18462v1] Readout Scaling Shapes Sparse Feature Recovery",
+    "fetchedAt": "2026-10-14T05:30:56.477Z",
+    "full": "full/f-arxiv-cs.CL-0zmd1ts.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-03ysq4t",
    "pri": 45,
@@ -2243,169 +2405,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-anthropic-news-0fgswaq",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Anthropic cyber mission",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/anthropic-cyber-mission",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-08T19:00:18.036Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": false,
-    "reason": "HTTP 404",
-    "fetchedAt": "2026-10-08T19:00:18.036Z"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-1j11o9i",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — 2026 usage policy update",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/2026-usage-policy-update",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-08T17:30:11.255Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 7214,
-    "lead": "Announcements 2026 Usage Policy update Oct 8, 2026 Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and the feedback we’ve received from our customers. We're publishing a new version of the policy today. In this post, we summarize the changes we’ve made. Most of the updates in the latest version are intended to clarify existing rules. In the year since our last refresh, Claude has taken on longer, more independent work. This update provides new examples that show how our rules apply to Claude’s new capabilities. It draws on new patterns of misuse in influence operations, weapons development, and surveillance that we’ve observed in the past year (as we’ve documented in our latest threat intelligence report ). We’ve also made updates to clarify our requirements for high-risk use cases in areas like health and finance, to add controls for when Claude is used to autonomously take physical actions, and to address abusive behavior toward our models. The updated policy takes effect on November 12. The full Usage Policy and Supported Regions Policy can be found on their respective pages. A new section on deceptive activity As we wrote ab",
-    "truncated": false,
-    "title": "2026 Usage Policy update \\ Anthropic",
-    "fetchedAt": "2026-10-08T17:30:11.255Z",
-    "full": "full/f-anthropic-news-1j11o9i.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-1j6imx6",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Genesis mission commitment",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/genesis-mission-commitment",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-08T15:00:15.626Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 2475,
-    "lead": "Announcements Building on our commitment to American scientific discovery Oct 8, 2026 Anthropic is deepening its support for American scientific research by committing $150 million over three years to the Genesis Mission , a federal initiative to accelerate scientific and technological discovery through AI. The funding will go toward making Claude available to more than 15 agencies that are part of the mission, including NASA, the National Institutes of Health, and the National Science Foundation. We first announced our partnership with the US Department of Energy (DOE) and the Genesis Mission last December . Since then, we have worked with DOE to bring Claude to scientists across the national laboratories. Today, we announced this new commitment as part of the Science: A New Golden Age Summit hosted by the White House Office of Science and Technology Policy in Washington, DC. Supporting American scientists We share the administration’s view, laid out in “ Science: A New Golden Age ,” that AI can have a profound and positive impact on scientific discovery, and we are glad to back its efforts to support American scientists. Researchers at federal agencies and national laboratories w",
-    "truncated": false,
-    "title": "Building on our commitment to American scientific discovery \\ Anthropic",
-    "fetchedAt": "2026-10-08T15:00:15.626Z",
-    "full": "full/f-anthropic-news-1j6imx6.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-059yr0q",
-   "pri": 45,
-   "kind": "note",
-   "title": "Decoupling Exploration from Optimization in RLVR",
-   "ctx": "Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality. Because verifiable rewards supervise only a narrow slice of the model's knowledge and behavior, such ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.10536v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-08T05:01:14.929Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T17:59:26.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-099vgzt",
-   "pri": 45,
-   "kind": "note",
-   "title": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
-   "ctx": "Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change. Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation. Agentic harnesses can adapt around the model, but current self-evolving harnesses use robot trials inefficiently when deciding which code and skill changes to pursue. We introduce EmbodiedRSI, a self-evolving a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.10498v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-08T05:01:14.929Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T17:48:02.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0ad6yap",
-   "pri": 45,
-   "kind": "note",
-   "title": "RoboJEPA: Scaling Robotic Latent World Models",
-   "ctx": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. We show that RoboJEPA's imagination erro",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.10515v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-08T05:01:14.929Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T17:54:42.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2421,11 +2420,10 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 97,
-   "daily": 3
+   "slow": 100
   },
-  "routed": 31,
-  "unrouted": 69,
+  "routed": 33,
+  "unrouted": 67,
   "unmappedLaneFamilies": []
  }
 }
