@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-14T19:31:01.984Z",
+ "generatedAt": "2026-10-14T20:01:06.780Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-172zrsy",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — 2026 us midterms",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/2026-us-midterms",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-14T20:00:58.088Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 11383,
+    "lead": "Policy Preparing for the 2026 US midterms Oct 14, 2026 Earlier this year, we shared an update on our election safeguards , which described how we measure and prevent political bias, detect misuse, and direct people to accurate voting information. Below, we outline how we’ve built on that work and continued to strengthen our election safeguards ahead of this year’s US midterms. How people use Claude for elections and politics Our goal is for Claude to be a useful tool for political conversations, while preventing election-related abuse. That starts with understanding how people actually use Claude in these contexts. To do this, we used Anthropic Insights to develop a new analysis of 250,000 conversations over the course of a recent one-week period. 1 Today, conversations that touch broadly on politics, public policy or social issues account for about 5.75% of all conversations in the United States on Claude.ai, our consumer app. This includes people turning to Claude to follow the news, conduct academic or professional research on public policy, learn about candidates, and navigate government services. About 0.51% of all conversations are specifically about elections or voting. As w",
+    "truncated": false,
+    "title": "Preparing for the 2026 US midterms \\ Anthropic",
+    "fetchedAt": "2026-10-14T20:00:58.088Z",
+    "full": "full/f-anthropic-news-172zrsy.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-anthropic-news-0hy7ipv",
    "pri": 6,
@@ -2396,29 +2428,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0l0o44x",
-   "pri": 45,
-   "kind": "note",
-   "title": "Phonologically Informed Tokenization for German Speech Recognition: A Cross-Domain Study",
-   "ctx": "German is a morphologically rich language whose syllable structure is exceptionally well-predicted by the Knuth--Liang hyphenation algorithm. We ask whether phonologically informed tokenization can serve as a competitive target for end-to-end speech recognition. We compare three tokenizer families on the Omnilingual ASR wav2vec 2.0 backbone fine-tuned with CTC: the pretrained multilingual character inventory, a data-driven Byte-Pair Encoding (BPE) over orthography, and phonologically informed un",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.11646v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-09T02:30:12.828Z",
-   "tier": "B",
-   "itemTs": "2026-10-08T10:20:43.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2434,8 +2443,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 1,
-   "slow": 99
+   "daily": 2,
+   "slow": 98
   },
   "routed": 35,
   "unrouted": 65,
