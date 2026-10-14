@@ -1,7 +1,149 @@
 {
- "generatedAt": "2026-10-14T03:31:07.787Z",
+ "generatedAt": "2026-10-14T04:01:54.681Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-07ohnef",
+   "pri": 45,
+   "kind": "note",
+   "title": "claimcheck: Measuring and Improving Specification Faithfulness",
+   "ctx": "Formal verification proves that a program satisfies its specification, but says nothing about whether the specification captures what the author meant. As LLMs increasingly write both code and specifications, a gap between the author's natural-language requirement and the specification becomes a live risk. A machine-checked proof of a property narrower than the one requested is worthless but passes every check. Closing this gap is solving the spec formalization problem: given a natural-language ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.17358v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T04:01:02.112Z",
+   "tier": "B",
+   "itemTs": "2026-10-12T20:14:51.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-07pwbkx",
+   "pri": 45,
+   "kind": "note",
+   "title": "UMCR: Universal Medical Concept Recognition through Guideline Integration and Agentic Linking",
+   "ctx": "Medical Concept Recognition is the task of extracting and grounding spans in medical text to entries in a standard ontology. Current methods are generally developed towards a single ontology and source text type (clinical notes, drug labels, etc.) The central challenge is therefore to build methods that adapt to any target ontology without requiring ontology-specific retraining. More recent approaches like REAL and AutoPCR make direct use of Large Language Models and can theoretically adapt to a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.17363v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T04:01:02.112Z",
+   "tier": "B",
+   "itemTs": "2026-10-12T20:19:56.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0a09tmh",
+   "pri": 45,
+   "kind": "note",
+   "title": "The Curse of Knowledge in Role-Playing Language Models",
+   "ctx": "Role-playing language models speak as characters in games and agent simulations, where the system records what each character can hear, see and understand. We test whether characters respect these boundaries in 480 scenes, each with a counterfactual twin that changes only the hidden fact, so mentions of the twin's fact measure guessing. Across 11 open-weight models, characters use content from speech they cannot understand or hear at 67 and 72 percentage points (pp) above this baseline, although",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.17327v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T04:01:02.112Z",
+   "tier": "B",
+   "itemTs": "2026-10-12T19:37:03.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.CL-0l3ub1e",
+   "pri": 45,
+   "kind": "note",
+   "title": "Nufo: A Benchmark for Ewe Automatic Speech Recognition",
+   "ctx": "Automatic speech recognition (ASR) remains challenging for low-resource languages, where the scarcity of transcribed speech limits the development of accurate systems. This challenge is particularly acute for African languages such as Ewe, which has millions of speakers but remains underrepresented in publicly available ASR resources and benchmarks. In this work, we consolidate, normalize, and partition existing Ewe speech resources into a standardized 174-hour Ewe ASR benchmark, the largest to ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.17278v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T04:01:02.112Z",
+   "tier": "B",
+   "itemTs": "2026-10-12T18:32:14.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0me1olv",
+   "pri": 45,
+   "kind": "note",
+   "title": "From Sampled Evidence to Radiology Reports: Objectives, Constraints, and Realization",
+   "ctx": "Sampling multiple reports creates an inference problem: how should sampled evidence be converted into a final decision, and does a better structured decision yield a better report? We study these questions through a framework that separates the decision signal, scoring objective, and feasible decision set, followed by text realization. On MIMIC-CXR and IU-Xray, controlled comparisons across 13 generator configurations per benchmark under grouped development/test evaluation reveal three findings.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.17318v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T04:01:02.112Z",
+   "tier": "B",
+   "itemTs": "2026-10-12T19:19:50.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0xokl18",
+   "pri": 45,
+   "kind": "note",
+   "title": "From Conceptual EneMonIE to an Executable Backend: A Modular Architecture for Energy Information Extractionand Grounded Question Answering",
+   "ctx": "The original EneMonIE proposal describes a Web-based semantic system for continuously monitoring energy trends through targeted information extraction from heterogeneous online media. This article presents EneMonIE-Backend, an implementation-derived redesign that converts that conceptual pipeline into a modular, executable, and application-independent backend. The architecture separates five concerns: data sources, acquisition and normalization, semantic processing, knowledge organization, and p",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.17243v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-14T04:01:02.112Z",
+   "tier": "B",
+   "itemTs": "2026-10-12T18:09:35.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.CL-03214kf",
    "pri": 45,
@@ -2262,150 +2404,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0c76eqr",
-   "pri": 45,
-   "kind": "note",
-   "title": "Your Prompt Should Do More: Effects of Retrieval Instructions in Embedding Models",
-   "ctx": "Prompted embedding models have recently received increasing attention, particularly for retrieval, where detailed retrieval instructions are provided as part of the retrieval prompt. Several new datasets and studies have examined this setting, showing that the current embedding models often struggle to follow such instructions reliably. In this paper, we study the mechanism of how instructions actually affect the representations of retrieval queries in asymmetric retrieval tasks. We show that mo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.10508v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-08T05:01:14.929Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T17:51:46.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0omk225",
-   "pri": 45,
-   "kind": "note",
-   "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
-   "ctx": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge storage from general-purpose computation, offering a promising route to updating factual knowledge while keeping the Transformer backbone fixed. Realizing this potential is challenging because differen",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.10533v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-08T05:01:14.929Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T17:58:52.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0yu5png",
-   "pri": 45,
-   "kind": "note",
-   "title": "Which Rollout Taught It That? BehaviorTrace and the Limits of Training-Data Attribution in Online RL",
-   "ctx": "When reinforcement learning teaches a language model a new behavior, can we find the training rollouts that taught it? And when an attribution method says it can, how do we know the answer is real? We study both questions on online RL fine-tuning with GRPO, using a planted behavior with a known cause. We release BehaviorTrace, an open evaluation harness that combines full-gradient sketching, the planted-behavior setup, and controls for gradient magnitude, fluency, headroom, and variation across ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.10422v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-08T05:01:14.929Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T17:01:37.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0yvuzgy",
-   "pri": 45,
-   "kind": "note",
-   "title": "PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs",
-   "ctx": "Hallucinated information can propagate through multi-stage LLM systems and become part of the context for subsequent reasoning. Existing studies of post-hallucination reasoning (PHR) mainly characterize changes in final outcomes and aggregate reasoning dynamics, leaving how models resolve hallucinated premises at the response level insufficiently understood. In this work, we introduce PHRBench, a controlled benchmark for behaviorally structured PHR across four domains and 18 large language model",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.10455v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-08T05:01:14.929Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T17:25:23.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0h4xpe7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Constrained-Action AI Remediation for SIEM/XDR via a NeMo-Guardrails Proxy",
-   "ctx": "Security Operations Centers (SOCs) for information technology and operational technology share one incident-response problem: a flood of correlated alerts and too few analysts. Large Language Models (LLMs) are increasingly proposed as reasoning engines that triage alerts and, in autonomous deployments, issue commands that block IPs, kill processes, or quarantine files on production hosts. This coupling introduces a new risk: a single adversarial alert can become a remote code path through the LL",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.09906v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-08T02:01:13.208Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T12:00:51.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0m0empv",
-   "pri": 45,
-   "kind": "note",
-   "title": "Training Advisors for LLM Agents from Task Outcomes",
-   "ctx": "Large language model agents tackle multi-step tasks by interleaving reasoning and tool calls with observations from the environment. Prior work has shown that natural-language feedback can help these agents revise their decisions during task execution. We introduce Caddie, a method for training critics to provide natural-language analysis and advice as agents work through a task. Unlike approaches that rely on step-level labels or reference critiques, Caddie learns from whether the agent ultimat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.09858v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-08T02:01:13.208Z",
-   "tier": "B",
-   "itemTs": "2026-10-07T11:14:26.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2424,8 +2422,8 @@
    "slow": 97,
    "daily": 3
   },
-  "routed": 35,
-  "unrouted": 65,
+  "routed": 34,
+  "unrouted": 66,
   "unmappedLaneFamilies": []
  }
 }
