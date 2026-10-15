@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-15T17:00:29.586Z",
+ "generatedAt": "2026-10-15T17:30:41.964Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-189tpuw",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — An update on independent evaluators",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-15T17:30:05.179Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 6054,
+    "lead": "Announcements An update on independent evaluators Oct 15, 2026 Last month, we committed to stronger independent, third-party assessment of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators. Today, we’re announcing that we’ve started to give employee-like access to a team from METR , a nonprofit that evaluates frontier AI models. METR will publish the results of its risk assessments. Over the past year, we’ve worked with METR on several reviews of our Risk Reports . We’re also working with SecureBio and Accenture as evaluators, and are in early discussions with several other organizations, including Hugging Face . Here, we explain our approach to working with evaluators. Why we work with independent evaluators As models have become more powerful, they’ve required stronger safeguards and more challenging risk assessments. We want to be publicly accountable for the decisions we’re making. But we can’t publicly share all the information relevant to our safety work. Some of it could be useful to malicious actors, or is commercially sensitive, like compute or",
+    "truncated": false,
+    "title": "Anthropic update on independent evaluators \\ Anthropic",
+    "fetchedAt": "2026-10-15T17:30:05.179Z",
+    "full": "full/f-anthropic-news-189tpuw.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-0rlkk2a",
    "pri": 45,
@@ -2410,29 +2442,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0gkjcju",
-   "pri": 45,
-   "kind": "note",
-   "title": "Does Financial Speech Need Continual Learning Regularization? A Study of EWC and mini-KFAC on Earnings Call ASR",
-   "ctx": "Earnings call transcription presents a realistic continual learning scenario where Automatic Speech Recognition (ASR) systems are updated with new recordings but risk catastrophic forgetting of previously learned financial speech patterns. Adapting Whisper-small from a general-domain speech corpus to the Earnings22 benchmark reveals the opposite: all evaluated methods exhibit improvement on held-out financial speech from the same domain during adaptation rather than forgetting. This task complem",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.13432v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-12T02:30:38.044Z",
-   "tier": "B",
-   "itemTs": "2026-10-09T11:34:13.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2448,8 +2457,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 98,
-   "daily": 2
+   "daily": 3,
+   "slow": 97
   },
   "routed": 42,
   "unrouted": 58,
