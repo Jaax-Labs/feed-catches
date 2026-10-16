@@ -1,7 +1,254 @@
 {
- "generatedAt": "2026-10-16T03:00:48.331Z",
+ "generatedAt": "2026-10-16T03:30:34.107Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-00d3emq",
+   "pri": 45,
+   "kind": "note",
+   "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
+   "ctx": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The former increases expressiveness by enabling more expert combinations at a fixed activation ratio, and the latter introduces experts that are active for every token. We identify an exploration dilemma between these designs: shared experts can make routing less exploratory by reduci",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22353v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:58:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-00sgzt2",
+   "pri": 45,
+   "kind": "note",
+   "title": "Dexterity from Supervised Play",
+   "ctx": "How can robots autonomously collect the contact-rich experience needed to learn dexterous manipulation? We present DSP: Dexterity from supervised play, a framework in which a robot learns a play policy from minutes of human play through behavior cloning, then deploys it autonomously to collect hours of interaction data to train a world model. During inference, the same play policy then guides model-predictive control (MPC) by proposing candidate action sequences for evaluation under the learned ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22340v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:55:50.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-08emwh1",
+   "pri": 45,
+   "kind": "note",
+   "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+   "ctx": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We build this corpus by collecting open-source data, converting specialized representa",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22341v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:56:07.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0b490h0",
+   "pri": 45,
+   "kind": "note",
+   "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+   "ctx": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules. We introduce T2-Z for test-time optimization of environment latents, which augments a robotic world model with a learnable environment latent to condition world predictions. This compact latent captures underlying envi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22364v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:59:11.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0vkz1h7",
+   "pri": 45,
+   "kind": "note",
+   "title": "FDE-Gym: The Last Mile of AI Delivery",
+   "ctx": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated cu",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22350v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:57:23.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0w1vhun",
+   "pri": 45,
+   "kind": "note",
+   "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+   "ctx": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically,",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22343v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:56:18.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ypyqni",
+   "pri": 45,
+   "kind": "note",
+   "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+   "ctx": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA, a framework in which a simulation data engine and an action policy co-evolve through a shared heterogeneous memory of environment construction, policy failures, and learning progress. The memory compiles validated diagn",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22362v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:59:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-16afdhz",
+   "pri": 45,
+   "kind": "note",
+   "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+   "ctx": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings;",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22372v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:59:59.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1l8n3jd",
+   "pri": 45,
+   "kind": "note",
+   "title": "Discovering state-of-the-art quantum circuits with large language models",
+   "ctx": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22367v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:59:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1nhigma",
+   "pri": 18,
+   "kind": "note",
+   "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+   "ctx": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimentation, while recent MLE systems adopt model-directed interaction, allowing models to autonomously org",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.22344v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-16T03:30:05.195Z",
+   "tier": "B",
+   "itemTs": "2026-10-15T17:56:32.000Z",
+   "sub": "arXiv cs.AI · introduces \"Autonomous Machine Learning Engineering\"",
+   "extract": {
+    "ok": true,
+    "chars": 5114,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2610.22344v1 (cs) [Submitted on 15 Oct 2026] Title: MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering Authors: Shangheng Du , Jinxin Shi , Shuaiyu Zhang , Yiming Wu , Junpeng Zhao , Shiyang Feng , Xin Li , Liang He , Xiangchao Yan , Bo Zhang View a PDF of the paper titled MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering, by Shangheng Du and 9 other authors View PDF HTML (experimental) Abstract: Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimentation, while recent MLE systems adopt model-directed interaction, allowing models to autonomously organize experiments and adapt optimization strategies based on execution feedback. However, feedback from each experiment reflects several preceding decisions, and a long MLE r",
+    "truncated": false,
+    "title": "[2610.22344v1] MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+    "fetchedAt": "2026-10-16T03:30:05.195Z",
+    "full": "full/f-arxiv-cs.AI-1nhigma.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0942lmr",
    "pri": 45,
@@ -1600,40 +1847,6 @@
    "questions": []
   },
   {
-   "id": "f-arxiv-cs.CL-0rvzmzc",
-   "pri": 18,
-   "kind": "note",
-   "title": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
-   "ctx": "Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often when their input holds no reference for it, that is, no text that says what the value should be. This happens when the value is a default value from the function schema that the user did not mention, when it has to be inferred, or when the text it comes from was cut from the judge input. We call this drop in acceptance the derivation gap. It appears across all seven judges we eva",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18497v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T05:30:56.477Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T14:52:59.000Z",
-   "sub": "arXiv cs.CL · introduces \"Derivation Gap\"",
-   "extract": {
-    "ok": true,
-    "chars": 4240,
-    "lead": "Computer Science > Artificial Intelligence arXiv:2610.18497v1 (cs) [Submitted on 13 Oct 2026] Title: Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments Authors: Linhai Ma , Yan Wang , Lingfei Qian , Yupeng Cao , Victor Gutierrez Basulto View a PDF of the paper titled Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments, by Linhai Ma and 4 other authors View PDF HTML (experimental) Abstract: Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often when their input holds no reference for it, that is, no text that says what the value should be. This happens when the value is a default value from the function schema that the user did not mention, when it has to be inferred, or when the text it comes from was cut from the judge input. We call this drop in acceptance the derivation gap. It appears across all seven judges we evaluate, including System One models CLM and Jev. The gap is not only a truncation artifact: correct default values have the largest gap on a benchmark with no truncation. A controlled source-relocation test shows that judges follow the reference in ",
-    "truncated": false,
-    "title": "[2610.18497v1] Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
-    "fetchedAt": "2026-10-14T05:30:56.477Z",
-    "full": "full/f-arxiv-cs.CL-0rvzmzc.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
    "id": "f-arxiv-cs.AI-03ysq4t",
    "pri": 45,
    "kind": "note",
@@ -2238,217 +2451,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1l90o7s",
-   "pri": 45,
-   "kind": "note",
-   "title": "Learning to GUIDE the Group: Self-Learning LLM Facilitation Across Multi-Party Tasks",
-   "ctx": "As large language models are increasingly adopted as multi-party communication facilitators, there is a growing demand for agents capable of balancing diverse group dynamics across contexts. However, existing LLM facilitators are often fine-tuned for task-specific objectives; generalized LLM-based facilitation methods that can adapt to different types of tasks and diverse group dynamics are underdeveloped. To address this gap, we present GUIDE (Generalized Unified Intervention for Dynamic Exchan",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16231v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T02:31:00.610Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T06:08:33.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1lyuy1t",
-   "pri": 45,
-   "kind": "note",
-   "title": "ProCARE: Real-World Study Automation via Profile-Grounded Evidence Contracts",
-   "ctx": "Real-world studies (RWS) analyze routinely collected healthcare data, such as electronic health records and insurance claims, to estimate treatment effects, monitor safety, and identify risk factors outside randomized trials. Automating RWS with large language model agents is appealing but brittle: valid analyses depend on dataset-specific clinical semantics, including index dates, follow-up windows, patient/event-level units, and outcome boundaries that are often implicit in observational data.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16175v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T02:31:00.610Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T04:50:24.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1tnb3z7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Label-Centric Knowledge Retrieval for Zero-Shot Text Classification",
-   "ctx": "Flagship large language models (LLMs) offer rich general knowledge and strong reasoning capabilities, but their high inference cost and latency limit their use for large-scale data labeling. We study zero-shot text classification with semantically meaningful labels and task descriptions, without task-specific labeled examples or classifier feedback. We propose \\textbf{SLKR} (Semantic Label Knowledge Retrieval), a label-centric retrieval-augmented generation framework that separates offline knowl",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16182v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T02:31:00.610Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T05:00:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1uqkpib",
-   "pri": 45,
-   "kind": "note",
-   "title": "MP-MNCA: Morphology-Prior Masked Neighbor Cross-Attention for Efficient Spatial Domain Identification",
-   "ctx": "Spatial transcriptomics jointly captures molecular state, tissue morphology, and spatial organization, yet spatial-domain methods are typically compared only at late training checkpoints, obscuring differences in convergence efficiency. We introduce MP-MNCA, a morphology-prior masked neighbor cross-attention framework that preserves the full 3,000 dimensional highly-variable-gene representation while selectively routing molecular information across spatial neighbors, with histological similarity",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16212v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T02:31:00.610Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T05:42:01.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1wqc310",
-   "pri": 45,
-   "kind": "note",
-   "title": "SafeDSE: Joint Exploration of Safety Architecture Patterns, Mapping, and Scheduling for Dataflow Applications With Safety Arguments (Extended Version)",
-   "ctx": "Embedded platforms increasingly host safety-related streaming functions next to less critical ones. Whether a safety architecture pattern, such as a doer/checker pair, protects a function depends on the cores that run its components. Their schedule must meet the throughput requirement, and mixing safety integrity levels (SILs) on one core raises development cost. This report presents SafeDSE, a design space exploration framework for synchronous dataflow applications. One declarative constraint m",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16213v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T02:31:00.610Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T05:43:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-011txs6",
-   "pri": 45,
-   "kind": "note",
-   "title": "Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion",
-   "ctx": "Large language models (LLMs) are now a standard source of query expansion terms but they hallucinate. They inject non existent entities and off-topic terms that add ranking noise and can hurt strong retrievers. Existing remedies such as corpus grounding, mutual verification and preference alignment treat hallucinated terms as an undifferentiated nuisance to be filtered by agreement heuristics, without a mechanistic account of why a given term appears or a principled criterion for how many terms ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.13810v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-12T03:30:38.320Z",
-   "tier": "B",
-   "itemTs": "2026-10-09T16:22:16.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0894o1r",
-   "pri": 45,
-   "kind": "note",
-   "title": "Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
-   "ctx": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a whole; comics scholarship proceeds one book at a time. We argue that artificial intelligence, including generative models, can change this to the benefit of the medium itself. We propose PAGE, a framework that makes artificial intelligence an instrument for comics research. It parse",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.13840v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-12T03:30:38.320Z",
-   "tier": "B",
-   "itemTs": "2026-10-09T16:49:29.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-08nzug5",
-   "pri": 45,
-   "kind": "note",
-   "title": "QTestBench: A Test Framework for Evaluating LLM-Generated Quantum Code",
-   "ctx": "Large language models (LLMs) have shown strong results in classical code generation and are increasingly used to write the unit tests that safeguard that code. Whether they can do the same for quantum software is less clear, because quantum programs are probabilistic, depend on numerical tolerances, and are judged by domain-specific checkers, so a well-formed test can still disagree with the benchmark's verdict. Existing quantum benchmarks measure whether a model produces a correct solution, but",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.13811v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-12T03:30:38.320Z",
-   "tier": "B",
-   "itemTs": "2026-10-09T16:23:46.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0c9rsza",
-   "pri": 45,
-   "kind": "note",
-   "title": "Error Rate is Not Enough: Costs of Augmentation in Low-Resource ASR",
-   "ctx": "Data augmentation is standard practice for low-resource automatic speech recognition (ASR), but its benefits are almost always reported as aggregate error rates, leaving open why and when a method helps. On four low-resource languages and English at five data sizes, we cross two augmentations that modify existing audio (speed perturbation and SpecAugment) with two that modify text transcriptions and synthesize audio from it. We analyze errors at the phoneme level and find that they help for comp",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.13807v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-12T03:30:38.320Z",
-   "tier": "B",
-   "itemTs": "2026-10-09T16:19:43.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2467,8 +2469,8 @@
    "slow": 97,
    "daily": 3
   },
-  "routed": 45,
-  "unrouted": 55,
+  "routed": 46,
+  "unrouted": 54,
   "unmappedLaneFamilies": []
  }
 }
