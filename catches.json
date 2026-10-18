@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-18T18:00:28.625Z",
+ "generatedAt": "2026-10-18T18:30:41.118Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-12jj31c",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Public benefit fund",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/public-benefit-fund",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-18T18:30:00.954Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 2850,
+    "lead": "Announcements Investing in the public benefit Oct 18, 2026 Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Subject to stockholder approval, 5% of Anthropic’s shares will be committed today, with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline. As a public benefit corporation, most of our work in pursuit of our mission takes place inside the company: research relevant to AI safety and interpretability; applied biomedical research; discounts on Claude for nonprofits and scientific institutions. These activities have both a public benefit component and for-profit value, so we house them directly in the company. The Anthropic Public Benefit Fund will have increased flexibility and scale, enabling us to pursue our mission in new ways: for example, we might explore large donations to traditional nonprofits or direct distributions to specific populations. One example is labor market impacts. AI may generate enormous economic value, but it could also cause instability for many workers. Anthropic has al",
+    "truncated": false,
+    "title": "Investing in the public benefit \\ Anthropic",
+    "fetchedAt": "2026-10-18T18:30:00.954Z",
+    "full": "full/f-anthropic-news-12jj31c.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.CL-0btik1e",
    "pri": 45,
@@ -2357,29 +2389,6 @@
    ]
   },
   {
-   "id": "f-arxiv-cs.CL-0rbdwmr",
-   "pri": 45,
-   "kind": "note",
-   "title": "Query Your Way Out: Benchmarking Multi-Turn Knowledge Reasoning through Generalized Puzzle Solving",
-   "ctx": "Puzzles offer a natural testbed for Large Language Models (LLMs) reasoning because they pose verifiable goals under partial information and require multi-step decisions to reach a solution. However, existing puzzle benchmarks typically focus on narrow environments with rigid mechanics and tightly constrained solution targets. To bridge this gap, we introduce the Active Probing Benchmark (APB), which generalizes puzzle-solving by casting concept identification as an interactive reasoning task tha",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16133v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T03:01:08.375Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T03:50:39.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-arxiv-cs.AI-05sgspp",
    "pri": 45,
    "kind": "note",
@@ -2464,8 +2473,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 97,
-   "daily": 3
+   "daily": 4,
+   "slow": 96
   },
   "routed": 45,
   "unrouted": 55,
