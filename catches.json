@@ -1,7 +1,257 @@
 {
- "generatedAt": "2026-10-19T01:00:23.992Z",
+ "generatedAt": "2026-10-19T01:30:23.327Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-04hw69q",
+   "pri": 45,
+   "kind": "note",
+   "title": "Optimist Deep Research: An Iterative, State-Centric Agent for Autonomous Literature Research",
+   "ctx": "Most retrieval-augmented systems treat literature search as a single retrieval step followed by summarization. Real literature research works differently: the investigator's understanding of the question changes as they read, new subquestions appear, and evidence is weighed, not just collected. We present Optimist Deep Research, an open-source agent that runs literature research as an iterative evidence-acquisition process over an explicit, mutable research state. A research question is broken i",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23299v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:04:43.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ftk1cr",
+   "pri": 45,
+   "kind": "note",
+   "title": "Designing for Imperfect Prompts: A Simulation-Based Evaluation of an LLM-Based Enterprise Data Assistant Using Knowledge Graphs",
+   "ctx": "Enterprise data assistants using large language models (LLMs) promise democratized data access in organizations. Yet in our real-world deployment within the CFO unit's data lake at an industry partner, we observed that business users frequently pose imperfect prompts that include domain-specific vocabulary and lack schema references or structural information. This Design Science Research study examines automatic resolution using a semantic mediation layer. We design and evaluate two design varia",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23304v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:07:04.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0kgb1j7",
+   "pri": 45,
+   "kind": "note",
+   "title": "From Memory Hits to Answerable Evidence: Query-Conditioned Memory Compilation for Long-Term Agent Memory",
+   "ctx": "Long-term agent memory requires recovering answer-relevant evidence dispersed across turns and sessions. Existing systems increasingly use structured memories and adaptive retrieval, yet often pass retrieved or expanded units directly to the reader, coupling memory addressing with evidence presentation and leaving the final context redundant or incomplete. To address this gap, we propose MemCompile, a query-conditioned evidence compilation framework for long-term conversational memory. Given a q",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23313v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:15:29.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ryo7i7",
+   "pri": 45,
+   "kind": "note",
+   "title": "Language Models Learn to Improve Language Models",
+   "ctx": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements across models faces two challenges. First, training such an ability with real feedback is expensive: reinforcement learning (RL) requires evaluating tens of thousands of proposals, each potentially requiring a full model-tra",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23344v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:51:00.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14fohm4",
+   "pri": 45,
+   "kind": "note",
+   "title": "FlashReFocus: Interactive Image Refocusing in Seconds",
+   "ctx": "Single-image refocusing changes the focal plane and depth of field of a photograph after capture. It is inherently interactive: users try many focal points and blur strengths on one image, so each edit should be fast and change only the blur. Recent generative methods, however, rerun large diffusion models for every edit. We observe that the two sub-problems differ in kind: recovering the all-in-focus image is ill-posed and needs a generative prior, whereas rendering blur is largely determined b",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23297v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:04:18.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-15pjs3b",
+   "pri": 45,
+   "kind": "note",
+   "title": "AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics",
+   "ctx": "Enterprise data analysis requires agents to connect analytical requests with knowledge distributed across databases, business documents, and existing example tasks. Without an explicit representation of this knowledge, an agent may produce incorrect analytical results and cannot reliably incorporate feedback. We present AgentOnto, an ontology-guided LLM agent for enterprise data analytics. AgentOnto organizes heterogeneous enterprise knowledge into an ontology that directly guides analysis and i",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23317v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:22:38.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1jmsghe",
+   "pri": 45,
+   "kind": "note",
+   "title": "MobileInject: Evaluating Reasoning-to-Action Security of MLLM-Based Mobile Agents under Cross-Modal Consistency Injection",
+   "ctx": "Multimodal large language model (MLLM)-based mobile agents are rapidly evolving from conversational assistants into autonomous systems that perceive, reason over, and act on smartphone environments. This capability also exposes a new security risk: adversaries can embed malicious objectives in cross-application mobile content and steer agent behavior through indirect multimodal injection. Although prompt injection has been studied in desktop and web settings, its cross-modal properties in mobile",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23307v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:10:30.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1r0h2xt",
+   "pri": 18,
+   "kind": "note",
+   "title": "Robust Function Calling for LLM Agents Under Interface Drift",
+   "ctx": "Tool-augmented language-model agents rely on interface text: tool descriptions, argument schemas, and the candidate tool list shown at inference time. These interfaces often change after deployment even when the underlying tool semantics remain fixed, creating a practical reliability problem for function-calling systems. We study this failure mode as interface drift and evaluate whether a lightweight, training-free repair layer can recover robustness without retraining the base model. Our method",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23342v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:49:37.000Z",
+   "sub": "arXiv cs.AI · introduces \"Agents Under Interface Drift\"",
+   "extract": {
+    "ok": true,
+    "chars": 4345,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2610.23342v1 (cs) [Submitted on 16 Oct 2026] Title: Robust Function Calling for LLM Agents Under Interface Drift Authors: Aniruddha Chattopadhyay , Kanishka Halder , Partha Sarathi Roy View a PDF of the paper titled Robust Function Calling for LLM Agents Under Interface Drift, by Aniruddha Chattopadhyay and 2 other authors View PDF HTML (experimental) Abstract: Tool-augmented language-model agents rely on interface text: tool descriptions, argument schemas, and the candidate tool list shown at inference time. These interfaces often change after deployment even when the underlying tool semantics remain fixed, creating a practical reliability problem for function-calling systems. We study this failure mode as interface drift and evaluate whether a lightweight, training-free repair layer can recover robustness without retraining the base model. Our method, SchemaShield-Lite, combines schema validation, candidate-set retry for missing tool names, and one-shot constrained repair. On Qwen3.5-9B, it raises DICE-300 accuracy from 0.717 to 0.813 and BFCL-200 accuracy from 0.580 to 0.805, recovering 19/22 and 33/45 drift-induced failures with ",
+    "truncated": false,
+    "title": "[2610.23342v1] Robust Function Calling for LLM Agents Under Interface Drift",
+    "fetchedAt": "2026-10-19T01:30:00.856Z",
+    "full": "full/f-arxiv-cs.AI-1r0h2xt.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1r8yd5d",
+   "pri": 45,
+   "kind": "note",
+   "title": "SimOPD: Relational Knowledge Transfer for On-Policy Distillation",
+   "ctx": "A key challenge in on-policy distillation (OPD) is extracting effective supervision from teacher knowledge. Supervision from token probabilities may underutilize internal knowledge, while direct hidden-state matching forces the student to shift to the teacher's feature space and complicates cross-architecture transfer. Inspired by contrastive learning's use of relationships between instances, we propose \\textbf{SimOPD} to transfer teacher internal knowledge through response similarities. Specifi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23306v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:10:21.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1vvpdbt",
+   "pri": 45,
+   "kind": "note",
+   "title": "Self-Reflective Chain-of-Thought (SRCoT): Evidence-Based Text Generation via a Closed-Loop Retrieve--Reflect--Revise Pipeline on Edge LLMs",
+   "ctx": "Large language models (LLMs) can generate fluent outputs that lack source support or conflict with local operational constraints. We introduce Self-Reflective Chain-of-Thought (SRCoT), a modular architecture that organizes generation as a closed Retrieve--Reflect--Revise loop. SRCoT separates environment state, persistent knowledge, accumulated experience, and short-term memory into provenance-labeled stores. BM25 retrieval supplies local context; subsequent passes expose intermediate drafts, mi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23311v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T01:30:00.856Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T11:14:52.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-anthropic-news-12jj31c",
    "pri": 6,
@@ -2216,248 +2466,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-07pwbkx",
-   "pri": 45,
-   "kind": "note",
-   "title": "UMCR: Universal Medical Concept Recognition through Guideline Integration and Agentic Linking",
-   "ctx": "Medical Concept Recognition is the task of extracting and grounding spans in medical text to entries in a standard ontology. Current methods are generally developed towards a single ontology and source text type (clinical notes, drug labels, etc.) The central challenge is therefore to build methods that adapt to any target ontology without requiring ontology-specific retraining. More recent approaches like REAL and AutoPCR make direct use of Large Language Models and can theoretically adapt to a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.17363v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T04:01:02.112Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T20:19:56.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0a09tmh",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Curse of Knowledge in Role-Playing Language Models",
-   "ctx": "Role-playing language models speak as characters in games and agent simulations, where the system records what each character can hear, see and understand. We test whether characters respect these boundaries in 480 scenes, each with a counterfactual twin that changes only the hidden fact, so mentions of the twin's fact measure guessing. Across 11 open-weight models, characters use content from speech they cannot understand or hear at 67 and 72 percentage points (pp) above this baseline, although",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.17327v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T04:01:02.112Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T19:37:03.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0l3ub1e",
-   "pri": 45,
-   "kind": "note",
-   "title": "Nufo: A Benchmark for Ewe Automatic Speech Recognition",
-   "ctx": "Automatic speech recognition (ASR) remains challenging for low-resource languages, where the scarcity of transcribed speech limits the development of accurate systems. This challenge is particularly acute for African languages such as Ewe, which has millions of speakers but remains underrepresented in publicly available ASR resources and benchmarks. In this work, we consolidate, normalize, and partition existing Ewe speech resources into a standardized 174-hour Ewe ASR benchmark, the largest to ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.17278v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T04:01:02.112Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T18:32:14.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0me1olv",
-   "pri": 45,
-   "kind": "note",
-   "title": "From Sampled Evidence to Radiology Reports: Objectives, Constraints, and Realization",
-   "ctx": "Sampling multiple reports creates an inference problem: how should sampled evidence be converted into a final decision, and does a better structured decision yield a better report? We study these questions through a framework that separates the decision signal, scoring objective, and feasible decision set, followed by text realization. On MIMIC-CXR and IU-Xray, controlled comparisons across 13 generator configurations per benchmark under grouped development/test evaluation reveal three findings.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.17318v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T04:01:02.112Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T19:19:50.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-03214kf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Scaling Multi-Agent Intelligence with Substrate-Centric Coordination",
-   "ctx": "Existing large language model (LLM) based multi-agent systems have been shown to scale poorly, and we identify three problems: reading burden that grows with the group, useful information diluted by shared work of unknown quality, and fragility to failed agents. We argue that the problems are largely due to agent-centric designs: the coordination structure is wired into fixed workflows, central coordinators, or peer-to-peer messaging, and recent blackboard-style methods that move the coordinatio",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16120v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T03:01:08.375Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T03:37:39.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-06ufhyg",
-   "pri": 45,
-   "kind": "note",
-   "title": "PID-Gated Continual Prompt Adaptation Under Noisy Feedback",
-   "ctx": "Deploying LLM agents in non-stationary environments requires continually revising their instructions as the task drifts, yet rewriting after every reported mistake can turn noisy feedback into persistent errors. This raises an often-overlooked scheduling question in prompt adaptation: when should feedback trigger a lasting instruction update, and at what editor-call cost? Taking inspiration from proportional-integral-derivative (PID) control, we introduce a family of lightweight gates that react",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16129v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T03:01:08.375Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T03:46:35.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0r7l5xs",
-   "pri": 45,
-   "kind": "note",
-   "title": "Think Before You Speak: Enabling Training-Free Latent Communication Between Language Models",
-   "ctx": "Large language models (LLMs) have demonstrated remarkable capabilities in solving complex tasks in coding, mathematical logic, and iterative reasoning, especially by coordinating effectively within multi-agent systems (MAS). However, language agents traditionally communicate via text exchange, which introduces a bottleneck in information transfer and adds prefill latency for downstream agents. Recent work proposes that directly sharing the key-value (KV) cache between language models can enable ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16165v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T03:01:08.375Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T04:40:48.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-05sgspp",
-   "pri": 45,
-   "kind": "note",
-   "title": "AutoNovo: Agentic Program Search Discovers Transferable Nucleic Acid Design Algorithms",
-   "ctx": "In-silico optimization of nucleic acids relies on predictive oracles that imperfectly capture biological function, so sequences optimized against one model may exploit model-specific artifacts and fail to generalize to independent models. Recent studies have shown that not all designers generalize equally well to independent models. In this work, we use agentic program search to iteratively propose, execute, evaluate, and revise code for nucleic-acid designers. We describe the successful strateg",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16232v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T02:31:00.610Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T06:08:54.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0faw5y8",
-   "pri": 45,
-   "kind": "note",
-   "title": "EventLens: Event-Structure Reinforcement Learning for Video Understanding",
-   "ctx": "Recent multimodal large language models (MLLMs) achieve strong results on video question answering, yet often fail to recover the temporal structure that makes a video coherent. They may merge neighboring events, miss single-event progression, or infer implausible relations across events. We study structured temporal understanding as the ability to recover event structure from visual evidence, including event boundaries, single-event progression, and multi-event relations. We argue that this gap",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16172v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T02:31:00.610Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T04:46:04.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0wzs2sy",
-   "pri": 45,
-   "kind": "note",
-   "title": "OneShot: Label-Efficient Detector Weighting for Time Series Anomaly Detection",
-   "ctx": "Time series (TS) anomaly detection (AD) lacks a universal detector, with the best choice determined by the series rather than by the algorithm. Existing methods therefore either select one detector for each series or average a pool of them. However, both assume that no label ever arrives, while a deployed monitor does receive them, since an operator confirms the alarms it raises. In this paper, we propose ONESHOT, which uses a single confirmed anomaly to weight the pool rather than to choose one",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.16219v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T02:31:00.610Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T05:49:42.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2473,11 +2481,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 4,
-   "slow": 96
+   "slow": 96,
+   "daily": 4
   },
-  "routed": 45,
-  "unrouted": 55,
+  "routed": 44,
+  "unrouted": 56,
   "unmappedLaneFamilies": []
  }
 }
