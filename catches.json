@@ -1,7 +1,257 @@
 {
- "generatedAt": "2026-10-19T02:30:39.318Z",
+ "generatedAt": "2026-10-19T03:00:27.852Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-068bt9h",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond SAEs: Consistent Concept Discovery with Sparse Coding",
+   "ctx": "Sparse autoencoders (SAEs) explain foundation model representations by decomposing activations into sparse combinations of learned dictionary atoms. However, the learned dictionaries can vary across training runs, limiting the reliability and reproducibility of SAE-based analyses. We propose Consistent Sparse Dictionary Learning (ConSDL), which replaces the standard linear encoder with per-sample sparse coding. This is motivated by our synthetic analysis showing that coefficients from a single l",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23801v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T17:25:11.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-06sdnf8",
+   "pri": 45,
+   "kind": "note",
+   "title": "GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search",
+   "ctx": "Optimizing product listings for generative search requires language agents not only to rewrite effectively but also to continually self-improve by retaining successful strategies across diverse categories. However, existing approaches often treat structured listings as free-form text, leaving effective strategies implicit in prompts, search trajectories, or rewritten outputs rather than accumulating them as a reusable agentic memory. To address this limitation, we introduce GLOBE, an agentic fra",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23709v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T16:33:17.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-09d8fro",
+   "pri": 45,
+   "kind": "note",
+   "title": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+   "ctx": "Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transformer block for NVIDIA Hopper GPUs. It applies CODA's GEMM-plus-epilogue approach to inference, adding direct KV-cache placement, folding the fixed RMSNorm gain into weights, writing FP8 output directly with delayed scaling",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23796v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T17:22:01.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0jbux8n",
+   "pri": 45,
+   "kind": "note",
+   "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+   "ctx": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which fine-tuning on one brings out another, as a behavioral coupling. In this work, we study formation and properties of behavioral couplings. We find that when a model is",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23847v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T17:58:08.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0tn58h7",
+   "pri": 45,
+   "kind": "note",
+   "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+   "ctx": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\\boldsymbol{u}$-prediction) with clean image prediction ($\\boldsymbol{x_0}$-prediction). In this work, we revisit this choice and introduce MFlow, an adaptive parameterization that learns",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23854v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T17:59:30.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0va971p",
+   "pri": 45,
+   "kind": "note",
+   "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+   "ctx": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies. First, we introduce SEER-Repro, a benchmark of 20 publ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23845v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T17:57:55.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-14l42m5",
+   "pri": 18,
+   "kind": "note",
+   "title": "DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
+   "ctx": "Computational drug discovery requires agents to compose scientific operations and adapt to changing evidence and constraints. Here we introduce DrugHarness, an evolvable agent harness coupling composable scientific execution with conditional skill induction. Its environment integrates over 80 scientific operations, biomedical resources and task-specific code, preserving associations among candidates, results and artifacts. From execution trajectories and outcome feedback, DrugHarness induces act",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23791v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T17:20:19.000Z",
+   "sub": "arXiv cs.AI · introduces \"Evolvable Agent Harness\"",
+   "extract": {
+    "ok": true,
+    "chars": 5036,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2610.23791v1 (cs) [Submitted on 16 Oct 2026] Title: DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery Authors: Yuxing Chen , Zhisheng Zhang , Cheng Tang , Wei Li , Minghui Zhang , Ziyan Huang , Shaocong Wei , Jiawei Chen , Junru Hu , Hongze Zhu , Jianghan Shen , Min Cen , Xinyuan Zhu , Yaxue Zhao , Jubo Wang , Yuqiang Li , Chun-Mei Feng , Zongyuan Ge , Rui Su , Jie Xu , Yirong Chen , Xi Xu , Ming Hu View a PDF of the paper titled DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery, by Yuxing Chen and 22 other authors View PDF HTML (experimental) Abstract: Computational drug discovery requires agents to compose scientific operations and adapt to changing evidence and constraints. Here we introduce DrugHarness, an evolvable agent harness coupling composable scientific execution with conditional skill induction. Its environment integrates over 80 scientific operations, biomedical resources and task-specific code, preserving associations among candidates, results and artifacts. From execution trajectories and outcome feedback, DrugHarness induces action hypotheses with observable applicability ",
+    "truncated": false,
+    "title": "[2610.23791v1] DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
+    "fetchedAt": "2026-10-19T03:00:00.891Z",
+    "full": "full/f-arxiv-cs.AI-14l42m5.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1gotkl3",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond Large Language Models: A Mental World Model Framework for Mental Modeling, Simulation, Evolution, and Interpretability",
+   "ctx": "Understanding and simulating how subjective cognition and mental states emerge, evolve, and shape behavior is essential for advancing artificial intelligence toward deeper social cognition and general intelligence. Existing large language models (LLMs) and Theory of Mind (ToM) methods primarily infer mental states from linguistic information, lacking unified mechanisms for subjective world construction, cognitive-psychological interactions, dynamic evolution, and historical dependencies. This pa",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23722v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T16:42:11.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1if6oyk",
+   "pri": 45,
+   "kind": "note",
+   "title": "Neural Expansion: A Unified Mechanism for How Deep Neural Networks Generalize",
+   "ctx": "Deep neural networks demonstrate remarkable generalization despite being highly over-parameterized, challenging traditional statistical learning theories. While several theoretical paradigms such as margin-based bounds, PAC-Bayesian analyses, and neural tangent kernels provide global explanations, they often lack mechanistic insight into how generalization emerges from training dynamics. We introduce Neural Expansion, a unified geometric framework that characterizes generalization through the ex",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23716v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T16:38:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1kbtduy",
+   "pri": 45,
+   "kind": "note",
+   "title": "Self-Building Labs",
+   "ctx": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce the self-building laboratory (SBL), which designs, configures, and operates its own laboratory setu",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.23826v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-19T03:00:00.891Z",
+   "tier": "B",
+   "itemTs": "2026-10-16T17:48:29.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-04hw69q",
    "pri": 45,
@@ -1331,29 +1581,6 @@
    "questions": []
   },
   {
-   "id": "f-arxiv-cs.CL-0qf1qvo",
-   "pri": 45,
-   "kind": "note",
-   "title": "Latent Compaction with Test-Time Training",
-   "ctx": "Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Latent Compaction**, which learns a compact document-specific cache through test-time training. We initialize cache entries using reconstruction importance, teacher attention, and key-space diversity. Training first fits attention outputs and log-normalizers to those of the full cache, with reconstructio",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.20582v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-15T04:00:56.420Z",
-   "tier": "B",
-   "itemTs": "2026-10-14T17:57:01.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-arxiv-cs.AI-00kicnu",
    "pri": 45,
    "kind": "note",
@@ -2244,228 +2471,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0i6k1k9",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Global View of How LLMs Value Human Time",
-   "ctx": "Large language models (LLMs) increasingly act as personal assistants; however, little is known about how they capture national-level preferences on a global scale. Given that \"time\" is a universal and representative concept, we examine LLMs' time preferences by varying only users' country and measuring the compensation LLMs deem appropriate for a 60-minute appointment delay. We then compare LLMs' responses with GDP per capita on Purchasing Power Parity (GDP_PPP), Mean Income, and a literature-ba",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18515v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T04:30:58.215Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T15:08:38.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0obmcmp",
-   "pri": 45,
-   "kind": "note",
-   "title": "Aligning Faithfulness for Theory-Scale Autoformalization",
-   "ctx": "Autoformalization (AF) requires more than compilation: formal statements must preserve the meaning of their informal sources, a property known as faithfulness. An emerging frontier is the automated evaluation of this property, yet most existing methods operate at the statement level and produce whole-item verdicts, failing to reveal how individual expressions correspond or which contextual interpretations support the judgment. This omission is consequential because AF is inherently theory-scale:",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18498v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T04:30:58.215Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T14:53:04.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0rvzmzc",
-   "pri": 18,
-   "kind": "note",
-   "title": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
-   "ctx": "Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often when their input holds no reference for it, that is, no text that says what the value should be. This happens when the value is a default value from the function schema that the user did not mention, when it has to be inferred, or when the text it comes from was cut from the judge input. We call this drop in acceptance the derivation gap. It appears across all seven judges we eva",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18497v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T04:30:58.215Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T14:52:59.000Z",
-   "sub": "arXiv cs.AI · introduces \"Derivation Gap\"",
-   "extract": {
-    "ok": true,
-    "chars": 4240,
-    "lead": "Computer Science > Artificial Intelligence arXiv:2610.18497v1 (cs) [Submitted on 13 Oct 2026] Title: Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments Authors: Linhai Ma , Yan Wang , Lingfei Qian , Yupeng Cao , Victor Gutierrez Basulto View a PDF of the paper titled Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments, by Linhai Ma and 4 other authors View PDF HTML (experimental) Abstract: Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often when their input holds no reference for it, that is, no text that says what the value should be. This happens when the value is a default value from the function schema that the user did not mention, when it has to be inferred, or when the text it comes from was cut from the judge input. We call this drop in acceptance the derivation gap. It appears across all seven judges we evaluate, including System One models CLM and Jev. The gap is not only a truncation artifact: correct default values have the largest gap on a benchmark with no truncation. A controlled source-relocation test shows that judges follow the reference in ",
-    "truncated": false,
-    "title": "[2610.18497v1] Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
-    "fetchedAt": "2026-10-14T04:30:58.215Z",
-    "full": "full/f-arxiv-cs.AI-0rvzmzc.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0x1dy74",
-   "pri": 45,
-   "kind": "note",
-   "title": "APTree: Extended Behavior Trees for Adaptive and Scalable Automated Robotic Task Planning in Construction",
-   "ctx": "Task planning for robots in off-site construction prefabrication is primarily manual, leading to planning inefficiencies and reluctance to adopt robotic solutions. Existing approaches provide limited support for scalable, modular automated task planning and localized runtime replanning. This paper proposes APTree, a model-driven framework that integrates automated task planning with modular task execution using behavior trees as the execution model. APTree repeatedly applies and coordinates hete",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18523v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T04:30:58.215Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T15:12:13.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-14njuv3",
-   "pri": 45,
-   "kind": "note",
-   "title": "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale",
-   "ctx": "Reusable skills let LLM agents load task-specific instructions on demand, but they make execution depend on implicit routing over skill metadata. We test whether this design scales by holding SkillsBench tasks and their golden skills fixed while adding irrelevant skills. We find skill routing collapse: agents increasingly load fewer or no skills, even though the relevant skills remain available. With 1,000 irrelevant skills, loaded-skill recall falls from 73.6% to 27.4% and the zero-load rate ri",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18522v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T04:30:58.215Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T15:12:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1bgjtgd",
-   "pri": 45,
-   "kind": "note",
-   "title": "Task-evoked eye movements as candidate digital biomarkers of depression severity in adolescents and young adults",
-   "ctx": "Objective digital measures of depression severity could complement conventional symptom assessments and facilitate more timely clinical evaluation. Here, we investigated whether task-evoked eye movements provide interpretable behavioral markers of depression severity in adolescents and young adults. In this single-center, cross-sectional study, 155 participants aged 14--20 years completed emotional-spatial free-viewing and memory-guided recall tasks and were stratified by 17-item Hamilton Depres",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18494v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T04:30:58.215Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T14:51:53.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1g6mwko",
-   "pri": 45,
-   "kind": "note",
-   "title": "ReTerm: Recovery Training for Self-Improving Terminal Agents",
-   "ctx": "Terminal agents have shown strong abilities in complex coding tasks. However, they often struggle to recover from errors during long-running execution (e.g., command errors, faulty implementations), eventually leading to task failures. To this end, we present ReTerm, a self-improving terminal agent trained by learning how to recover from its own failed terminal tasks. To support its training, we construct a customized data pipeline and produce ReTerm-10K, a high-quality dataset that provides eff",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18484v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T04:30:58.215Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T14:44:24.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1giu6o5",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Geometry of Language Model Logits: Generic Structure and Learned Departures",
-   "ctx": "Autoregressive language models produce, at every prediction step, a vocabulary-sized logit vector whose structure determines the conditional next-token distribution. We empirically identify that the ordered vocabulary-head logits follow a remarkably consistent log-linear relation \\[ z_{(r)} \\approx μ- α\\log r. \\] across prediction contexts, architectures, and scales, emerging progressively during pretraining. To our knowledge, this is the first systematic analysis of the logit geometry underlyin",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18520v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T04:30:58.215Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T15:11:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-07ohnef",
-   "pri": 45,
-   "kind": "note",
-   "title": "claimcheck: Measuring and Improving Specification Faithfulness",
-   "ctx": "Formal verification proves that a program satisfies its specification, but says nothing about whether the specification captures what the author meant. As LLMs increasingly write both code and specifications, a gap between the author's natural-language requirement and the specification becomes a live risk. A machine-checked proof of a property narrower than the one requested is worthless but passes every check. Closing this gap is solving the spec formalization problem: given a natural-language ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.17358v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-14T04:01:02.112Z",
-   "tier": "B",
-   "itemTs": "2026-10-12T20:14:51.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2484,8 +2489,8 @@
    "slow": 96,
    "daily": 4
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 46,
+  "unrouted": 54,
   "unmappedLaneFamilies": []
  }
 }
