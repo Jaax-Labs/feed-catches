@@ -1,7 +1,53 @@
 {
- "generatedAt": "2026-10-20T02:30:43.993Z",
+ "generatedAt": "2026-10-20T03:01:03.661Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-02snqpl",
+   "pri": 45,
+   "kind": "note",
+   "title": "Measuring Data Diversity with Embeddings: A Taxonomy and Benchmark for Diversity Measures",
+   "ctx": "Diversity is a critical property of text corpora, with direct implications for training data curation, test set design, and model generalization. However, its measurement remains fragmented and poorly understood. Existing embedding-based diversity measures vary widely in how they are computed and can yield substantially different diversity scores on the same data, yet no systematic comparison of their empirical behaviour exists. We make two contributions toward addressing this gap. First, we pre",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.24888v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-20T03:00:00.863Z",
+   "tier": "B",
+   "itemTs": "2026-10-17T22:09:17.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0jhdmb0",
+   "pri": 45,
+   "kind": "note",
+   "title": "Efficiency Measured in English: Tokeniser Coverage Bounds Small Language Models on Indic Scripts",
+   "ctx": "Small Language Models with quantisation and parameter-efficient adaptation are widely offered as the route to multilingual AI under compute constraints, and their efficiency is almost always reported as a single memory figure. We show that this figure is measured in English and does not transfer. Across a 131k-sentence corpus spanning eleven Indic scripts, TinyLlama-1.1B's tokeniser emits 1.34 subword tokens per Latin-script word and 22.60 per Kannada word. This is not inefficiency; it is absenc",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.24818v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-20T03:00:00.863Z",
+   "tier": "B",
+   "itemTs": "2026-10-17T18:59:40.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-04ikkcs",
    "pri": 45,
@@ -2162,32 +2208,6 @@
    ]
   },
   {
-   "id": "f-arxiv-cs.CL-0owi2tw",
-   "pri": 45,
-   "kind": "note",
-   "title": "EGCForest: Structured Agent Memory Organization for Enterprise Group Chats",
-   "ctx": "Enterprise group chats record project progress, decisions, task ownership, and other organizational information valuable to enterprise agents. Reliable retrieval is challenging because evidence spans interleaved threads, channels, and time, with meaning and authority conditioned on the speaker. Neither RAG's independent chunk retrieval nor memory systems' summary-based consolidation can reliably recover such distributed evidence. We present EGCForest, a novel multi-view hierarchical memory frame",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.19836v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-15T02:01:00.502Z",
-   "tier": "B",
-   "itemTs": "2026-10-14T09:07:53.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
-  },
-  {
    "id": "f-anthropic-news-172zrsy",
    "pri": 6,
    "kind": "note",
@@ -2452,29 +2472,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0kdd469",
-   "pri": 45,
-   "kind": "note",
-   "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
-   "ctx": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we match demonstrations and training budgets. Additional comparisons examine pretraining data size and the roles of quality tags during fine-tuning and inference. Ac",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.18869v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-14T06:01:01.327Z",
-   "tier": "B",
-   "itemTs": "2026-10-13T17:59:52.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2493,8 +2490,8 @@
    "slow": 96,
    "daily": 4
   },
-  "routed": 48,
-  "unrouted": 52,
+  "routed": 47,
+  "unrouted": 53,
   "unmappedLaneFamilies": []
  }
 }
