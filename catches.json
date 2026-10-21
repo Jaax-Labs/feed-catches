@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-21T19:30:45.888Z",
+ "generatedAt": "2026-10-21T20:00:37.179Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1b0mah8",
+   "pri": 33,
+   "kind": "note",
+   "title": "Degraded performance for Claude Fable 5",
+   "ctx": "Oct 21 , 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/njk29r81v3wg",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-21T20:00:27.806Z",
+   "tier": "A",
+   "itemTs": "2026-10-21T19:49:06.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-news-0l9fh1j",
    "pri": 6,
@@ -2429,29 +2454,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0cx3i1h",
-   "pri": 45,
-   "kind": "note",
-   "title": "LOADBench: A Large Open Analog Dataset and Benchmark for Machine Learning in IC Design",
-   "ctx": "Machine learning (ML) for analog IC design is constrained by limited open data and the absence of standardized evaluation: results reported in different papers are typically obtained on bespoke, often closed, datasets and with ad-hoc metrics, leaving comparisons across methods unreliable. We address both gaps with a large opensource dataset and a suite of standardized benchmarks. The dataset contains more than 100 operational amplifier (opamp) topologies (1-, 2-, and 3-stage) in the SkyWater130 ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.21591v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-16T02:30:05.181Z",
-   "tier": "B",
-   "itemTs": "2026-10-15T09:36:21.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2467,11 +2469,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 10,
-   "slow": 90
+   "daily": 11,
+   "slow": 89
   },
-  "routed": 34,
-  "unrouted": 66,
+  "routed": 35,
+  "unrouted": 65,
   "unmappedLaneFamilies": []
  }
 }
