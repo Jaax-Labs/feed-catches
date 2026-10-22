@@ -1,7 +1,41 @@
 {
- "generatedAt": "2026-10-22T17:30:38.382Z",
+ "generatedAt": "2026-10-22T18:00:52.361Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-0395449",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Donating agent skills to the agentic ai foundation",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-22T18:00:32.723Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 2396,
+    "lead": "Today, we’re donating Agent Skills , the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF). More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025. Agent interoperability through simplicity A skill is a folder containing a SKILL.md file that teaches an agent a specific task or domain, along with any scripts or reference material it needs. We developed skills while working on Claude Code. It handled general knowledge work well, but often lacked the procedural knowledge that real business tasks need. Within weeks of our October 2025 launch, developers published thousands of skills on GitHub and wrote loaders for Codex, Cursor, and OpenCode. We then published Agent Skills as an open standard, under its own GitHub organization and domain, so any agent could use it. So far, 1 million skills have been published and nearly 280 million installed. Donating Agent Skills to AAIF We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AA",
+    "truncated": false,
+    "title": "Donating Agent Skills to the Agentic AI Foundation \\ Anthropic",
+    "fetchedAt": "2026-10-22T18:00:32.723Z",
+    "full": "full/f-anthropic-news-0395449.txt"
+   },
+   "clock": "daily",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-anthropic-status-1f679c8",
    "pri": 33,
@@ -2393,31 +2427,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1kbtduy",
-   "pri": 45,
-   "kind": "note",
-   "title": "Self-Building Labs",
-   "ctx": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce the self-building laboratory (SBL), which designs, configures, and operates its own laboratory setu",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.23826v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-19T03:00:00.891Z",
-   "tier": "B",
-   "itemTs": "2026-10-16T17:48:29.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2433,8 +2442,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 11,
-   "slow": 89
+   "daily": 12,
+   "slow": 88
   },
   "routed": 31,
   "unrouted": 69,
