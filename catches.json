@@ -1,7 +1,30 @@
 {
- "generatedAt": "2026-10-22T03:31:30.456Z",
+ "generatedAt": "2026-10-22T04:01:39.738Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1f679c8",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors affecting Connectors",
+   "ctx": "Oct 22 , 03:50 UTC Investigating - We are investigating elevated errors affecting connectors. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/wj6r4t6mxq1r",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-22T04:00:33.927Z",
+   "tier": "A",
+   "itemTs": "2026-10-22T03:50:12.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-01xgr8c",
    "pri": 45,
@@ -2395,31 +2418,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-04hw69q",
-   "pri": 45,
-   "kind": "note",
-   "title": "Optimist Deep Research: An Iterative, State-Centric Agent for Autonomous Literature Research",
-   "ctx": "Most retrieval-augmented systems treat literature search as a single retrieval step followed by summarization. Real literature research works differently: the investigator's understanding of the question changes as they read, new subquestions appear, and evidence is weighed, not just collected. We present Optimist Deep Research, an open-source agent that runs literature research as an iterative evidence-acquisition process over an explicit, mutable research state. A research question is broken i",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.23299v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-19T01:30:00.856Z",
-   "tier": "B",
-   "itemTs": "2026-10-16T11:04:43.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2435,11 +2433,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 90,
-   "daily": 10
+   "daily": 11,
+   "slow": 89
   },
-  "routed": 32,
-  "unrouted": 68,
+  "routed": 31,
+  "unrouted": 69,
   "unmappedLaneFamilies": []
  }
 }
