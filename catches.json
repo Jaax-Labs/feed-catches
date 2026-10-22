@@ -1,7 +1,76 @@
 {
- "generatedAt": "2026-10-22T01:01:00.080Z",
+ "generatedAt": "2026-10-22T01:30:39.256Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-056b9oc",
+   "pri": 45,
+   "kind": "note",
+   "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
+   "ctx": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state quantizers round the state after every generated token and report that four bits lose accuracy unless the bit width is raised or the model is fine-tuned.\\par We introduce PACE, a post-hoc four-bit state q",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.29545v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-22T01:30:26.881Z",
+   "tier": "B",
+   "itemTs": "2026-10-21T10:31:52.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-09apf72",
+   "pri": 45,
+   "kind": "note",
+   "title": "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
+   "ctx": "Codes of professional ethics guide and restrict specialists, who increasingly work with assistants built on large language models. Such an assistant can breach the user's code, or help the user breach it, without the user noticing. Evaluations reporting broad categories of harm cannot show how often this happens or which provision is breached. TenetBench pairs 3,433 requests conflicting with clauses of fifteen Russian-language professional codes with benign twins that differ only in the legitima",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.29477v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-22T01:30:26.881Z",
+   "tier": "B",
+   "itemTs": "2026-10-21T09:32:23.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-0fot6oo",
+   "pri": 45,
+   "kind": "note",
+   "title": "pplx-embed-v2-late Technical Report",
+   "ctx": "In this report, we introduce pplx-embed-v2-late, a pair of 0.6B and 9B multilingual and multimodal late-interaction models. Both models achieve state-of-the-art results within their respective size classes across a range of text, image, and visual document retrieval benchmarks. On visual document retrieval tasks, pplx-embed-v2-late-0.6b is competitive with models several times larger than itself. The models are trained via representation distillation from an 18B teacher. Consequently, they share",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.29523v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-22T01:30:26.881Z",
+   "tier": "B",
+   "itemTs": "2026-10-21T10:10:26.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-1b0mah8",
    "pri": 33,
@@ -2370,90 +2439,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1nhigma",
-   "pri": 18,
-   "kind": "note",
-   "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-   "ctx": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimentation, while recent MLE systems adopt model-directed interaction, allowing models to autonomously org",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.22344v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-16T03:30:05.195Z",
-   "tier": "B",
-   "itemTs": "2026-10-15T17:56:32.000Z",
-   "sub": "arXiv cs.AI · introduces \"Autonomous Machine Learning Engineering\"",
-   "extract": {
-    "ok": true,
-    "chars": 5114,
-    "lead": "Computer Science > Artificial Intelligence arXiv:2610.22344v1 (cs) [Submitted on 15 Oct 2026] Title: MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering Authors: Shangheng Du , Jinxin Shi , Shuaiyu Zhang , Yiming Wu , Junpeng Zhao , Shiyang Feng , Xin Li , Liang He , Xiangchao Yan , Bo Zhang View a PDF of the paper titled MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering, by Shangheng Du and 9 other authors View PDF HTML (experimental) Abstract: Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimentation, while recent MLE systems adopt model-directed interaction, allowing models to autonomously organize experiments and adapt optimization strategies based on execution feedback. However, feedback from each experiment reflects several preceding decisions, and a long MLE r",
-    "truncated": false,
-    "title": "[2610.22344v1] MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-    "fetchedAt": "2026-10-16T03:30:05.195Z",
-    "full": "full/f-arxiv-cs.AI-1nhigma.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0942lmr",
-   "pri": 45,
-   "kind": "note",
-   "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
-   "ctx": "Large audio language models (LALMs) have made substantial progress in audio understanding. However, in high-throughput applications requiring frequent selection, judgment, and scoring, autoregressive text generation introduces additional computational overhead and response latency. To address this limitation, we introduce Qwen-Audio-Jev by augmenting Qwen-Audio-3.1-ASR-Flash-Next with a dedicated Jev decision head. The model unifies selection, binary judgment, and scoring through three decision ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.21614v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-16T02:30:05.181Z",
-   "tier": "B",
-   "itemTs": "2026-10-15T09:59:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0bb8ow6",
-   "pri": 45,
-   "kind": "note",
-   "title": "Evaluating Inquiry Learning in LLM-Based Agents: Hypothesizing, Reasoning, and Exploration",
-   "ctx": "Scientific inquiry involves iterative cycles of exploration, hypothesis generation, and reasoning over observations to uncover relationships in complex systems. Large language models (LLMs) have demonstrated strong capabilities in several components of this process, including inductive reasoning, hypothesis generation, and data analysis. However, prior work typically evaluates these abilities in isolation, leaving open how models integrate them across a full inquiry cycle. In this work, we intro",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.21604v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-16T02:30:05.181Z",
-   "tier": "B",
-   "itemTs": "2026-10-15T09:52:14.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2469,11 +2454,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 11,
-   "slow": 89
+   "slow": 89,
+   "daily": 11
   },
-  "routed": 35,
-  "unrouted": 65,
+  "routed": 32,
+  "unrouted": 68,
   "unmappedLaneFamilies": []
  }
 }
