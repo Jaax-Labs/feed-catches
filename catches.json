@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-23T23:30:35.906Z",
+ "generatedAt": "2026-10-24T00:00:44.192Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-134n5n6",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+   "ctx": "Oct 23 , 23:54 UTC Monitoring - We are seeing success rates return to normal for all affected models, and are continuing to monitor to ensure no further issues. Oct 23 , 23:39 UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5, as well as fast mode requests to Opus 5.5 and are working on a fix. We will provide an update as so",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/h101vcmhnfky",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-24T00:00:26.587Z",
+   "tier": "A",
+   "itemTs": "2026-10-23T23:54:14.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0n2bh7i",
    "pri": 45,
@@ -2393,29 +2418,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-04ikkcs",
-   "pri": 45,
-   "kind": "note",
-   "title": "SpriteStage: Long Horizon Animation Generation via Progressive Scene Programming and Replay",
-   "ctx": "Video generation models synthesize visual sequences from text and image inputs. Extending video generation to long animations requires actions, dialogue, camera coverage, and narrative developments to remain coordinated across scenes. Executable scene programs make these decisions available for inspection. Constructing an entire story before observing its execution can leave later scenes dependent on unrealized events. We present SpriteStage, a progressive scene programming framework that builds",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.24869v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-20T02:30:00.858Z",
-   "tier": "B",
-   "itemTs": "2026-10-17T21:18:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2431,11 +2433,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 87,
-   "daily": 13
+   "daily": 14,
+   "slow": 86
   },
-  "routed": 26,
-  "unrouted": 74,
+  "routed": 27,
+  "unrouted": 73,
   "unmappedLaneFamilies": []
  }
 }
