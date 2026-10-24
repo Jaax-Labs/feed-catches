@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-24T05:00:38.920Z",
+ "generatedAt": "2026-10-24T05:31:26.711Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-02oxjk5",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for other Claude models",
+   "ctx": "Oct 24 , 05:24 UTC Identified - We have identified the cause of elevated errors on requests to other Claude models and are working on a fix. We will provide an update as soon as possible. Oct 24 , 05:16 UTC Investigating - We are investigating elevated errors on requests to other Claude models. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/0ns5clsk8p2x",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-24T05:31:06.947Z",
+   "tier": "A",
+   "itemTs": "2026-10-24T05:24:53.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-06g2cd4",
    "pri": 33,
@@ -921,31 +946,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0dvv11e",
-   "pri": 45,
-   "kind": "note",
-   "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
-   "ctx": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role in this ecosystem, as a creator and as a solver? We introduce Environment Duels, a dynamic agentic benchmark that evaluates both capabilities on interactive environments. Each model writes environments, each with a privileged hint, aiming for tasks that capable solvers fail withou",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.30116v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-22T03:00:27.390Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T17:55:31.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   },
   {
    "id": "f-arxiv-cs.AI-01fg2x8",
@@ -2435,8 +2435,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 15,
-   "slow": 85
+   "daily": 16,
+   "slow": 84
   },
   "routed": 28,
   "unrouted": 72,
