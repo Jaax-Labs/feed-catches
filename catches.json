@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-24T00:30:41.314Z",
+ "generatedAt": "2026-10-24T01:00:44.227Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-06g2cd4",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Opus 5.5",
+   "ctx": "Oct 24 , 00:37 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Impact occurred from 17:23 PT on October 23 / 00:23 UTC on October 24 to 17:34 PT on October 23 / 00:34 UTC on October 24. Oct 24 , 00:31 UTC Investigating - We are investigating elevated errors on requests to Claude Opus 5.5. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/3cqf3pmlnr96",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-24T01:00:27.007Z",
+   "tier": "A",
+   "itemTs": "2026-10-24T00:37:17.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-134n5n6",
    "pri": 33,
@@ -2395,29 +2420,6 @@
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-02snqpl",
-   "pri": 45,
-   "kind": "note",
-   "title": "Measuring Data Diversity with Embeddings: A Taxonomy and Benchmark for Diversity Measures",
-   "ctx": "Diversity is a critical property of text corpora, with direct implications for training data curation, test set design, and model generalization. However, its measurement remains fragmented and poorly understood. Existing embedding-based diversity measures vary widely in how they are computed and can yield substantially different diversity scores on the same data, yet no systematic comparison of their empirical behaviour exists. We make two contributions toward addressing this gap. First, we pre",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.24888v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-20T03:00:00.863Z",
-   "tier": "B",
-   "itemTs": "2026-10-17T22:09:17.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2433,11 +2435,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 14,
-   "slow": 86
+   "daily": 15,
+   "slow": 85
   },
-  "routed": 27,
-  "unrouted": 73,
+  "routed": 28,
+  "unrouted": 72,
   "unmappedLaneFamilies": []
  }
 }
