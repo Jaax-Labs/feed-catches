@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-25T08:02:31.433Z",
+ "generatedAt": "2026-10-25T08:30:56.416Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1ylovv3",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Fable 5.1",
+   "ctx": "Oct 25 , 08:17 UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1 and are working on a fix. We will provide an update as soon as possible. Oct 25 , 08:17 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5.1. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/vx06kp8wfpq2",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-25T08:30:29.923Z",
+   "tier": "A",
+   "itemTs": "2026-10-25T08:17:18.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-0asxh3o",
    "pri": 33,
@@ -2399,29 +2424,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-0d28pku",
-   "pri": 45,
-   "kind": "note",
-   "title": "MemT-1.0: Towards Memory-Native Evolution",
-   "ctx": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.26825v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-20T04:00:27.248Z",
-   "tier": "B",
-   "itemTs": "2026-10-19T17:54:35.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2441,11 +2443,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 17,
-   "slow": 83
+   "daily": 18,
+   "slow": 82
   },
-  "routed": 29,
-  "unrouted": 71,
+  "routed": 30,
+  "unrouted": 70,
   "unmappedLaneFamilies": []
  }
 }
