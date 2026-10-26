@@ -1,7 +1,294 @@
 {
- "generatedAt": "2026-10-26T02:01:22.050Z",
+ "generatedAt": "2026-10-26T03:00:55.699Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-0brz2xb",
+   "pri": 45,
+   "kind": "note",
+   "title": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
+   "ctx": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but its cost is dominated by autoregressive rollout generation, which can exceed 70% of training time. Existing speculative-decoding methods are poorly suited to this setting: model-based drafters consume scarce GPU memory and may become misaligned as the policy evolves, while existing model-free methods do not explicitly exploit repetition across training epochs. We observe that recent rollou",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32881v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T16:47:29.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0cxr840",
+   "pri": 45,
+   "kind": "note",
+   "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+   "ctx": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertising reduces user value but better service raises advertising returns. Three findings follow. First, when partly ad-supported and ad-free plans coexist, advertising can finance useful service for consum",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32945v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T17:39:42.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0f8q22e",
+   "pri": 45,
+   "kind": "note",
+   "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+   "ctx": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and retargeted to the robot, and they do not directly provide robot actions. In this paper, we introduce DexPort, a portable data-collection interface for",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32969v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T17:56:28.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0mfidk1",
+   "pri": 45,
+   "kind": "note",
+   "title": "SemantEq: Faithful Bidirectional Equivalence of Formal Statements",
+   "ctx": "Statement autoformalization translates mathematics from natural language into a proof assistant such as Lean 4, and models now do it at scale. As provers get stronger, the burden of correctness shifts from the proof to the statement, that is, to whether the formal statement faithfully translates its source. Given a trusted reference formalization, the natural test is logical equivalence, and it proves too much. $P \\leftrightarrow Q$ holds trivially for any two statements $P$ and $Q$ that the lib",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32919v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T17:20:12.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0r91d9i",
+   "pri": 45,
+   "kind": "note",
+   "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+   "ctx": "Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challenge this assumption empirically by measuring whether performance-optimized code produced by LLM self-refinement pipelines is also energy-efficient relative to canonical human reference solutions, and whether the energy cost of the optimization process can be offset by subsequent ex",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32891v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T16:58:01.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ro0s8w",
+   "pri": 45,
+   "kind": "note",
+   "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+   "ctx": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D c",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32978v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T17:59:21.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0yv79xh",
+   "pri": 18,
+   "kind": "note",
+   "title": "Closing the Modality Gap via Simplex-Constrained Representations",
+   "ctx": "While multimodal contrastive models like CLIP and CLAP successfully learn shared representations, their embeddings typically exhibit a persistent \\emph{modality gap}. We propose addressing this separation through a purely geometric approach: changing the embedding domain from the unit sphere, $S^{d-1}$, to the probability simplex, $Δ^{d-1}$. Although both manifolds share the same intrinsic dimension, the simplex acts as a structural prior; its nonnegative, unit-mass constraints serve as a cross-",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32890v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T16:57:48.000Z",
+   "sub": "arXiv cs.AI · introduces \"Modality Gap\"",
+   "extract": {
+    "ok": true,
+    "chars": 3949,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2610.32890v1 (cs) [Submitted on 23 Oct 2026] Title: Closing the Modality Gap via Simplex-Constrained Representations Authors: Shubham Gupta , Siva Reddy , Perouz Taslakian , Valentina Zantedeschi , Cem Subakan View a PDF of the paper titled Closing the Modality Gap via Simplex-Constrained Representations, by Shubham Gupta and 4 other authors View PDF HTML (experimental) Abstract: While multimodal contrastive models like CLIP and CLAP successfully learn shared representations, their embeddings typically exhibit a persistent \\emph{modality gap}. We propose addressing this separation through a purely geometric approach: changing the embedding domain from the unit sphere, $S^{d-1}$, to the probability simplex, $\\Delta^{d-1}$. Although both manifolds share the same intrinsic dimension, the simplex acts as a structural prior; its nonnegative, unit-mass constraints serve as a cross-modal calibration that forces both modalities to ground themselves in the same coordinate system. By attaching lightweight softmax adapters and using Total Variation similarity, we reduce the centroid $\\ell_2$ gap by 97--99\\% across five multimodal retrieval benc",
+    "truncated": false,
+    "title": "[2610.32890v1] Closing the Modality Gap via Simplex-Constrained Representations",
+    "fetchedAt": "2026-10-26T03:00:27.488Z",
+    "full": "full/f-arxiv-cs.AI-0yv79xh.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0z1xxdd",
+   "pri": 45,
+   "kind": "note",
+   "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+   "ctx": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million query-document pairs. On eight Persian retrieval tasks from FaMTEB, the model achieves the highest macro-average among the evaluated 0.6B models, sco",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32933v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T17:30:40.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1a7rlgj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+   "ctx": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusio",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32948v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T17:40:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1aoqyyv",
+   "pri": 45,
+   "kind": "note",
+   "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+   "ctx": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32971v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T17:57:22.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-02peeoo",
+   "pri": 45,
+   "kind": "note",
+   "title": "Interpretable sparse fine-tuning with TopKLoRA enables faithful circuit discovery",
+   "ctx": "Fine-tuning on datasets of unknown origin can create a backdoor in the trained model when the data includes poisoned examples. Difficult to localise and remove, backdoors can persist through safety training. While parameter-efficient fine-tuning methods capture the full parameter changes introduced during training, they are not easily interpretable. We present the full method of TopKLoRA, extending the preliminary proposal of Masiak et al. (2025), an interpretable-by-design LoRA variant in which",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32866v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T16:37:29.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-03gjmoy",
+   "pri": 45,
+   "kind": "note",
+   "title": "Communicating with the Entire Population: Machine Translation of Emergency Alerts and Warnings",
+   "ctx": "It is essential that we communicate with the entirety of an affected population during a crisis, including those who do not speak a region's dominant language(s). Commercial Translation tools offer a tempting solution to broaden access and can provide a lifeline when no other resources are available. However, Emergency response managers often operate in the dark regarding the quality and adequacy of these automated outputs. In this paper, we conduct a nationwide survey of emergency managers to u",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.32842v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-26T03:00:27.488Z",
+   "tier": "B",
+   "itemTs": "2026-10-23T16:17:37.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-00zt9tg",
    "pri": 45,
@@ -2115,306 +2402,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1win6fv",
-   "pri": 45,
-   "kind": "note",
-   "title": "MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records",
-   "ctx": "Enterprise agents answer questions over workplace records that evolve through team collaboration. As information is shared, corrected, and revised across documents, chats, and figures, multiple versions of the same information accumulate in the workspace. Reliable question answering therefore requires agents to reason over sufficient evidence, resolve cross-source and temporal conflicts, and recognize when the available evidence is insufficient to establish an answer. To systematically evaluate ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.27911v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-21T02:30:26.917Z",
-   "tier": "B",
-   "itemTs": "2026-10-20T09:25:35.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.CL-03cajup",
-   "pri": 45,
-   "kind": "note",
-   "title": "UvA-MT's Participation in the WMT26 General Translation Shared Task",
-   "ctx": "This paper presents UvA-MT's submission to the WMT 2026 General Machine Translation shared task, competing in the unconstrained track across all 23 translation directions. This year, we fully leverage the test-time methods of Large Language Models (LLMs) for machine translation. Specifically, (1) we use sequential sampling with a refinement prompt to generate a pool of translation candidates for each source segment, a strategy shown to outperform traditional parallel sampling; and (2) we employ ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.27852v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-21T02:00:26.912Z",
-   "tier": "B",
-   "itemTs": "2026-10-20T08:33:34.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-09czuw7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Why Do LLMs Accept Generics? Explaining Acceptability using Psycholinguistic and Model-Derived Factors",
-   "ctx": "Psycholinguistic studies explore why humans accept some generic statements but reject others by showing that these judgments depend on more than how common a property is. People consider several other factors such as how well it sets the kind apart from others or whether it is characteristic of the kind. Inspired by the linguistic and cognitive literature, we explore to what extent factors from these studies explain how large language models (LLMs) judge generics. Our results with twelve models ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.27928v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-21T02:00:26.912Z",
-   "tier": "B",
-   "itemTs": "2026-10-20T09:40:13.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-04lqncd",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Policy",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/policy",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-20T17:30:28.511Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-0lczq6q",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Partnerships",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/partnerships",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-20T17:30:28.511Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 12168,
-    "lead": "51 ARTICLES Most recent Building on our commitment to American scientific discovery Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI. Oct 8, 2026 Oct 8, 2026 Building on our commitment to American scientific discovery Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI. The Situation Report A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible. Sep 21, 2026 Sep 21, 2026 The Situation Report A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible. Partnering with Accenture on embedded evaluation We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years. Sep 18, 2026 Sep 18, 2026 Partnering",
-    "truncated": false,
-    "title": "Partnerships \\ Anthropic",
-    "fetchedAt": "2026-10-20T17:30:28.511Z",
-    "full": "full/f-anthropic-news-0lczq6q.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-1jjlkq9",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Announcements",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/announcements",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-20T17:30:28.511Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 10770,
-    "lead": "74 ARTICLES Most recent Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Oct 18, 2026 Oct 18, 2026 Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Anthropic opens Singapore office and signs MOU with the Government of Singapore Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption. Oct 14, 2026 Oct 14, 2026 Anthropic opens Singapore office and signs MOU with the Government of Singapore Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption. Introducing Claude Haiku 5.5 Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use. Oct 7, 2026 Oct 7, 2026 Introducing Claude Haiku 5.5 Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work li",
-    "truncated": false,
-    "title": "Announcements \\ Anthropic",
-    "fetchedAt": "2026-10-20T17:30:28.511Z",
-    "full": "full/f-anthropic-news-1jjlkq9.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-1jrzdtg",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Safeguards",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/safeguards",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-20T17:30:28.511Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-1n0un1p",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Security",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/security",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-20T17:30:28.511Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-1v5fyv6",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Product",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/product",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-20T17:30:28.511Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-1vad7i3",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Distillation defenses",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/distillation-defenses",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-20T17:30:28.511Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-09qximg",
-   "pri": 45,
-   "kind": "note",
-   "title": "Train An Imaginative Agent",
-   "ctx": "A seemingly reasonable push in Sokoban can make the puzzle unsolvable. To avoid such mistakes, an agent has to anticipate the consequences of its actions before execution, especially when feedback from the real environment is sparse or actions are irreversible. We introduce Agentic Imagination (Agima), a training framework that trains an agent to imagine before acting, i.e. to be imaginative. Agima trains a single omni model to propose actions, generate images of their outcomes, and then reason ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.26845v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-20T04:00:27.248Z",
-   "tier": "B",
-   "itemTs": "2026-10-19T17:59:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0hd3faf",
-   "pri": 45,
-   "kind": "note",
-   "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
-   "ctx": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics generalization, and downstream planning performance remains underexplored. We study this re",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.26844v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-20T04:00:27.248Z",
-   "tier": "B",
-   "itemTs": "2026-10-19T17:59:05.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2435,11 +2422,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 82,
-   "daily": 18
+   "slow": 89,
+   "daily": 11
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 28,
+  "unrouted": 72,
   "unmappedLaneFamilies": []
  }
 }
