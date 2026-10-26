@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-26T13:00:34.890Z",
+ "generatedAt": "2026-10-26T13:31:08.591Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-0g07v4z",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — S1 sec",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/s1-sec",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-26T13:30:27.009Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 1466,
+    "lead": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock. Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined. The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014. A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. Today’s announcement does not constitute an offer to sell or the solicitation of an o",
+    "truncated": false,
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering \\ Anthropic",
+    "fetchedAt": "2026-10-26T13:30:27.009Z",
+    "full": "full/f-anthropic-news-0g07v4z.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-0brz2xb",
    "pri": 45,
@@ -2379,29 +2411,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1vrod1z",
-   "pri": 45,
-   "kind": "note",
-   "title": "APRIL: Ambiguity-Aware Expert Routing for Respiratory Sound Domain-Incremental Learning",
-   "ctx": "Automated respiratory sound classification enables continuous, non-invasive respiratory assessment, yet long-term deployment remains challenging due to domain shifts from evolving recording devices and acquisition periods. When privacy and governance regulations prohibit replaying historical data, sequential learning easily overwrites previously acquired knowledge. Preserving dedicated domain experts prevents parameter interference, but selecting the correct expert at inference is difficult unde",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.27942v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-21T02:30:26.917Z",
-   "tier": "B",
-   "itemTs": "2026-10-20T09:49:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2422,8 +2431,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 89,
-   "daily": 11
+   "daily": 12,
+   "slow": 88
   },
   "routed": 28,
   "unrouted": 72,
