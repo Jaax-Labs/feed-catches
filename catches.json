@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-27T15:01:35.134Z",
+ "generatedAt": "2026-10-27T15:30:58.124Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-0o25ubk",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Sonnet 5.5",
+   "ctx": "Oct 27 , 15:09 UTC Identified - We are investigating elevated errors on requests to Claude Sonnet 5.5. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/lqhknfdjrcst",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-27T15:30:28.349Z",
+   "tier": "A",
+   "itemTs": "2026-10-27T15:09:09.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-1m3h7g6",
    "pri": 33,
@@ -2379,29 +2404,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0m3uvcs",
-   "pri": 45,
-   "kind": "note",
-   "title": "An Exact 93-Move Solution to a Nonlocal Crystal-Exchange Puzzle",
-   "ctx": "We determine the minimum number of directional commands needed to solve alevel of Order of the Sinking Star, modeled as a crystal-exchangepuzzle on an 11*11 board. A command swapsthe player with the nearest crystal in the selected row or column, regardlessof distance; only an empty ray permits an ordinary unit walk. Two gates admitthe player to the exit exactly while all sixteen crystals occupy their targetcells. We give an explicit 93-command solution and exclude every shortersolution by an exa",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29493v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T09:49:13.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2422,11 +2424,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 10,
-   "slow": 90
+   "daily": 11,
+   "slow": 89
   },
-  "routed": 32,
-  "unrouted": 68,
+  "routed": 33,
+  "unrouted": 67,
   "unmappedLaneFamilies": []
  }
 }
