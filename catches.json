@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-27T22:00:31.323Z",
+ "generatedAt": "2026-10-27T22:30:50.069Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-07ebir4",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Expanding partnership gsa",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/expanding-partnership-gsa",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-27T22:30:26.824Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 3967,
+    "lead": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API. For the first time, the discount applies across every product surface, including when agencies buy from us directly today and through cloud providers in the coming months. The discount also extends to state, local, tribal and territorial governments. We are also launching a dedicated program to help agencies implement and make the most of their Claude use. These programs are commonly leveraged by our private sector customers and we’re looking forward to bringing those best practices to our public sector partners in the coming weeks. Approximately 500 US federal, state, and local government organizations now use Claude. Weekly Claude for Government active users are up about eightfold since February, and usage across federal civilian agencies has grown about 20-fold in a year. Those organizations run some of the most important systems in the country, usually on tight budgets and with long procurement cycles. This agreement is built to support that work, so they can apply C",
+    "truncated": false,
+    "title": "Expanding our partnership with GSA to bring Claude to all levels of government \\ Anthropic",
+    "fetchedAt": "2026-10-27T22:30:26.824Z",
+    "full": "full/f-anthropic-news-07ebir4.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-0o25ubk",
    "pri": 33,
@@ -2379,31 +2411,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0lgsir3",
-   "pri": 45,
-   "kind": "note",
-   "title": "Rethinking Agentic Model Orchestration for Time Series Forecasting",
-   "ctx": "Time series foundation models (TSFMs) perform unevenly across forecasting tasks. Recent work uses agentic model orchestration (AMO) to select or combine TSFMs, often outperforming individual forecasters. Yet these gains may reflect stronger or more complementary candidates rather than better orchestration. To disentangle these effects, we introduce FairAMO, a controlled evaluation protocol with frozen candidate forecasts. Experiments on GIFT-Eval show that AMO improves accuracy, but its gains ar",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29504v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T09:55:04.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2424,11 +2431,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 11,
-   "slow": 89
+   "daily": 12,
+   "slow": 88
   },
-  "routed": 33,
-  "unrouted": 67,
+  "routed": 32,
+  "unrouted": 68,
   "unmappedLaneFamilies": []
  }
 }
