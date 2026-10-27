@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-27T09:00:54.509Z",
+ "generatedAt": "2026-10-27T09:30:41.689Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1m3h7g6",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Sonnet 5.5",
+   "ctx": "Oct 27 , 09:14 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 5.5. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/0q89dylg9vjk",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-27T09:30:27.694Z",
+   "tier": "A",
+   "itemTs": "2026-10-27T09:14:35.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.CL-02hu2ak",
    "pri": 45,
@@ -2377,29 +2402,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0nrrcph",
-   "pri": 45,
-   "kind": "note",
-   "title": "Are Joint-Embedding Predictive Objectives Effective for Longitudinal EHRs?",
-   "ctx": "Masked language modelling (MLM) is the dominant pretraining objective for transformer encoders applied to longitudinal electronic health records (EHRs). However, reconstructing individual events may overemphasise noisy or weakly informative observations and does not explicitly encourage learning higher-level patient states. Joint-Embedding Predictive Architectures (JEPAs) instead learn by predicting representations in latent space and have shown strong performance in a variety of domains. In thi",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29528v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T10:18:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2420,11 +2422,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 91,
-   "daily": 9
+   "daily": 10,
+   "slow": 90
   },
-  "routed": 31,
-  "unrouted": 69,
+  "routed": 32,
+  "unrouted": 68,
   "unmappedLaneFamilies": []
  }
 }
