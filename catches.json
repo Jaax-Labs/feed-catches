@@ -1,7 +1,53 @@
 {
- "generatedAt": "2026-10-27T04:30:38.185Z",
+ "generatedAt": "2026-10-27T05:00:34.846Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-02hu2ak",
+   "pri": 45,
+   "kind": "note",
+   "title": "Atomic Security Concerns: Towards a Foundational Language for Security Knowledge Representation",
+   "ctx": "Cybersecurity governance, risk management, compliance, and security architecture rely on numerous concepts, including security properties, domains, controls, risks, implementation measures, capabilities, and compliance requirements. Although these concepts are widely used, they are often represented through heterogeneous abstractions and vocabularies, making relationships among them difficult to express consistently and leaving much of the associated reasoning dependent on expert knowledge. This",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35782v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-27T05:00:26.501Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:22:27.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.CL-07t37z3",
+   "pri": 45,
+   "kind": "note",
+   "title": "SEMA-Auto: Sighted and Efficient Multi-Turn Attack with Autonomy",
+   "ctx": "Existing jailbreak attackers fall into two classes: static planners fix their single- or multi-turn adversarial plans in advance, remaining simple but losing sight of the victim's replies, wasting turns and limiting transferability; interactive generators read each victim reply to generate the next-turn attack but require in-loop evaluators for success signals or hints, incurring substantial costs and inflated performance. Bridging this gap, we propose SEMA-Auto, a sighted and efficient multi-tu",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35743v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-27T05:00:26.501Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T16:57:36.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-021bryv",
    "pri": 45,
@@ -2351,52 +2397,6 @@
    "detectedAt": "2026-10-22T02:30:26.627Z",
    "tier": "B",
    "itemTs": "2026-10-21T10:18:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0ppwxw6",
-   "pri": 45,
-   "kind": "note",
-   "title": "Keeping Time vs. Understanding Time: Neither Alone Explains Temporal Reasoning in LLMs",
-   "ctx": "Temporal reasoning is widely assumed to decompose into two modes: temporal arithmetic (date and time calculations), and temporal semantics (understanding temporal and causal relations). This dichotomy shapes how benchmarks are designed, how models are trained, and how progress is measured, yet its empirical validity has never been directly tested. We provide two lines of evidence that challenge it. First, we test whether tasks labelled as arithmetic or semantic by the benchmarks support transfer",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29507v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T09:58:46.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0skw680",
-   "pri": 45,
-   "kind": "note",
-   "title": "Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory",
-   "ctx": "Direct preference optimization (DPO) incurs training costs in output scoring, sequence execution, and backpropagation, so reducing supervision alone does not necessarily save computation. We introduce a unified framework for stochastic pruning of the DPO computation graph that independently samples response positions for scoring, response prefixes for execution, and preference branches for backpropagation. By making these selections before the corresponding operations, the framework omits comput",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29538v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T10:25:15.000Z",
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
