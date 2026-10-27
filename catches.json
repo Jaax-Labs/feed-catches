@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-27T01:17:22.911Z",
+ "generatedAt": "2026-10-27T01:30:51.842Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.CL-0ax8g5m",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond Belief: Evaluating and Mitigating LLM Susceptibility to Misinformation",
+   "ctx": "Tool-using large language models (LLMs) must decide whether external information warrants action. We investigate whether their expressed credibility judgments reliably indicate behavioral resistance to misinformation. We evaluate five LLMs on 196 constructed false notices paired with legitimate counterparts and 204 archived attacks adapted to simulated tool use. When asked to act on the constructed notices, models issue harmful tool calls in 27%--99% of cases they have rated untrustworthy. Remov",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.33962v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.CL",
+   "detectedAt": "2026-10-27T01:30:27.563Z",
+   "tier": "B",
+   "itemTs": "2026-10-25T00:26:14.000Z",
+   "sub": "arXiv cs.CL",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-anthropic-news-0g07v4z",
    "pri": 6,
@@ -2388,29 +2413,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-18wxg9d",
-   "pri": 45,
-   "kind": "note",
-   "title": "ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models",
-   "ctx": "Model compression makes large language models deployable, but today's evaluation tells an incomplete story. Standard practice measures retained task performance and stops there. This misses a critical fact: compression perturbs the distributed knowledge embedded across billions of weights, and task scores alone cannot reveal which underlying abilities survive and which quietly collapse. To solve this question, we introduce ACE-Compression, an ability-centric evaluation framework. Instead of aski",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.27913v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-21T02:30:26.917Z",
-   "tier": "B",
-   "itemTs": "2026-10-20T09:26:20.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2431,11 +2433,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 12,
-   "slow": 88
+   "slow": 88,
+   "daily": 12
   },
-  "routed": 28,
-  "unrouted": 72,
+  "routed": 29,
+  "unrouted": 71,
   "unmappedLaneFamilies": []
  }
 }
