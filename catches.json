@@ -1,7 +1,246 @@
 {
- "generatedAt": "2026-10-27T04:00:38.038Z",
+ "generatedAt": "2026-10-27T04:30:38.185Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-021bryv",
+   "pri": 45,
+   "kind": "note",
+   "title": "I-HITL: Inalienable Human-in-the-Loop",
+   "ctx": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only with explicit human approval, even when the human interacts with a system (e.g., a local agentic harness",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35835v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:52:14.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-02311sd",
+   "pri": 45,
+   "kind": "note",
+   "title": "Game theory of academic effort and hiring in the age of AI",
+   "ctx": "Many academic disciplines (in particular, mathematics and the theoretical sciences) face difficult questions about how to adapt their practices to the rise of highly capable artificial intelligence (AI). Before AI, a well-written research paper with a strong theoretical result acted as a reliable signal that its authors understood their field in depth. Now that AI is widely accessible, such signals have become cheaper to produce. As a result, they no longer reliably sort academics by their level",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35802v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:35:30.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-030prin",
+   "pri": 45,
+   "kind": "note",
+   "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+   "ctx": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool harness. We use a pretrained 27B parameter model to bootstrap world understanding and reasoning, followed by supervised fine-tuning and GRPO on simple simulated tasks to teach it how to move the robot.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35817v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:44:34.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0egzbe5",
+   "pri": 45,
+   "kind": "note",
+   "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+   "ctx": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which brings the capabilities of pretrained language models to retrieval using decision models that jointly evaluate candidate branches in a single forward pass, without generating any tokens, and show that ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35868v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:59:44.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0j8ev36",
+   "pri": 45,
+   "kind": "note",
+   "title": "Center-of-Mass Interpretation of Evolution Strategies",
+   "ctx": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a particle and its reward as the particle's mass. Before scoring, every particle has the same mass and the population balances at its centroid. Once rewards are as",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35865v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:59:33.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0tgyqqi",
+   "pri": 45,
+   "kind": "note",
+   "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+   "ctx": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the core of an agent that controls a robot through an agent harness under the same visual and proprioceptive observation protocol as post-trained po",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35832v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:51:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0tqws3i",
+   "pri": 45,
+   "kind": "note",
+   "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+   "ctx": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clinical reasoning across the cancer care continuum, using nasopharyngeal carcinoma as a defined disease context. Curated from longitudinal records of 405 patients across two cancer cen",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35847v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:56:26.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14l986r",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
+   "ctx": "Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the remaining positions. A highly predictable token may provide little useful context, while revealing a less predictable token can help several other positions become predictable sooner. We propose dSpark, a new schedule distillat",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35804v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:35:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1qtvyan",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+   "ctx": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-sensing UMI-style handheld grippers for hand motion and contact wrenches, and wearable trackers for body motion. A force-reactive ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35862v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:59:11.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1wb95lu",
+   "pri": 45,
+   "kind": "note",
+   "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+   "ctx": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working as a security expert would: they run analysis tools, explore the surrounding code, test hypotheses and weigh the evidence before forming their own judgement. This reasoning, however, spans many model",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.35829v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-10-27T04:30:27.272Z",
+   "tier": "B",
+   "itemTs": "2026-10-26T17:50:09.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0ngyqly",
    "pri": 45,
@@ -255,29 +494,6 @@
    "detectedAt": "2026-10-27T03:00:27.885Z",
    "tier": "B",
    "itemTs": "2026-10-26T09:05:29.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-0a216rt",
-   "pri": 45,
-   "kind": "note",
-   "title": "Improving VLMs on Scientific Chart Analysis via Autonomous Evolution",
-   "ctx": "Understanding and operating with scientific charts is a standard approach in data analysis, and while humans are good at interpreting such charts, open vision-language models (VLMs) are known to perform poorly when it comes to question answering based on such data types. Motivated by an initial observation that many of their errors are due to inexact answering, we raise the following natural question: how much accuracy can we recover without changing the model at all? In this paper, we study thi",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35077v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T09:22:52.000Z",
    "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
@@ -2184,228 +2400,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-187c1op",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Strong MoE Is All You Need for Process Supervision",
-   "ctx": "Process reward models (PRMs) provide fine-grained supervision for multi-step reasoning, yet obtaining reliable process labels remains a central bottleneck. Existing approaches typically rely on human annotation, rollout-based estimation, or auxiliary verification. In this work, we explore a different source of process supervision natively exposed by Mixture-of-Experts (MoE) models: expert routing. We show that simple routing statistics provide an intrinsic process-confidence signal that is compe",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29498v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T09:51:01.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1cavwid",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction",
-   "ctx": "Many learning systems are performative: once deployed, their predictions change the data distribution on which future models are trained. In multi-agent settings, this feedback is routed through a network of interacting learners, so stability depends not only on the strength of performativity but also on who affects whom. We study repeated retraining in multi-agent performative prediction and identify a spectral threshold that separates stable learning from worst-case learning obstruction. Prior",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29577v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T11:20:29.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1nk0mr1",
-   "pri": 45,
-   "kind": "note",
-   "title": "Block Diffusion for Longitudinal EHR: Accuracy, Efficiency, and Representation Trade-offs",
-   "ctx": "Autoregressive (AR) models have proved effective for zero-shot prediction from longitudinal electronic health records, but impose strictly sequential generation on trajectories containing temporally clustered and interdependent clinical events. We investigate block-based masked diffusion (BD) as an alternative on MIMIC-IV under matched tokenisation, context length, model capacity, and evaluation conditions. Across block sizes, BD exhibits a clear quality--efficiency trade-off, with small-block c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29533v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T10:23:34.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1otf35a",
-   "pri": 45,
-   "kind": "note",
-   "title": "Mitigating Query Shortcuts in Chain-of-Thought with Context-Aware Decoding",
-   "ctx": "While Chain-of-Thought (CoT) prompting improves the reasoning performance of large language models (LLMs), recent studies have shown that final answers do not always depend on the generated rationales. In particular, LLMs may rely on query-specific shortcuts rather than the information provided by their reasoning steps. In this paper, we investigate whether context-aware decoding (CAD), an existing contrastive decoding method, can mitigate such shortcut behavior when applied to CoT reasoning. We",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29518v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-22T02:30:26.627Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T10:05:25.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-056b9oc",
-   "pri": 45,
-   "kind": "note",
-   "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
-   "ctx": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state quantizers round the state after every generated token and report that four bits lose accuracy unless the bit width is raised or the model is fine-tuned.\\par We introduce PACE, a post-hoc four-bit state q",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29545v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-22T01:30:26.881Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T10:31:52.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-09apf72",
-   "pri": 45,
-   "kind": "note",
-   "title": "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
-   "ctx": "Codes of professional ethics guide and restrict specialists, who increasingly work with assistants built on large language models. Such an assistant can breach the user's code, or help the user breach it, without the user noticing. Evaluations reporting broad categories of harm cannot show how often this happens or which provision is breached. TenetBench pairs 3,433 requests conflicting with clauses of fifteen Russian-language professional codes with benign twins that differ only in the legitima",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.29477v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-22T01:30:26.881Z",
-   "tier": "B",
-   "itemTs": "2026-10-21T09:32:23.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-status-1b0mah8",
-   "pri": 33,
-   "kind": "note",
-   "title": "Degraded performance for Claude Fable 5",
-   "ctx": "Oct 21 , 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/njk29r81v3wg",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-21T20:00:27.806Z",
-   "tier": "A",
-   "itemTs": "2026-10-21T19:49:06.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-anthropic-news-0l9fh1j",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Christopher stubbs joins long term benefit trust",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-21T17:00:27.983Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 3266,
-    "lead": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control. “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,” said Stubbs. “I use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.” Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard, where he served as Dean of Science from 2018 to 2024. In 1998, as a member of the High-Z Supernova Search Team, he helped discover the accelerating expansion of the universe, work that later earned the team the Breakthrough Prize in Fundamental Physics. He was also the inaugural project scientist for what is now the Vera C. Rubin Observatory, which started a 10-year survey of th",
-    "truncated": false,
-    "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust \\ Anthropic",
-    "fetchedAt": "2026-10-21T17:00:27.983Z",
-    "full": "full/f-anthropic-news-0l9fh1j.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-09n9vah",
-   "pri": 45,
-   "kind": "note",
-   "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
-   "ctx": "Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For example, explaining recurring aisle blockages can require reviewing video from multiple robots across several shifts. We present IndustrialRemembr, a shared spatiotemporal memory system that extends NVIDIA ReMEmbR to robot fleets and reduces server-side computation by generating scene descriptions o",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.28624v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-21T04:00:27.527Z",
-   "tier": "B",
-   "itemTs": "2026-10-20T17:58:32.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "graph-memory"
-   ]
   }
  ],
  "clicks": {
@@ -2426,11 +2420,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 89,
-   "daily": 11
+   "slow": 91,
+   "daily": 9
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 31,
+  "unrouted": 69,
   "unmappedLaneFamilies": []
  }
 }
