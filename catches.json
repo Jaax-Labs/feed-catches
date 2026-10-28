@@ -1,7 +1,30 @@
 {
- "generatedAt": "2026-10-28T03:30:51.213Z",
+ "generatedAt": "2026-10-28T04:00:50.924Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-15yl2wd",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors affecting the Gmail connector",
+   "ctx": "Oct 28 , 03:59 UTC Investigating - We are investigating elevated errors when searching and reading email with the Gmail connector. This issue does not affect other connectors. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/9ftx658xtd5z",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-28T04:00:27.619Z",
+   "tier": "A",
+   "itemTs": "2026-10-28T03:59:32.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-001qxyb",
    "pri": 45,
@@ -2375,29 +2398,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0j0oe64",
-   "pri": 45,
-   "kind": "note",
-   "title": "When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated Museum Descriptions",
-   "ctx": "Metadata-conditioned generation is often framed as a data-to-text task in which additional input fields should improve grounding. Museum description generation challenges this assumption because catalogue records are heterogeneous, partially visual, and unevenly documented across geographic regions. We study how metadata composition shapes the generation of artefact descriptions through a two-phase framework. Phase 1 analyses natural metadata variation in a large museum collection, where field c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.31193v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-23T02:00:26.916Z",
-   "tier": "B",
-   "itemTs": "2026-10-22T12:41:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2418,8 +2418,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 91,
-   "daily": 9
+   "daily": 10,
+   "slow": 90
   },
   "routed": 30,
   "unrouted": 70,
