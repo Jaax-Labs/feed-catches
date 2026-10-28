@@ -1,7 +1,30 @@
 {
- "generatedAt": "2026-10-28T16:00:41.386Z",
+ "generatedAt": "2026-10-28T16:30:39.284Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-01slpyf",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors affecting the Google Calendar connector",
+   "ctx": "Oct 28 , 16:19 UTC Investigating - We are investigating elevated errors affecting the Google Calendar connector. Some requests to list or search calendar events have been failing since October 26. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/phg1y2yh07n2",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-10-28T16:30:27.151Z",
+   "tier": "A",
+   "itemTs": "2026-10-28T16:19:10.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-15yl2wd",
    "pri": 33,
@@ -2375,29 +2398,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0icvmtw",
-   "pri": 45,
-   "kind": "note",
-   "title": "Mixing Matters: Evidence Position Bias Across Sequence Mixers in Long-Context Question Answering",
-   "ctx": "Long-context models often use answer-bearing evidence less effectively when it appears away from a prompt boundary. We compare this position bias across Transformer, state-space, and hybrid Mamba architectures by moving one gold document through a fixed set of nine distractors. The evaluated Transformers show a beginning advantage that the evaluated state-space models lack, while both families favor evidence near the end. A matched pure-versus-hybrid Mamba comparison points in the same direction",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.31135v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-23T02:00:26.916Z",
-   "tier": "B",
-   "itemTs": "2026-10-22T11:54:30.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2418,8 +2418,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 10,
-   "slow": 90
+   "daily": 11,
+   "slow": 89
   },
   "routed": 30,
   "unrouted": 70,
