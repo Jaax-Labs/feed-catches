@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-28T20:00:42.511Z",
+ "generatedAt": "2026-10-28T20:30:34.434Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-1li0let",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Ai for science expands foundations research institutions",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-10-28T20:30:30.015Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 8253,
+    "lead": "Chapter 01 : Science funders and societies We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program , which gives free Claude credits to researchers working on high-impact scientific projects. We started the AI for Science program in May 2025 with the belief that AI could significantly speed up scientific progress. Our goal is to increase access to AI tools and resources to enable researchers to deepen and expand their own scientific work. (Over the last few months, we’ve also launched our discounted Team plan for scientists and have supported hundreds of projects across biology, medicine, physics, chemistry, climate science, and mathematics.) Scientists have told us that they’re working with Claude to generate hypotheses, design experiments, swiftly analyze complex data, and communicate findings. With scientists at the center of this transformation, the field is setting the questions and developing the research projects that will help us tackle some of humanity’s toughest problems. Over the past year, we’ve started to expand this work and partner with scientific org",
+    "truncated": false,
+    "title": "AI for Science expands to foundations and institutions \\ Anthropic",
+    "fetchedAt": "2026-10-28T20:30:30.015Z",
+    "full": "full/f-anthropic-news-1li0let.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-01slpyf",
    "pri": 33,
@@ -2373,31 +2405,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0gtiawp",
-   "pri": 45,
-   "kind": "note",
-   "title": "Network topology shapes consensus and vulnerability in LLM populations",
-   "ctx": "As large language models (LLMs) are deployed in interacting populations, their collective behaviour depends not only on the models but also on who interacts with whom. Studies of convention formation in LLM populations have mainly tested well-mixed interactions. We place policies extracted from four LLMs on fully connected, random regular, and heterogeneous networks, with $10^3$ to $10^5$ agents playing the naming game. Topology affects how quickly consensus emerges, sometimes whether it emerges",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.31165v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-23T02:00:26.916Z",
-   "tier": "B",
-   "itemTs": "2026-10-22T12:22:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2418,11 +2425,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 11,
-   "slow": 89
+   "daily": 12,
+   "slow": 88
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 29,
+  "unrouted": 71,
   "unmappedLaneFamilies": []
  }
 }
