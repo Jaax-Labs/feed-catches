@@ -1,7 +1,243 @@
 {
- "generatedAt": "2026-11-02T02:00:53.730Z",
+ "generatedAt": "2026-11-02T02:30:35.277Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-038jfjz",
+   "pri": 45,
+   "kind": "note",
+   "title": "From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?",
+   "ctx": "Turning an engineering request into a simulation requires consistent geometry, physics, boundary conditions, and numerical settings. Recent agent-assisted systems automate simulation setup, but successful execution alone does not establish whether the specification preserves the intended problem or correctly handles missing information. We study whether agents can reliably construct complete executable JSON specifications for automated geometry creation, meshing, PDE solving, and result export. ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41267v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T05:20:28.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-06d0pyc",
+   "pri": 45,
+   "kind": "note",
+   "title": "Coarse3D: Controllable and Faithful Sparse Structure Generation for Image-to-3D",
+   "ctx": "Coarse-to-fine 3D-native generation relies heavily on the first-stage sparse structure, which determines the global orientation and overall geometry for subsequent refinement. However, existing coarse generators suffer from two key limitations: their orientation is difficult to control due to ambiguous semantic canonicalization, and their structures are often inconsistent with input images due to weak 2D-3D grounding. We propose Coarse3D, a sparse-structure generation model that produces orienta",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41231v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T04:09:19.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-07hnup2",
+   "pri": 45,
+   "kind": "note",
+   "title": "Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents",
+   "ctx": "Training language-model agents to play long-horizon strategy games is hard because deterministic feedback is sparse and often arrives only at the end of a game. In-game scores can offer dense signals, but they do not reliably predict future outcomes: in 8-68% of position pairs across eight strategy games, the higher-scoring position leads to the worse outcome. We term this phenomenon scoreboard traps. In Freeciv, an open-source turn-based empire-building game where several players manage units, ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41264v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T05:13:31.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-11kwcst",
+   "pri": 45,
+   "kind": "note",
+   "title": "Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models",
+   "ctx": "Sparse MoE mechanism significantly improves the trade-off between model capacity and inference efficiency. However, practical deployment still requires storing all experts, resulting in substantial memory overhead. We show that expert outputs in MoE layers exhibit structured redundancy. Across different models and task categories, the stable rank and entropy effective rank of expert outputs are consistently far below the nominal number of experts, while expert output distributions also exhibit f",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41236v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T04:21:25.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-12ppw5x",
+   "pri": 45,
+   "kind": "note",
+   "title": "From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models",
+   "ctx": "Real-world image editing requires coordinating multiple visual transformations with content preservation and reference constraints, yet aggregate scores can readily obscure unmet local requirements. Effective evaluation must therefore identify local failures and translate them into priorities for subsequent model improvement. We introduce WeGenEditBench, comprising 2,740 evaluation instances and 148 task types across single-image, text-intensive, and multi-reference editing. Pre-generated checkl",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41210v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T03:42:15.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14kpt15",
+   "pri": 45,
+   "kind": "note",
+   "title": "RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design",
+   "ctx": "Large language models offer a promising route to register-transfer-level (RTL) design, but reliable implementations require checking and revision based on electronic design automation (EDA) tools' feedback. Existing RTL-specialized models often lack learned interaction with such EDA tools or rely on separate generation and repair components. We introduce RTL-Interact, a multi-task post-training framework that trains a single RTL-specialized model to generate RTL, construct task-appropriate EDA c",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41225v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T04:03:39.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14lb4xz",
+   "pri": 45,
+   "kind": "note",
+   "title": "MEMIG: Self-evolving Memory Construction for Antibody Optimization",
+   "ctx": "Memory has become central to self-evolving LLM agents, which store and retrieve experience from past rollouts to guide future decisions. Existing systems represent this experience as free-form natural language and maintain it by rewriting, which fits tasks whose experience is narratable. However, in scientific discovery and optimization, experience is often a quantity measured by an oracle under a specific context. Rewriting it as text leaves no index for where a record should be, replaces a mea",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41245v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T04:39:18.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1fsno89",
+   "pri": 45,
+   "kind": "note",
+   "title": "TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection",
+   "ctx": "As Large Language Models (LLMs) become increasingly multilingual, distinguishing human-written from AI-generated text is essential for maintaining information integrity. However, research remains English-centric, with limited benchmarks for low-resource languages such as Hindi. To address this gap, we introduce SHAKTI, a large-scale Hindi benchmark covering four genres, eight LLM families, multiple prompting strategies, and adversarial transformations. We evaluate its quality through human annot",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41232v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T04:13:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1hnizcg",
+   "pri": 45,
+   "kind": "note",
+   "title": "Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families",
+   "ctx": "LLM-guided program evolution can produce mathematical constructions, but validity, generality, and reproducibility require distinct evidence. We develop a researcher-in-the-loop discovery pipeline that combines program evolution, exact evaluation, mathematical generalization, certified nonexistence checks, and formal proof checking. We apply it to entanglement-assisted quantum error-correcting codes (EAQECCs). Starting from tasks that did not specify a family formula, evolved programs produced f",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41183v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T03:02:10.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ork62v",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond CLIP: Calibrated (Few-Shot) Defect Detection With System One Decision Models",
+   "ctx": "Cameras and vision sensors are widely used for product and process inspection in manufacturing environments. Traditionally, this process required thousands of images of both nominal and defective products to train such models. Recent research shows that vision transformer (ViT) models, such as CLIP, can reduce this requirement to 50-100 images per nominal and defective class. However, collecting even 50 defective images can be difficult in high-yield or low-volume manufacturing processes. In thi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2610.41199v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-02T02:30:26.510Z",
+   "tier": "B",
+   "itemTs": "2026-10-30T03:21:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-0pw9b5c",
    "pri": 45,
@@ -480,29 +716,6 @@
    "tier": "B",
    "itemTs": "2026-10-29T12:51:07.000Z",
    "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.CL-033id1n",
-   "pri": 45,
-   "kind": "note",
-   "title": "Grammar Control for Language Learning with Sequential Monte Carlo and Small Language Models",
-   "ctx": "Second language learners benefit from exposure to level-appropriate grammar in interactive language use. While prompted frontier language models can usually produce target grammar structures, less resource-intensive models that can be run on device often fail in this task. We use sequential Monte Carlo (SMC) to steer dialogue turn generation in small lan- language models toward target grammar constructions from an expert-developed pedagogical resource. With a minimal set of hand-coded potential ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.39800v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-30T05:00:27.011Z",
-   "tier": "B",
-   "itemTs": "2026-10-29T10:45:26.000Z",
-   "sub": "arXiv cs.CL",
    "clock": "slow",
    "questions": []
   },
@@ -1911,29 +2124,6 @@
    ]
   },
   {
-   "id": "f-arxiv-cs.CL-02hu2ak",
-   "pri": 45,
-   "kind": "note",
-   "title": "Atomic Security Concerns: Towards a Foundational Language for Security Knowledge Representation",
-   "ctx": "Cybersecurity governance, risk management, compliance, and security architecture rely on numerous concepts, including security properties, domains, controls, risks, implementation measures, capabilities, and compliance requirements. Although these concepts are widely used, they are often represented through heterogeneous abstractions and vocabularies, making relationships among them difficult to express consistently and leaving much of the associated reasoning dependent on expert knowledge. This",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35782v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-27T05:00:26.501Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T17:22:27.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-arxiv-cs.AI-021bryv",
    "pri": 45,
    "kind": "note",
@@ -2217,194 +2407,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0yyr5ok",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Diagnostic Protocol for GNNs in Electricity Load Forecasting: Separating Parameter Sharing from Neighborhood Access",
-   "ctx": "A graph neural network (GNN) forecasting a collection of load series combines two mechanisms, sharing parameters across series and reading neighboring series, and a gain over a non-graph model may come from either; telling them apart decides whether a graph is worth maintaining. We propose a model diagnostic protocol that compares the GNN with three reference models: a per-node network, a network shared across nodes without neighbors, and the same GNN without edges. Degree-preserving rewiring te",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35074v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T09:20:23.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-165p4p3",
-   "pri": 45,
-   "kind": "note",
-   "title": "Subspace Crystallization in Grokking: Rank Compression Tracks the Phase Transition",
-   "ctx": "Grokking describes understanding something deeply and intuitively. In neural networks, it is the phenomenon where a network generalizes long after memorizing its training data. This delay has been linked to a fall in the effective rank of the network's weight matrices, but whether this rank compression drives grokking or follows it is still unresolved. We study a mean-field MLP and a one-layer transformer trained on modular arithmetic and observe that: (i) Compression follows the onset, not memo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35112v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T09:52:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-17ifdgf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Toward Fast Human Reaction Modeling from High-Frequency Digital Interaction Data",
-   "ctx": "We investigate whether limbic-like signatures of rapid, salience-driven behavior can be identified in high-resolution Counter-Strike 2 telemetry. This exploratory study introduces Ego-Knowledge, a leak-reduced reconstruction of each player's plausible perceptual state, supported by a millisecond-precision visibility engine and a reaction-centered extraction pipeline. Using a neuroscience-motivated 60--120 ms window, we derive coarse fight-or-flight labels from visibility- and damage-triggered ev",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35079v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T09:24:10.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1batqug",
-   "pri": 45,
-   "kind": "note",
-   "title": "Joint Dynamic Lane Reversal and Variable Speed Limit Control: A Graphormer-Based Approach",
-   "ctx": "Connected and automated vehicles could allow reassigning lane directions and speed limits on every road frequently, but the benefit hinges on how traffic reroutes, and one-way roads can isolate junctions. We formulate network-wide dynamic lane allocation and directional speed limit control with one-way roads, lane clearing before each reversal, and a navigable graph kept strongly connected at all times. An action-resolution algorithm grounded in graph orientation theory admits a proposal closing",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35070v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T09:17:05.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1l1kl9z",
-   "pri": 45,
-   "kind": "note",
-   "title": "Zero-Shot Multi-Class Wafer Map Classification with Rule-Ordered Prompts for Large Multimodal Models",
-   "ctx": "Wafer-map defect classification often requires labeled data and retraining when production conditions change. We present a training-free six-class framework that combines connected-component highlighting with morphology-, location-, and exclusion-aware prompts for a frozen large multimodal model. On Mixed-WM38 (6,866 maps), multi-region prompting achieves 92.9% macro and 93.8% overall accuracy. On WM811K (9,000 maps), it achieves 79.1% and 81.3%, respectively. Eight alternative rule orders achie",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35080v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T09:24:24.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1lk24gb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Improving Instruction Hierarchy by Learning from Goal-Goal Conflicts",
-   "ctx": "The recent incident in which OpenAI agents autonomously compromised Hugging Face's infrastructure illustrates the importance of instruction hierarchy (IH): an LLM should follow lower-priority instructions, such as user requests, only when they do not conflict with higher-priority instructions, such as system policies. IH can be effectively improved by fine-tuning LLMs on simulated examples of instruction conflicts, whose diversity is key to teaching LLMs to properly handle conflicts at test time",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35093v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T09:33:17.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1rxchan",
-   "pri": 45,
-   "kind": "note",
-   "title": "Generative AI in Turbulence: Foundations, Applications, Validations and Benchmarks",
-   "ctx": "Generative AI offers new approaches to turbulence problems in which incomplete observations or unresolved d.o.f. admit multiple physically plausible solutions. Potential applications include stochastic closures, super-resolution, data assimilation, uncertainty quantification, and the generation of Eulerian and Lagrangian flow ensembles. However, turbulence is not a conventional image-generation problem. Its multiscale dynamics, intermittency, extreme events, rough velocity fields and intrinsical",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35123v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T10:00:04.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1wzyv31",
-   "pri": 45,
-   "kind": "note",
-   "title": "CoSA: The Conflict of Skills Attack in Real-World LLM Agent Ecosystems",
-   "ctx": "Agent Skills allow LLM agents to combine reusable capabilities, but checking each Skill in isolation cannot rule out policy violations when they are composed. We term such failures Conflict of Skills (CoS): artifacts or assessment signals produced for one purpose may be reused downstream without preserving the restrictions or authorization needed for their new use. Using controlled executions of publicly available Skills and matched single-Skill controls, we identify four recurring mechanisms be",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35082v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T03:00:27.885Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T09:25:38.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2428,8 +2430,8 @@
    "slow": 94,
    "daily": 6
   },
-  "routed": 29,
-  "unrouted": 71,
+  "routed": 30,
+  "unrouted": 70,
   "unmappedLaneFamilies": []
  }
 }
