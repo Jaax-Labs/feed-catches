@@ -1,7 +1,243 @@
 {
- "generatedAt": "2026-11-03T03:00:35.666Z",
+ "generatedAt": "2026-11-03T03:30:31.487Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-08lrlfk",
+   "pri": 45,
+   "kind": "note",
+   "title": "Discovering Models for Experimental Quantum Systems with Agentic AI",
+   "ctx": "A central obstacle in realizing color center cavity-QED-based quantum technologies is inhomogeneity, or disorder, among individual emitters. As the number of emitters increases, so does the complexity of the experimental data, making it difficult to quantify the present physical mechanisms of disorder. Here we introduce an artificial intelligence-driven model discovery framework in which a large language model (LLM)-based agent, equipped with tools and a structured workflow, proposes candidate H",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00620v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:41:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0g7xi3j",
+   "pri": 45,
+   "kind": "note",
+   "title": "Log-Driven Semantic Tuning for Mixed Integer Programming Solvers",
+   "ctx": "Automated configuration of mixed-integer programming (MIP) solvers largely relies on black-box optimization. Each trial requires an expensive solver run and provides only a scalar outcome, so tuning can require many such evaluations. Human experts take a different approach. They inspect solver logs, identify performance bottlenecks, and adjust the parameters that address them. We propose Log-Driven Semantic Tuning (LDST), which uses a large language model (LLM) to automate this process. LDST ext",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00621v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:43:28.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0jtpgmo",
+   "pri": 45,
+   "kind": "note",
+   "title": "Evidence-grounded large language models guide perovskite solar cell design and optimization",
+   "ctx": "Using large language models to interpret experimental evidence, design discriminating experiments and formulate well-supported mechanistic explanations remains a central challenge in materials research. Here we establish PSM-Bench, an 800-question benchmark developed by perovskite researchers to evaluate scientific reasoning in perovskite photovoltaics. We also introduce OpenPerov, an expert-informed language-model framework that learns from expert-calibrated evidence records reconstructed from ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00633v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:57:32.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0uaoifw",
+   "pri": 45,
+   "kind": "note",
+   "title": "LM6-CastBench: A Geometry-Aware Simulation Dataset for Transient Thermal Prediction in LM6 Sand Casting",
+   "ctx": "Transient thermal fields during solidification connect casting process conditions and cooling behaviour to the formation of defect-prone regions in aluminum cast ings. Repeatedly solving this thermal problem across geometries and process conditions is computationally expensive, motivating data-driven surrogate models. However, existing machine-learning studies on casting thermal behaviour rely on study-specific simulation databases that do not support reproducible geometry-level benchmarking. We",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00619v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:39:06.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0vp6724",
+   "pri": 45,
+   "kind": "note",
+   "title": "XLA from the Trenches: Correctness on TPU Workloads at Scale",
+   "ctx": "Accelerating modern foundational models has pushed domain-specific compilers toward increasingly complex, multi-tiered optimization pipelines. However, this heavy optimization focus introduces delicate tradeoffs between peak execution performance and correctness. Subtle codegen defects can trigger numerical degradation and memory or buffer corruption, invalidating multi-million-dollar training runs and degrading live serving quality without raising obvious compiler errors. In this paper, we pres",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00624v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:48:13.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14haa5v",
+   "pri": 45,
+   "kind": "note",
+   "title": "Trail: Accurate Local Smart Home Control Using Decision Models",
+   "ctx": "Natural-language driven smart home control remains challenging: cloud-hosted Large Language Models (LLMs) raise privacy concerns, while local Small Language Models (SLMs) can generate invalid actions or misinterpret requests. We introduce Trail (Typed Registry-Anchored Inference for Language commands in Smart Homes), a fully local framework that replaces open-ended command generation with hierarchical typed decisions. Trail exploits the natural structure of a home's action space, selecting a roo",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00610v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:13:21.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-16ogdfa",
+   "pri": 45,
+   "kind": "note",
+   "title": "Words Before Pixels: Selective Modality Routing for Vision-Language Model Unlearning",
+   "ctx": "Vision-language model (VLM) unlearning is often treated as an objective-design problem: given multimodal forget data, the goal is to optimize a loss that removes undesirable behavior while preserving retained capabilities. We argue that this view overlooks an equally important data-centric question: how should each forget example be represented before optimization? Existing methods typically keep image-conditioned failures in their original image-text form, implicitly assuming that pixels are th",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00608v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:09:27.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1f9qdj5",
+   "pri": 45,
+   "kind": "note",
+   "title": "Autonomous Analysis of Thermoelectric Materials Big Data by Multi-Agentic AI and Construction of a Knowledge Base and Specialized AI",
+   "ctx": "Extracting knowledge from large databases of experimental materials data requires repeated analyses and reusable records of their choices and results. We developed Multi-Agentic AI (MAA), a multi-agent system in which AI agents with distinct roles analyze experimental thermoelectric data under predefined instructions and quality checks, saving analysis records traceable to their sources. In four experiments varying theme and cycle counts, we measured what accumulated in these records. In the lar",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00627v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:51:41.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1i4d420",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning from an Imitable Teacher: Competition Solution for the MetaFine Challenge",
+   "ctx": "The MetaFine Open Competition (RoboFineMani workshop, CoRL 2026) evaluates fine-grained manipulation beyond binary success. Its five simulated tasks, from grasping a bottle by an instructed part to inserting letter-shaped pegs with 4 mm clearance, are scored on perception under lighting and camera changes, instruction understanding, and behavior. This report presents Team Friday's solution, which got second place with an overall score of 0.947, more than twice the $π_0$ baseline. Instead of fine",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00615v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:33:26.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "lab-board"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1v7kx86",
+   "pri": 45,
+   "kind": "note",
+   "title": "TopoQuant: Topological Framework to Characterize Behavioral Shifts in Quantized Large Language Models",
+   "ctx": "Post-training quantization (PTQ) reduces the com putational cost of large language models (LLMs), but it can introduce internal structural and behavioral changes that are not captured by traditional metrics such as accuracy and per plexity. We present TopoQuant, a topological framework that uses topological data analysis (TDA) to quantify structural drift in self-attention weights and relate it to behavioral changes in quantized LLMs. Across four LLM families and multiple quantization levels, we",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.00631v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T03:30:26.864Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T04:55:14.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-00946a2",
    "pri": 45,
@@ -1436,29 +1672,6 @@
    ]
   },
   {
-   "id": "f-arxiv-cs.CL-01kks8i",
-   "pri": 45,
-   "kind": "note",
-   "title": "What to randomize matters: a controlled study of volume, axis and representation in low-data molecular generation",
-   "ctx": "Chemical language models can struggle to generate new molecules when trained on small datasets, where a model may reproduce training examples rather than learn a useful generative distribution. Randomized SMILES augmentation varies atom traversal, whereas Sequential Attachment-based Fragment Embedding (SAFE) also allows the order of fragment blocks to vary. How these distinct sources of representational variation affect low-data molecular generation has not been clearly studied. Here, using 1,00",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.38835v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.CL",
-   "detectedAt": "2026-10-30T02:30:26.695Z",
-   "tier": "B",
-   "itemTs": "2026-10-28T20:24:51.000Z",
-   "sub": "arXiv cs.CL",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-arxiv-cs.AI-088dall",
    "pri": 45,
    "kind": "note",
@@ -2185,230 +2398,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1ih7uuq",
-   "pri": 45,
-   "kind": "note",
-   "title": "DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models",
-   "ctx": "Hybrid language models keep a key-value (KV) cache only in their few full-attention layers, but this cache is still the part of a prompt's state that grows with the prompt and that must be stored or moved to reuse it. We present DCKV, a differentiable codec for the KV cache and the first KV-cache codec that is trained end to end. Its transform, its quantizer and its entropy models, which are conditioned on the prompt tokens and on already decoded neighbouring positions, are optimized together ag",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36950v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T10:11:04.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1q3drip",
-   "pri": 45,
-   "kind": "note",
-   "title": "Dense Representation Learning and Differentiable Shape Modeling for Spine Landmark Detection",
-   "ctx": "Spine landmark detection from spinal X-ray is a key step for estimating spine deformation severity, for building biomechanical models, and for pre-operative planning. We reframe anatomical landmark detection as a pixel-level contrastive representation learning problem, matching dense pixel embeddings with landmark prototypes. Surprisingly, even with a generic U-Net backbone, this formulation results in more discriminative heatmaps compared to the traditional heatmap regression paradigm, leading ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36951v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T10:11:18.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1rovxr7",
-   "pri": 45,
-   "kind": "note",
-   "title": "Natural Hard-Negative Mining from Positives for Instruction-Following Retrieval",
-   "ctx": "Instruction-following information retrieval (IFIR) requires retrievers to rank documents by both a query and its instance-specific instructions, yet instruction-conditioned contrastive supervision remains scarce. Existing synthetic methods typically fix a positive passage and generate additional negatives, overlooking the hard-negative potential of the original positive. We propose Natural Hard-Negative Mining (NHNM), which promotes convertible negatives under query-compatible instructions and r",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36900v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T09:31:15.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-news-07ebir4",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Expanding partnership gsa",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/expanding-partnership-gsa",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-27T22:30:26.824Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 3967,
-    "lead": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API. For the first time, the discount applies across every product surface, including when agencies buy from us directly today and through cloud providers in the coming months. The discount also extends to state, local, tribal and territorial governments. We are also launching a dedicated program to help agencies implement and make the most of their Claude use. These programs are commonly leveraged by our private sector customers and we’re looking forward to bringing those best practices to our public sector partners in the coming weeks. Approximately 500 US federal, state, and local government organizations now use Claude. Weekly Claude for Government active users are up about eightfold since February, and usage across federal civilian agencies has grown about 20-fold in a year. Those organizations run some of the most important systems in the country, usually on tight budgets and with long procurement cycles. This agreement is built to support that work, so they can apply C",
-    "truncated": false,
-    "title": "Expanding our partnership with GSA to bring Claude to all levels of government \\ Anthropic",
-    "fetchedAt": "2026-10-27T22:30:26.824Z",
-    "full": "full/f-anthropic-news-07ebir4.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-status-0o25ubk",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors for Claude Sonnet 5.5",
-   "ctx": "Oct 27 , 15:09 UTC Identified - We are investigating elevated errors on requests to Claude Sonnet 5.5. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/lqhknfdjrcst",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-27T15:30:28.349Z",
-   "tier": "A",
-   "itemTs": "2026-10-27T15:09:09.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-anthropic-status-1m3h7g6",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors for Claude Sonnet 5.5",
-   "ctx": "Oct 27 , 09:14 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 5.5. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/0q89dylg9vjk",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-27T09:30:27.694Z",
-   "tier": "A",
-   "itemTs": "2026-10-27T09:14:35.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-021bryv",
-   "pri": 45,
-   "kind": "note",
-   "title": "I-HITL: Inalienable Human-in-the-Loop",
-   "ctx": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only with explicit human approval, even when the human interacts with a system (e.g., a local agentic harness",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35835v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T04:30:27.272Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T17:52:14.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-02311sd",
-   "pri": 45,
-   "kind": "note",
-   "title": "Game theory of academic effort and hiring in the age of AI",
-   "ctx": "Many academic disciplines (in particular, mathematics and the theoretical sciences) face difficult questions about how to adapt their practices to the rise of highly capable artificial intelligence (AI). Before AI, a well-written research paper with a strong theoretical result acted as a reliable signal that its authors understood their field in depth. Now that AI is widely accessible, such signals have become cheaper to produce. As a result, they no longer reliably sort academics by their level",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35802v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T04:30:27.272Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T17:35:30.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-030prin",
-   "pri": 45,
-   "kind": "note",
-   "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
-   "ctx": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool harness. We use a pretrained 27B parameter model to bootstrap world understanding and reasoning, followed by supervised fine-tuning and GRPO on simple simulated tasks to teach it how to move the robot.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.35817v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-27T04:30:27.272Z",
-   "tier": "B",
-   "itemTs": "2026-10-26T17:44:34.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2429,11 +2418,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 94,
-   "daily": 6
+   "slow": 97,
+   "daily": 3
   },
-  "routed": 31,
-  "unrouted": 69,
+  "routed": 30,
+  "unrouted": 70,
   "unmappedLaneFamilies": []
  }
 }
