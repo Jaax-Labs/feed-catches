@@ -1,7 +1,243 @@
 {
- "generatedAt": "2026-11-03T03:30:31.487Z",
+ "generatedAt": "2026-11-03T04:00:37.918Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-0418vmg",
+   "pri": 45,
+   "kind": "note",
+   "title": "ArSciKids: Arabic Curriculum-Aligned Datasets for Scientific Experiment and Multiple-Choice Question Generation in Primary Education",
+   "ctx": "Despite growing interest in Arabic natural language processing, curriculum-aligned educational resources remain scarce compared with English, and few public datasets for Arabic curriculum content with structured, generation-ready annotations are available, particularly for primary-school science. We introduce ArSciKids, a collection of two Arabic datasets designed for curriculum-aligned educational content generation: (1) a scientific-experiments dataset containing 999 manually curated records f",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01191v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T18:44:39.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0c5wbgr",
+   "pri": 45,
+   "kind": "note",
+   "title": "Satisfied, Not Solving: Wireheading of Bounded Homeostatic Rewards in Reinforcement Learning",
+   "ctx": "Bounded intrinsic rewards are often assumed to be safe from exploitation: if a signal can yield at most a fixed amount, gaming it should not pay. We test this for a homeostatic satiation reward, in which needs build up and relieving them is rewarding, and give the agent a cheap action that resets its needs. In MiniGrid DoorKey-8x8, PPO agents with this action solved 2 of 80 seeds, against 71 of 80 on the same seeds without it; in KeyCorridorS3R1, 0 of 20 against 20 of 20. Their policies stayed n",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01183v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T18:30:01.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0k4nh3r",
+   "pri": 45,
+   "kind": "note",
+   "title": "Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition",
+   "ctx": "Character names in large language model (LLM) fiction concentrate on a handful of recurrent names such as 'Elara' and 'Elias', a measurable face of AI slop. Existing fixes either require logit access or retraining, or operate per request and cannot control concentration across a corpus. How much prompt-level strategies reduce concentration, and at what cost to name naturalness, has not been systematically measured. We present an empirical study of name-concentration control across eight strategi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01284v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T21:36:29.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0stftrx",
+   "pri": 45,
+   "kind": "note",
+   "title": "STLT: A Novel System for Energy-Aware Distributed Inference in the Edge-Cloud-Space Continuum",
+   "ctx": "Low Earth Orbit satellites are pivotal for Earth observation tasks such as wildfire detection, capturing imagery for analysis by Deep Neural Networks (DNNs). On-board analysis reduces downlink volume, but severe energy constraints force a trade-off between computation and data transmission. Splitting the DNN between satellite and ground turns this balance into a design choice, where the split point determines combined computation and downlink energy. Existing approaches typically rely on static ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01233v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T19:59:34.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0zvu7fc",
+   "pri": 45,
+   "kind": "note",
+   "title": "LoRAForge: Co-Designing Post-Hoc Compression and Execution for Efficient Multi-LoRA Serving",
+   "ctx": "Multi-LoRA serving allows many task-specific adapters to share a common base model, but scaling to large adapter fleets introduces substantial storage, loading, and execution overheads. Post-hoc compression can reduce the memory footprint of trained LoRA adapters, yet smaller ranks do not automatically translate into faster serving. For instance, padding, factor access, and generic kernels can obscure the retained low-rank structure, while independently recompressing thousands of modules also in",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01256v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T20:39:33.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-15ntjhr",
+   "pri": 45,
+   "kind": "note",
+   "title": "Mathematical Formulation and Comparative Performance Evaluation of Machine Learning Algorithms for Maize Land Suitability Prediction",
+   "ctx": "Addressing the food needs of a growing population is one of the major challenges of developing countries like Ethiopia. Various policies aimed at increasing food production have been enacted by governments and development partners. Although efforts in this regard have been made, there is still inadequate emphasis on increasing food production through the use of high technology practices. Precision agriculture using technology has been utilized to increase crop yield. Precision agriculture also r",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01239v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T20:06:42.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1cz20li",
+   "pri": 45,
+   "kind": "note",
+   "title": "OntoDoc: Automatically Generating Ontology Resource Descriptions",
+   "ctx": "Knowledge graphs and ontologies form the backbone of structured, machine-readable knowledge representation, yet ontology terms often lack natural language descriptions, limiting their accessibility and reuse. Existing ontology verbalization approaches tend to rely on rule-based or template-driven techniques that operate on strict, formal schema axioms, resulting in rigid verbalizations that fail to convey richer contextual semantics. We present OntoDoc, a multi-agent framework for automatically ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01276v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T21:23:13.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1hkzjqp",
+   "pri": 45,
+   "kind": "note",
+   "title": "Vision-Language Models Are Joint Denoisers in Robotic Action Generation",
+   "ctx": "Diffusion-based vision-language-action (VLA) models cascade pretrained vision-language models (VLMs) with diffusion action experts, but typically restrict the VLM to providing static conditioning. This separation limits how much pretrained perception and reasoning can guide action generation, especially in out-of-distribution settings. We introduce JADE, a Joint Action DEnoiser that enables the VLM and action expert to jointly refine actions. Our key insight is that structured action latents all",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01215v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T19:29:39.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ovr0l2",
+   "pri": 45,
+   "kind": "note",
+   "title": "Toward Bounding Coding-Agent Autonomy in Software Maintenance: A Pilot Study of Boundary Contracts",
+   "ctx": "As coding agents gain greater autonomy to modify software repositories, relevant context alone does not define their operational authority. An artifact may be relevant to a maintenance task while being inappropriate to edit; conversely, another artifact may be required even when it is not explicitly mentioned in the request. We explore Boundary Contracts, a machine-readable abstraction that makes task-specific artifact roles (editable, inspect-only, required, and protected) explicit before repos",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01265v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T21:03:30.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1wmo8wk",
+   "pri": 45,
+   "kind": "note",
+   "title": "How Much Can Approximate Equilibria Change the Social Cost of Selfish Routing?",
+   "ctx": "We study approximate Nash equilibria in nonatomic congestion games, with the goal of understanding how much the social cost can change when the equilibrium condition is relaxed. We consider $ε$-approximate Nash equilibria ($ε$-NE), in which each player uses a strategy whose cost is at most $1 + ε$ times the minimum available cost. We compare the social costs of $ε$-NE and exact Nash equilibria. This lets us quantify, for example, how much a navigation app can reduce total travel time when driver",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.01234v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T04:00:26.729Z",
+   "tier": "B",
+   "itemTs": "2026-10-31T20:01:59.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-08lrlfk",
    "pri": 45,
@@ -2149,255 +2385,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1kljq9h",
-   "pri": 45,
-   "kind": "note",
-   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-   "ctx": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image representation. Hexels exploit locally planar regions with smoothly varying appearance using fewer, larger primitives. Their hexagonal support provides an area- and bound",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37668v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:59:59.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1ocex0l",
-   "pri": 45,
-   "kind": "note",
-   "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-   "ctx": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whether it helps. We introduce CrossProfile, a diagnostic benchmark of 60 templates with automatically verified answer keys, in which the ownership of supporting, decoy, and irrelevant",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37624v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:49:39.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1q237zq",
-   "pri": 45,
-   "kind": "note",
-   "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
-   "ctx": "Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire training trajectory using the \\emph{accumulated effective learning rate}, $C_T=\\sum_{t<T}η_t/\\|W_t\\|_F$, where $η_t$ is the nominal learning rate and $η_t/\\|W_t\\|_F$ is the effective learning rate relative to the weight norm. For bounded update",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37647v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:56:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-03j1gzg",
-   "pri": 45,
-   "kind": "note",
-   "title": "Noise Steering: Exploiting Wake Steering and Acoustic Directivity for Noise-Constrained Wind Farm Control via Reinforcement Learning",
-   "ctx": "Existing noise mitigation strategies for wind farms usually consist in reducing turbines power output, without accounting for the wake interactions between them and the noise emission directivity. This leads to over-conservative policies and unexploited wind power. Yet, turbine yaw can simultaneously affect wake interactions and the direction of noise emission, offering an additional degree of freedom for farm-level noise control. We therefore propose Noise Steering, a model-free reinforcement l",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36888v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T09:23:45.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-069bj1b",
-   "pri": 45,
-   "kind": "note",
-   "title": "Self-Keyed In-Parameter Memorization for External Memory-Free Dialogue Recall in Frozen Language Models",
-   "ctx": "A large language model maintains conversational content in an external storage that is outside the model and grows as the dialogue continues. This work assumes an environment where a language model has no external memory and no prior knowledge of the future question or its answer. The motivation is to research whether a dialogue can be stored in the model parameters and later answer a question about it. This work proposes self-keyed in-parameter memorization (SKIM), a closed-form method in which",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36948v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T10:10:11.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-07qr2gy",
-   "pri": 45,
-   "kind": "note",
-   "title": "Vision-Language Agents Can Learn in Their Own Latent Worlds",
-   "ctx": "Learning from experience is essential for building the next generation of agents that continually expand their capabilities. Pretrained vision-language models (VLMs) already internalize rich world knowledge, yet this knowledge is rarely leveraged to drive policy improvement through online interaction. Realizing this potential efficiently remains challenging, as policy updates shift the agent's interaction distribution, requiring the world model to adapt accordingly, while continually updating la",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36925v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T09:51:08.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-09kxn2i",
-   "pri": 18,
-   "kind": "note",
-   "title": "Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance",
-   "ctx": "Can additional specialist language-model contexts improve software assurance when deterministic tool evidence is already available? We study this question through five experiments spanning authored Java warning controls, OWASP Benchmark assessment, Defects4J test generation, SV-COMP assertion verdicts, and deliberately misleading evidence packages. The evaluated systems use Qwen2.5-Coder-7B-Instruct, with a 1.5B sensitivity analysis, and complete 13,638 model requests. On eight related developme",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36947v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T10:06:26.000Z",
-   "sub": "arXiv cs.AI · introduces \"Agent Scaling\"",
-   "extract": {
-    "ok": true,
-    "chars": 4561,
-    "lead": "Computer Science > Software Engineering arXiv:2610.36947v1 (cs) [Submitted on 27 Oct 2026] Title: Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance Authors: S M Abdulla Al Mamun , Akif Islam , Mohd. Ruhul Ameen View a PDF of the paper titled Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance, by S M Abdulla Al Mamun and 2 other authors View PDF HTML (experimental) Abstract: Can additional specialist language-model contexts improve software assurance when deterministic tool evidence is already available? We study this question through five experiments spanning authored Java warning controls, OWASP Benchmark assessment, Defects4J test generation, SV-COMP assertion verdicts, and deliberately misleading evidence packages. The evaluated systems use Qwen2.5-Coder-7B-Instruct, with a 1.5B sensitivity analysis, and complete 13,638 model requests. On eight related development warnings, increasing the context count from 1 to 50 increases token use 49-fold without improving unsafe clearance. On 160 OWASP cases, model configurations trade clearance against unresolved outcomes; the ten-context arm a",
-    "truncated": false,
-    "title": "[2610.36947v1] Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance",
-    "fetchedAt": "2026-10-28T02:00:27.200Z",
-    "full": "full/f-arxiv-cs.AI-09kxn2i.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0dypw5p",
-   "pri": 45,
-   "kind": "note",
-   "title": "Developing a Speech Language Model for Basque",
-   "ctx": "Although the recent development of LLMs has paved the way for multi-modal interaction, minority languages face difficulties keeping pace. This work presents the first open Speech Language Model for Basque, designed for low-latency, end-to-end spoken interaction. Based on the LLaMA-Omni architecture, the system integrates a Latxa model as its backbone, transferring its Basque capabilities to the spoken modality by fine-tuning several modules. To address data scarcity, the English VoiceAssistant-4",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36911v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T09:40:42.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0jrvj7n",
-   "pri": 45,
-   "kind": "note",
-   "title": "RubricAtlas: Mining Type-Level Rubrics from Expert Reports to Evaluate Deep Research Agents",
-   "ctx": "Deep research agents conduct multi-step Web searches and synthesise retrieved information into analytical reports. Evaluating these outputs requires checking which analyses they deliver, beyond the presence of relevant facts. Query-specific binary rubrics make individual requirements explicit, but task-level checklists may leave the overall analytical structure underexamined. We introduce RubricAtlas, which derives type-level analytical requirements from expert reports on different objects withi",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36878v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T09:18:00.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0xvqmgm",
-   "pri": 45,
-   "kind": "note",
-   "title": "GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents",
-   "ctx": "Mobile GUI agents are typically fine-tuned 7B-scale vision-language models (VLMs) that generate each action as text. However, these VLMs decode every action token by token, and even agents that score candidate actions keep a large language model or VLM in the loop, making them slow and memory-hungry. To address these issues, we propose GUI-JEPA, to our knowledge the first decoder-free GUI agent policy built on a Joint-Embedding Predictive Architecture (JEPA), which selects actions in the latent ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.36877v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T02:00:27.200Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T09:17:51.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2421,8 +2408,8 @@
    "slow": 97,
    "daily": 3
   },
-  "routed": 30,
-  "unrouted": 70,
+  "routed": 28,
+  "unrouted": 72,
   "unmappedLaneFamilies": []
  }
 }
