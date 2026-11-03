@@ -1,7 +1,245 @@
 {
- "generatedAt": "2026-11-03T05:31:02.422Z",
+ "generatedAt": "2026-11-03T06:00:39.813Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-08olrjg",
+   "pri": 45,
+   "kind": "note",
+   "title": "They Know Where It Is, But Not What It Says: A Bilingual Hallucination Benchmark of Hadith Recall in Open LLMs",
+   "ctx": "Large language models are increasingly consulted for religious knowledge, including the recall of specific Hadith (recorded sayings and actions of the Prophet Muhammad, peace be upon him). Unlike open-ended generation, Hadith recall is a high-stakes, verifiable task: a reference (collection, chapter, and Hadith number) has exactly one correct text, and any deviation from it constitutes a fabrication that can be mistaken for authentic scripture. This study introduces a bilingual (English/Arabic) ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02587v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T06:12:57.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0d2e0mn",
+   "pri": 45,
+   "kind": "note",
+   "title": "Sequential Recovery Updates for Learned Controllers under Successful-Trajectory Preservation",
+   "ctx": "A competent learned controller already recovers from many disturbances. Improving it means learning a correction, and learning when not to apply it. Freezing a skill's parameters does not settle the second half. In a controller that routes among frozen skills, a new entry rule can redirect the states an old skill succeeded on. We therefore constrain entry instead of parameters. Each update searches for a feedback skill at a measured failure. It fits an entry rule that reads observations and reje",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02555v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T05:28:18.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0sojj6t",
+   "pri": 45,
+   "kind": "note",
+   "title": "AVID: A 5T fMRI Dataset for Benchmarking Auditory-induced Visual Mental Imagery Decoding",
+   "ctx": "Visual mental imagery (VMI) decoding uses brain activity to reconstruct internally generated visual scenes, providing a potential pathway for externalizing internal experiences and developing neuroprosthetic communication interfaces. However, progress is limited by the lack of dedicated, training-scale VMI datasets. Current VMI paradigms often rely on visual prompts or short-term memory images, introducing visual and mnemonic confounds that make it difficult to disentangle neural activity associ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02593v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T06:17:53.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0vdx4iq",
+   "pri": 45,
+   "kind": "note",
+   "title": "Probing Local Conditional Fit for Diffusion Model Membership Inference",
+   "ctx": "Membership inference determines whether a candidate example was used to train a text-to-image diffusion model and is an important tool for auditing training-data use. We identify a directional membership signal in \\emph{conditional prediction shifts}, the changes in predicted noise under alternative text conditions at a fixed noisy input: whether movement toward the alternative prediction initially lowers or raises the denoising loss from its value under the original caption. Members exhibit les",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02578v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T06:03:54.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-15q7eiz",
+   "pri": 45,
+   "kind": "note",
+   "title": "StateFence: Task-State Protection Against Evidence-Chain Contamination in Blue-Team LLM Agents",
+   "ctx": "Indirect prompt injection creates a distinctive risk for blue-team Large Language Model (LLM) agents in Security Operations Centers (SOCs). Malicious instructions can be embedded in telemetry, tickets, retrieval results, or memory and then propagate through alert triage, incident summarization, response recommendation, and Indicator of Compromise (IOC) extraction as locally plausible intermediate decisions. We characterize this failure mode as evidence-chain contamination of protected task state",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02605v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T06:28:45.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ckrca5",
+   "pri": 45,
+   "kind": "note",
+   "title": "Scientific Liquidity Agents: An Agent-Based Model of Knowledge Arbitrage in Scientific Communities",
+   "ctx": "Scientific knowledge gains new uses when ideas, methods, and results move between research contexts. Understanding this process requires a model of both specialized knowledge production and the intermediary activities that connect it. We introduce Scientific Liquidity Agents (SLA), an agent-based model of knowledge arbitrage in scientific communities. SLA represents domain specialists and epistemic arbitrageurs within a shared environment of research problems, researcher interactions, and scient",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02539v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T05:09:40.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1i3suvz",
+   "pri": 45,
+   "kind": "note",
+   "title": "Parallelism-Aligned Pruning and Round-Aware Context Reuse for On-Device Multimodal Agents",
+   "ctx": "On-device multimodal agents are limited by two deployment mismatches: pretrained attention structures may not divide evenly across the compute cores of an edge accelerator, causing irregular partitions; and standard prefix caching keeps historical visual tokens in the persistent KV cache, whose capacity grows with the number of rounds. We present PARC, which combines parallelism-aligned structured pruning with lifetime-aware KV-cache reorganization. At the model level, it uses first-order Taylor",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02601v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T06:26:26.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1kmb7w0",
+   "pri": 45,
+   "kind": "note",
+   "title": "BasisKV: Value Latents for Communication and Key Routing",
+   "ctx": "Long-context large language model (LLM) inference is increasingly constrained by the cost of maintaining an ever-growing KV-cache. Low-rank K/V projections provide a promising way to compress the KV-cache with minimal quality loss, but prior work has largely optimized KV-cache compression in isolation, leaving distributed inference, especially with tensor parallelism where attention computation is partitioned across multiple GPUs, largely underexplored. We make two observations: (i) tensor-paral",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02583v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T06:07:14.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1stm05j",
+   "pri": 45,
+   "kind": "note",
+   "title": "Whitened Advantage Summation Policy Optimization: Correlation-Aware Aggregation for Multi-Reward Reinforcement Learning",
+   "ctx": "Reinforcement learning for language models often combines several rewards by normalizing each one and adding them with fixed weights. When the rewards are correlated, the variation they share is counted once for every reward that carries it. In terms of the ZCA-decorrelated components of the reward signal, the weighted sum applies weights $Σ^{1/2} w$ rather than the chosen weights $w$, where $Σ$ is the reward correlation matrix. We study WAS-PO, which whitens the normalized advantages with $Σ^{-",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02609v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T06:30:27.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1t9eaqo",
+   "pri": 45,
+   "kind": "note",
+   "title": "EEFA: A Framework for the Ethical Evaluation of AI Agents",
+   "ctx": "The rapid deployment of autonomous AI agents across consequential domains including healthcare, legal services, nancial management, and enterprise workows has created an urgent governance challenge. While the eld of AI evaluation has produced sophisticated benchmarks for measuring agent capability, these frameworks measure exclusively what agents can do rather than how they do it. The ethical dimensions most critical to responsible agent deployment, in- cluding respect for human autonomy, harm a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.02561v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-03T06:00:26.959Z",
+   "tier": "B",
+   "itemTs": "2026-11-02T05:38:45.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0418vmg",
    "pri": 45,
@@ -2146,245 +2384,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-anthropic-news-1li0let",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Ai for science expands foundations research institutions",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-10-28T20:30:30.015Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 8253,
-    "lead": "Chapter 01 : Science funders and societies We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program , which gives free Claude credits to researchers working on high-impact scientific projects. We started the AI for Science program in May 2025 with the belief that AI could significantly speed up scientific progress. Our goal is to increase access to AI tools and resources to enable researchers to deepen and expand their own scientific work. (Over the last few months, we’ve also launched our discounted Team plan for scientists and have supported hundreds of projects across biology, medicine, physics, chemistry, climate science, and mathematics.) Scientists have told us that they’re working with Claude to generate hypotheses, design experiments, swiftly analyze complex data, and communicate findings. With scientists at the center of this transformation, the field is setting the questions and developing the research projects that will help us tackle some of humanity’s toughest problems. Over the past year, we’ve started to expand this work and partner with scientific org",
-    "truncated": false,
-    "title": "AI for Science expands to foundations and institutions \\ Anthropic",
-    "fetchedAt": "2026-10-28T20:30:30.015Z",
-    "full": "full/f-anthropic-news-1li0let.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-status-01slpyf",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors affecting the Google Calendar connector",
-   "ctx": "Oct 28 , 16:19 UTC Investigating - We are investigating elevated errors affecting the Google Calendar connector. Some requests to list or search calendar events have been failing since October 26. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/phg1y2yh07n2",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-28T16:30:27.151Z",
-   "tier": "A",
-   "itemTs": "2026-10-28T16:19:10.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-anthropic-status-15yl2wd",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors affecting the Gmail connector",
-   "ctx": "Oct 28 , 03:59 UTC Investigating - We are investigating elevated errors when searching and reading email with the Gmail connector. This issue does not affect other connectors. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/9ftx658xtd5z",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-10-28T04:00:27.619Z",
-   "tier": "A",
-   "itemTs": "2026-10-28T03:59:32.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-001qxyb",
-   "pri": 45,
-   "kind": "note",
-   "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-   "ctx": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strength",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37666v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:59:52.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-02hkq1o",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Answer Changes: Matched Same-Class Controls for Local Audio Evidence",
-   "ctx": "For audio-language models, an answer change after a local sound-event edit can reflect a response to the event's class, sensitivity to waveform rewriting, or both. We compare matched same-class and different-class replacements of a queried event. Both use the same interval, level estimate, donor fitting, and crossfade, while the same-class replacement preserves the correct answer. Across 600 synthetic soundscapes and three models from two architecture families, different-class replacements produ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37605v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:36:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0dqpgac",
-   "pri": 45,
-   "kind": "note",
-   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-   "ctx": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to investigate? To evaluate this ability, we introduce LongChang, an automated framework that creates simulated worlds with altered physics, where one or more laws differ from ordinary ph",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37649v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:57:00.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0es0i37",
-   "pri": 45,
-   "kind": "note",
-   "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
-   "ctx": "Chain-of-thought reasoning has substantially advanced video understanding in multimodal large language models (MLLMs). However, language-based reasoning traces do not provide a reliable mechanism for models to revisit relevant visual evidence, leading to visual forgetting and impairing their ability to reason over video content. Existing approaches maintain visual grounding during reasoning in two main ways: they either refer to evidence using textual coordinates, which specify symbolic location",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37613v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:41:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0m1yhwb",
-   "pri": 45,
-   "kind": "note",
-   "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
-   "ctx": "Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. How these different kinds of knowledge are learned as pretraining progresses remains unclear. Recent point-in-time models trained on web snapshots from different years provide a way to probe how knowledge prevalence varies over time. Using these models, we propose a temporal variability score (TVS), defined as the coefficient of variation of an item's negative log-likelihood ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37631v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:52:38.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0qjohto",
-   "pri": 45,
-   "kind": "note",
-   "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
-   "ctx": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate frame may be rotated independently (per-entity frame freedom), three things follow. In the pure-gauge sector, relations that share no cycle cannot interact at all. The only gauge-invariant score of a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37656v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:58:48.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1a48oap",
-   "pri": 45,
-   "kind": "note",
-   "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
-   "ctx": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are developed. We present KPPax, a kinetic preprocessor that generates differentiable, just-in-time compiled, and vectorisable chemistry code in JAX from mechanisms written in the KPP language. KPPax evaluates the rate law with sparse operations in lo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.37655v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-28T03:00:26.825Z",
-   "tier": "B",
-   "itemTs": "2026-10-27T17:58:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2405,11 +2404,10 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 97,
-   "daily": 3
+   "slow": 100
   },
-  "routed": 28,
-  "unrouted": 72,
+  "routed": 32,
+  "unrouted": 68,
   "unmappedLaneFamilies": []
  }
 }
