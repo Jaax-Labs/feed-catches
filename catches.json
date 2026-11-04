@@ -1,7 +1,243 @@
 {
- "generatedAt": "2026-11-04T02:00:55.132Z",
+ "generatedAt": "2026-11-04T02:30:35.374Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-01pnfso",
+   "pri": 45,
+   "kind": "note",
+   "title": "Reciprocity Can Erase Direction:tructural Boundaries and Controlled Utility of Magnetic Graph Networks",
+   "ctx": "Magnetic graph networks encode direction through phase, but a learned graph can erase the intended directional mechanism before prediction. We characterize this failure for support-based magnetic Laplacians. Exact identities relate imaginary energy and distance from zero phase to amplitude-weighted reciprocity. Top-$k$ selection forces complete collapse when the observed-node count satisfies $m\\leq k+1$, and dense support imposes a lower bound on reciprocal-arc fraction. We then construct paired",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04295v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T04:21:29.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-02p1fcg",
+   "pri": 45,
+   "kind": "note",
+   "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+   "ctx": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04277v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T04:03:44.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0dmtg1m",
+   "pri": 45,
+   "kind": "note",
+   "title": "Bidirectional Centered Score Matching for Discrete Diffusion Distillation",
+   "ctx": "Discrete diffusion models with parallel decoding are often distilled using token-wise KL objectives. Although token-wise KL exactly matches the corresponding product-form block distributions, its probability-space optimization geometry and teacher-only candidate truncation may provide insufficient supervision under aggressive few-step distillation. Concrete Score Matching (CSM) provides an alternative within-position objective by aligning relative logit geometry, but its complete pairwise form i",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04279v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T04:05:41.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0eki5rw",
+   "pri": 45,
+   "kind": "note",
+   "title": "Neologism Inoculation Prompting",
+   "ctx": "Inoculation prompting is a method to reduce undesired behaviours such as reward hacking in frontier models. It works by training a model on harmful examples under a prompt that specifies the undesired behaviour, which reduces the model's tendency to exhibit it unless prompted. However, the inoculation prompt is written in plain English, so any user can re-elicit the behaviour easily. We introduce neologism inoculation prompting (NIP), which replaces the English prompt with a new token that is tr",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04260v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T03:52:15.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0klghh9",
+   "pri": 45,
+   "kind": "note",
+   "title": "SEAM: Situated Executable Associative Memory for a Co-located Community",
+   "ctx": "In groups, knowledge is distributed among individuals, and how it is brought together depends on social ties. Taking inspiration from how a single mind recalls and reacts to memories and current stimulus, we build a shared memory that does this for a community, prototyped as a social app, SEAM. Members post arbitrary moments; SEAM works out how fragments relate, distills knowledge about the group, and replies in a situated and associative way. Some of these memories act as instructions that can ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04296v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T04:24:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0xefj0l",
+   "pri": 45,
+   "kind": "note",
+   "title": "When Debate Amplifies Risk: Social-Bias Vulnerabilities in Multi-Agent Safety Deliberation",
+   "ctx": "Retrieval-augmented Web applications increasingly employ multi-agent debate (MAD) to aggregate conflicting, noisy, and heterogeneous information, yet deliberation is fundamentally a social process susceptible to interpersonal dynamics. When retrieved Web sources contain latent hazards alongside safe factual content, social biases such as conformity pressure and authority deference can override evidence-grounded safety boundaries. In this work, we investigate whether the social structure of delib",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04289v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T04:16:06.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-11uallk",
+   "pri": 45,
+   "kind": "note",
+   "title": "FlowTranslator: Training-Free In-Image Machine Translation with Flow-Based Editing",
+   "ctx": "In-image machine translation (IIMT) replaces text in an image with its translation while preserving the surrounding visual context. Existing task-specific models achieve convincing performance but require massive paired training images before and after translation. As advanced text-to-image (T2I) models have reached a practically usable level of multilingual text generation, we argue that this capability can be transferred to IIMT and present FlowTranslator. It is a training-free IIMT framework ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04303v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T04:33:47.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1bvqsoj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Predicting protein structures at any folding stage from sequence",
+   "ctx": "Protein structure predictors reliably identify native conformations, but do not describe the continuum connecting unfolded ensembles to folded states. Here we present FoldScape, a sequence-conditioned deep learning framework that generates C$α$ conformational ensembles at a specified folding fraction $Q$. FoldScape reconstructs three-dimensional chains through hierarchical, sliding-window regressions of one-dimensional inter-residue distances, followed by chain assembly and sampling with a recti",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04287v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T04:15:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1dsovem",
+   "pri": 45,
+   "kind": "note",
+   "title": "OSGR: Observation-Support Graph Reasoning for Earth Observation Question Answering",
+   "ctx": "Answering geographic queries over Earth observation (EO) archives requires solving a joint retrieval-and-derivation problem under strict spatiotemporal constraints. Existing LLM agents fail to ground observation items or suffer from search-space explosion. We propose OSGR, a two-stage framework that factorizes this search into offline symbolic concept deduction and online Relation-Conditioned Grounding. OSGR leverages an offline Observation-Support Graph to deduce valid target-to-result support ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04301v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T04:31:43.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1qi7m4g",
+   "pri": 45,
+   "kind": "note",
+   "title": "Reliability Stress Testing of RAG Retrieval under Query-Relevant Corpus Poisoning",
+   "ctx": "External text can affect a retrieval-augmented generation (RAG) system only after the retriever admits it to the model context. We stress this admission step while varying document content, attacker query information, per-target poison budget, and contamination scope. Across 623 Benchmarking Information Retrieval (BEIR) queries from SciFact and NFCorpus, five query-targeted documents per query reduce classical-retriever nDCG@10 by 40.2-61.5% in isolated-target stress. Full-query anchoring explai",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.04264v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-04T02:30:27.374Z",
+   "tier": "B",
+   "itemTs": "2026-11-03T03:52:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-04v1drp",
    "pri": 45,
@@ -2039,29 +2275,6 @@
    "questions": []
   },
   {
-   "id": "f-arxiv-cs.AI-1vxh2jl",
-   "pri": 45,
-   "kind": "note",
-   "title": "When to spend privacy: optimal allocation in private learning",
-   "ctx": "Privacy accounting bounds the cumulative privacy cost of Differentially Private Stochastic Gradient Descent but does not determine how to allocate a fixed budget across iterations. We formulate the complete Gaussian noise-variance schedule as an open-loop control under a composed zero-Concentrated Differential Privacy constraint, explicitly accounting for schedule selection. For expected quadratic terminal tracking, we prove that every local minimizer exhausts the certified budget, yielding an e",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.39954v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T05:00:27.011Z",
-   "tier": "B",
-   "itemTs": "2026-10-29T12:51:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-arxiv-cs.AI-04tgisb",
    "pri": 45,
    "kind": "note",
@@ -2179,226 +2392,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1519sml",
-   "pri": 18,
-   "kind": "note",
-   "title": "Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering",
-   "ctx": "AI coding agents now do long, multi-step and multi-session software work with little supervision. When a developer comes back to that work, the useful question is not what the model said but what was actually done, by whom, and whether it is finished. We study this in three parts. First, we verify Agenttrail, an open-source local observability tool for coding agents, against its source at commit e4ba2da: nine documented constants and mechanisms hold at file-and-line level, two event pipelines ar",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.39468v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T04:00:26.922Z",
-   "tier": "B",
-   "itemTs": "2026-10-29T06:40:12.000Z",
-   "sub": "arXiv cs.AI · introduces \"Software Engineering\"",
-   "extract": {
-    "ok": true,
-    "chars": 4984,
-    "lead": "Computer Science > Software Engineering arXiv:2610.39468v1 (cs) [Submitted on 29 Oct 2026] Title: Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering Authors: Mohammed Nayeem Khan , K S Sarun Kumar View a PDF of the paper titled Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering, by Mohammed Nayeem Khan and 1 other authors View PDF Abstract: AI coding agents now do long, multi-step and multi-session software work with little supervision. When a developer comes back to that work, the useful question is not what the model said but what was actually done, by whom, and whether it is finished. We study this in three parts. First, we verify Agenttrail, an open-source local observability tool for coding agents, against its source at commit e4ba2da: nine documented constants and mechanisms hold at file-and-line level, two event pipelines are never unified, and its Map service has an unauthenticated local mutation surface. Second, we run a prototype of our system on 45 real coding-agent sessions (102,233 records, 20,577 tool executions, 2,336 human-to-agent episodes). With a blind-audited classifier (precis",
-    "truncated": false,
-    "title": "[2610.39468v1] Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering",
-    "fetchedAt": "2026-10-30T04:00:26.922Z",
-    "full": "full/f-arxiv-cs.AI-1519sml.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1gq4475",
-   "pri": 45,
-   "kind": "note",
-   "title": "Integrating Heterogeneous Echocardiography AI Outputs in Language Space: Learnable Late Fusion with a Supervised LLM",
-   "ctx": "View- and target-specific echocardiography AI models capture useful but complementary information and may not achieve sufficient predictive performance in isolation. A learned ensemble is a natural way to combine these outputs, but heterogeneous models typically require each output to be converted into a binary decision, probability, confidence score, or fixed-length feature vector. We developed a supervised large language model (LLM)-based late-fusion module that directly aggregates view-specif",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.39464v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T04:00:26.922Z",
-   "tier": "B",
-   "itemTs": "2026-10-29T06:36:39.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1mw8gas",
-   "pri": 45,
-   "kind": "note",
-   "title": "FDSML: Formula-Driven Supervised Metric Learning with Parameter-Aware Triplet Loss",
-   "ctx": "Formula-Driven Supervised Learning (FDSL) enables vision pre-training without real images, but existing methods cast pre-training as classification on discretized labels, discarding continuity in the generative process. We propose Formula-Driven Supervised Metric Learning (FDSML), which derives relational supervision from image-generation parameters beyond discrete class labels. FDSML combines FineFractalDB, our refined fractal dataset with higher intra-class variation and more stable structures",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.39423v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T04:00:26.922Z",
-   "tier": "B",
-   "itemTs": "2026-10-29T06:02:45.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1u33vjq",
-   "pri": 45,
-   "kind": "note",
-   "title": "Does Federated Training Degrade Explainability? A Comparative Analysis of Grad-CAM Faithfulness in Centralized vs. Federated Deepfake Detection",
-   "ctx": "Automated detection has become the essential safeguard against realistic synthetic media, but deploying it at scale requires training on sensitive data from multiple organizations, putting privacy and the transparency demanded by forensic review in direct conflict. Federated learning resolves the privacy side by sharing only model updates rather than raw data, but whether this comes at the cost of trustworthy gradient-based explanations, which analysts rely on to decide whether or not to trust a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.39483v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T04:00:26.922Z",
-   "tier": "B",
-   "itemTs": "2026-10-29T06:49:14.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1w6nzre",
-   "pri": 45,
-   "kind": "note",
-   "title": "Kairos: Semantics-Aware Orchestration of Planning Engines across Classical, Numeric, Temporal and Hybrid PDDL",
-   "ctx": "Planning at run time, as in robots that re-plan while they act, needs a planner that reads the PDDL its users write (durative actions, numeric resources, time windows, continuous change), answers quickly, and delivers only validated plans. Specialised planners are strong on individual fragments of PDDL, but they differ in coverage, latency and in what their failures mean. We study whether selecting heterogeneous engines from the semantics of each task can give broad coverage of PDDL, from STRIPS",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.39454v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T04:00:26.922Z",
-   "tier": "B",
-   "itemTs": "2026-10-29T06:25:01.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-01zydeu",
-   "pri": 45,
-   "kind": "note",
-   "title": "CopyLoop: Fast Looped Transformer Decoding via Context Copying and Shallow Screening",
-   "ctx": "Looped Transformers increase computational capacity through the repeated application of shared blocks, but their recurrent depth makes conventional full-depth decoding expensive. While existing speculative pipelines accelerate generation by processing consecutive token positions at varying depths, they are typically limited by sequential decoding overheads. We introduce CopyLoop, a training-free decoding algorithm that combines low-cost context-copy proposals with shallow screening and continuou",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.38822v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T02:30:26.695Z",
-   "tier": "B",
-   "itemTs": "2026-10-28T20:16:54.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-021d1lc",
-   "pri": 45,
-   "kind": "note",
-   "title": "Discovering Jailbreaks via Curriculum of Models",
-   "ctx": "Automated jailbreak discovery aims to find prompts that elicit prohibited behaviors from safety-trained language models, helping developers identify vulnerabilities before deployment. One class of approaches uses reinforcement learning to train an investigator model to generate prompts that elicit a specified behavior from a target model. However, training directly against a safety-trained target is difficult because nearly all prompts are refused, leaving the investigator with a sparse reward s",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.38833v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T02:30:26.695Z",
-   "tier": "B",
-   "itemTs": "2026-10-28T20:23:32.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-032pfdh",
-   "pri": 45,
-   "kind": "note",
-   "title": "Leaving, Staying, or Living There? Duration Commonsense Reasoning with Human-LLM Co-annotations",
-   "ctx": "Gardening in the backyard implies living there, while checking into an Airbnb more likely means staying for a few days. Such duration judgments are important for understanding human mobility, travel behavior, and social context. However, duration is rarely stated explicitly in social media posts and must instead be inferred from noisy textual, visual, and contextual cues. In this paper, we investigate whether vision-language models possess such duration commonsense. We create a new corpus of geo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.38755v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T02:30:26.695Z",
-   "tier": "B",
-   "itemTs": "2026-10-28T19:35:59.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0bhpiuv",
-   "pri": 45,
-   "kind": "note",
-   "title": "Autonomous Quantum Measurement with Agentic AI",
-   "ctx": "Quantum materials exhibit diverse electronic and functional phenomena, but their characterization requires extensive experimental expertise, iterative decision-making and accumulated laboratory knowledge that is difficult to document and transfer. Here we introduce Quantum Agent (QUANTA), an agentic artificial intelligence (AI) framework for autonomous quantum-materials characterization. Using a widely adopted Physical Property Measurement System (PPMS) as an experimental platform, QUANTA combin",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2610.38850v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-10-30T02:30:26.695Z",
-   "tier": "B",
-   "itemTs": "2026-10-28T20:33:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2421,8 +2414,8 @@
   "clocks": {
    "slow": 100
   },
-  "routed": 35,
-  "unrouted": 65,
+  "routed": 36,
+  "unrouted": 64,
   "unmappedLaneFamilies": []
  }
 }
