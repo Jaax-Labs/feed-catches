@@ -1,7 +1,200 @@
 {
- "generatedAt": "2026-11-06T02:30:47.527Z",
+ "generatedAt": "2026-11-06T03:00:33.677Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-01gahlx",
+   "pri": 45,
+   "kind": "note",
+   "title": "IMUDINO: Self-distilled Foundation Model for Inertial Sensing",
+   "ctx": "We present IMUDINO, the first foundation model (FM) for inertial sensing to achieve competitive performance across diverse sensing tasks including human activity recognition (HAR), health, motion capture, and odometry. Prior inertial FMs often focus on one subfield of inertial sensing and sometimes underperform state-of-the-art supervised methods (e.g., in HAR), making their scope considerably narrower than FMs for vision and natural language. Moreover, they often require fixed input length and ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.07437v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-06T03:00:27.160Z",
+   "tier": "B",
+   "itemTs": "2026-11-05T04:35:16.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-083iqog",
+   "pri": 45,
+   "kind": "note",
+   "title": "Selective Retrieval Routing for Multi-Violation Knowledge Graph Repair",
+   "ctx": "Knowledge graphs often contain missing or inconsistent facts that undermine the applications built on them. Schema validation detects such violations but does not identify which of several valid repairs recovers the intended graph. External corpora can supply the evidence needed to identify the intended repair, but retrieving from them is costly and not always successful. We propose a framework for selective retrieval in iterative graph repair. An LLM repair agent explores and edits the graph, w",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.07342v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-06T03:00:27.160Z",
+   "tier": "B",
+   "itemTs": "2026-11-05T02:29:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-09ngcu7",
+   "pri": 45,
+   "kind": "note",
+   "title": "FreePath: Neural Mean Free Path for Image Dehazing",
+   "ctx": "Single image dehazing requires recovering scene radiance from visual responses that are weakened and veiled by participating media. Existing methods either invert explicit scattering variables, which can be unstable under complex scenes, or learn direct restoration mappings, which often discard the physical organization of haze formation. We present \\emph{FreePath}, a neural mean free path framework for image dehazing. Instead of estimating atmospheric parameters, FreePath represents dehazing as",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.07398v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-06T03:00:27.160Z",
+   "tier": "B",
+   "itemTs": "2026-11-05T03:50:56.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ixvwat",
+   "pri": 45,
+   "kind": "note",
+   "title": "Permanent and Transient Representations for Continual Reinforcement Learning",
+   "ctx": "Continual Reinforcement Learning (CRL) agents struggle to adapt to new situations while retaining prior knowledge, leading to a stability-plasticity trade-off. One approach to solving this problem is by using complementary learning systems: one for slow, long-term learning and another for quick, transient adaptation. Anand & Precup (2023) instantiated this idea using permanent and transient value functions, but used the same features in both systems. Intuitively, long-term learning should rely m",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.07327v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-06T03:00:27.160Z",
+   "tier": "B",
+   "itemTs": "2026-11-05T02:11:47.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0tgk7xj",
+   "pri": 45,
+   "kind": "note",
+   "title": "EnvOpt: Automated Optimization for Agent Environments",
+   "ctx": "An LLM agent's cost and success depend on its model, its harness, and its environment. In addition to the widely studied directions of parameter tuning and harness optimization, we propose the third direction: optimization over stationary environments. Agents are often deployed in rich environments shared by many tasks, such as a company's Slack workspace or a complex collection of data sources, documents or tickets. We call these environments stationary environments. We introduce EnvOpt, a meth",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.07372v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-06T03:00:27.160Z",
+   "tier": "B",
+   "itemTs": "2026-11-05T03:16:52.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-18erxyx",
+   "pri": 45,
+   "kind": "note",
+   "title": "Test-Time Self-Play: Scaling without a Verifier",
+   "ctx": "Test-time scaling methods spend additional compute at deployment to improve a large language model's performance on a hard target problem. Most methods rely on a verifier that scores candidate solutions for correctness, using it to select among or refine the model's outputs. In many deployment regimes, however, a strong verifier on the target problem is unavailable. We introduce Test-Time Self-Play (TTSP), an approach to test-time scaling using asymmetric self-play without reliance on a verifier",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.07367v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-06T03:00:27.160Z",
+   "tier": "B",
+   "itemTs": "2026-11-05T03:07:02.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1h7x6jm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Typed Knowledge over Constructive Institutions",
+   "ctx": "Type theories designed for mathematics or program verification need only that a proposition holds; proof irrelevance in conversion erases, at the kernel level, how a claim was established. A persistent knowledge store, by contrast, must retain that record: who established a claim, by which derivation or external tool, and under which assumptions. This volume presents the theory of Eigenius---a store of typed knowledge over constructive institutions---and develops its metatheory from that require",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.07432v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-06T03:00:27.160Z",
+   "tier": "B",
+   "itemTs": "2026-11-05T04:28:30.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1lacq3b",
+   "pri": 45,
+   "kind": "note",
+   "title": "PSGAgent: Enhancing MLLMs' Dynamic Visual Perception for Panoptic Scene Graph Generation via Agentic Reasoning",
+   "ctx": "Panoptic Scene Graph generation (PSG) requires holistic yet fine-grained reasoning over complex relations among objects. However, current Multimodal Large Language Models (MLLMs) applied to PSG suffer from a perception bottleneck: they function as static observers limited by fixed-resolution views. As a result, models often overlook critical relations involving small or peripheral objects and struggle to differentiate ambiguous predicates in complex scenes. To address these limitations, we propo",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.07408v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-06T03:00:27.160Z",
+   "tier": "B",
+   "itemTs": "2026-11-05T04:02:16.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0b3j698",
    "pri": 45,
@@ -186,31 +379,6 @@
    "detectedAt": "2026-11-05T06:30:27.212Z",
    "tier": "B",
    "itemTs": "2026-11-04T18:56:22.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1r456ev",
-   "pri": 45,
-   "kind": "note",
-   "title": "CompressionBench: How can your coding agents compress LLMs?",
-   "ctx": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously. We formulate compression as a terminal task in which an agent receives a source checkpoint, storage limit, inference environment, and time budget, then constructs compressed weights a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06858v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T06:30:27.212Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T18:14:50.000Z",
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": [
@@ -2230,169 +2398,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0g7xi3j",
-   "pri": 45,
-   "kind": "note",
-   "title": "Log-Driven Semantic Tuning for Mixed Integer Programming Solvers",
-   "ctx": "Automated configuration of mixed-integer programming (MIP) solvers largely relies on black-box optimization. Each trial requires an expensive solver run and provides only a scalar outcome, so tuning can require many such evaluations. Human experts take a different approach. They inspect solver logs, identify performance bottlenecks, and adjust the parameters that address them. We propose Log-Driven Semantic Tuning (LDST), which uses a large language model (LLM) to automate this process. LDST ext",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.00621v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-03T03:30:26.864Z",
-   "tier": "B",
-   "itemTs": "2026-10-31T04:43:28.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0jtpgmo",
-   "pri": 45,
-   "kind": "note",
-   "title": "Evidence-grounded large language models guide perovskite solar cell design and optimization",
-   "ctx": "Using large language models to interpret experimental evidence, design discriminating experiments and formulate well-supported mechanistic explanations remains a central challenge in materials research. Here we establish PSM-Bench, an 800-question benchmark developed by perovskite researchers to evaluate scientific reasoning in perovskite photovoltaics. We also introduce OpenPerov, an expert-informed language-model framework that learns from expert-calibrated evidence records reconstructed from ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.00633v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-03T03:30:26.864Z",
-   "tier": "B",
-   "itemTs": "2026-10-31T04:57:32.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0uaoifw",
-   "pri": 45,
-   "kind": "note",
-   "title": "LM6-CastBench: A Geometry-Aware Simulation Dataset for Transient Thermal Prediction in LM6 Sand Casting",
-   "ctx": "Transient thermal fields during solidification connect casting process conditions and cooling behaviour to the formation of defect-prone regions in aluminum cast ings. Repeatedly solving this thermal problem across geometries and process conditions is computationally expensive, motivating data-driven surrogate models. However, existing machine-learning studies on casting thermal behaviour rely on study-specific simulation databases that do not support reproducible geometry-level benchmarking. We",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.00619v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-03T03:30:26.864Z",
-   "tier": "B",
-   "itemTs": "2026-10-31T04:39:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0vp6724",
-   "pri": 45,
-   "kind": "note",
-   "title": "XLA from the Trenches: Correctness on TPU Workloads at Scale",
-   "ctx": "Accelerating modern foundational models has pushed domain-specific compilers toward increasingly complex, multi-tiered optimization pipelines. However, this heavy optimization focus introduces delicate tradeoffs between peak execution performance and correctness. Subtle codegen defects can trigger numerical degradation and memory or buffer corruption, invalidating multi-million-dollar training runs and degrading live serving quality without raising obvious compiler errors. In this paper, we pres",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.00624v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-03T03:30:26.864Z",
-   "tier": "B",
-   "itemTs": "2026-10-31T04:48:13.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-14haa5v",
-   "pri": 45,
-   "kind": "note",
-   "title": "Trail: Accurate Local Smart Home Control Using Decision Models",
-   "ctx": "Natural-language driven smart home control remains challenging: cloud-hosted Large Language Models (LLMs) raise privacy concerns, while local Small Language Models (SLMs) can generate invalid actions or misinterpret requests. We introduce Trail (Typed Registry-Anchored Inference for Language commands in Smart Homes), a fully local framework that replaces open-ended command generation with hierarchical typed decisions. Trail exploits the natural structure of a home's action space, selecting a roo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.00610v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-03T03:30:26.864Z",
-   "tier": "B",
-   "itemTs": "2026-10-31T04:13:21.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-16ogdfa",
-   "pri": 45,
-   "kind": "note",
-   "title": "Words Before Pixels: Selective Modality Routing for Vision-Language Model Unlearning",
-   "ctx": "Vision-language model (VLM) unlearning is often treated as an objective-design problem: given multimodal forget data, the goal is to optimize a loss that removes undesirable behavior while preserving retained capabilities. We argue that this view overlooks an equally important data-centric question: how should each forget example be represented before optimization? Existing methods typically keep image-conditioned failures in their original image-text form, implicitly assuming that pixels are th",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.00608v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-03T03:30:26.864Z",
-   "tier": "B",
-   "itemTs": "2026-10-31T04:09:27.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1f9qdj5",
-   "pri": 45,
-   "kind": "note",
-   "title": "Autonomous Analysis of Thermoelectric Materials Big Data by Multi-Agentic AI and Construction of a Knowledge Base and Specialized AI",
-   "ctx": "Extracting knowledge from large databases of experimental materials data requires repeated analyses and reusable records of their choices and results. We developed Multi-Agentic AI (MAA), a multi-agent system in which AI agents with distinct roles analyze experimental thermoelectric data under predefined instructions and quality checks, saving analysis records traceable to their sources. In four experiments varying theme and cycle counts, we measured what accumulated in these records. In the lar",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.00627v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-03T03:30:26.864Z",
-   "tier": "B",
-   "itemTs": "2026-10-31T04:51:41.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2415,8 +2420,8 @@
   "clocks": {
    "slow": 100
   },
-  "routed": 36,
-  "unrouted": 64,
+  "routed": 38,
+  "unrouted": 62,
   "unmappedLaneFamilies": []
  }
 }
