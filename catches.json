@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-08T08:00:46.863Z",
+ "generatedAt": "2026-11-08T08:30:34.892Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-0l83tsa",
+   "pri": 33,
+   "kind": "note",
+   "title": "Degraded performance for Claude Fable 5.1",
+   "ctx": "Nov 8 , 08:28 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5.1. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/kw2lxj1th04c",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-08T08:30:26.954Z",
+   "tier": "A",
+   "itemTs": "2026-11-08T08:28:33.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-08kzbrh",
    "pri": 45,
@@ -2391,29 +2416,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-10olz7v",
-   "pri": 45,
-   "kind": "note",
-   "title": "An Experimental Study of Hybrid Retrieval, NLI and Open-source LLMs for Scientific Claim Verification",
-   "ctx": "Claim verification is the task of deciding whether a source text supports a claim, contradicts it, or lacks sufficient evidence. Natural Language Inference (NLI) models can judge whether a single sentence supports or contradicts a claim, but they struggle when the evidence is spread across several sentences. Conversely, Large Language Models (LLMs) can reason across sentences, but may draw conclusions the text does not support. In this experimental study, we test whether a conservative fusion ru",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.03093v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-03T07:00:26.859Z",
-   "tier": "B",
-   "itemTs": "2026-11-02T13:12:13.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2434,10 +2436,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 100
+   "daily": 1,
+   "slow": 99
   },
-  "routed": 37,
-  "unrouted": 63,
+  "routed": 38,
+  "unrouted": 62,
   "unmappedLaneFamilies": []
  }
 }
