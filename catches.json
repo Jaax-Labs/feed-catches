@@ -1,7 +1,206 @@
 {
- "generatedAt": "2026-11-10T07:30:35.894Z",
+ "generatedAt": "2026-11-10T08:01:10.591Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-03dl5if",
+   "pri": 45,
+   "kind": "note",
+   "title": "PORT: Preference Optimization via Robust Token-Level Reweighting",
+   "ctx": "Preference optimization has become a central approach for aligning large language models with human values, but its effectiveness depends heavily on the quality of preference annotations. In practice, preference data is often noisy due to annotation errors and ambiguity. Existing robust preference optimization methods primarily operate at the sequence level, implicitly treating entire responses as uniformly correct or incorrect. However, rejected responses may still contain informative reasoning",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.12763v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T08:00:26.967Z",
+   "tier": "B",
+   "itemTs": "2026-11-09T17:38:16.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-04y5w8q",
+   "pri": 45,
+   "kind": "note",
+   "title": "2D Gum-Net: Unsupervised Dense Elastic Image Registration via Symmetric Correlation and Spectral Pooling",
+   "ctx": "Dense non-rigid registration, the recovery of a pixel-wise deformation field that warps one image into geometric agreement with another, is fundamental across medical imaging, structural biology, and correspondence estimation, yet learning-based approaches face a severe bottleneck: ground-truth deformation fields are notoriously difficult to obtain for real data. We present 2D Gum-Net, an end-to-end architecture that predicts dense elastic deformation fields fully unsupervised. We transfer the G",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.12805v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T08:00:26.967Z",
+   "tier": "B",
+   "itemTs": "2026-11-09T18:11:45.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-07o48u0",
+   "pri": 18,
+   "kind": "note",
+   "title": "LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion",
+   "ctx": "Log-based anomaly detection is increasingly dominated by large pretrained models, from BERT-scale encoders to 8B-parameter language models, which require GPUs at inference time and are difficult to deploy on the monitoring nodes where logs are produced. We present LogCDM, a compact detector that scores each log session using three complementary signals: the next-event surprise of a small causal Transformer, the distance between a graph-attention embedding of the session's own transition graph an",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.12775v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T08:00:26.967Z",
+   "tier": "B",
+   "itemTs": "2026-11-09T17:48:31.000Z",
+   "sub": "arXiv cs.AI · introduces \"Behavioral Graph Drift\"",
+   "extract": {
+    "ok": true,
+    "chars": 4591,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2611.12775v1 (cs) [Submitted on 9 Nov 2026] Title: LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion Authors: Suryansh Talukdar , Taha Sarwat , Jin Soung Yoo View a PDF of the paper titled LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion, by Suryansh Talukdar and 2 other authors View PDF HTML (experimental) Abstract: Log-based anomaly detection is increasingly dominated by large pretrained models, from BERT-scale encoders to 8B-parameter language models, which require GPUs at inference time and are difficult to deploy on the monitoring nodes where logs are produced. We present LogCDM, a compact detector that scores each log session using three complementary signals: the next-event surprise of a small causal Transformer, the distance between a graph-attention embedding of the session's own transition graph and that of a normal reference graph, and a transition-drift statistic that we show is exactly a frequency-weighted chi-squared divergence between transition kernels. The divergence view yields an asymptotic null distribution, a length-s",
+    "truncated": false,
+    "title": "[2611.12775v1] LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion",
+    "fetchedAt": "2026-11-10T08:00:26.967Z",
+    "full": "full/f-arxiv-cs.AI-07o48u0.txt"
+   },
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0jla92y",
+   "pri": 45,
+   "kind": "note",
+   "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+   "ctx": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO training of LLM agents, the best-validation checkpoint fails on problems that earlier checkpoints from the same run had already solved, and the union of problems solved across checkpoints far exceeds any single one. The discarded checkpoints thus form a teacher pool obtained at no addit",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.12799v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T08:00:26.967Z",
+   "tier": "B",
+   "itemTs": "2026-11-09T18:07:42.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0rzbsax",
+   "pri": 45,
+   "kind": "note",
+   "title": "LUCQUE: A lung cancer screening dataset from Québec for reliable AI evaluation",
+   "ctx": "BACKGROUND: AI-based tools are expected to play a key role in lung cancer screening (LCS). The evaluation of these tools often relied on private datasets or fragmented public datasets with inconsistent availability of clinical data and expert nodule annotations. This has hindered reproducibility, comparability, and independent assessment of AI tools. To address these gaps, we present LUCQUE, a novel, large, comprehensively annotated dataset derived from LDCT lung cancer screening in Québec, whic",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.12817v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T08:00:26.967Z",
+   "tier": "B",
+   "itemTs": "2026-11-09T18:21:18.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0uez5rw",
+   "pri": 45,
+   "kind": "note",
+   "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+   "ctx": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some executable shortcuts earn more reward than every compliant strategy. Encoding these conflicts in task dynamics lets us generate diverse interactive environments at scale and derive co",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.12865v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T08:00:26.967Z",
+   "tier": "B",
+   "itemTs": "2026-11-09T18:52:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-12ejde8",
+   "pri": 45,
+   "kind": "note",
+   "title": "MaxIM: Maximally Informative Incremental Summarization via Reinforcement Learning",
+   "ctx": "AI systems must often maintain bounded memory of unbounded interaction histories. However, optimizing the memory representation, and its updates, for downstream task utility is difficult for standard reinforcement learning (RL) due to severe credit assignment bottlenecks induced by sparse, delayed rewards. We introduce MaxIM (Maximally Informative Incremental Memory), a framework that formulates incremental summarization as a capacity-constrained, information-theoretic reward-shaping problem. Gr",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.12825v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T08:00:26.967Z",
+   "tier": "B",
+   "itemTs": "2026-11-09T18:25:42.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14i3hlw",
+   "pri": 45,
+   "kind": "note",
+   "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+   "ctx": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant memories and overlook heterogeneous evidence needs across queries. We introduce \\textbf{\\hivemem}, a multimodal memory framework that interleaves \\textbf{\\textsc{H}}or\\textbf{\\text",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.12872v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T08:00:26.967Z",
+   "tier": "B",
+   "itemTs": "2026-11-09T18:57:00.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0536l77",
    "pri": 45,
@@ -140,29 +339,6 @@
    "detectedAt": "2026-11-10T07:00:26.573Z",
    "tier": "B",
    "itemTs": "2026-11-09T15:02:29.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1mzt9gi",
-   "pri": 45,
-   "kind": "note",
-   "title": "MARS: Multiscale Appearance-Residual Streams for Video Forgery Detection",
-   "ctx": "Generalizing deepfake detection across facial manipulation and fully generated video remains challenging due to forgery traces varying with the manipulation method and scene content. Explicit spatial and temporal feature differences offer a way to capture this variation, but also respond to natural texture and motion, motivating their joint interpretation with appearance features. We investigate whether combining multiscale feature differences with adapted appearance representations improves det",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12508v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T07:00:26.573Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T14:48:33.000Z",
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
@@ -2240,175 +2416,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0j5sn69",
-   "pri": 45,
-   "kind": "note",
-   "title": "Within-Family EfficientNet Scaling under Fixed-Resolution Transfer Learning for Spectral-Domain Optical Coherence Tomography Retinal Disease Classification",
-   "ctx": "Background/Objectives: CNNs perform well in retinal disease classification from spectral-domain optical coherence tomography (SD-OCT), but whether EfficientNet's natural-image scaling hierarchy transfers to medical-image transfer learning at fixed resolution remains unclear. This study evaluates EfficientNet-B0-B7 for four-class SD-OCT classification and accuracy-efficiency trade-offs. Methods: Eight ImageNet-pretrained variants (4.05-64.10M instantiated backbone parameters) were evaluated at 22",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06452v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T04:30:27.028Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T12:53:44.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0mus5hh",
-   "pri": 45,
-   "kind": "note",
-   "title": "EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking",
-   "ctx": "Active embodied question answering requires agents to acquire evidence through viewpoint changes and physical interaction. The central challenge is to avoid undirected interaction: taking plausible actions without specifying what evidence they should reveal for answering the question. Action plans and accumulated histories alone can leave the informational purpose of an interaction implicit. We introduce EviSeek, a training-free framework that makes question-derived evidence demands explicit acq",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06434v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T04:30:27.028Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T12:35:04.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0phim9t",
-   "pri": 45,
-   "kind": "note",
-   "title": "ArcRAG: Agentic Compositional Retrieval over Knowledge Graphs",
-   "ctx": "Graph-based retrieval-augmented generation (GraphRAG) answers questions by retrieving over a knowledge graph built from a corpus. Yet retrieval strategies are designed around the structure their own construction pipeline produces, and whether they survive a change of construction is rarely tested. We study this cross-construction portability: whether one retrieval procedure, with no construction-specific schema, relation names, or retuning, stays effective when the graph is built differently. We",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06481v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T04:30:27.028Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T13:20:51.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0qhxdok",
-   "pri": 45,
-   "kind": "note",
-   "title": "Microdroplet Generator Surrogate Enhancement and Inverse Design Through an Uncertainty-Guided Framework",
-   "ctx": "Microfluidic droplet generation is critical for many applications, yet efficient device design in high-dimensional parameter spaces remains computationally prohibitive due to complex multiphase flow dynamics. This work presents a unified methodology that couples adaptive surrogate enhancement with simulation-driven inverse design. High-fidelity Volume-of-Fluid simulations provide ground-truth data, while neural network ensembles predict flow regimes and droplet diameters. Ensemble-based uncertai",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06464v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T04:30:27.028Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T13:01:32.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-14ykwm0",
-   "pri": 45,
-   "kind": "note",
-   "title": "FPTR: Feasibility-Preserving Transactional Refinement for Deadline-Constrained Joint Beam and Resource Allocation",
-   "ctx": "Short-interval wireless schedulers must return a complete, feasible beam-and-resource allocation before each execution deadline, and a late or invalid output gives no utility in the current control cycle. Searching longer can increase transmitted traffic, but it may also miss the deadline or leave only an infeasible intermediate solution. We propose Feasibility-Preserving Transactional Refinement (FPTR), which always keeps a validated feasible allocation, the incumbent. Each refinement stage bui",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06491v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T04:30:27.028Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T13:27:57.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-17gfwrl",
-   "pri": 45,
-   "kind": "note",
-   "title": "SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory",
-   "ctx": "Long-horizon language-model agents accumulate increasingly large interaction histories, making context compaction essential for efficient execution. Existing learned compaction methods often rely on downstream task outcomes or solver behavior, coupling training to specific tasks or agents. We introduce SumOne, a standalone summarizer trained to preserve information in agent histories through masked reconstruction. Given a summary of the expired history, a frozen reconstructor recovers randomly m",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06445v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T04:30:27.028Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T12:49:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1hunw5c",
-   "pri": 45,
-   "kind": "note",
-   "title": "Model Merging Does Not Require Uniform LoRA Ranks",
-   "ctx": "Model merging combines separately fine-tuned experts into a single model without retraining. Standard practice trains every expert at the same LoRA rank, which couples the rank choice across experts even though each domain has its own best rank. We show this coupling is a property of the merge method, not of merging. We train 36 experts on three domains (mathematics, instruction following, multilingual) at four ranks and three model scales, then merge with six methods at uniform ranks and at eac",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06486v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T04:30:27.028Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T13:26:44.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
