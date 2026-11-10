@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-11-10T11:30:32.539Z",
+ "generatedAt": "2026-11-10T12:01:08.702Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-0yj1qtk",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Roadshow launch",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/roadshow-launch",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-11-10T12:00:26.805Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 1815,
+    "lead": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock. The proposed offering consists of 825,000,000 shares of Class A common stock. Of these, 801,351,354 shares are being offered by Anthropic and 23,648,646 shares are being offered by certain existing stockholders. Anthropic will not receive any proceeds from the sale of shares by the selling stockholders. Anthropic also expects to grant the underwriters a 30-day option to purchase up to an additional 123,750,000 shares of its Class A common stock. The initial public offering price is expected to be between $70.00 and $78.00 per share. Anthropic has applied to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014. A registration stateme",
+    "truncated": false,
+    "title": "Anthropic launches roadshow for proposed initial public offering \\ Anthropic",
+    "fetchedAt": "2026-11-10T12:00:26.805Z",
+    "full": "full/f-anthropic-news-0yj1qtk.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-03dl5if",
    "pri": 45,
@@ -1393,31 +1425,6 @@
    ]
   },
   {
-   "id": "f-arxiv-cs.AI-1mlm4g0",
-   "pri": 45,
-   "kind": "note",
-   "title": "From LoRA to Language: Recovering Skill Documents from Adapters",
-   "ctx": "Agent skills are short documents that teach a language model how to handle a class of tasks. To save context, these documents are increasingly compiled into low-rank adapters (LoRA), which keep the behaviour but lose the text: an adapter is hard to read, edit, audit or move to another model. We ask whether the skill document can be written back from the adapter and its frozen base model, and we score each recovered document by the share of the original's key instructions it states and by the tas",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.09454v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-09T03:30:26.769Z",
-   "tier": "B",
-   "itemTs": "2026-11-06T13:26:43.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
    "id": "f-arxiv-cs.AI-0823mje",
    "pri": 45,
    "kind": "note",
@@ -2436,11 +2443,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 99,
-   "daily": 1
+   "daily": 2,
+   "slow": 98
   },
-  "routed": 38,
-  "unrouted": 62,
+  "routed": 37,
+  "unrouted": 63,
   "unmappedLaneFamilies": []
  }
 }
