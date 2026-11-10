@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-10T21:30:46.443Z",
+ "generatedAt": "2026-11-10T22:00:40.542Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1k4ttpe",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors on Fable 52 and Mythos 52",
+   "ctx": "Nov 10 , 21:47 UTC Resolved - Overloaded errors on Fable 5.2 and Mythos 5.2 for four minutes. Incident has been mitigated.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/pgz8r13pk4sm",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-10T22:00:26.945Z",
+   "tier": "A",
+   "itemTs": "2026-11-10T21:47:48.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-news-0yj1qtk",
    "pri": 6,
@@ -2398,31 +2423,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1j2lokk",
-   "pri": 45,
-   "kind": "note",
-   "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
-   "ctx": "In this work, we evaluate a simple inference-time scaling approach based on \\textit{turn-level best-of-N sampling} (\\method) for large language model (LLM) agents on complex, long-horizon tasks. We instantiate this using a \\textit{generator-selector} framework with two LLMs; at each turn, a \\emph{generator} model generates $N$ candidate actions and a \\emph{selector} model selects one of them, which is then executed in the environment. This paper is closely related to the work of \\cite{zainullina",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06868v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T06:30:27.212Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T18:23:14.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2443,8 +2443,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 2,
-   "slow": 98
+   "daily": 3,
+   "slow": 97
   },
   "routed": 37,
   "unrouted": 63,
