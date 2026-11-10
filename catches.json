@@ -1,7 +1,218 @@
 {
- "generatedAt": "2026-11-10T04:30:37.849Z",
+ "generatedAt": "2026-11-10T05:00:39.499Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-0h9bohe",
+   "pri": 45,
+   "kind": "note",
+   "title": "TID System for Speech-COSER Challenge 2026: ASR Track",
+   "ctx": "We describe the system submitted by Telefónica Innovación Digital to the Speech-COSER Challenge 2026, which features spontaneous speech from elderly speakers recorded in rural Spain. For ASR, we perform CTC-based pseudo-forced alignment scores audio-text match quality to guide a two-stage LoRA curriculum, followed by post-hoc magnitude pruning of the LoRA matrices to enhance generalization. An ensemble of seven systems combined via ROVER achieves 36.25\\% unnormalized and 22.17\\% normalized WER.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11497v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T16:50:34.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0iintbn",
+   "pri": 45,
+   "kind": "note",
+   "title": "Learning to Rank Propagators in Constraint Programming",
+   "ctx": "The order in which propagators are executed can substantially affect the performance of constraint programming solvers, yet propagator priorities are typically determined by fixed, manually designed heuristics. In this work, we explore learning instance-dependent propagator priorities from static problem features. We formulate the task as a learning-to-rank problem, addressing the challenge that the quality of a priority assignment can be measured through solver runtime, while the desired priori",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11447v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T15:18:52.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0skh3gl",
+   "pri": 45,
+   "kind": "note",
+   "title": "GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation",
+   "ctx": "Generating accurate CAD models requires substantial engineering expertise and careful control of geometry, topology, and mechanical constraints. Text-to-CAD aims to simplify this process, but current LLM-based methods often generate CAD programs directly. Language models remain unreliable when producing long code while coordinating coupled geometric, topological, and dimensional constraints. Consequently, executable programs may still produce structurally incorrect models, which execution rate a",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11470v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T16:07:56.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0tqloir",
+   "pri": 45,
+   "kind": "note",
+   "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
+   "ctx": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the model being trained. Such mismatch can destabilize reinforcement learning (RL), but its effects on OPD remain unclear. This paper investigates how much mismatch OPD tolerates, wher",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11450v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T15:22:47.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0w6fgm4",
+   "pri": 45,
+   "kind": "note",
+   "title": "Robust and Private Swarm Learning via Zero-Knowledge Validator Admission and Consensus Aggregation",
+   "ctx": "Swarm Learning improves resilience and removes the need for a single trusted coordinator by distributing model aggregation and validation across participating nodes. However, it also delegates the validation of model updates to peers whose private data may be biased, unrepresentative, or adversarial, and existing Swarm Learning protocols generally do not attest that data, leaving decentralized validation as an attack surface. We present a robust, privacy-preserving Swarm Learning framework that ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11477v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T16:15:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0y1uars",
+   "pri": 45,
+   "kind": "note",
+   "title": "How to \"train\" a surgeon? Benchmarking generalist agents in surgical scene understanding",
+   "ctx": "Evaluating general-purpose multimodal large language models (MLLMs) for surgical scene understanding remains limited due to scarce surgical data and fragmented evaluation protocols. We address these challenges through a two-stage evaluation framework for surgical scene understanding. In Stage I, we introduce SurgKnowBench, a diagnostic benchmark that harmonizes public surgical datasets across procedures and tasks and evaluates proprietary and open-source MLLMs to map the boundary of pretrained s",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11437v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T15:00:44.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ysapdq",
+   "pri": 45,
+   "kind": "note",
+   "title": "Vietnamese Legal Ontology: Every legal answer, traced to the article that grounds it",
+   "ctx": "A legal answer is only as good as the article it rests on. Vietnam's largest open legal corpus pairs 109,543 published questions and answers with 573,851 legal documents, yet its citations are free text: \"Khoan 3 Dieu 101 cua Bo luat nay\" (\"Clause 3, Article 101 of this Code\") names neither the code nor its version. Following the five stages of NVIDIA Auto Ontology, Discover, Ground, Validate, Expose and Learn, we turn four open datasets into a knowledge graph of 11.5 M nodes and 16.0 M edges in",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11426v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T14:39:10.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1fpkywn",
+   "pri": 45,
+   "kind": "note",
+   "title": "RealEmbedBench: Benchmarking LLMs on Real-World Application-Layer Embedded Software Tasks",
+   "ctx": "Large language models (LLMs) perform well on general coding tasks, but their capabilities in application-layer embedded software development remain underexplored. Existing embedded benchmarks primarily focus on hardware-in-the-loop validation in simulated environments. We introduce RealEmbedBench, a benchmark of 5,142 samples covering three application-layer tasks: code generation and completion, state machine modeling and implementation, and cross-OS code translation. We evaluate six representa",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11469v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T16:05:31.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1inbnfi",
+   "pri": 45,
+   "kind": "note",
+   "title": "MOMENT-DP: Momentum Aware Evaluation of Correlated Noise for Differentially Private Training",
+   "ctx": "Temporally correlated noise can substantially improve the utility of differentially private optimization, yet candidate mechanisms are commonly designed or evaluated using only partial information about the optimization process, such as workload structure, learning-rate schedules, or local curvature. We study whether persistent optimizer state provides additional information that can change the relative utility of privacy-valid correlated-noise mechanisms. We introduce MOMENT-DP, an optimizer-st",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.11457v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-10T05:00:26.697Z",
+   "tier": "B",
+   "itemTs": "2026-11-08T15:38:51.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-04xrcow",
    "pri": 45,
@@ -1300,29 +1511,6 @@
    "questions": []
   },
   {
-   "id": "f-arxiv-cs.AI-1npvkn9",
-   "pri": 45,
-   "kind": "note",
-   "title": "Towards interpreting any residual stream direction by scaling activation inversion",
-   "ctx": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residual stream directions from a subject model to text exemplars that strongly activate those directions. Our objective is to maximise the cosine similarity of a supplied residual stream direction with the ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08465v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:54:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-arxiv-cs.AI-04229ag",
    "pri": 45,
    "kind": "note",
@@ -2221,194 +2409,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0zfbsbm",
-   "pri": 45,
-   "kind": "note",
-   "title": "Split-KV: Efficient Context Parallelism for Training Diffusion Drafters",
-   "ctx": "Diffusion drafters accelerate speculative decoding by denoising multiple draft tokens in parallel. Their training uses anchor sampling to construct compact draft queries and performs cross-attention with a block-sparse mask over a much longer context. We empirically show that acceptance length remains stable as context scales with a fixed query budget, while increasing the query budget yields diminishing quality gains, jointly establishing a practical regime with queries far shorter than the con",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.05926v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T03:00:27.559Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T04:16:46.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-16r4qc5",
-   "pri": 45,
-   "kind": "note",
-   "title": "Do Saliency Maps Fail Dense Breasts? A Chance-Normalized, Confounder-Aware Audit of Explanation Fairness in Mammography",
-   "ctx": "Saliency maps, offered as evidence that mammography classifiers use the cancer, are untested in dense breasts, which can hide cancers. We tested whether they locate cancers worse there, and why. On 1,345 malignant CBIS-DDSM views, we scored three CNNs' Grad-CAM, Integrated Gradients and occlusion maps by whether their peak hits the lesion and a chance-normalized lesion-to-background saliency ratio (bits; +1 doubles it). Unadjusted gaps were large: Grad-CAM peaks hit 44% of dense vs. 58% of non-d",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.05909v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T03:00:27.559Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T04:01:32.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1lup3xw",
-   "pri": 45,
-   "kind": "note",
-   "title": "CHARM+: Cross-Hardware Attention with Re-Merge Multistream Mechanism",
-   "ctx": "As sequence lengths continue to grow, distributed attention based on sequence parallel (e.g., Ring-Attention) has become a mainstream solution for large language models (LLMs). Nevertheless, inherent communication dependencies limit computation-communication overlap, reducing GPU utilization. Moreover, in cross-hardware (NUMA or node) architectures, due to imbalanced communication bandwidth, frequent communication synchronization will limit overall performance. Based on these insights, we propos",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.05906v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T03:00:27.559Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T03:57:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1mjynia",
-   "pri": 45,
-   "kind": "note",
-   "title": "BAM: Bivariate Additive Models for Interpretable Tabular Prediction",
-   "ctx": "Generalized Additive Models with pairwise interactions (GA$^2$Ms) are regarded as glass-box models, since each pairwise shape function can be visualized as a contour plot. In practice, the shape functions learned by methods such as EBM or NODE-GAM are so complex (irregular contours and sharp local fluctuations) that a practitioner cannot meaningfully interpret them or check them against domain knowledge. Auditability in this stronger sense requires substantially simpler shape functions. We argue",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.05940v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T03:00:27.559Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T04:28:59.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0nsjrab",
-   "pri": 45,
-   "kind": "note",
-   "title": "Weight-space programming for auditing clinical decision networks",
-   "ctx": "Machine learning models in radiotherapy are commissioned by testing them on cases with known answers, which may not reveal a shortcut that the test cases share with the training data. Frontier language models have recently been reported to read and write the raw weights of small neural networks, an ability called weight-space programming. The purpose of this study was to determine whether such a model, given only a clinical protocol and a network's weights, can audit and repair the network. Netw",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.05341v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-04T06:00:26.740Z",
-   "tier": "B",
-   "itemTs": "2026-11-03T18:41:15.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0p3k00k",
-   "pri": 45,
-   "kind": "note",
-   "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
-   "ctx": "Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in radiation therapy, diagnostic imaging, nuclear medicine and radiation protection, up to clinical tasks such as a TG-51 calibration worksheet. Reference answers come from code implementing the governing protocols, and a gr",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.05340v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-04T06:00:26.740Z",
-   "tier": "B",
-   "itemTs": "2026-11-03T18:40:35.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-11hbuzy",
-   "pri": 45,
-   "kind": "note",
-   "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
-   "ctx": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a DPO-style contrastive update. We re-implement DNO-Prct independently and study it on two open-weight instruct models, Llama 3.1 8B Instruct and Mistral 7B Instru",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.05373v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-04T06:00:26.740Z",
-   "tier": "B",
-   "itemTs": "2026-11-03T18:59:15.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-191shuf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
-   "ctx": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold true for long-horizon agent reasoning. Measuring frontier open-weight models on complex agentic tasks with different speculative decoding approaches, we found that numerical noise grows within verific",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.05345v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-04T06:00:26.740Z",
-   "tier": "B",
-   "itemTs": "2026-11-03T18:45:23.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
