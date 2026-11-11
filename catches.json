@@ -1,7 +1,219 @@
 {
- "generatedAt": "2026-11-11T02:30:39.600Z",
+ "generatedAt": "2026-11-11T03:00:48.976Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-00lcdin",
+   "pri": 45,
+   "kind": "note",
+   "title": "Dark Matters: VAE-Aware HDR Encoding for SDR-to-HDR Video Reconstruction",
+   "ctx": "SDR-to-HDR reconstruction is an ill-posed problem in which clipped highlights, crushed shadows, and quantization artifacts must be recovered while preserving the original content. Latent diffusion models provide powerful generative priors for restoring missing detail, but their effectiveness is constrained by how HDR signals pass through the pretrained VAE. We find that common log-like encodings suppress low-luminance chromatic differences before generation, producing a dark-side collapse in the",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13504v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T03:16:31.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-094mzsr",
+   "pri": 45,
+   "kind": "note",
+   "title": "When Reasoning looks like Hidden Understanding: How Chain-of-Thought Fosters Anthropomorphism, Perceptions of Epistemic Superiority, and Cognitive Deference",
+   "ctx": "As AI-based products permeate society, specifically systems using generative models, a belief system is emerging about what these products are and what they can and cannot do. One common belief concerns the perception of the form of language as evidence of 'understanding' language. As these generative models reproduce linguistic patterns rather than understand meaning, interpreting these patterns as evidence of understanding is a misattribution. This misconception is extended by the notion that ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13456v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T02:00:52.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-09ljg67",
+   "pri": 45,
+   "kind": "note",
+   "title": "Inherited Weights: Measuring the Tokenization Premium and the Sovereignty Cost of Language Models for the Global South",
+   "ctx": "Most language models deployed outside the United States and China are fine-tuned descendants of a small number of pretrained families. We argue that fine-tuning leaves the decisive properties of a model inherited from its base: vocabulary, knowledge, cultural alignment, memorized data and license. We contribute (i) an updated, reproducible measurement of the tokenization premium across 31 languages and 7 tokenizers released in 2023-2024, on 27 articles of the Universal Declaration of Human Right",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13441v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T01:32:16.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0m0o364",
+   "pri": 45,
+   "kind": "note",
+   "title": "Sharp Sample Complexity of KL-Regularized Reinforcement Learning",
+   "ctx": "KL-regularized reinforcement learning, the objective behind maximum-entropy RL and RL from human feedback, is variational inference in the graphical model of \"control as inference\": the regularized optimal policy is a posterior over trajectories, and the suboptimality of a policy is $β$ times a KL divergence between path measures. However, it is not known how many samples it takes to learn this posterior, even with a generative model. Earlier $1/ε$ guarantees scale with $H^5$ in the effective ho",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13480v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T02:42:55.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1dd903q",
+   "pri": 45,
+   "kind": "note",
+   "title": "ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding",
+   "ctx": "Parallel drafters accelerate LLM decoding by proposing a whole block of draft tokens in a single forward pass, making them attractive for LLM serving. Recent systems optimize goodput (i.e., accepted tokens per second) because rejected drafts steal compute from other requests. However, these systems control only how many tokens are verified, so every request still drafts a full block. At high serving load, we find that drafting consumes up to 40% of step time, of which a majority is discarded bec",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13442v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T01:37:38.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1g3liu8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Nepali-English Code-Mixed Speech Recognition: Data Preparation and Adaptation of a Speech Foundation Model",
+   "ctx": "Nepali speakers regularly mix English words into conversation, but multilingual speech recognisers often struggle with language switches and the writing script used for English words. We study how to adapt SraVaani, a 449M-parameter hybrid TDT-CTC model, using a 172.8-hour corpus covering six Nepali speech domains. Its pretrained tokenizer does not support digits and several common symbols. Rather than replace it or discard these recordings, we generate Nepali and English readings for numbers an",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13512v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T03:39:19.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1h8jq0l",
+   "pri": 45,
+   "kind": "note",
+   "title": "The WoW: A Large-Scale World Knowledge Corpus for Full-Lifecycle LLM Training",
+   "ctx": "Existing Chinese educational corpora often suffer from fragmented coverage and a lack of systematic organization. In this paper, we propose WoW (\\textbf{Wo}rld Kno\\textbf{w}ledge), a large-scale dataset designed for the full-cycle training of foundation models. The construction of this dataset is driven by an Educational Knowledge Graph, which serves as a taxonomic backbone for the systematic collection and completion of missing educational modules across all levels. Compared to previous version",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13487v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T02:56:20.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1kk1bld",
+   "pri": 45,
+   "kind": "note",
+   "title": "SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning",
+   "ctx": "We introduce SafeRoute-MAS, a coverage-aware, risk-calibrated procedure that keeps all specialist messages or removes one using only pre-integration information. On a sealed cache of 5,328 committees, its source-compatible operating point gains +1.80 percentage points (95% CI [+1.13, +2.52]) while removing 12.76% of message tokens. We also run 4,580 controlled integrations over a stratified 458-committee sample on a public gpt-oss-120b endpoint. The sample estimate is -0.09 points; design weight",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13454v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T01:56:19.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ksa34v",
+   "pri": 45,
+   "kind": "note",
+   "title": "Reasoning-Aware Relational Representation Learning for Open-Vocabulary Scene Graph Generation",
+   "ctx": "Open-Vocabulary Scene Graph Generation (OV-SGG) requires models to recognize visual relationships beyond the training vocabulary, yet existing methods often rely on dataset-specific object--predicate co-occurrence patterns. Under long-tailed distributions and noisy object localization, such reliance leads to biased, entangled relation representations, limiting both rare-relation recognition and generalization to unseen predicates. To address these challenges, we propose RaRe, a reasoning-aware r",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.13496v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-11T03:00:27.012Z",
+   "tier": "B",
+   "itemTs": "2026-11-10T03:08:22.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-1k4ttpe",
    "pri": 33,
@@ -1621,29 +1833,6 @@
    "questions": []
   },
   {
-   "id": "f-arxiv-cs.AI-1mjfloa",
-   "pri": 45,
-   "kind": "note",
-   "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
-   "ctx": "We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale folding recombines J+1 wavelet subbands prior to tokenization, compressing sequence length from (J+1)CS to CS tokens for J levels, C channels, and S temporal patches. Route-specific front ends and learned channel-name embeddings allow one Transformer per modality to handle diverse montages and sampling rates, while unseen setups reuse the backbone via lightweight adapters. We pre-trai",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08969v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-09T03:00:26.590Z",
-   "tier": "B",
-   "itemTs": "2026-11-06T04:30:15.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-anthropic-status-0l83tsa",
    "pri": 33,
    "kind": "note",
@@ -2235,194 +2424,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1h7x6jm",
-   "pri": 45,
-   "kind": "note",
-   "title": "Typed Knowledge over Constructive Institutions",
-   "ctx": "Type theories designed for mathematics or program verification need only that a proposition holds; proof irrelevance in conversion erases, at the kernel level, how a claim was established. A persistent knowledge store, by contrast, must retain that record: who established a claim, by which derivation or external tool, and under which assumptions. This volume presents the theory of Eigenius---a store of typed knowledge over constructive institutions---and develops its metatheory from that require",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.07432v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T03:00:27.160Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T04:28:30.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1lacq3b",
-   "pri": 45,
-   "kind": "note",
-   "title": "PSGAgent: Enhancing MLLMs' Dynamic Visual Perception for Panoptic Scene Graph Generation via Agentic Reasoning",
-   "ctx": "Panoptic Scene Graph generation (PSG) requires holistic yet fine-grained reasoning over complex relations among objects. However, current Multimodal Large Language Models (MLLMs) applied to PSG suffer from a perception bottleneck: they function as static observers limited by fixed-resolution views. As a result, models often overlook critical relations involving small or peripheral objects and struggle to differentiate ambiguous predicates in complex scenes. To address these limitations, we propo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.07408v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T03:00:27.160Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T04:02:16.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0b3j698",
-   "pri": 45,
-   "kind": "note",
-   "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
-   "ctx": "Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only pipeline already computes. Apparent height is largely unchanged by occlusion, because the detected box still spans the whole person; monocular metric depth is pulled toward the occluder, because the ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06899v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T06:30:27.212Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T18:49:13.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0hjg5uh",
-   "pri": 45,
-   "kind": "note",
-   "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
-   "ctx": "Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness requirements. We introduce ServerBench, a benchmark for agentic design of complete, specialized LLM serving systems. Agents experiment against a common objective, dollars per dollar: late",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06841v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T06:30:27.212Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T17:59:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0khl2hs",
-   "pri": 45,
-   "kind": "note",
-   "title": "CounterFactual Retrieval for Evidence-Aware Individual Animal Identification",
-   "ctx": "Automated identification of individual animals is moving from small curated studies toward shared benchmarks and reusable foundation models. This progress is useful, but current evaluation leaves the evidence behind a match unresolved, i.e., high retrieval accuracy does not show whether a model used animal features or identity-correlated shortcuts. We address this with Counterfactual Foreground Retrieval (CFR), an evidence-aware evaluation protocol. CFR evaluates the same query-gallery task unde",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06864v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T06:30:27.212Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T18:19:26.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0msjwg6",
-   "pri": 45,
-   "kind": "note",
-   "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
-   "ctx": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for physical demands, required education, training and experience, and wages reduces the composite associ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06888v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T06:30:27.212Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T18:41:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-19k4i5x",
-   "pri": 45,
-   "kind": "note",
-   "title": "Perceptive Humanoid Motion from Simulation",
-   "ctx": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture devices, which require at least an hour of human time to produce an hour of data. We present HALO, a ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06908v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T06:30:27.212Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T18:55:33.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1f6z65x",
-   "pri": 45,
-   "kind": "note",
-   "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
-   "ctx": "Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders have demonstrated notable performance gains over classical iterative algorithms. In this paper, we propose a Generalized Belief Propagation Network (GBPNet) that preserves message-passing symmetry while enhancing the decoder's learning capability. The architecture uses cascaded variable-node updates and learned element-wise message scalin",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.06874v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-05T06:30:27.212Z",
-   "tier": "B",
-   "itemTs": "2026-11-04T18:29:31.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2443,8 +2444,8 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 3,
-   "slow": 97
+   "slow": 97,
+   "daily": 3
   },
   "routed": 37,
   "unrouted": 63,
