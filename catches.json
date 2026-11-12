@@ -1,7 +1,30 @@
 {
- "generatedAt": "2026-11-12T17:31:11.729Z",
+ "generatedAt": "2026-11-12T18:00:51.179Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-16e91ne",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors affecting the Microsoft 365 connector",
+   "ctx": "Nov 12 , 17:52 UTC Investigating - We are investigating elevated errors and slow responses affecting the Microsoft 365 connector. Requests to mail, SharePoint, Teams chat and calendar through the connector may fail, and new connections to the connector may not complete. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/sqn3fg1l96dl",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-12T18:00:26.680Z",
+   "tier": "A",
+   "itemTs": "2026-11-12T17:52:45.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-02ht3mj",
    "pri": 45,
@@ -2385,29 +2408,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-04229ag",
-   "pri": 45,
-   "kind": "note",
-   "title": "Technohybridism: Recursive Semantic Normalization in AI-Mediated Societies",
-   "ctx": "Language-generating AI systems are no longer only objects of linguistic interaction: their outputs increasingly re-enter the communicative and institutional practices from which their training material was drawn. Drawing on social theory, social epistemology, and the philosophy of language, this article develops a sociotechnical account of that re-entry. We introduce recursive semantic normalization: the process through which machine-generated formulations, once recurrently taken up, evaluated, ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.07984v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T04:30:26.631Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T13:14:00.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2428,8 +2428,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 97,
-   "daily": 3
+   "daily": 4,
+   "slow": 96
   },
   "routed": 38,
   "unrouted": 62,
