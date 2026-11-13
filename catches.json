@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-13T09:30:43.213Z",
+ "generatedAt": "2026-11-13T10:00:37.475Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-0opz36j",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "ctx": "Nov 13 , 09:58 UTC Investigating - We are investigating an issue with users authenticating to Claude.ai and Claude Code. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/nn11wk485zfn",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-13T10:00:27.265Z",
+   "tier": "A",
+   "itemTs": "2026-11-13T09:58:58.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-04tiwvb",
    "pri": 45,
@@ -2388,29 +2413,6 @@
    },
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-139muuy",
-   "pri": 45,
-   "kind": "note",
-   "title": "Decentralised Drone Swarm Formation under Silent Failures with ACO Pheromone Claims and PSO Tuning",
-   "ctx": "We study decentralised drone formation, without a central planner, under the conditions that make it hard: nobody knows how many drones are alive, failures are silent, radio is short-ranged and lossy, and actuation is noisy. In our controller, ant colony optimisation (ACO) allocates drones to picture positions through claims that behave as reinforced, evaporating pheromone and are gossiped between neighbours, so evaporation doubles as failure detection. A particle swarm optimisation (PSO) law fl",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10454v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T03:00:26.765Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T04:06:34.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2431,11 +2433,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 97,
-   "daily": 3
+   "daily": 4,
+   "slow": 96
   },
-  "routed": 36,
-  "unrouted": 64,
+  "routed": 37,
+  "unrouted": 63,
   "unmappedLaneFamilies": []
  }
 }
