@@ -1,7 +1,229 @@
 {
- "generatedAt": "2026-11-13T02:30:33.639Z",
+ "generatedAt": "2026-11-13T03:00:54.610Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-09fmqd8",
+   "pri": 45,
+   "kind": "note",
+   "title": "Same Task, Different Statement: When and How Reformulation Helps LLM Problem Solving",
+   "ctx": "When people face a hard problem, they often restate it in a clearer way before solving it. We study whether the same habit helps large language models by rewriting the statement of a problem. A legal rewrite must keep the meaning, the constraints, and the correct answer unchanged. We test three kinds of rewrites. Decomposition makes hidden subgoals explicit. Typed Reformulation casts the task into a more suitable solving frame. Concept Reduction removes surface detail and exposes the task struct",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.14997v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T03:55:59.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0he5y2r",
+   "pri": 45,
+   "kind": "note",
+   "title": "LLM-Enhanced Deep Reinforcement Learning with Human-in-the-Loop Calibration for Real-Time Optimal Power Flow",
+   "ctx": "Real-time optimal power flow (RT-OPF) requires fast and reliable decision-making under time-varying operating conditions. However, many practical operating preferences and safety related requirements are difficult to encode using conventional numerical rewards alone, which limits the effectiveness and controllability of deep reinforcement learning (DRL) for RT-OPF. To address this issue, this paper proposes an LLM-enhanced DRL framework with human-in-the-loop (HITL) for RT-OPF. The proposed meth",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.15003v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T04:01:40.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0uchn6g",
+   "pri": 18,
+   "kind": "note",
+   "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+   "ctx": "Large language model (LLM) agents increasingly interact with tools and environments, yet plausible model decisions do not always translate into successful execution due to tool-call mismatches, interrupted workflows, and unsupported completion claims. We present EvoX, a Rust-based, multi-model agent runtime guided by The Second Policy, which views the harness as an Operational Policy complementing the foundation model's Semantic Policy. EvoX combines model-facing guidance with deterministic runt",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.15006v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T04:05:54.000Z",
+   "sub": "arXiv cs.AI · introduces \"Agent Harness\"",
+   "extract": {
+    "ok": true,
+    "chars": 4543,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2611.15006v1 (cs) [Submitted on 11 Nov 2026] Title: EvoX: Rethinking the Agent Harness as a Runtime Policy Authors: Haoyang Zhang , Qumeng Sun , Xiao Zhang , Xiang Liu , Zhidong Fan , Junjie Wang View a PDF of the paper titled EvoX: Rethinking the Agent Harness as a Runtime Policy, by Haoyang Zhang and 5 other authors View PDF HTML (experimental) Abstract: Large language model (LLM) agents increasingly interact with tools and environments, yet plausible model decisions do not always translate into successful execution due to tool-call mismatches, interrupted workflows, and unsupported completion claims. We present EvoX, a Rust-based, multi-model agent runtime guided by The Second Policy, which views the harness as an Operational Policy complementing the foundation model's Semantic Policy. EvoX combines model-facing guidance with deterministic runtime control through three complementary mechanisms: Action Realization, Execution Continuity, and Outcome Grounding. To evaluate harnesses without suppressing their native behaviors, we introduce Contrast, a controlled and auditable framework integrating explicit fairness constraints, provid",
+    "truncated": false,
+    "title": "[2611.15006v1] EvoX: Rethinking the Agent Harness as a Runtime Policy",
+    "fetchedAt": "2026-11-13T03:00:28.266Z",
+    "full": "full/f-arxiv-cs.AI-0uchn6g.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-13ejwn5",
+   "pri": 45,
+   "kind": "note",
+   "title": "SkinAdvisor: An AI-Driven Decision Framework for Skin Production Planning via Multi-Modal Transformer Sales Forecasting",
+   "ctx": "Skins, cosmetic in-game items, are a primary revenue stream for modern online games, yet production decisions (which skins to make, when to release, how to price) remain driven by intuition and retrospective analytics. We present SkinAdvisor, an AI-driven decision framework for skin production planning, powered by SkinCast, a deployed multi-modal Transformer forecasting 180-day per-day sales trajectories for unreleased skins. SkinCast couples four encoders: a pretrained Informer for player-prefe",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.15023v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T04:36:07.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-14fh2tu",
+   "pri": 45,
+   "kind": "note",
+   "title": "Estimating Image Creativity",
+   "ctx": "What makes an image creative? Although this may seem like a highly subjective decision, research in psychology suggests that creativity may be based on a set of fundamental creativity dimensions such as novelty, surprise, and arousal. A deeper understanding of image creativity can benefit both research and practical applications. Exploring how human viewers use creativity dimensions to evaluate image creativity may allow us to predict a target image's human-rated creativity automatically. We pre",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.15044v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T05:10:32.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-16avwzi",
+   "pri": 45,
+   "kind": "note",
+   "title": "A Cardiorespiratory Foundation Model Pretrained on Ten Physiological Signals for Perioperative and Critical Care",
+   "ctx": "Arterial, venous, pulmonary artery and intracranial pressures and ventilator waveforms guide decisions in operating rooms and intensive care units, yet foundation models for physiological waveforms have been built almost entirely on the electrocardiogram and photoplethysmogram. We present CARMEN, a single encoder pretrained without labels on ten cardiorespiratory waveforms (2.27 million modality-hours). CARMEN accepts any combination of co-recorded signals from 10 s to 5 min, and a conditioning ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.15004v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T04:02:50.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1fvw88i",
+   "pri": 45,
+   "kind": "note",
+   "title": "Beyond Named Mechanisms: Economic Institutions as a Design Space for Artificial Agents",
+   "ctx": "Multiagent research inherited its economic vocabulary of auctions, markets, prices, bargaining, and matching from a single observed case: human societies. Those institutions bundle identity, competence, execution, ownership, commitment, and settlement in ways that suit agents whose minds are private, who learn rather than copy skills, and who each persist as one person. Engineered agents need not share any of these constraints, making the list of familiar institutions look less like the entirety",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.15017v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T04:18:25.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1fx5i8b",
+   "pri": 45,
+   "kind": "note",
+   "title": "Breaking Bad: \"Going Badly\" Activations Drive Reward Hacking",
+   "ctx": "Humans often cheat when a task is going badly and a goal feels out of reach. We explore and validate an analogous idea in language models: they exhibit a similar internal pressure state that precedes reward hacking. Using everyday stories (crucially, without any hacking examples), we extract a task badness direction that rises as failures accumulate across three models we study (Qwen3.6-27B, GPT-OSS-20B, and Gemma-4-31B). On impossible or difficult coding tasks, task badness rises over the turns",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.14996v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T03:49:11.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1grjnzq",
+   "pri": 45,
+   "kind": "note",
+   "title": "Moving Beyond the DRW Model: Learning Quasar Variability with Generative Models",
+   "ctx": "The optical continuum variability of quasars is often described by a damped random walk (DRW) model, with characteristic damping timescales $τ_{\\rm DRW}$ of hundreds of days and amplitudes $σ_{\\rm DRW}$ of $\\mathcal{O}(0.1)$ magnitudes. This model has been widely used as a null hypothesis to assess the significance of periodic signals in quasar light curves in the search for supermassive black hole binaries, the significance of extreme quasar variability like tidal disruption events (TDEs) and c",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.15040v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-13T03:00:28.266Z",
+   "tier": "B",
+   "itemTs": "2026-11-11T04:59:36.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-16e91ne",
    "pri": 33,
@@ -573,29 +795,6 @@
     "model-switch",
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1ksa34v",
-   "pri": 45,
-   "kind": "note",
-   "title": "Reasoning-Aware Relational Representation Learning for Open-Vocabulary Scene Graph Generation",
-   "ctx": "Open-Vocabulary Scene Graph Generation (OV-SGG) requires models to recognize visual relationships beyond the training vocabulary, yet existing methods often rely on dataset-specific object--predicate co-occurrence patterns. Under long-tailed distributions and noisy object localization, such reliance leads to biased, entangled relation representations, limiting both rare-relation recognition and generalization to unseen predicates. To address these challenges, we propose RaRe, a reasoning-aware r",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.13496v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-11T03:00:27.012Z",
-   "tier": "B",
-   "itemTs": "2026-11-10T03:08:22.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   },
   {
    "id": "f-anthropic-status-1k4ttpe",
@@ -2216,198 +2415,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-08kzbrh",
-   "pri": 45,
-   "kind": "note",
-   "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-   "ctx": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decod",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08483v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:59:29.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0qn2t2i",
-   "pri": 45,
-   "kind": "note",
-   "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
-   "ctx": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. We present MedGraph, a graph memory built for these three cases. Construction extracts dated facts from each sess",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08433v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:27:20.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-13hgisc",
-   "pri": 45,
-   "kind": "note",
-   "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
-   "ctx": "Typed-decision models score options that the caller supplies at request time, so their accuracy depends on label wording that the model's developer does not control. We compare two releases of a 307M-parameter multilingual cross-encoder, Ru-Jev, trained on thirteen Russian-language tasks; the later release adds an augmentation that presents labels in several surface forms. Holding questions fixed and varying only how eighteen routing labels are worded, we evaluate ten label vocabularies, produce",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08439v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:31:24.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-14c82v7",
-   "pri": 45,
-   "kind": "note",
-   "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
-   "ctx": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We define a standardized artifact design comprising a refined codebase, environment",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08452v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:45:36.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1awwj3x",
-   "pri": 45,
-   "kind": "note",
-   "title": "XStack: A Benchmark for ML Repo Migration",
-   "ctx": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1) a practical need, since it unlocks different hardware for researchers, and (2) a natural benchmark: it involves different frameworks and hardware, covers whole repositories, and is long-horizon and ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08472v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:55:54.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1b55anf",
-   "pri": 45,
-   "kind": "note",
-   "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
-   "ctx": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to build increasingly powerful systems without fully understanding how they work, how they will behave in unfamiliar situations, or how to reliably control them. Mechanistic interpretability offers a path towards understanding th",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08438v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:30:54.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1dwpzc9",
-   "pri": 45,
-   "kind": "note",
-   "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-   "ctx": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism and certifiable from finite data, and answer exactly for a deliberately demanding case - the integra",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08469v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:55:31.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1fv8drq",
-   "pri": 45,
-   "kind": "note",
-   "title": "The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
-   "ctx": "Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and preference access; retrieval over summaries and messages, confirmed mutation, and full orchestration. Me",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.08428v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-06T05:00:26.768Z",
-   "tier": "B",
-   "itemTs": "2026-11-05T18:22:24.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2428,11 +2435,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 4,
-   "slow": 96
+   "slow": 96,
+   "daily": 4
   },
-  "routed": 38,
-  "unrouted": 62,
+  "routed": 37,
+  "unrouted": 63,
   "unmappedLaneFamilies": []
  }
 }
