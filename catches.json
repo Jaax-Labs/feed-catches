@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-13T13:00:53.122Z",
+ "generatedAt": "2026-11-13T13:30:31.793Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-0i3sy50",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors on claude.ai, the Claude API, and Claude Code",
+   "ctx": "Nov 13 , 13:09 UTC Investigating - We are investigating reports of degraded performance affecting claude.ai, the Claude API, and Claude Code. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/34wq7gxnxvvm",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-13T13:30:27.253Z",
+   "tier": "A",
+   "itemTs": "2026-11-13T13:09:50.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-0opz36j",
    "pri": 33,
@@ -2381,38 +2406,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0wg625d",
-   "pri": 18,
-   "kind": "note",
-   "title": "Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking",
-   "ctx": "Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. We formulate DLM test-time scaling as adaptive allocation of both inference compute and decoding strategies. Our two-stage approach uses a fast base sampler to solve easy questions,",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10486v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T03:00:26.765Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T05:26:09.000Z",
-   "sub": "arXiv cs.AI · introduces \"Time Scaling\"",
-   "extract": {
-    "ok": true,
-    "chars": 4349,
-    "lead": "Computer Science > Computation and Language arXiv:2611.10486v1 (cs) [Submitted on 7 Nov 2026] Title: Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking Authors: Bowen Zuo , Yue Yu , Dongruo Zhou , Yinglun Zhu View a PDF of the paper titled Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking, by Bowen Zuo and 3 other authors View PDF HTML (experimental) Abstract: Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. We formulate DLM test-time scaling as adaptive allocation of both inference compute and decoding strategies. Our two-stage approach uses a fast base sampler to solve easy questions, then applies frequency-aware remasking to the remaining hard questions. This strategy tracks how often each token's prediction changes across denoising steps and preferentially commits frequently changing tokens, encouraging samples to explore alternative reasoning paths rather ",
-    "truncated": false,
-    "title": "[2611.10486v1] Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking",
-    "fetchedAt": "2026-11-10T03:00:26.765Z",
-    "full": "full/f-arxiv-cs.AI-0wg625d.txt"
-   },
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2433,11 +2426,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 4,
-   "slow": 96
+   "daily": 5,
+   "slow": 95
   },
-  "routed": 37,
-  "unrouted": 63,
+  "routed": 38,
+  "unrouted": 62,
   "unmappedLaneFamilies": []
  }
 }
