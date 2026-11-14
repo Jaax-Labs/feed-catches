@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-14T02:30:30.093Z",
+ "generatedAt": "2026-11-14T03:00:34.701Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1uvyf51",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated purchasing errors on claude.ai",
+   "ctx": "Nov 14 , 02:54 UTC Investigating - We are investigating elevated errors affecting purchases, plan upgrades and cancellations on claude.ai. Core functionality is not affected. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/qrpz8k79qm7x",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-14T03:00:27.184Z",
+   "tier": "A",
+   "itemTs": "2026-11-14T02:54:33.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-0i3sy50",
    "pri": 33,
@@ -2383,29 +2408,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0nt2zap",
-   "pri": 45,
-   "kind": "note",
-   "title": "Beyond Discrete Ancestry Groups: Distribution-Aware In-Context Learning for Cancer Outcome Prediction Across the Genetic Ancestry Continuum",
-   "ctx": "Machine learning models for omics-based prediction of cancer outcomes are commonly built on aggregated data without distinguishing ancestry groups, or under an ancestry-discrete design, which partitions samples into ancestry groups and fits a separate model within each group. Recent evidence shows that this approach is inherently limited: predictive accuracy declines with genetic distance from the training samples, even within a single ancestry group, because the data distribution shifts continu",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10464v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T03:00:26.765Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T04:27:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2426,11 +2428,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 5,
-   "slow": 95
+   "daily": 6,
+   "slow": 94
   },
-  "routed": 38,
-  "unrouted": 62,
+  "routed": 39,
+  "unrouted": 61,
   "unmappedLaneFamilies": []
  }
 }
