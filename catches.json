@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-16T15:00:50.334Z",
+ "generatedAt": "2026-11-16T15:30:54.210Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1t40cnk",
+   "pri": 33,
+   "kind": "note",
+   "title": "Claude unable to join meetings",
+   "ctx": "Nov 16 , 15:12 UTC Update - We are investigating reports of degraded performance affecting claude.ai. We will provide an update as soon as possible. Nov 16 , 15:10 UTC Investigating - We are investigating an issue preventing Claude from joining new calls in Claude Meetings (beta). Calls already in progress are not affected, and core functionality is not impacted. We will provide an update as soon ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/b5cq662qf2wm",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-16T15:30:26.815Z",
+   "tier": "A",
+   "itemTs": "2026-11-16T15:12:56.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-19992u2",
    "pri": 33,
@@ -2393,29 +2418,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0skh3gl",
-   "pri": 45,
-   "kind": "note",
-   "title": "GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation",
-   "ctx": "Generating accurate CAD models requires substantial engineering expertise and careful control of geometry, topology, and mechanical constraints. Text-to-CAD aims to simplify this process, but current LLM-based methods often generate CAD programs directly. Language models remain unreliable when producing long code while coordinating coupled geometric, topological, and dimensional constraints. Consequently, executable programs may still produce structurally incorrect models, which execution rate a",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.11470v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T05:00:26.697Z",
-   "tier": "B",
-   "itemTs": "2026-11-08T16:07:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2436,11 +2438,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 8,
-   "slow": 92
+   "daily": 9,
+   "slow": 91
   },
-  "routed": 43,
-  "unrouted": 57,
+  "routed": 44,
+  "unrouted": 56,
   "unmappedLaneFamilies": []
  }
 }
