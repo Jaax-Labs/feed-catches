@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-16T07:30:35.973Z",
+ "generatedAt": "2026-11-16T08:00:55.622Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-19992u2",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+   "ctx": "Nov 16 , 07:49 UTC Investigating - We are currently investigating this issue.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/r1b4f9bbnsx1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-16T08:00:26.914Z",
+   "tier": "A",
+   "itemTs": "2026-11-16T07:49:55.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-00o2sll",
    "pri": 45,
@@ -605,31 +630,6 @@
    "clock": "slow",
    "questions": [
     "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1hy2h7h",
-   "pri": 45,
-   "kind": "note",
-   "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
-   "ctx": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge this empirically: across multiple NP-hard combinatorial optimization problems, we find no consistent advantage for larger, costlier models. This raises a deeper question: given a pool of LLMs spannin",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.17241v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-13T07:00:27.368Z",
-   "tier": "B",
-   "itemTs": "2026-11-12T18:28:08.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "lab-board"
    ]
   },
   {
@@ -2436,8 +2436,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 93,
-   "daily": 7
+   "daily": 8,
+   "slow": 92
   },
   "routed": 43,
   "unrouted": 57,
