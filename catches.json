@@ -1,7 +1,149 @@
 {
- "generatedAt": "2026-11-16T03:00:48.907Z",
+ "generatedAt": "2026-11-16T03:30:50.121Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-0eybhmy",
+   "pri": 45,
+   "kind": "note",
+   "title": "More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics Prediction from Histology",
+   "ctx": "Spatial transcriptomics (ST) prediction from histology aims to infer spatially resolved gene expression profiles directly from tissue images. This is a challenging problem that is currently often addressed with complicated model architectures, additional inputs, and complicated training procedures, while remaining limited to fixed, small gene panels. This raises a natural question: Is there an efficient method for large-panel ST prediction? Here, we present GeneFlow, a simpler yet effective fram",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.17899v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T03:30:27.100Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T08:35:27.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ezq5tg",
+   "pri": 45,
+   "kind": "note",
+   "title": "Active Learning of Temporal Specifications through Distinguishing Queries",
+   "ctx": "Temporal specifications are essential for verification and monitoring, yet writing formulas that capture the intended behaviour is difficult. Active learning derives such specifications through interaction between a learner and a teacher, but remains underexplored for temporal logics. Existing approaches require the teacher to answer equivalence queries and to construct counterexamples, and they often rely on SAT-based learning procedures that restart the search after each new example. We presen",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.17866v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T03:30:27.100Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T07:55:29.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0k1daaj",
+   "pri": 45,
+   "kind": "note",
+   "title": "Photogrammetric 3D Model-Based Animal Behavior Classification",
+   "ctx": "Video-based behavior estimation is often implemented end-to-end from image sequences. We advocate a two-stage alternative: reconstruct 3D body and object geometry before classifying behavior. This makes ambiguities of the ill-posed 2D-to-3D inverse problem explicit and potentially correctable. We demonstrate the strategy with simulated interacting mice and extend it to real video.",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.17881v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T03:30:27.100Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T08:15:39.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1bw7fm4",
+   "pri": 45,
+   "kind": "note",
+   "title": "Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents",
+   "ctx": "LLM agents that execute multi-step tool calls must satisfy two objectives simultaneously: completing the user's task (utility) and conforming to domain policies and correctness constraints (safety). These objectives are in tension -- blocking an unsafe action prevents a violation but can leave the agent stranded with no principled way to recover. Existing approaches sacrifice one objective for the other. We introduce Soteria, a framework that reconciles safety and utility through verified hierar",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.17880v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T03:30:27.100Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T08:14:04.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1d78u9v",
+   "pri": 45,
+   "kind": "note",
+   "title": "UltraBERT-JEV: Encoder models for System One Applications",
+   "ctx": "We study encoder models that pick one of several options in a single forward pass, without generating text. This technical report compares recipes for fine-tuning UltraBERT-380M with one mask per option. The four recipes differ in how an option is scored and how the scores become probabilities; one follows the expert gate of DeepSeek-V3. Trained on the same data as Qwen3-0.6B with the LLM-as-Jev recipe (67.6% test accuracy), the encoder reaches 69.7% to 72.1%. Scoring an option by \"yes\" minus \"n",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.17867v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T03:30:27.100Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T07:58:46.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1e8kxr0",
+   "pri": 45,
+   "kind": "note",
+   "title": "From Local Prediction Error to Final Outputs: A Theory of Expert Sharing in Multi-Step Reasoning",
+   "ctx": "Mixture-of-experts (MoE) models can share experts across layers or computational steps, pooling training information from different contexts. This can reduce local prediction error, but multi-step systems are ultimately evaluated by their final outputs. We study when these local gains survive composition. In specified linear regression models, we derive exact sharing and merging criteria by balancing variance savings against bias from sharing across roles with different target behavior. Under a ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.17879v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T03:30:27.100Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T08:13:39.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-13hpq8x",
    "pri": 33,
@@ -2266,150 +2408,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1bbnt3x",
-   "pri": 45,
-   "kind": "note",
-   "title": "Approximate Recall, Approximate Forecasts: Recall as a Diagnostic for LLM Forecasting Errors",
-   "ctx": "Large Language Models (LLMs) exhibit approximate recall: they retain coarse associations about past events while losing fidelity on specific details. Past research on LLMs has quantified different models' forecasting ability in real-world events using prediction markets, but has not studied how losing said fidelity impacts their forecasting abilities. For example: while an LLM correctly recalls that the answer to: ''Did Anna Sawai win the Best Drama Actress in the 76th Emmy Awards?'' is ''Yes,''",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10891v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T04:00:26.620Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T18:25:44.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1dbwujk",
-   "pri": 45,
-   "kind": "note",
-   "title": "Semantic Synthesis over Brute-Force Search: LLM-Guided Transformation Design for Efficient Learning",
-   "ctx": "Data transformation pipelines shape the training distribution in computer vision, but designing them is a computationally expensive problem. We investigate whether large language models can enable efficient discovery by synthesizing executable transformation programs outside predefined augmentation spaces. We compare nine strategies under a unified training protocol, including standard augmentation policies, brute-force search, direct code generation with two LLMs, and performance-guided generat",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10940v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T04:00:26.620Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T20:11:34.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0b58rav",
-   "pri": 45,
-   "kind": "note",
-   "title": "BunshinRL: Splitting Live Agent Workspaces for Memory-Efficient Agentic RL",
-   "ctx": "Agentic reinforcement learning (RL) rollouts interleave model reasoning with tool calls in persistent workspaces. Scaling these rollouts incurs substantial memory costs for concurrent environments, while slow tool calls delay entire rollout batches. We present BunshinRL, an agentic RL rollout system that exploits shared environment state and recurring tool calls through three techniques: memory sharing across environments, tool-prefix caching, and speculative tool execution. These techniques bui",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10453v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T03:00:26.765Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T04:05:17.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0cl543l",
-   "pri": 45,
-   "kind": "note",
-   "title": "PatternBloom: Empowering Agentic RAG with Externalized RL-Distilled Graph Patterns",
-   "ctx": "Reinforcement-learning-trained agents for retrieval-augmented generation retrieve content (passages, knowledge-graph fragments, or hyperedges) and supervise training with outcome rewards on the final answer. Across these paradigms the reasoning route through retrieved content never leaves the language model's hidden state, conflating declarative knowledge with the procedural knowledge that recurs across queries of the same logical type; content-only methods consequently plateau as reasoning dept",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10477v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T03:00:26.765Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T05:02:26.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0exwupb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Sampling Is Not Curiosity: Why LLM Agents Should Investigate",
-   "ctx": "LLM agents are increasingly used for open-ended tasks, very common in research scenarios where they are required to explore, investigate, or act curiously. At inference time, an LLM is a fixed map from context to next-token distribution, the pretrained weights determine the function, and only its conditioning changes as context accumulates. Mechanisms like temperature, best-of-N, tree search, or RAG vary how the distribution is sampled or what it is conditioned on, but do not update the agent's ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10501v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T03:00:26.765Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T06:02:37.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0l81sbv",
-   "pri": 45,
-   "kind": "note",
-   "title": "Can General-Purpose Generative AI Supply Training Data for Medical Vision Models? A Multimodal Retrospective Study",
-   "ctx": "Background: Well-annotated, diverse medical imaging datasets remain a major constraint for vision-based medical AI. We evaluated Nano Banana, a general-purpose image generation and editing model, as a source of synthetic medical images for model training, subgroup augmentation, and model auditing. Methods: In this retrospective study across four imaging modalities, chest radiography, fundus photography, and CT models were trained only on synthetic images and externally validated on real-world da",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10484v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T03:00:26.765Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T05:12:38.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2430,11 +2428,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 7,
-   "slow": 93
+   "slow": 93,
+   "daily": 7
   },
-  "routed": 40,
-  "unrouted": 60,
+  "routed": 39,
+  "unrouted": 61,
   "unmappedLaneFamilies": []
  }
 }
