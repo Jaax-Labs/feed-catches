@@ -1,7 +1,226 @@
 {
- "generatedAt": "2026-11-16T05:00:44.758Z",
+ "generatedAt": "2026-11-16T05:30:31.768Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-00o2sll",
+   "pri": 45,
+   "kind": "note",
+   "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+   "ctx": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web agents hallucinating actions that are not available on a website. We apply a series of mechanistic analy",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18514v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:30:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0f0f624",
+   "pri": 45,
+   "kind": "note",
+   "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+   "ctx": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (WSP). Exploring this new paradigm systematically requires a robust benchmark. We introduce WEIGHTBENCH, a benchmark that evaluates LLMs of increasing capability on 42 WSP tasks acr",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18553v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:58:08.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0f24fvm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
+   "ctx": "Generative modeling based on stochastic interpolants requires specifying two key choices: an interpolant schedule bridging the initial and target distributions, and an efficient discretization of the resulting probability-flow ODE. In this work, we introduce a new framework for joint schedule/discretization design based on the analyticity properties of the (complexified) ODE trajectories, which in turn ensure good numerical behavior. Our formulation can be solved exactly via conformal mapping, y",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18542v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:49:36.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0moacjl",
+   "pri": 45,
+   "kind": "note",
+   "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+   "ctx": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behavior Cloning (R2BC) addresses this by letting a single demonstrator control one agent at a time while the others execute their current policies. However, the resulting imitation policies are limited by",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18543v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:50:05.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0nni8ws",
+   "pri": 45,
+   "kind": "note",
+   "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+   "ctx": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. We show that long-run growth is maximized when each action",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18531v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:43:24.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0zlwipu",
+   "pri": 45,
+   "kind": "note",
+   "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+   "ctx": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain, the data and the model, and keeps changing as the model trains. We introduce ModHarness-RL, which recasts the harness as programs that are learned from data and evolve as the mod",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18533v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:45:49.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-11wvco8",
+   "pri": 45,
+   "kind": "note",
+   "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+   "ctx": "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at-once type of way, thereby risking narrative spoilers, MeReader confines both retrieval and generation to the reader's distinct position in the text. The system integrates a hybrid retrieval architect",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18513v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:29:51.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-161l7eu",
+   "pri": 45,
+   "kind": "note",
+   "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
+   "ctx": "Small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce \\textbf{ARCHER}: \\textbf{A}ction-trace \\textbf{R}einforcement for \\textbf{C}alculator-grounded \\textbf{H}ierarchical \\textbf{E}xecutable \\textbf{R}easoning, a two-stage framework for training small language models (SLMs) to produce executable and auditable reas",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18494v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:05:33.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ad24k4",
+   "pri": 45,
+   "kind": "note",
+   "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
+   "ctx": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several tasks: preparation of logical code states, implementation of logical gates, logical routines on encoded qubits, etc. Yet, these circuits are largely designed by hand for individual cases, with some recent works incorporating machine learning for certain aspects",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.18504v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-16T05:30:26.646Z",
+   "tier": "B",
+   "itemTs": "2026-11-13T18:20:23.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-0eybhmy",
    "pri": 45,
@@ -2197,217 +2416,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0tqloir",
-   "pri": 45,
-   "kind": "note",
-   "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
-   "ctx": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the model being trained. Such mismatch can destabilize reinforcement learning (RL), but its effects on OPD remain unclear. This paper investigates how much mismatch OPD tolerates, wher",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.11450v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T05:00:26.697Z",
-   "tier": "B",
-   "itemTs": "2026-11-08T15:22:47.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0w6fgm4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Robust and Private Swarm Learning via Zero-Knowledge Validator Admission and Consensus Aggregation",
-   "ctx": "Swarm Learning improves resilience and removes the need for a single trusted coordinator by distributing model aggregation and validation across participating nodes. However, it also delegates the validation of model updates to peers whose private data may be biased, unrepresentative, or adversarial, and existing Swarm Learning protocols generally do not attest that data, leaving decentralized validation as an attack surface. We present a robust, privacy-preserving Swarm Learning framework that ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.11477v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T05:00:26.697Z",
-   "tier": "B",
-   "itemTs": "2026-11-08T16:15:20.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0y1uars",
-   "pri": 45,
-   "kind": "note",
-   "title": "How to \"train\" a surgeon? Benchmarking generalist agents in surgical scene understanding",
-   "ctx": "Evaluating general-purpose multimodal large language models (MLLMs) for surgical scene understanding remains limited due to scarce surgical data and fragmented evaluation protocols. We address these challenges through a two-stage evaluation framework for surgical scene understanding. In Stage I, we introduce SurgKnowBench, a diagnostic benchmark that harmonizes public surgical datasets across procedures and tasks and evaluates proprietary and open-source MLLMs to map the boundary of pretrained s",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.11437v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T05:00:26.697Z",
-   "tier": "B",
-   "itemTs": "2026-11-08T15:00:44.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0ysapdq",
-   "pri": 45,
-   "kind": "note",
-   "title": "Vietnamese Legal Ontology: Every legal answer, traced to the article that grounds it",
-   "ctx": "A legal answer is only as good as the article it rests on. Vietnam's largest open legal corpus pairs 109,543 published questions and answers with 573,851 legal documents, yet its citations are free text: \"Khoan 3 Dieu 101 cua Bo luat nay\" (\"Clause 3, Article 101 of this Code\") names neither the code nor its version. Following the five stages of NVIDIA Auto Ontology, Discover, Ground, Validate, Expose and Learn, we turn four open datasets into a knowledge graph of 11.5 M nodes and 16.0 M edges in",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.11426v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T05:00:26.697Z",
-   "tier": "B",
-   "itemTs": "2026-11-08T14:39:10.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1fpkywn",
-   "pri": 45,
-   "kind": "note",
-   "title": "RealEmbedBench: Benchmarking LLMs on Real-World Application-Layer Embedded Software Tasks",
-   "ctx": "Large language models (LLMs) perform well on general coding tasks, but their capabilities in application-layer embedded software development remain underexplored. Existing embedded benchmarks primarily focus on hardware-in-the-loop validation in simulated environments. We introduce RealEmbedBench, a benchmark of 5,142 samples covering three application-layer tasks: code generation and completion, state machine modeling and implementation, and cross-OS code translation. We evaluate six representa",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.11469v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T05:00:26.697Z",
-   "tier": "B",
-   "itemTs": "2026-11-08T16:05:31.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-04xrcow",
-   "pri": 45,
-   "kind": "note",
-   "title": "DeepFinance: Can AI Diligence a $100MM Deal?",
-   "ctx": "Existing evaluations of AI models on high-finance work focus on retrieving answers from financial documents and producing numerically correct outputs. Real private equity (PE) and investment banking (IB) work also depends on choosing between conflicting sources, making sound assumptions, and keeping every step auditable. We introduce DeepFinance, an ultra long-horizon benchmark of 21 end-to-end PE and IB tasks that take a human professional an average of 27.1 hours. Each task pairs a request wit",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10926v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T04:00:26.620Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T19:31:09.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0906w8l",
-   "pri": 45,
-   "kind": "note",
-   "title": "Interpretable Cyber-Physical Attack Detection in Smart Grids: A Leakage-Controlled Multi-Testbed Evaluation of Fusion, Robustness, and Observability Limits",
-   "ctx": "Cyber-physical smart-grid detectors are typically treated as black boxes and validated exclusively on clean, temporally shuffled datasets, which risk overly optimistic performance claims. This work presents a multi-testbed evaluation study built around an interpretable, time-windowed fusion Random Forest, adopting the pessimistic result whenever evaluation protocols disagree. (i) On a public paired cyber-physical dataset, shuffled cross-validation is optimistic: macro-F1 falls from 0.96 to 0.88 ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10950v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T04:00:26.620Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T20:26:56.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-09qnauj",
-   "pri": 45,
-   "kind": "note",
-   "title": "CoupledFlow: One-Step Neural Operators for Coupled Multi-Physics PDEs",
-   "ctx": "This paper introduces COUPLED FLOW, a new neural operator learning framework for multi-physics PDE systems that captures the co-evolution of multiple physical processes by modeling their cross-process interactions. Unlike existing neural operator methods that primarily target single-physics settings, COUPLED FLOW employs a novel structure-constrained flow matching algorithm to learn process- specific mean velocity fields conditioned on the full multi-physics state. This enables fast and accurate",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10945v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T04:00:26.620Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T20:22:34.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1020o3b",
-   "pri": 45,
-   "kind": "note",
-   "title": "Complementarity without ground truth?",
-   "ctx": "Human-AI complementarity captures the idea that a human assisted by an AI system can outperform both the human and the AI acting alone. In prediction tasks, this improvement is assessed against ground truth labels produced through a reference construction procedure and intended to represent the state of affairs to be predicted. Many human-AI interactions, including those where medical AI provides treatment recommendations, however, concern tasks other than predicting what obtains. Their relevant",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.10893v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T04:00:26.620Z",
-   "tier": "B",
-   "itemTs": "2026-11-07T18:33:10.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2431,8 +2439,8 @@
    "slow": 93,
    "daily": 7
   },
-  "routed": 39,
-  "unrouted": 61,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
