@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-17T18:30:39.370Z",
+ "generatedAt": "2026-11-17T19:00:50.239Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-02uu6mi",
+   "pri": 33,
+   "kind": "note",
+   "title": "Some users unable to sign in with Apple on claude.ai and the Claude iOS app",
+   "ctx": "Nov 17 , 18:56 UTC Update - We have identified the cause of the issue affecting claude.ai and are working on a fix. We will provide an update as soon as possible. Nov 17 , 18:55 UTC Identified - We are investigating an issue with Sign in with Apple on claude.ai and the Claude iOS app. Sign in with Google and email are not affected. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/1lglzf469c0z",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-17T19:00:26.923Z",
+   "tier": "A",
+   "itemTs": "2026-11-17T18:56:06.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-02av4wj",
    "pri": 45,
@@ -2389,32 +2414,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1aitjr4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
-   "ctx": "Language-model agents increasingly tackle long-horizon tasks whose interaction histories exceed the model's active context. They must therefore decide what to write down and what to read back, and when to do either. Recent work has begun to use on-policy distillation (OPD) to make memory control part of the policy, relying on memory tools and compaction protocols that lie outside either model's pre-training. However, this weakens the distillation on both sides: the teacher cannot give useful gui",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.14009v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-11T04:00:27.817Z",
-   "tier": "B",
-   "itemTs": "2026-11-10T12:49:24.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft",
-    "graph-memory"
-   ]
   }
  ],
  "clicks": {
@@ -2435,8 +2434,8 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 93,
-   "daily": 7
+   "daily": 8,
+   "slow": 92
   },
   "routed": 46,
   "unrouted": 54,
