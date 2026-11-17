@@ -1,7 +1,185 @@
 {
- "generatedAt": "2026-11-17T06:01:31.794Z",
+ "generatedAt": "2026-11-17T06:30:51.184Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-028p036",
+   "pri": 45,
+   "kind": "note",
+   "title": "UbiHearo: Bringing Scenario-Aware Sound Guidance to DHH Users with Mobile Agents",
+   "ctx": "For Deaf and Hard-of-Hearing (DHH) users, effective sound awareness goes beyond detecting \\emph{what} sound occurs; it requires understanding \\emph{what it means}, \\emph{how urgent it is}, and \\emph{what to do}. However, existing mobile assistants largely reduce acoustic scenes to isolated labels or generic alerts, failing to provide contextual guidance when the same sound implies different risks across scenarios. We present \\sysname, a mobile hearing assistant agent that closes the sensing--rea",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.20686v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T06:30:26.660Z",
+   "tier": "B",
+   "itemTs": "2026-11-16T07:51:11.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-04808r5",
+   "pri": 45,
+   "kind": "note",
+   "title": "MemEmo: Evaluating Emotion in Memory Systems",
+   "ctx": "Memory systems address the challenge of context loss in Large Language Models during prolonged interactions. However, as an essential tool for warm companionship and personalized services, the effectiveness of memory systems in processing affective information remains underexamined. To bridge this gap, we propose an emotion-enhanced memory evaluation benchmark to assess the performance of mainstream and state-of-the-art memory systems in integrating and harnessing emotional information. First, w",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.20733v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T06:30:26.660Z",
+   "tier": "B",
+   "itemTs": "2026-11-16T08:39:09.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-08xwx92",
+   "pri": 45,
+   "kind": "note",
+   "title": "GainCtrl: Predicting Remaining Gains for Efficient LLM Agent Execution",
+   "ctx": "Large language models (LLMs) are widely used to power agents that interact with tools and environments to solve complex tasks. Repeated attempts improve the quality of tool-using agents, but continued execution incurs additional costs even when it is unlikely to improve the best result ultimately returned. This raises the question of when to stop an attempt to reduce execution cost while preserving task-level Best-of-N quality. To address this question, we introduce GainCtrl, a gain-based execut",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.20736v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T06:30:26.660Z",
+   "tier": "B",
+   "itemTs": "2026-11-16T08:40:29.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0k3t71b",
+   "pri": 45,
+   "kind": "note",
+   "title": "PEETS: Preference-aware Embeddings with Explicit Tree Structure for Auxiliary Product Bundling",
+   "ctx": "Auxiliary products such as flight protection and flexible-change services are recommended alongside primary travel purchases. This setting creates a granularity ambiguity: SKUs within one product type share semantics but differ in price and coverage, while rejecting one offer does not imply disinterest in the entire type. We present \\textbf{PEETS} (\\textbf{P}reference-aware \\textbf{E}mbeddings with \\textbf{E}xplicit \\textbf{T}ree \\textbf{S}tructure), a training-time framework for auxiliary produ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.20726v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T06:30:26.660Z",
+   "tier": "B",
+   "itemTs": "2026-11-16T08:32:09.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0x5eiix",
+   "pri": 45,
+   "kind": "note",
+   "title": "AgentFaultBench: State-Verified Evaluation of Tool-Fault Recovery",
+   "ctx": "Does recovery advice help an agent finish a task after a tool fails? AgentFaultBench evaluates LangGraph and CrewAI agents performing specified tasks in an isolated GitLab installation. We inject tool errors and check both the resulting files and issues and the required reads, verification and final response. The prompt supplies the expected issue and report text, so the task tests execution rather than content generation. In the primary comparison of 1,944 planned runs, advice changes success b",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.20711v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T06:30:26.660Z",
+   "tier": "B",
+   "itemTs": "2026-11-16T08:19:25.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-14spdfy",
+   "pri": 45,
+   "kind": "note",
+   "title": "A First Look at System One Decision Models for Malware Detection",
+   "ctx": "Malware detection needs scores calibrated at a fixed false positive rate (FPR) and decisions an analyst can read: feature-based detectors give the first, large language models (LLMs) on decompiled code the second, through generated text of uncalibrated confidence. System One decision models answer a typed question about a text with a probability over its declared answers in one forward pass. We present the first evaluation of these models for Windows Portable Executable malware detection, analyz",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.20699v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T06:30:26.660Z",
+   "tier": "B",
+   "itemTs": "2026-11-16T08:08:40.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1dmkgoo",
+   "pri": 18,
+   "kind": "note",
+   "title": "VIVID: A Visual Harness for Agentic Video Editing",
+   "ctx": "Video editing requires agents to make editing decisions grounded in audiovisual observations and precise temporal localization, and to evaluate their effects in rendered outputs. General-purpose coding agents possess strong comprehension, reasoning, and code execution capabilities, while media interaction and evidence management mechanisms tailored to video tasks can further unlock their editing potential. We introduce VIVID, a visual harness that supports multiple native coding agents in video ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.20688v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T06:30:26.660Z",
+   "tier": "B",
+   "itemTs": "2026-11-16T07:52:01.000Z",
+   "sub": "arXiv cs.AI · introduces \"Visual Harness\"",
+   "extract": {
+    "ok": true,
+    "chars": 4418,
+    "lead": "Computer Science > Artificial Intelligence arXiv:2611.20688v1 (cs) [Submitted on 16 Nov 2026] Title: VIVID: A Visual Harness for Agentic Video Editing Authors: Wenhan Yu , Zhaoxi Zhang , Zhilong Tan , Weikang Li , Lei Sha View a PDF of the paper titled VIVID: A Visual Harness for Agentic Video Editing, by Wenhan Yu and 4 other authors View PDF HTML (experimental) Abstract: Video editing requires agents to make editing decisions grounded in audiovisual observations and precise temporal localization, and to evaluate their effects in rendered outputs. General-purpose coding agents possess strong comprehension, reasoning, and code execution capabilities, while media interaction and evidence management mechanisms tailored to video tasks can further unlock their editing potential. We introduce VIVID, a visual harness that supports multiple native coding agents in video post-production without additional model training. VIVID provides tools for on-demand video inspection, audio analysis, and transcription, and preserves observations alongside their corresponding media versions and temporal coordinates. Agents can actively retrieve these observations as they reason, perform edits using the",
+    "truncated": false,
+    "title": "[2611.20688v1] VIVID: A Visual Harness for Agentic Video Editing",
+    "fetchedAt": "2026-11-17T06:30:26.660Z",
+    "full": "full/f-arxiv-cs.AI-1dmkgoo.txt"
+   },
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-03g9x88",
    "pri": 45,
@@ -1712,29 +1890,6 @@
    ]
   },
   {
-   "id": "f-arxiv-cs.AI-1grjnzq",
-   "pri": 45,
-   "kind": "note",
-   "title": "Moving Beyond the DRW Model: Learning Quasar Variability with Generative Models",
-   "ctx": "The optical continuum variability of quasars is often described by a damped random walk (DRW) model, with characteristic damping timescales $τ_{\\rm DRW}$ of hundreds of days and amplitudes $σ_{\\rm DRW}$ of $\\mathcal{O}(0.1)$ magnitudes. This model has been widely used as a null hypothesis to assess the significance of periodic signals in quasar light curves in the search for supermassive black hole binaries, the significance of extreme quasar variability like tidal disruption events (TDEs) and c",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.15040v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-13T03:00:28.266Z",
-   "tier": "B",
-   "itemTs": "2026-11-11T04:59:36.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-anthropic-status-16e91ne",
    "pri": 33,
    "kind": "note",
@@ -2254,166 +2409,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1h8jq0l",
-   "pri": 45,
-   "kind": "note",
-   "title": "The WoW: A Large-Scale World Knowledge Corpus for Full-Lifecycle LLM Training",
-   "ctx": "Existing Chinese educational corpora often suffer from fragmented coverage and a lack of systematic organization. In this paper, we propose WoW (\\textbf{Wo}rld Kno\\textbf{w}ledge), a large-scale dataset designed for the full-cycle training of foundation models. The construction of this dataset is driven by an Educational Knowledge Graph, which serves as a taxonomic backbone for the systematic collection and completion of missing educational modules across all levels. Compared to previous version",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.13487v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-11T03:00:27.012Z",
-   "tier": "B",
-   "itemTs": "2026-11-10T02:56:20.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "graph-memory"
-   ]
-  },
-  {
-   "id": "f-anthropic-status-1k4ttpe",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors on Fable 52 and Mythos 52",
-   "ctx": "Nov 10 , 21:47 UTC Resolved - Overloaded errors on Fable 5.2 and Mythos 5.2 for four minutes. Incident has been mitigated.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/pgz8r13pk4sm",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-11-10T22:00:26.945Z",
-   "tier": "A",
-   "itemTs": "2026-11-10T21:47:48.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-anthropic-news-0yj1qtk",
-   "pri": 6,
-   "kind": "note",
-   "title": "Anthropic — Roadshow launch",
-   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
-   "acts": [
-    {
-     "label": "Open announcement",
-     "href": "https://www.anthropic.com/news/roadshow-launch",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-news",
-   "detectedAt": "2026-11-10T12:00:26.805Z",
-   "tier": "A",
-   "itemTs": null,
-   "sub": "anthropic.com/news · hop 0",
-   "extract": {
-    "ok": true,
-    "chars": 1815,
-    "lead": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock. The proposed offering consists of 825,000,000 shares of Class A common stock. Of these, 801,351,354 shares are being offered by Anthropic and 23,648,646 shares are being offered by certain existing stockholders. Anthropic will not receive any proceeds from the sale of shares by the selling stockholders. Anthropic also expects to grant the underwriters a 30-day option to purchase up to an additional 123,750,000 shares of its Class A common stock. The initial public offering price is expected to be between $70.00 and $78.00 per share. Anthropic has applied to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014. A registration stateme",
-    "truncated": false,
-    "title": "Anthropic launches roadshow for proposed initial public offering \\ Anthropic",
-    "fetchedAt": "2026-11-10T12:00:26.805Z",
-    "full": "full/f-anthropic-news-0yj1qtk.txt"
-   },
-   "clock": "daily",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-03dl5if",
-   "pri": 45,
-   "kind": "note",
-   "title": "PORT: Preference Optimization via Robust Token-Level Reweighting",
-   "ctx": "Preference optimization has become a central approach for aligning large language models with human values, but its effectiveness depends heavily on the quality of preference annotations. In practice, preference data is often noisy due to annotation errors and ambiguity. Existing robust preference optimization methods primarily operate at the sequence level, implicitly treating entire responses as uniformly correct or incorrect. However, rejected responses may still contain informative reasoning",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12763v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T08:00:26.967Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T17:38:16.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-04y5w8q",
-   "pri": 45,
-   "kind": "note",
-   "title": "2D Gum-Net: Unsupervised Dense Elastic Image Registration via Symmetric Correlation and Spectral Pooling",
-   "ctx": "Dense non-rigid registration, the recovery of a pixel-wise deformation field that warps one image into geometric agreement with another, is fundamental across medical imaging, structural biology, and correspondence estimation, yet learning-based approaches face a severe bottleneck: ground-truth deformation fields are notoriously difficult to obtain for real data. We present 2D Gum-Net, an end-to-end architecture that predicts dense elastic deformation fields fully unsupervised. We transfer the G",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12805v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T08:00:26.967Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T18:11:45.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-07o48u0",
-   "pri": 18,
-   "kind": "note",
-   "title": "LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion",
-   "ctx": "Log-based anomaly detection is increasingly dominated by large pretrained models, from BERT-scale encoders to 8B-parameter language models, which require GPUs at inference time and are difficult to deploy on the monitoring nodes where logs are produced. We present LogCDM, a compact detector that scores each log session using three complementary signals: the next-event surprise of a small causal Transformer, the distance between a graph-attention embedding of the session's own transition graph an",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12775v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T08:00:26.967Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T17:48:31.000Z",
-   "sub": "arXiv cs.AI · introduces \"Behavioral Graph Drift\"",
-   "extract": {
-    "ok": true,
-    "chars": 4591,
-    "lead": "Computer Science > Artificial Intelligence arXiv:2611.12775v1 (cs) [Submitted on 9 Nov 2026] Title: LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion Authors: Suryansh Talukdar , Taha Sarwat , Jin Soung Yoo View a PDF of the paper titled LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion, by Suryansh Talukdar and 2 other authors View PDF HTML (experimental) Abstract: Log-based anomaly detection is increasingly dominated by large pretrained models, from BERT-scale encoders to 8B-parameter language models, which require GPUs at inference time and are difficult to deploy on the monitoring nodes where logs are produced. We present LogCDM, a compact detector that scores each log session using three complementary signals: the next-event surprise of a small causal Transformer, the distance between a graph-attention embedding of the session's own transition graph and that of a normal reference graph, and a transition-drift statistic that we show is exactly a frequency-weighted chi-squared divergence between transition kernels. The divergence view yields an asymptotic null distribution, a length-s",
-    "truncated": false,
-    "title": "[2611.12775v1] LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion",
-    "fetchedAt": "2026-11-10T08:00:26.967Z",
-    "full": "full/f-arxiv-cs.AI-07o48u0.txt"
-   },
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2434,11 +2429,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 91,
-   "daily": 9
+   "slow": 93,
+   "daily": 7
   },
-  "routed": 41,
-  "unrouted": 59,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
