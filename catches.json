@@ -1,7 +1,195 @@
 {
- "generatedAt": "2026-11-17T02:31:02.976Z",
+ "generatedAt": "2026-11-17T03:00:32.959Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-025rwyh",
+   "pri": 45,
+   "kind": "note",
+   "title": "STaSBO: LLM-Guided Strategy Planning and Configuration Selection for Bayesian Optimization",
+   "ctx": "Bayesian optimization (BO) enables sample-efficient search for expensive black-box problems, but its performance depends strongly on surrogate-acquisition configurations whose suitability varies across problems and optimization states. We take a significant step toward LLM-driven strategic management of BO with STaSBO, a task-agnostic meta-controller that plans search behavior and jointly selects surrogate-acquisition configurations, while numerical BO retains responsibility for probabilistic mo",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.19214v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T03:00:27.128Z",
+   "tier": "B",
+   "itemTs": "2026-11-14T07:14:23.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-03f9ahm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Mem2Fair: Online Fairness Control for Text-to-Video Generation via Fair Memory",
+   "ctx": "Text-to-video (T2V) generation models can produce systematically unfair demographic outcomes when prompts leave protected attributes unspecified. For example, prompts describing nurses without specifying gender may disproportionately generate videos depicting female nurses. Mitigating unfairness in T2V generation is particularly challenging: training-based methods that modify model internals require architecture-specific access and risk disrupting temporal consistency, while sampling-based metho",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.19215v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T03:00:27.128Z",
+   "tier": "B",
+   "itemTs": "2026-11-14T07:14:23.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-04vtpfz",
+   "pri": 45,
+   "kind": "note",
+   "title": "What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges",
+   "ctx": "LoCoMo is a widely reported benchmark for long-term conversational memory, but published scores mix memory quality with choices of answer prompt, judge and baseline layout that are rarely reported together. We measure how much these choices move a score, and evaluate Becos, a team memory system for coding agents, as a black box under all of them: ten conversations (1,540 questions), two answer models (gpt-4o-mini, gpt-4.1-mini), two answer prompts and three LLM judges, against a whole-conversati",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.19199v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T03:00:27.128Z",
+   "tier": "B",
+   "itemTs": "2026-11-14T06:41:22.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "model-switch",
+    "agent-craft",
+    "graph-memory"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0ba6dh1",
+   "pri": 45,
+   "kind": "note",
+   "title": "Neural Dual Bounds: Valid-by-Construction JGLP Warm-Starts for MAP and Constrained MAP",
+   "ctx": "We present Neural Dual Bounds, a calibration-free framework that produces deterministic upper bounds for MAP inference in probabilistic graphical models using a single neural-network forward pass. The framework trains a network to output the edge messages of a mini-bucket style upper bound on a given join-graph decomposition in a self-supervised manner by directly minimizing a smooth dual objective. The output of this network can be used at test time to warm-start a standard JGLP optimizer. Acro",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.19218v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T03:00:27.128Z",
+   "tier": "B",
+   "itemTs": "2026-11-14T07:22:10.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0jm7l8b",
+   "pri": 45,
+   "kind": "note",
+   "title": "When Does Confidence Reveal Problem Difficulty?",
+   "ctx": "While confidence signals are commonly evaluated for their ability to predict a model's own correctness, their relationship with problem difficulty remains less understood. In this work, we investigate a wide range of confidence-related signals and whether they can serve as indicators of problem difficulty across various task domains. We find that perturbation inconsistency, semantic entropy, and solution length exhibit strong associations with population difficulty than token-level uncertainty. ",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.19173v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T03:00:27.128Z",
+   "tier": "B",
+   "itemTs": "2026-11-14T05:49:58.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0xd6nax",
+   "pri": 45,
+   "kind": "note",
+   "title": "Isolating Perception for Multi-View Planning under Occlusion-Induced Partial Observability",
+   "ctx": "Vision-language models (VLMs) are beginning to saturate visual planning benchmarks, yet they fail to resolve depth ambiguity and degrade sharply with problem size under occlusion-induced partial observability (PO). We introduce BW-PO based on the Blocksworld domain, a controlled benchmark that reduces existing VLM planners and formalizers to near-zero performance, and propose VLM-as-perceiver, a paradigm that narrows the VLM's role to local perception while delegating cross-view evidence reconci",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.19179v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T03:00:27.128Z",
+   "tier": "B",
+   "itemTs": "2026-11-14T05:56:41.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-199vnah",
+   "pri": 45,
+   "kind": "note",
+   "title": "LABEL: Literature Asymmetry between Efficacy and Limits in Drug Knowledge and Language Models",
+   "ctx": "Every medication comes with two types of medical facts: indications, which describe what conditions the drug treats (benefits), and contraindications, which describe who must avoid it to prevent serious harm (safety limits). Although contraindications are critical for patient safety and FDA regulations require listing them as rigorously as indications, we find that contraindications are far less documented than indications in general prose. In this paper, we measure how often these texts contain",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.19166v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T03:00:27.128Z",
+   "tier": "B",
+   "itemTs": "2026-11-14T05:14:50.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-1ajd0tm",
+   "pri": 45,
+   "kind": "note",
+   "title": "Executable Archaeology: Reanimating the Logic Theorist",
+   "ctx": "The Logic Theorist (LT), created by Allen Newell, J. C. Shaw, and Herbert Simon in 1955--1956, is regarded by some as the first artificial intelligence program. It was originally simulated by hand and written in a pseudocode called the Logic Language (LL), which was later called Information Processing Language One (IPL-I). LT was revised many times. The first machine-executed version was written in IPL-II and ran on the JOHNNIAC, and a late version was published in 1963 by Einar Stefferud as a p",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.19167v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-17T03:00:27.128Z",
+   "tier": "B",
+   "itemTs": "2026-11-14T05:23:13.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-anthropic-status-1t40cnk",
    "pri": 33,
@@ -843,29 +1031,6 @@
    "detectedAt": "2026-11-13T06:00:26.549Z",
    "tier": "B",
    "itemTs": "2026-11-12T11:17:40.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1hnzgr8",
-   "pri": 45,
-   "kind": "note",
-   "title": "When Chekhov's Gun Fires Anyway: Over-Realization in Text-to-Image Models",
-   "ctx": "In text-to-image generation, a target that the prompt mentions often appears in the generated image in a way the prompt does not call for. We call this failure over-realization. Mental-spaces theory points to the situations where it can happen: under a negation, inside what a character believes or imagines, as the vehicle of a figurative comparison, or behind a viewpoint that hides the target. Prior work has studied only negation in depth, and the conventional alignment and preference metrics do",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.16630v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-13T06:00:26.549Z",
-   "tier": "B",
-   "itemTs": "2026-11-12T11:03:25.000Z",
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
@@ -2253,171 +2418,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0nthmdb",
-   "pri": 45,
-   "kind": "note",
-   "title": "Phrase-Level Speculative Decoding on a Frozen Target",
-   "ctx": "Speculative decoders raise throughput by banking more target tokens per forward pass, and Medusa, EAGLE-3, DFlash and DSpark all do it the same way: more candidates that survive verification. All of them draft in the target's own vocabulary, so one node of the candidate tree is one target token, and the tokenizer makes that unit look like a constant. It is not. BPE's pretokenizer splits on whitespace before merges are learned, so no multi-word string can ever become a single token: in Qwen3-4B, ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12464v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T07:00:26.573Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T14:13:32.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0sr2qsx",
-   "pri": 45,
-   "kind": "note",
-   "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
-   "ctx": "We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, two problems limit their effectiveness: (i) without shared memory, agents lose observations and repeat work; (ii) fixed role procedures, handoffs, and memory policies perpetuate mistakes despite retained evidence. We address these problems with a sha",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12552v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T07:00:26.573Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T15:20:32.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0xgzfau",
-   "pri": 45,
-   "kind": "note",
-   "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
-   "ctx": "Video world models conditioned on an input video make it possible to explore real, recorded dynamic scenes, enabling re-shooting of footage, free-viewpoint replay, and real-to-sim environments for embodied agents. Such uses require the generated rollout to stay faithful to the recorded world, yet existing benchmarks start from a single image or a text prompt, and video-conditioned generation is evaluated mainly on perceptual quality and camera following. These evaluations do not directly assess ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12557v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T07:00:26.573Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T15:23:53.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-1gcsgzf",
-   "pri": 45,
-   "kind": "note",
-   "title": "A Strict Upper Bound for Three-Point Weighted Selection in Planar Vector-Valued Regression",
-   "ctx": "We prove $F_{\\mathrm{weighted}}(2,2,3) 0$ satisfies $\\mathcal T_3\\le(5/6-\\varepsilon_0)E$ for every finite residual frame. The proof combines an exact scalar certificate, rigidity of equality in planar selection, and a compactness argument that controls disappearing weights. Together with the known lower bound, this gives $13/8\\le F_{\\mathrm{weighted}}(2,2,3)<11/6$. No numerical value of $\\varepsilon_0$ is claimed.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12550v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T07:00:26.573Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T15:20:15.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-1gjkhdh",
-   "pri": 45,
-   "kind": "note",
-   "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
-   "ctx": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate representations, such as neural audio codecs, Mel-spectrogram vocoders, or VAE-based latent models. In addit",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.12527v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T07:00:26.573Z",
-   "tier": "B",
-   "itemTs": "2026-11-09T15:02:29.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0h9bohe",
-   "pri": 45,
-   "kind": "note",
-   "title": "TID System for Speech-COSER Challenge 2026: ASR Track",
-   "ctx": "We describe the system submitted by Telefónica Innovación Digital to the Speech-COSER Challenge 2026, which features spontaneous speech from elderly speakers recorded in rural Spain. For ASR, we perform CTC-based pseudo-forced alignment scores audio-text match quality to guide a two-stage LoRA curriculum, followed by post-hoc magnitude pruning of the LoRA matrices to enhance generalization. An ensemble of seven systems combined via ROVER achieves 36.25\\% unnormalized and 22.17\\% normalized WER.",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.11497v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T05:00:26.697Z",
-   "tier": "B",
-   "itemTs": "2026-11-08T16:50:34.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0iintbn",
-   "pri": 45,
-   "kind": "note",
-   "title": "Learning to Rank Propagators in Constraint Programming",
-   "ctx": "The order in which propagators are executed can substantially affect the performance of constraint programming solvers, yet propagator priorities are typically determined by fixed, manually designed heuristics. In this work, we explore learning instance-dependent propagator priorities from static problem features. We formulate the task as a learning-to-rank problem, addressing the challenge that the quality of a priority assignment can be measured through solver runtime, while the desired priori",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.11447v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-10T05:00:26.697Z",
-   "tier": "B",
-   "itemTs": "2026-11-08T15:18:52.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2438,11 +2438,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 9,
-   "slow": 91
+   "slow": 91,
+   "daily": 9
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 43,
+  "unrouted": 57,
   "unmappedLaneFamilies": []
  }
 }
