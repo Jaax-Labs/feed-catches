@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-18T01:00:34.579Z",
+ "generatedAt": "2026-11-18T01:30:38.110Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-11k4ynb",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors affecting the Google Docs connector",
+   "ctx": "Nov 18 , 01:13 UTC Investigating - We are investigating elevated errors when editing documents with the Google Docs connector on claude.ai, Claude Code, and Claude Cowork. Reading documents is not affected. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/6prv10gjdpz1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-18T01:30:26.751Z",
+   "tier": "A",
+   "itemTs": "2026-11-18T01:13:15.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-02uu6mi",
    "pri": 33,
@@ -2391,29 +2416,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-19l4u0u",
-   "pri": 45,
-   "kind": "note",
-   "title": "MISO-BR: An Open Corpus for Misogyny Detection in Brazilian Portuguese",
-   "ctx": "Misogyny is among the most prevalent forms of online hate speech directed at Brazilian users, yet open and auditable resources dedicated to it in Brazilian Portuguese remain scarce. We introduce MISO-BR, an open, documented and versioned corpus of 896 balanced social media texts annotated for binary misogyny, released with its construction protocol and reproducible baselines. The corpus combines lexicon- and target-guided scraping from X with items imported from OLID-BR, a large language model t",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.14036v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-11T04:00:27.817Z",
-   "tier": "B",
-   "itemTs": "2026-11-10T13:03:50.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2434,11 +2436,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 8,
-   "slow": 92
+   "daily": 9,
+   "slow": 91
   },
-  "routed": 46,
-  "unrouted": 54,
+  "routed": 47,
+  "unrouted": 53,
   "unmappedLaneFamilies": []
  }
 }
