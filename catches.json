@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-19T09:00:44.179Z",
+ "generatedAt": "2026-11-19T09:30:32.592Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-09zo8dg",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+   "ctx": "Nov 19 , 09:22 UTC Monitoring - A fix has been deployed for other Claude models and we are monitoring for recovery. Nov 19 , 09:10 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.2 and Claude Fable 5.2. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/c1kmrkmv5f3d",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-19T09:30:27.469Z",
+   "tier": "A",
+   "itemTs": "2026-11-19T09:22:50.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-01ojhl7",
    "pri": 45,
@@ -2387,29 +2412,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-05g34xt",
-   "pri": 45,
-   "kind": "note",
-   "title": "Safety as a Budget: Calibrating the Control Channel of Constrained GRPO for Vision-Language Models",
-   "ctx": "Reinforcement learning can teach vision-language models (VLMs) to decline harmful image-text requests, but how safe the result becomes is set indirectly, through reward weights found by trial runs. Stating safety as budgets on the rate of harmful assistance and the rate of over-refusal, enforced by Lagrange multipliers inside GRPO with an off-the-shelf scorer as the cost, is the natural fix, and it fails twice. The multiplier compares the scorer's mean with the budget, and scorers built for rank",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.16628v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-13T06:00:26.549Z",
-   "tier": "B",
-   "itemTs": "2026-11-12T11:00:14.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2430,11 +2432,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 91,
-   "daily": 9
+   "daily": 10,
+   "slow": 90
   },
-  "routed": 44,
-  "unrouted": 56,
+  "routed": 45,
+  "unrouted": 55,
   "unmappedLaneFamilies": []
  }
 }
