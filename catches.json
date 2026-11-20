@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-11-20T12:30:32.601Z",
+ "generatedAt": "2026-11-20T13:00:59.992Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-news-0b9g7dm",
+   "pri": 6,
+   "kind": "note",
+   "title": "Anthropic — Ipo close",
+   "ctx": "Anthropic is the largest single hop-0 surface in the cascade study (6 of 40). A new slug on this page is day-zero.",
+   "acts": [
+    {
+     "label": "Open announcement",
+     "href": "https://www.anthropic.com/news/ipo-close",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-news",
+   "detectedAt": "2026-11-20T13:00:28.305Z",
+   "tier": "A",
+   "itemTs": null,
+   "sub": "anthropic.com/news · hop 0",
+   "extract": {
+    "ok": true,
+    "chars": 3475,
+    "lead": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price. The offering consisted of 1,103,351,354 shares sold by Anthropic and 23,648,646 shares sold by certain selling stockholders. The aggregate gross proceeds from the offering, before deducting underwriting discounts and commissions and other offering expenses, were approximately $93.5 billion, of which approximately $91.6 billion was received by Anthropic. Anthropic did not receive any proceeds from the sale of shares by the selling stockholders. Anthropic’s Class A common stock began trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.” In addition to the shares of Class A common stock sold in the initial public offering, Anthropic closed the concurrent sale of an aggregate of 313,253,007 shares of Class N common stock to Advanced Micro Devices, Inc., Broadcom Inc., Google LLC, Mic",
+    "truncated": false,
+    "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement \\ Anthropic",
+    "fetchedAt": "2026-11-20T13:00:28.305Z",
+    "full": "full/f-anthropic-news-0b9g7dm.txt"
+   },
+   "clock": "daily",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-02fc8iw",
    "pri": 45,
@@ -2377,31 +2409,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-161l7eu",
-   "pri": 45,
-   "kind": "note",
-   "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
-   "ctx": "Small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce \\textbf{ARCHER}: \\textbf{A}ction-trace \\textbf{R}einforcement for \\textbf{C}alculator-grounded \\textbf{H}ierarchical \\textbf{E}xecutable \\textbf{R}easoning, a two-stage framework for training small language models (SLMs) to produce executable and auditable reas",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.18494v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-16T05:30:26.646Z",
-   "tier": "B",
-   "itemTs": "2026-11-13T18:05:33.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2422,11 +2429,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 94,
-   "daily": 6
+   "daily": 7,
+   "slow": 93
   },
-  "routed": 40,
-  "unrouted": 60,
+  "routed": 39,
+  "unrouted": 61,
   "unmappedLaneFamilies": []
  }
 }
