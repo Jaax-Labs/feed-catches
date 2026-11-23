@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-23T09:30:48.916Z",
+ "generatedAt": "2026-11-23T10:00:58.889Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-09yjtbz",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for multiple models",
+   "ctx": "Nov 23 , 09:56 UTC Identified - We have identified the cause of elevated errors on requests to Claude Mythos 5.2, Claude Fable 5.2, Claude Opus 5.5, Claude Sonnet 5.5, Claude Haiku 5.5, and other Claude models and are working on a fix. We will provide an update as soon as possible. Nov 23 , 09:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5.2, Sonnet 5.5, ",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/yzs0s90d8fm8",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-23T10:00:26.706Z",
+   "tier": "A",
+   "itemTs": "2026-11-23T09:56:38.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-008qmq8",
    "pri": 45,
@@ -2384,29 +2409,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-025rwyh",
-   "pri": 45,
-   "kind": "note",
-   "title": "STaSBO: LLM-Guided Strategy Planning and Configuration Selection for Bayesian Optimization",
-   "ctx": "Bayesian optimization (BO) enables sample-efficient search for expensive black-box problems, but its performance depends strongly on surrogate-acquisition configurations whose suitability varies across problems and optimization states. We take a significant step toward LLM-driven strategic management of BO with STaSBO, a task-agnostic meta-controller that plans search behavior and jointly selects surrogate-acquisition configurations, while numerical BO retains responsibility for probabilistic mo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.19214v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-17T03:00:27.128Z",
-   "tier": "B",
-   "itemTs": "2026-11-14T07:14:23.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2430,11 +2432,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 95,
-   "daily": 5
+   "daily": 6,
+   "slow": 94
   },
-  "routed": 39,
-  "unrouted": 61,
+  "routed": 40,
+  "unrouted": 60,
   "unmappedLaneFamilies": []
  }
 }
