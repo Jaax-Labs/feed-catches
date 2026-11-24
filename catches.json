@@ -1,7 +1,99 @@
 {
- "generatedAt": "2026-11-24T06:30:40.126Z",
+ "generatedAt": "2026-11-24T07:00:49.509Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-04bkusv",
+   "pri": 45,
+   "kind": "note",
+   "title": "Semantic-aware Decoding for Diverse Text-to-SQL under Schema Ambiguity",
+   "ctx": "Real-world text-to-SQL systems often face schema ambiguity, where a question can map to multiple plausible schema elements. To support downstream disambiguation, SQL generation systems should include diverse interpretations among their top-k predictions. However, large language models (LLMs) typically favor a single interpretation, producing highly skewed outputs. We propose Semantic-aware Logit Adjustment (SLA), a training-free decoding method that promotes diverse SQL generation by adjusting t",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.30873v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-24T07:00:26.745Z",
+   "tier": "B",
+   "itemTs": "2026-11-23T15:43:16.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0i2yu5x",
+   "pri": 45,
+   "kind": "note",
+   "title": "Random Feature Neural Networks for Stochastic Optimal Control",
+   "ctx": "Random feature neural networks (RFNNs) sample their hidden parameters once and train only the output layer. We analyze RFNNs as feedback policies for finite-horizon stochastic control with trajectory-dependent objectives. A policy change alters later states, so the error that matters is the objective error of the induced trajectory rather than a pointwise regression error. We extend the quantitative random-feature approximation theory for PDE solutions and nonlinear regression to feedback contro",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.30804v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-24T07:00:26.745Z",
+   "tier": "B",
+   "itemTs": "2026-11-23T15:03:14.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0lo8dx4",
+   "pri": 45,
+   "kind": "note",
+   "title": "Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?",
+   "ctx": "Embodied vision systems rely on complementary sensors to perceive and act as conditions change. Even models that accept arbitrary sensor subsets can exhibit negative fusion: adding a sensor increases prediction error. We propose MakeSense, a multimodal fusion framework that preserves sensor-specific evidence in private streams and combines information through shared bottleneck tokens. Training pairs full and subset views of the same degraded observations, penalizing higher error with more sensor",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.30836v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-24T07:00:26.745Z",
+   "tier": "B",
+   "itemTs": "2026-11-23T15:20:31.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0z54w6b",
+   "pri": 45,
+   "kind": "note",
+   "title": "AeroJEPA: A Two-Stage Framework for Aerosol Forecasting with Joint-Embedding Predictive Learning",
+   "ctx": "Aerosol forecasting requires integrating sparse ground observations and modeling meteorologically driven concentration evolution and spatial structure. However, analysis-initialized forecasts make limited explicit use of historical observations, while pointwise regression tends to smooth local variations and provides limited constraints on fine spatial structures. In this work, we propose AeroJEPA, a two-stage joint-embedding predictive framework for regional surface PM$_{2.5}$ forecasting. Spec",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.30891v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-24T07:00:26.745Z",
+   "tier": "B",
+   "itemTs": "2026-11-23T15:55:33.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
   {
    "id": "f-arxiv-cs.AI-0b3s7m4",
    "pri": 45,
@@ -2320,98 +2412,6 @@
    "questions": [
     "model-switch"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0nryqso",
-   "pri": 45,
-   "kind": "note",
-   "title": "Reconfiguring Procedural Knowledge for Compositional Robot Skill Adaptation",
-   "ctx": "General-purpose behavior models increasingly internalize broad procedural knowledge during training, making their adaptation to new goals and skill interfaces less a problem of learning entirely new behaviors than of reconfiguring existing competence. We study this capability as reconfigurability, the ability to realize new behaviors by cost-efficiently restructuring existing components and relations under sparse governing information, where task specifications provide high-level goals and proce",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.22174v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-18T03:00:26.775Z",
-   "tier": "B",
-   "itemTs": "2026-11-17T04:09:02.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0tnewn8",
-   "pri": 45,
-   "kind": "note",
-   "title": "Communicate the Change: Efficient Expert Parallelism via Activation Compression",
-   "ctx": "Scaling has driven the success of large language models (LLM), with sparse mixture-of-experts (MoE) architectures enabling greater parameter capacity without a proportional increase in computation. At large scales, MoE models rely on expert parallelism to distribute experts across devices. Each MoE layer requires two synchronous collective communication steps during inference: dispatching hidden states to the activated experts and combining the resulting expert outputs. As compute throughput has",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.22215v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-18T03:00:26.775Z",
-   "tier": "B",
-   "itemTs": "2026-11-17T04:52:41.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0ukx7r4",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fine-Grained Japanese Clinical Named Entity Recognition: A Controlled Comparison of BERT and Open-Weight Large Language Models",
-   "ctx": "Background: Generative large language models (LLMs) offer an alternative to encoder-based clinical named entity recognition (NER), but their performance on fine-grained Japanese extraction tasks and sensitivity to generation settings remain uncertain. Methods: We compared two fine-tuned BERT-CRF baselines with nine open-weight LLMs on iCorpus, which defines 113 entity categories. The evaluation used 433 sentences from 36 test documents; 1,672 sentences were used for training. LLMs were evaluated",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.22219v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-18T03:00:26.775Z",
-   "tier": "B",
-   "itemTs": "2026-11-17T05:01:24.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0zgt2d8",
-   "pri": 45,
-   "kind": "note",
-   "title": "CorrectCast: Selective Multimodal Context for Scale-Aware Residual Correction in Precipitation Nowcasting",
-   "ctx": "Precipitation nowcasting models suffer from errors in intensity, location, and spatial structure. Addressing these errors by retraining nowcaster backbones can be computationally expensive and requires architecture-specific modifications. To overcome these limitations, we propose CorrectCast, a decoupled residual correction framework that refines completed nowcasts while keeping the base nowcaster frozen. By operating on predicted precipitation fields, CorrectCast requires training only a lightw",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.22178v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-18T03:00:26.775Z",
-   "tier": "B",
-   "itemTs": "2026-11-17T04:14:48.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
