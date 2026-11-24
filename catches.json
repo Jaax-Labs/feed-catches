@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-24T17:00:39.146Z",
+ "generatedAt": "2026-11-24T17:30:42.324Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-03cp86k",
+   "pri": 33,
+   "kind": "note",
+   "title": "Elevated errors for Claude Haiku 5.5",
+   "ctx": "Nov 24 , 17:27 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Nov 24 , 17:19 UTC Investigating - We are investigating elevated errors on requests to Claude Haiku 5.5. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/fbvlx4wx4zx5",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-24T17:30:26.841Z",
+   "tier": "A",
+   "itemTs": "2026-11-24T17:27:14.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-arxiv-cs.AI-03jhnhw",
    "pri": 45,
@@ -2383,29 +2408,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0gvtvu4",
-   "pri": 45,
-   "kind": "note",
-   "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
-   "ctx": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation evaluation. Existing evaluators rely on holistic MLLM judgments or vision-language metrics, yet aligning their scores with human judgments and tracing them to specific temporal violations remain open challenges. FVSCORE addresses these limitations by compiling each video into explicit propositions capturing prompt requirements and implicit propositions capturing unstated physical",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.22673v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-18T04:30:26.504Z",
-   "tier": "B",
-   "itemTs": "2026-11-17T12:25:33.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2430,11 +2432,11 @@
  },
  "editorial": {
   "clocks": {
-   "slow": 95,
-   "daily": 5
+   "daily": 6,
+   "slow": 94
   },
-  "routed": 34,
-  "unrouted": 66,
+  "routed": 35,
+  "unrouted": 65,
   "unmappedLaneFamilies": []
  }
 }
