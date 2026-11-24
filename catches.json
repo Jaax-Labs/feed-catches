@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-11-24T00:00:44.371Z",
+ "generatedAt": "2026-11-24T00:30:32.781Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-anthropic-status-1kqf25e",
+   "pri": 33,
+   "kind": "note",
+   "title": "Claude for Microsoft 365 add-in missing for some users",
+   "ctx": "Nov 24 , 00:10 UTC Investigating - We are investigating an issue causing the Claude add-in to disappear from Excel, Word, and PowerPoint for users signed in to Microsoft Office with a personal Microsoft account. Work and school accounts do not appear affected and core Claude functionality is unaffected. We will provide an update as soon as possible.",
+   "acts": [
+    {
+     "label": "Open",
+     "href": "https://status.claude.com/incidents/3vbyqgnswwxq",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "anthropic-status",
+   "detectedAt": "2026-11-24T00:30:26.574Z",
+   "tier": "A",
+   "itemTs": "2026-11-24T00:10:40.000Z",
+   "sub": "anthropic-status",
+   "clock": "daily",
+   "questions": [
+    "model-switch"
+   ]
+  },
   {
    "id": "f-anthropic-status-09yjtbz",
    "pri": 33,
@@ -2386,29 +2411,6 @@
    "questions": [
     "agent-craft"
    ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0ymtl5g",
-   "pri": 45,
-   "kind": "note",
-   "title": "CapCover Filter: Semantic Approximate Membership Queries over Embeddings",
-   "ctx": "Determining whether an embedding is sufficiently similar to any vector in a vector store without performing a nearest-neighbor search can substantially improve query throughput in vector-store systems. We study Semantic Approximate Membership Queries (SAMQs), which allow queries to be rejected when no indexed vector meets the requested similarity threshold, while guaranteeing no false negatives. We introduce CapCover Filter, a geometric data structure that summarizes a set of embeddings using sp",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.20132v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-17T05:00:26.528Z",
-   "tier": "B",
-   "itemTs": "2026-11-15T17:01:10.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
   }
  ],
  "clicks": {
@@ -2433,11 +2435,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 6,
-   "slow": 94
+   "daily": 7,
+   "slow": 93
   },
-  "routed": 40,
-  "unrouted": 60,
+  "routed": 41,
+  "unrouted": 59,
   "unmappedLaneFamilies": []
  }
 }
