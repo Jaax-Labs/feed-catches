@@ -1,7 +1,197 @@
 {
- "generatedAt": "2026-11-26T03:00:31.149Z",
+ "generatedAt": "2026-11-26T03:30:52.694Z",
  "count": 100,
  "catches": [
+  {
+   "id": "f-arxiv-cs.AI-011qkt8",
+   "pri": 45,
+   "kind": "note",
+   "title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
+   "ctx": "Clients of closed-weight LLM APIs cannot verify whether a provider ran the advertised model, precision, hidden prompt, and reasoning budget. Existing approaches either trust hardware or third parties, or re-prove every layer of an integer surrogate at high cost while diverging from native floating-point serving. FlashProve-Next produces verifiable, zero-knowledge-masked proofs for individual LLM API responses without modifying native serving (bf16/fp8/mxfp4, random sampling, FlashAttention, CUDA",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.33741v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-26T03:30:26.286Z",
+   "tier": "B",
+   "itemTs": "2026-11-25T04:01:37.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0al0lgd",
+   "pri": 45,
+   "kind": "note",
+   "title": "KeyDeck: Multi-Paper-to-Slide Generation via Cross-Paper Synthesis and Reference-Guided Personalization",
+   "ctx": "Multi-paper-to-slide generation (multi-PTSG) is the task of constructing a unified presentation from multiple research papers by selecting, organizing, and synthesizing information across sources. This task introduces two main challenges: (i) combining multiple sources into a coherent narrative requires identifying cross-paper relationships and synthesizing their content, and (ii) the desired organization and emphasis varies substantially across presenters, making personalization essential for u",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.33715v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-26T03:30:26.286Z",
+   "tier": "B",
+   "itemTs": "2026-11-25T03:28:11.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0b8ccj7",
+   "pri": 45,
+   "kind": "note",
+   "title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+   "ctx": "Large language models (LLMs) can write and repair RTL, but successful compilation or testbench execution does not establish defect removal, behavioral preservation, security, or implementation feasibility. Existing LLM-based RTL repair methods often report a single repair rate without retaining separate evidence for these properties, limiting reproducible comparison and integration into hardware design flows. We present REFORGE, which, to our knowledge, is the first LLM-assisted RTL repair frame",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.33748v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-26T03:30:26.286Z",
+   "tier": "B",
+   "itemTs": "2026-11-25T04:08:43.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0cjcl9g",
+   "pri": 45,
+   "kind": "note",
+   "title": "Teaching Students to Stand on Their Own: Distilling Vision Foundation Models for Fine-Grained Few-Shot Class-Incremental Learning",
+   "ctx": "Fine-grained few-shot class-incremental learning (FG-FSCIL) aims to incrementally learn visually similar new classes from limited images without catastrophic forgetting. Prior work typically learns strong representations on base classes or leverages vision foundation models (VFMs) directly as backbones or via knowledge distillation. However, VFM backbones incur high computational costs and do not guarantee fine-grained recognition. Although knowledge distillation reduces inference cost, our prel",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.33749v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-26T03:30:26.286Z",
+   "tier": "B",
+   "itemTs": "2026-11-25T04:10:53.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-0d8m4tu",
+   "pri": 45,
+   "kind": "note",
+   "title": "P-FedSkill: A Personalized Federated Skill Learning Framework under Task Heterogeneity",
+   "ctx": "Skill learning has become an important way to improve agent performance. However, agent trajectories often contain sensitive information and cannot be shared across clients, hindering collaborative skill learning. To tackle this issue, federated skill learning (FSL) has emerged as a solution by distilling trajectories into compact skill representations and uploading them to a central server for sharing. However, existing FSL methods typically share skills based on skill similarity without consid",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.33707v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-26T03:30:26.286Z",
+   "tier": "B",
+   "itemTs": "2026-11-25T03:20:47.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0evq3ec",
+   "pri": 45,
+   "kind": "note",
+   "title": "PowerFix: Physics-Guided Iterative Repair for LLM-Assisted Power Converter Design",
+   "ctx": "Large language model (LLM) agents are increasingly being explored for automated engineering design. However, repairing power-converter designs that fail engineering validation remains challenging: the system must identify physical causes, locate responsible design variables, and resolve violations without compromising other constraints. We introduce PowerFix, a physics-guided iterative repair framework that converts validation failures into structured diagnoses and executable patches while prese",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.33712v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-26T03:30:26.286Z",
+   "tier": "B",
+   "itemTs": "2026-11-25T03:27:22.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
+  {
+   "id": "f-arxiv-cs.AI-0zkxem3",
+   "pri": 45,
+   "kind": "note",
+   "title": "Practice Makes Fluent: Learning to Use Earlier Predictions in Looped Models",
+   "ctx": "People become faster at a task through practice, but models that improve with experience do not necessarily learn to use less computation. We train looped models, whose intermediate predictions allow earlier exits, to perform tasks with fewer iterations through practice. This is difficult because shared-weight updates can degrade the final-loop prediction while improving early ones, and the exit gate must track early predictions as their quality changes. We propose FLUENT, which requires no addi",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.33722v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-26T03:30:26.286Z",
+   "tier": "B",
+   "itemTs": "2026-11-25T03:36:01.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": []
+  },
+  {
+   "id": "f-arxiv-cs.AI-101tuzj",
+   "pri": 45,
+   "kind": "note",
+   "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
+   "ctx": "Recent advances in large language models (LLMs) and LLM based agents have expanded the capabilities of AI glasses, enabling egocentric visual question answering, memory retrieval, and proactive assistance. These applications involve diverse inputs, including speech, images, and video, and range from simple device control to complex visual reasoning, posing challenges for efficient computation and communication. While video centric capabilities have received considerable attention, simple text ba",
+   "acts": [
+    {
+     "label": "Open paper",
+     "href": "https://arxiv.org/abs/2611.33735v1",
+     "primary": true
+    }
+   ],
+   "source": "feed",
+   "lane": "brief",
+   "detector": "arxiv-cs.AI",
+   "detectedAt": "2026-11-26T03:30:26.286Z",
+   "tier": "B",
+   "itemTs": "2026-11-25T03:54:21.000Z",
+   "sub": "arXiv cs.AI",
+   "clock": "slow",
+   "questions": [
+    "agent-craft"
+   ]
+  },
   {
    "id": "f-anthropic-status-124j7y2",
    "pri": 33,
@@ -1311,29 +1501,6 @@
    "questions": []
   },
   {
-   "id": "f-arxiv-cs.AI-1712cpn",
-   "pri": 45,
-   "kind": "note",
-   "title": "Fast World Planner: Advantage-Aware Action-Chunk Policy for Online Planning",
-   "ctx": "Model Predictive Path Integral (MPPI) control is central to online planning for model-based reinforcement learning (MBRL), but its iterative refinement incurs planning latency. Reducing refinement iterations often degrades performance, motivating stronger policy guidance learned from the planner. However, existing methods typically learn from the planner through action-level alignment, which does not directly capture the complete $H$-step planner proposal. Moreover, planner imitation leaves furt",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.28616v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-24T03:00:26.634Z",
-   "tier": "B",
-   "itemTs": "2026-11-21T07:04:22.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
    "id": "f-anthropic-status-1kqf25e",
    "pri": 33,
    "kind": "note",
@@ -2241,184 +2408,6 @@
    "sub": "arXiv cs.AI",
    "clock": "slow",
    "questions": []
-  },
-  {
-   "id": "f-anthropic-status-09zo8dg",
-   "pri": 33,
-   "kind": "note",
-   "title": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
-   "ctx": "Nov 19 , 09:22 UTC Monitoring - A fix has been deployed for other Claude models and we are monitoring for recovery. Nov 19 , 09:10 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.2 and Claude Fable 5.2. We will provide an update as soon as possible.",
-   "acts": [
-    {
-     "label": "Open",
-     "href": "https://status.claude.com/incidents/c1kmrkmv5f3d",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "anthropic-status",
-   "detectedAt": "2026-11-19T09:30:27.469Z",
-   "tier": "A",
-   "itemTs": "2026-11-19T09:22:50.000Z",
-   "sub": "anthropic-status",
-   "clock": "daily",
-   "questions": [
-    "model-switch"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-01ojhl7",
-   "pri": 45,
-   "kind": "note",
-   "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
-   "ctx": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule definitions, dependencies, and world states across saving and loading, so that res",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.24869v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-19T05:00:26.964Z",
-   "tier": "B",
-   "itemTs": "2026-11-18T18:20:39.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0l390eg",
-   "pri": 45,
-   "kind": "note",
-   "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
-   "ctx": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory of reviewer value to make it precise. The theory makes five claims: value is governed by calibration rather than by activity, speed, agreement, or tenure; calibration leaves obser",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.24932v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-19T05:00:26.964Z",
-   "tier": "B",
-   "itemTs": "2026-11-18T18:55:07.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-0nygvny",
-   "pri": 45,
-   "kind": "note",
-   "title": "Who are you? The Personal Imitation Game",
-   "ctx": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the identity signals interrogators rely on: stylometric features, personality traits, and biographical facts. To demonstrate the framework, we design an LLM-based syste",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.24888v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-19T05:00:26.964Z",
-   "tier": "B",
-   "itemTs": "2026-11-18T18:32:14.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": []
-  },
-  {
-   "id": "f-arxiv-cs.AI-10qcd0t",
-   "pri": 45,
-   "kind": "note",
-   "title": "Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents",
-   "ctx": "Visual agents that read dense documents must ration a finite observation budget across candidate regions, yet answer accuracy conflates where an agent looks, how it adapts to the reads that remain, and how it an?swers once observation stops. We introduce budget-paired counterfactual audits, an evaluation protocol that holds public evidence and region bindings fixed while perturbing only the remaining budget or de?clared task parameters, and credits every acquired history with exact continuation ",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.24867v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-19T05:00:26.964Z",
-   "tier": "B",
-   "itemTs": "2026-11-18T18:20:12.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-13xcs9j",
-   "pri": 18,
-   "kind": "note",
-   "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
-   "ctx": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select changes. This process often produces narrow patches and leads to benchmark-specific local optima. We introduce Agentic Harness Engineering Beta (AHE-Beta), a requirement-centered lo",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.24924v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-19T05:00:26.964Z",
-   "tier": "B",
-   "itemTs": "2026-11-18T18:52:13.000Z",
-   "sub": "arXiv cs.AI · introduces \"Agentic Harness Engineering\"",
-   "extract": {
-    "ok": true,
-    "chars": 4898,
-    "lead": "Computer Science > Software Engineering arXiv:2611.24924v1 (cs) [Submitted on 18 Nov 2026] Title: Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses Authors: Jiahang Lin , Jiahao Chen , Yiding Wang , Shichun Liu , Chengjun Pan , Shihan Dou , Honglin Guo , Yuyang Hu , Changhao Jiang , Zhenhua Han , Hang Yan , Qi Zhang , Tao Gui , Xuanjing Huang View a PDF of the paper titled Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses, by Jiahang Lin and 13 other authors View PDF HTML (experimental) Abstract: Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select changes. This process often produces narrow patches and leads to benchmark-specific local optima. We introduce Agentic Harness Engineering Beta (AHE-Beta), a requirement-centered loop that brings real-world engineering practices into harness evolution. The loop consists of three steps: (1) User-driven evaluati",
-    "truncated": false,
-    "title": "[2611.24924v1] Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
-    "fetchedAt": "2026-11-19T05:00:26.964Z",
-    "full": "full/f-arxiv-cs.AI-13xcs9j.txt"
-   },
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
-  },
-  {
-   "id": "f-arxiv-cs.AI-0kjjxhr",
-   "pri": 45,
-   "kind": "note",
-   "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
-   "ctx": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high attack success rates (ASR). Model developers use the attacks discovered during internal red-teaming to harden agents through adversarial training bef",
-   "acts": [
-    {
-     "label": "Open paper",
-     "href": "https://arxiv.org/abs/2611.24362v1",
-     "primary": true
-    }
-   ],
-   "source": "feed",
-   "lane": "brief",
-   "detector": "arxiv-cs.AI",
-   "detectedAt": "2026-11-19T04:00:27.051Z",
-   "tier": "B",
-   "itemTs": "2026-11-18T12:56:06.000Z",
-   "sub": "arXiv cs.AI",
-   "clock": "slow",
-   "questions": [
-    "agent-craft"
-   ]
   }
  ],
  "clicks": {
@@ -2445,11 +2434,11 @@
  },
  "editorial": {
   "clocks": {
-   "daily": 6,
-   "slow": 94
+   "slow": 95,
+   "daily": 5
   },
-  "routed": 35,
-  "unrouted": 65,
+  "routed": 34,
+  "unrouted": 66,
   "unmappedLaneFamilies": []
  }
 }
